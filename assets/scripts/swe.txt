@@ -1,0 +1,1070 @@
+<<
+	
+	begin_lower_char = a
+	end_lower_char = z
+	begin_upper_char = A
+	end_upper_char = Z
+	start = Spela
+	freemode = Test
+	options = Inställningar
+	trophyroom = Troféer
+	change_player = Byt spelare
+	credits = Medverkande
+	help = Hjälp
+	exit = Avsluta
+	back = Tillbaka
+	loading = Laddar
+
+	musics = Musik
+	fullscreen = Helskärmsläge
+	windowed = Fönsterläge
+	vsync = Vertikal synk
+	
+	new_profile = Ny spelare
+	delete_profile = Radera spelare
+
+	music_on = MUSIK PÅ
+	music_off = MUSIK AV
+	sound_on = EFFEKTER PÅ
+	sound_off = EFFEKTER AV
+	cursor_on = Spelmuspekare på
+	cursor_off = Spelmuspekare av
+	
+	set_volume = Volym
+	sound_volume = EFFEKTVOLYM
+	music_volume = MUSIKVOLYM
+
+	languages = Välj språk
+	lang_rus = Русский
+	lang_eng = English
+	lang_fra = Français
+	lang_ita = Italiano
+	lang_por = Inglês
+	lang_dut = Nederlands
+	lang_swe = Svenska
+	lang_deu = Deutsch
+	lang_esp = Español
+	lang_jap = Japanese
+	lang_kor = Korean
+	lang_chn = Chinese
+
+	change_player_label = (Byt spelare)
+	ok = OK
+	cancel = AVBRYT
+	yes = JA
+	no = NEJ
+	game_saved = Spel sparat!
+	game_loaded = Färdigladdat.
+	question_save_game = Spara spelomgången?
+	question_load_game = Ladda ett tidigare sparat spel?
+	question_exit_game = Är du säker på att du vill sluta?
+	question_replay_game = Är du säker på att du vill spela om nivån?
+	question_end_game = Är du säker på att du vill gå till huvudmenyn?
+	question_saveandexit_game = Spara spelomgången innan du slutar?
+	cheatmodeon = Fuskläge aktiverat!
+	cheatmodeoff = Fuskläge inaktiverat!
+	tasks = Uppdrag
+	mainmenu = Meny
+	continue = Fortsätt
+	restart = Spela om
+	exitgame = Avsluta
+	profit_hint = Du har tjänat % mynt.
+	current_task = Aktuellt uppdrag
+	click_to_continue = FORTSÄTT
+	patent_buy_confirm = Är du säker på att du vill beställa detta?
+	notify_you_cant_place = Du kan inte sätta det där!
+	notify_you_cant_gowhere = Du kan inte gå dit!
+	
+	wombat = Wombat
+	
+	control_help_1 = Vänster musknapp styr karaktärerna, och den högra musknappen ångrar kommandon. Piltangenterna flyttar runt skärmen.
+	control_help_2 = Ett enkelklick ger basfunktioner, medan ett dubbelklick gräver och vänder jorden eller släpper ett föremål.
+	
+	text_enter_name = Skriv in ditt namn
+	welcome_message = Välkommen,
+
+	dig_squares = Vänd jorden
+	water_plants = Vattna plantorna
+
+	level1_name = Träning
+	level2_name = Din första bondgård
+	level3_name = Ett riktigt grisjobb
+	level4_name = Pengar växer på träd
+	level5_name = Växtkraft
+	level6_name = Flitig som ett bi
+	level7_name = Bondemarknaden
+	level8_name = Leverantörer
+	level9_name = Pengar, pengar, pengar
+	level10_name = Torka
+	level11_name = Din drömgård
+	level12_name = Till marknaden
+	
+	trophy_announce_header = Du vann en trofé!
+	
+	trophy_hint0 = Du fick ett gökur för din utmärkta insats på träningsnivån.
+	trophy_hint1 = Bondens spargris är din belöning för att du insett att sparande är ett sätt att bli rik.
+	trophy_hint2 = Du fick Tid för Grisar-statyn för att du klarade ett svinigt jobb och räddade grisarna.
+	trophy_hint3 = Den här palmen är en gåva från byborna för att du räddade deras hem från fabrikens jättefläkt.
+	trophy_hint4 = Du fick en guldmedalj i blomodling för ditt fantastiska jobb i blombranschen.
+	trophy_hint5 = Du fick Belöningen för Bra Arbetsbin, för att du återupprättade gammaldags biodlartraditioner.
+	trophy_hint6 = Stora priset från bondemarknaden.
+	trophy_hint7 = Du fick en Bondefrihetsgudinna för att du behöll ditt oberoende när du hotades med våld. Liberté, l'agriculture, fraternité.
+	trophy_hint8 = Bankkvittot blev din bästa trofé hittills, bönderna köpte nämligen lite glass till dig!
+	trophy_hint9 = Du fick Vattenhinken av Silver för att du hjälpte bondgården överleva torkan.
+	trophy_hint10 = Du fick Gyllene Majskolven för att du etablerade framtidens bondgård!
+	trophy_hint11 = Ett "bästa grönsaksleverantören"-diplom, i ditt namn. Du vann!
+	trophy_hint12 = Bästa Bonde i Lantbrukets Historia-trofé.
+	
+	level_not_finished = Du klarade inte denna nivå.
+    level_completed = Nivån avklarad
+    level_completed_with_trophy = Jobb värt en belöning!
+    level_time = Tid
+    level_money = Pengar
+    best_time = Rekordtid:
+    best_money = Rekordvinst:
+
+	inventory_form = REDSKAP
+	buildings_form = BYGGNADER
+	seeds_form = FRÖN
+	sprouts_form = PLANTOR
+	trees_form = TRÄD
+	workers_form = ARBETARE
+
+	aubergine = Äggplantor
+	beetroot = Betor
+	cabbage = Kål
+	carrot = Morötter
+	corn = Majs
+	cucumber = Gurkor
+	dahlia = Dahlior
+	mushroom = Svampar
+	pepper = Paprikor
+	pumpkin = Pumpor
+	radish = Rädisor
+	strawberries = Jordgubbar
+	sunflower = Solrosor
+	tomato = Tomater
+	tulip = Tulpaner
+	watermelon = Vattenmeloner
+	
+	task_separator = att
+	task_sow = plantera
+	task_sell = sälja
+	task_fertilize = gödsla
+	task_buy = köpa
+	
+	water_sprinkler = Vattenspridare
+	time = Tid
+	
+	tree_desert_apple = Äppelträd
+	tree_desert_cherry = Körsbärsträd
+	tree_desert_palm = Bananpalmer
+	tree_desert_plum = Plommonträd
+	tree_grass_apple = Äppelträd
+	tree_grass_cherry = Körsbärsträd
+	tree_grass_palm = Bananpalmer
+	tree_grass_plum = Plommonträd
+	tree_swamp_apple = Äppelträd
+	tree_swamp_cherry = Körsbärsträd
+	tree_swamp_palm = Bananpalmer
+	tree_swamp_plum = Plommonträd
+	
+	house_chicken_product = Ägg
+	house_cow_product = Mjölk
+	house_pig_product = Grisa
+	house_sheep_product = Ull
+	beehive_product = Honung
+	
+	tree_desert_apple_product = Äpplen
+	tree_desert_cherry_product = Körsbär
+	tree_desert_palm_product = Bananer
+	tree_desert_plum_product = Plommon
+	tree_grass_apple_product = Äpplen
+	tree_grass_cherry_product = Körsbär
+	tree_grass_palm_product = Bananer
+	tree_grass_plum_product = Plommon
+	tree_swamp_apple_product = Äpplen
+	tree_swamp_cherry_product = Körsbär
+	tree_swamp_palm_product = Bananer
+	tree_swamp_plum_product = Plommon
+	
+	house_chicken = Hönshus
+	house_cow = Kolador
+	house_pig = Svinstiar
+	house_sheep = Fårhus
+	hangar_refrigerator = Kyllager
+	hangar_flowers = Växthus
+	beehive = Bikupor
+	
+	helper = Trädgårdsmästare
+	harvester = Frukt- och grönsaksplockare
+	
+	patent_for_tulip = Tulpanlökbeställningar
+	patent_for_dahlia = Dahlialökbeställningar
+	patent_for_sunflower = Solrosfröbeställningar
+	patent_for_cucumber = Gurkplantabeställningar
+	patent_for_tomato = Tomatplantabeställningar
+	patent_for_aubergine = Äggplantabeställningar
+	patent_for_pepper = Paprikaplantabeställningar
+	patent_for_watermelon = Vattenmelonfröbeställningar
+	patent_for_hangar_flowers = Bygglov för växthus
+	patent_for_beehive = Biodlarlicenser
+	patent_for_cabbage = Kålfröbeställningar
+	patent_for_beetroot = Betfröbeställningar
+	patent_for_house_pig = Bygglov för svinstia
+	patent_for_carrot = Morotsfröbeställningar
+	patent_for_corn = Majsfröbeställningar
+	patent_for_hangar_vegetables = Bygglov för lada
+	patent_for_mushroom = Svampsporbeställningar
+	patent_for_pumpkin = Pumpafröbeställningar
+	patent_for_strawberries = Jordubbsplantabeställningar
+	patent_for_hangar_refrigerator = Bygglov för kyllager
+	patent_for_house_sheep = Fåruppfödarlicenser
+	patent_for_house_chicken = Kycklinguppfödarlicenser
+	patent_for_house_cow = Mjölkbondelicenser
+	patent_for_radish = Rädisfröbeställningar
+	
+	plant_aubergine = Äggplantor
+	plant_beetroot = Betor
+	plant_cabbage = Kålhuvuden
+	plant_carrot = Morötter
+	plant_corn = Majs
+	plant_cucumber = Gurkor
+	plant_dahlia = Dahlior
+	plant_mushroom = Svampar
+	plant_pepper = Paprikor
+	plant_pumpkin = Pumpor
+	plant_radish = Rädisor
+	plant_strawberries = Jordgubbar
+	plant_sunflower = Solrosor
+	plant_tomato = Tomater
+	plant_tulip = Tulpaner
+	plant_watermelon = Vattenmeloner
+	
+	money = Pengar
+
+	cost_goods = Du kan sälja en låda av denna produkt för %i mynt.
+	cost_work = En medhjälpares lön är %i mynt.
+
+	box_shop_hint = En låda att packa din skörd i.
+	fivebox_shop_hint = Ett paket med fem lådor
+	tenbox_shop_hint = Ett paket med tio lådor
+
+	spade_shop_hint = En trädgårdsspade av hög kvalité
+	watercan_shop_hint = En liten vattenkanna
+	big_watercan_shop_hint = En stor vattenkanna
+
+	destructor_shop_hint = Det här verktyget dödar ogräs eller vänder en existerande grönsaksplätt.
+	transporter_shop_hint = Denna kran kan användas för att flytta byggnader på din gård.
+	
+	hangar_vegetables_shop_hint = Lador används för att lagra hållbara frukter och grönsaker.
+	hangar_flowers_shop_hint = Växthus används för att lagra blommor.
+	hangar_refrigerator_shop_hint = Kyllager används för att lagra färskvaror.
+
+	beehive_shop_hint = Bikupor används för biodling så du kan sälja läcker honung.
+	house_sheep_shop_hint = Fårhus används för att föda upp får så du kan sälja ull.
+	house_pig_shop_hint = Svinstior används för att föda upp griskultingar.
+	house_cow_shop_hint = Kolador används för att föda upp mjölkkor så du kan sälja mjölk.
+	house_chicken_shop_hint = Hönshus används för att föda upp höns så du kan sälja ägg.
+	
+	
+	waterpump_shop_hint = Om du har långt att gå till vattnet kanske du vill borra upp en ny brunn.
+	water_sprinkler_shop_hint = Vattenspridare är oumbärliga på varje stor bondgård.
+	fertilizer_shop_hint = En liten påse gödsel
+	big_fertilizer_shop_hint = En stor påse gödsel
+	
+	tree_desert_palm_shop_hint = Bananer växer inte så snabbt, men du får mycket pengar när du säljer dem.
+	tree_desert_apple_shop_hint = Äppelträd är inte dyra, men äpplen växer fort.
+	tree_desert_cherry_shop_hint = Körsbärsträd kan verka löjliga, men frukten är rätt så lönsam.
+	tree_desert_plum_shop_hint = Plommonträd har frukt som mognar snabbt och säljer bra.
+	
+	tree_swamp_palm_shop_hint = Bananer växer inte så snabbt, men du får mycket pengar när du säljer dem.
+	tree_swamp_apple_shop_hint = Äppelträd är inte dyra, men äpplen växer fort.
+	tree_swamp_cherry_shop_hint = Körsbärsträd kan verka löjliga, men frukten är rätt så lönsam.
+	tree_swamp_plum_shop_hint = Plommonträd har frukt som mognar snabbt och säljer bra.
+
+	tree_grass_palm_shop_hint = Bananer växer inte så snabbt, men du får mycket pengar när du säljer dem.
+	tree_grass_apple_shop_hint = Äppelträd är inte dyra, men äpplen växer fort.
+	tree_grass_cherry_shop_hint = Körsbärsträd kan verka löjliga, men frukten är rätt så lönsam.
+	tree_grass_plum_shop_hint = Plommonträd har frukt som mognar snabbt och säljer bra.
+	
+	harvester_shop_hint = Frukt- och grönsaksplockare är anställda som plockar frukter och grönsaker från dina plantor.
+	helper_shop_hint = Trädgårdsmästare är anställda som håller dina plantor gödslade.
+	
+	aubergine_shop_hint = En påse äggplantor.
+	beetroot_shop_hint = En påse betfrön.
+	cabbage_shop_hint = En påse kålfrön.
+	carrot_shop_hint = En påse morotsfrön.
+	corn_shop_hint = En påse majsfrön.
+	cucumber_shop_hint = En påse gurkplantor.
+	dahlia_shop_hint = En påse dahlialökar.
+	mushroom_shop_hint = En påse svampsporer.
+	pepper_shop_hint = En påse paprikaplantor.
+	pumpkin_shop_hint = En påse pumpafrön.
+	radish_shop_hint = En påse rädisfrön.
+	strawberries_shop_hint = En påse jordgubbsplantor.
+	sunflower_shop_hint = En påse solrosfrön.
+	tomato_shop_hint = En påse tomatplantor.
+	tulip_shop_hint = En påse tulpanlökar.
+	watermelon_shop_hint = En påse vattenmelonfrön.
+	
+	patent_for_tulip_shop_hint = Beställ tulpanlökar. När leveransen kommer kan du köpa tulpanlökar från butiken.
+	patent_for_dahlia_shop_hint = Beställ dahlialökar. När leveransen kommer kan du köpa dahlialökar från butiken.
+	patent_for_sunflower_shop_hint = Beställ solrosfrön. När leveransen kommer kan du köpa solrosfrön från butiken.
+	patent_for_cucumber_shop_hint = Beställ gurkplantor. När leveransen kommer kan du köpa gurkplantor från butiken.
+	patent_for_tomato_shop_hint = Beställ tomatplantor. När leveransen kommer kan du köpa tomatplantor från butiken.
+	patent_for_aubergine_shop_hint = Beställ äggplantor. När leveransen kommer kan du köpa äggplantor från butiken.
+	patent_for_pepper_shop_hint = Beställ paprikaplantor. När leveransen kommer kan du köpa paprikaplantor från butiken.
+	patent_for_watermelon_shop_hint = Beställ vattenmelonfrön. När leveransen kommer kan du köpa vattenmelonfrön från butiken.
+	patent_for_hangar_flowers_shop_hint = Köp en blomodlarlicens och ett bygglov för ett växthus. Med en blomodlarlicens kan du odla och sälja blommor.
+	patent_for_beehive_shop_hint = Köp en biodlarlicens. Med denna licens kan du göra och sälja honung.
+	patent_for_beetroot_shop_hint = Beställ betfrön. När leveransen kommer kan du köpa betfrön från butiken.
+	patent_for_cabbage_shop_hint = Beställ kålfrön. När leveransen kommer kan du köpa kålfrön från butiken.
+	patent_for_carrot_shop_hint = Beställ morotsfrön. När leveransen kommer kan du köpa morotsfrön från butiken.
+	patent_for_corn_shop_hint = Beställ majsfrön. När leveransen kommer kan du köpa majsfrön från butiken.
+	patent_for_hangar_refrigerator_shop_hint = Köp ett bygglov för ett kyllager och en licens för att använda det.
+	patent_for_hangar_vegetables_shop_hint = Köp ett bygglov för en lada. Med detta bygglov kan du bygga andra lador på mer praktiska platser på gården.
+	patent_for_house_chicken_shop_hint = Köp en hönsuppfödarlicens. Med denna licens kan du föda upp höns och sälja ägg.
+	patent_for_house_cow_shop_hint = Köp en mjölkbondelicens. Med denna licens kan du föda upp kor och sälja mjölk.
+	patent_for_house_pig_shop_hint = Köp en grisuppfödarlicens. Med denna licens kan du föda upp och sälja grisar.
+	patent_for_house_sheep_shop_hint = Köp en fåruppfödarlicens. Med denna licens kan du föda upp får och sälja deras ull.
+	patent_for_mushroom_shop_hint = Beställ svampsporer. När leveransen kommer kan du köpa svampsporer från butiken.
+	patent_for_pumpkin_shop_hint = Beställ pumpafrön. När leveransen kommer kan du köpa pumpafrön från butiken.
+	patent_for_radish_shop_hint = Beställ rädisfrön. När leveransen kommer kan du köpa rädisfrön från butiken.
+	patent_for_strawberries_shop_hint = Beställ jordgubbsplantor. När leveransen kommer kan du köpa jordgubbsplantor från butiken.
+	
+	notify_add_shop_harvester = Du kan nu anställa en frukt- och grönsaksplockare som hjälper dig med skörden.
+	notify_add_shop_helper = Du kan nu anställa en trädgårdsmästare som hjälper dig vattna och gödsla dina grödor.
+	notify_add_shop_box = Lådor finns nu i butiken.
+	notify_add_shop_fivebox = Paket med fem lådor finns i butiken.
+	notify_add_shop_tenbox = Paket med 10 lådor finns i butiken.
+	notify_add_shop_aubergine = Äggplantor finns nu i butiken.
+	notify_add_shop_beetroot = Betfrön finns nu i butiken.
+	notify_add_shop_cabbage = Kålfrön finns nu i butiken.
+	notify_add_shop_carrot = Morotsfrön finns nu i butiken.
+	notify_add_shop_corn = Majsfrön finns nu i butiken.
+	notify_add_shop_cucumber = Gurkplantor finns nu i butiken.
+	notify_add_shop_dahlia = Dahlialökar finns nu i butiken.
+	notify_add_shop_mushroom = Svampsporer finns nu i butiken.
+	notify_add_shop_pepper = Paprikaplantor finns nu i butiken.
+	notify_add_shop_pumpkin = Pumpafrön finns nu i butiken.
+	notify_add_shop_radish = Rädisfrön finns nu i butiken.
+	notify_add_shop_strawberries = Jordgubbsplantor finns nu i butiken.
+	notify_add_shop_sunflower = Solrosfrön finns nu i butiken.
+	notify_add_shop_tomato = Tomatplantor finns nu i butiken.
+	notify_add_shop_tulip = Tulpanlökar finns nu i butiken.
+	notify_add_shop_watermelon = Vattenmelonfrön finns nu i butiken.
+	notify_add_shop_watercan = Vattenkannor finns nu i butiken.
+	notify_add_shop_big_watercan = Stora vattenkannor finns nu i butiken.
+	notify_add_shop_transporter = Du kan nu hyra en kran från butiken.
+
+	notify_add_shop_beehive = Bikupor finns nu i butiken.
+	notify_add_shop_house_sheep = Får finns nu i butiken.
+	notify_add_shop_house_pig = Grisar finns nu i butiken.
+	notify_add_shop_house_cow = Kor finns nu i butiken.
+	notify_add_shop_house_chicken = Höns finns nu i butiken.
+
+	notify_add_shop_waterpump = Brunnar med vattenpumpar finns nu i butiken.
+	notify_add_shop_water_sprinkler = Vattenspridare finns nu i butiken.
+	notify_add_shop_fertilizer = Gödsel finns nu i butiken.
+	notify_add_shop_big_fertilizer = Stora paket gödsel finns nu i butiken.
+
+	notify_add_shop_tree_grass_palm = Bananpalmer finns nu i butiken.
+	notify_add_shop_tree_grass_apple = Äppelträd finns nu i butiken.
+	notify_add_shop_tree_grass_cherry = Körsbärsträd finns nu i butiken.
+	notify_add_shop_tree_grass_plum = Plommonträd finns nu i butiken.
+	notify_add_shop_tree_desert_palm = Bananpalmer finns nu i butiken.
+	notify_add_shop_tree_desert_apple = Äppelträd finns nu i butiken.
+	notify_add_shop_tree_desert_cherry = Körsbärsträd finns nu i butiken.
+	notify_add_shop_tree_desert_plum = Plommonträd finns nu i butiken.
+	notify_add_shop_tree_swamp_palm = Bananpalmer finns nu i butiken.
+	notify_add_shop_tree_swamp_apple = Äppelträd finns nu i butiken.
+	notify_add_shop_tree_swamp_cherry = Körsbärsträd finns nu i butiken.
+	notify_add_shop_tree_swamp_plum = Plommonträd finns nu i butiken.
+
+	notify_add_shop_patent_for_tulip = Nu kan du lägga en butiksbeställning för att få tulpanlökar.
+	notify_add_shop_patent_for_dahlia = Nu kan du lägga en butiksbeställning för att få dahlialökar.
+	notify_add_shop_patent_for_sunflower = Nu kan du lägga en butiksbeställning för att få solrosfrön.
+	notify_add_shop_patent_for_cucumber = Nu kan du lägga en butiksbeställning för att få gurkplantor.
+	notify_add_shop_patent_for_tomato = Nu kan du lägga en butiksbeställning för att få tomatplantor.
+	notify_add_shop_patent_for_aubergine = Nu kan du lägga en butiksbeställning för att få äggplantor.
+	notify_add_shop_patent_for_pepper = Nu kan du lägga en butiksbeställning för att få paprikaplantor.
+	notify_add_shop_patent_for_watermelon = Nu kan du lägga en butiksbeställning för att få vattenmelonfrön.
+	notify_add_shop_patent_for_hangar_flowers = Nu kan du ansöka om ett bygglov och beställa material för att bygga ett växthus.
+	notify_add_shop_patent_for_beehive = Nu kan du lägga en butiksbeställning för att få en bikupa.
+	notify_add_shop_patent_for_cabbage = Nu kan du lägga en butiksbeställning för att få kålfrön.
+	notify_add_shop_patent_for_beetroot = Nu kan du lägga en butiksbeställning för att få betfrön.
+	notify_add_shop_patent_for_carrot = Nu kan du lägga en butiksbeställning för att få morotsfrön.
+	notify_add_shop_patent_for_house_pig = Nu kan du lägga en butiksbeställning för att få en svinstia.
+	notify_add_shop_patent_for_corn = Nu kan du lägga en butiksbeställning för att få majsfrön.
+	notify_add_shop_patent_for_mushroom = Nu kan du lägga en butiksbeställning för att få svampsporer.
+	notify_add_shop_patent_for_strawberries = Nu kan du lägga en butiksbeställning för att få jordgubbsplantor.
+	notify_add_shop_patent_for_pumpkin = Nu kan du lägga en butiksbeställning för att få pumpafrön.
+	notify_add_shop_patent_for_radish = Nu kan du lägga en butiksbeställning för att få rädisfrön.
+	
+	notify_add_shop_hangar_vegetables = Lador finns nu i butiken.
+	notify_add_shop_hangar_flowers = Växthus finns nu i butiken.
+	notify_add_shop_hangar_refrigerator = Kyllager finns nu i butiken.
+	notify_add_shop_patent_for_house_chicken = Nu kan du ansöka om ett bygglov och beställa material för att bygga ett hönshus.
+	notify_add_shop_patent_for_house_cow = Nu kan du ansöka om ett bygglov och beställa material för att bygga en kolada.
+	notify_add_shop_patent_for_house_pig = Nu kan du ansöka om ett bygglov och beställa material för att bygga en svinstia.
+ 	notify_add_shop_patent_for_house_sheep = Nu kan du ansöka om ett bygglov och beställa material för att bygga ett fårhus.
+	notify_add_shop_patent_for_house_beehive = Nu kan du ansöka om ett bygglov och beställa material för att bygga en bikupa.
+	notify_add_shop_patent_for_hangar_flowers = Nu kan du ansöka om ett bygglov och beställa material för att bygga ett växthus.
+	notify_add_shop_patent_for_hangar_vegetables = Nu kan du ansöka om ett bygglov och beställa material för att bygga en lada.
+	notify_add_shop_patent_for_hangar_refrigerator = Nu kan du ansöka om ett bygglov och beställa material för att bygga ett kyllager.
+	
+	notify_no_more_money = Du har för lite pengar för att köpa det!
+	notify_you_cant_put = Du kan inte sätta det där!
+	notify_you_cant_storebox = Det här måste lagras någon annanstans!
+	notify_store_in_hangar = Du kan inte lagra det här! Ta det till ladan.
+	notify_store_in_fridge = Du kan inte lagra det här! Ta det till kyllagret.
+	notify_store_in_flower = Du kan inte lagra det här! Ta det till växthuset.
+	notify_box_nomore_full = Lådan är inte full än!
+	notify_only_for_this_type = Du fyller den här lådan med %s. Fyll inte på med något annat!
+	notify_box_full = Lådan är full. Ta den till ladan!
+	
+	notify_cant_feed_house_sheep = Får äter bara kål och morötter.
+	notify_cant_feed_house_pig = Grisar äter bara betor och tomater.
+	notify_cant_feed_house_cow = Kor äter bara kål och morötter.
+	notify_cant_feed_house_chicken = Höns äter bara majs.
+	
+	message_complete_sell_plant_tomato = Bra! Du fyllde din tomatbeställning!
+	message_complete_sell_plant_aubergine = Underbart! Du fyllde din äggplantabeställning!
+	message_complete_sell_plant_pepper = Suveränt! Du fyllde din paprikabeställning!
+	message_complete_sell_plant_cucumber = Härligt! Du fyllde din gurkbeställning!
+	message_complete_sell_plant_dahlia = Vackert! Du fyllde din dahliabeställning!
+	message_complete_sell_plant_sunflower = Fabulöst! Du fyllde din solrosbeställning!
+	message_complete_sell_plant_tulip = Gloriöst! Du fyllde din tulpanbeställning!
+	message_complete_sell_beehive = Suveränt! Du fyllde din honungsbeställning!
+	message_complete_sell_plant_mushroom = Underbart! Du fyllde din svampbeställning!
+	message_complete_sell_plant_cabbage = Härligt! Du fyllde din kålbeställning!
+	message_complete_sell_plant_watermelon = Snitsigt! Du fyllde din vattenmelonbeställning!
+	message_complete_sell_plant_beetroot = Vackert! Du fyllde din betbeställning!
+	message_complete_sell_house_pig = Fabulöst! Du fyllde din grisbeställning!
+	message_complete_sell_plant_carrot = Härligt! Du fyllde din morotsbeställning!
+	message_complete_sell_plant_corn = Snyggt! Du fyllde din majsbeställning!
+	message_complete_sell_plant_pumpkin = Underbart! Du fyllde din pumpabeställning!
+	message_complete_sell_plant_strawberries = Suveränt! Du fyllde din jordgubbsbeställning!
+	message_complete_sell_house_sheep = Vackert! Du fyllde din ullbeställning!
+	message_complete_sell_house_chicken = Härligt! Du fyllde din äggbeställning!
+	message_complete_sell_house_cow = Jättefint! Du fyllde din mjölkbeställning!
+	message_complete_sell_plant_for_radish = Vackert! Du fyllde din rädisbeställning!
+	message_complete_sell_tree_apple = Snyggt! Du fyllde din äpplebeställning!
+	message_complete_sell_tree_plum = Underbart! Du fyllde din plommonbeställning!
+	message_complete_sell_tree_cherry = Jättebra! Du fyllde din körsbärsbeställning!
+	message_complete_sell_tree_palm = Fantastiskt! Du fyllde din bananbeställning!
+	
+	l1_message_welcome = Välkommen till gården! Vi ska lära oss hur man odlar och skördar grödor.
+	l1_message_dig_one = Till att börja med måste vi vända jorden. Dubbelklicka på en ledig plats på ängen för att gräva.
+	l1_message_dig_four = Utmärkt! Men en ruta räcker inte för vår trädgård, så gräv upp ytterligare tre.
+	l1_message_dig_twelve = Bra! På de följande nivåerna måste du gräva upp mycket mer land, men det här räcker för vår övningsträdgård.
+	l1_message_plant_four = Nu är det dags att plantera frön. Klicka på pumpafröpaketet för att ta det, och klicka sedan på dina fyra åkerrutor för att plantera fröna.
+	l1_message_wait_harvest = Underbart! Nu måste du vänta medan pumporna växer och mognar. Du kan släppa fröpaketet genom att dubbelklicka på en ledig del av ängen.
+	l1_message_water = Plantor kräver konstant uppmärksamhet och vård. Ta vattenkannan genom att klicka på den, fyll den med vatten genom att klicka på brunnen och vattna sedan din trädgård genom att klicka där du vill ha vatten.
+	l1_message_water_ok = Fortsätt! Vattnade plantor växer fortare, och kan därför skördas snabbare, medan torra plantor vissnar och dör.
+	l1_message_dig_more = För att inte bli uttråkad kan du gräva upp mer land och planetera resten av fröna.
+	l1_message_fruits_ready = Okej, allt är moget och din första skörd är redo. Ta lådan och plocka dina grönsaker. Fyra stycken fyller lådan, som du sedan kan ta till ladan.
+	l1_message_box_tutorial = Utmärkt! Du behöver en ny låda för nästa skörd. För att köpa en från butiken klickar du på redskapsfliken i menyn nedan, klickar på lådan och därefter på en ledig del av ängen.
+	l1_message_second_harvest = Din andra skörd är klar! Ta frukterna av ditt arbete, lägg dem i lådan och ta dem till ladan.
+	l1_message_third_harvest = Din tredje skörd är redo! För att avsluta den här övningen samlar du ihop skörden och tar den till ladan.
+	l1_message_fertilizer_tutorial = Gödsel håller dina plantor friska och får dem att växa fortare, så glöm inte att använda det i din trädgård. Du kan köpa det i butiken via redskapsfliken, där du klickar på ett paket med gödsel.
+	l1_message_thirst_reminder = Glöm inte att trädgården ständigt behöver vatten! Så vattna regelbundet och kolla noga färgen på jorden.
+	l1_message_victory = Gratulerar! Nu kan du lantbrukets grunder. Men det finns mycket mer att lära sig!
+	
+	l1_task_1dig = Använda spaden
+	l1_task_1dig_details = Dubbelklicka på en ledig del av ängen för att gräva upp och vända jorden.
+	l1_task_4dig = Vi fortsätter övningen!
+	l1_task_4dig_details = Gräv upp och vänd fyra rutor av ängen.
+	l1_task_4plant = Plantera fröna
+	l1_task_4plant_details = Ta fröpåsen och plantera fyra pumpafrön.
+	l1_task_4water = Använda vattenkannan
+	l1_task_4water_details = Gå till brunnen, fyll vattenkannan och vattna pumpaplantorna.
+	l1_task_3sell = Avsluta övningen
+	l1_task_3sell_details = Sälj tre lådor pumpor för att avsluta träningsuppdraget.
+	
+	
+	l2_task_sow = Påbörja din trädgård
+	l2_task_sow_details = Plantera 12 rädisfrön.
+	
+	l2_task_first_sell = Din första beställning
+	l2_task_first_sell_details = Vi har fått en beställning på 3 lådor rädisor och 3 lådor pumpor.
+	
+	l2_task_first_patent = Lägg en beställning
+	l2_task_first_patent_details = Beställ några gurkplantor.
+	
+	l2_task_second_sell = Din andra beställning
+	l2_task_second_sell_details = Vi har fått en beställning på 2 lådor gurkor, 4 lådor pumpor och 3 lådor rädisor.
+	
+	l2_task_second_patent = Lägg en beställning
+	l2_task_second_patent_details = Beställ några äggplantor. De är ganska sällsynta häromkring.
+	
+	l2_task_third_sell = Vi har fått ännu en beställning
+	l2_task_third_sell_details = Vi har fått en beställning på en låda äggplantor.
+	
+	l2_message_start = Här är din första bondgård. Ok, vi har kanske inte de allra senaste redskapen och allt är övervuxet av gräs. Men den har en bra, hållbar lada där vi kan lagra skörden och massor av bördig jord. Allt en bra bondgård behöver!
+	l2_message_sow = Den här gården har inte använts på åratal och är övervuxen av gräs. Det är ett stort jobb, men någon måste göra det. Så kavla upp ärmarna och sätt igång. Vi har rädis- och pumpafrön. Att plantera dem först är en bra början.
+	l2_message_first_sell = Medan vi planterade fröna gick den lokala butiksägaren förbi. Han tyckte att våra grönsaker såg bra ut och beställde 3 lådor rädisor och 3 lådor pumpor.
+	l2_message_add_money = Du fyllde din första beställning och tjänade 200 mynt.
+	l2_message_add_money_2 = Du fyllde din andra beställning och tjänade 300 mynt.
+	l2_message_first_patent = Din gård har allt grundläggande och du har klarat ditt första jobb. Men livet stannar inte. Beställ gurkplantor på plantfliken så att du sedan kan odla dessa delikata grönsaker.
+	l2_message_second_sell = Butiksägaren gick förbi igen. Han gillar dina grönsaker och gav oss ett bra erbjudande, att han vill köpa 3 lådor gurkor, 5 lådor pumpor och 6 lådor rädisor.
+	l2_message_second_patent = En frölastbil körde igenom byn med nya och spännande frön. Just nu har han äggplantfrön, som ingen annan i byn odlar. Vore det inte härligt om vi var de första med den här fantastiska grönsaken?
+	l2_message_third_sell = Ojdå, någon annan i byn har också köpt äggplantfrön. Så nu är det en tävling om vem som blir den första bonden som odlar och säljer dem. Det här kommer att visa vem som är bäst i byn.
+	l2_message_victory = Fantastiskt! Alla tycker att du har den bästa gården i byn. Du blev utnämnd till bästa bonde och massor av folk kommer och hälsar på och ber om råd.
+	
+	l2_message_add_waterpump = Det här är kanske inte det viktigaste för gården, men om det tar lång tid att gå fram och tillbaka till brunnen kan du alltid borra upp en andra brunn. (läs mer om det på redskapsfliken)
+	l2_message_add_big_watercan = Din trädgård börjar bli stor. Det är svårt att sköta en stor trädgård med en så liten vattenkanna. Men du kan köpa en större, som låter dig vattna 12 delar av trädgården efter en påfyllning. Klicka på redskapsfliken för att köpa en.
+	l2_message_add_fivebox = Varje gång du behöver en låda går du till affären. Blir du inte trött? Vi har ett nytt specialerbjudande! Ett paket med fem lådor!
+	l2_message_thirsty_need = Det är viktigt att inte glömma bort sina plantor. Annars vissnar de och dör.
+	l2_fertilizer_help = Gödsla ofta, särskilt när hjärtan dyker upp, annars vissnar dina plantor.
+	l2_help_help = Du kan se en sammanfattning av dina uppdrag om du klickar på din uppdragslista överst på skärmen.
+	
+	l3_task_collect_batch_vegatables = Odla grönsaker
+	l3_task_collect_batch_vegatables_details = Odla 4 lådor av vardera svamp, gurka och äggplanta.
+
+	l3_task_pig_alarm = Ett riktigt grisjobb
+	l3_task_pig_alarm_details = Vi har fått en beställning på 7 grisar.
+	
+	l3_message_pig_alarm = Hallå där, granne! Kan du tänka dig, vattenröret till fabriken gick sönder. De har lagat det, men marken är översvämmad och vi blev av med vår betskörd. Nu har vi inget att mata grisarna med, och vem vill köpa de här små magra grisarna? Någon beställde till och med 7 grisar, men nu tror jag inte vi kan leverera! Vi hörde att du är en ung, talangfull och pålitlig bonde. Kan du hjälpa oss?
+	l3_message_task_collect_batch_vegatables = Vi behöver odla tomater för att mata grisarna, men först måste vi tjäna lite pengar. Vi har fått en beställning på 4 lådor vardera av svamp, gurka och äggplanta till den lokala marknaden.
+	l3_message_task_sell_pig = Tomatplantor finns äntligen i butiken (se plantfliken). Vi måste plantera dem, och när de är mogna och klara har vi något att mata våra grisar med.
+	l3_message_complete_sell_plant_mushroom = Härligt! Du fyllde svampbeställningen!
+	l3_message_complete_sell_plant_cucumber = Underbart! Du fyllde gurkbeställningen!
+	l3_message_complete_sell_plant_aubergine = Fantastiskt! Du fyllde äggplantbeställningen!
+	l3_message_victory = Vi klarade det! Och nu är gården finare än någonsin!
+	l3_message_beetroot_help = Betfrön finns nu i butiken (se fröfliken). Grisar äter betor också, och de växer fortare än tomater.
+	l3_message_pig_feed_help = Våra grisar äter och är nöjda. Nu behöver vi bara vänta tills de små kultingarna växer sig stora och feta. Matmätaren går ner när en gris äter och växer. Om grisen har slut på mat växer den inte, så se till att mata dem.
+	l3_message_pig_sow_help = Vår lilla gris har vuxit och är klar att säljas. Använd en låda för att bära in den i ladan.
+	l3_message_destructor_help = Om jord eller redan existerande plantor är i vägen kan du använda tallriksvälten för att vältra jorden.
+	l3_message_transporter_help	= Nu går det att hyra en kran från butiken. Du kan använda kranen för att flytta en byggnad till en annan plats (se butiksfliken)
+	l3_message_water_sprinkler_help	= Vattenspridare finns nu i butiken! De är väldigt praktiska, placera bara en nära din trädgård så slipper du vattna dina blommor för hand. Men kom ihåg att varje spridare har begränsad räckvidd.
+	l3_message_add_house_pig = För att fylla din beställning snabbare kan du bygga ännu en svinstia. Men först måste du ansöka om bygglov. När du har betalat bygglovet får du ett bidrag på 500 mynt för att bygga en svinstia.
+	
+	l3_message_have_700money = Du har tjänat 700 mynt. Du kan ansöka om en licens för att bygga en svinstia, vilket hjälper dig att nå ditt mål snabbare.
+	l3_message_add_500money = Du tjänade 500 mynt.
+	
+	l4_task_big_cooler = Skogen skyddar
+	l4_task_big_cooler_details = För att rädda byn måste vi köpa och plantera 6 träd till!
+	l4_task_place_house_chicken = Hönshus
+	l4_task_place_house_chicken_details = Du måste bygga ett hönshus.
+	l4_task_place_hangar_refrigerator = Håll dig kall
+	l4_task_place_hangar_refrigerator_details = Du måste bygga ett kyllager.
+	
+	l4_message_big_cooler = Fabriken vid vägen experimenterade med en jättefläkt, och den blåste bort alla de lokala grödorna. Vi måste plantera en rad av träd för att skydda byn och våra grödor från de förstörande vindarna från denna hemska fabrik. Vi har redan planterat några, men vi behöver många fler!
+	l4_message_first_task = Vi måste plantera 6 träd till, men vi har inte råd. Vi tjänar inte så mycket pengar på att sälja grönsaker, och vår svinstia är i ruiner och drar inte heller in mycket pengar. Men vi kunde skaffa några underbara höns, och även om de äter mycket kan vi bygga ett hönshus och sälja deras ägg. Det vore mycket mer lönsamt. Självklart behöver vi en licens för att föda upp höns, men så fort vi får det hjälper byborna till att betala för hönshuset.
+	l4_message_place_patent_for_house_chicken = Då har vi bygglovet för ett hönshus och licensen för att driva det. Och precis som byborna lovade har de gett dig 500 mynt för att täcka dina utgifter.
+	l4_message_second_task = Okej, nu har vi ett hönshus. Men tyvärr kan vi inte lagra hönsens ägg i ladan, så vi måste bygga ett kyllager. Vi måste skaffa ännu ett bygglov, men byborna har lovat att betala för bygget.
+	l4_message_place_patent_for_hangar_refrigerator = Härligt! Vi har bygglovet så vi kan börja bygga. Och byborna bidrog med 500 mynt.
+	l4_message_last_task = Fantastiskt! Nu har vi en regelbunden inkomstkälla. Så länge vi fortsätter mata hönsen med majs kommer deras ägg att bidra med pengar. Nu kan vi fokusera på huvudmålet att rädda byn. Vi måste köpa och plantera 3 äppelträd och 3 plommonträd till.
+	l4_message_trees_help = Träd behöver inte vattnas eller gödslas, men bär ändå alltid frukt. Kom bara ihåg att plocka den.
+	l4_message_pig_help = Vi har betor i trädgården framför svinstian. Grisar gillar betor lika mycket som tomater, och betor växer fortare.
+	l4_message_victory = Tack! Gården är säker nu när vi har planterat alla dessa träd. Och vi har ännu en säker inkomstkälla!
+	l4_message_hangar_refrigerator_help = Vårt första kyllager. Färskvaror som ägg, mjölk och honung måste förvaras här.
+	
+	l4_message_harvester_help = Och titta på vår första anställde, Billy! Han har gått med på att hjälpa till att skörda frukt och grönsaker för en liten lön. Klicka på honom för att betala och sätta honom i arbete. Hundra mynt kommer automatiskt att dras från ditt konto.
+	l4_message_harvester_money_help = Billy har slutat jobba och ett mynt syns över hans huvud. Det betyder att det är lönedags. När du har betalat honom börjar han jobba igen.
+	l4_message_harvester_question_help = Ett frågetecken syns över din anställdes huvud. Det betyder att Billy inte vet vad han ska göra. Detta kan hända om han inte har tillräckligt att skörda. Du måste vänta tills det finns saker att skörda.
+	l4_message_transporter_help	= Du kan nu hyra en kran från butiken. Du kan använda kranen för att flytta vilket hus som helst till en annan plats eller för att plantera om ett träd på en annan plats. Välj kranen, klicka på det du vill flytta och sedan där du vill ha det. Det kostar 10 mynt varje gång du använder kranen!
+	
+	l5_task_flowers_garden = Blommor till salu
+	l5_task_flowers_garden_details = Börja sälja blommor.
+	l5_task_buy_hangar_flowers = Nya lagermöjligheter
+	l5_task_buy_hangar_flowers_details = Köp ett växthus för att lagra blommor.
+	l5_task_sell_batch_flowers = Plocka blommor
+	l5_task_sell_batch_flowers_details = Fyll en beställning på 6 lådor solrosor och 6 lådor dahlior.
+	l5_task_buy_flowers_patent = Köp en blomodlar-licens
+	l5_task_buy_flowers_patent_details = Beställ solrosfrön och dahlialökar.
+	l5_task_flowers_sow = Plantera blommor
+	l5_task_flowers_sow_details = Plantera 12 solrosfrön och 12 dahlialökar.
+	
+	l5_message_about_tasks = Den lokala fabriken har byggt en damm och skapat en vattenreservoar precis vid byn. Nu är marken blöt och sank. Grödorna ser dåliga ut, och vi har bara svinstian, koladan och bevattningssystemet kvar. Vi gav nästan upp hoppet, men så blåste en kraftig vind hit några sällsynta frön. De borde sälja bra på marknaden, men de vissnar innan vi kan sälja dem. Vi behöver ett bättre sätt att lagra dem.
+	l5_message_first_task = De här blommorna måste lagras i ett särskilt växthus. Men innan vi kan bygga ett måste vi ansöka om bygglov och en licens för att sälja blommor. När vi har växthuset är det inga problem att samla och lagra blommorna.
+	l5_message_second_task = Utmärkt! Nu kan vi plocka blommor och lagra dem. Plocka några blommor och se om de säljer bra på marknaden.
+	l5_message_third_task = Blommorna säljer bra! Därför har vi beslutat oss för att göra om det här området till blomsterträdgård. Vi måste beställa frön. När vi väl får fröna kommer vi att kunna sälja massor av blommor.
+	l5_message_last_task = Vi har massor av beställningar. Vi måste snabbt plantera ett fält med solrosor och ett fält med dahlior.
+
+	l5_message_add_water_sprinkler = När lokalbutiken hörde att du säljer blommor nämnde de att de har bra vattenspridare så att vi inte behöver slösa tid på att vattna blommorna.
+	l5_message_plant_dahlia = Bra! Du fyllde din dahliabeställning!
+	l5_message_plant_sunflower = Härligt! Du fyllde din solrosbeställning!
+	l5_message_plant_sunflower_help = Vi har märkt att höns verkligen gillar solrosfrön. Så du kan ge dina höns solrosor.
+	l5_message_victory = Nu är vi den största odlaren av vackra blommor i området! Tack ska du ha!
+	l5_task_second_victory = Tjäna lite pengar
+	l5_task_second_victory_details = Blommorna har dött, men du kan inte bara ge upp nu. Du måste tjäna 5.000 mynt så att du kan betala för att dränera ängen och återställa allt som det var.
+		
+	l5_message_helper_help = Har du sett Johnny? Han kan gödsla dina blommor och plantor för en lön på bara 100 mynt.
+	
+	l5_notify_add_patent_for_flowers = Nu kan du beställa solrosfrön och dahlialökar. Se frö- och plantflikarna för mer information.
+		
+	l5_message_dead_flower = Blommorna har dött, men du kan inte bara ge upp mitt i alltihop. Du behöver 5.000 mynt för att betala dräneringen av ängen och återställa allt som det var.
+	l5_message_second_victory = Även om dina blommor dog lyckades du rädda träden, vilket gav dig nog med pengar för nya investeringar.
+		
+	l6_task_beehive_save = Rädda bikupan
+    l6_task_beehive_save_details = Återställ byns biodlartraditioner. Sälj 4 lådor honung.
+    l6_task_collect_batch_vegatables = Sälj lite grönsaker
+    l6_task_collect_batch_vegatables_details = Sälj 6 lådor vardera av gurka, tomater, kål och paprika.
+    l6_task_collect_batch_flowers = Sälj rara blommor
+    l6_task_collect_batch_flowers_details = Sälj 6 lådor vardera av solrosor, dahlior och tulpaner.
+    
+    l6_message_hello_heroine = Hej på dig! Vår by var en gång känd för sin honung. Vi hade fler bikupor än du någonsin kan föreställa dig, men de senaste åren har allt förfallit och byns storhetstid är sedan länge över. Många av oss försökte fortsätta på traditionellt vis, men godisfabriken förstörde det mesta för oss. Kan du hjälpa oss att återställa våra bikupor och traditioner? Vi har bara några påsar frön och ett par små träd vid ladan. Förhoppningsvis räcker det för att komma igång. Lycka till!
+    l6_message_about_tasks = För att hjälpa byn måste du sätta upp bikupor igen, men det dröjer innan vi kommer dit. Till att börja med måste du få hit leverantörer. Vi börjar med att tjäna lite pengar genom att odla grönsaker i trädgården!
+    l6_message_first_task = För att få hit stora kunder och beställa nya saker i den lokala butiken måste vi sälja 6 lådor vardera av gurka, tomater, kål och paprika.
+    l6_message_second_task = Nu måste vi få hit entreprenörer. För att göra det provar vi att plantera lite sällsynta blommor. Sälj 6 lådor vardera av solrosor, dahlior och tulpaner.
+    l6_message_main_task = Nu har vi råd med bikupor. Det här är ett bra tillfälle att visa upp den sällsynta honung vi gör. Det kommer att dra till sig kunder och återställa byns traditioner och rikedom. Sälj 4 lådor honung.
+    l6_message_see_pedicellates_patents = Lägg märke till att paprika- och kålfrön inte finns i butiken. Du måste beställa dem och betala en administrationsavgift till butiken.
+
+	l6_message_help_hangar_flowers = Du kan lagra solrosor i växthuset länge innan de börjar vissna. Du kan också lagra vattenmeloner och jordgubbar därinne.
+    l6_message_help_hangar_refrigerator = Du kan lagra färskvaror som mjölk, ägg och honung i ett kyllager.
+    l6_message_help_beehive = Eftersom bina måste få nektar någonstans ifrån vore det nog en bra idé att plantera lite blommor nära bikupan. Och glöm inte att hålla dem vattnade.
+	l6_message_add_hangar_refrigerator = Om du har mjölk i kylen, verkar det inte logiskt att ha saker som mjölk, ägg och honung i ett kyllager? Kyllager går nu att köpa från butiken.
+	
+    l6_message_victory = Gratulerar! Den underbart välsmakande honung som kommer härifrån har återställt byns forna storhet och livet här är mycket bättre!
+
+	l7_task_contest0 = Anmälningsformulär
+	l7_task_contest0_details = Du måste tjäna 200 mynt så du kan betala anmälningsavgift till tävlingen.
+	l7_task_contest1 = Kvalificeringsrunda
+	l7_task_contest1_details = För att visa upp dina odlingsfärdigheter måste du ge domarna 7 lådor vardera av gurkor, rädisor och pumpor.
+	l7_task_contest2 = Första rundan
+	l7_task_contest2_details = För att vinna den här tävlingen behöver du ha en stor bondgård. Plantera lite tomater, betor, äggplantor och majs, och förse domarna med en låda av varje.
+	l7_task_contest3 = Kvalitetskontroll
+	l7_task_contest3_details = Du måste ge domarna 2 lådor av tomater, betor, äggplantor och pumpor för kontroll.
+	l7_task_contest4 = Djurhållning
+	l7_task_contest4_details = För att klara denna runda måste du ge domarna 3 grisar och 3 lådor med ägg.
+	l7_task_contest5 = Plantager
+	l7_task_contest5_details = För att klara av denna runda måste du plantera 3 äppelträd, 3 plommonträd och 3 körsbärsträd.
+	l7_task_contest6 = I vetenskapens namn
+	l7_task_contest6_details = Domarna gillade vår frukt så mycket att de bad oss om 2 lådor vardera av äpplen, plommon och körsbär.
+	l7_task_contest7 = Växtkraft
+	l7_task_contest7_details = Du måste visa upp dina trädgårdsfärdigheter. Köp ett växthus och ge 6 lådor vardera med dahlior, solrosor och tulpaner till domarna.
+	l7_task_contest8 = Visst är det sött?
+	l7_task_contest8_details = Dags att vara flitig som ett bi, skaffa en bikupa och gör 7 lådor honung åt domarna.
+	l7_task_contest9 = Nya färdigheter, ny runda
+	l7_task_contest9_details = Du måste beställa och bygga minst en kolada.
+	l7_task_contest10 = Har du mjölk?
+	l7_task_contest10_details = Du måste leverera 10 lådor mjölk med massor av vitaminer till domarna.
+	l7_task_contest11 = Bondgårdsaffärer
+	l7_task_contest11_details = Domarna vill se svarta siffror. Vi måste tjäna 1.500 mynt för att visa att vår bondgård är lönsam.
+	l7_task_contest12 = Prisbelönta grönsaker
+	l7_task_contest12_details = Plantera 4 fält av exotiska frukter och grönsaker (svamp, paprika, vattenmelon och jordgubbar). Varje fält ska ha 12 plantor och alla ska ha en hälsonivå på 5 hjärtan!
+
+	l7_message_hello = Bondemarknaden är snart här och högsta priset är 100.000 mynt. Det här är pengar vi kan använda för att hjälpa de utsatta gårdarna häromkring. Varje år deltar bönder från vår by, men ingen har vunnit på över två generationer. Men alla verkar tro att du har en god chans att vinna.
+	l7_message_about_tasks = Tävlingsreglerna är de här: Varje bonde börjar med ett litet fält med en lada, ett äppelträd och en påse frön. När tävlingen är över vinner den bonde som har den bästa gården! Om du vinner kan du använda prispengarna för att köpa redskap vi verkligen behöver och kanske anställa några arbetare. Och dessutom blir det en moralisk seger för hela byn!
+	l7_message_first_task = Men först måste du fylla i en tävlingsansökan och skicka in en registreringsavgift på 200 mynt. Du kan tjäna det med dina nuvarande resurser. I början av tävlingen får varje tävlande 30 mynt att köpa redskap för.
+	l7_message_second_task = Nu kommer domarna att kontrollera din gård för att se om du är redo. För att göra detta måste du ge dem 7 lådor med olika grönsaker. Vi har tur, eftersom domarna bad om 7 lådor vardera av gurka, rädisor och pumpor. De grönsakerna växer bra i det här området!
+	l7_message_third_task = Tävlingen har börjat. Det är många rundor i den här tävlingen, och vid varje steg delar domarna ut nya frön och andra föremål för den rundans uppgifter. Under den första delen av tävligen är det viktigt att odla så många olika sorts plantor som möjligt. Så sätt igång att plantera tomater, majs, äggplantor och betor. Fröna till dem finns att köpa i butiken.
+	l7_message_fourth_task = Nu måste du ge en provlåda av var och en av dina grönsaker till domarna så de kan testa, väga och smaka av dem.
+	l7_message_fifth_task = Utmärkt! Vi klarade oss till andra rundan där de kontrollerar hur du sköter boskap. Vi måste föda upp 3 grisar och ge dem 3 lådor med ägg. En svinstia, ett hönshus och ett kyllager finns i butiken. De gav oss till och med 500 mynt för att köpa några av de byggnader vi behöver för att ta oss till nästa runda.
+	l7_message_sixth_task = Det är allmänt känt att träd är bra för jorden. De är också ganska fina att titta på. Domarna vill att vi planterar 3 äppelträd, 3 plommonträd och 3 körsbärsträd.
+	l7_message_seventh_task = Frukten på våra träd ser så fin ut att en av domarna bad oss om två lådor vardera med äpplen, plommon och körsbär så att han kunde testa dem. Han sa att de var så fina att han vill skicka dem till den lokala lantbruksskolan så att alla kan lära sig av oss. Vi får bara hoppas att den där frukten tar sig till jordbruksskolan och inte hamnar i domarnas magar.
+	l7_message_eighth_task = Varje år inkluderar tävlingen en blomsterdel, och så är det också i år. Frön och växthus finns att köpa i butiken.
+	l7_message_ninth_task = Där det finns blommor finns det bin, och där det finns bin finns det honung. Just det, den sista delen av tävlingen är biodling! Du måste ge domarna 7 lådor av din delikata honung.
+	l7_message_tenth_task = Här är en nyhet. I år har de lagt till en tävling om den bästa mjölken. Vårt problem är att ingen har fött upp kor för deras mjölk på många år. Vi måste beställa minst en kolada.
+	l7_message_eleventh_task = Enligt tävlingsreglerna måste mjölken smaka härligt och vara rik på vitaminer. För att det ska bli så måste du mata dina kor med grönsaker istället för gräs, det hjälper dem att producera mer vitaminrik mjölk. Kor äter morötter och kål. När korna äter de grönsakerna kommer de att ge dig mjölk, som du måste lagra i ett kyllager. Vi måste ge domarna 10 lådor med mjölkflaskor.
+	l7_message_twelfth_task = Vi måste visa att vår gård går med vinst. Vi behöver tjäna 1.500 mynt för att visa att vår gård är en framgångsrik affärsverksamhet!
+	l7_message_thirteenth_task = Vi har klarat alla delar av tävlingen. Nu kommer domarna att utvärdera vikten och smaken på våra grönsaker, och hur vacker och framgångsrik vår bondgård är. Men vi har fortfarande lite tid på oss att få gården att se bättre ut! Vi kan snabbt plantera 4 fält med exotiska frukter och grönsaker och gödsla dem ordentligt (så de har en hälsonivå på 5 hjärtan). Plocka dem inte, vi måste låta domarna se hur snabbt de sällsynta frukterna och grönsakerna växer på vår gård. De kommer säkert att bli imponerade, och segern är vår. Vattenmelon-, paprika- och jordgubbsfrön samt svampsporer finns att köpa i butiken.
+	
+	l7_message_add_harvester = Enligt tävlingsreglerna får vi anställa medhjälpare. Vi kanske skulle utnyttja den möjligheten?
+	l7_message_victory = Gratulerar! Domarna tyckte att din gård var den vackraste och mest produktiva. Så snart de såg ängen med mogen exotisk frukt och grönsaker tvivlade de inte längre på att vi har den bästa gården. Nu när vi har vunnit de här pengarna kan vi återuppliva jordbruket i området. Ett fyrfaldigt leve för den bästa bonden!
+	l7_message_watermelon_help = Vattenmeloner måste lagras i ett kyllager.
+	l7_message_strawberries_help = Jordgubbar måste lagras i ett kyllager.
+
+	l8_task_first_task = Grannsamverkan
+	l8_task_first_task_details = Tjäna 300 mynt och hjälp gamle Jones att hyra en ny lokal för sin butik.
+	l8_task_second_task = Lägg nya beställningar
+	l8_task_second_task_details = Beställ äggplanta, majs och morotsfrön.
+	l8_task_third_task = Äggplantälskaren
+	l8_task_third_task_details = Skörda 20 lådor med äggplantor till mannen som kan sälja plantor till oss.
+	l8_task_fourth_task = Nybyggare
+	l8_task_fourth_task_details = Skaffa bygglov för och beställ kolador, fårhus, hönshus och bikupor.
+	l8_task_fifth_task = Nya lager
+	l8_task_fifth_task_details = Beställ lador och kylllager.
+	l8_task_sixth_task = En annonskampanj
+	l8_task_sixth_task_details = Köp ett hönshus, en kolada och ett fårhus.
+	l8_task_seventh_task = Växtkraft
+	l8_task_seventh_task_details = Sälj 7 lådor vardera av solrosor och dahlior, samt 3 lådor honung.
+	l8_task_eighth_task = Tulpanernas återkomst
+	l8_task_eighth_task_details = Beställ tulpanlökar.
+	l8_task_ninth_task = En perfekt trädgård
+	l8_task_ninth_task_details = Installera 8 vattenspridare och anställ 4 trädgårdsmästare.
+	l8_task_tenth_task  = En utländsk leverantör
+	l8_task_tenth_task_details = Plantera 12 vattenmeloner, 12 jordgubbsplantor, 12 svampsporer och 12 paprikaplantor.
+	l8_task_eleventh_task = Sparpengar
+	l8_task_eleventh_task_details = Tjäna 800 mynt för att täcka eventuella oförutsedda kostnader som kan dyka upp i framtiden.
+
+	l8_message_hello = Vi har fått verkligt dåliga nyheter från vår lokala butik. De meddelar att de har slut på trädgårdsredskap. Inga mer frön, träd eller boskap. Ägarna är ledsna, men de kan bara inte hjälpa oss. Om vi inte kan skaffa frön krossas vår dröm om att återupprätta jordbruket i området. Vi måste göra något.
+	l8_message_about_tasks = Vi mötte en av våra gamla leverantörer. Gamle Jones är en trevlig gammal man, som sade att han har tvingats sluta leverera. Han säger att fabriksdirektören tittade förbi hans butik och sade åt honom att riva sönder kontrakten med de lokala gårdarna. Herr Jones sade att om han vägrat skulle fabriksdirektören stängt hans butik och sparkat ut honom på gatan. Han var tvungen att lyda eftersom han inte har råd att hyra en ny butik.
+	l8_message_first_task = Det vore trevligt att veta om fabriksdirektören hotade alla jordbruksbutikerna i området. Men vi kan göra ett avtal med gamle Jones. Han behöver 300 mynt för att hyra en ny lokal till sin butik. Om vi hjälper honom kommer han antagligen att hjälpa oss med vår fröbeställning så att vi kan köpa lite bet-, gurk- och pumpafrön.
+	l8_message_second_task = Gamle Jones var mycket tacksam. Han lyckades hyra en ny butik för bara 200 mynt och gav 100 tillbaka till oss. Han förklarade också att han skickat ett brev till en vän som har en trädgårdsbutik i en annan by. Han kommer att sälja vissa frön till oss för det gamla priset. Vi behöver bara lägga en beställning så kan han förse oss med äggplant-, majs- och morotsfrön.
+	l8_message_third_task = Gamle Jones har en annan vän som kan leverera trädplantor. Jones säger att han verkligen älskar äggplanta, och att det inte längre går att köpa i affären. Han skämtade om att ge oss 100 träd för en äggplanta, men varje skämt har en kärna av allvar. Om vi ger honom 20 lådor med äggplantor kan han bara inte vägra att sälja träd till oss.
+	l8_message_fourth_task = När killarna från sågverket hörde att ingen ville sälja byggnader till oss beslutade de sig för att ta saken i egna händer. De byggde en svinstia och den är minst lika bra som de vi brukade köpa i byn. De har bara tillstånd att bygga svinstior, men om vi gör några beställningar och ansöker om nya bygglov så vill de gärna bygga kolador, fårhus, hönshus och bikupor.
+	l8_message_fifth_task = Hur skulle det gå utan någonstans att lagra allting? Vi behöver skaffa bygglov, samt en lada och ett kyllager.
+	l8_message_sixth_task = Du måste hjälpa sågverkskillarna annonsera för sin nya verksamhet. Det kan du göra genom att låta dem bygga ett hönshus, en kolada och ett fårhus.
+	l8_message_seventh_task = En fröleverantör från en annan by hörde talas om vår gård via en vän. De säljer blomfrön och gav oss omedelbart några dahlialökar och solrosfrön, samt ett växthus som butiksägaren byggt på egen hand. Vi behöver inte ens beställa de här fröna och lökarna, men sina kära tulpaner säljer han bara till folk som har bevisat att de kan ta hand om blommor. Du måste bevisa det genom att ge honom 7 lådor solrosor och 7 lådor dahlior. Men det räcker inte. Han älskar tydligen honung, så vi kan göra affären lite mer aptitlig med 5 lådor honung.
+	l8_message_eighth_task = Leverantören blev imponerad av våra blommor och har gått med på att sälja sina älskade tulpanlökar till oss. Nu behöver vi bara beställa.
+	l8_message_ninth_task = Vi har mer eller mindre lyckats hitta leverantörer för allt vi behöver utom exotiska frukter och grönsaker. Men det verkar som om vi har tur. En utländsk leverantör som säljer frukt och grönsaker kom till byn igår. Det enda problemet är att hans kunder måste uppfylla ganska strikta krav. Han säljer bara frön och plantor till välutrustade bondgårdar som har möjlighet att ta god hand om frukterna och grönsakerna. För att uppfylla kraven måste vi installera 8 vattenspridare och anställa 4 trädgårdsmästare.
+	l8_message_tenth_task = Förutom exotiska frön har den utländske leverantören gått med på att sälja andra frön som vi inte tidigare fått tag på. Vi planterar några fält och ser hur de här främmande fröna anpassar sig till vårt klimat.
+	l8_message_eleventh_task = Vi måste spara pengar för oförutsedda utgifter. Åttahundra mynt borde kunna åstadkomma mirakel om vi råkar ut för någon oförutsedd svårighet.
+	
+	l8_message_victory = Utmärkt! Fabrikens hot har neutraliserats. Vi har lyckats hitta leverantörer av allt vi behöver. Och nu tror till och med de mest skeptiska att vi kommer att vinna!
+	l8_message_sheep_help = Vår nya leverantör har erbjudit oss en ny sorts boskap, får. Enligt de senaste rapporterna blir deras ull mycket bättre och starkare om de äter kål och morötter.
+	
+	l9_task_first_task = Betala räntan
+	l9_task_first_task_details = Du måste tjäna 10.000 mynt.
+
+	l9_message_hello = För några år sedan gjorde vi ett stort misstag. När AgroBank öppnade tog några bönder stora lån för att förbättra sin mark och uppgradera sina byggnader. Agroson lovade goda villkor och vi hoppades på det bästa. Men vi är bönder, inte advokater! Vi visste inte att man måste läsa det finstilta. Resultatet blev att många av gårdarna är skyldiga Agrosons bank massor av pengar.
+	l9_message_about_tasks = AgroBank använder sig nu av en paragraf i låneavtalen som säger att gårdarna snabbt ska betala tillbaka. Om vi inte betalar banken nu kommer de att ta över de flesta gårdar i området. Vi behöver tjäna ihop 10.000 mynt för att rädda gårdarna och slippa AgroBank för gott.
+	l9_message_victory = "9.998, 9.999, 10.000. Japp, det här är allt. Och här är ert kvitto för att visa att ni har betalat igen hela lånet. Ha en bra dag." väste kassören på AgroBank. Du räddade bondgårdarna!
+	
+	l10_task_first_task = Torka
+	l10_task_first_task_details = Hindra plantorna från att vissna och dö medan du väntar på de nya vattenspridarna (10 minuter).
+	l10_task_second_task = Vattenverket
+	l10_task_second_task_details = Installera 5 vattenspridare
+	l10_task_third_task = Trädgårdsrestaurering
+	l10_task_third_task_details = Plantera 24 plättar vardera med majs, kål och morötter, och 12 plättar med betor.
+	l10_task_fourth_task = Nya förbättringar
+ 	l10_task_fourth_task_details = Anställ 3 trädgårdsmästare.
+	l10_task_fifth_task = Mångfald
+	l10_task_fifth_task_details = Plantera 4 bananpalmer.
+	l10_task_sixth_task = Markdispyt
+	l10_task_sixth_task_details = Tjäna 1200 mynt.
+	
+	l10_task_alt_second_task = Trädgårdsrestaurering
+	l10_task_alt_second_task_details = Plantera 12 betor, 12 pumpor, 12 rädisor och 12 gurkor.
+	l10_task_alt_third_task = Nya förbättringar
+	l10_task_alt_third_task_details = Installera 4 vattenspridare.
+	l10_task_alt_fourth_task = Produktiva djur
+	l10_task_alt_fourth_task_details = Sälj 2 grisar, 2 lådor ägg, 2 lådor mjölk och 2 lådor ull.
+	l10_task_alt_fifth_task = Mångfald
+	l10_task_alt_fifth_task_details = Plantera 4 bananpalmer, 3 körsbärsträd och 2 plommonträd.
+	l10_task_alt_sixth_task = Markdispyt
+	l10_task_alt_sixth_task_details = Tjäna 1200 mynt.
+	
+	l10_message_hello = Skönt att du är här. Se vad som har hänt. Allt har torkat ut och förvandlats till en öken. Vårt en gång så ståtliga fält är torrt. Vårt område har aldrig haft torka förut och butikerna här har inte ens vattenspridare. Våra leverantörer har beställt vattenspridare, men de vet inte när de når butiken.
+	l10_message_about_tasks = Vi måste rädda marken och grödorna. Brunnsgrävarna och vattenspridarna borde finnas tillgängliga snart. Under tiden måste du fortsätta vattna grödorna och tjäna lite pengar så att du har råd att betala för dem när de kommer. När vattenspridarna väl är på plats kommer allt att klara sig.
+	l10_message_first_task = Brunnsgrävarna och redskapen är på väg, men vi kan inte låta trädgården dö. Fortsätt vattna plantorna tills mer hjälp anländer.
+	l10_message_second_task = Utmärkt! Nu kan vi vattna plantorna automatiskt, men vi måste se till så att vattenspridarna täcker alla våra plantor. Det ser ut som om vi måste installera minst 5 vattenspridare.
+	l10_message_third_task = Innan du hann hit vissnade och dog alla våra plantor och vi kunde inte odla mat åt djuren. De leverantörer som hade vattenspridarna har alla frön vi behöver, men vi måste betala en leveransavgift. Sedan kan vi plantera 24 plättar med majs, kål och moroter var, och 12 betplättar.
+	l10_message_fourth_task = Underbart! Nu är boskapen välförsedda med mat och ökar gårdens vinst. Tyvärr så är gårdens skördar inte lika rika som förut, på grund av torkan. Det vore antagligen bra att anställa minst 3 trädgårdsmästare som hjälper dig att hålla allt gödslat. Grönsakerna kommer att växa fortare och den ökade produktionen ger gården högre anseende.
+	l10_message_fifth_task = Fantastiskt! Du räddade gården och återgav den dess glans. Vi har blivit erbjudna några nya exotiska träd. Att sprida våra aktiviteter genom att lägga till några träd är en bra investering. Plantera 4 bananpalmer.
+	l10_message_sixth_task = Bra jobbat! Gården överlevde torkan, men nu hotas den av en markdispyt. Kommunfullmäktige upptäckte att gården var död och dammig och erbjöd fabriken i närheten att ta över marken för expansion. Bondgårdens avtal för marken gäller i mer än 30 år, så det är helt klart olagligt. Du måste anställa en advokat och ta det här till rättegång. Tyvärr är bra advokater dyra. Tjäna 1.200 mynt så du kan anställa den bästa advokaten och se till så att du vinner målet.
+	
+	l10_message_alt_second_task = Så fruktansvärt! Vi har förlorat en massa grödor! Du måste återställa trädgården och få igång gården igen. Butiken hörde talas om vårt problem och föreslog att vi skulle köpa särskilda hybridfröer som är bättre på att överleva torka. Vi måste fylla i några nya beställningar, men det kommer att vara värt det. Granngården hörde också talas om våra problem och har lånat oss 680 mynt. Du måste byta ut de döda plantorna mot 12 betor, 12 pumpor, 12 rädisor och 12 gurkor.
+	l10_message_alt_third_task = Även med dessa särskilda hybridfrön är torkan inte över ännu. För att undvika ännu en katastrof måste vi installera minst 4 vattenspridare. Nu kan du också anställa trädgårdsmästare.
+	l10_message_alt_fourth_task = Nu när fälten ser ut att vara i fin form kan vi börja koncentrera oss på den boskap som har svält de senaste dagarna. Vi måste plantera lite grönsaker för att mata djuren. Sedan måste vi sälja 2 grisar, 2 lådor ägg, 2 lådor mjölk och 2 lådor med ull.
+	l10_message_alt_fifth_task = Även om fröna vi köpte kan växa i öknen är det alltid bra för affärerna att sprida bondgårdens aktiviteter. Våra leverantörer har rekommenderat att vi köper några exotiska träd som är anpassade för varma, torra klimat. Plantera 4 bananpalmer, 3 körsbärsträd och 2 plommonträd.
+	l10_message_alt_sixth_task = Bra jobbat! Gården överlevde torkan, men nu hotas den av en markdispyt. Den lokala regeringen har märkt att gården var död och dammig och erbjöd den lokala fabriken att ta över marken för expansion. Bondgårdens avtal för marken gäller i mer än 30 år, så det här är klart olagligt. Du måste anställa en advokat och ta det här till rättegång. Tyvärr är bra advokater dyra. Tjäna 1200 mynt så du kan anställa den bästa advokaten och se till så att du vinner målet.Bondgården överlevde 
+	
+	l10_message_harvester = Det vore nog en bra idé att hyra en medhjälpare. De kan plocka våra frukter och grönsaker och hjälpa oss att tjäna mer pengar till vattenspridare medan vi vattnar plantorna.
+	l10_message_add_water_sprinkler = Vattenspridare finns i butiken.
+	
+	l11_task_first_task = Första uppgiften
+	l11_task_first_task_details = Sälj en låda betor, en låda tomater, och 5 grisar, samt anställ en frukt- och grönsaksplockare.
+	l11_task_second_task = Andra uppgiften
+	l11_task_second_task_details = Sälj en låda äggplantor, bygg ett kyllager, anställ en trädgårdsmästare och installera 2 vattenspridare.
+	l11_task_third_task = Tredje uppgiften
+	l11_task_third_task_details = Sälj en låda rädisor och 5 lådor ägg, anställ en trädgårdsmästare och en frukt- och grönsaksplockare.
+	l11_task_fourth_task = Fjärde uppgiften
+ 	l11_task_fourth_task_details = Sälj en låda solrosor och en låda dahlior, bygg ett växthus och en bikupa.
+	l11_task_fifth_task = Femte uppgiften
+	l11_task_fifth_task_details = Sälj en låda morötter, en låda kål, 5 lådor mjölk och anställ en frukt- och grönsaksplockare.
+	l11_task_sixth_task = Sjätte uppgiften
+	l11_task_sixth_task_details = Sälj 5 lådor svamp och 5 lådor honung, anställ en trädgårdsmästare och istallera 6 vattenspridare.
+	l11_task_seventh_task = Sjunde uppgiften
+	l11_task_seventh_task_details = Sälj 5 lådor tulpaner, 3 lådor pumpor och 3 lådor gurka, och bygg ett fårhus.
+	l11_task_eighth_task = Åttonde uppgiften
+	l11_task_eighth_task_details = Sälj 4 lådor jordgubbar och 4 lådor vattenmeloner, anställ en trädgårdsmästare och en frukt- och grönsaksplockare.
+	l11_task_ninth_task = Nionde uppgiften
+	l11_task_ninth_task_details = Sälj en låda ull, plantera ett äppelträd och ett körsbärsträd och installera två vattenspridare.
+	l11_task_tenth_task  = Tionde uppgiften
+	l11_task_tenth_task_details = Sälj 5 lådor paprika, bygg ett hönshus, ett fårhus och en kolada.
+	l11_task_eleventh_task = Elfte upgiften
+	l11_task_eleventh_task_details = Plantera ett plommonträd och en bananpalm, och tjäna 800 mynt.
+	
+	l11_message_hello = Det är dags att ta odlandet till en ny nivå! Vi måste bygga en bondgård som uppfyller alla nya standarder. Alla de andra gårdarna i området har följt ditt exempel och expanderar och blir mer lönsamma. Tack vare dig har hela regionen fått ett lyft!
+	l11_message_about_tasks = Vi har en plan för att bygga en modern, effektiv gård som maximerar intänkterna. När vi är klara kommer alla gårdar i området att använda den som förebild!
+	l11_message_first_task = Innan vi kan börja måste vi tjäna lite pengar. Bygg en svinstia och sälj 5 grisar, en låda betor och en låda tomater, och som ett första steg mot automatisering anställer vi en medhjälpare som hjälper dig att plocka grönsaker.
+	l11_message_second_task = Vi måste odla olika sorters grönsaker, så vi börjar med äggplantor. Vi måste också förbereda oss på att producera färskvaror, så låt oss bygga ett kyllager. Och i automatiseringens tecken installerar vi 2 vattenspridare och anställer en trädgårdsmästare.
+	l11_message_third_task = Låt oss prova en ny teknik. Vi behöver sälja en låda rädisor. Och eftersom vi vill prova vårt nya kyllager bygger vi ett hönshus och säljer 5 lådor ägg. För att automatisera vidare bör vi anställa två assistenter - en trädgårdsmästare och en frukt- och grönsaksplockare.
+	l11_message_fourth_task = Vår nya bondgård måste ha allt. Så vi får inte glömma bort blommorna. Du måste plantera och sälja en låda solrosor och en låda dahlior, och bygga ett växthus för att lagra våra nya blommor. Och när vi ändå håller på kan vi bygga en bikupa också.
+ 	l11_message_fifth_task = För att förbättra automatiseringen på gården bör vi anställa ännu en assistent. Du måste sälja en låda morötter och en låda kål. Ge sedan dessa grönsaker till våra kor och sälj 5 lådor mjölk.
+	l11_message_sixth_task = Vi måste anställa ännu en trädgårdsmästare och installera några fler vattenspridare så att vi inte behöver oroa oss för plantorna. När det är klart planterar vi några svampar och säljer 5 lådor av dem. Glöm inte bort bikupan, sälj 5 lådor honung.
+	l11_message_seventh_task = Sälj 5 lådor tulpaner, 3 lådor pumpor och 3 lådor gurka. Och eftersom vår gård behöver allt måste vi också bygga ett fårhus.
+	l11_message_eighth_task = Anställ två assistenter, och medan de arbetar sätter vi igång att introducera lite ny frukt. Sälj 4 lådor vardera av vattenmeloner och jordgubbar.
+	l11_message_ninth_task = Låt oss testa vårt fårhus genom att sälja en låda ull. Planera för framtida grödor genom att installera 2 nya vattenspridare. Plantera äppel- och körsbärsträd så vår gård producerar mer läckra frukter.
+	l11_message_tenth_task  = Bondgården måste fortsätta expandera, så låt oss bygga ett hönshus, ett fårhus och en kolada. Plantera sedan lite paprika och sälj 5 lådor.
+	l11_message_eleventh_task = Och för att avsluta vår stora plan, plantera plommon- och bananpalmer. Tjäna sedan 800 mynt så du kan anställa en förman som tar hand om alla arbetare.
+	
+	l11_message_victory = Vi är klarar med vår storslagna plan. Den här gården kommer att vara ett exempel för hela området, som kommer att fortsätta blomstra.
+		
+	l12_task_first_lot_vegetables = Leverera den första beställningen grönsaker
+	l12_task_first_lot_vegetables_details = Organisera 3 lådor vardera av rädisor, pumpor, majs och tomater.
+	l12_task_second_lot_vegetables = Leverera den andra beställningen grönsaker
+	l12_task_second_lot_vegetables_details = Organisera 3 lådor vardera av gurka, äggplantor, paprikor och svampar.
+	l12_task_first_lot_flowers = Leverera den första beställningen blommor
+	l12_task_first_lot_flowers_details = Organisera 3 lådor vardera av tulpaner, dahlior, solrosor och vattenmeloner.
+	l12_task_first_lot_strawberries_behive = Leverera honung och jordgubbar
+	l12_task_first_lot_strawberries_behive_details = Organisera 3 lådor vardera av jordgubbar och honung.
+	l12_task_first_lot_trees = Leverera en fruktbeställning
+	l12_task_first_lot_trees_details = Organisera 3 lådor vardera av äpplen, bananer, plommon och körsbär.
+	l12_task_first_lot_farms_produktion = Leverera matvaror
+	l12_task_first_lot_farms_produktion_details = Organisera 3 grisar och 3 lådor vardera av ägg, ull och mjölk.
+	l12_task_first_shop_order = Fyll mataffärens beställning
+	l12_task_first_shop_order_details = Organisera 3 grisar och 3 lådor vardera av solrosor, svampar och bananer.
+	l12_task_second_shop_order = Fyll mataffärens beställning
+	l12_task_second_shop_order_details = Organisera 3 lådor vardera av kål, ull, tulpaner och vattenmeloner.
+	l12_task_third_shop_order = Fyll mataffärens beställning
+	l12_task_third_shop_order_details = Organisera 3 lådor vardera av mjölk, jordgubbar, honung och körsbär.
+	l12_task_fourth_shop_order = Fyll mataffärens beställning
+	l12_task_fourth_shop_order_details = Organisera 3 lådor vardera av paprikor, äpplen, kål och ägg.
+	
+	l12_message_victory = Affärerna svämmar över av våra färska grönsaker och ingen köper Agro Corporations halvfabrikat längre. De gick i konkurs. De säger att de ska riva fabriken och bygga en park. Vi vann!!!
+	l12_message_cool_vegetables = Regionen har sakta återvänt till livet och snart kommer det att finnas massor av välmående gårdar här. Agro Corporation utvecklade välsmakande men ohälsosamma halvfabrikat. Även om den inte innehåller några vitaminer eller näringsämnen så är deras mat billig. Vårt uppdrag är att fylla affärerna med läckra, näringsrika, fräscha frukter och grönsaker. När ingen längre köper halvfabrikat kommer Agro Corporation att gå i konkurs och alla kommer att äta god, hälsosam mat.
+	l12_message_first_lot_vegetables = Innan affärerna tar in våra varor vill de se hur bra de säljer under en provperiod.
+	l12_message_second_lot_vegetables = Affärerna är förvånade över hur bra våra grönsaker sålde och är redo att prova mer. De har också betalat vår andel av försäljningen, som blev 200 mynt. Vi måste skicka dem lite olika grönsaker. Den här gången gör vi deras kunder nöjda med något lite mer exotiskt.
+	l12_message_first_lot_flowers = Våra grönsaker säljer jättebra. Vi kanske ska se hur bra våra blommor säljer. Och låt oss göra affären lite bättre genom att skicka med några vattenmeloner också. Vår del av försäljningen har fördubblats, den här gången gav de oss 400 mynt.
+	l12_message_first_lot_strawberries_behive = Alla i staden älskade våra vattenmeloner. De är en jättehit! Samtidigt har Agro Corporations försäljning av frusen mat och godis rasat. Det här är det perfekta tillfället att ge folket lite naturligt godis, så låt oss skicka lite honung och jordgubbar. Vår andel av den förra sändningens förtjänst är 600 mynt.
+	l12_message_first_lot_trees_details = Våra grönsaker och honung finns på butikshyllorna i hela staden. Men vi för inte glömma att massor av läcker frukt växer på träd. Vi tjänade 700 mynt på den förra sändningen.
+	l12_message_first_lot_farms_produktion = Alla våra produkter har sålt jättebra i affärerna. Låt oss skeppa lite fantastiska naturprodukter som ägg, mjölk och grisar. Vår andel av vinsten från förra sändningen var 150 mynt.
+	l12_message_first_shop_order = Våra produkter är snart slutsålda och butikerna vill ha mera! Vi har fått en beställning på saker de börjar få slut på. Vi fick också 1.500 mynt för vår förra sändning.
+	l12_message_second_shop_order = Folk kan inte få nog av vår läckra, hälsosamma mat. Affärerna vill ha mer! Snart kommer folk bara att köpa våra grönsaker. De gav oss ännu en beställning samt 900 mynt.
+	l12_message_third_shop_order = Våra produkter tar upp ungefär halva golvytan i mängder av matbutiker i hela staden och försäljningen har gått upp! Vi tjänade 1.200 mynt på den förra sändningen! Det är bara en tidsfråga innan vi vinner det här. Vi har en sändning till att förbereda.
+	l12_message_fourth_shop_order = Affärerna är fulla av våra produkter och vi fick precis ännu en stor beställning och 1.500 mynt. Om vi fyller den här beställningen vinner vi säkert.
+ 	l12_message_supplier_sabotage = Än en gång har Agro Corporation satt käppar i hjulet. De köpte upp alla frön vi beställde och nu har våra leverantörer inget att sälja till oss. Varför händer det här oss hela tiden? Vi måste hitta nya leverantörer.
+
+
+	comics_p1f1b1 = En gång för länge sedan, i en avlägsen liten by, bodde en speciell flicka.
+	comics_p1f1b2 = Du kommer att bli den största jordbrukaren i vår tid och rädda oss från den tunga industrins attacker!
+	comics_p1f1b3 = Gammelmormor började bli förvirrad på ålderns höst, men det här hade hon rätt om.
+	comics_p1f2b1 = Även när hon var liten visade flickan stor talang för odling.
+	comics_p1f2b2 = Titta, Ginger är inte ens ett, och hon har redan skapat en riktig trädgård där i sanden!
+	comics_p1f2b3 = Sanna mina ord, Ginger går en lysande framtid till mötes.
+	comics_p1f3b1 = När hon var sex år gammal lärde hennes morfar henne odlingens mysterier.
+	comics_p1f3b2 = Känn styrkan inom dig, min unga lärling, och vänd den här jorden!
+	comics_p1f5b1 = Smack!!
+	comics_p1f6b1 = Krunch!!
+	comics_p1f7b1 = Vissa saker hade Ginger inte så lätt för...
+	comics_p1f7b2 = Oj, det ser inte riktigt ut som en trädgård, eller hur?
+	comics_p1f7b3 = ...men hon envisades, och lärde sig med tiden alla morfars trädgårdshemligheter.
+	comics_p1f8b1 = Glöm inte, unga lärling, att allt du gör måste komma från djupet av din själ!
+	comics_p1f8b2 =	Morfar, varför säger du alltid sådana konstiga saker?
+	
+	comics_p2f1b1 = Du är rätt så duktig på att odla nu. Därför tänker vi ge dig en särskild present på din 18-årsdag...
+	comics_p2f1b2 = Din egen bondgård!
+	comics_p2f1b3 = Åh! Verkligen?!
+	comics_p2f2b1 = Tänk bara, alla grönsaker jag kommer att kunna odla här!
+	comics_p2f2b2 = Och frukt...
+	comics_p2f2b3 = Kuckeliku!
+	comics_p2f3b1 = Denna gård tillhörde en gång min morfar, den store Bob Johnson!
+	comics_p2f4b1 = Aha!
+	comics_p2f4b2 = Morfar, vilket år var det igen? 
+	comics_p2f5b1 = Kuck-host-eliku!
+	comics_p2f6b1 = Oroa dig inte, barnbarn.
+	comics_p2f6b2 = Allt är i dina händer nu och du kommer att göra ett jättebra jobb!
+	comics_p2f7b1 = Bang!
+	comics_p2f8b1 = Ooooh...
+	
+	comics_p3f1b1 = En sån vacker, solig och lugn morgon...
+	comics_p3f2b1 = Från skogens djup hördes ett högljutt grisgrymtande.
+	comics_p3f3b1 = Den väckte tuppens nyfikenhet.
+	comics_p3f5b1 = Och väckte Ginger.
+	comics_p3f5b2 = Vad hände?
+	comics_p3f6b1 = Det har hänt en olycka på grannens grisgård!
+	comics_p3f6b2 = Kom igen Ginger, vi går och hjälper dem.
+	comics_p3f7b1 = När de nådde gården fann de en fruktansvärd röra.
+	comics_p3f7b2 = Ett vattenrör som ledde till fabriken längre bort hade brustit och hela gården var översvämmad.
+	comics_p3f7b3 = Och varifrån kom de där hemska skriken?
+	comics_p3f7b4 = Grisarna! All deras mat är förstörd. De stackars djuren är vansinniga av hunger.
+	comics_p3f8b1 = De stackars grisarna!
+	comics_p3f8b2 = Inget problem, vi hjälper er att ta hand om dem nu.
+	comics_p3f8b3 = Grymt!
+	comics_p3f8b4 = Grymt!
+	comics_p3f8b5 = Grrrr
+    
+	comics_p4f1b1 = Familjen firade morfars födelsedag.
+	comics_p4f1b2 = ...och då frågade jag honom, "Vad använder du för gödsel?"
+	comics_p4f1b3 = Och han svarade, "Samma som vanligt... sand så klart!"
+	comics_p4f1b4 = Ha, ha, ha!
+	comics_p4f1b5 = Men plötsligt...
+	comics_p4f2b1 = Whosh
+	comics_p4f3b1 = Smack!
+	comics_p4f5b1 = Mjau!
+	comics_p4f6b1 = Åh nej!
+	comics_p4f7b1 = Plask!
+	comics_p4f8b1 = Whosh
+	comics_p4f9b1 = Bang!
+	comics_p4f10b1 = Plask!
+	comics_p4f10b2 = Smack!
+	comics_p4f10b3 = Efter en stund avtog "tomatstormen".
+	comics_p4f10b4 = Ring, Ring!
+	comics_p4f11b1 = Hallå?
+	comics_p4f12b1 = Hej farbror! Flög någonting precis förbi dig?
+	comics_p4f12b2 = Hej hej på dig, brorson. Så det var du som anföll oss med tomater, va?
+	comics_p4f12b3 = Det var den dumma fabriken!
+	comics_p4f12b4 = De satte på något slags enorm ventilation och den eländiga saken blåste bort alla tomater från våra fält! Blåste katten av taket också!
+	comics_p4f12b5 = Du skojar!?
+	comics_p4f12b6 = Vi vet inte vad vi ska ta oss till. Om de sätter på den igen kanske den blåser bort hela byn.
+	comics_p4f12b7 = Oroa dig inte, brorson! När vi har rensat ketchupen från huset ska vi lista ut hur vi kan hjälpa dig.
+	comics_p4f13b1 = Hmmm. Hur kan vi skydda farbror Joes by från blåsten fabriken sätter igång?
+	comics_p4f13b2 = Jag tror jag har en idé!
+	
+	comics_p5f1b1 = Ginger fick en välförtjänt belöning.
+	comics_p5f1b2 = För enastående insatser för vår by och alla dess innevånare, tilldelar jag dig...
+	comics_p5f1b3 = ...min kära brorsdotter, detta hederscertifikat!
+	comics_p5f1b4 = Tack! Jag vill tacka hela min familj, särskilt min morfar!
+	comics_p5f1b5 = Utan hans hjälp hade jag aldrig varit här idag. Jag skulle också vilja tacka...
+	comics_p5f1b6 = Men Gingers tal avbröts av en man som klev fram ur folksamlingen med ett brev i sin hand.
+	comics_p5f2b1 = Alltså, här har vi, ja alltså du vet, alltså, de här människorna här ber om hjälp.
+	comics_p5f2b2 = Jag ska läsa brevet för dig. Det är från människorna där borta i Greenfield. "Kära Ginger! Vi har hamnat i en ganska tråkig situation här i Greenfield"
+	comics_p5f2b3 = "Ingenjörerna från den lokala fabriken har byggt en kraftverksdamm som har översvämmat våra marker. Växter vissnar, våra grödor dör och vi vet inte vad vi ska göra"
+	comics_p5f2b4 = "Du gjorde ett så bra jobb när du räddade din by från fabrikens jättefläkt, så du kanske kan hjälpa oss också? Med vänlig hälsning, innevånarna i Greenfield."
+	comics_p5f2b5 = Wow. Vad är det för sorts fabrik? Jag löser visst det ena problemet efter det andra.
+	comics_p5f2b6 = Alltså, så här är det...
+	comics_p5f3b1 = För några år sedan dök Herr Agroson upp.
+	comics_p5f3b2 = Han såg inte så trevlig ut, men han talade väl och han hade gott om pengar.
+	comics_p5f3b3 = Han lovade att förse staden med mat. Billig, men ohälsosam och dålig för miljön.
+	comics_p5f3b4 = Han byggde den här matfabriken på andra sidan kullarna och sedan började det.
+	comics_p5f3b5 = Allt i vår by blev blött och dyigt, medan vår grannby har råkat ut för torka.
+	comics_p5f3b6 = Och när vinden blåser från de där kullarna luktar det fruktansvärt och regnet blir lila!
+	comics_p5f4b1 = Det är ju hemskt! Och helt oacceptabelt!
+	comics_p5f4b2 = Morfar, vi packar våra saker, vi måste ge oss iväg direkt!
+	comics_p5f4b3 = Det tar oss åtta timmar att gå till den där byn, vi kommer inte att hinna till natten...
+	comics_p5f4b4 = Men vi ska inte gå. Vi provar farbror Joes present!
+	comics_p5f5b1 = Se där! Det gamla vraket är perfekt för grusvägar!
+	comics_p5f5b2 = Det är inget vrak, det är förra årets Chevrodzuki.
+	comics_p5f5b3 = Nu åker nu!
+	comics_p5f6b1 = Pip-pip
+	
+	comics_p6f1b1 = Morfar och mormor njöt av sitt vanliga eftermiddagste när...
+	comics_p6f1b2 = När kommer Ginger tillbaka? Jag saknar henne så.
+	comics_p6f1b3 = Idag, tror jag. Hörde du om Greenfield? Allt är okej nu.
+	comics_p6f1b4 = Vrooom!
+	comics_p6f1b5 = Tala om trollen!
+	comics_p6f2b1 = Hej morfar! Hej mormor! Skönt att se er igen!
+	comics_p6f2b2 = Greenfield är rena träsket numera! Komplett med grodor och blodiglar...
+	comics_p6f3b1 = Kuckeliku?
+	comics_p6f4b1 = Smack!
+	comics_p6f5b1 = Sätt dig Ginger. Här är din tekopp...
+	comics_p6f5b2 = ...och ditt te!
+	comics_p6f5b3 = Tack! Var är kakorna?
+	comics_p6f5b4 = Nåja Ginger, jag har inget sött att baka med!
+	comics_p6f5b5 = Jag brukade köpa honung från gamla Hanna uppe i Plainsville.
+	comics_p6f5b6 = Men nu är där en stor fabrik som gör choklad och godis. Och därför har folk slutat köpa hennes honung.
+	comics_p6f5b7 = Så du förstår, raring, fabriken har förstört allt.
+	comics_p6f5b8 = Vad? Blir det inget mer med...
+	comics_p6f5b9 = ...din honungstårta och kakor?
+	comics_p6f6b1 = Nä, nu är jag verkligen arg!
+	comics_p6f7b1 = Håll ut, Plainsville! Jag kommer och räddar er!
+	comics_p6f7b2 = För...
+	comics_p6f7b3 = Friheten!
+	comics_p6f7b4 = ...och honungskakorna!
+	
+	comics_p7f1b1 = Under tiden, på Herr Agrosons kontor...
+	comics_p7f1b2 = Förbannelse! Den där eländes flickan tvingade oss att stänga chokladfabriken. Det här går inte!
+	comics_p7f1b3 = Jacques, Helmut, lyssna! Vi måste ta reda på allt vi kan om den här lilla... Ginger.
+	comics_p7f1b4 = Jag bryr mig inte om ifall ni måste riva hela byn, jag vill ha något komprometterande om den här flickan... något vi kan använda mot henne. Förstått?
+	comics_p7f1b5 = Oui, glasklart, mon general!
+	comics_p7f1b6 = Ja, natürlich! Som att sno godis från spädbarn!
+	comics_p7f1b7 = Utmärkt. Ni kan gå och sätta igång. Janice!
+	comics_p7f1b8 = Ja, herrn?
+	comics_p7f1b9 = Boka ett möte med lilla fröken Ginger. Säg att jag har ett...
+	comics_p7f1b10 = ..erbjudande till henne.
+	comics_p7f2b1 = Nästa dag...
+	comics_p7f2b2 = Åh?! När byggde de det här? Jag hoppas hissen fungerar.
+	comics_p7f3b1 = Ginger, du har enorm potential!
+	comics_p7f3b2 = Du tog ensam hand om en av mitt företags avdelningar. Jag beundrar verkligen dina affärsfärdigheter.
+	comics_p7f3b3 = Men tänk dig vad du kunde göra om du hade mina pengar och kontakter i ryggen!
+	comics_p7f3b4 = Kom till mig så ska vi tillsammans förvandla hela området till ett paradis. Vad säger du?
+	comics_p7f3b5 = Tack för erbjudandet, Herr Agroson, men jag är lyckligare när jag jobbar med vänner.
+	comics_p7f3b6 = Ni borde använda lite av pengarna för att köpa blommor och plantor. Det är deprimerande här... lite som en grav.
+	comics_p7f4b1 = Ni har mitt nummer, så om ni vill kan jag leverera de bästa blommorna i området hit på mindre än 24 timmar!
+	comics_p7f4b2 = Vänta ett ögonblick, din arroganta, lilla snobb!
+	comics_p7f4b3 = Du kommer snart att inse vad som händer den som tackar nej till mig!
+	comics_p7f5b1 = Miiiiaaaauuu!
+	comics_p7f6b1 = Två dagar senare...
+	comics_p7f6b2 = Övriga nyheter... Idag avslöjade Herr Agroson, VD för Agro Corporation, företagets senaste projekt.
+	comics_p7f6b3 = Agro Corporation tänker köpa 12.000 tunnland mark i vår region för att bygga ett gigantiskt nytt nöjesfält.
+	comics_p7f6b4 = Enligt Agroson kommer parken att locka mängder av turister och pengar till områdets ekonomi.
+	comics_p7f6b5 = På denna mark ligger just nu bara gammaldags och olönsamma bondgårdar.
+	comics_p7f6b6 = Mitt företag kommer att återuppliva regionen.
+	comics_p7f6b7 = Istället för några lådor ruttnande grönsaker, kan vi attrahera tusentals turister som mer än gärna spenderar sina pengar!
+	comics_p7f6b8 = Och om tio år kommer området att vara känt som världens karusellhuvudstad!
+	comics_p7f7b1 = Oj! Det dröjde inte länge förrän han gjorde verklighet av hotet.
+	comics_p7f8b1 = Vi får helt enkelt visa staden att vi kan ge dem mer än några futtiga lådor ruttna grönsaker!
+	
+	comics_p8f1b1 = Bara en månad kvar till bondemarknaden!
+	comics_p8f1b2 = Det var 50 år sedan någon från vår by vann priset för bästa bonde.
+	comics_p8f2b1 = Ginger, en känd lokal bonde, har meddelat att hon ställer upp i tävlingen!
+	comics_p8f2b2 = Kan detta jordbrukargeni ge vår by segern?
+	comics_p8f3b1 = Borgmästaren har sagt sig vara mycket intresserad av årets resultat.
+	comics_p8f3b2 = Vinnaren får alltid berömmelse, priser och stora kontrakt!
+	
+	comics_p9f1b1 = Idioter! Var är informationen jag bad er skaffa?
+	comics_p9f2b1 = Men Monsieur Agroson, flickan är fläckfri!
+	comics_p9f2b2 = Det är sant, chefen! Vi letade överallt, men der finns absolut ingenting om die Fräulein Ginger.
+	comics_p9f2b3 = Löjligt! Jag ger en en vecka till. Men om ni inte hittar något då har ni bara er själva att skylla!
+	comics_p9f2b4 = Janice! Ring upp Ginger åt mig. Jag vill berätta lite saker för henne personligen.
+	comics_p9f3b1 = Hallå?
+	comics_p9f4b1 = Okej, lyssna noga, Ginger! Jag tänker inte låta dig förstöra företagets vinster. Sluta med det här ondskefulla beteendet eller ta konsekvenserna!
+	comics_p9f4b2 = Ni kan inte hota mig, Herr Agroson...
+	comics_p9f4b3 = Jaså? Har du någon aning om hur många av dina vänner som bor på min mark? Hur många som är skyldiga min bank pengar? Du vill inte bråka med mig, lilla flicka.
+	comics_p9f5b1 = "Ner med omoderna och olönsamma gårdar! Bygg nya shoppingcenter och nöjesparker!"
+	comics_p9f5b2 = Herr Agrosons tal fick mycket positiva reaktioner på Agro Corporations styrelsemöte!
+	comics_p9f5b3 = Kampanjen mot låntagarna fortsätter växa. Och idag gick ännu en bondgård i konkurs och dess lån förföll.
+	
+	comics_p10f1b1 = Chefen, chefen! Vi hittade det!
+	comics_p10f1b2 = Vi hittade inget om Ginger, men vi hittade något om hennes morföräldrar.
+	comics_p10f1b3 = Okej, låt mig se... Född... gift... inga barn. Så hon är adopterad? Det är väl inget brottsligt i det?
+	comics_p10f1b4 = Nein, chefen! Det finns inga papper på att hon är lagligt adopterad. Det är inte officiellt.
+	comics_p10f1b5 = Verkligen? Hmmm... Bra jobbat killar!
+	comics_p10f2b1 = Ginger! Sätt dig. Vill du ha lite te? Ta en titt i den här mappen, jag tror du kommer tycka det är intressant!
+	comics_p10f2b2 = Vad är det?
+	comics_p10f2b3 = Inget särskilt! Bara bevis på att du blev kidnappad som litet barn.
+	comics_p10f2b4 = Det här är din sista varning. Bråka inte med mig eller företaget, annars skickar jag dina kära morföräldrar i fängelse! Ha! Ha! Ha! Ha! Haaaa!
+	comics_p10f3b1 = Farbror Joe, det är Ginger! Vet du vilka mina riktiga föräldrar är?
+	comics_p10f4b1 = Åh Ginger... jag kan inte alla detaljer i historien. Det är bäst att fråga gamle Gus. Han minns nog allting.
+	comics_p10f4b2 = Okej, vet du var han är?
+	comics_p10f5b1 = Gus? Hej. Jag heter...
+	comics_p10f5b2 = Ginger, ja, jag vet vem du är. Kom in.
+	comics_p10f6b1 = Åh, det var en hemsk historia. Jag är gammal och mitt minne är inte så bra längre.
+	comics_p10f6b2 = Min gård är förfallen, trädgården övervuxen av ogräs och mina kor har sprungit bort...
+	comics_p10f6b3 = Men om du kan hjäpa mig kan jag nog minnas. Ett par färska gurkor kan säkert friska upp mitt minne!
+	
+	comics_p11f1b1 = Tack ska du ha, Ginger, du var snäll mot mig och räddade min gård. Och med alla dessa färska grönsaker känner jag mig ung igen, och redo att berätta om dina föräldrar.
+    comics_p11f1b2 = Så här var det...
+    comics_p11f2b1 = För länge sedan, skiljde sig en framgångsrik affärsman från sin fru.
+    comics_p11f2b2 = Ser du domslutet? Ge mig barnet om du inte vill se en riktigt arg Peter Agroson. Flickan är min, bara min!
+    comics_p11f3b1 = Men ödet ville annorlunda...
+    comics_p11f4b1 = Limousinen körde ner i ett potthål som fick flickan att flyga ut.
+    comics_p11f5b1 = När din morfar och mormor hittade dig, tja, Ginger, deras glädje kände inga gränser.
+    comics_p11f5b2 = Gud gav dem inga barn, men de tog dig till sig som sin egen.
+    comics_p11f6b1 = Och det var så du hamnade i vår by här.
+    comics_p11f6b2 = Um, så du menar att jag är Herr Agrosons dotter?
+    comics_p11f6b3 = Nej, Ginger. Lyssna till ditt hjärta så förstår du vilka dina riktiga föräldrar är.
+	
+	comics_p12f0b1 = Vi går lite snabbt igenom vad som hände i förra avsnittet.
+	comics_p12f1b1 = Ginger fick reda på sanningen om sitt förflutna.
+	comics_p12f2b1 = Nyheten gjorde inte Herr Agroson särskilt glad heller.
+	comics_p12f2b2 = Mon general, vi har nyheter om er dotter.
+	comics_p12f2b3 = Min dotter är död, Jaques.
+	comics_p12f2b4 = Nein, chefen. Ginger är din dotter.
+	comics_p12f2b5 = Neeeeej!
+	comics_p12f3b1 = Extra! Extra! Senaste nytt!
+	comics_p12f3b2 = Stora nyheter! Borgmästaren har brutit stadens kontrakt med Agro Corporation!
+	comics_p12f3b3 = Han har öppnat för offerter på matleveranser till staden!
+	comics_p12f3b4 = Vem blir den nya grönsakskungen?
+	
+	comics_p13f1b1 = Och så tar vår historia slut.
+	comics_p13f1b2 = En oändlig rad lastbilar kör färska grönsaker till staden.
+	comics_p13f1b3 = Adjö tomater! Och ha en bra resa!
+	comics_p13f2b1 = För de tjänster du gjort staden, ger jag dig detta certifikat som belöning...
+	comics_p13f2b2 = Ginger blev hedersmedborgare i staden.
+	comics_p13f3b1 = Agro Corporations försäljning och värde fortsatte sjunka.
+	comics_p13f3b2 = Herrn, marknadsanalysen visar att alla har slutat köpa våra varor.
+	comics_p13f3b3 = Åh, Ginger, Ginger... Hon är precis som jag!
+	comics_p13f4b1 = Och som ni kan se har den röda linjen sjunkit, medan den gröna har gått kraftigt uppåt.
+	comics_p13f4b2 = Vad betyder detta för staden? Detaljer klockan 11:00!
+	comics_p13f5b1 = Agro Corporation tvingades sälja sitt högkvarter.
+	comics_p13f6b1 = Och Ginger fick äntligen dekorera Herr Agrosons före detta kontor med levande plantor och blommor.
+	comics_p13f6b2 = SLUT
+
+>>

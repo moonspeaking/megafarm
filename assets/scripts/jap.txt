@@ -1,0 +1,1069 @@
+<<
+
+	begin_lower_char = a
+	end_lower_char = z
+	begin_upper_char = A
+	end_upper_char = Z
+	start = スタート
+	freemode = テスト
+	options = オプション
+	trophyroom = トロフィー
+	change_player = プレイヤー変更
+	credits = クレジット
+	help = ヘルプ
+	exit = 終了
+	back = 戻る
+	loading = ロード中
+
+	musics = 音楽
+	fullscreen = フルスクリーン
+	windowed = ウィンドウ
+	vsync = 垂直同期
+	
+	new_profile = 新規プレイヤー
+	delete_profile = プレイヤー削除
+
+	music_on = 音楽　あり
+	music_off = 音楽　なし
+	sound_on = 効果音　あり
+	sound_off = 効果音　なし
+	cursor_on = 専用カーソル　on
+	cursor_off = 専用カーソル　off
+	
+	set_volume = 音量
+	sound_volume = 効果音
+	music_volume = BGM
+
+	languages = 言語選択
+	lang_rus = Russian
+	lang_eng = English
+	lang_fra = French
+	lang_ita = Italian
+	lang_por = Portuguese
+	lang_dut = Dutch
+	lang_swe = Swedish
+	lang_deu = German
+	lang_esp = Spanish
+	lang_jap = 日本語
+	lang_kor = Korean
+	lang_chn = Chinese
+
+	change_player_label = プレイヤー変更
+	ok = OK
+	cancel = 戻る
+	yes = はい
+	no = いいえ
+	game_saved = ゲームを保存しました
+	game_loaded = 読み込み完了
+	question_save_game = ゲームを保存しますか？
+	question_load_game = 保存したゲームを読み込みますか？
+	question_exit_game = 終了してよろしいですか？
+	question_replay_game = このレベルをはじめからやりなおしますか？
+	question_end_game = メインメニューに戻りますか？
+	question_saveandexit_game = 終了する前にゲームを保存しますか？
+	cheatmodeon = チートモード起動！
+	cheatmodeoff = チートモード終了！
+	tasks = 目標
+	mainmenu = メニュー
+	continue = ゲームに戻る
+	restart = リスタート
+	exitgame = メインメニュー
+	profit_hint = 稼いだ金額は % ドルです
+	current_task = 現在の目標
+	click_to_continue = ゲームに戻る
+	patent_buy_confirm = それをオーダーしますか？
+	notify_you_cant_place = そこには置けません！
+	notify_you_cant_gowhere = そこには行けません！
+	
+	wombat = ウォンバット
+	
+	control_help_1 = マウスの左ボタンをクリックしてキャラクターを操作します。右ボタンはコマンドのキャンセルに使用します。また方向キーで視点を移動することができます。
+	control_help_2 = クリックで基本の動作、ダブルクリックでは地面を掘って耕したり、あるいは持っているアイテムを置くなどの特殊な行動をとることができます。
+	
+	text_enter_name = 名前を入力してください
+	welcome_message = ようこそ、
+
+	dig_squares = 地面を耕す
+	water_plants = 水を与える
+
+	level1_name = トレーニング
+	level2_name = はじめての農場
+	level3_name = トンでもない事件
+	level4_name = おいしい防風林
+	level5_name = 花で平和を
+	level6_name = はたらきバチ
+	level7_name = 品評会
+	level8_name = 仕入れ業者
+	level9_name = マネーゲーム
+	level10_name = 日照りつづき
+	level11_name = 夢の農場
+	level12_name = 市場最大の作戦
+	
+	trophy_announce_header = トロフィーを獲得しました！
+	
+	trophy_hint0 = 〈カッコウ時計〉はトレーニングでおさめたケッコーな成績に授与されました。
+	trophy_hint1 = 資金を貯めることが大金持ちへの道です。なので〈農家の豚貯金箱〉が授与されました。
+	trophy_hint2 = 〈豚を救うための戦い〉の像はとこトンまでやりぬき豚を救った功績で授与されました。
+	trophy_hint3 = この〈ヤシの木〉は工場の巨大送風機から家屋を救われた村人たちからの贈り物です。
+	trophy_hint4 = 〈花樹栽培の金メダル〉は花の栽培における、おどろくべき成果に授与されました。
+	trophy_hint5 = 〈優れたはたらきバチ賞〉はかつての養蜂の伝統を復活させた功績で授与されました。
+	trophy_hint6 = 品評会でもらった〈最優秀賞〉です。
+	trophy_hint7 = 〈自由農民の像〉は侵略に立ち向かい独立を守りぬいた功績で授与されました。ビバ！　自由！　農業！　博愛！
+	trophy_hint8 = 銀行の領収証がなによりのトロフィーですよね。農家の人たちが〈アイスクリーム〉をおごってくれました！
+	trophy_hint9 = 〈銀のジョウロ〉は窮地に陥った農場を救い厳しい日照りを乗り切った功績で授与されました！
+	trophy_hint10 = 〈黄金の穂〉は未来の農場を築きあげた功績で授与されました！
+	trophy_hint11 = あなたが最良の生産者であると記された〈証明書〉です。入札を勝ち取りました！
+	trophy_hint12 = 〈農業史上最高農家賞〉
+	
+	level_not_finished = レベルをクリアーしていません
+    level_completed = レベルクリアー
+    level_completed_with_trophy = 賞をもらいました！
+    level_time = タイム
+    level_money = 金額
+    best_time = 最高タイム：
+    best_money = 最高金額：
+
+	inventory_form = 農業用品
+	buildings_form = 建物
+	seeds_form = 種
+	sprouts_form = 苗
+	trees_form = 木
+	workers_form = 従業員
+
+	aubergine = ナス
+	beetroot = ビーツ
+	cabbage = キャベツ
+	carrot = ニンジン
+	corn = トウモロコシ
+	cucumber = キュウリ
+	dahlia = ダリア
+	mushroom = マッシュルーム
+	pepper = トウガラシ
+	pumpkin = カボチャ
+	radish = ラディッシュ
+	strawberries = イチゴ
+	sunflower = ヒマワリ
+	tomato = トマト
+	tulip = チューリップ
+	watermelon = スイカ
+	
+	task_separator = を
+	task_sow = 植える
+	task_sell = 売る
+	task_fertilize = 肥やす
+	task_buy = 買う
+	
+	water_sprinkler = スプリンクラー
+	time = タイム
+	
+	tree_desert_apple = リンゴの木
+	tree_desert_cherry = サクランボの木
+	tree_desert_palm = バナナの木
+	tree_desert_plum = スモモの木
+	tree_grass_apple = リンゴの木
+	tree_grass_cherry = サクランボの木
+	tree_grass_palm = バナナの木
+	tree_grass_plum = スモモの木
+	tree_swamp_apple = リンゴの木
+	tree_swamp_cherry = サクランボの木
+	tree_swamp_palm = バナナの木
+	tree_swamp_plum = スモモの木
+	
+	house_chicken_product = タマゴ
+	house_cow_product = ミルク
+	house_pig_product = コブタ
+	house_sheep_product = ウール
+	beehive_product = ハチミツ
+	
+	tree_desert_apple_product = リンゴ
+	tree_desert_cherry_product = サクランボ
+	tree_desert_palm_product = バナナ
+	tree_desert_plum_product = スモモ
+	tree_grass_apple_product = リンゴ
+	tree_grass_cherry_product = サクランボ
+	tree_grass_palm_product = バナナ
+	tree_grass_plum_product = スモモ
+	tree_swamp_apple_product = リンゴ
+	tree_swamp_cherry_product = サクランボ
+	tree_swamp_palm_product = バナナ
+	tree_swamp_plum_product = スモモ
+	
+	house_chicken = ニワトリ小屋
+	house_cow = ウシ小屋
+	house_pig = ブタ小屋
+	house_sheep = ヒツジ小屋
+	hangar_refrigerator = 保冷倉庫
+	hangar_flowers = 温室
+	beehive = ミツバチ小屋
+	
+	helper = 園芸作業員
+	harvester = 収穫作業員
+	
+	patent_for_tulip = チューリップの球根をオーダー
+	patent_for_dahlia = ダリアの球根をオーダー
+	patent_for_sunflower = ヒマワリの種をオーダー
+	patent_for_cucumber = キュウリの苗をオーダー
+	patent_for_tomato = トマトの苗をオーダー
+	patent_for_aubergine = ナスの苗をオーダー
+	patent_for_pepper = トウガラシの苗をオーダー
+	patent_for_watermelon = スイカの種をオーダー
+	patent_for_hangar_flowers = 温室の建築許可
+	patent_for_beehive = 養蜂のライセンス
+	patent_for_cabbage = キャベツの種をオーダー
+	patent_for_beetroot = ビーツの種をオーダー
+	patent_for_house_pig = 養豚のライセンス
+	patent_for_carrot = ニンジンの種をオーダー
+	patent_for_corn = トウモロコシの種をオーダー
+	patent_for_hangar_vegetables = 納屋の建築許可
+	patent_for_mushroom = マッシュルームの種菌をオーダー
+	patent_for_pumpkin = カボチャの種をオーダー
+	patent_for_strawberries = イチゴの苗をオーダー
+	patent_for_hangar_refrigerator = 保冷倉庫の建築許可
+	patent_for_house_sheep = 養羊のライセンス
+	patent_for_house_chicken = 養鶏のライセンス
+	patent_for_house_cow = 養牛のライセンス
+	patent_for_radish = ラディッシュの種をオーダー
+	
+	plant_aubergine = ナス
+	plant_beetroot = ビーツ
+	plant_cabbage = キャベツ
+	plant_carrot = ニンジン
+	plant_corn = トウモロコシ
+	plant_cucumber = キュウリ
+	plant_dahlia = ダリア
+	plant_mushroom = マッシュルーム
+	plant_pepper = トウガラシ
+	plant_pumpkin = カボチャ
+	plant_radish = ラディッシュ
+	plant_strawberries = イチゴ
+	plant_sunflower = ヒマワリ
+	plant_tomato = トマト
+	plant_tulip = チューリップ
+	plant_watermelon = スイカ
+	
+	money = 金額
+
+	cost_goods = この農産物の売価は一箱あたり %i ドルです
+	cost_work = 従業員の給料は %i ドルです
+
+	box_shop_hint = 収穫物を集める木箱です
+	fivebox_shop_hint = ５個パックの木箱です
+	tenbox_shop_hint = １０個パックの木箱です
+
+	spade_shop_hint = 最高級の園芸用シャベルです
+	watercan_shop_hint = 小さなジョウロです
+	big_watercan_shop_hint = 大きなジョウロです
+
+	destructor_shop_hint = ブルドーザーで苗を枯らす、または耕した畑を埋め戻します
+	transporter_shop_hint = このクレーンで農場の建物を移動させられます
+	
+	hangar_vegetables_shop_hint = 納屋には保存のきく果物や野菜を貯蔵できます
+	hangar_flowers_shop_hint = 温室には花や果物を保存できます
+	hangar_refrigerator_shop_hint = 保冷倉庫には腐りやすい農産物を貯蔵できます
+
+	beehive_shop_hint = ミツバチ小屋でハチを育てると甘いハチミツが収穫できます
+	house_sheep_shop_hint = ヒツジ小屋でヒツジを育てるとウールが収穫できます
+	house_pig_shop_hint = ブタ小屋でブタを育てるとコブタを収穫できます
+	house_cow_shop_hint = ウシ小屋でウシを育てるとミルクが収穫できます
+	house_chicken_shop_hint = ニワトリ小屋でニワトリを育てるとタマゴが収穫できます
+	
+	
+	waterpump_shop_hint = 水汲みにえんえんと歩くよりも新しい井戸を掘りましょう
+	water_sprinkler_shop_hint = スプリンクラーは大農場に欠かせないアイテムです
+	fertilizer_shop_hint = 肥料の小袋です
+	big_fertilizer_shop_hint = 肥料の大袋です
+	
+	tree_desert_palm_shop_hint = バナナは育つのは遅いかもしれませんが、大金が稼げます
+	tree_desert_apple_shop_hint = リンゴは安値ですが、すぐに実がなります
+	tree_desert_cherry_shop_hint = サクランボの木は見た目は変わっていますが、その果実はとても高く売れます
+	tree_desert_plum_shop_hint = スモモの木は実をつけるのも早く、なかなか良い値で売れます
+	
+	tree_swamp_palm_shop_hint = バナナは育つのは遅いかもしれませんが、大金が稼げます
+	tree_swamp_apple_shop_hint = リンゴは安値ですが、すぐに実がなります
+	tree_swamp_cherry_shop_hint = サクランボの木は見た目は変わっていますが、その果実はとても高く売れます
+	tree_swamp_plum_shop_hint = スモモの木は実をつけるのも早く、なかなか良い値で売れます
+
+	tree_grass_palm_shop_hint = バナナは育つのは遅いかもしれませんが、大金が稼げます
+	tree_grass_apple_shop_hint = リンゴは安値ですが、すぐに実がなります
+	tree_grass_cherry_shop_hint = サクランボの木は見た目は変わっていますが、その果実はとても高く売れます
+	tree_grass_plum_shop_hint = スモモの木は実をつけるのも早く、なかなか良い値で売れます
+	
+	harvester_shop_hint = 収穫作業員は果実と野菜を収穫してくれる雇われ作業員です
+	helper_shop_hint = 園芸作業員は農作物に肥料を与えてくれる雇われ作業員です
+	
+	aubergine_shop_hint = ナスの苗
+	beetroot_shop_hint = ビーツの種
+	cabbage_shop_hint = キャベツの種
+	carrot_shop_hint = ニンジンの種
+	corn_shop_hint = トウモロコシの種
+	cucumber_shop_hint = キュウリの苗
+	dahlia_shop_hint = ダリアの球根
+	mushroom_shop_hint = マッシュルームの種菌
+	pepper_shop_hint = トウガラシの苗
+	pumpkin_shop_hint = カボチャの種
+	radish_shop_hint = ラディッシュの種
+	strawberries_shop_hint = イチゴの苗
+	sunflower_shop_hint = ヒマワリの種
+	tomato_shop_hint = トマトの苗
+	tulip_shop_hint = チューリップの球根
+	watermelon_shop_hint = スイカの種
+	
+	patent_for_tulip_shop_hint = チューリップの球根をオーダーします。納品されればチューリップの球根がお店で買えます。
+	patent_for_dahlia_shop_hint = ダリアの球根を、オーダーします。納品されればダリアの球根がお店で買えます。
+	patent_for_sunflower_shop_hint = ヒマワリの種を、オーダーします。納品されればヒマワリの種がお店で買えます。
+	patent_for_cucumber_shop_hint =  キュウリの苗を、オーダーします。納品されればキュウリの苗がお店で買えます。
+	patent_for_tomato_shop_hint =  トマトの苗をオーダーします。納品されればトマトの苗がお店で買えます。
+	patent_for_aubergine_shop_hint =  ナスの苗をオーダーします。納品されればナスの苗がお店で買えます。
+	patent_for_pepper_shop_hint =  トウガラシの苗をオーダーします。納品されればトウガラシの苗がお店で買えます。
+	patent_for_watermelon_shop_hint =  スイカの種をオーダーします。納品されればスイカの種がお店で買えます。
+	patent_for_hangar_flowers_shop_hint =  花を栽培するライセンスと温室の建築許可を購入します。このライセンスがあれば花を育てて販売できます。
+	patent_for_beehive_shop_hint = 養蜂のライセンスを、購入します。このライセンスがあればミツバチを飼ってハチミツを収穫できます。
+	patent_for_beetroot_shop_hint = ビーツの種をオーダーします。納品されればビーツの種がお店で買えます。
+	patent_for_cabbage_shop_hint = キャベツの種を、オーダーします。納品されればキャベツの種がお店で買えます。
+	patent_for_carrot_shop_hint = ニンジンの種を、オーダーします。納品されればニンジンの種がお店で買えます。
+	patent_for_corn_shop_hint = トウモロコシの種をオーダーします。納品されればトウモロコシの種がお店で買えます。
+	patent_for_hangar_refrigerator_shop_hint = 保冷倉庫の建築許可と管理するライセンスを購入します。
+	patent_for_hangar_vegetables_shop_hint = 納屋の建築許可を購入します。この許可があれば新しい納屋を今より便利な場所に建てられます。
+	patent_for_house_chicken_shop_hint = 養鶏のライセンスを、購入します。このライセンスがあればニワトリを育てて卵を収穫できます。
+	patent_for_house_cow_shop_hint = 養牛のライセンスを、購入します。このライセンスがあればウシを育ててミルクを収穫できます。
+	patent_for_house_pig_shop_hint = 養豚のライセンスを、購入します。このライセンスがあればブタを育ててコブタを収穫できます。
+	patent_for_house_sheep_shop_hint = 養羊のライセンスを、購入します。このライセンスがあればヒツジを育ててウールを収穫できます。
+	patent_for_mushroom_shop_hint = マッシュルームの種菌をオーダーします。納品されればマッシュルームの種菌がお店で買えます。
+	patent_for_pumpkin_shop_hint = カボチャの種を、オーダーします。納品されればカボチャの種がお店で買えます。
+	patent_for_radish_shop_hint = ラディッシュの種をオーダーします。納品されればラディッシュの種がお店で買えます。
+	patent_for_strawberries_shop_hint = イチゴの苗をオーダーします。納品されればイチゴの苗がお店で買えます。
+	
+	notify_add_shop_harvester = 収穫作業員を雇って収穫を手伝ってもらえるようになりました
+	notify_add_shop_helper = 園芸作業員を雇って農作物に肥料を与えるのを手伝ってもらえるようになりました
+	notify_add_shop_box = 木箱がお店で買えるようになりました
+	notify_add_shop_fivebox = ５個パックの木箱がお店で買えるようになりました
+	notify_add_shop_tenbox = １０個パックの木箱がお店で買えるようになりました
+	notify_add_shop_aubergine = ナスの苗がお店で買えるようになりました
+	notify_add_shop_beetroot = ビーツの種がお店で買えるようになりました
+	notify_add_shop_cabbage = キャベツの種がお店で買えるようになりました
+	notify_add_shop_carrot = ニンジンの種がお店で買えるようになりました
+	notify_add_shop_corn = トウモロコシの種がお店で買えるようになりました
+	notify_add_shop_cucumber = キュウリの苗がお店で買えるようになりました
+	notify_add_shop_dahlia = ダリアの球根がお店で買えるようになりました
+	notify_add_shop_mushroom = マッシュルームの種菌がお店で買えるようになりました
+	notify_add_shop_pepper = トウガラシの苗がお店で買えるようになりました
+	notify_add_shop_pumpkin = カボチャの種がお店で買えるようになりました
+	notify_add_shop_radish = ラディッシュの種がお店で買えるようになりました
+	notify_add_shop_strawberries = イチゴの苗がお店で買えるようになりました
+	notify_add_shop_sunflower = ヒマワリの種がお店で買えるようになりました
+	notify_add_shop_tomato = トマトの苗がお店で買えるようになりました
+	notify_add_shop_tulip = チューリップの球根がお店で買えるようになりました
+	notify_add_shop_watermelon = スイカの種がお店で買えるようになりました
+	notify_add_shop_watercan = ジョウロがお店で買えるようになりました
+	notify_add_shop_big_watercan = 大きなジョウロがお店で買えるようになりました
+	notify_add_shop_transporter = クレーンがお店で借りられるようになりました
+
+	notify_add_shop_beehive = ミツバチ小屋がお店で買えるようになりました
+	notify_add_shop_house_sheep = ヒツジ小屋がお店で買えるようになりました
+	notify_add_shop_house_pig = ブタ小屋がお店で買えるようになりました
+	notify_add_shop_house_cow = ウシ小屋がお店で買えるようになりました
+	notify_add_shop_house_chicken = ニワトリ小屋がお店で買えるようになりました
+
+	notify_add_shop_waterpump = 水汲み井戸が掘れるようになりました
+	notify_add_shop_water_sprinkler = スプリンクラーがお店で買えるようになりました
+	notify_add_shop_fertilizer = 肥料がお店で買えるようになりました
+	notify_add_shop_big_fertilizer = 肥料の大袋がお店で買えるようになりました
+
+	notify_add_shop_tree_grass_palm = バナナの苗木がお店で買えるようになりました
+	notify_add_shop_tree_grass_apple = リンゴの苗木がお店で買えるようになりました
+	notify_add_shop_tree_grass_cherry = サクランボの苗木がお店で買えるようになりました
+	notify_add_shop_tree_grass_plum = スモモの苗木がお店で買えるようになりました
+	notify_add_shop_tree_desert_palm = バナナの苗木がお店で買えるようになりました
+	notify_add_shop_tree_desert_apple = リンゴの苗木がお店で買えるようになりました
+	notify_add_shop_tree_desert_cherry = サクランボの苗木がお店で買えるようになりました
+	notify_add_shop_tree_desert_plum = スモモの苗木がお店で買えるようになりました
+	notify_add_shop_tree_swamp_palm = バナナの苗木がお店で買えるようになりました
+	notify_add_shop_tree_swamp_apple = リンゴの苗木がお店で買えるようになりました
+	notify_add_shop_tree_swamp_cherry = サクランボの苗木がお店で買えるようになりました
+	notify_add_shop_tree_swamp_plum = スモモの苗木がお店で買えるようになりました
+
+	notify_add_shop_patent_for_tulip = オーダーするとチューリップの球根がお店で買えるようになります
+	notify_add_shop_patent_for_dahlia = オーダーするとダリアの球根がお店で買えるようになります
+	notify_add_shop_patent_for_sunflower = オーダーするとヒマワリの種がお店で買えるようになります
+	notify_add_shop_patent_for_cucumber = オーダーするとキュウリの苗がお店で買えるようになります
+	notify_add_shop_patent_for_tomato = オーダーするとトマトの苗がお店で買えるようになります
+	notify_add_shop_patent_for_aubergine = オーダーするとナスの苗がお店で買えるようになります
+	notify_add_shop_patent_for_pepper = オーダーするとトウガラシの苗がお店で買えるようになります
+	notify_add_shop_patent_for_watermelon = オーダーするとスイカの種がお店で買えるようになります
+	notify_add_shop_patent_for_hangar_flowers = 建設許可を申請して資材のオーダーをすると、温室を建てられるようになります
+	notify_add_shop_patent_for_beehive = オーダーするとミツバチ小屋がお店で買えるようになります
+	notify_add_shop_patent_for_cabbage = オーダーするとキャベツの種がお店で買えるようになります
+	notify_add_shop_patent_for_beetroot = オーダーするとビーツの種がお店で買えるようになります
+	notify_add_shop_patent_for_carrot = オーダーするとニンジンの種がお店で買えるようになります
+	notify_add_shop_patent_for_house_pig = オーダーするとブタ小屋がお店で買えるようになります
+	notify_add_shop_patent_for_corn = オーダーするとトウモロコシの種がお店で買えるようになります
+	notify_add_shop_patent_for_mushroom = オーダーするとマッシュルームの種菌がお店で買えるようになります
+	notify_add_shop_patent_for_strawberries = オーダーするとイチゴの苗がお店で買えるようになります
+	notify_add_shop_patent_for_pumpkin = オーダーするとカボチャの種がお店で買えるようになります
+	notify_add_shop_patent_for_radish = オーダーするとラディッシュの種がお店で買えるようになります
+	
+	notify_add_shop_hangar_vegetables = 納屋がお店で買えるようになりました
+	notify_add_shop_hangar_flowers = 温室がお店で買えるようになりました
+	notify_add_shop_hangar_refrigerator = 保冷倉庫がお店で買えるようになりました
+	notify_add_shop_patent_for_house_chicken = 建設許可を申請して資材のオーダーをすると、ニワトリ小屋を建てられるようになります
+	notify_add_shop_patent_for_house_cow = 建設許可を申請して資材のオーダーをすると、ウシ小屋を建てられるようになります
+	notify_add_shop_patent_for_house_pig = 建設許可を申請して資材のオーダーをすると、ブタ小屋を建てられるようになります
+ 	notify_add_shop_patent_for_house_sheep = 建設許可を申請して資材のオーダーをすると、ヒツジ小屋を建てられるようになります
+	notify_add_shop_patent_for_house_beehive = 建設許可を申請して資材のオーダーをすると、ミツバチ小屋を建てられるようになります
+	notify_add_shop_patent_for_hangar_flowers = 建設許可を申請して資材のオーダーをすると、温室を建てられるようになります
+	notify_add_shop_patent_for_hangar_vegetables = 建設許可を申請して資材のオーダーをすると、納屋を建てられるようになります。
+	notify_add_shop_patent_for_hangar_refrigerator = 建設許可を申請して資材のオーダーをすると、保冷倉庫を建てられるようになります
+	
+	notify_no_more_money = それを買うにはお金が足りません！
+	notify_you_cant_put = そこには置けません！
+	notify_you_cant_storebox = ほかの場所に貯蔵してください！
+	notify_store_in_hangar = ここには貯蔵できません！　納屋へ運んでください。
+	notify_store_in_fridge = ここには貯蔵できません！　保冷倉庫へ運んでください。
+	notify_store_in_flower = ここには保存できません！　温室へ運んでください。
+	notify_box_nomore_full = 木箱がまだいっぱいになっていません。
+	notify_only_for_this_type = この木箱には %s が入っています。同じものを入れてください！
+	notify_box_full = この木箱はいっぱいです。保管庫へ運んでください！
+	
+	notify_cant_feed_house_sheep = ヒツジはキャベツかニンジン以外は食べません。
+	notify_cant_feed_house_pig = ブタはビーツかトマト以外は食べません。
+	notify_cant_feed_house_cow = ウシはキャベツかニンジン以外は食べません。
+	notify_cant_feed_house_chicken = ニワトリはトウモロコシ以外は食べません。
+	
+	message_complete_sell_plant_tomato = お見事！　トマトの注文を完了させました！
+	message_complete_sell_plant_aubergine = すばらしい！　ナスの注文を完了させました！
+	message_complete_sell_plant_pepper = やりました！　トウガラシの注文を完了させました！
+	message_complete_sell_plant_cucumber = 上出来です！　キュウリの注文を完了させました！
+	message_complete_sell_plant_dahlia = えらい！　ダリアの注文を完了させました！
+	message_complete_sell_plant_sunflower = すごい！　ヒマワリの注文を完了させました！
+	message_complete_sell_plant_tulip = さすが！　チューリップの注文を完了させました！
+	message_complete_sell_beehive = よし！　ハチミツの注文を完了させました！
+	message_complete_sell_plant_mushroom = 良かった！　マッシュルームの注文を完了させました！
+	message_complete_sell_plant_cabbage = 良いですね！　キャベツの注文を完了させました！
+	message_complete_sell_plant_watermelon = やった！　スイカの注文を完了させました！
+	message_complete_sell_plant_beetroot = いい調子です！　ビーツの注文を完了させました！
+	message_complete_sell_house_pig = 優秀です！　コブタの注文を完了させました！
+	message_complete_sell_plant_carrot = その調子！　ニンジンの注文を完了させました！
+	message_complete_sell_plant_corn = さすがです！　トウモロコシの注文を完了させました！
+	message_complete_sell_plant_pumpkin = 立派です！　カボチャの注文を完了させました！
+	message_complete_sell_plant_strawberries = すごいです！　イチゴの注文を完了させました！
+	message_complete_sell_house_sheep = すばらしいです！　ウールの注文を完了させました！
+	message_complete_sell_house_chicken = 見事です！　タマゴの注文を完了させました！
+	message_complete_sell_house_cow = あっぱれ！　ミルクの注文を完了させました！
+	message_complete_sell_plant_for_radish = やりましたね！　ラディッシュの注文を完了させました！
+	message_complete_sell_tree_apple = その調子です！　リンゴの注文を完了させました！
+	message_complete_sell_tree_plum = グッドです！　スモモの注文を完了させました！
+	message_complete_sell_tree_cherry = イエス！　サクランボの注文を完了させました！
+	message_complete_sell_tree_palm = お見事です！　バナナの注文を完了させました！
+	
+	l1_message_welcome = ようこそ農場へ！　これから作物の育て方と収穫の仕方を説明します。
+	l1_message_dig_one = まず手始めに地面を耕さなければなりません。　　　　　　　　　　　　　農場のどこか空いている場所をダブルクリックして耕してください。　　　
+	l1_message_dig_four = お見事！　ですが１区画だけでは農園としては狭すぎるので、あと３区画耕してください。　　　　　　　　　　
+	l1_message_dig_twelve = 上出来です！　　　　　　　　　　　先のレベルではもっともっと耕さなければならないのですがトレーニングの農園なのでこれで十分です。　　　　
+	l1_message_plant_four = では種を植えましょう。　　　　　　カボチャの種の袋をクリックしてから耕した４つの区画をクリックし種を植えてください。　　　　　　　　　　
+	l1_message_wait_harvest = よくできました！　　　　　　　　　カボチャが育って実をつけるまで待ちましょう。農場のどこか空いている場所をダブルクリックすれば種の袋を置くことができます。　　　　　　　　
+	l1_message_water = 苗にはいつも気を配り、世話をしなければなりません。ジョウロをクリックして拾い、井戸をクリックして水でいっぱいにしてください。次に水を与えたい場所をクリックして畑に水をまいてください。　　　　　　　　　　　
+	l1_message_water_ok = その調子！　水をやった苗は早く成長しますから、それだけ早く収穫できます。逆に苗が乾燥しすぎるとしおれて枯れてしまいます。　　　　　　　　
+	l1_message_dig_more = 暇をもてあまさないように、もっと地面を耕して残った種を植えましょう。
+	l1_message_fruits_ready = さあ、畑には実がなり最初の収穫を待っています！　　　　　　　　　　　木箱にカボチャを収穫しましょう。野菜４個で木箱はいっぱいになるので、それを納屋へ納めます。　　　　　　
+	l1_message_box_tutorial = お見事！　　　　　　　　　　　　　次の収穫には新しい木箱が必要です。お店から買うには下のメニューから農業用品のタブをクリックして木箱をクリックし、それから農場のどこか空いている場所をクリックしてください。
+	l1_message_second_harvest = ２度目の収穫が待っています。労働の成果を新しい木箱に詰めて納屋へ運びましょう。　　　　　　　　　　　　
+	l1_message_third_harvest = ３度目の収穫が待っています。作物を集めて納屋へ運べば、このトレーニングは終了です。　　　　　　　　　　
+	l1_message_fertilizer_tutorial = 肥料で苗がいきいきと育ち成長が早まりますので、畑には忘れずに使いましょう。農業用品のタブから肥料の袋をクリックすると、お店から買うことができます。　　　　　　　　　　　　
+	l1_message_thirst_reminder = 畑には常に水が必要なのをお忘れないでください！　定期的に水をやり、地面の色にたえず注意を払いましょう。
+	l1_message_victory = おめでとう！　これで農場経営の基本がわかりましたね。でも学ぶべきことはまだまだたくさんありますよ！　　
+	
+	l1_task_1dig = シャベルを使う
+	l1_task_1dig_details = 農場のどこか空いている場所をダブルクリックして地面を耕してください　
+	l1_task_4dig = 練習を続けましょう！
+	l1_task_4dig_details = 農場を４区画分掘って耕してください
+	l1_task_4plant = 種を植える
+	l1_task_4plant_details = 種の袋を拾ってカボチャの苗を４つ育ててください
+	l1_task_4water = ジョウロを使う
+	l1_task_4water_details = 井戸に行きジョウロをいっぱいにして、カボチャの苗に水を与えてください
+	l1_task_3sell = 練習を終える
+	l1_task_3sell_details = カボチャを３箱売ればトレーニングレベルは終了です
+	
+	
+	l2_task_sow = 自分の農場にとりかかる
+	l2_task_sow_details = ラディッシュの種を１２個植えてください
+	
+	l2_task_first_sell = 初めての注文
+	l2_task_first_sell_details = もらった注文はラディッシュが３箱とカボチャが３箱です
+	l2_task_first_patent = オーダーをする
+	l2_task_first_patent_details = キュウリの苗をオーダーしてください
+	
+	l2_task_second_sell = ２つ目の注文
+	l2_task_second_sell_details = もらった注文はキュウリが２箱、カボチャが４箱とラディッシュが３箱です
+	
+	l2_task_second_patent = オーダーをする
+	l2_task_second_patent_details = このあたりではほとんど見かけないナスの苗のオーダーをしてください
+	
+	l2_task_third_sell = また新たな注文
+	l2_task_third_sell_details = もらった注文はナスが１箱です
+	
+	l2_message_start = さあここが初めての自分の農場です。たしかにまだ最新の設備もありませんし、どこもかしこも草ぼうぼうです。でもたのもしい上等の納屋があって作物を貯蔵できますし、よく肥えた土地が広がっています。農場に必要なものはすべてそろっていますとも！　がんばりましょう！
+	l2_message_sow = この農場は長年使われていなかったので雑草が伸び放題です。大変な仕事ですが、でも誰かがやらなければなりません。さあ袖まくりをして仕事にかかりましょう。ここにラディッシュとカボチャの種があります。これを植えれば幸先のよいスタートが切れるでしょう。
+	l2_message_first_sell = 種を植えていると近所のお店のオーナーが通りかかりました。野菜の見栄えが気に入ったとラディッシュ３箱とカボチャ３箱の注文をもらいました。
+	l2_message_add_money = 初めての注文を完了して２００ドル稼ぎました。
+	l2_message_add_money_2 = ２つ目の注文を完了して３００ドル稼ぎました。
+	l2_message_first_patent = 農場には基本的なものがそろっていますし、そのうえ初めての目標も完了させました。ですが人生、何がおきるかわかりません。キュウリの苗を苗のタブからオーダーをすれば、あのみずみずしい野菜も育てられます。
+	l2_message_second_sell = 近所のお店のオーナーがまた通りかかりました。野菜の見栄えを気に入ってキュウリを２箱カボチャを４箱とラディッシュを３箱買いたいとなかなかの注文を出してくれました。
+	l2_message_second_patent = 種の販売トラックが新種のおもしろそうな種を積んで村を通りました。とりあえず今はナスの種を売っていますがこの村ではほかに誰ひとり育てていません。この珍しい野菜をまっさきに育ててみるのはすてきなことだと思いませんか？
+	l2_message_third_sell = 実はこの村でナスの種を買った人がほかにもいました。そこで最初にナスを育てて売る競争の始まりです。この村でいちばん優秀な農家が誰なのかをはっきりさせましょう。
+	l2_message_victory = すばらしい！　あなたの農場がこの村でいちばんだとみんなに認められました。最優秀農家に指定され、たくさんの人が助言を求めに訪れるようになりました。
+	
+	l2_message_add_waterpump = この農場にとってすばらしく有意義なことではないかもしれませんが、でも井戸への往復でえんえんと歩くかわりにいつでも２つ目の井戸が掘れます。（詳しくはお店の農業用品のタブを見てください）　　　　　　　　　　　
+	l2_message_add_big_watercan = 農園が大きくなってきました。　　　こんなちっぽけなジョウロで大農園を運営するのは至難のわざです。もっと大きいジョウロを買えば一度満杯にするだけで１２区画に水まきができるようになります。農業用品のタブをクリックして購入しましょう。　　　　　
+	l2_message_add_fivebox = 新しい木箱を買うのにいちいちお店に行っていますね。めんどくさいでしょう？　そんなあなたにスペシャル商品があります！　　　　　　　　　　　木箱の５個パックです！　　　　　　
+	l2_message_thirsty_need = 苗の世話を忘れないことが大事です。水をあげなければしおれて枯れてしまいます。　　　　　　　　　　　　　
+	l2_fertilizer_help = 常に肥料に気を配りましょう。とくにハートが現れたときに、肥料をあげないと苗がしおれてしまいますよ。　　
+	l2_help_help = 画面の一番上の目標リストをクリックすれば、目標の一覧が見られます。
+	
+	l3_task_collect_batch_vegatables = 野菜を育てる
+	l3_task_collect_batch_vegatables_details = マッシュルーム、キュウリとナスを各４箱分育ててください
+
+	l3_task_pig_alarm = とこトンやり抜く
+	l3_task_pig_alarm_details = コブタを７匹育てて売る注文をもらいました
+	
+	l3_message_pig_alarm = よう、おとなりさん！　工場につながってる水道管が破裂しちまうなんて考えられんよ。修理は終わったんだが、地面が水びたしでビーツの苗が全滅さ。おかげでブタに食わせるエサがなにひとつなくて、こんなひょろひょろのブタなんかじゃ誰も買ってくれんよ。ブタ７頭なんて注文をもらってるんだが、どうすれば出荷できるかさっぱりわからん！　聞いた話じゃあんたは若いのに才能があって、頼りがいがあるそうじゃないか。助けてもらえんか？
+	l3_message_task_collect_batch_vegatables = ブタにエサをあげるにはトマトを育てなければなりませんが、でもまずお金を稼がなければなりません。近所の市場からマッシュルーム、キュウリとナスを各４箱分育てる注文をもらいました。
+	l3_message_task_sell_pig = トマトの苗がやっとお店で買えるようになりました（苗のタブをご覧ください）。苗を植えなければなりません。実がなって収穫できるようになれば、ブタに与えるエサになりますから。
+	l3_message_complete_sell_plant_mushroom = お見事！　マッシュルームの注文を完了させました！
+	l3_message_complete_sell_plant_cucumber = やりました！　キュウリの注文を完了させました！
+	l3_message_complete_sell_plant_aubergine = 上出来です！　ナスの注文を完了させました！
+	l3_message_victory = ありがとうよ！　うちの農場がこんなに立派になったのなんてはじめてだよ！
+	l3_message_beetroot_help = ビーツの種がお店で買えるようになりました（種のタブをご覧ください）。ビーツはブタのエサにもなりますし、トマトより早く育ちます。
+	l3_message_pig_feed_help = ブタがおいしそうにエサを食べています。これであとはコブタが大きく肥え育つのを待つだけです。エサメーターはブタが食べて大きくなるにつれ下がります。エサがなくなるとブタは成長しませんので、エサをたやさないよう気をつけましょう。
+	l3_message_pig_sow_help = コブタが成長して出荷できるようになりました。木箱を使って納屋へ運びましょう。
+	l3_message_destructor_help = 耕した地面や今の作物が邪魔であれば、ブルドーザーを使って土地をならすことができます。
+	l3_message_transporter_help	= クレーンがお店から借りられるようになりました。クレーンを使えばどの設備でも場所を移動させることができます（農業用品のタブをご覧ください）。
+	l3_message_water_sprinkler_help	= スプリンクラーがお店で買えるようになりました！　たいへん便利で、畑のそばに設置さえしておけば自分で苗に水を与える必要がなくなります。ただし水の届く範囲は限られているので注意しなければなりません。
+	l3_message_add_house_pig = 早く注文を完了させるため、新しいブタ小屋を建てられます。ですがまず建築許可を申請しなければなりません。建築許可の申請費を払えば、ブタ小屋の建築用に５００ドルの補助金がもらえます。
+	
+	l3_message_have_700money = ７００ドル稼ぎました。これでブタ小屋を建てる許可を申請できます。より早く目標が達成できるでしょう。
+	l3_message_add_500money = ５００ドルをもらいました。
+	
+	l4_task_big_cooler = 防風林
+	l4_task_big_cooler_details = 村を救うために、木を６本買って植えなければなりません
+	l4_task_place_house_chicken = ニワトリ小屋
+	l4_task_place_house_chicken_details = ニワトリ小屋を建ててください
+	l4_task_place_hangar_refrigerator = 冷やして貯蔵する
+	l4_task_place_hangar_refrigerator_details = 保冷倉庫を買いましょう
+	
+	l4_message_big_cooler = 道のつき当たりの工場が巨大送風機の試験を行って近所の作物を吹き飛ばしてしまいました。このむちゃくちゃな工場が巻き起こすすさまじい暴風から村や作物を守るために、木を並べて植えなければなりません。何本かはもう植えてありますが、もっともっと必要です！
+	l4_message_first_task = 木を６本植えなければなりませんが、でもまだお金が足りません。野菜を売るだけではあまり儲かりませんし、ブタ小屋もぼろぼろになってしまったのでこちらもほとんどお金になりません。ですがすばらしいニワトリが手に入るかもしれません。ニワトリは大飯食らいではありますが、ニワトリ小屋を建てられればタマゴを売ることができます。この方がはるかに儲かります。もちろん養鶏のライセンスが必要ですが、村人たちは許可がおりしだいその費用を援助すると約束してくれました。
+	l4_message_place_patent_for_house_chicken = これでニワトリ小屋を建てる建築許可と経営のライセンスがもらえました。そして約束どおり村人たちから費用の援助にと４００ドルを受け取りました。
+	l4_message_second_task = さあ、これでニワトリ小屋ができました。ですがあいにくタマゴは納屋に貯蔵できませんので保冷倉庫を建てなければなりません。またべつの建築許可が必要ですが、村人たちは建設費用のほうは肩代わりすると言ってくれました。
+	l4_message_place_patent_for_hangar_refrigerator = やりました！　建築許可を手に入れたので、建設が始められます。そして村人たちが５００ドル寄付してくれました。
+	l4_message_last_task = すばらしい！　これで収入が安定しました。ニワトリにトウモロコシを与えてさえおけば、タマゴで高収入が期待できるでしょう。さあ、村を救うといういちばんの目的に集中しましょう。リンゴの木をあと３本、スモモの木をあと３本買って植えなければなりません。
+	l4_message_trees_help = 樹木には水やりも肥料も不要ですが、それでもいつも実をつけます。収穫だけは忘れないようにしましょう。
+	l4_message_pig_help = ブタ小屋の前の畑にビーツがあります。ビーツはトマト同様ブタの好物で、しかもより早く育ちます。
+	l4_message_victory = ありがとう！　農場は植えてもらった木のおかげで安全になったし、しかも新しいやり方で安定した収入が得られるようになったよ！
+	l4_message_hangar_refrigerator_help = 初めての保冷倉庫ですね。タマゴやミルク、ハチミツなどの腐りやすい農産物はここに貯蔵しなければなりませんよ。
+	
+	l4_message_harvester_help = それとこちらは初めての雇い人ビリーです！　果物や野菜の収穫を安い給料で手伝ってくれるそうです。彼をクリックすればお金を支払って働いてもらうことができます。そのときに自動的に１００ドルが口座から引き落とされます。
+	l4_message_harvester_money_help = ビリーが仕事を一休みしています。頭の上にコインがありますが、給料日の合図です。支払いをすれば仕事に戻ります。
+	l4_message_harvester_question_help = 雇い人の頭の上にクエスチョンマークが出ています。ビリーがなにをすればいいのかわからなくなっているという合図です。これは収穫できるものがないときに起こります。なにかが育って収穫できるまで待たなければなりません。
+	l4_message_transporter_help	= お店でクレーンを借りられるようになりました。クレーンを使えばすべての設備を新しい場所へ移せますし、木を別な場所に植えなおすこともできます。クレーンを選んで移動したいものをクリックし、それを移したい場所にクリックしてください。このサービスを受けるたびに１０ドルの費用がかかります！
+	
+	l5_task_flowers_garden = 花を売る
+	l5_task_flowers_garden_details = 花の販売をはじめてください
+	l5_task_buy_hangar_flowers = 新しい保存設備
+	l5_task_buy_hangar_flowers_details = 花の保存用に温室を買ってください
+	l5_task_sell_batch_flowers = 花を売る
+	l5_task_sell_batch_flowers_details = ヒマワリを６箱とダリアを６箱売って注文を完了させてください
+	l5_task_buy_flowers_patent = 草花栽培のライセンスを購入する
+	l5_task_buy_flowers_patent_details = ヒマワリの種とダリアの球根をオーダーしてください
+	l5_task_flowers_sow = 花を植える
+	l5_task_flowers_sow_details = ヒマワリの種を１２個とダリアの球根を１２個植えてください
+	l5_task_second_victory = ５０００ドルを稼ぐ
+	l5_task_second_victory_details = 農場を乾燥させるために５０００ドルを稼いでください
+
+	
+	l5_message_about_tasks = 近くの工場がダムを建設し、村のすぐとなりに貯水池を作りました。おかげで土地はじめじめして沼地のようです。作物はひどい出来で、ただブタ小屋とウシ小屋、灌漑設備だけが残されました。誰もがほとんど希望をなくしかけたのですが、とつぜんの強風で農場に珍しい種が飛ばされてきました。市場ではいい値で売れますが、でも売りに出す前にしおれてしまうでしょう。保存するいい手を考えなければなりません。
+	l5_message_first_task = この花々は特別な温室に保存しなければなりません。ですが、温室を建てる前に建築許可の申請と草花栽培のライセンスが必要です。温室さえ建てれば、花々を収穫して保存することができます。
+	l5_message_second_task = やりましたね！　これで摘んだ花を保存できます。花を収穫して市場で需要があるかどうか試してみましょう。
+	l5_message_third_task = 花の売れ行きは好調です！　なのでこの一帯を花畑にしようと決めました。追加の種を注文しなければなりません。種さえ手に入れば花はどんどん売れるはずです。
+	l5_message_last_task = たくさん注文をもらいました。大急ぎでヒマワリ畑とダリア畑を作りましょう。
+
+	l5_message_add_water_sprinkler = 花を売っていると知った近所のお店が、便利なスプリンクラーを扱っていると教えてくれました。それがあれば花に水をまく手間と時間が省けます。
+	l5_message_plant_dahlia = お見事！　ダリアの注文を完了させました！
+	l5_message_plant_sunflower = すばらしい！　ヒマワリの注文を完了させました！
+	l5_message_plant_sunflower_help = ニワトリはヒマワリの種が大好物のようです。ニワトリにヒマワリの種をエサとして与えられます。
+	l5_message_victory = これできれいな花の販売ならこの一帯でうちが最大手になれたよ！　ありがとう！！
+		
+	l5_message_helper_help = ジョニーに気がつきましたか？彼は花や苗に肥料を与えてくれます。しかも給料はたった１００ドルです。
+	
+	l5_notify_add_patent_for_flowers = ヒマワリの種とダリアの球根のオーダーができるようになりました。詳しくは種と苗のタブをご覧ください。
+		
+	l5_message_dead_flower = 花がすっかり枯れてしまいましたが、やりかけのまま放ってはおけません。農場を乾燥させてなにもかも元どおりにするために５０００ドル稼がなければなりません。
+	l5_message_second_victory = 花は枯れてしまいましたが、土はどうにか無事でした。これならなんとかなりそうです。
+		
+	l6_task_beehive_save = ハチミツの伝統を救え
+    l6_task_beehive_save_details = この村の養蜂の伝統を復活させるためハチミツを４箱販売してください
+    l6_task_collect_batch_vegatables = 野菜を売る
+    l6_task_collect_batch_vegatables_details = キュウリ、トマト、キャベツとトウガラシを各６箱販売してください
+    l6_task_collect_batch_flowers = 珍しい花を売る
+    l6_task_collect_batch_flowers_details = ヒマワリ、ダリアとチューリップを各６箱販売してください
+    
+    l6_message_hello_heroine = やあ、どうも！　むかしはうちの村もハチミツで有名だったんだが。数え切れないほど巣箱があったのに、最近じゃすっかりすたれちまって村のにぎわいも今は昔さ。わしたちみんなでがんばって伝統を守っていたんだが、キャンディー工場ですっかりやられちまった。お前さん、伝統を復活させるのを手伝ってもらえんかね？　いま残っているのは種が何袋かと納屋のわきに木が数本だけなんだが。手始めはこれでじゅうぶんだと信じとる。がんばっておくれ！
+    l6_message_about_tasks = 村を助けるにはハチミツ小屋を復活させなければなりませんがでもそれはまだまだ先の話。まずは仕入れ業者の注目を集めなければなりません。農園で野菜を育ててお金を稼ぐところから始めましょう！
+    l6_message_first_task = 大手のお客の注目を集めて近所のお店に新しい作物のオーダーをするために、キュウリ、トマト、キャベツとトウガラシを各６箱売らなければなりません。
+    l6_message_second_task = さてお店の経営者たちの注目を集めなければなりません。そのために珍しい花を植えてみましょう。ヒマワリ、ダリアとチューリップを各６箱売ってください。
+    l6_message_main_task = さあこれでミツバチ小屋が買えます。自家製の珍しいハチミツをおひろめするには絶好のタイミングです。注目を集められれば村に富と伝統がよみがえるでしょう。ハチミツを４箱売ってください。
+    l6_message_see_pedicellates_patents = トウガラシとキャベツの種はまだお店で買えませんのでご注意を。オーダーしてお店に手数料を払わなければなりません。
+	l6_message_help_hangar_flowers = 温室の中なら、花がしおれる前に長期間保存できます。またスイカやイチゴも温室で貯蔵できます。
+    l6_message_help_hangar_refrigerator =  ミルク、タマゴやハチミツといった腐りやすい農産物は保冷倉庫で貯蔵できます。
+    l6_message_help_beehive = ミツバチはどこかで花の蜜を集めなければなりませんから、ミツバチ小屋のそばに花を植えるのは理にかなっていると思いませんか？　花に水を与えるのもお忘れなく。
+	l6_message_add_hangar_refrigerator = 家でミルクを冷蔵庫に保存しておくのなら、ミルクとタマゴ、それにハチミツも保冷倉庫に貯蔵しておくのが当然だと思いませんか？　保冷倉庫がお店で買えるようになりました。
+	
+    l6_message_victory = どうもありがとう！　ここでとれるとっても甘いハチミツのおかげで、生活がぐんと楽になったよ！
+
+	l7_task_contest0 = 申し込み用紙
+	l7_task_contest0_details = 競技の参加費の支払いで２００ドル稼がなければなりません
+	l7_task_contest1 = 予選
+	l7_task_contest1_details = 技術を証明するために審査員にキュウリ、ラディッシュとカボチャを各７箱、提出しなければなりません
+	l7_task_contest2 = 一回戦
+	l7_task_contest2_details = この競技で勝つためには農場を大きくしなければなりません。まずはトマト、ビーツ、ナスとトウモロコシを植えましょう
+	l7_task_contest3 = 品質管理
+	l7_task_contest3_details = 検査のためトマト、ビーツ、ナスとカボチャを１箱ずつ審査員に提出しなければなりません
+	l7_task_contest4 = 畜産部門
+	l7_task_contest4_details = この種目をクリアするにはコブタを３頭とタマゴを３箱、審査員に提出しなければなりません
+	l7_task_contest5 = 果樹園
+	l7_task_contest5_details = この種目をクリアするにはリンゴ、スモモそれにサクランボの木を３本ずつ植えなければなりません
+	l7_task_contest6 = 審査とは名ばかり
+	l7_task_contest6_details = 審査員はあなたの果物がとても気に入ってリンゴ、スモモとサクランボを各２箱要求しました
+	l7_task_contest7 = 花で平和を
+	l7_task_contest7_details = 園芸の能力も証明しなければならないので温室を買ってダリア、ヒマワリとチューリップを各６箱審査員に提出してください
+	l7_task_contest8 = まあスイートね
+	l7_task_contest8_details = はたらきバチのように忙しく働いてミツバチ小屋を建て、ハチミツを７箱審査員に提出してください
+	l7_task_contest9 = 新種目追加
+	l7_task_contest9_details = 最低ひとつ、ウシ小屋をオーダーして建設しなければなりません
+	l7_task_contest10 = ミルクある？
+	l7_task_contest10_details = ビタミンたっぷりのミルクを１０箱、審査員に提出しなければなりません
+	l7_task_contest11 = 農場経営
+	l7_task_contest11_details = 審査員が損益を知りたがっているので、１５００ドル稼いで農場は儲かるとアピールしましょう
+	l7_task_contest12 = 野菜で優勝に王手
+	l7_task_contest12_details = 変わりだねの果物や野菜（マッシュルーム、トウガラシ、スイカとイチゴ）のハートマーク５個の元気な畑をそれぞれ作ってください（どの畑にも苗が１２本必要です）
+
+	l7_message_hello = 品評会が近づいてきました。優勝の賞金は十万ドルです。それだけのお金があればこのところ経営が苦しいご近所の農場を助けてあげられます。毎年、地元の村から農家が参加しているのですが、もう２世代ものあいだ優勝していません。それでもみんなはあなたが有望だと考えているようですよ。
+	l7_message_about_tasks = 競技のルールは以下のとおり。一農家につき小さな畑と納屋が一軒、リンゴの木が一本、それに種一袋が与えられてスタートします。競技終了の時点で、もっとも優れた農場を作った農家が優勝です！　あなたが優勝すればその賞金で足りない設備を買って、しかも従業員を何人か雇えるでしょう。なによりも村全体のやる気が高まります！
+	l7_message_first_task = ですが、まず参加申し込み用紙に記入して２００ドルの参加料を支払わなければなりません。その金額なら手持ちの素材で稼げます。競技の開始にともなって参加者すべてに農業用品の資金として、３０ドルが支給されます。
+	l7_message_second_task = さて審査員があなたの農場を見回って準備ができているかを調べます。それにはいくつかの種類の野菜を７箱ずつ提出しなければなりません。幸いなことに審査員に要求されたのは、キュウリ、ラディッシュとカボチャが各７箱でした。この地方でよく育つ野菜ばかりです！
+	l7_message_third_task = 競技が始まりました。このイベントにはいくつもの種目がありますが、種目ごとに審査員が課題として出す新しい種やさまざまな品種が配給されます。競技の最初の種目のあいだに、とにかくいろいろな種類の苗を育てることが肝心です。それではトマト、トウモロコシ、ナスとビーツを植えましょう。種はどれもお店で売っています。
+	l7_message_fourth_task = こんどは育てた野菜のサンプルを各種類１箱、審査員に提出して検査と計量、味見をしてもらわなければなりません。
+	l7_message_fifth_task = やりました！　二回戦に勝ち進めたので、こんどは畜産の技術を見てもらいましょう。コブタを３頭育て、卵を３箱提出しなければなりません。ブタ小屋とニワトリ小屋、それに保冷倉庫はお店に売っています。二回戦に進むために必要とされる建物の補助金として５００ドル受け取りました。
+	l7_message_sixth_task = ご存知のとおり、樹木は土地を肥えさせるのに役立ちます。それに景観も引き立ててくれます。審査員からリンゴの木を３本、スモモの木を３本、サクランボの木を３本植えるように告げられました。
+	l7_message_seventh_task = 木になった果物がとてもおいしそうなので審査員のひとりからリンゴ、スモモとサクランボを各２箱、試験用にぜひ欲しいとたのまれました。あまりに見事な出来なので、近所の農学校に送ってその成分をみんなで調べたいのだそうです。どうか無事に農学校まで届きますように。審査員のおなかの中じゃなく。
+	l7_message_eighth_task = 毎年このイベントには花き部門があり、今年も例外ではありません。種と温室はもうお店で売っています。
+	l7_message_ninth_task = 花あるところ、ミツバチあり。そしてミツバチあるところ、ハチミツあり。お察しのとおり、次の種目は養蜂です！　審査員に甘いハチミツを７箱提出しなければなりません。
+	l7_message_tenth_task = お知らせが届きました。今年は競技に最優秀ミルク部門が加わることになりました。困ったことに村ではミルク用のウシは誰も育てていません。少なくとも一棟、ウシ小屋をオーダーをしなければなりません。
+	l7_message_eleventh_task = 競技のルールによると、ミルクはおいしい上にビタミンが豊富でなくてはなりません。そのためには牧草のかわりに野菜をウシに与える必要があります。それでミルク中のビタミンが増やせるはずです。ウシはニンジンかキャベツを食べます。収穫したミルクは保冷倉庫でしっかり保存してください。審査員にミルク瓶を１０箱、提出しましょう。
+	l7_message_twelfth_task = この農場で儲けられると実証しなければなりません。１５００ドル稼いで農場経営がおいしい商売だと証明しましょう。
+	l7_message_thirteenth_task = 競技のすべての種目を終えました。審査員が農作物の重さや味農場の美しさと損益を評価しています。ですが農場をより改善する時間がまだ少し残されています！　急いで変わりだねの果物と野菜の畑を用意して、肥料をたっぷりまきましょう（元気メーターがハートマーク５個分になるように）。農場でどれだけ早く珍しい果物や野菜が育てられるかを審査員に見てもらうのですから、収穫してはいけません。審査員はまちがいなく感心するでしょうし、そうなれば勝利はもうあなたのものです。スイカ、トウガラシ、イチゴの種とマッシュルームの種菌はお店で買えます。
+	
+	l7_message_add_harvester = 競技のルールによると、手伝いを雇ってもよいことになっています。その手を使って有利に進めませんか？
+	l7_message_victory = おめでとう！　審査員はあなたの農場がいちばんすてきでもっとも収益が高いと評価してくれました。珍しい果物や野菜が実る畑を見て、あなたの作った農場がいちばんだと意見が一致したのでしょう。勝ち取ったこの賞金さえあれば、この一帯の農業をよみがえらせることができます。最優秀農家に万歳三唱！
+	l7_message_watermelon_help = スイカは保冷倉庫に貯蔵しなければなりません。
+	l7_message_strawberries_help = イチゴは保冷倉庫に貯蔵しなければなりません。
+
+	l8_task_first_task = ご近所さんを助ける
+	l8_task_first_task_details = ３００ドル稼いでジョーンズじいさんが新しいお店を開くのを助けてあげてください
+	l8_task_second_task = 新規のオーダーをする
+	l8_task_second_task_details = ナス、トウモロコシとニンジンの種をオーダーしてください
+	l8_task_third_task = ナスに夢中
+	l8_task_third_task_details = 苗木を売ってくれる人のためにナスを２０箱収穫してください
+	l8_task_fourth_task = 新しい建物
+	l8_task_fourth_task_details = ウシ小屋、ヒツジ小屋、ニワトリ小屋とミツバチ小屋のオーダーをして建設許可を買ってください
+	l8_task_fifth_task = 新しい貯蔵場所
+	l8_task_fifth_task_details = 納屋と保冷倉庫をオーダーしてください
+	l8_task_sixth_task = 広告大作戦
+	l8_task_sixth_task_details = ニワトリ小屋、ウシ小屋、ヒツジ小屋を買ってください
+	l8_task_seventh_task = 花で平和を
+	l8_task_seventh_task_details = ヒマワリとダリアを各７箱、それとハチミツを３箱売ってください
+	l8_task_eighth_task = チューリップの再来
+	l8_task_eighth_task_details = チューリップの球根をオーダーしてください
+	l8_task_ninth_task = 農園の見本
+	l8_task_ninth_task_details = スプリンクラーを８基設置して、園芸作業員を４人雇ってください
+	l8_task_tenth_task  = 海外の仕入先
+	l8_task_tenth_task_details = スイカ、イチゴにマッシュルーム、それとトウガラシをそれぞれ１２個ずつ、植えてください
+	l8_task_eleventh_task = 貯金
+	l8_task_eleventh_task_details = ８００ドル稼いで将来なにかあったときのために備えてください
+
+	l8_message_hello = いつも仕入れるお店からとても悪い知らせが届きました。農業用品が在庫切れだと告げられたのです。種も、木も、家畜もありません。お店のオーナーたちに申し訳ないと謝られましたがでも彼らもどうしようもないのです。種が手に入らなければこの一帯で農業を復活させるという夢もこれまでです。なんとかしなければなりません。
+	l8_message_about_tasks = 昔なじみの仕入れ業者に会いました。ジョーンズじいさんは気の良いお年寄りで、出荷をすべてキャンセルするしかなかったと教えてくれました。仕入先の工場長が彼の店に立ち寄り、近所の農場からもらっている注文をすべてキャンセルするように迫ったのだそうです。もし断れば店への入荷をすべてとりやめるといわれて、ジョーンズじいさんはそのとおりにするしかありませんでした。べつの場所を借りて新しくお店を開くお金がなかったからです。
+	l8_message_first_task = この一帯の仕入れ業者すべてが工場長に脅されたのか、さだかではありません。ですがジョーンズじいさんとある約束をしました。新しく場所を借りてお店を開きなおすには３００ドル必要です。それを手伝ってあげれば、お返しに彼が種のオーダーを受けてくれると言うのです。そうなればビーツ、キュウリ、カボチャの種が山ほど買えるようになるでしょう。
+	l8_message_second_task = ジョーンズじいさんは大喜びです。新しい場所を借りるのに２００ドルしかかからなかったので、１００ドル返してくれました。しかも彼はべつの町で農業用品店を営んでいる知り合いに手紙を出してくれたそうです。昔どおりの値段で種を何種類か売ってくれると言います。ただオーダーしさえすれば、ナス、トウモロコシとニンジンの種が買えるようになります。
+	l8_message_third_task = ジョーンズじいさんはこんどは木の苗木を売ってくれる知り合いと連絡を取ってくれました。ジョーンズじいさんによるとその人はナスが大好物なのですが食料品店ではもう売っていないのだそうです。ナス１本と苗木１００本を交換してもいいと笑っていたそうですが、どんな笑い話にもちょっとした真実が隠されているものです。ナスを２０箱送ってあげれば、苗木を売ってくれという頼みにも嫌とは言えなくなるでしょう。
+	l8_message_fourth_task = 誰も家畜小屋を建ててくれなくて、と製材所の人たちに話したところ、じゃあ俺たちがやってやろうと言ってくれました。ブタ小屋を建ててみせてくれましたが町から買っていたのと同じくらい立派な出来です。彼らはブタ小屋の建築許可しか持っていませんでしたが、もし追加の建築許可を取ってたくさんオーダーをもらえるなら、よろこんでウシ小屋やヒツジ小屋、ニワトリ小屋とミツバチ小屋も建ててくれるそうです。
+	l8_message_fifth_task = おや、貯蔵する場所なしでいったいどうするつもりですか？　納屋と保冷倉庫の建築許可を手に入れなければなりません。
+	l8_message_sixth_task = 製材所の人たちのために彼らの新しい事業を宣伝しなければなりません。ニワトリ小屋、ウシ小屋とヒツジ小屋を建ててもらい宣伝に一役買いましょう。
+	l8_message_seventh_task = べつの町の種の仕入れ業者があなたの農場の評判を伝え聞きました。花の種を用意して、さっそくダリアの球根とヒマワリの種を送ってくれ、そのうえ温室まで自ら準備したそうです。種や球根のオーダーをする必要はありませんが、彼は花の扱い方を心得ていると証明できたお客にしか愛するチューリップの球根を売ってくれないそうです。ヒマワリを７箱、ダリアを７箱送って自分の力を証明しなければなりません。ですがそれだけでは足りないようです。彼はハチミツが大好物とわかりましたので、ハチミツを３箱送っておいしい契約を結びましょう。
+	l8_message_eighth_task = 仕入れ業者は花の出来に感激して、愛するチューリップの球根を提供してくれることになりました。さあ、あとはオーダーをするだけです。
+	l8_message_ninth_task = 変わりだねの果物と野菜をのぞけば、必要な仕入先はようやくすべて確保することができました。しかもどうやら運に恵まれたようです。果物や野菜を扱う海外の仕入れ業者が、昨日町を訪れました。ただ困ったことにその業者と取引するには厳しい基準を満たさなければなりません。設備が整っていて、果物や野菜にじゅうぶん気を配れる態勢の農場にしか種や苗を売ってくれないそうです。その基準を満たすため、スプリンクラーを８基と園芸作業員を４人、そろえなければなりません。
+	l8_message_tenth_task = 変わりだねの種にくわえ、海外の仕入れ業者はほかにも見たこともない種を売ると言ってくれました。畑をたくさん準備して海外の種が農場の環境に適しているか、試してみましょう。
+	l8_message_eleventh_task = 不測の事態に備え、お金を貯めなければなりません。８００ドルあれば、おそらくどんな事態がおきてもなんとか切り抜けられるでしょう。
+	
+	l8_message_victory = やりました！　工場の脅しをはねのけましたね。必要な仕入れ先はどうにかすべて見つけることができました。どれほど心配性の人でも、あなたの勝利を信じて疑わないでしょう！
+	l8_message_sheep_help = 新しい仕入れ業者が初めての家畜を用意してくれました。ヒツジです。最新の研究によると、キャベツとニンジンを食べて育ったヒツジのウールはずっと良質で強靭になるそうです。
+	
+	l9_task_first_task = 抵当権を買戻す
+	l9_task_first_task_details = １０，０００ドルを稼がなければなりません
+
+	l9_message_hello = 数年前、みんな大きな間違いを犯しました。アグロ銀行が開設されたとき、たくさんの農家が多額のローンを組んで土地を買い、設備を整えました。アグロソンは低金利を約束し、誰もが何もかもうまく行くと信じていたのです。ですがみんなは農家で、法律家じゃありません！　あんな細かい文字の規約をしっかり読まなきゃだめだなんてぜんぜん知りませんでした。その結果、たくさんの農家がアグロソンの銀行からばく大な借金をしょいこんでしまったのです。
+	l9_message_about_tasks = アグロ銀行は今や抵当権の行使をふりかざし、農場は即刻ローンを返済しろと迫っています。もし今すぐ借金を返せなければこの地方のほとんどの農家は担保に土地を取り上げられてしまうでしょう。１０，０００ドル稼いで農場を救い、アグロ銀行と永遠におさらばしなければなりません。
+	l9_message_victory = 「９９９８、９９９９、１００００。ううむ、確かに全額そろってますな。こちらが領収証でローンを全額返済した証明書となるものです。では、ごきげんよう」とアグロ銀行の窓口係はちょっぴり不機嫌そうでした。農場は救われたのです！
+	
+	l10_task_first_task = 日照り
+	l10_task_first_task_details = 新しいスプリンクラーを待つあいだ（１０分間）、苗が枯れないように世話をしてください
+	l10_task_second_task = 十分な水を
+	l10_task_second_task_details = スプリンクラーを５基設置してください
+	l10_task_third_task = 農園をよみがえらせる
+	l10_task_third_task_details = トウモロコシ、キャベツとニンジンを各２４個、ビーツを１２個植えてください
+	l10_task_fourth_task = 新たな改善
+ 	l10_task_fourth_task_details = 園芸作業員を３人雇ってください
+	l10_task_fifth_task = 多様化
+	l10_task_fifth_task_details = バナナの木を４本植えてください
+	l10_task_sixth_task = 所有権争い
+	l10_task_sixth_task_details = １２００ドル稼いでください
+	
+	l10_task_alt_second_task = 農園の再生
+	l10_task_alt_second_task_details = ビーツ、カボチャとラディッシュ、それからキュウリを１２個植えてください
+	l10_task_alt_third_task = 新たな改善
+	l10_task_alt_third_task_details = スプリンクラーを４基設置してください
+	l10_task_alt_fourth_task = 収益の良い家畜
+	l10_task_alt_fourth_task_details = コブタを２頭、卵を２箱、ミルクを２箱とウールを２箱売ってください
+	l10_task_alt_fifth_task = 多様化
+	l10_task_alt_fifth_task_details = バナナの木を４本、サクランボの木を３本、スモモの木を２本、植えてください。
+	l10_task_alt_sixth_task = 所有権争い
+	l10_task_alt_sixth_task_details = １２００ドル稼いでください
+	
+	l10_message_hello = 来てくれてうれしいよ。このありさまを見ておくれ。なにもかも干上がってからからになっちまったんじゃ。昔はお手本のような畑だったのに、もう干からびかけとる。このあたりじゃ昔は日照りなんか一度もなかったもんだから、店にはスプリンクラーなぞ置いとらんのさ。仕入れ先がスプリンクラーを注文してくれたんだが、いつ入荷するものやらさっぱりわからん。
+	l10_message_about_tasks = 土地と作物を救わなければなりません。井戸掘り職人とスプリンクラーの補充品がもうすぐ届くはずです。それまでに作物に水を与えながらお金を稼ぎ、届きしだい買えるようにしなければなりません。スプリンクラーさえ設置できれば、なにもかもうまく行くでしょう。
+	l10_message_first_task = 井戸掘り職人と補充品がこちらに向かっていますが、でも農園を枯らすわけにはいきません。設置用の機材が到着するまで、苗に水を与えて世話をしましょう。
+	l10_message_second_task = やりました！　これで苗に水を自動で与えられます。ですが、ぜんぶの苗がまちがいなくスプリンクラーでカバーできるようにしなければなりません。どうやら少なくとも５基、スプリンクラーを設置しなければいけないようです。
+	l10_message_third_task = あなたがここに来るまでにかなりの苗がしおれて枯れてしまったので、家畜に与えるエサ用の作物が育てられません。スプリンクラーを届けてくれた仕入れ業者が必要な種をすべて用意してきましたが、でもまず配達料を払わなければなりません。そうすればトウモロコシ、キャベツやニンジン、ビーツを植えられるようになります。
+	l10_message_fourth_task = すばらしい！　これで家畜にたっぷりエサを与えられるので農場の収入を増やせるでしょう。残念ながら、日照りのせいで農場の収穫は以前ほど多くはありません。園芸作業員を３人雇って肥料をふんだんに与えてもらうのがよさそうです。野菜が早く育てば利益も増え、農場はかつての地位を取りもどせます。
+	l10_message_fifth_task = さすがです！　農場を救い、その栄光を取りもどしました。ちょうど新しい変わりだねの木の売り込みがありました。何本かを植えて作物の多様化をはかれば、将来への有意義な投資になるでしょう。バナナの木を４本植えてください。
+	l10_message_sixth_task = 見事な出来ばえです！　農場は日照りを乗り切りましたが、でもこんどは所有権争いに巻きこまれました。地元のお役所は農場が土ぼこりに埋もれて見込みがないと思い近所の工場の敷地拡張用に売ってしまいました。農場の借地権の有効期限はまだ三十年以上残っていますから、あきらかに法律違反です。弁護士を雇って法廷で争わなければなりません。残念ながら、良い弁護士ほど高くつきます。１２００ドル稼いでいちばん良い弁護士を雇い、まちがいなく訴訟で勝てるようにしましょう。	
+	l10_message_alt_second_task = 一大事です！　作物がすべてやられてしまいました。農園を立て直してまた元どおりにしなければなりません。農業用品のお店がここの悩みを聞きつけて、日照りでも枯れにくい特別な交配種の種を買わないかと言ってくれました。新しくオーダーし直さなければなりませんが、それだけの価値はあるでしょう。近所の農場もここが困っていると聞いて６８０ドル貸してくれました。枯れた苗をビーツ、カボチャ、それにラディッシュやキュウリなどに植え替えなければなりません。
+	l10_message_alt_third_task = 特別な交配種の種があるとはいえ、日照りはまだ終わっていません。また災難に見舞われないよう、スプリンクラーを少なくとも４基設置しなければなりません。それと園芸作業員を雇えるようになりました。
+	l10_message_alt_fourth_task = 農園はどうやら順調のようですので、こんどはここ数日何も食べていない家畜の世話にとりかかりましょう。家畜のエサ用として野菜を育てなければなりません。そのあとでコブタを２頭タマゴを２箱、ミルクを２箱とウールを２箱収穫しましょう。
+	l10_message_alt_fifth_task = 買った種は砂漠の中でも育つとはいえ、商売として考えれば農場の作物を多様化させておいて損はありません。仕入れ業者おすすめの暑く乾燥した気候にぴったりの変わりだねの木を買いましょう。バナナの木を植えてください。そらにサクランボとスモモの木も植えましょう。
+	l10_message_alt_sixth_task = 農場は日照りを乗り切りましたが、でもこんどは所有権争いに巻きこまれました。地元のお役所は農場が土ぼこりに埋もれて見込みがないと思い、近所の工場の敷地拡張用に売ってしまいました。農場の借地権の有効期限はまだ三十年以上残っていますから、あきらかに法律違反です。弁護士を雇って法廷で争わなければなりません。残念ながら、良い弁護士ほど高くつきます。１２００ドル稼いでいちばん良い弁護士を雇い、まちがいなく訴訟で勝てるようにしましょう。
+	
+	l10_message_harvester = 従業員を雇ったほうが良さそうです。果物と野菜を収穫して、苗に水を与えているあいだもスプリンクラーを買う資金を稼いでくれます。
+	l10_message_add_water_sprinkler = スプリンクラーがお店で買えるようになりました。
+	
+	l11_task_first_task = 最初の目標
+	l11_task_first_task_details = コブタ５頭とビーツ１箱、トマト１箱を売り収穫作業員１人を雇ってください
+	l11_task_second_task = ２番目の目標
+	l11_task_second_task_details = ナス１箱を売り保冷倉庫を建て、園芸作業員１人を雇ってスプリンクラー２基を設置してください
+	l11_task_third_task = ３番目の目標
+	l11_task_third_task_details = ラディッシュ１箱とタマゴ５箱を売り、園芸作業員１人と収穫作業員１人を追加して雇ってください
+	l11_task_fourth_task = ４番目の目標
+ 	l11_task_fourth_task_details = ヒマワリ１箱とダリア１箱を売り、温室とミツバチ小屋を建ててください
+	l11_task_fifth_task = ５番目の目標
+	l11_task_fifth_task_details = ニンジン１箱、キャベツ１箱とミルク５箱を売り、収穫作業員１人を追加して雇ってください
+	l11_task_sixth_task = ６番目の目標
+	l11_task_sixth_task_details = マッシュルーム５箱とハチミツ５箱を売り、園芸作業員１人を追加して雇ってスプリンクラー４基を新しく設置してください
+	l11_task_seventh_task = ７番目の目標
+	l11_task_seventh_task_details = チューリップ５箱、カボチャ３箱とキュウリ３箱を売り、ヒツジ小屋を建ててください
+	l11_task_eighth_task = ８番目の目標
+	l11_task_eighth_task_details = イチゴとスイカを４箱売り、園芸作業員１人と収穫作業員１人を追加して雇ってください
+	l11_task_ninth_task = ９番目の目標
+	l11_task_ninth_task_details = ウール１箱を売りリンゴの木１本とサクランボの木１本を植え、スプリンクラー２基を設置してください
+	l11_task_tenth_task  = １０番目の目標
+	l11_task_tenth_task_details = トウガラシ５箱を売り、ニワトリ小屋、ヒツジ小屋とウシ小屋を建ててください
+	l11_task_eleventh_task = １１番目の目標
+	l11_task_eleventh_task_details = スモモとバナナの木を１本ずつ植え、８００ドル稼いでください
+	
+	l11_message_hello = 農業を一歩進化させる時が来ました！　新しい基準をすべて満たす農場を建てなければなりません。この一帯のほかの農場はどれもあなたのお手本に従って規模を広げ、いっそう利益を増やしています。この一帯が栄えているのはすべてあなたのおかげなのです！
+	l11_message_about_tasks = 予定どおりいけば近代的で効率が良く、利益を最大化できる農場が建てられます。それが出来たあかつきには、この地方のすべての農場がこぞってまねるお手本になるでしょう！
+	l11_message_first_task = まずはお金を少々稼がなければなりません。ブタ小屋を建ててコブタを５頭、ビーツを１箱とトマトを１箱売り、そして自動化へ向けての第一歩として従業員を１人雇い、野菜の収穫を手伝ってもらいましょう。
+	l11_message_second_task =  いろいろな種類の野菜を育てなければなりませんので、ナスから始めましょう。それと腐りやすい農作物を育てる準備もしなければなりませんから、保冷倉庫を建てましょう。さらに、自動化の名のもとに、スプリンクラーを２基設置して園芸作業員を１人雇いましょう。
+	l11_message_third_task = 新しい技術を試すため、ラディッシュを１箱出荷しなければなりません。それと保冷倉庫はぜひ活用したいので、ニワトリ小屋を建ててタマゴを５箱売ってください。さらに自動化を進めるために、手伝いをまた２人――園芸作業員と収穫作業員を１人ずつ――雇いましょう。
+	l11_message_fourth_task = 新しい農場は何もかも備えられていなければ。ですから花も忘れずに育てましょう。ヒマワリとダリアを植えたら、温室を建てて花を保存しましょう。ミツバチ小屋を建てることもお忘れなく。
+ 	l11_message_fifth_task = 農場の自動化を進めるために、もう１人収穫作業員を雇いましょう。ニンジンを１箱とキャベツを１箱売らなければなりません。さらに、それらをエサとしてウシを育てミルクを５箱売りましょう。
+	l11_message_sixth_task = 苗の世話に悩まされなくてもいいように園芸作業員をもう１人雇い、スプリンクラーをいくつか設置しなければなりません。それが済んだらマッシュルームを植えて５箱売りましょう。それからハチミツも５箱売ってください。
+	l11_message_seventh_task = チューリップを５箱、カボチャを３箱とキュウリを３箱売ってください。農場には何もかも必要なわけですから、ヒツジ小屋も建てなければなりません。
+	l11_message_eighth_task = 手伝いを２人雇ってください。彼らが忙しく働いているあいだに、果物をいくつか新しく導入してみましょう。スイカとイチゴを各４箱売ってください。
+	l11_message_ninth_task = ヒツジ小屋の様子を見ながらウールを１箱売りましょう。将来植える作物のために前もってスプリンクラーを２基設置し、さらにリンゴとサクランボの木を植えておいしい果物が収穫できるようにしてください。
+	l11_message_tenth_task  = 農場をもっと拡大しなければなりませんのでニワトリ小屋、ヒツジ小屋にウシ小屋を複数建てましょう。それからトウガラシを植えて５箱売ってください。
+	l11_message_eleventh_task = それでは壮大な計画の完成にあたりスモモとバナナの木を植えましょう。さらに８００ドル稼いで作業員全員を監督する農場長を雇えるようにしましょう。
+	
+	l11_message_victory = ついにわれらが崇高な計画の完成です。この農場はこの地方すべてのお手本となり、この地域はさらなる繁栄を見せることでしょう。
+		
+	l12_task_first_lot_vegetables = 野菜の最初の注文を出荷
+	l12_task_first_lot_vegetables_details = ラディッシュ、カボチャ、トウモロコシとトマトを各３箱用意してください
+	l12_task_second_lot_vegetables = 野菜の２番目の注文を出荷
+	l12_task_second_lot_vegetables_details = キュウリ、ナス、トウガラシとマッシュルームを各３箱用意してください
+	l12_task_first_lot_flowers = 花の最初の注文を出荷
+	l12_task_first_lot_flowers_details = チューリップ、ダリア、ヒマワリを各３箱用意し、さらにスイカも用意してください
+	l12_task_first_lot_strawberries_behive = ハチミツとイチゴを出荷
+	l12_task_first_lot_strawberries_behive_details = イチゴとハチミツを各３箱用意してください
+	l12_task_first_lot_trees = 果物の注文を出荷
+	l12_task_first_lot_trees_details = リンゴ、バナナ、スモモとサクランボを各３箱用意してください
+	l12_task_first_lot_farms_produktion = 食料雑貨の注文を出荷
+	l12_task_first_lot_farms_produktion_details = コブタを３頭、タマゴ、ウールそれにミルクを各３箱用意してください
+	l12_task_first_shop_order = 食料雑貨店の注文を出荷
+	l12_task_first_shop_order_details = コブタを３頭、ヒマワリ、マッシュルーム、バナナを各３箱用意してください
+	l12_task_second_shop_order = 食料雑貨店の注文を出荷
+	l12_task_second_shop_order_details = キャベツ、ウール、チューリップ、スイカを各３箱用意してください
+	l12_task_third_shop_order = 食料雑貨店の注文を出荷
+	l12_task_third_shop_order_details = ミルク、イチゴ、ハチミツ、サクランボを各３箱用意してください
+	l12_task_fourth_shop_order = 食料雑貨店の注文を完了させる
+	l12_task_fourth_shop_order_details = トウガラシ、リンゴ、キャベツ、タマゴを各３箱用意してください
+	
+	l12_message_victory = どのお店にもあなたの新鮮な野菜があふれアグロ・コーポレーションの加工食品など、もはや誰ひとり見向きもしません。彼らは倒産しました。会社の工場は取り壊され、公園ができる予定だそうです。おめでとうございます、あなたの勝利です！！
+	l12_message_cool_vegetables = この一帯は少しずつ活気を取り戻しつつあり、ここがたくさんの農家で栄える日も遠くはないでしょう。アグロ・コーポレーションは契約を落札しようと、味は甘くても体に悪い加工食品を開発しました。値段は安いとはいえ、ビタミンも栄養もまったく含まれていません。あなたの使命は、おいしくて栄養たっぷり、新鮮な野菜と果物をどこのお店にもいっぱいに並べることです。加工食品を誰も買わなくなればアグロ・コーポレーションは倒産し、おいしくて体に良い食べ物をみんなが食べるようになるでしょう。
+	l12_message_first_lot_vegetables = 食料雑貨店はあなたの農作物を仕入れる前に、お試し期間として売れ行きを見たいそうです。
+	l12_message_second_lot_vegetables = どのお店も野菜の売れ行きのすごさにびっくりして、もっと試したいと言っています。売り上げから２００ドルもの配当金を支払ってくれました。もっといろいろな野菜を出荷しなければなりません。こんどはちょっと変わったものでお店に来るお客さんを喜ばせてあげましょう。
+	l12_message_first_lot_flowers = 野菜の売れ行きはとても好調なので、花の売れ具合を試してみてはどうでしょう。それとスイカも育てましょう。売り上げからの配当金は倍に増え、今回は４００ドル支払われました。
+	l12_message_first_lot_strawberries_behive = 町中であなたのスイカが評判になりました。大ヒットです！　それにともなってアグロ・コーポレーションの見かけだけの冷凍食品やキャンディーの売り上げはがくんと落ちました。町の人に自然の甘みを提供するには絶好のタイミングです。さあそれではハチミツとイチゴを出荷しましょう。前回の出荷の配当金は６００ドルになりました。
+	l12_message_first_lot_trees_details = ハチミツと野菜は町中のお店に並べられています。ですが木に実る甘い果実の数々を忘れてはいませんか？　前回の出荷で７００ドル稼ぎました。
+	l12_message_first_lot_farms_produktion = 農作物はすべてどのお店でも飛ぶように売れています。では見事な天然農作物のタマゴ、ミルク、コブタとウールを出荷しましょう。前回の出荷で１５０ドルの利益があがりました。
+	l12_message_first_shop_order = 商品が売り切れるようになり、お店はもっと仕入れたがっています！　今度は売り切れ寸前の商品への注文が入ってきました。また、前回の出荷で１５００ドル稼ぐことができました。
+	l12_message_second_shop_order = みんな、おいしくて体に良い食べ物を欲しがっていますが、お店にぜんぜん足りていません。お店はもっと仕入れたいと言っています！　みんなもうじきあなたの野菜しか買わなくなるでしょう。お店から次の注文と９００ドルをもらいました。
+	l12_message_third_shop_order = 町中の大型食料品店ではあなたの商品が棚の半分を占め、売り上げも伸びつづけています！　前回の出荷で１２００ドル稼ぎました！　あなたが契約を落札するのはもう時間の問題です。さあ、新しい注文ですよ。
+	l12_message_fourth_shop_order = どのお店もあなたの製品でいっぱいで、しかもさらに大量の注文を出して１５００ドル支払ってくれました。この大口の注文をこなせば、あなたが契約を落札するのはほぼ確実でしょう。
+ 	l12_message_supplier_sabotage = またしてもアグロ・コーポレーションが邪魔をしてきました。あなたがオーダーした種をぜんぶ買い占められてしまったのでもはや仕入れ業者からは何ひとつ買えません。どうしていつもこんな目に遭うのでしょう？　新しい仕入れ先を見つけなければなりません。
+
+
+	comics_p1f1b1 = むかしむかし、はるか彼方の小さな村に、ある特別な女の子がおりました。
+	comics_p1f1b2 = お前はいつか当代一の立派な農家になって、重工業の暴挙からみんなを救ってくれるにちがいないよ！
+	comics_p1f1b3 = お婆さんは年をとってちょいボケ気味ではありましたがしかしこの予言は当たっていました。
+	comics_p1f2b1 = まだよちよち歩きのころから、その女の子は農作業に並々ならぬ素質を見せました。
+	comics_p1f2b2 = 見てごらん、ジンジャーはまだ１歳にもなってないのに、もう砂場で大した畑を作っとるぞ！
+	comics_p1f2b3 = ようくおぼえといで。ジンジャーの前にはたいそうな未来が開けているんだからね。
+	comics_p1f3b1 = 彼女が６歳になったとき、お爺さんは農業の難しさを教えました。
+	comics_p1f3b2 = 自分の中にあるフォースを感じるのじゃ、若き弟子よ。さあ、そこの土を掘ってごらん！
+	comics_p1f5b1 = ぶんっ！！
+	comics_p1f6b1 = ざくっ！！
+	comics_p1f7b1 = 中にはどうしてもジンジャーに理解できないこともありました．．．。
+	comics_p1f7b2 = ねえ、これじゃぜんぜん畑っぽくないわ。そう思うでしょ？
+	comics_p1f7b3 = ．．．それでも彼女はがんばり抜き、やがてお爺さんの農業の奥義をすべて学び取りました。
+	comics_p1f8b1 = 忘れるんじゃないぞ、若き弟子よ。なすべきことはすべて自分の心の奥深くから学ぶのじゃ！
+  comics_p1f8b2 =	おじいさん、なんでいつもそんな不思議なお話ばっかりするの？
+	
+	comics_p2f1b1 = お前はもうすっかり農業を自分のものにしたな。だから１８歳の誕生日を祝って、わしらから特別なプレゼントをあげよう．．．。
+	comics_p2f1b2 = お前自身の農場じゃ！
+	comics_p2f1b3 = まあ、すごい！
+	comics_p2f2b1 = ここであれもこれも野菜が育てられると思うとたまらないわ！
+	comics_p2f2b2 = それに果物だって．．．。
+	comics_p2f2b3 = コケッコッコー！
+	comics_p2f3b1 = この土地は昔、わしの爺さんのものじゃった。かの偉大なるボブ・ジョンソンじゃ！
+	comics_p2f4b1 = あらあら？
+	comics_p2f4b2 = おじいさん、それっていったいいつごろのお話？
+	comics_p2f5b1 = ケホッコホッコー！　コケッ！
+	comics_p2f6b1 = 心配いらんさ、孫娘や。
+	comics_p2f6b2 = 何もかもお前しだいだが、お前なら立派にやり遂げられるとも！
+	comics_p2f7b1 = バタンッ！
+	comics_p2f8b1 = コケー．．．。
+	
+	comics_p3f1b1 = 良く晴れた美しい朝の静寂の中．．．。
+	comics_p3f2b1 = 森の奥深くから響くブタの悲鳴が。
+	comics_p3f3b1 = ニワトリはやる気をなくしました。
+	comics_p3f5b1 = ジンジャーも飛び起きました。
+	comics_p3f5b2 = いったい何？
+	comics_p3f6b1 = おとなりのブタ農家で事故があったのよ！
+	comics_p3f6b2 = おいで、ジンジャー。行って手伝ってやろう。
+	comics_p3f7b1 = ブタ農家に来てみると、なにもかもめちゃくちゃになっていました。
+	comics_p3f7b2 = 向こうの工場につながってる水道管が破裂して、農場がぜんぶ水びたしになっちまったんだ！
+	comics_p3f7b3 = あのとんでもない悲鳴をあげたのは誰なんじゃ？
+	comics_p3f7b4 = ブタだよ！　エサがみんなだめになっちまったんだ。腹ペコでいらいらしてるのさ。
+	comics_p3f8b1 = かわいそうなブタさん！
+	comics_p3f8b2 = 大丈夫よ。あたしたちが手伝ってなんとかしてあげるから。
+	comics_p3f8b3 = ブヒッ！
+	comics_p3f8b4 = ブー！
+	comics_p3f8b5 = グー．．．。
+    
+	comics_p4f1b1 = 家族そろってお爺さんの誕生日をお祝いしています。
+	comics_p4f1b2 = ．．．だから聞いてみたのさ。「あんた、いったい何を肥料にしてるのかね？」
+	comics_p4f1b3 = そしたら彼はこう答えた。「もちろんいつもとおんなじさ．．砂だよ！」
+	comics_p4f1b4 = アハハッ！
+	comics_p4f1b5 = するといきなり．．．。
+	comics_p4f2b1 = ヒュン！
+	comics_p4f3b1 = ベチャッ！
+	comics_p4f5b1 = ウミャッ！
+	comics_p4f6b1 = あら、まあ！
+	comics_p4f7b1 = バシャッ！
+	comics_p4f8b1 = ヒュン！
+	comics_p4f9b1 = バチャン！
+	comics_p4f10b1 = バシャッ！
+	comics_p4f10b2 = ベチャッ！
+	comics_p4f10b3 = しばらくするとトマトの嵐はおさまりました。
+	comics_p4f10b4 = ジリン、ジリン！
+	comics_p4f11b1 = もしもし？
+	comics_p4f12b1 = やあ、おじさん！　そっちになんか飛んでいかなかった？
+	comics_p4f12b2 = 久しぶりじゃなこの甥っ子め。するとわしらをトマト攻めにしたのはお前だったってわけじゃな？
+	comics_p4f12b3 = あのばかげた工場のせいだよ！
+	comics_p4f12b4 = あいつらが取り付けたでっかい空調設備のせいで、トマトがぜんぶ畑から吹き飛ばされちゃったんだ！　猫まで屋根から飛ばされたよ！
+	comics_p4f12b5 = 本当か！？
+	comics_p4f12b6 = どうすればいいのかさっぱりわかんないよ。またあれのスイッチが入ったら、今度は村ごと吹き飛ばされちゃうかも。
+	comics_p4f12b7 = 心配するな、甥っ子や！　家中のケチャップをきれいにしたらどうすればいいか考える。
+	comics_p4f13b1 = うーん、どうすればジョーおじさんの村を工場が巻き起こす暴風から守れるかしら？
+	comics_p4f13b2 = そうだ、いい手がある！
+	
+	comics_p5f1b1 = ジンジャーが表彰されたのは当然の成り行きでした。
+	comics_p5f1b2 = わが村と全村民に対するこの大いなる貢献に対し、ここに贈呈いたします。
+	comics_p5f1b3 = ．．．わが愛しき姪に、この名誉村民の証を！
+	comics_p5f1b4 = ありがとう！　家族のみんなと中でもお爺さんに感謝します！
+	comics_p5f1b5 = お爺さんの助けがなければ、あたしはけっして今日ここにこうしていなかったでしょう。ほかにも感謝を捧げたいのは．．。
+	comics_p5f1b6 = しかしジンジャーのスピーチは聴衆の中から一通の手紙を手に歩み出た一人の男にさえぎられました。
+	comics_p5f2b1 = ちょっといいかな。その、困ったことがあってな、まあそのなんだ、助けて欲しいんだ！
+	comics_p5f2b2 = 手紙を読ませてもらうよ。ずっと向こうのグリーンフィールドの住人たちからなんだが．．。「ジンジャー様へ！　ここグリーンフィールドではかなり困った事態が起きています」
+	comics_p5f2b3 = 「近所の工場のエンジニアが建てた電力ダムのせいで土地のほとんどが水びたしになってしまいました。苗はしおれかけ、作物は枯れる寸前で、どうすればいいのかわからないのです」
+	comics_p5f2b4 = 「あなたは地元の工場の巨大送風機から村人を救い、見事に問題を解決なさったそうですが、できればこちらも助けていただけませんでしょうか。グリーンフィールドの村人より」
+	comics_p5f2b5 = まあ！　いったいどんな工場なのかしら。ひとつ問題を片付けても次から次へって感じね。
+	comics_p5f2b6 = とにかく、はじまりはこんな感じだった．．．。
+	comics_p5f3b1 = 数年前、アグロソンとかいうのが現れた。
+	comics_p5f3b2 = あまり感じの良いやつじゃなかったが、でも口がうまかったしそれに大金持ちだった。
+	comics_p5f3b3 = 町に食べ物を供給すると彼は約束した。それは安かったんだがでも体に悪くて環境にも有害なものだったんだ。
+	comics_p5f3b4 = 彼は食品工場を丘の向こう側に建てたんだが、それがすべてのはじまりだったのさ。
+	comics_p5f3b5 = 村中どこもかしこもじめじめして沼地みたいになってしまったんだが、逆に近所の村は水不足に苦しんどる。
+	comics_p5f3b6 = それに丘のほうから風が吹くとすごい悪臭がするし、雨まで紫色に変わってしまったんだ！
+	comics_p5f4b1 = ひどすぎるわ！　とてもじゃないけど我慢できない！
+	comics_p5f4b2 = おじいさん、荷物をまとめて今すぐ出発しましょう！
+	comics_p5f4b3 = うちの村まで歩けば８時間はかかるだろう。とてもじゃないが日暮れまでには．．．。
+	comics_p5f4b4 = 歩いてなんかいかないわ。ジョーおじさんのプレゼントを試すのよ！
+	comics_p5f5b1 = おい、待ってくれ！　このぼろ車泥んこ道専用じゃないのか？
+	comics_p5f5b2 = ぼろ車なんかじゃないわ。去年出たシボレーよ。
+	comics_p5f5b3 = さあ、行きましょ！
+	comics_p5f6b1 = ブルン、ブルン
+	
+	comics_p6f1b1 = お爺さんとお婆さんはいつもの午後のお茶でのんびりとしていました。
+	comics_p6f1b2 = ジンジャーはいつ戻って来るかしら。いないと淋しくてねぇ。
+	comics_p6f1b3 = 今日あたりじゃろう。グリーンフィールドの話を聞いたかね？なにもかもうまくいってるそうじゃ。
+	comics_p6f1b4 = ブロォーン！
+	comics_p6f1b5 = 噂をすればなんとやら！
+	comics_p6f2b1 = ただいま！　おばあちゃん、おじいちゃん！
+	comics_p6f2b2 = グリーンフィールドったらすっかり沼地になっちゃって！　ヒルやらカエルやらが勢ぞろいよ．．．。
+	comics_p6f3b1 = コッコケッ？
+	comics_p6f4b1 = ベシャ！
+	comics_p6f5b1 = さあさお座り、ジンジャー。お前の分も用意するよ。
+	comics_p6f5b2 = ．．．さあ、お茶だよ。
+	comics_p6f5b3 = ありがとう！　いつものケーキは？
+	comics_p6f5b4 = それがねぇ、ジンジャー。ケーキがひとつも焼けないのよ。
+	comics_p6f5b5 = いつもハチミツをプレインズビルのベティばあさんから買っていたんだけど。
+	comics_p6f5b6 = ところがあそこにチョコレートやキャンディーを作る大きな工場ができてねぇ．．．。おかげで誰も彼女のハチミツを買わなくなっちゃったのよ。
+	comics_p6f5b7 = つまりだな、工場のせいでなにもかも台無しってわけさ。
+	comics_p6f5b8 = なんですって？　それじゃもうお婆ちゃんの．．．。
+	comics_p6f5b9 = ．．．ハチミツケーキやハチミツパンが食べられないの？
+	comics_p6f6b1 = もう、頭にきたわ！！
+	comics_p6f7b1 = 待ってなさいプレインズビル！今すぐ、助けに行ってあげるから！
+	comics_p6f7b2 = 掲げる理想は．．．。
+	comics_p6f7b3 = 自由！！
+	comics_p6f7b4 = ．．．とハチミツパンよ！
+	
+	comics_p7f1b1 = ちょうどそのころ、アグロソンのオフィスでは．．．。
+	comics_p7f1b2 = ちくしょうめ！　あの小娘のせいでうちのチョコレート工場が閉鎖に追い込まれてしまったじゃないか！　もう我慢できん！
+	comics_p7f1b3 = ジャック、ヘルムート、よく聞け！　この小娘．．ジンジャーについて何もかも調べ上げろ！
+	comics_p7f1b4 = そのために村中がめちゃくちゃになってもかまわん。この小娘をおとなしくさせる材料を見つけるのだ．．。彼女につけいるための何かをな。わかったか？
+	comics_p7f1b5 = ウィ、なにもかも了解です。ムッシュ。
+	comics_p7f1b6 = ヤ、ナテュアリッヒ！　赤子の手をひねるようなもんです！
+	comics_p7f1b7 = よろしい。ではさっそく仕事にかかれ。ジャニス！
+	comics_p7f1b8 = なんでしょうか？
+	comics_p7f1b9 = ミス・ジンジャーとの面会を手配してくれ。そうだな、彼女への．．．。
+	comics_p7f1b10 = ．．提案があると伝えるんだ。
+	comics_p7f2b1 = その翌日．．．。
+	comics_p7f2b2 = すごいわ！　いつのまにこんなの建てたのかしら？　エレベーターが動けばいいけど。
+	comics_p7f3b1 = ジンジャーさん、あなたにはすばらしい才能がありますな！
+	comics_p7f3b2 = たったおひとりで、わたしの会社の一部門をつぶしてしまわれた。いや本当にそのビジネスの手腕には敬服いたします。
+	comics_p7f3b3 = ですが考えてみてください。もしわたしの資金と人脈のバックアップがあるとしたら？
+	comics_p7f3b4 = わたしと組んでこの地域をすばらしいユートピアに変えませんか。いかがです？
+	comics_p7f3b5 = ご提案はありがたいのですが、アグロソンさん。ですがわたしは友だちと働けることが楽しいので。
+	comics_p7f3b6 = お金はお花や植物を買うのに使ったらどうですか。この部屋は気が滅入ります．．．。まるでお墓みたい。
+	comics_p7f4b1 = あたしの電話番号はご存知ですね。花が欲しくなったらこのあたりでいちばんのお花を２４時間以内に配達してあげますよ！
+	comics_p7f4b2 = おい、こらちょっと待て！　この思い上がった貧乏人め！
+	comics_p7f4b3 = わしの好意を無にしたやつがどうなるか、すぐに思い知らせてやるからな！
+	comics_p7f5b1 = フニャアアアア！
+	comics_p7f6b1 = その２日後．．．。
+	comics_p7f6b2 = それでは次のニュースです．．本日アグロ・コーポレーションのＣＥＯ、アグロソン氏が新しい事業計画を発表しました。
+	comics_p7f6b3 = アグロ・コーポレーションはこの地域で１千５百万坪の土地を買収し、巨大な最新のアミューズメントパークを建設する計画です。
+	comics_p7f6b4 = アグロソン氏によると、このパークは数え切れないほどの観光客を誘致し、地域一帯の収益見込みは著しく上昇するだろうとのことです。
+	comics_p7f6b5 = 現在この土地は時代遅れで利益のあがらない、いくつもの農場で占められています。
+	comics_p7f6b6 = わが社はこの地域に、新たな生命を吹き込もうとしているのです。
+	comics_p7f6b7 = 腐りかけの野菜の何箱かに代わって、われわれが引きつける可能性のある数千人の観光客は、この町の新たな収益の柱となるでしょう！
+	comics_p7f6b8 = さらに１０年以内に、この地域は世界中に一大娯楽都市として知れ渡ることを約束します！
+	comics_p7f6b9 = さて次は天気予報です．．．。
+	comics_p7f7b1 = あらまあ！　彼ったら脅しを実行に移すのが早いのね。
+	comics_p7f8b1 = 町のみんなに、あたしたちが与えられるのは腐りかけの野菜なんかじゃないってことを証明しなきゃ！
+	
+	comics_p8f1b1 = 品評会まであとわずか一ヶ月！
+	comics_p8f1b2 = わが村から最優秀農家が選ばれてからもう５０年以上経過している。
+	comics_p8f2b1 = 地元の有名な農家、ジンジャーは競技に参加すると表明した！
+	comics_p8f2b2 = この農業の天才は、はたしてわが村に勝利をもたらすことができるのだろうか？
+	comics_p8f3b1 = 市長は今年の品評会をとても楽しみにしていると語った。
+	comics_p8f3b2 = 優勝者が毎年得るものは名声と賞金、そして多数の注文書だ！
+	
+	comics_p9f1b1 = このばかどもが！　わしが命じた情報はどうなっている？
+	comics_p9f2b1 = ですがムッシュ・アグロソン、この娘の身辺はきれいなもんです！
+	comics_p9f2b2 = 本当ですよ、ボス！　あらゆるところを調べましたが、このフロイライン・ジンジャーには完璧に何もないんです。
+	comics_p9f2b3 = そんなばかな話があるか！　もう一週間だけ時間をやる。だがもし情報を見つけて来なければお前らに責任をとってもらうからな！
+	comics_p9f2b4 = ジャニス！　ジンジャーに電話をつないでくれ。直接話したいことがある。
+	comics_p9f3b1 = もしもし？
+	comics_p9f4b1 = いいかよく聞け、ジンジャー。きさまにわしの会社の利益を台無しにされてなるものか。卑劣なふるまいを今すぐやめろ。さもないとそれなりの報いを受けることになるぞ。
+	comics_p9f4b2 = あたしを脅そうとしても無駄よアグロソンさん．．．。
+	comics_p9f4b3 = ほう？　きさまの友人でわしの土地に住んでいる者が何人いると思う？　そのうちの何人がわしの銀行から金を借りているかな？　わしを怒らせんほうが身のためだぞ、この小娘が！
+	comics_p9f5b1 = 「時代遅れで金食い虫の農場はもう必要ない！　新たなショッピングセンターとアミューズメントパークを建てるべきだ！」
+	comics_p9f5b2 = アグロソン氏のスピーチは、アグロ・コーポレーションの株主総会で多数の投資家たちの好意的な反応を得た。
+	comics_p9f5b3 = ローン未返済者への弾圧活動は勢いを増しつつある。今日またひとつ農場が破産し、ローンの返済にと抵当権が行使された。
+	
+	comics_p10f1b1 = ボス、ボス！　見つけました！
+	comics_p10f1b2 = ジンジャーについては見あたらなかったのですが、祖父母の方で見つけました。
+	comics_p10f1b3 = どれどれ．．．出生．．．結婚．．．子供なし。では彼女は養子か？　これのどこが違法だというんだ？
+	comics_p10f1b4 = ナイン、ボス！　彼女が合法的に引き取られたことを示す書類がないんです。公認されていません。
+	comics_p10f1b5 = ほう？　ふうむ．．．よくやったぞ、お前たち！
+	comics_p10f2b1 = ジンジャー！　まあ座れ。お茶でもいかがかな？　この書類を見てもらおう。きっと楽しんでもらえるはずだ！
+	comics_p10f2b2 = なにこれ？
+	comics_p10f2b3 = 大したものじゃないさ！　お前が赤ん坊のころにさらわれたっていうちょっとした証拠だ！
+	comics_p10f2b4 = これが最後の警告だ。わしや会社の邪魔をしたら、お前の愛する祖父母を刑務所に送ってやるからな！　わははははは！
+	comics_p10f3b1 = もしもし！　ジョーおじさん、ジンジャーよ！　あたしの本当の両親が誰か知ってる？
+	comics_p10f4b1 = ああ、ジンジャー．．．僕はその話については何ひとつ知らないんだ。ガスじいさんに聞いてごらん。きっとぜんぶ憶えているから。
+	comics_p10f4b2 = わかったわ。どこに行けばその人に会えるか知ってる？
+	comics_p10f5b1 = ガスさん？　こんにちは。あたしは．．．。
+	comics_p10f5b2 = ジンジャーだな。お前さんのことは知っとるよ。お入り。
+	comics_p10f6b1 = これは誰ひとり知らん話でな。わしはもう年寄りであまりはっきりとおぼえておらんのじゃ。
+	comics_p10f6b2 = わしの農場はぼろぼろじゃ。畑は雑草が伸び放題だし、ウシは逃げ出してしもうた．．．。
+	comics_p10f6b3 = じゃが、もしお前さんが助けてくれたら、たぶんわしも思い出せるじゃろう。新鮮なキュウリでも食えば、きっとわしの記憶も鮮明になるはずじゃ！
+	
+	comics_p11f1b1 = やれやれ。ありがとうよ、ジンジャー。お前さんはわしをないがしろにせず、農場を救ってくれた。こんなたくさんの新鮮な野菜を目にして、わしは生まれ変わったような気分じゃ。さあお前さんの両親の話をしてやろう。
+    comics_p11f1b2 = それはこんな話じゃった．．。
+    comics_p11f2b1 = むかしむかし、ある若く有望なビジネスマンが妻と離婚した。
+    comics_p11f2b2 = この裁判所の決定を見たか？　赤ん坊を渡せ。さもないと俺様ピーター・アグロソンを怒らせたらどんな目に遭うか教えてやる！　赤ん坊は俺の、俺一人だけのものだ！
+    comics_p11f3b1 = じゃがそこで運命は思わぬ転機を迎えた．．．。
+    comics_p11f4b1 = リムジンが道路の大きな穴に乗りあげたときに赤ん坊が投げ出されたのじゃ。
+    comics_p11f5b1 = お前のお爺さんとお婆さんがお前を見つけたときはな、ジンジャー、ふたりはそりゃあ大喜びしたもんじゃ。
+    comics_p11f5b2 = 子宝には恵まれなかったが、それでもふたりはお前さんをわが子と思って引き取った。
+    comics_p11f6b1 = というわけで、お前さんは今この村に暮らしているのじゃ。
+    comics_p11f6b2 = ええと、じゃあ、つまりその話によると、あたしはアグロソンの娘だってこと！？
+    comics_p11f6b3 = いやいや、ジンジャー。自分の心の声に耳を傾けなさい。そうすれば自分の本当の両親が誰かきっとわかるはずじゃ。
+	
+	comics_p12f0b1 = ここで前回のお話のおさらいをしましょう。
+	comics_p12f1b1 = ジンジャーは自分の過去の真実を知りました。
+	comics_p12f2b1 = その知らせを聞いたアグロソン氏もまた大いに不満でした。
+	comics_p12f2b2 = ムッシュ、娘さんのことでお知らせがあるのですが。
+	comics_p12f2b3 = わしの娘は死んだのだ、ジャック！
+	comics_p12f2b4 = ナイン、ボス。ジンジャーがあなたの娘さんです。
+	comics_p12f2b5 = そんなバカな！
+	comics_p12f3b1 = 号外！　号外！　一大ニュースだよ！
+	comics_p12f3b2 = 速報！　市長はアグロ・コーポレーションとの契約を打ち切りとした。
+	comics_p12f3b3 = 町の食糧供給権については入札が行われることになった！
+	comics_p12f3b4 = 新たな野菜の帝王となるのは誰なのか？
+	
+	comics_p13f1b1 = これでこのお話はおわりです。
+	comics_p13f1b2 = トラックの列が絶え間なく、新鮮な野菜を町まで運んでいきます。
+	comics_p13f1b3 = 元気でな、トマトたち！　無事に着くんだよ！
+	comics_p13f2b1 = この町への多大なる貢献に対し今ここに感謝状を贈るものとする．．．。
+	comics_p13f2b2 = ジンジャーはこの町の名誉市民となりました！
+	comics_p13f3b1 = アグロ・コーポレーションの業績と株価は、急落を続けています。
+	comics_p13f3b2 = 社長、市場の分析によるとわが社の製品を買う客はもういなくなりました．．．。
+	comics_p13f3b3 = くそう、ジンジャーめ！　ジンジャーめ．．．彼女はわしにそっくりだ！
+	comics_p13f4b1 = ご覧のとおり赤いグラフが急落する一方、緑のグラフは急激に上昇しています。
+	comics_p13f4b2 = これは町にいったいどんな影響を及ぼすのか？詳しくは１１：００からお伝えします！
+	comics_p13f5b1 = アグロ・コーポレーションは仕方なく本社ビルを手放さざるをえませんでした．．．。
+	comics_p13f6b1 = というわけでジンジャーはついにかつてのアグロソン氏のオフィスに、新鮮な花や植物をいっぱいに飾ったのでした。
+	comics_p13f6b2 = お　わ　り
+
+>>

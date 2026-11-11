@@ -1,0 +1,87 @@
+<<
+@house 4
+{
+	#string name "house_chicken";
+	#string type_goods "buildings";
+	#int price 400;
+	#point pos 0, 0;
+	#point size 128, 256;
+	#bool solid true;
+	#point zbase 0, -54;
+
+	#string name_good "egg";
+	#string type_fruit "egg";
+	#string type_feed "herb";
+	#int animal_count 1;
+	#int max_animal_count 1;
+	#int max_count_good 1;
+	#int cost_good 150;
+	#float time_complete 60;
+	#float time_spoil_good 0;
+	#float time_feed 37;
+	#string texpicture_name "house_chicken.tga";
+	#string texhighlight_name "house_chicken.tga";
+	#string texmask_name "house_chicken.tga";
+	#string name_sfx "chicken_sfx.ogg";
+	#float length_sfx 3500
+	
+	#point base_center 0, -62;
+	#point base_radius 70, 51;
+	#point dock_center 0, -113;
+	#point dock_radius 8, 8;
+
+	#point ready_bar_pos 48, 96;
+	#point feed_bar_pos -48, 96;
+	#int ready_icon_num 20;
+
+	@sprite
+	{
+		#string name "sprite_chicken0";
+		#point pos 32, -40;
+		#point size 64, 64;
+		
+		@animation
+		{
+			#string name "animals_idle";
+			#int start_frame 0;
+			#int end_frame 13;
+			#float frame_per_second 8;
+			#string texture_name "chickens_idle.tga";
+		}
+		@animation
+		{
+			#string name "animals_nofood";
+			#int start_frame 0;
+			#int end_frame 0;
+			#float frame_per_second 1;
+			#string texture_name "chickens_idle.tga";
+		}
+	}
+	@sprite
+	{
+		#string name "sprite_chicken1";
+		#point pos -40, -37;
+		#point size 64, 64;
+		
+		@animation
+		{
+			#string name "animals_idle";
+			#int start_frame 14;
+			#int end_frame 27;
+			#float frame_per_second 8;
+			#string texture_name "chickens_idle.tga";
+		}
+		@animation
+		{
+			#string name "animals_nofood";
+			#int start_frame 14;
+			#int end_frame 14;
+			#float frame_per_second 1;
+			#string texture_name "chickens_idle.tga";
+		}
+	}
+
+	@dummy_bar;
+}
+>>
+

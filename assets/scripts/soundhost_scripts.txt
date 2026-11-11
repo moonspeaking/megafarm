@@ -1,0 +1,337 @@
+тут список всех звуков и музыки и даже url =)
+<<
+
+@soundhost
+{
+	@main_pack
+	{
+		@music
+		{
+		}
+		
+		@sample
+		{			
+			clickmenu.ogg;
+			defeat.ogg;
+			dig.ogg;
+			fertilizer.ogg;
+			killplant.ogg;
+			put_box.ogg;
+			put_bag.ogg;
+			put_watercan.ogg;
+			take_box.ogg;
+			take_bag.ogg;
+			take_watercan.ogg;
+			selectmenu.ogg;
+			sow.ogg;
+			victory.ogg;
+			watercan.ogg;
+			waterpump.ogg;
+
+			ready_plant.ogg;
+			ready_tree.ogg;
+			ready_pig.ogg;
+			ready_sheep.ogg;
+			ready_cow.ogg;
+			ready_chicken.ogg;
+			ready_beehive.ogg;
+
+			birds1.ogg;
+			birds2.ogg;
+			birds3.ogg;
+			birds4.ogg;			
+			swamp1.ogg;
+			desert1.ogg;
+
+			pay.ogg;
+			profit.ogg;
+			maxplayers.ogg;
+			go.ogg;
+			pay_shop.ogg;
+			add_trophy.ogg;
+			transporter.ogg;			
+			next_level.ogg;
+			house_place.ogg;
+			tree_place.ogg;
+			fert_spreader.ogg;
+			plant_death.ogg;
+			put_sprinkler.ogg;
+
+			bees_sfx.ogg;
+			chicken_sfx.ogg;
+			sheep_sfx.ogg;
+			pig_sfx.ogg;
+			cow_sfx.ogg;
+			watering_sfx.ogg;
+
+			harvest_tree.ogg;
+			harvest_plant.ogg;
+			harvest_pig.ogg;
+			harvest_sheep.ogg;
+			harvest_chicken.ogg;
+			harvest_cow.ogg;
+			harvest_beehive.ogg;
+			
+			feed_pig.ogg;
+			feed_sheep.ogg;
+			feed_chicken.ogg;
+			feed_cow.ogg;
+
+			helper_wait.ogg;
+			harvester_wait.ogg;
+
+			comics_p1f1b1.ogg;
+			comics_p1f1b2.ogg;
+			comics_p1f1b3.ogg;
+			comics_p1f2b1.ogg;
+			comics_p1f2b2.ogg;
+			comics_p1f2b3.ogg;
+			comics_p1f3b1.ogg;
+			comics_p1f3b2.ogg;
+			comics_p1f5b1.ogg;
+			comics_p1f6b1.ogg;
+			comics_p1f7b1.ogg;
+			comics_p1f7b2.ogg;
+			comics_p1f7b3.ogg;
+			comics_p1f8b1.ogg;
+			comics_p1f8b2.ogg;
+			
+			comics_p2f1b1.ogg;
+			comics_p2f1b2.ogg;
+			comics_p2f1b3.ogg;
+			comics_p2f2b1.ogg;
+			comics_p2f2b2.ogg;
+			comics_p2f2b3.ogg;
+			comics_p2f3b1.ogg;
+			comics_p2f4b1.ogg;
+			comics_p2f4b2.ogg;
+			comics_p2f5b1.ogg;
+			comics_p2f6b1.ogg;
+			comics_p2f6b2.ogg;
+			comics_p2f7b1.ogg;
+			comics_p2f8b1.ogg;
+			
+			comics_p3f1b1.ogg;
+			comics_p3f2b1.ogg;
+			comics_p3f3b1.ogg;
+			comics_p3f5b1.ogg;
+			comics_p3f5b2.ogg;
+			comics_p3f6b1.ogg;
+			comics_p3f6b2.ogg;
+			comics_p3f7b1.ogg;
+			comics_p3f7b2.ogg;
+			comics_p3f7b3.ogg;
+			comics_p3f7b4.ogg;
+			comics_p3f8b1.ogg;
+			comics_p3f8b2.ogg;
+			comics_p3f8b3.ogg;
+			comics_p3f8b4.ogg;
+			comics_p3f8b5.ogg;
+
+			comics_p4f1b1.ogg;
+			comics_p4f1b2.ogg;
+			comics_p4f1b3.ogg;
+			comics_p4f1b4.ogg;
+			comics_p4f1b5.ogg;
+			comics_p4f2b1.ogg;
+			comics_p4f3b1.ogg;
+			comics_p4f5b1.ogg;
+			comics_p4f6b1.ogg;
+			comics_p4f7b1.ogg;
+			comics_p4f8b1.ogg;
+			comics_p4f9b1.ogg;
+			comics_p4f10b1.ogg;
+			comics_p4f10b2.ogg;
+			comics_p4f10b3.ogg;
+			comics_p4f10b4.ogg;
+			comics_p4f11b1.ogg;
+			comics_p4f12b1.ogg;
+			comics_p4f12b2.ogg;
+			comics_p4f12b3.ogg;
+			comics_p4f12b4.ogg;
+			comics_p4f12b5.ogg;
+			comics_p4f12b6.ogg;
+			comics_p4f12b7.ogg;
+			comics_p4f13b1.ogg;
+			comics_p4f13b2.ogg;
+			
+			comics_p5f1b1.ogg;
+			comics_p5f1b2.ogg;
+			comics_p5f1b3.ogg;
+			comics_p5f1b4.ogg;
+			comics_p5f1b5.ogg;
+			comics_p5f1b6.ogg;
+			comics_p5f2b1.ogg;
+			comics_p5f2b2.ogg;
+			comics_p5f2b3.ogg;
+			comics_p5f2b4.ogg;
+			comics_p5f2b5.ogg;
+			comics_p5f2b6.ogg;
+			comics_p5f3b1.ogg;
+			comics_p5f3b2.ogg;
+			comics_p5f3b3.ogg;
+			comics_p5f3b4.ogg;
+			comics_p5f3b5.ogg;
+			comics_p5f3b6.ogg;
+			comics_p5f4b1.ogg;
+			comics_p5f4b2.ogg;
+			comics_p5f4b3.ogg;
+			comics_p5f4b4.ogg;
+			comics_p5f5b1.ogg;
+			comics_p5f5b2.ogg;
+			comics_p5f5b3.ogg;
+			comics_p5f6b1.ogg;
+			
+			comics_p6f1b1.ogg;
+			comics_p6f1b2.ogg;
+			comics_p6f1b3.ogg;
+			comics_p6f1b4.ogg;
+			comics_p6f1b5.ogg;
+			comics_p6f2b1.ogg;
+			comics_p6f2b2.ogg;
+			comics_p6f3b1.ogg;
+			comics_p6f4b1.ogg;
+			comics_p6f5b1.ogg;
+			comics_p6f5b2.ogg;
+			comics_p6f5b3.ogg;
+			comics_p6f5b4.ogg;
+			comics_p6f5b5.ogg;
+			comics_p6f5b6.ogg;
+			comics_p6f5b7.ogg;
+			comics_p6f5b8.ogg;
+			comics_p6f5b9.ogg;
+			comics_p6f6b1.ogg;
+			comics_p6f7b1.ogg;
+			comics_p6f7b2.ogg;
+			comics_p6f7b3.ogg;
+			comics_p6f7b4.ogg;
+			
+			comics_p7f1b1.ogg;
+			comics_p7f1b2.ogg;
+			comics_p7f1b3.ogg;
+			comics_p7f1b4.ogg;
+			comics_p7f1b5.ogg;
+			comics_p7f1b6.ogg;
+			comics_p7f1b7.ogg;
+			comics_p7f1b8.ogg;
+			comics_p7f1b9.ogg;
+			comics_p7f1b10.ogg;
+			comics_p7f2b1.ogg;
+			comics_p7f2b2.ogg;
+			comics_p7f3b1.ogg;
+			comics_p7f3b2.ogg;
+			comics_p7f3b3.ogg;
+			comics_p7f3b4.ogg;
+			comics_p7f3b5.ogg;
+			comics_p7f3b6.ogg;
+			comics_p7f4b1.ogg;
+			comics_p7f4b2.ogg;
+			comics_p7f4b3.ogg;
+			comics_p7f5b1.ogg;
+			comics_p7f6b1.ogg;
+			comics_p7f6b2.ogg;
+			comics_p7f6b3.ogg;
+			comics_p7f6b4.ogg;
+			comics_p7f6b5.ogg;
+			comics_p7f6b6.ogg;
+			comics_p7f6b7.ogg;
+			comics_p7f6b8.ogg;
+			comics_p7f6b9.ogg;
+			comics_p7f7b1.ogg;
+			comics_p7f8b1.ogg;
+			
+			comics_p8f1b1.ogg;
+			comics_p8f1b2.ogg;
+			comics_p8f2b1.ogg;
+			comics_p8f2b2.ogg;
+			comics_p8f3b1.ogg;
+			comics_p8f3b2.ogg;
+			
+			comics_p9f1b1.ogg;
+			comics_p9f2b1.ogg;
+			comics_p9f2b2.ogg;
+			comics_p9f2b3.ogg;
+			comics_p9f2b4.ogg;
+			comics_p9f3b1.ogg;
+			comics_p9f4b1.ogg;
+			comics_p9f4b2.ogg;
+			comics_p9f4b3.ogg;
+			comics_p9f5b1.ogg;
+			comics_p9f5b2.ogg;
+			comics_p9f5b3.ogg;
+			
+			comics_p10f1b1.ogg;
+			comics_p10f1b2.ogg;
+			comics_p10f1b3.ogg;
+			comics_p10f1b4.ogg;
+			comics_p10f1b5.ogg;
+			comics_p10f2b1.ogg;
+			comics_p10f2b2.ogg;
+			comics_p10f2b3.ogg;
+			comics_p10f2b4.ogg;
+			comics_p10f3b1.ogg;
+			comics_p10f4b1.ogg;
+			comics_p10f4b2.ogg;
+			comics_p10f5b1.ogg;
+			comics_p10f5b2.ogg;
+			comics_p10f6b1.ogg;
+			comics_p10f6b2.ogg;
+			comics_p10f6b3.ogg;
+			
+			comics_p11f1b1.ogg;
+			comics_p11f1b2.ogg;
+			comics_p11f2b1.ogg;
+			comics_p11f2b2.ogg;
+			comics_p11f3b1.ogg;
+			comics_p11f4b1.ogg;
+			comics_p11f5b1.ogg;
+			comics_p11f5b2.ogg;
+			comics_p11f6b1.ogg;
+			comics_p11f6b2.ogg;
+			comics_p11f6b3.ogg;
+			
+			comics_p12f0b1.ogg;
+			comics_p12f1b1.ogg;
+			comics_p12f2b1.ogg;
+			comics_p12f2b2.ogg;
+			comics_p12f2b3.ogg;
+			comics_p12f2b4.ogg;
+			comics_p12f2b5.ogg;
+			comics_p12f3b1.ogg;
+			comics_p12f3b2.ogg;
+			comics_p12f3b3.ogg;
+			comics_p12f3b4.ogg;
+			
+			comics_p13f1b1.ogg;
+			comics_p13f1b2.ogg;
+			comics_p13f1b3.ogg;
+			comics_p13f2b1.ogg;
+			comics_p13f2b2.ogg;
+			comics_p13f3b1.ogg;
+			comics_p13f3b2.ogg;
+			comics_p13f3b3.ogg;
+			comics_p13f4b1.ogg;
+			comics_p13f4b2.ogg;
+			comics_p13f5b1.ogg;
+			comics_p13f6b1.ogg;
+			comics_p13f6b2.ogg;
+		}
+		
+		@stream
+		{
+			music_menu.ogg;
+			music_comics.ogg;
+			music_map.ogg;
+			music_trophy.ogg;
+			music_mix.ogg;
+			music_credits.ogg;
+		}
+
+		@url
+		{
+		}
+	}
+}
+
+>>
+

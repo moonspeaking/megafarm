@@ -1,0 +1,1070 @@
+<<
+
+	begin_lower_char = a
+	end_lower_char = z
+	begin_upper_char = A
+	end_upper_char = Z
+	start = 開始遊戲
+	freemode = 測試
+	options = 選項
+	trophyroom = 獎品
+	change_player = 更改玩家
+	credits = 製作人員
+	help = 幫助
+	exit = 退出
+	back =返回
+	loading = 正在加載
+
+	musics = 音樂
+	fullscreen =全屏模式
+	windowed = 窗口模式
+	vsync = Vertical Synch
+
+	new_profile = 新玩家
+	delete_profile = 刪除玩家
+
+	music_on = 音樂 開
+	music_off = 音樂 關
+	sound_on = 音效 開
+	sound_off = 音效 關
+	cursor_on = 遊戲指針 開
+	cursor_off = 遊戲指針 關
+
+	set_volume = 音量大小
+	sound_volume = SFX 音量大小
+	music_volume = 音樂大小
+
+	languages = 選擇語言
+	lang_rus = Russian
+	lang_eng = English
+	lang_fra = French
+	lang_ita = Italian
+	lang_por = Portuguese
+	lang_dut = Dutch
+	lang_swe = Swedish
+	lang_deu = German
+	lang_esp = Spanish
+	lang_jap = Japanese
+	lang_kor = Korean
+	lang_chn = 中文
+
+	change_player_label = (更改玩家)
+	ok = 好
+	cancel = 取消
+	yes = 是
+	no = 否
+	game_saved = 遊戲已保存!
+	game_loaded = 完成加載。
+	question_save_game = 保存當前遊戲?
+	question_load_game = 加載之前保存的遊戲?
+	question_exit_game = 確定要退出嗎?
+	question_replay_game = 確定要重玩此關嗎?
+	question_end_game = 確定要退出主菜單嗎?
+	question_saveandexit_game = 退出之前要保存遊戲嗎?
+	cheatmodeon = Cheat模式已激活!
+	cheatmodeoff = Cheat模式已關閉!
+	tasks = 任務
+	mainmenu = 菜單
+	continue = 繼續
+	restart = 重玩
+	exitgame = 退出
+	profit_hint = 妳已經賺取 % 硬幣。
+	current_task = 當前任務
+	click_to_continue = 繼續
+	patent_buy_confirm = 妳確定要訂購嗎？
+	notify_you_cant_place = 妳不能把它放這兒！
+	notify_you_cant_gowhere = 妳不能去那兒！
+
+	wombat = 袋熊
+
+	control_help_1 = 滑鼠左鍵控制角色，右鍵可取消命令。箭頭鍵可以朝個方向移動。
+	control_help_2 = 單擊滑鼠可從事基本操作，雙擊滑鼠就會挖土、耕作，或者放下一樣物品。
+
+	text_enter_name = 請輸入妳的名字
+	welcome_message = 歡迎，
+
+	dig_squares = 耕作
+	water_plants = 澆灌植物
+
+	level1_name = 練習
+	level2_name = 妳的第一個農場
+	level3_name = 全力以赴
+	level4_name = 輕鬆賺錢
+	level5_name = 花之力量
+	level6_name = 忙碌如蜜蜂
+	level7_name = 鄉村市集
+	level8_name = 供應商
+	level9_name = 錢，錢，錢
+	level10_name = 旱災
+	level11_name = 妳夢想中的農場
+	level12_name = 去市場
+
+	trophy_announce_header = 妳贏得了一個獎品!
+
+	trophy_hint0 = 這個布穀鳥鐘是妳的了，作為練習關卡中優秀工作的獎勵。
+	trophy_hint1 = 這個撲滿是獎勵給妳的，因為節約資金是通往財富的道路。
+	trophy_hint2 = 這個Finding Time for the Pigs小雕像是獎勵給妳的，因為妳全力以赴拯救了那些豬。
+	trophy_hint3 = 這棵棕櫚樹是村民給妳的禮物，因為妳拯救了他們的家。
+	trophy_hint4 = 這個花藝金牌是獎勵給妳的，因為妳在花藝生意方面做得很出色。
+	trophy_hint5 = 勤勞工蜂獎，獎勵妳恢復舊式養蜂傳統。
+	trophy_hint6 = 鄉村市集的豪華大獎。
+	trophy_hint7 = 農場主自由雕像是獎勵給妳的，因為面對侵犯，妳保持了妳的獨立。
+	trophy_hint8 = 銀行的收據是妳最好的獎勵了。農場主們請妳吃冰激凌！
+	trophy_hint9 = 銀水桶，是對妳幫助農場戰勝旱災的獎勵。
+	trophy_hint10 = 金耳朵，獎勵妳創造了農場的未來!
+	trophy_hint11 = 最佳商品供應商的證明。妳贏招標！
+	trophy_hint12 = 農業史上最佳農場主獎。
+
+	level_not_finished = 妳沒能過關。
+	level_completed = 過關
+	level_completed_with_trophy = 獲獎!
+	level_time = 時間
+	level_money = 金錢
+	best_time = 記錄時間：
+	best_money = 記錄利潤：
+
+	inventory_form = 供應品
+	buildings_form = 工廠
+	seeds_form = 種子
+	sprouts_form = 植物
+	trees_form = 樹木
+	workers_form = 工人
+
+	aubergine = 茄子
+	beetroot = 甜菜
+	cabbage = 卷心菜
+	carrot = 胡蘿蔔
+	corn = 玉米
+	cucumber = 黃瓜
+	dahlia = 大麗花
+	mushroom = 蘑菇
+	pepper = 胡椒
+	pumpkin = 南瓜
+	radish = 蘿蔔
+	strawberries = 草莓
+	sunflower = 向日葵
+	tomato = 番茄
+	tulip = 鬱金香
+	watermelon = 西瓜
+
+	task_separator = to
+	task_sow = 植物
+	task_sell = 出售
+	task_fertilize = 施肥
+	task_buy = 購買
+
+	water_sprinkler = 灑水裝置
+	time = 時間
+
+	tree_desert_apple = 蘋果樹
+	tree_desert_cherry = 櫻桃樹
+	tree_desert_palm = 香蕉樹
+	tree_desert_plum = 李子樹
+	tree_grass_apple = 蘋果樹
+	tree_grass_cherry = 櫻桃樹
+	tree_grass_palm = 香蕉樹
+	tree_grass_plum = 李子樹
+	tree_swamp_apple = 蘋果樹
+	tree_swamp_cherry = 櫻桃樹
+	tree_swamp_palm = 香蕉樹
+	tree_swamp_plum = 李子樹
+
+	house_chicken_product = 蛋
+	house_cow_product = 牛奶
+	house_pig_product = 小豬
+	house_sheep_product = 絨毛
+	beehive_product = 蜂蜜
+
+	tree_desert_apple_product = 蘋果
+	tree_desert_cherry_product = 櫻桃
+	tree_desert_palm_product = 香蕉
+	tree_desert_plum_product = 李子
+	tree_grass_apple_product = 蘋果
+	tree_grass_cherry_product = 櫻桃
+	tree_grass_palm_product = 香蕉
+	tree_grass_plum_product = 李子
+	tree_swamp_apple_product = 蘋果
+	tree_swamp_cherry_product = 櫻桃
+	tree_swamp_palm_product = 香蕉
+	tree_swamp_plum_product = 李子
+
+	house_chicken = 雞籠
+	house_cow = 牛棚
+	house_pig = 豬舍
+	house_sheep = 羊圈
+	hangar_refrigerator = 冷藏庫
+	hangar_flowers = 花房
+	beehive = 蜂箱
+
+	helper = 園丁
+	harvester = 果蔬採摘工
+
+	patent_for_tulip = 鬱金香球根訂單
+	patent_for_dahlia = 大麗花球根訂單
+	patent_for_sunflower = 葵花籽訂單
+	patent_for_cucumber = 黃瓜種子訂單
+	patent_for_tomato = 番茄秧訂單
+	patent_for_aubergine = 茄子秧訂單
+	patent_for_pepper = 胡椒秧訂單
+	patent_for_watermelon = 西瓜種子訂單
+	patent_for_hangar_flowers = 花房建造許可
+	patent_for_beehive = 養蜂執照
+	patent_for_cabbage = 卷心菜種子訂單
+	patent_for_beetroot = 甜菜種子訂單
+	patent_for_house_pig = 豬舍建造許可
+	patent_for_carrot = 故蘿蔔種子訂單
+	patent_for_corn = 玉米種子訂單
+	patent_for_hangar_vegetables = 穀倉建造許可
+	patent_for_mushroom = 蘑菇孢子訂單
+	patent_for_pumpkin = 南瓜種子訂單
+	patent_for_strawberries = 草莓種子訂單
+	patent_for_hangar_refrigerator = 冷藏庫建造許可
+	patent_for_house_sheep = 綿羊養殖執照
+	patent_for_house_chicken = 養雞執照
+	patent_for_house_cow = 乳品業執照
+	patent_for_radish = 蘿蔔種子訂單
+
+	plant_aubergine = 茄子
+	plant_beetroot = 甜菜
+	plant_cabbage = 卷心菜
+	plant_carrot = 胡蘿蔔
+	plant_corn = 玉米
+	plant_cucumber = 黃瓜
+	plant_dahlia = 大麗花
+	plant_mushroom = 蘑菇
+	plant_pepper = 胡椒
+	plant_pumpkin = 南瓜
+	plant_radish = 蘿蔔
+	plant_strawberries = 草莓
+	plant_sunflower = 向日葵
+	plant_tomato = 番茄
+	plant_tulip = 鬱金香
+	plant_watermelon = 西瓜
+
+	money = 金錢
+
+	cost_goods = 妳可以賣一箱此產品，%i 硬幣。
+	cost_work = 一位農場工人的薪水是 %i 硬幣。
+
+	box_shop_hint = 柳條箱可收集收穫的產品。
+	fivebox_shop_hint = 五箱一組。
+	tenbox_shop_hint = 十箱一組。
+
+	spade_shop_hint = 優質園藝鐵鍬
+	watercan_shop_hint = 一個小噴壺
+	big_watercan_shop_hint = 一個大噴壺
+
+	destructor_shop_hint = 此工具可以清除雜草，或者耕種已有的蔬菜。
+	transporter_shop_hint = 起重機可用來移動農場上的工廠建築。
+
+	hangar_vegetables_shop_hint = 穀倉可用來存放不易腐壞的水果和蔬菜。
+	hangar_flowers_shop_hint = 花房用來存放鮮花。
+	hangar_refrigerator_shop_hint = 藏倉庫用來存放容易腐壞的產品。
+
+	beehive_shop_hint = 蜂箱用來養蜂，這樣妳就可以出售蜂蜜。
+	house_sheep_shop_hint = 羊圈用來養殖綿羊，妳好出售羊毛。
+	house_pig_shop_hint = 豬舍用來養小豬。
+	house_cow_shop_hint = 牛棚可養殖奶牛，這樣妳就可以出售牛奶。
+	house_chicken_shop_hint = 雞籠用來養雞，妳好出售雞蛋。
+
+
+	waterpump_shop_hint = 如果妳要走很遠才能有水，妳可能想要再挖一口井。
+	water_sprinkler_shop_hint = 灑水裝置是任何農場都不可缺少的。
+	fertilizer_shop_hint = 一小袋肥料。
+	big_fertilizer_shop_hint = 一大袋肥料。
+
+	tree_desert_palm_shop_hint = 香蕉生長不快，不過妳可以從中獲得很多金錢。
+	tree_desert_apple_shop_hint = 蘋果樹並不貴，可是蘋果生長很快。
+	tree_desert_cherry_shop_hint = 櫻桃樹可能看來奇怪，不過果實卻有很大利潤。
+	tree_desert_plum_shop_hint = 李子樹的果實成熟很快，賣的也很好。
+
+	tree_swamp_palm_shop_hint = 香蕉生長不快，不過妳可以從中獲得很多金錢。
+	tree_swamp_apple_shop_hint = 蘋果樹並不貴，可是蘋果生長很快。
+	tree_swamp_cherry_shop_hint = 櫻桃樹可能看來奇怪，不過果實卻有很大利潤。
+	tree_swamp_plum_shop_hint = 李子樹的果實成熟很快，賣的也很好。
+
+	tree_grass_palm_shop_hint = 香蕉生長不快，不過妳可以從中獲得很多金錢。
+	tree_grass_apple_shop_hint = 蘋果樹並不貴，可是蘋果生長很快。
+	tree_grass_cherry_shop_hint = 櫻桃樹可能看來奇怪，不過果實卻有很大利潤。
+	tree_grass_plum_shop_hint = 李子樹的果實成熟很快，賣的也很好。
+
+	harvester_shop_hint = 果蔬採摘工是妳雇傭來採摘水果和蔬菜的。
+	helper_shop_hint = 園藝助手是妳股用來給植物施肥的。
+
+	aubergine_shop_hint = 茄子秧包
+	beetroot_shop_hint = 甜菜種子包
+	cabbage_shop_hint = 卷心菜種子包
+	carrot_shop_hint = 胡蘿蔔種子包
+	corn_shop_hint = 玉米種子包
+	cucumber_shop_hint = 黃瓜秧包
+	dahlia_shop_hint = 大麗花種子包
+	mushroom_shop_hint = 蘑菇孢子包
+	pepper_shop_hint = 胡椒秧包
+	pumpkin_shop_hint = 南瓜種子包
+	radish_shop_hint = 蘿蔔種子包
+	strawberries_shop_hint = 草莓秧包
+	sunflower_shop_hint = 葵花籽包
+	tomato_shop_hint = 番茄秧包
+	tulip_shop_hint = 鬱金香球根包
+	watermelon_shop_hint = 西瓜種子包
+
+	patent_for_tulip_shop_hint = 訂購鬱金香球根。一旦訂單到來，妳就可以從商店購買鬱金香球根。
+	patent_for_dahlia_shop_hint = 訂購大麗花球根。一旦訂單到來，妳就可以從商店購買大麗花球根。
+	patent_for_sunflower_shop_hint = 訂購葵花籽。一旦訂單到來，妳就可以從商店購買葵花籽。
+	patent_for_cucumber_shop_hint =  訂購黃瓜秧。一旦訂單到來，妳就可以從商店購買黃瓜秧。
+	patent_for_tomato_shop_hint =  訂購番茄秧。一旦訂單到來，妳就可以從商店購買番茄秧。
+	patent_for_aubergine_shop_hint =  訂購茄子秧。一旦訂單到來，妳就可以從商店購買茄子秧。
+	patent_for_pepper_shop_hint =  訂購胡椒秧。一旦訂單到來，妳就可以從商店購買胡椒秧。
+	patent_for_watermelon_shop_hint =  訂購鬱西瓜種子。一旦訂單到來，妳就可以從商店購買西瓜種子。
+	patent_for_hangar_flowers_shop_hint =  購買花藝執照和建造許可，才能建造花房。有了花藝執照，妳就能種植和出售鮮花。
+	patent_for_beehive_shop_hint = 購買養蜂執照。有了這個執照，妳才能製造和出售蜂蜜。
+	patent_for_beetroot_shop_hint = 訂購甜菜種子。一旦訂單到來，妳就可以從商店購買甜菜種子。
+	patent_for_cabbage_shop_hint = 訂購卷心菜種子。一旦訂單到來，妳就可以從商店購買卷心菜種子。
+	patent_for_carrot_shop_hint = 訂購胡蘿蔔種子。一旦訂單到來，妳就可以從商店購買胡蘿蔔種子。
+	patent_for_corn_shop_hint = 訂購玉米種子。一旦訂單到來，妳就可以從商店購買玉米種子。
+	patent_for_hangar_refrigerator_shop_hint = 購買建造許可才能建造冷藏庫，還要買執照才能使用它。
+	patent_for_hangar_vegetables_shop_hint = 購買穀倉建造許可。有了這個許可，妳才能在農場上較方便的地點建造另一個穀倉。
+	patent_for_house_chicken_shop_hint = 購買養雞執照。有了這個執照，妳就可以養雞和出售雞蛋。
+	patent_for_house_cow_shop_hint = 購買乳品業執照。有了此執照，妳才可以養殖奶牛，出售牛奶。
+	patent_for_house_pig_shop_hint = 購買養豬執照。有了此執照，妳才能養豬和賣豬。
+	patent_for_house_sheep_shop_hint = 購買綿羊養殖執照。有了此執照，妳才能養殖綿羊，出售羊毛。
+	patent_for_mushroom_shop_hint = 訂購蘑菇孢子。一旦訂單到來，妳就可以從商店購買蘑菇孢子。
+	patent_for_pumpkin_shop_hint = 訂購南瓜種子。一旦訂單到來，妳就可以從商店購買南瓜種子。
+	patent_for_radish_shop_hint = 訂購蘿蔔種子。一旦訂單到來，妳就可以從商店購買蘿蔔種子。
+	patent_for_strawberries_shop_hint = 訂購草莓秧。一旦訂單到來，妳就可以從商店購買草莓秧。
+
+	notify_add_shop_harvester = 妳現在可以雇傭一名果蔬採摘工，幫妳收穫果實。
+	notify_add_shop_helper = 妳現在可以雇傭一名園丁，幫妳給農作物澆水施肥。
+	notify_add_shop_box = 柳條箱現在商店有賣了。
+	notify_add_shop_fivebox = 五箱一組現在商店有賣了。
+	notify_add_shop_tenbox = 十箱一組現在商店有賣了。
+	notify_add_shop_aubergine = 茄子秧現在商店有賣了。
+	notify_add_shop_beetroot = 甜菜種子現在商店有賣了。
+	notify_add_shop_cabbage = 卷心菜種子現在商店有賣了。
+	notify_add_shop_carrot = 胡蘿蔔種子現在商店有賣了。
+	notify_add_shop_corn = 玉米種子現在商店有賣了。
+	notify_add_shop_cucumber = 黃瓜秧現在商店有賣了。
+	notify_add_shop_dahlia = 大麗花球根現在商店有賣了。
+	notify_add_shop_mushroom = 蘑菇孢子現在商店有賣了。
+	notify_add_shop_pepper = 胡椒秧現在商店有賣了。
+	notify_add_shop_pumpkin = 南瓜種子現在商店有賣了。
+	notify_add_shop_radish = 蘿蔔種子現在商店有賣了。
+	notify_add_shop_strawberries = 草莓秧現在商店有賣了。
+	notify_add_shop_sunflower = 葵花籽現在商店有賣了。
+	notify_add_shop_tomato = 番茄秧現在商店有賣了。
+	notify_add_shop_tulip = 鬱金香球根現在商店有賣了。
+	notify_add_shop_watermelon = 西瓜種子現在商店有賣了。
+	notify_add_shop_watercan = 噴壺現在商店有賣了。
+	notify_add_shop_big_watercan = 大噴壺現在商店有賣了。
+	notify_add_shop_transporter = 現在可以租商店的起重機用。
+
+	notify_add_shop_beehive = 蜂箱現在商店有賣了。
+	notify_add_shop_house_sheep = 綿羊秧現在商店有賣了。
+	notify_add_shop_house_pig = 豬在商店有賣了。
+	notify_add_shop_house_cow = 奶牛現在商店有賣了。
+	notify_add_shop_house_chicken = 雞現在商店有賣了。
+
+	notify_add_shop_waterpump = 帶有抽水機的井現在商店有賣了。
+	notify_add_shop_water_sprinkler = 灑水裝置現在商店有賣了。
+	notify_add_shop_fertilizer = 肥料現在商店有賣了。
+	notify_add_shop_big_fertilizer = 大袋肥料現在商店有賣了。
+
+	notify_add_shop_tree_grass_palm = 香蕉樹苗現在商店有賣了。
+	notify_add_shop_tree_grass_apple = 蘋果樹苗現在商店有賣了。
+	notify_add_shop_tree_grass_cherry = 蘋果樹苗現在商店有賣了。
+	notify_add_shop_tree_grass_plum = 李子樹苗現在商店有賣了。
+	notify_add_shop_tree_desert_palm = 香蕉樹苗現在商店有賣了。
+	notify_add_shop_tree_desert_apple = 蘋果樹苗現在商店有賣了。
+	notify_add_shop_tree_desert_cherry = 蘋果樹苗現在商店有賣了。
+	notify_add_shop_tree_desert_plum = 李子樹苗現在商店有賣了。
+	notify_add_shop_tree_swamp_palm = 香蕉樹苗現在商店有賣了。
+	notify_add_shop_tree_swamp_apple = 蘋果樹苗現在商店有賣了。
+	notify_add_shop_tree_swamp_cherry = 蘋果樹苗現在商店有賣了。
+	notify_add_shop_tree_swamp_plum = 李子樹苗現在商店有賣了。
+
+	notify_add_shop_patent_for_tulip = 妳現在就可以給商店下訂單獲得鬱金香球根。
+	notify_add_shop_patent_for_dahlia = 妳現在就可以給商店下訂單獲得大麗花球根。
+	notify_add_shop_patent_for_sunflower = 妳現在就可以給商店下訂單獲得葵花籽。
+	notify_add_shop_patent_for_cucumber = 妳現在就可以給商店下訂單獲得黃瓜秧。
+	notify_add_shop_patent_for_tomato = 妳現在就可以給商店下訂單獲得番茄秧。
+	notify_add_shop_patent_for_aubergine = 妳現在就可以給商店下訂單獲得茄子秧。
+	notify_add_shop_patent_for_pepper = 妳現在就可以給商店下訂單獲得胡椒秧。
+	notify_add_shop_patent_for_watermelon = 妳現在就可以給商店下訂單獲得西瓜種子。
+	notify_add_shop_patent_for_hangar_flowers = 妳可以申請一份建造許可來訂購建造花房所用的材料。
+	notify_add_shop_patent_for_beehive = 妳現在就可以給商店下訂單獲得蜂箱。
+	notify_add_shop_patent_for_cabbage = 妳現在就可以給商店下訂單獲得卷心菜種子。
+	notify_add_shop_patent_for_beetroot = 妳現在就可以給商店下訂單獲得甜菜種子。
+	notify_add_shop_patent_for_carrot = 妳現在就可以給商店下訂單獲得胡蘿蔔種子。
+	notify_add_shop_patent_for_house_pig = 妳現在就可以給商店下訂單獲得豬舍。
+	notify_add_shop_patent_for_corn = 妳現在就可以給商店下訂單獲得玉米種子。
+	notify_add_shop_patent_for_mushroom = 妳現在就可以給商店下訂單獲得蘑菇孢子。
+	notify_add_shop_patent_for_strawberries = 妳現在就可以給商店下訂單獲得草莓秧。
+	notify_add_shop_patent_for_pumpkin = 妳現在就可以給商店下訂單獲得南瓜種子。
+	notify_add_shop_patent_for_radish = 妳現在就可以給商店下訂單獲得蘿蔔種子。
+
+	notify_add_shop_hangar_vegetables = 穀倉現在商店有賣了。
+	notify_add_shop_hangar_flowers = 花房現在商店有賣了。
+	notify_add_shop_hangar_refrigerator = 冷藏庫現在商店有賣了。
+	notify_add_shop_patent_for_house_chicken = 妳現在可以申請一份建造許可來訂購建造雞籠所用的材料。
+	notify_add_shop_patent_for_house_cow = 妳現在可以申請一份建造許可來訂購建造牛棚所用的材料。
+	notify_add_shop_patent_for_house_pig = 妳現在可以申請一份建造許可來訂購建造豬舍所用的材料。
+	notify_add_shop_patent_for_house_sheep = 妳現在可以申請一份建造許可來訂購建造羊圈所用的材料。
+	notify_add_shop_patent_for_house_beehive = 妳現在可以申請一份建造許可來訂購建造蜂箱所用的材料。
+	notify_add_shop_patent_for_hangar_flowers = 妳現在可以申請一份建造許可來訂購建造花房所用的材料。
+	notify_add_shop_patent_for_hangar_vegetables = 妳現在可以申請一份建造許可來訂購建造穀倉所用的材料。
+	notify_add_shop_patent_for_hangar_refrigerator = 妳現在可以申請一份建造許可來訂購建造冷藏庫所用的材料。
+
+	notify_no_more_money = 妳的錢不夠買那樣東西!
+	notify_you_cant_put = 妳不能把它放這兒!
+	notify_you_cant_storebox = 這個需要存放在什麽地方才行!
+	notify_store_in_hangar = 妳不能把它存放在這兒! 把它放到穀倉中。
+	notify_store_in_fridge = 妳不能把它存放在這兒! 把它放到冷藏庫。
+	notify_store_in_flower = 妳不能把它存放在這兒! 把它放到花房。
+	notify_box_nomore_full = 那箱還沒滿！
+	notify_only_for_this_type = 妳正在把%s裝進箱子。只用這樣東西把箱子裝滿!
+	notify_box_full = 箱子滿了。把它送到穀倉！
+
+	notify_cant_feed_house_sheep = 綿羊支持卷心菜和胡蘿蔔。
+	notify_cant_feed_house_pig = 豬只吃甜菜和番茄。
+	notify_cant_feed_house_cow = 奶牛只吃卷心菜和胡蘿蔔。
+	notify_cant_feed_house_chicken = 雞只吃玉米飼料。
+
+	message_complete_sell_plant_tomato = 很好! 妳完成了番茄訂單!
+	message_complete_sell_plant_aubergine = 精彩! 妳完成了茄子訂單!
+	message_complete_sell_plant_pepper = 非常棒! 妳完成了胡椒訂單!
+	message_complete_sell_plant_cucumber = 難以置信! 妳完成了黃瓜訂單!
+	message_complete_sell_plant_dahlia = 簡直太好了! 妳完成了大麗花訂單!
+	message_complete_sell_plant_sunflower = 真不敢相信! 妳完成了向日葵訂單!
+	message_complete_sell_plant_tulip = 不可思議! 妳完成了鬱金香訂單!
+	message_complete_sell_beehive = 很好! 妳完成了蜂蜜訂單!
+	message_complete_sell_plant_mushroom = 精彩! 妳完成了蘑菇訂單!
+	message_complete_sell_plant_cabbage = 非常棒!妳完成了卷心菜訂單!
+	message_complete_sell_plant_watermelon = 難以置信! 妳完成了西瓜訂單!
+	message_complete_sell_plant_beetroot = 簡直太好了! 妳完成了甜菜訂單!
+	message_complete_sell_house_pig = 真不敢相信! 妳完成了豬訂單! 
+	message_complete_sell_plant_carrot = 不可思議! 妳完成了胡蘿蔔訂單!
+	message_complete_sell_plant_corn = 很好! 妳完成了玉米訂單!
+	message_complete_sell_plant_pumpkin = 精彩! 妳完成了南瓜訂單!
+	message_complete_sell_plant_strawberries = 非常棒! 妳完成了草莓訂單! 
+	message_complete_sell_house_sheep = 難以置信! 妳完成了羊毛訂單! 
+	message_complete_sell_house_chicken = 簡直太好了! 妳完成了雞蛋訂單!
+	message_complete_sell_house_cow = 真不敢相信! 妳完成了牛奶訂單!
+	message_complete_sell_plant_for_radish = 不可思議! 妳完成了蘿蔔訂單!
+	message_complete_sell_tree_apple = 很好! 妳完成了蘋果訂單!
+	message_complete_sell_tree_plum = 精彩! 妳完成了李子訂單!
+	message_complete_sell_tree_cherry = 非常棒! 妳完成了櫻桃訂單!
+	message_complete_sell_tree_palm = 難以置信! 妳完成了香蕉訂單!
+
+	l1_message_welcome = 歡迎來到農場! 我們這就來學習如何種植和收穫莊稼。
+	l1_message_dig_one = 種植之前我們得先耕作。雙擊一塊空地開始挖土。
+	l1_message_dig_four = 非常棒! 但是一塊方田並不夠，所以得繼續多弄三個。
+	l1_message_dig_twelve = 很好! 在接下來的關卡中，妳必須得耕出更多的土地，不過目前這個對於練習來說已經足夠了。
+	l1_message_plant_four = 現在該播種另外。點擊南瓜種子包，然後點擊四塊田地即可種下種子。
+	l1_message_wait_harvest = 精彩! 現在就等著南瓜生長和成熟吧。雙擊任何一塊空地，妳就可以放下種子。
+	l1_message_water = 妳得時刻留心這些植物。點擊噴壺把它拿起來，點擊井將噴壺加滿水，然後點擊妳想要澆灌的地方就可以給植物澆水了。
+	l1_message_water_ok = 繼續! 給植物澆水可以讓它生長更快，從而收穫更早，而乾旱的話會使植物枯萎死去。
+	l1_message_dig_more = 為了避免無聊，妳可以繼續挖土和耕作，把剩下的種子都種下去。
+	l1_message_fruits_ready = 好了，莊稼成熟了，該著手第一次收穫了。拿個箱子採摘蔬菜。四樣東西就裝滿箱，然後就要送到穀倉。
+	l1_message_box_tutorial = 非常棒! 妳需要另一個新箱子來收穫下一批。要去商店買的話，就要點擊下面菜單供應品標籤，點擊柳條箱，然後點擊一塊空地。
+	l1_message_second_harvest = 該著手第二次收穫了！把水果放入新箱子，送到穀倉中。
+	l1_message_third_harvest = 該著手第三次收穫了！要完成這次練習，把收穫的物品收集起來送到穀倉。
+	l1_message_fertilizer_tutorial = 肥料能讓植物更加健康快速地生長，所以不要忘了施肥。妳可以通過供應品標籤，點選肥料來購買。
+	l1_message_thirst_reminder = 不要忘了，妳的菜園一直都需要澆水！記得經常澆水，留意土壤的顏色。
+	l1_message_victory = 恭喜！現在妳已經熟悉了農場的基本操作。但是還有很多需要學習的!
+
+	l1_task_1dig = 使用鐵鏟
+	l1_task_1dig_details = 雙擊一塊空地就可以挖土和耕作。
+	l1_task_4dig = 我們來繼續練習!
+	l1_task_4dig_details = 挖土，耕作出四塊方田。
+	l1_task_4plant = 播種
+	l1_task_4plant_details = 拿起種子袋，在四塊方天中種下南瓜。
+	l1_task_4water = 使用噴壺
+	l1_task_4water_details = 去井邊給噴壺裝滿水，然後給南瓜澆水。
+	l1_task_3sell = 完成練習
+	l1_task_3sell_details = 出售三箱南瓜即可結束練習部份。
+
+
+	l2_task_sow = 現在就開始妳的農場吧
+	l2_task_sow_details = 種下12份蘿蔔種子。
+
+	l2_task_first_sell = 妳的第一份訂單
+	l2_task_first_sell_details = 我們收到了一份訂單，需要三箱蘿蔔和三箱南瓜。
+
+	l2_task_first_patent = 訂購
+	l2_task_first_patent_details = 訂購一些黃瓜秧。
+
+	l2_task_second_sell = 妳的第二份訂單
+	l2_task_second_sell_details = 我們收到了一份訂單，需要兩箱黃瓜，四箱南瓜，還有三箱蘿蔔。
+
+	l2_task_second_patent = 訂購
+	l2_task_second_patent_details = 訂購一些茄子秧。這些茄子秧在周圍可是很稀有的。
+
+	l2_task_third_sell = 我們又收到了一份訂單。
+	l2_task_third_sell_details = 我們收到了一份訂單，需要一箱茄子。
+
+	l2_message_start = 這就是我們的第一個農場。好了，或許我們沒有最新的科技，並且雜草叢生。不過我們有了一個又好又大的穀倉，可以用來存放收穫的東西和肥沃的土壤。一個好的能唱需要的，我們幾乎都有了！
+	l2_message_sow = 這個農場閒置多年，雜草叢生。任務很艱巨，不過有人已經開始做了。妳也捲起袖子開始工作吧。我們有蘿蔔種子和南瓜種子。先播種這些種子是個不錯的開始。
+	l2_message_first_sell = 在我們播種的時候，當地商店的店主恰巧經過。他很喜歡我們的蔬菜，並下了三箱蘿蔔和三箱南瓜的訂單。
+	l2_message_add_money = 妳完成了第一份訂單，賺取了200 硬幣。
+	l2_message_add_money_2 = 妳完成了第二份訂單，賺取了300硬幣。
+	l2_message_first_patent = 妳的農場最基本的都有了，妳甚至已經完成了第一次任務。不過我們不能立足不前。在植物標籤中訂購黃瓜秧，然後妳可以種植這些好吃的蔬菜。
+	l2_message_second_sell = 當地商店的店主再次經過。他喜歡我們的蔬菜，並且要訂購三箱黃瓜，五箱南瓜，還有六箱蘿蔔。
+	l2_message_second_patent = 一輛裝載著新種子的卡車正駛過村莊。他現在有茄子種子，村裡還沒有人種植。如果妳第一個種植不是很好嗎？
+	l2_message_third_sell = 其實，村裡也有人買了茄子種子。所以，就看誰先種先賣啦。這樣的競賽可以決出誰是村裡最好的農場主。
+	l2_message_victory = 太好了! 所有人都認為妳是村裡最好的農場主。妳被譽為最佳農場主，很多人都來拜訪妳尋求建議。
+
+	l2_message_add_waterpump = 也許這並非農場上最重要的事，但是如果去井那裡來來回回花太多時間的話，妳還是鉆第二口井吧。(看看供應商店標籤就可瞭解更多)。
+	l2_message_add_big_watercan = 妳的菜園變大了。用這麼小的噴壺澆灌這麼大的菜園絕非易事。不過妳可以買一個比較大的噴壺，一次裝水可以澆灌12塊菜地。點擊存貨標籤買一個。
+	l2_message_add_fivebox = 每次需要一個柳條箱的時候就要去一次商店，妳是不是累了？我們為您提供了特殊的五箱一組的配套！
+	l2_message_thirsty_need = 千萬別忘了妳的職務。否則它們就會枯萎死去。
+	l2_fertilizer_help = 經常施肥，特別是心形出現的時候，否則植物會枯萎。
+	l2_help_help = 點擊屏幕上方的任務列表，妳就可以看到妳的任務匯總。
+
+	l3_task_collect_batch_vegatables = 種植蔬菜
+	l3_task_collect_batch_vegatables_details = 種植蘑菇、黃瓜和茄子，每樣四箱。
+
+	l3_task_pig_alarm = 全力以赴
+	l3_task_pig_alarm_details = 我們收到了飼養和出售七頭豬的訂單。
+
+	l3_message_pig_alarm = 妳好鄰居! 妳能想像嗎，通往工廠的水管竟然爆裂。雖然已經修好了，但是因為地上流了太多水，我們的甜菜損失了。現在我們沒有東西可以餵養豬，誰又會願意買骨瘦如柴的小豬呢？有人甚至已經下了七頭豬的訂單，可是現在我們不敢確定能否完成訂單！我們聽說妳是年輕、有天賦又值得信任度額農場主，妳能幫我們嗎？
+	l3_message_task_collect_batch_vegatables = 我們需要種植番茄來餵豬，但首先我們得賺點錢。我們收到了一個訂單，需要為當地市場提供蘑菇、黃瓜和茄子各四箱。
+	l3_message_task_sell_pig = 商店有賣番茄秧了(查看植物標籤)。我們需要種植番茄，熟了之後可以餵養豬。
+	l3_message_complete_sell_plant_mushroom = 很好! 妳完成了蘑菇訂單!
+	l3_message_complete_sell_plant_cucumber = 精彩! 妳完成了黃瓜訂單!
+	l3_message_complete_sell_plant_aubergine = 非常棒! 妳完成了茄子訂單！
+	l3_message_victory = 成功了! 我們的農場比從前任何時候都好!
+	l3_message_beetroot_help = 甜菜種子商店有賣了(查看種子標籤)。豬也吃甜菜，比吃番茄長的要快。
+	l3_message_pig_feed_help = 這些豬現在吃的很開心。我們現在只需要等待小豬長大變肥。當豬吃東西和生長時，飼料指示器會下降。如果豬沒有東西吃就不會生長，所以要確保牠們有吃的。
+	l3_message_pig_sow_help = 我們的小豬已經長大了，可以出售了。用箱子把牠帶到穀倉去。
+	l3_message_destructor_help = 如果有土或植物妨礙了妳，妳可以使用旋耕機來耕種。
+	l3_message_transporter_help	= It's now possible to rent a crane from the store. You can use the crane to move any construction to a different location (see the Store tab).
+	l3_message_water_sprinkler_help	= Sprinklers are now available at the store! It's very convenient, just place it near your garden and you won't have to water your plants by hand. Bear in mind, however, that each sprinkler only has a limited reach.
+	l3_message_add_house_pig = 為了快些完成訂單，妳可以再建造一個豬舍。但首先妳得申請一個建造執照。一旦付了建造許可的錢，妳就會得到500硬幣，用於建造豬舍。
+
+	l3_message_have_700money = 妳已經賺取了700 硬幣。妳可以申請建造豬舍得執照了。這樣妳就能快些完成訂單。
+	l3_message_add_500money = 妳賺取了500硬幣。
+
+	l4_task_big_cooler = 防風林
+	l4_task_big_cooler_details = 為了挽救村莊，我們需要購買並多種6棵樹!
+	l4_task_place_house_chicken = 雞籠
+	l4_task_place_house_chicken_details = 妳需要建造一個雞籠。
+	l4_task_place_hangar_refrigerator = 保持涼爽
+	l4_task_place_hangar_refrigerator_details = 妳需要購買冷藏庫。
+
+	l4_message_big_cooler = 工廠測試了巨大的風扇，它吧當地的莊稼都吹走了。我們得種一排樹保護村莊和莊稼不被工廠的大風吹壞。我們已經種了一些了，不過還需要更多！
+	l4_message_first_task = 我們還需要多種6棵樹，可是錢不夠。我們賣的蔬菜沒賺什麼錢，而且我們的豬舍已經失修，也沒賺錢。不過我們可以養雞，雖然牠們吃的不少，不過我們可以建造雞籠，出售雞蛋。現在利潤就大多了。當然，我們得先獲得養雞執照，不過當地村民已經答應幫我們了。
+	l4_message_place_patent_for_house_chicken = 我們有了建造雞籠的建造許可，也有了養雞執照。正如村民承諾的，他們給了妳 500硬幣的費用。
+	l4_message_second_task = 好了，我們現在有雞籠了。不幸的是，我們的穀倉不能存放雞蛋，我們需要建造一個冷藏庫。我們需要另一個建造許可，不過村民已經答應要給建築出資。
+	l4_message_place_patent_for_hangar_refrigerator = 很好! 我們已經有了建造許可，可以開始建造了。村民捐助了500硬幣。
+	l4_message_last_task = 太好了! 我們現在有了穩定的收入。只要我們繼續給雞餵食玉米飼料，雞蛋就能創收。現在我們可以集中精力挽救村子了。我們需要再購買蘋果樹和李子樹各3棵。
+	l4_message_trees_help = 樹木不需要澆水或施肥，而且還會結出果實。只要別忘了採摘就好了。
+	l4_message_pig_help = 在豬舍前的菜園有甜菜。豬很喜歡甜菜，而且比吃番茄長得快。
+	l4_message_victory = 謝謝! 農場現在安全了，我們應種了這麼多樹，另外，我們有了另一種穩定的收入來源!
+	l4_message_hangar_refrigerator_help = 我們的第一個冷藏庫。易腐壞的東西，如雞蛋、牛奶和蜂蜜，可以存放在這裡。
+
+	l4_message_harvester_help = 看看妳的雇傭的第一個幫手，Billy! 他同意幫忙採摘水果和蔬菜，少量酬勞就好。點擊他付錢給他，讓他去工作。100硬幣會自動從妳的帳戶中扣除。
+	l4_message_harvester_money_help = Billy停止了工作，他的頭上顯示一個硬幣圖案。意思就是今天是發薪日。妳付了薪水之後，他就會回去工作。
+	l4_message_harvester_question_help = 雇傭工人頭上出現問號。意思是Billy不知道該做什麽。這種情況在收穫不夠時會出現。這時候妳就需要等待，直到莊稼成熟可以收穫。
+	l4_message_transporter_help	= It's now possible to rent a crane from the store. You can use the crane to move any construction to a new location or replant a tree in a different place. Select the crane, click on what you want to move and then where you want to move it. It costs 10 coins every time you use this service!
+
+	l5_task_flowers_garden = 出售鮮花
+	l5_task_flowers_garden_details = 開始出售鮮花。
+	l5_task_buy_hangar_flowers = 新的存儲設施
+	l5_task_buy_hangar_flowers_details = 購買花房用來存放鮮花。
+	l5_task_sell_batch_flowers = 採摘鮮花
+	l5_task_sell_batch_flowers_details = 完成此訂單：向日葵和大麗花各六箱。
+	l5_task_buy_flowers_patent = 購買種花執照
+	l5_task_buy_flowers_patent_details = 訂購葵花籽和大麗花種子。
+	l5_task_flowers_sow = 種植鮮花
+	l5_task_flowers_sow_details = 播種葵花籽和大麗花種子各12份。
+
+	l5_message_about_tasks = 當地工廠修建了堤壩，在村旁建了一個蓄水池。現在土壤濕度過大。莊稼的情況很糟糕，只有豬舍、牛棚和灌溉系統留下來了。我們幾乎完全放棄希望了，可是後來有一陣風把一些稀有種子吹到了農場。在市場上應該能賣個好價錢，可是他們卻在出售之前枯萎了。我們需要一個存放的好方法。
+	l5_message_first_task = 這些花得保存在特殊的花房裡。但是建造之前，我們得申請建造許可和賣花執照。有了花房，存放鮮花就不成問題了。
+	l5_message_second_task = 非常棒! 現在我們可以摘花並保存了。摘些花，看看市場上的需求大不大。
+	l5_message_third_task = 鮮花賣的很好！所以我們決定把這塊地變成花園。我們需要訂購種子。我們有了種子，就能出售更多的鮮花。
+	l5_message_last_task = 我們的訂單很多。我們需要快些種一塊向日葵田和一塊大麗花田。
+
+	l5_message_add_water_sprinkler = 本地商店聽說妳在出售鮮花後，他們提到他們有很好的灑水裝置，這樣我們就不用在澆花上浪費時間了。
+	l5_message_plant_dahlia = 很好! 妳完成了大麗花訂單!
+	l5_message_plant_sunflower = 奇跡! 妳完成了向日葵花的訂單!
+	l5_message_plant_sunflower_help = 我們注意到小雞真的很喜歡葵花籽。所以妳可以用這些餵小雞。
+	l5_message_victory = 現在我們是此地區最大的花朵供應商了！謝謝妳!!
+	l5_task_second_victory = 賺些現金。
+	l5_task_second_victory_details = 花兒已經死了，但妳現在不能半途而廢。妳需要賺取5000硬幣，這樣妳可以付錢讓這塊地乾，讓一切回歸原貌。
+
+	l5_message_helper_help = 妳注意到Johnny了嗎? 妳會給花兒和植物施肥，酬勞只需100硬幣。
+
+	l5_notify_add_patent_for_flowers = 現在可以訂購葵花籽和大麗花種子。查看種子和植物標籤瞭解更多。
+
+	l5_message_dead_flower = 花兒已經死了，不過妳不可以半途而廢。妳需要賺取5000硬幣，這樣妳可以付錢讓這塊地乾，讓一切回歸原貌！
+	l5_message_second_victory = 雖然妳的花兒乾枯了，可妳挽救了樹木，賺的錢足夠將來的發展。
+
+	l6_task_beehive_save = 挽救蜂箱
+	l6_task_beehive_save_details = 恢復村裡的養蜂傳統。出售四箱蜂蜜。
+	l6_task_collect_batch_vegatables = 出售一些蔬菜
+	l6_task_collect_batch_vegatables_details = 出售黃瓜、番茄、卷心菜和胡椒各六箱。
+	l6_task_collect_batch_flowers = 出售一些稀有花兒
+	l6_task_collect_batch_flowers_details = 出售向日葵、大麗花和鬱金香各六箱。
+
+	l6_message_hello_heroine = 嗨! 我們的村子因為蜂蜜而出名。我們這兒的蜂箱多的不能再多，不過最近幾年數量在下降，村裡的繁榮也也是很久以前的事了。我們很多人都在保持傳統，可是糖果工廠卻把我們摧毀了。妳能幫我們恢復蜂箱和傳統嗎？我們只有一些種子和一些樹，就在穀倉旁。我們希望這些足夠供妳開始階段用的。好運!
+	l6_message_about_tasks = 要幫助這個村子，妳得恢復蜂箱，但可不是一蹴而就的。作為開始，妳要吸引一些供應商來。我們可以再菜園種菜開始，賺一點錢!
+	l6_message_first_task = 為了吸引一些大客戶，並且在當地商店訂購一些新東西，我們需要出售黃瓜、番茄、卷心菜和胡椒各六箱。
+	l6_message_second_task = 現在我們得吸引一些企業家。首先我們來試試看種些稀有的花兒。出售向日葵、大麗花和鬱金香各六箱。
+	l6_message_main_task = 現在我們可以負擔得起蜂箱了。現在正是展示我們所釀造的蜂蜜的好時候。這回吸引一些客戶，恢復村裡的傳統和財富。出售四箱蜂箱。
+	l6_message_see_pedicellates_patents = 注意，胡椒和卷心菜種子商店沒有賣。妳得訂購，並且給商店交付手續費。
+
+	l6_message_help_hangar_flowers = 在花兒開始枯萎之前，妳可以把花兒長時間存放在花房。妳也可以存放西瓜和草莓。
+	l6_message_help_hangar_refrigerator =  妳可以把易腐壞的東西，如牛奶、雞蛋和蜂蜜存放在冷藏庫。
+	l6_message_help_beehive = 考慮到蜜蜂需要花蜜，不如我們在蜂房旁邊種些鮮花，那不是很好嗎？不要忘了給花澆水。
+	l6_message_add_hangar_refrigerator = 如果妳把牛奶存放在冷藏庫，那不就意味著也可以存放雞蛋和蜂蜜嗎？冷藏庫已經可以從商店購買了。
+
+	l6_message_victory = 恭喜! 這兒生產的好吃的蜂蜜讓村子重新恢復了往日的榮光，生命好更加美好!
+
+	l7_task_contest0 = 報名表
+	l7_task_contest0_details = 妳需要賺取200硬幣，這樣才能付報名競爭的費用。
+	l7_task_contest1 = 資格競爭
+	l7_task_contest1_details =	In order to prove your farming skills you need to give the judges 7 crates each of cucumbers, radishes, and pumpkins.
+	l7_task_contest2 = 第一輪
+	l7_task_contest2_details = 要贏得競爭，妳得擁有一個大農場。種植一些番茄、甜菜、茄子和玉米，並且給評審提供以上蔬菜各一箱。
+	l7_task_contest3 = 質量控制
+	l7_task_contest3_details = 妳需要提供番茄、甜菜、茄子和南瓜各兩箱，給評審測試。
+	l7_task_contest4 = 畜牧業
+	l7_task_contest4_details = 為了完成此輪競爭，妳需要給評審三頭豬，還有三箱雞蛋。
+	l7_task_contest5 = 果園
+	l7_task_contest5_details = 為了完成此輪競爭，妳需要給評審蘋果樹、李子樹和櫻桃樹各三棵。
+	l7_task_contest6 = 以科學之名義
+	l7_task_contest6_details = 評審太喜歡我們的的水果了，他們問我們要蘋果、李子和櫻桃各兩箱。
+	l7_task_contest7 = 花之力量
+	l7_task_contest7_details = 妳需要展示一下妳的園藝技巧了。購買一個花房，並送給評審大麗花、向日葵和鬱金香各六箱。
+	l7_task_contest8 = 嗯，甜嗎？
+	l7_task_contest8_details = 到了忙的時候了，弄一個蜂箱，釀造七箱蜂蜜送給評審。
+	l7_task_contest9 = 新技巧應付新一輪競爭
+	l7_task_contest9_details = 妳至少得訂購和建造一個牛棚。
+	l7_task_contest10 = 有牛奶了?
+	l7_task_contest10_details = 含有豐富維他命的牛奶，妳得給評審十箱。
+	l7_task_contest11 = 農場生意
+	l7_task_contest11_details = 評審想要看看帳本底線。我們需要賺取1500硬幣，以此證明我們的農場是盈利的。
+	l7_task_contest12 = 獲獎蔬菜
+	l7_task_contest12_details = 種植四塊地的外來水果和蔬菜(蘑菇、胡椒、西瓜和草莓)。每塊地要有12株，而且要有5顆心的健康等級!
+
+	l7_message_hello = 鄉村集市快到了，大獎是100,000硬幣。這錢可用於進來苦苦掙扎求生存的農場上。每年我們村的農場主都來參加，但是已經兩代人沒有獲獎了。不過大家都認為妳有機會。
+	l7_message_about_tasks = 競爭規則如下：每個農場主都由一小塊地開始，一個穀倉、一棵蘋果樹，還有一袋種子。競爭最後，把農場發展的最好的農場主將會獲勝! 如果妳贏了，就能用獎金購買所需的設施，可能雇用一些工人。不僅如此，這還是全村的精神勝利!
+	l7_message_first_task = 但是首先妳要填寫報名申請，並交付200硬幣的註冊費。妳可以用當前的資源來賺取費用。在競賽最初，每個競爭者都會獲得30硬幣用於購買供應品。
+	l7_message_second_task = 現在評審將會檢查妳的農場，看妳是否已經準備就緒。妳要提供七箱各種蔬菜給他們。我們很幸運，因為評審提出要黃瓜、蘿蔔和南瓜各七箱。這些蔬菜在這塊地方長得很好!
+	l7_message_third_task = 競爭開始了。競賽分不同階段，每個階段中評審都會分發新的種子或其他東西，供完成階段任務使用。在競爭的第一階段，妳要儘量種植多種蔬菜，這很重要。所以，我們來種植番茄、玉米、茄子和甜菜吧。這些種子商店有賣。
+	l7_message_fourth_task = 現在妳要把每樣蔬菜都拿出一箱樣品，好讓評審測試、稱量和品嘗。
+	l7_message_fifth_task = 非常棒! 我們成功闖入第二輪競賽，測試我們的家畜技巧。我們需要飼養三頭豬，並且提供三箱雞蛋。一個豬舍、雞籠和冷藏庫都可以在商店買到。他們甚至給了我們500硬幣用於一些建築。
+	l7_message_sixth_task = 眾所周知，樹木對土壤很好，而且對眼睛有益處。評審讓我們種植蘋果樹、李子樹和櫻桃樹各三棵。
+	l7_message_seventh_task = 樹上結的果實很好，以至於一個評審向我們要蘋果, 李子和櫻桃各兩箱來測試。他說果實太好了，他要把它們送到當地的農業學校，而不是評審們的胃裡。
+	l7_message_eighth_task = 每年競爭都包括鮮花的部份，今年也不例外。種子和花房商店都有了。
+	l7_message_ninth_task = 有花的地方就有蜜蜂，有蜜蜂的地方就有蜂蜜。妳猜對了，最後階段的競爭是養蜂！妳要給評審提供七箱好吃的蜂蜜。
+	l7_message_tenth_task = 新消息。今年的競爭增加了最佳牛奶的比拼。我們的問題在於已經很久沒有人飼養奶牛了。我們至少要訂購一個牛棚。
+	l7_message_eleventh_task = 依照競爭規則，牛奶既要美味又要含有豐富的維他命。所以，妳要給奶牛餵食蔬菜而不是青草。奶牛吃胡蘿蔔和卷心菜。奶牛吃了這些蔬菜就會生產牛奶，牛奶得存放在冷藏庫。我們得給評審提供十箱牛奶。
+	l7_message_twelfth_task = 我們得證明這個農場是盈利的。我們需要賺取1500硬幣來證明我們的農場生意是成功的!
+	l7_message_thirteenth_task = 我們完成了競爭的所有階段。現在，評審正在評估蔬菜的重量和味道，以及農場的美觀度和成功與否。不過，我們還有一點時間讓農場變得更好！我們可以儘快種植四塊地的水果和蔬菜，施重肥(這樣它們會有5顆心的健康等級)。不要採摘，因為我們要讓評審看到稀有水果和蔬菜在我們的農場上生長的多快速。他們肯定會印象深刻，勝利會是我們的。西瓜、胡椒、草莓種子和蘑菇孢子商店都有賣了。
+
+	l7_message_add_harvester = 依照競爭規則，我們可以雇用一些幫手的。或許我們應該利用這個規則？
+	l7_message_victory = 恭喜! 評審認為我們的農場最美，而且產能最大。他們看到了成熟的外來水果和蔬菜，就徹底相信我們的農場是最好的。現在我們贏得了獎金，可以讓次地區的農場業復活。恭喜常委最佳農場主!
+	l7_message_watermelon_help = 西瓜要存放在冷藏庫中。
+	l7_message_strawberries_help = 草莓要存放在冷藏庫中。
+
+	l8_task_first_task = 睦鄰協助
+	l8_task_first_task_details = 賺取300硬幣，幫助老人Jones給他的商店租一個新地方。
+	l8_task_second_task = 訂購新產品
+	l8_task_second_task_details = 訂購茄子、玉米和胡蘿蔔種子。
+	l8_task_third_task = 茄子迷
+	l8_task_third_task_details = 收穫20箱茄子給那個能賣給我們樹苗的人。
+	l8_task_fourth_task = 新建築工
+	l8_task_fourth_task_details = 訂購和購買牛棚、羊圈、雞籠和蜂房的建造許可。
+	l8_task_fifth_task = 新倉庫
+	l8_task_fifth_task_details = 訂購穀倉和冷藏庫。
+	l8_task_sixth_task = 廣告活動
+	l8_task_sixth_task_details = 購買雞籠、牛棚和羊圈各一個。
+	l8_task_seventh_task = 花之力量
+	l8_task_seventh_task_details = 出售向日葵和大麗花各7箱，外加3箱蜂蜜。
+	l8_task_eighth_task = 鬱金香的回報
+	l8_task_eighth_task_details = 訂購鬱金香球根。
+	l8_task_ninth_task = 典型菜園
+	l8_task_ninth_task_details = 安裝8個灑水裝置，雇傭4個工人。
+	l8_task_tenth_task  = 外國供應商
+	l8_task_tenth_task_details = 種植西瓜、草莓秧、蘑菇孢子和胡椒秧各12份。
+	l8_task_eleventh_task = 儲蓄
+	l8_task_eleventh_task_details = 賺取800硬幣，以便應付將來可能出現的未知情況。
+
+	l8_message_hello = 關於我們的供應商店的壞消息。他們宣布菜園供應品已脫銷。沒有種子、樹苗和牲畜。老闆對此 很抱歉，但他們真的無能為力。如果我們不能買到種子，那麼恢復農場榮繞的夢想就會化為灰燼。我們得想點辦法。
+	l8_message_about_tasks = 我們會見了以前的供應商。Jones老人很好，他說他必須取消所有出貨。他說工廠董事來到他的商店，告訴他取消和本地農場的所有合同。Jones先生說如果他拒絕工廠董事的話，他的商店就會被關閉，還會被踢到街道上。他被迫順從，因為他沒錢租新的商店。
+	l8_message_first_task = 很好，我們知道了工廠董事威脅這個地區的農場主。我們可以連鎖Jones老人，並和他達成協議。他需要300硬幣在新地點租一個商店。如果我們幫助他，他可能會在種子訂購上幫助我們，我們就能買好多甜菜、黃瓜和南瓜種子了。
+	l8_message_second_task = Jones老人很感激我們。他花200硬幣租了新的店面，並且把剩下的100硬幣還給了我們。他還給他在其他城鎮開供應品商店的朋友寫信解釋這件事。他會按原價賣給我們種子。我們只要下訂單就好，他就會供應我們茄子、玉米和胡蘿蔔種子。
+	l8_message_third_task = Jones老人還有另一個朋友可以提供樹苗。Jones說他特別喜愛茄子，可是雜貨店卻買不到。他開玩笑說他為了一個茄子放棄了100顆樹，不過玩笑中多少有一點真的。如果我們提供給他20箱茄子，他就沒有理由拒絕賣樹苗給我們。
+	l8_message_fourth_task = 當鋸木廠的夥計們得知沒人賣給我們建築時，他們決定自己來解決問題。他們建造了豬舍，與我們過去從城鎮中獲得一樣好。他們只有建造豬舍得許可，不過如果我們訂購得多，並且申請其他的建造許可的話，他們願意為我們建造牛棚、羊圈、雞籠和蜂箱。
+	l8_message_fifth_task = 現在我們在哪兒存放東西呢？我們得拿到建造穀倉和冷藏庫的許可。
+	l8_message_sixth_task = 妳需要幫助那些鋸木廠的夥計們宣傳他們的新事業。這件事可以通過讓他們幫妳建造雞籠、牛棚和羊圈來實現。
+	l8_message_seventh_task = 一個其他鎮上的種子供應商從他朋友那裡聽說了我們的農場。他們提供花的種子，並且立即給我們一些大麗花球根和葵花籽，還有他們自己造的花房。我們甚至無需訂購這些種子和球根，他只將這些鍾愛的球根賣給那些懂得如何照顧花的人。妳需要給他向日葵和大麗花各7箱，向他證明妳能照顧好花兒。而且，聽說他特別愛蜂蜜，那麼，我們就給他5箱蜂蜜來搞定買賣吧。
+	l8_message_eighth_task = 供應商對我們的花印象深刻，同意向我們提供他摯愛的鬱金香球根。現在，我們只要下訂單就好了。
+	l8_message_ninth_task = 除了外來水果和蔬菜以外還有的其他東西，我們已經著手在找新供應商了。看來挺走運的。一個水果蔬菜的外國供應商昨天剛到小鎮。唯一的問題就是他的客戶要達到很嚴格的標準。他只把種子賣給設施好、安放合理的農場，這樣才能照顧好水果和蔬菜。要達到他的標準，我們需要安裝8個灑水裝置，還要請4個工人。
+	l8_message_tenth_task = 除了外來種子，這個外國供應商同意運送其他我們找不到的種子。我們來種一批，看看外國種子是否適應我們的環境。
+	l8_message_eleventh_task = 我們需要存些錢應付未知的開銷。800硬幣可能夠我們應付困難的了。
+
+	l8_message_victory = 非常棒! 工廠的威脅減輕了。我們找所有需要東西的供應商。現在，最大的懷疑論者也相信我們會贏!
+	l8_message_sheep_help = 我們的新供應商提供了一種新的牲畜，綿羊。根據最新研究，綿羊吃卷心菜和胡蘿蔔的話，羊毛會長得更好更強韌。
+
+	l9_task_first_task = 交付抵押金
+	l9_task_first_task_details = 妳需要賺取10,000硬幣。
+
+	l9_message_hello = 幾年前，我們犯了一個大錯誤。當AgroBank開業的時候，好多農場主借了大筆貸款去提升他們的土地，升級他們的設備。Agroson許下了很好的借貸條款，我們也希望會有最好的結果。但我們只是農場主，不是律師！我們不知道妳必須得閱讀這些東西。結果一眾農場主欠了Argoson銀行大筆債務。
+	l9_message_about_tasks = AgroBank現在針對著抵押金要農場主儘快償還貸款。如果他們不儘快還貸，銀行就會扣下抵押金。我們得賺取10,000硬幣來讓農場擺脫AgroBank的債務。
+	l9_message_victory = "9,998, 9,999, 10,000. 對了，夠了。這是收據，寫明妳已經還清貸款。祝妳今天愉快。" AgroBank的人說。妳挽救了這些農場!
+
+	l10_task_first_task = 乾旱
+	l10_task_first_task_details = 等待新的灑水裝置（10分鐘），這期間妳要照顧植物，別讓他們枯萎死去。
+	l10_task_second_task = 給水裝置
+	l10_task_second_task_details = 安裝5個灑水裝置。
+	l10_task_third_task = 恢復菜園
+	l10_task_third_task_details = 種植玉米、卷心菜和胡蘿蔔，每樣24份，還有12份甜菜。
+	l10_task_fourth_task = 新的改進
+	l10_task_fourth_task_details = 雇傭3個幫手
+	l10_task_fifth_task = 多種多樣
+	l10_task_fifth_task_details = 種植4棵香蕉樹
+	l10_task_sixth_task = 土地爭奪
+	l10_task_sixth_task_details = 賺取1200硬幣。
+
+	l10_task_alt_second_task = 恢復菜園
+	l10_task_alt_second_task_details = 種植甜菜、南瓜、蘿蔔和黃瓜各12份。
+	l10_task_alt_third_task = 新的改進
+	l10_task_alt_third_task_details = 安裝4個灑水裝置。
+	l10_task_alt_fourth_task = 多產的動物
+	l10_task_alt_fourth_task_details = 出售兩頭豬，還有雞蛋、牛奶和羊毛各兩箱。
+	l10_task_alt_fifth_task = 多種多樣
+	l10_task_alt_fifth_task_details = 種植4棵香蕉樹、3棵櫻桃樹和兩棵李子樹。
+	l10_task_alt_sixth_task = 土地爭奪
+	l10_task_alt_sixth_task_details = 賺取1200硬幣。
+
+	l10_message_hello = 妳在這兒太好了，快看啊！所有植物都乾枯了，這裡變成了沙漠。我們的典型菜園也乾枯了。這裡遭受了前所未有的旱災，而商店竟然沒有灑水裝置。我們的供應商已經訂購灑水裝置了，但還不確定何時到貨。
+	l10_message_about_tasks = 我們得挽救這片土地和莊稼。挖井工人和灑水裝置一會就有了。這期間妳要持續給莊稼澆水，賺取金錢，這樣妳才能雇傭工人，購買灑水裝置。安裝好了灑水裝置之後，一切就都不是問題了。
+	l10_message_first_task = 挖井工人和供應品已經在路上了，但是我們不能讓菜園乾枯掉。持續澆水直到幫手到來。
+	l10_message_second_task = 非常棒! 現在可以自動澆水了，不過我們得保證灑水裝置覆蓋所有職務。看來我們得至少安裝5個灑水裝置。
+	l10_message_third_task = 妳來這兒之前我們的植物就都枯萎死去了，動物沒有吃的。運送灑水裝置的供應商由我們需要的所有種子，可是我們得付運送費。然後就可以播種玉米、卷心菜和胡蘿蔔各24塊，還有12塊甜菜。
+	l10_message_fourth_task = 精彩! 現在牲畜被餵養的很好，可以提高農場的利潤。不幸的是，因為乾旱，收穫的不如從前多。看來可能要多請至多3個工人來確保植物都被好好施肥。蔬菜長得比較快，產量也會有所提高，農場的榮耀才會被恢復。
+	l10_message_fifth_task = 太好了! 妳挽救了農場，恢復了榮光。我們正好有一些新的外來樹苗。多種些樹木對未來來說是一個不錯的投資。種植4棵香蕉樹。
+	l10_message_sixth_task = 做的好! 農場戰勝了乾旱，但現在卻面臨土地爭奪的問題。當地政府注意到已經倒閉且骯髒，於是把土地交給一家工廠來開發。農場對這塊土地的租賃還有30年的期限，所以，這種做法很明顯是違法。妳必須得請律師和大家對薄公堂。不幸的是，好律師都很貴。賺取1200硬幣妳就可以請最好的律師幫妳打贏官司。
+
+	l10_message_alt_second_task = 太糟糕了！我們損失了很多莊稼。我們得重新恢復菜園，讓農場重新 運作起來。一家商店聽說了我們的困難，建議我們買特殊的雜種種子，更加適應乾旱條件。我們得填寫一些新的訂購表格，不過一切都值得的。臨近的農場聽說了我們的困難，借給我們600硬幣。妳需要栽種甜菜、南瓜、蘿蔔和黃瓜各12份，代替已經枯萎的其他植物。
+	l10_message_alt_third_task = 雖然我們了有了這些雜種種子，可乾旱還在繼續。為了避免另一場災難，我們得至少安裝4個灑水裝置。現在也可以請工人幫忙了。
+	l10_message_alt_fourth_task = 現在這些土地看起來不錯，我們該把注意力放到那些牲畜上。我們得種些蔬菜餵養牲畜。然後我們再賣掉兩頭豬，還有雞蛋、牛奶和羊毛各兩箱。
+	l10_message_alt_fifth_task = 即使我們買的種子可以在沙漠中生長，我們還是要把農場的業務多樣化。供應商建議我們購買一些適應乾熱天氣的外來樹木。種植4棵香蕉樹、3棵櫻桃樹和2棵李子樹。
+	l10_message_alt_sixth_task = 農場戰勝了乾旱，但現在卻面臨土地爭奪的問題。當地政府注意到已經倒閉且骯髒，於是把土地交給一家工廠來開發。農場對這塊土地的租賃還有30年的期限，所以，這種做法很明顯是違法。妳必須得請律師和大家對薄公堂。不幸的是，好律師都很貴。賺取1200硬幣妳就可以請最好的律師幫妳打贏官司。
+
+	l10_message_harvester = 可以雇傭一位幫手。當我們給植物澆水時，他們可以幫我們採摘水果和蔬菜，賺取購買灑水裝置的錢。
+	l10_message_add_water_sprinkler = 灑水裝置商店有賣了。
+
+	l11_task_first_task = 第一個任務
+	l11_task_first_task_details = 出售一箱甜菜、一箱番茄和5頭豬，雇傭一個水果蔬菜採摘工。
+	l11_task_second_task = 第二個任務
+	l11_task_second_task_details = 出售一箱茄子，建造一個冷藏庫，雇傭一個菜園工人，安裝2個灑水裝置。
+	l11_task_third_task = 第三個任務
+	l11_task_third_task_details = 出售一箱蘿蔔、5箱雞蛋，雇傭一個菜園工人，一位水果蔬菜採摘工。
+	l11_task_fourth_task = 第四個任務
+	l11_task_fourth_task_details = 出售一箱向日葵和一箱大麗花，降噪一個花房和一個蜂箱。
+	l11_task_fifth_task = 第五個任務
+	l11_task_fifth_task_details = 出售一箱胡蘿蔔、一箱卷心菜、5箱牛奶，雇傭一位水果蔬菜採摘工。
+	l11_task_sixth_task = 第六個任務
+	l11_task_sixth_task_details = 出售5箱蘑菇、5箱蜂蜜，雇傭一位菜園工人，安裝6個灑水裝置。
+	l11_task_seventh_task = 第七個任務
+	l11_task_seventh_task_details = 出售5箱鬱金香、3箱南瓜和3箱黃瓜，建造一個羊圈。
+	l11_task_eighth_task = 第八個任務
+	l11_task_eighth_task_details = 出售4箱草莓、4箱西瓜，雇傭一位菜園工人和一位水果蔬菜採摘工。
+	l11_task_ninth_task = 第九個任務
+	l11_task_ninth_task_details = 出售一箱羊毛，種植一棵蘋果樹和一棵櫻桃樹，安裝2個灑水裝置。
+	l11_task_tenth_task  = 第十個任務
+	l11_task_tenth_task_details = 出售5箱胡椒，建造一個雞籠、一個羊圈和牛棚。
+	l11_task_eleventh_task = 第十一個任務
+	l11_task_eleventh_task_details = 種植一棵李子樹和一棵香蕉樹，賺取800硬幣。
+
+	l11_message_hello = 是把農場帶往更高水平的時候！我們需要建造一個可以達到各方面標準的農場。本地區其他農場將以妳為樣本運作，賺取更多利潤。由於妳的努力，本地區正在急速發展！
+	l11_message_about_tasks = 我們計畫建一個現代、高效的農場，可以賺取最大利潤。我們成功之後，當地的其他農場可以照樣學!
+	l11_message_first_task = 在開始之前，我們得賺點錢。建造豬舍，出售5頭豬、一箱番茄，作為邁向自動控制的第一步，我們來雇傭一個幫手，幫我們採摘蔬菜。
+	l11_message_second_task =  我們得種植各種不同的蔬菜，先從茄子開始。我們還得種植一些易腐爛的蔬菜，所以我們來建造一個冷藏庫吧。既然是自動控制，那麼我們得安裝2個灑水裝置，雇傭一個菜園工人。
+	l11_message_third_task = 我們來試驗一下新技術設施吧。我們得出售一箱蘿蔔。由於我們真的很想使用新的冷藏庫，所以，我們就來建造一個雞籠，出售5箱雞蛋吧。要進一步發展自動化，我們應該雇傭兩個助手-一位菜園工人，一位蔬菜採摘工。
+	l11_message_fourth_task = 我們的新農場必須得什麼都有。妳得種植並出售一箱向日葵和一箱大麗花，還要建造一個花房來存放鮮花，然後就再建造一個蜂箱。
+	l11_message_fifth_task = 為了提高農場的自動化程度，我們需要再雇傭一個助手。妳得賣掉一箱胡蘿蔔和一箱卷心菜。然後用這些蔬菜餵養奶牛，並出售5箱牛奶。
+	l11_message_sixth_task = 我們需要再雇傭一個菜園工人，安裝更多灑水裝置，這樣就不用老是惦記給植物澆水了。之後就可以種植一些蘑菇，賣出去5箱。別忘了蜂箱哦，要出售5箱蜂蜜。
+	l11_message_seventh_task = 出售5箱鬱金香、3箱南瓜和3箱黃瓜。還得建造一個羊圈。
+	l11_message_eighth_task = 雇傭兩位助手，他們忙碌工作的時候，我們就可以引入一些新水果。出售西瓜和草莓各4箱。
+	l11_message_ninth_task = 出售一箱羊毛，檢查一下羊圈。為將來要種植的植物做好準備，再安裝2個灑水裝置。種植蘋果樹和櫻桃樹，這樣我們的農場就能生產更多美味水果了。
+	l11_message_tenth_task  = 農場需要繼續擴大，我們要建造一個雞籠，一個羊圈和一個牛棚。然後種植並出售5箱胡椒。
+	l11_message_eleventh_task = 我們要完成我們的藍圖，就來種植李子樹和香蕉樹吧。然後賺取800硬幣，好雇傭一個主管來管理所有的工人。
+
+	l11_message_victory = 我們已經完成了宏偉藍圖了。這個農場將會成為整個鄉村的模範，這個地區會繼續繁榮下去。
+
+	l12_task_first_lot_vegetables = 交付第一批蔬菜
+	l12_task_first_lot_vegetables_details = 蘿蔔、南瓜、玉米和番茄各裝3箱。
+	l12_task_second_lot_vegetables = 交付第二批蔬菜
+	l12_task_second_lot_vegetables_details = 黃瓜、茄子、胡椒和蘑菇各裝3箱。
+	l12_task_first_lot_flowers = 交付第一批鮮花
+	l12_task_first_lot_flowers_details = 鬱金香、大麗花、向日葵和西瓜各裝3箱。
+	l12_task_first_lot_strawberries_behive = 交付蜂蜜和草莓
+	l12_task_first_lot_strawberries_behive_details = 草莓和蜂蜜各裝3箱。
+	l12_task_first_lot_trees = 交付一批水果
+	l12_task_first_lot_trees_details = 蘋果、香蕉、李子和櫻桃各裝3箱。
+	l12_task_first_lot_farms_produktion = 交付一批食品雜貨。
+	l12_task_first_lot_farms_produktion_details = 準備3頭豬，雞蛋、羊毛和牛奶各裝3箱。
+	l12_task_first_shop_order = 完成雜貨店訂單
+	l12_task_first_shop_order_details = 準備3頭豬，向日葵、蘑菇和香蕉各裝3箱。
+	l12_task_second_shop_order = 完成雜貨店訂單
+	l12_task_second_shop_order_details = 卷心菜、羊毛、鬱金香和西瓜各裝3箱。
+	l12_task_third_shop_order = 完成雜貨店訂單
+	l12_task_third_shop_order_details = 牛奶、草莓、蜂蜜和櫻桃各裝3箱。
+	l12_task_fourth_shop_order = 完成雜貨店訂單
+	l12_task_fourth_shop_order_details = 胡椒、蘋果、卷心菜和雞蛋各裝3箱。
+
+	l12_message_victory = 商店里都是我們的新鮮蔬菜，再沒有人買Agro 公司的產品了。他們破產了。聽說他們要拆掉工廠建造公園。我們贏了!!!
+	l12_message_cool_vegetables = 這個地區正在慢慢地復蘇，很快就會有很多興盛的農場了。Agro 公司投標加工好吃但不健康的食品，不含任何維他命和營養成份，只是便宜。我們的任務就是讓好吃、有營養、新鮮的水果和蔬菜充滿商店。當沒有人購買Agro公司的那些加工食品的時候，這家公司就會破產，人們都將吃我們健康的食品。
+	l12_message_first_lot_vegetables = 在商店進我們的產品之前，他們想要看看試賣的如何。
+	l12_message_second_lot_vegetables = 商店感歎我們的蔬菜賣的非常好，準備嘗試更多。他們還會把銷售額中的一部份利潤付給我們，200硬幣。我們得給他們提供一些其他不同的蔬菜。這次，我們提供外來蔬菜，讓他們的顧客開心。
+	l12_message_first_lot_flowers = 我們的蔬菜賣的真的很好。或許我們該試試看花兒賣的如何。給買賣加點甜，來點西瓜吧。我們利潤加倍了。這次，他們給我們400硬幣。
+	l12_message_first_lot_strawberries_behive = 城市中的所有人都愛極了我們的西瓜。這絕對是個大衝擊！此時，Agro公司的冷凍食品和糖果銷售下降。這是個好機會，我們給人們提供些天然的，運來些蜂蜜和草莓吧。利潤達到600硬幣。
+	l12_message_first_lot_trees_details = 整個城市都在享受我們的蜂蜜和蔬菜。不過我們也不要忘了樹上還有很多水果呢。上次我們賺了700硬幣。
+	l12_message_first_lot_farms_produktion = 我們的所有的產品在商店都賣的非常好。我們該提供一些很棒的天然產品，比如雞蛋、牛奶、豬和羊毛。上次貨的利潤是150硬幣。
+	l12_message_first_shop_order = 我們的產品已經賣完，商店想要更多！我們已經收到針對脫銷商品的訂購單。我們已經在上次貨物中轉到了1500硬幣。
+	l12_message_second_shop_order = 我們的產品太搶手。商店希望進更多這樣美味健康的食物！很快，人們就會只認我們的蔬菜。他們又給我們一個訂單，還有900硬幣。
+	l12_message_third_shop_order = 我們的產品在鎮上大多數商店都佔據了一半的庫存，銷售額直線上升！上次出貨我們賺到了1200硬幣！贏得這次投標只是時間的問題。我們要準備下一次出貨。
+	l12_message_fourth_shop_order = 各個商店都充滿了我們的產品，而且給我們又下了大訂單，並且付給我們1500硬幣。如果我們完成了這次訂單，就肯定會贏得投標。
+	l12_message_supplier_sabotage = Agro公司又開始搗亂了。他們買光了我們訂的所有種子，現在供應商沒有什麼可以賣給我們。為什麼我們總是遇到這樣的事？我們必須得尋找新的供應商。
+
+
+	comics_p1f1b1 = 從前，在一個偏僻的小村莊，有一個很特別的女孩。
+	comics_p1f1b2 = 妳將成為最好的農場主，並將挽救我們免遭重工業的吞噬！
+	comics_p1f1b3 = 老奶奶雖然在晚年不能自制，不過她關於這個問題是對的。
+	comics_p1f2b1 = 在幼年時代，這個小女孩就在農場業方面有天賦。
+	comics_p1f2b2 = 看，Ginger還不到一歲，卻已經可以用沙子做很好的菜園了！
+	comics_p1f2b3 = 記住我的話，小Ginger將來已經有出息。
+	comics_p1f3b1 = 當她六歲時，她的爺爺就教她關於農場的種種工作。
+	comics_p1f3b2 = 加把勁兒，孩子，挖土耕種!
+	comics_p1f5b1 = 使勁兒!!
+	comics_p1f6b1 = 嘎吱!!
+	comics_p1f7b1 = 有些事對Ginger來講不容易...
+	comics_p1f7b2 = 小夥子，那個東西看起來不太像菜園哦！
+	comics_p1f7b3 = …可是她堅持學習爺爺所有的種菜竅門。
+	comics_p1f8b1 = 不要忘了，孩子，妳做的每件事都是發自內心的!
+	comics_p1f8b2 = Grandpa, why do you always say such weird stuff?
+
+	comics_p2f1b1 = 妳現在的農場技巧已經很成熟。這就是我們在妳18歲生日時給妳一份特別禮物的原因...
+	comics_p2f1b2 = 妳自己的農場!
+	comics_p2f1b3 = 哦，天哪!
+	comics_p2f2b1 = 我可以在這裡種植所有的蔬菜!
+	comics_p2f2b2 = 還有水果...
+	comics_p2f2b3 = 喔呼呼——!
+	comics_p2f3b1 = 這塊土地曾經屬於我的爺爺，Bob Johnson!
+	comics_p2f4b1 = Ahhhh!
+	comics_p2f4b2 = 爺爺，那又是哪一年呢?
+	comics_p2f5b1 = Hack-a-cough-doo!
+	comics_p2f6b1 = 不要擔心，我的孩子。
+	comics_p2f6b2 = 一切都掌握在妳手中，我知道妳會做得很好!
+	comics_p2f7b1 = Bam!
+	comics_p2f8b1 = Cooooo...
+
+	comics_p3f1b1 = 然後，一個美麗的、充滿陽光的寂靜早晨...
+	comics_p3f2b1 = 從樹林深處傳來很大聲的豬的哼哼聲。
+	comics_p3f3b1 = 這讓公雞很不滿。
+	comics_p3f5b1 = 吵醒了Ginger。
+	comics_p3f5b2 = 怎麼回事?
+	comics_p3f6b1 = 鄰居的養豬場有事情!
+	comics_p3f6b2 = 快來，Ginger，我們去幫忙。
+	comics_p3f7b1 = 當他們到達養豬場，發現那裡一片混亂。
+	comics_p3f7b2 = 一個通往工廠的水管在路上爆裂，水淹了農場!
+	comics_p3f7b3 = 什麼尖叫?
+	comics_p3f7b4 = 是豬! 所有的豬食都毀了。可憐的豬因為飢餓而憤怒。
+	comics_p3f8b1 = 可憐的豬!
+	comics_p3f8b2 = 沒問題，我們會幫忙照顧牠們。
+	comics_p3f8b3 = Oink!
+	comics_p3f8b4 = Oink!
+	comics_p3f8b5 = Grrrr
+
+	comics_p4f1b1 =家裡當時正在給爺爺過生日。
+	comics_p4f1b2 = …於是我問他：“妳用什麼施肥？”
+	comics_p4f1b3 = 他回答道：“和往常一樣…當然是沙子！”
+	comics_p4f1b4 = 哈哈哈!
+	comics_p4f1b5 = 突然...
+	comics_p4f2b1 = 嗖
+	comics_p4f3b1 = 噼啪!
+	comics_p4f5b1 = 喵!
+	comics_p4f6b1 = 哎喲，天!
+	comics_p4f7b1 = 啪!
+	comics_p4f8b1 = 嗖
+	comics_p4f9b1 = Bam!
+	comics_p4f10b1 = 啪!
+	comics_p4f10b2 = 噼啪!
+	comics_p4f10b3 = 過了一會兒，"番茄風暴"漸漸平息了。
+	comics_p4f10b4 = 鈴，鈴!
+	comics_p4f11b1 = 喂?
+	comics_p4f12b1 = 你好叔叔! 有東西朝你飛嗎？
+	comics_p4f12b2 = 妳好啊。看來，是妳用番茄襲擊我們，哈？
+	comics_p4f12b3 = 是那個可惡的工廠!
+	comics_p4f12b4 = 他們開啟了一種大型通風系統，把我們的番茄全都吹跑了！就連貓也從房頂上吹下來了!
+	comics_p4f12b5 = 不是玩笑!?
+	comics_p4f12b6 = 我們不知道該怎麼辦。如果他們回轉，可能就把整個村子吹走了。
+	comics_p4f12b7 = 別擔心侄女！等我清理完房子上的爛番茄之後就告訴你怎樣做。
+	comics_p4f13b1 = Hmmm. 現在我們該如何防止Joe叔叔的村子被大風吹跨呢?
+	comics_p4f13b2 = 我有一個主意!
+
+	comics_p5f1b1 = Ginger理所當然地得獎了。
+	comics_p5f1b2 = 因妳為我們的村子和所有居民做出了傑出的貢獻，我發給妳...
+	comics_p5f1b3 = …這份榮譽證書，我親愛的侄女!
+	comics_p5f1b4 = 謝謝！我要感謝我的全部家人，特別是我的爺爺!
+	comics_p5f1b5 = 沒有他的幫助，我就不會有今天。我還要感謝...
+	comics_p5f1b6 = 可是Ginger的講話被一個從人群中擠來，手拿一封信的男人打斷了。
+	comics_p5f2b1 = 嗯，這些人想請你幫忙。
+	comics_p5f2b2 = 我來讀信給你聽。這是來自更遠的Greenfield的信。"親愛的Ginger! 我們Greenfield的情況相當糟糕。"
+	comics_p5f2b3 = "當地工廠的工程師建了一個水力發電所，淹沒了大量土地。植物都蔫了，莊稼都快死了，我們真不知如何是好。"
+	comics_p5f2b4 = "你為挽救了村子免遭工廠巨大風扇侵害所做的努力，使我們相信你也可以幫助我們！祝好，Greenfield全體村民。"
+	comics_p5f2b5 = 哇！那該是怎樣的工廠呢？看來我就是解決一個接一個的問題。
+	comics_p5f2b6 = 嗯，是這樣...
+	comics_p5f3b1 = 幾年前，有個Agroson先生。
+	comics_p5f3b2 = 雖然樣貌一般，可是他的口才很好，而且很有錢。
+	comics_p5f3b3 = 他承諾要為城市供應食物。便宜，但是不健康，且對環境有害。
+	comics_p5f3b4 = 他在山的另一邊建了食物工廠，一切從這裡開始。
+	comics_p5f3b5 = 村子里變得潮濕泥濘，而我們的鄰村卻正在經歷乾旱。
+	comics_p5f3b6 = 當風從山那邊吹來，就會帶來難聞的味道，雨都變紫色!
+	comics_p5f4b1 = 那太可怕了！簡直無法忍受!
+	comics_p5f4b2 = 爺爺，我們收拾東西吧，得立刻離開這兒!
+	comics_p5f4b3 = 我們走到那個村子得8小時，黃昏之前無法到達...
+	comics_p5f4b4 = 可是我們不用走去。我們來試試Joe叔叔的禮物!
+	comics_p5f5b1 = 看那! 那輛老破車正好配這骯髒的路面!
+	comics_p5f5b2 = 這不是老破車，是去年的Chevrodzuki。
+	comics_p5f5b3 = 好，出發!
+	comics_p5f6b1 = Beep-boop
+
+	comics_p6f1b1 = 爺爺和奶奶像往常一樣享受他們的下午茶...
+	comics_p6f1b2 = Ginger什麼時候回來? 我真想她。
+	comics_p6f1b3 = 你聽說Greenfield的事了嗎? 現在一切都搞定了。
+	comics_p6f1b4 = Vrooom!
+	comics_p6f1b5 = 說曹操曹操就到!
+	comics_p6f2b1 = 嗨奶奶! 嗨，爺爺！看到你們真是太好了!
+	comics_p6f2b2 = Greenfield被淹沒了好些天到處都是青蛙和水蛭...
+	comics_p6f3b1 = Coo-Coooo?
+	comics_p6f4b1 = 啪!
+	comics_p6f5b1 = 快坐下Ginger。妳的茶杯...
+	comics_p6f5b2 = …還有茶!
+	comics_p6f5b3 = 謝謝! 糖果在哪兒?
+	comics_p6f5b4 = 哦，Ginger，我沒有什麼甜食材可供烘焙使用!
+	comics_p6f5b5 = 我以前都是從老Plainsville的老Betty那裡買蜂蜜。
+	comics_p6f5b6 = 可現在那邊有一個大工廠生產巧克力和糖果。所以人們就不買她的蜂蜜了。
+	comics_p6f5b7 = 親愛的，這個工廠基本上毀了一切。
+	comics_p6f5b8 = 什麼? 沒有了...
+	comics_p6f5b9 = …蜂蜜蛋糕和糕餅沒有了?
+	comics_p6f6b1 = 哦，我現在真是快要瘋了!
+	comics_p6f7b1 = 堅持住Plainsville! 我這就來救你!
+	comics_p6f7b2 = 以自由...
+	comics_p6f7b3 = 的名義!
+	comics_p6f7b4 = …還有蜂蜜糕餅!
+
+	comics_p7f1b1 = 與此同時，在Agroson先生的辦公室...
+	comics_p7f1b2 = 媽的! 那個討厭的女孩讓我們被迫關了巧克力工廠。我忍無可忍了!
+	comics_p7f1b3 = Jacques, Helmut, 聽著! 我們得調查這關於這個小Ginger的…一切。
+	comics_p7f1b4 = 如果你要讓這個村莊分崩離析，我也不在乎，我需要給這個女孩點顏色看看…找些材料我們可以用來和她作對的。明白了嗎?
+	comics_p7f1b5 = 是，明白!
+	comics_p7f1b6 = Ja, natürlich! 就像從嬰兒嘴裡拿走糖果一樣!
+	comics_p7f1b7 = 非常棒。你現在可以去工作了。Janice!
+	comics_p7f1b8 = 什麼事，先生?
+	comics_p7f1b9 = 安排時間約一下這個小Ginger小姐。告訴她我有... 
+	comics_p7f1b10 = …一個建議給她。
+	comics_p7f2b1 = 第二天...
+	comics_p7f2b2 = 哇! 他們什麼時候建造的？希望電梯好用。
+	comics_p7f3b1 = Ginger, 你真是有潛質!
+	comics_p7f3b2 = 你隨手就毀了我的一間公司。真是佩服你的能耐。
+	comics_p7f3b3 = 可是你想想，如果你有我的財力和關係網的支持，妳的作為會有多麼大!
+	comics_p7f3b4 = 和我一起做事吧，我們把整個地區變成精彩絕倫的理想王國。妳覺得如何?
+	comics_p7f3b5 = 謝謝你Agroson先生，不過我和我的朋友一起工作會更開心。
+	comics_p7f3b6 = 你應該用你的錢買一些鮮花和植物。這兒很壓抑…有點像墳墓。
+	comics_p7f4b1 = 你知道的電話號碼，如果需要，我會把最好的鮮花在24小時內送到。
+	comics_p7f4b2 = 等一下，妳這個自大的黃毛丫頭!
+	comics_p7f4b3 = 妳很快就知道拒絕我會有什麼下場!
+	comics_p7f5b1 = Meeeeoooowwwww!
+	comics_p7f6b1 = 兩天後...
+	comics_p7f6b2 = 其他新聞... 今天，Agro公司的總裁Agroson先生宣布了他公司的最新動向。
+	comics_p7f6b3 = Agro公司計畫在本地區購買12,000英畝的土地，用來建造一個大型遊樂園。
+	comics_p7f6b4 = 據 Agroson說，這個公園將會吸引無數遊客，會顯著提高鄉村的預算。
+	comics_p7f6b5 = 這些土地目前都是一些過時的、虧損的農場。
+	comics_p7f6b6 = 我們公司將會給這個地區帶來新的生命。
+	comics_p7f6b7 = 再也沒有成箱的爛蔬菜，我們將吸引成千上萬的遊客前來，在這兒消費將是很快樂的體驗!
+	comics_p7f6b8 = 十年內，這裡就會成為世界著名的熱鬧之都!
+	comics_p7f7b1 = 哇! 他們這麼快就實施報復和威脅。
+	comics_p7f8b1 = 我們要證明給這個城市看看，我們能給人們提供的要比爛蔬菜好百倍!
+
+	comics_p8f1b1 = 到鄉村集市只有一個月的時間!
+	comics_p8f1b2 = 距上次我們村贏得最佳農場主獎已有50多年了。
+	comics_p8f2b1 = Ginger, 著名的本地農場主，已經宣布參加競賽!
+	comics_p8f2b2 = 這個農業天才能為我們村子帶來勝利嗎?
+	comics_p8f3b1 = 市長說她對今年的結果很感興趣。
+	comics_p8f3b2 = 贏家總是會獲得名望、獎賞和很好的合同!
+
+	comics_p9f1b1 = 你這個白癡! 我讓你找的資料呢?
+	comics_p9f2b1 = 可是Agroson先生，這個女孩很清白!
+	comics_p9f2b2 = 真的，老闆! 我們四處找，可是都沒有關於Ginger的負面消息。
+	comics_p9f2b3 = 荒謬! 我再給你一週時間。如果還找不到任何東西的話，你就看著辦!
+	comics_p9f2b4 = Janice! 打電話給Ginger。我要親自告訴她一些事。
+	comics_p9f3b1 = 喂?
+	comics_p9f4b1 = Ginger，你聽好! 我不會讓你破壞我的公司的。快停下，否則有妳好看!
+	comics_p9f4b2 = 你嚇不倒我Agroson先生...
+	comics_p9f4b3 = 是嗎? 妳知不知道有多少妳的朋友生活在我的土地上？他們欠我的銀行多少錢？妳別想干擾我，小丫頭!
+	comics_p9f5b1 = "拆掉過時又虧損的農場！我們來建造全新的商場和遊樂園!"
+	comics_p9f5b2 = 在Agro公司的股東會議上，Agroson的演講得到了很多正面回應!
+	comics_p9f5b3 = 反對拖欠貸款者的活動孩子持續增長。今天又有一個農場宣布破產，被撤銷抵押的贖回權。
+
+	comics_p10f1b1 = 老闆，老闆! 我們找到了!
+	comics_p10f1b2 = 我們沒找到關於Ginger的，不過我們找到了一些關於她祖父母的資料。
+	comics_p10f1b3 = 哦，我看看... 出生... 已婚... 沒有孩子。所以她是他們領養的？那是違法的嗎？
+	comics_p10f1b4 = 老闆！沒有文書可以證明她是被合法領養的。這不是官方的。
+	comics_p10f1b5 = 真的嗎? Hmmm... 幹的好!
+	comics_p10f2b1 = Ginger! 坐下。喝點茶嗎？看看這個，我想妳會發現些有趣的東西!
+	comics_p10f2b2 = 這是什麼?
+	comics_p10f2b3 = 沒什麼要緊的! 只是證明你是小嬰兒時被拐賣的證據。
+	comics_p10f2b4 = 這是最後的警告。不要打擾我的公司，否則我會把妳的祖父母送進監獄！哈哈！哈哈！哈！
+	comics_p10f3b1 = Joe叔叔，我是Ginger! 你知道我的親生父母是誰嗎？
+	comics_p10f4b1 = 哦，Ginger... 我真的不知道。你最好問問老Gus。他可能記得的。
+	comics_p10f4b2 = 好吧。你知道我該去哪兒找他嗎?
+	comics_p10f5b1 = Gus? 你好，我是...
+	comics_p10f5b2 = Ginger, 是的，我知道你是誰。進來吧。
+	comics_p10f6b1 = 哦，這個故事已經很模糊。我老了，記性不好了。
+	comics_p10f6b2 = 我的農場很糟糕，我的菜園死氣沉沉，我的奶牛也跑了...
+	comics_p10f6b3 = 不過，如果你能幫我，我肯能還會記起電話號碼。可能黃瓜會幫我恢復記憶!
+
+	comics_p11f1b1 = 好，謝謝妳Ginger，妳挽救了我的農場。這些新鮮的蔬菜讓我如獲新生，我可以把妳父母的事告訴妳。
+	comics_p11f1b2 = 是這樣的...
+	comics_p11f2b1 = 很久以前，一個成功的年輕商人和妻子離婚了。
+	comics_p11f2b2 = 你有看到法庭判決書嗎? 把嬰兒給我，否則讓你見識Peter Agroson的憤怒! 這孩子是我的，是我一個人的!
+	comics_p11f3b1 = 但命運奇妙的轉身了...
+	comics_p11f4b1 = 那個豪華轎車沒注意地上的大坑窪，把小女孩飛了出去。
+	comics_p11f5b1 = 當你的爸爸媽媽發現了妳，Ginger，他們別提有多高興了。
+	comics_p11f5b2 = 他們沒有小孩，可是卻把妳視為己出。
+	comics_p11f6b1 = 你在我們村莊裡多冷啊，這裡。
+	comics_p11f6b2 = 嗯，這麼說，你告訴我我是Agroson先生的女兒?!?
+	comics_p11f6b3 = 不，Ginger。妳認真聽，妳就會知道妳真正的雙親是誰。
+
+	comics_p12f0b1 = 我們快速重新回憶一下上次故事中的情節。
+	comics_p12f1b1 = Ginger 知道了過去的真相。
+	comics_p12f2b1 = 新聞沒能取悅Argoson先生。
+	comics_p12f2b2 = 老闆，我們有些關於你女兒的消息。
+	comics_p12f2b3 = 我的女兒已經死了，Jacques。
+	comics_p12f2b4 = 不，老闆，Ginger是你的女兒。
+	comics_p12f2b5 = 不不不不!
+	comics_p12f3b1 = 再讀! 再讀！全都讀!
+	comics_p12f3b2 = 爆炸性新聞! 市長已經打破了和Agro公司的合同!
+	comics_p12f3b3 = 他已經開展了投標，要給這座城市提供食物!
+	comics_p12f3b4 = 誰將是新一輪的蔬菜大王呢?
+
+	comics_p13f1b1 = 這就是故事的結局。
+	comics_p13f1b2 = 卡車忙忙碌碌，不停地把新鮮蔬菜運往城市。
+	comics_p13f1b3 = 再見，番茄! 一路平安!
+	comics_p13f2b1 = 因您為這城市提供了很好的服務，我頒發此榮譽證書給妳...
+	comics_p13f2b2 = Ginger成為了次城市的榮譽市民。
+	comics_p13f3b1 = Agro公司的業務和價值繼續下滑。
+	comics_p13f3b2 = 先生，市場分析顯示，所有人都已經停止購買我們的產品。
+	comics_p13f3b3 =哦，Ginger, Ginger... 她就像我!
+	comics_p13f4b1 = 如你所見，紅線下降，而綠線增長很多。
+	comics_p13f4b2 = 這意味著什麼？現在是11：00!
+	comics_p13f5b1 = Agro公司被迫出售公司的總部...
+	comics_p13f6b1 = Ginger最終，用植物和鮮花裝飾了Agroson先生之前的辦公室。
+	comics_p13f6b2 = 完
+
+>>

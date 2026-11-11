@@ -1,0 +1,471 @@
+тут можно писать что угодно!
+
+<<
+
+@level 2
+{
+	#string level_name "Деньги";
+	#point level_size 40, 40; 
+	#string level_env "swamp";
+	#float level_time 2700;
+	#float plant_thirst_growth 0.25;
+	#float health_reduction_after_harvest 1.5;
+	#float plant_fertilizer_strength 0.7;
+	#float plant_fertilizer_time 7;
+
+	
+	
+	
+	@scenario
+	{
+		
+	//----------------------------------------------//
+	//				все условии						//
+	//----------------------------------------------//		
+		
+		//ИНТРО
+		@comics_episode1
+		{
+			time >= 1;
+		}
+		@comics_episode2
+		{
+			time >= 2;
+		}
+
+		//первая пачка заданий
+		
+		@first_task_part1
+		{
+			money >= 10000;
+		}
+
+		//время поражения
+		@defeat_time
+		{
+			time >= 10000000000000;
+		}
+		
+		@delete_shop_helper
+		{
+			place_helper >= 6;
+		}
+		
+		@delete_shop_harvester
+		{
+			place_harvester >= 6;
+		}
+		
+		//----------------------------------------------//
+		//				мессаги							//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l9_message_hello";
+			@condition
+			{
+				comics_episode1;
+			}
+		}  
+
+		@action
+		{
+			#string type "show message";
+			#string data "l9_message_about_tasks";
+			@condition
+			{
+				comics_episode2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l9_message_victory";
+			@condition
+			{
+				first_task_part1;
+			}
+		} 
+		
+		//----------------------------------------------//
+		//		а тут дибильные таски на уровень		//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l9_task_first_task";
+			@condition
+			{
+				first_task_part1;
+			}
+		}  
+		
+		//----------------------------------------------//
+		//					задачи						//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "add task";
+			#string data "l9_task_first_task";
+		}  
+
+		//----------------------------------------------//
+		//				добавляем на поле				//
+		//----------------------------------------------//
+		
+		@action //добавили героя
+		{
+			#string type "add to field";
+			#string data "hero";
+			#point coords  6, 8;
+		}
+
+		@action
+		{
+			#string type "add to field";
+			#string data "hangar_vegetables";
+			#point coords  4, 4;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "hangar_flowers";
+			#point coords  10, 4;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "hangar_refrigerator";
+			#point coords  16, 4;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "tree_swamp_cherry";
+			#point coords 7, 4;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "tree_swamp_plum";
+			#point coords 13, 4;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "tree_swamp_apple";
+			#point coords 20, 4;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "big_watercan";
+			#point coords  6, 9;
+		}
+		@action
+		{
+			#string type "add to field";
+			#string data "waterpump";
+			#point coords  5, 8;
+		}
+		@action
+		{
+			#string type "add to field";
+			#string data "tenbox";
+			#point coords  5, 6;
+		}
+		
+		
+		//----------------------------------------------//
+		//				добавляем всякое				//
+		//----------------------------------------------//
+		
+		@action //бабок накинули
+		{
+			#string type "add money";
+			#string data "120";
+		}
+		
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "aubergine";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "beetroot";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "cabbage";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "carrot";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "corn";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "cucumber";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "dahlia";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "mushroom";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "pepper";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "pumpkin";
+ 		}
+		
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "strawberries";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "sunflower";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "tomato";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "tulip";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "watermelon";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "radish";
+ 		}
+ 				
+		@action
+		{
+			#string type "add to shop";
+			#string data "beehive";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_chicken";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_sheep";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_pig";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_cow";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "hangar_vegetables";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "hangar_flowers";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "hangar_refrigerator";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "tree_swamp_cherry";
+		}
+		
+		@action //добавили в магазин ящики
+		{
+			#string type "add to shop";
+			#string data "tree_swamp_apple";
+		}
+		
+		@action //добавили в магазин ящики
+		{
+			#string type "add to shop";
+			#string data "tree_swamp_plum";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "box";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "fivebox";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "tenbox";
+		}
+		
+		@action //добавили в магазин ящики
+		{
+			#string type "add to shop";
+			#string data "fertilizer";
+		}
+		
+		@action //добавили в магазин ящики
+		{
+			#string type "add to shop";
+			#string data "big_fertilizer";
+		}	
+		
+		@action //добавили в магазин лейку
+		{
+			#string type "add to shop";
+			#string data "waterpump";
+		}
+		
+		@action //добавили в магазин лейку
+		{
+			#string type "add to shop";
+			#string data "watercan";
+		}
+		
+		@action //добавили в магазин лейку
+		{
+			#string type "add to shop";
+			#string data "big_watercan";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "water_sprinkler";
+		}
+		
+		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "destructor";
+ 		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "harvester";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "helper";
+		}
+		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "transporter";
+ 		}
+		
+		//----------------------------------------------//
+		//				игровые события					//
+		//----------------------------------------------//	
+
+		
+		@action
+		{
+			#string type "delete shop";
+			#string data "harvester";
+			@condition
+			{
+				delete_shop_harvester;
+			}
+		}  
+		
+		@action
+		{
+			#string type "delete shop";
+			#string data "helper";
+			@condition
+			{
+				delete_shop_helper;
+			}
+		}  
+		
+		@action	
+		{
+			#string type "victory";
+			@condition 1
+			{
+				first_task_part1;
+			}
+		}
+		@action
+		{
+			#string type "defeat";
+			@condition 1
+			{
+				defeat_time;
+			}
+		}
+	}
+}
+
+
+>>
+
+тут тоже можно писать что угодно
+что угодно
+
+

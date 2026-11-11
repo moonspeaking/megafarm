@@ -1,0 +1,85 @@
+<<
+
+@por
+{
+	_Diretor de Projeto
+	Sergey Smirnov
+	_Designers de Jogo
+	Sergey Smirnov
+	Oleg Dolgikh
+	Sergey Seleznev
+	_Produção
+	Vitaly Romanov
+	_Desenvolvedores
+	Sergey Simirnov
+	Oleg Dolgikh
+	_Design de Fases
+	Sergey Seleznev
+	_Produção de Arte
+	Denis Markelov
+	Zlata Markelova
+	_Artistas e Designers
+	_Positive Games
+	Alexander Boldin
+	Valery Nefedov
+	Alexander Yurgens
+	_Nevosoft
+	Ksenia Mamaeva
+	Yuri Voronov
+	Anastasia Borzykh
+	_Modelos e Animação
+	Positive Games
+	_Roteiro
+	Sergey Smirnov
+	Oleg Dolgikh
+	Sergey Seleznev
+	_Música
+	The SandS
+	_Efeitos Sonoros
+	The SandS
+	Nick Oshurkov
+	Denis Antonov
+	Doug Pullar
+	_Localização em Inglês
+	Christopher Hamilton
+	_Diretores de Som
+	Christopher Hamilton
+	Nick Oshurkov
+	_Vozes
+	Ginger           Jennifer Gaspar
+	Grandma            Kaycee Zeller
+	Grandpa              Doug Pullar
+	Narrator    Christopher Hamilton
+	Pig Farmer  Christopher Hamilton 
+	Uncle Joe       Donough McNamara
+	Old Man              Doug Pullar
+	Mr. Agroson        Marcus Godwyn
+	Jacques         Donough McNamara
+	Helmut               Doug Pullar
+	Janice             Kaycee Zeller
+	TV Announcer       Kaycee Zeller
+	Gus         Christopher Hamilton
+	Mayor                Doug Pullar
+	Financial Analyst  Nick Oshurkov
+	_Testes
+	Sergey Seleznev
+	Vitaly Romanov
+	Alexandra Ryabchikova
+	Alexey Serebrov
+	Pavel Räikkönen
+	Andrey Litvinov
+	Mikhail Gurenkov
+	Sergey Korshun
+	Christopher Hamilton
+	_Suporte Criativo
+	Vitaly Romanov
+	Alexey Serebrov
+	Pavel Räikkönen
+	Mikhail Gurenkov
+	Sergey Korshun
+	Christopher Hamilton
+	_Nenhum vegetal foi ferido durante a produção deste jogo.
+	(с) NevoSoft, 2008
+}
+
+>>

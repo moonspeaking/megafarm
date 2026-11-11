@@ -1,0 +1,21 @@
+<<
+@worker 1
+{
+	#string name "helper";
+	#string type_goods "workers";
+	#string texmask_name "helper_mask.tga";
+	#int price 300;
+	#point pos 0, 0;
+	#point size 128, 256;
+	#bool solid false;
+	#point zbase 0, 0;
+	#float speed 300;
+	#int work_time 140;
+	#int pay 100;
+	#point base_center 0, 0;
+	#point base_radius 2, 2;
+	#point dock_center 16, -32;
+	#point dock_radius 8, 8;
+}
+>>
+

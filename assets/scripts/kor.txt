@@ -1,0 +1,1111 @@
+<<
+
+	begin_lower_char = a
+	end_lower_char = z
+	begin_upper_char = A
+	end_upper_char = Z
+	start = 시작	
+	freemode = 테스트 
+	options = 옵션
+	trophyroom = 트로피
+	change_player = 플레이어 바꾸기
+	credits = 크레딧
+	help = 도움말
+	exit = 나가기
+	back = 뒤로가기
+	loading = 로딩중
+
+	musics = 뮤직
+	fullscreen = 전체 화면 모드
+	windowed = 윈도우 모드
+	vsync = 수직 동기
+	
+	new_profile = 새 사용자
+	delete_profile = 사용자 삭제
+
+	music_on = 배경음악 켜기
+	music_off = 배경음악 끄기
+	sound_on = 효과음 켜기
+	sound_off = 효과음 끄기
+	cursor_on = 게임 커서 켜기
+	cursor_off = 게임 커서 끄기
+	
+	set_volume = 음량
+	sound_volume = 효과음 크기 조절
+	music_volume = 배경음악 크기 조절
+
+	languages = 언어 선택
+	lang_rus = Russian
+	lang_eng = English
+	lang_fra = French
+	lang_ita = Italian
+	lang_por = Portuguese
+	lang_dut = Dutch
+	lang_swe = Swedish
+	lang_deu = German
+	lang_esp = Spanish
+	lang_jap = Japanese
+	lang_kor = 한국어
+	lang_chn = Chinese
+
+	change_player_label = 사용자 변경
+	ok = 확인
+	cancel = 취소
+	yes = 예
+	no = 아니오
+	game_saved = 저장완료!
+	game_loaded = 로딩 완료
+	question_save_game = 지금 이 게임을 저장할까요?
+	question_load_game = 이전에 저장된 게임을 불러올까요?
+	question_exit_game = 정말로 종료하시겠습니까? 
+	question_replay_game = 지금 이 레벨을 다시 플레이 하시겠습니까?
+	question_end_game = 메인 메뉴로 이동하시겠습니까?
+	question_saveandexit_game = 게임을 종료하기 전에 저장 할까요?
+	cheatmodeon = 힌트모드 사용!
+	cheatmodeoff = 힌트모드 사용안함!
+	tasks = 작업 관리
+	mainmenu = 메뉴
+	continue = 계속하기
+	restart = 다시하기
+	exitgame = 종료하기
+	profit_hint = % 달러를 획득 했어요
+	current_task = 지금 할일
+	click_to_continue = 계속하기
+	patent_buy_confirm = 상품을 주문하시겠습니까?
+	notify_you_cant_place = 여기에 놓을 수 없어요!
+	notify_you_cant_gowhere = 그쪽으로 갈 수 없어요!
+	
+	wombat = 웜뱃
+	
+	control_help_1 = 마우스 왼쪽버튼으로 캐릭터들을 조종할 수 있는 반면 마우스 오른쪽버튼으로는 명령을 취소할 수 있어요. 방향키로는 필드를 이동할 수 있어요.
+	control_help_2 = 마우스 왼쪽버튼을 한번 클릭하면 기본 기능이 적용되고 더블 클릭하면 밭을 갈거나 건물을 세워요.  
+	
+	text_enter_name = 이름을 입력하세요
+	welcome_message = 환영합니다,
+
+	dig_squares = 밭을 만드세요 
+	water_plants = 작물에 물을 주세요
+
+	level1_name = 연습하기
+	level2_name = 당신의 첫번째 농장
+	level3_name = 모조리 해치우기
+	level4_name = 돈이 열리는 나무
+	level5_name = 꽃의 힘
+	level6_name = 벌처럼 부지런히
+	level7_name = 농산물 품평회
+	level8_name = 상점
+	level9_name = 돈, 돈, 돈 
+	level10_name = 가뭄
+	level11_name = 꿈의 농장
+	level12_name = 마켓에 가다
+	
+	trophy_announce_header = 트로피를 획득했어요!
+	
+	trophy_hint0 = 당신이 연습레벨에서 훌륭한 성과를 얻어 뻐꾸기 시계를 획득했어요
+	trophy_hint1 = 돈을 많이 모아 파머스 돼지저금통을 획득 했어요
+	trophy_hint2 = 모든 일을 처리하고 돼지 농장을 살린 당신에게 돼지 조각상이 수여됐어요. 
+	trophy_hint3 = 이 야자나무는 공장의 거대한 환풍기로부터 마을을 구한 상이에요.
+	trophy_hint4 = 당신의 화원을 잘 가꿔, 화초 재배에 대해 금메달이 수여 됐어요.
+	trophy_hint5 = 전통적인 양봉업을 되살린 당신에게 최고의 일꾼 상이 수여됐어요.
+	trophy_hint6 = 농산물 전시회에서 대상을 받았어요.
+	trophy_hint7 = 어려운 상황에서 잘 견뎌낸 당신에게 자유 농부상이 수여 됐어요.
+	trophy_hint8 = 은행으로부터 아직 최고의 트로피를 수여 받지 못했군요. 농부들이 당신에게 아이스크림을 대접하네요!
+	trophy_hint9 = 가뭄에서 농장을 살린 당신에게 은물통이 수여됐어요.
+	trophy_hint10 = 앞날이 밝은 당신의 농장에 황금 이삭이 수여됐어요. 
+	trophy_hint11 = 최고의 생산자상이라는 증명서를 받았습니다. 입찰에서 우승했어요!
+	trophy_hint12 = 농업분야 역대 최고의 농부에게 주는 트로피.
+	
+	level_not_finished = 이 레벨을 통과하지 못했군요.
+    level_completed = 레벨 완료
+    level_completed_with_trophy = 트로피를 획득 했어요!
+    level_time = 시간
+    level_money = 돈
+    best_time = 최고시간:
+    best_money = 최고 이익:
+
+	inventory_form = 상점
+	buildings_form = 설비
+	seeds_form = 씨앗
+	sprouts_form = 묘목
+	trees_form = 나무
+	workers_form = 농부들
+
+	aubergine = 가지
+	beetroot = 비트
+	cabbage = 양배추
+	carrot = 당근
+	corn = 옥수수
+	cucumber = 오이
+	dahlia = 모란꽃
+	mushroom = 버섯
+	pepper = 고추
+	pumpkin = 호박
+	radish = 레디쉬
+	strawberries = 딸기
+	sunflower = 해바라기
+	tomato = 토마토
+	tulip = 튤립
+	watermelon = 수박
+	
+	task_separator = to
+	task_sow = 식물
+	task_sell = 판매
+	task_fertilize = 비료주기
+	task_buy = 구입
+	
+	water_sprinkler = 스프링클러
+	time = 시간
+	
+	tree_desert_apple = 사과나무
+	tree_desert_cherry = 체리 나무
+	tree_desert_palm = 바나나 나무
+	tree_desert_plum = 자두 나무
+	tree_grass_apple = 사과 나무
+	tree_grass_cherry = 체리나무
+	tree_grass_palm = 바나나 나무
+	tree_grass_plum = 자두 나무
+	tree_swamp_apple = 사과 나무
+	tree_swamp_cherry = 체리 나무
+	tree_swamp_palm = 바나나 나무
+	tree_swamp_plum = 자두 나무
+	
+	house_chicken_product = 달걀
+	house_cow_product = 우유
+	house_pig_product = 새끼 돼지
+	house_sheep_product = 양털
+	beehive_product = 꿀
+	
+	tree_desert_apple_product = 사과
+	tree_desert_cherry_product = 체리
+	tree_desert_palm_product = 바나나
+	tree_desert_plum_product = 자두
+	tree_grass_apple_product = 사과
+	tree_grass_cherry_product = 체리
+	tree_grass_palm_product = 바나나
+	tree_grass_plum_product = 자두
+	tree_swamp_apple_product = 사과
+	tree_swamp_cherry_product = 체리
+	tree_swamp_palm_product = 바나나
+	tree_swamp_plum_product = 자두
+	
+	house_chicken = 닭장
+	house_cow = 외양간
+	house_pig = 돼지우리
+	house_sheep = 양목장
+	hangar_refrigerator = 냉동창고
+	hangar_flowers = 온실
+	beehive = 벌통
+	
+	helper = 정원사
+	harvester = 수확자
+	
+	patent_for_tulip = 튤립뿌리 주문
+	patent_for_dahlia = 모란 뿌리 주문 
+	patent_for_sunflower = 해바라기 뿌리 주문
+	patent_for_cucumber = 오이 묘목 주문
+	patent_for_tomato = 토마토 묘목 주문
+	patent_for_aubergine = 가지 묘목 주문
+	patent_for_pepper = 후추 묘목 주문
+	patent_for_watermelon = 수박 씨앗 주문
+	patent_for_hangar_flowers = 온실 건축 허가
+	patent_for_beehive = 양봉 허가증
+	patent_for_cabbage = 양배추 씨앗 주문
+	patent_for_beetroot = 비트 씨앗 주문
+	patent_for_house_pig = 돼지 우리 허가
+	patent_for_carrot = 당근 씨앗 주문
+	patent_for_corn = 옥수수 씨앗 주문
+	patent_for_hangar_vegetables = 창고 건축 허가
+	patent_for_mushroom = 버섯 종자 주문
+	patent_for_pumpkin = 호박 씨앗 주문
+	patent_for_strawberries = 딸기 씨앗 주문
+	patent_for_hangar_refrigerator = 냉동창고 건축 허가
+	patent_for_house_sheep = 목양업 허가증
+	patent_for_house_chicken = 양계업 허가증
+	patent_for_house_cow = 낙농업 허가증
+	patent_for_radish = 레디쉬 씨앗 주문
+	
+	plant_aubergine = 가지 나무
+	plant_beetroot = 벌
+	plant_cabbage = 양배추
+	plant_carrot = 당근
+	plant_corn = 옥수수
+	plant_cucumber = 오아
+	plant_dahlia = 가지
+	plant_mushroom = 버섯
+	plant_pepper = 후추
+	plant_pumpkin = 호박
+	plant_radish = 상추
+	plant_strawberries = 딸기
+	plant_sunflower = 해바라기
+	plant_tomato = 토마토
+	plant_tulip = 튤립
+	plant_watermelon = 수박
+	
+	money = 돈
+
+	cost_goods = 이 생산 한 상자를 %i 달러에 팔 수 있어요.
+	cost_work = 농장에서 일한 댓가는 %i 달러입니다. 
+
+	box_shop_hint = 수확한 농작물을 담는 상자.
+	fivebox_shop_hint = 상자 5개 묶음
+	tenbox_shop_hint = 상자 10개 묶음
+
+	spade_shop_hint = 양질의 정원삽
+	watercan_shop_hint = 소형 물뿌리개
+	big_watercan_shop_hint = 대형 물뿌리개
+
+	destructor_shop_hint = 이 도구는 잡초를 제거하거나 기존 야채밭을 새로 일구는데 필요합니다. 
+	transporter_shop_hint = 크레인은 농장의 건물을 옮기는데 사용됩니다
+	
+	hangar_vegetables_shop_hint = 창고에는 잘 썩지 않는 야채나 과일을 저장합니다.
+	hangar_flowers_shop_hint = 온실에는 꽃을 저장합니다. 
+	hangar_refrigerator_shop_hint = 냉동 창고에는 썩기 쉬운 상품을 저장합니다.
+
+	beehive_shop_hint = 벌통으로 양봉을 해서 맛있는 꿀을 판매할 수 있습니다.
+	house_sheep_shop_hint = 양목장에서는 양을 키워 양모를 판매할 수 있습니다. 
+	house_pig_shop_hint = 돼지우리에서 새끼 돼지를 키웁니다.
+	house_cow_shop_hint = 외양간에서는 젖소를 키워 우유를 판매할 수 있습니다. 
+	house_chicken_shop_hint = 닭장에서는 닭을 키워 달걀을 판매할 수 있습니다.
+	
+	
+	waterpump_shop_hint = 만약 물을 가지러 멀리 가야 한다면 다른 우물이 필요할 거에요. 
+	water_sprinkler_shop_hint = 스프링클러는 큰 농장에서 반드시 필요한 아이템이죠. 
+	fertilizer_shop_hint = 작은 비료 자루 
+	big_fertilizer_shop_hint = 큰 비료 자루 
+	
+	tree_desert_palm_shop_hint = 바나나는 빨리 자라지는 않지만 큰 돈을 벌 수 있어요.
+	tree_desert_apple_shop_hint = 사과는 값은 싸지만 빨리 자라요. 
+	tree_desert_cherry_shop_hint = 체리 나무가 좀 변덕스럽긴 하지만 과일로는 꽤 괜찮은 이득을 볼 수 있어요. 
+	tree_desert_plum_shop_hint = 자두 나무는 빨리 자라면서 잘 팔리기까지 하죠.
+	
+	tree_swamp_palm_shop_hint = 바나나는 빨리 자라지는 않지만 큰 돈을 벌 수 있어요. 
+	tree_swamp_apple_shop_hint = 사과는 값은 싸지만 빨리 자라요 
+	tree_swamp_cherry_shop_hint = 체리 나무가 좀 변덕스럽긴 하지만 꽤 괜찮은 이득을 볼 수 있어요. 
+	tree_swamp_plum_shop_hint = 자두 나무의 자두는 빨리 자라고 잘 팔리죠. 
+
+	tree_grass_palm_shop_hint = B바나나는 빨리 자라지는 않지만 큰 돈을 벌수 있어요. 
+	tree_grass_apple_shop_hint = 사과는 값은 싸지만 빨리 자라요. 
+	tree_grass_cherry_shop_hint = 체리 나무가 좀 변덕스럽긴 하지만 꽤 괜찮은 이득을 볼 수 있어요. 
+	tree_grass_plum_shop_hint = 자두 나무는 빨리 자라면서 잘 팔리기까지 하죠. 
+	
+	harvester_shop_hint = 수확자는 당신의 과일이나 야채를 수확하는 일을 도와 줍니다. 
+	helper_shop_hint = 정원사는 정원 식물들이 잘 자라도록 비료주는 일을 도와 줍니다. 
+	
+	aubergine_shop_hint = 가지 묘목 한 묶음
+	beetroot_shop_hint = 비트 씨앗 한 묶음
+	cabbage_shop_hint = 양배추 씨앗 한 묶음
+	carrot_shop_hint = 당근 씨앗 한 묶음
+	corn_shop_hint = 옥수수 씨앗 한 묶음
+	cucumber_shop_hint = 오이 묘목 한 그루
+	dahlia_shop_hint = 모란뿌리 한 묶음
+	mushroom_shop_hint = 버섯종자 한 묶음
+	pepper_shop_hint = 고추 묘목 한 그루
+	pumpkin_shop_hint = 호박 씨앗 한 묶음
+	radish_shop_hint = 레디쉬 씨앗 한 묶음
+	strawberries_shop_hint = 딸기 묘목 한 그루
+	sunflower_shop_hint = 해바라기 씨앗 한 묶음
+	tomato_shop_hint = 토마토 묘목 한 그루
+	tulip_shop_hint = 튤립뿌리 한 묶음
+	watermelon_shop_hint = 수박 씨앗 한 묶음
+	
+	patent_for_tulip_shop_hint = 튤립뿌리를 주문하세요. 주문한 튤립뿌리는 상점에서 구입할 수 있어요.
+	patent_for_dahlia_shop_hint = 모란뿌리를 주문 하세요. 주문한 모란뿌리는  상점에서 구입할 수 있어요. 
+	patent_for_sunflower_shop_hint = 해바라기 씨앗을 주문하세요. 주문한 해바라기 씨앗은 상점에서 구입할 수 있어요.
+	patent_for_cucumber_shop_hint =  오이 묘목을 주문하세요. 주문한 오이 묘목은 상점에서 구입할 수 있어요. 
+	patent_for_tomato_shop_hint =  토마토 묘목을 주문하세요. 주문한 토마토 묘목은 상점에서 구입할 수 있어요. 
+	patent_for_aubergine_shop_hint =  가지 묘목을 주문하세요.주문한 가지 묘목은 상점에서 구입할 수 있어요. 
+	patent_for_pepper_shop_hint =  고추 묘목을 주문하세요. 주문한 고추 묘목은 상점에서 구입할 수 있어요. 
+	patent_for_watermelon_shop_hint =  수박 씨앗을 주문 하세요. 주문한 수박 씨앗은 상점에서 구입할 수 있어요. 
+	patent_for_hangar_flowers_shop_hint =  원예 허가증을 구입하면 온실을 지을 수 있어요. 원예 허가증이 있으면 꽃을 키워 판매할 수 있어요. 
+	patent_for_beehive_shop_hint = 양봉 허가증을 구입하세요. 이 허가증으로 꿀을 만들어 판매할 수 있어요. 
+	patent_for_beetroot_shop_hint = 비트 씨앗을 주문하세요. 주문한 비트 씨앗은 상점에서 구입할 수 있어요.
+	patent_for_cabbage_shop_hint = 양배추 씨앗을 주문하세요. 주문한 양배추 씨앗은 상점에서 구입할 수 있어요.
+	patent_for_carrot_shop_hint = 당근 씨앗을 주문하세요. 주문한 당근 씨앗은 상점에서 구입할 수 있어요.
+	patent_for_corn_shop_hint = 옥수수 씨앗을 주문하세요. 주문한 옥수수 씨앗은 상점에서 구입할 수 있어요. 
+	patent_for_hangar_refrigerator_shop_hint = 냉동창고를 사용할 수 있도록 건축 허가증을 구입하세요.
+	patent_for_hangar_vegetables_shop_hint = 창고를 지을 수 있는 허가증을 구입하세요. 이 허가증으로 더 편리한 곳에 창고를 추가로 지을 수 있어요.
+	patent_for_house_chicken_shop_hint = 양계 허가증을 구입하세요. 이 허가증으로 닭을 키워 달걀도 판매할 수 있어요.
+	patent_for_house_cow_shop_hint = 낙농 허가증을 구입하세요. 이 허가증으로 젖소를 키워 우유를 판매할 수 있어요. 
+	patent_for_house_pig_shop_hint = 양돈 허가증을 구입하세요. 이 허가증으로 돼지를 키워 새끼돼지를 판매할 수 있어요.
+	patent_for_house_sheep_shop_hint = 목양 허가증을 구입하세요. 이 허가증으로 양을 키워 양모를 판매할 수 있어요. 
+	patent_for_mushroom_shop_hint = 버섯종자를 주문하세요. 주문한 버섯종자는 상점에서 구입할 수 있어요. 
+	patent_for_pumpkin_shop_hint = 호박 씨앗을 주문하세요. 주문한 호박 씨앗은 상점에서 구입할 수 있어요. 
+	patent_for_radish_shop_hint = 레디쉬 씨앗을 주문하세요. 주문한 레디쉬 씨앗은 상점에서 구입할 수 있어요. 
+	patent_for_strawberries_shop_hint = 딸기 묘목을 주문하세요. 주문한 딸기 묘목은 상점에서 구입할 수 있습니다. 
+	
+	notify_add_shop_harvester = 이제 과일이나 채소를 수확하는 수확자를 고용할 수 있어요.
+	notify_add_shop_helper = 이제 농작물에 물과 비료를 주는 정원사를 고용할 수 있어요
+	notify_add_shop_box = 이제 운반 상자를 상점에서 구입할 수 있어요.
+	notify_add_shop_fivebox = 상자 5개 묶음을 구입할 수 있어요.
+	notify_add_shop_tenbox = 상자 10개 묶음을 상점에서 구입할 수 있어요.
+	notify_add_shop_aubergine = 이제 가지 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_beetroot = 이제 비트 씨앗을 상점에서 구입할 수 있어요.
+	notify_add_shop_cabbage = 이제 양배추 씨앗을 상점에서 구입할 수 있어요
+	notify_add_shop_carrot = 이제 당근 씨앗을 상점에서 구입할 수 있어요.
+	notify_add_shop_corn = 이제 옥수수 씨앗을 상점에서 구입할 수 있어요. 
+	notify_add_shop_cucumber = 이제 오이나무 묘목을 상점에서 구입할 수 있어요
+	notify_add_shop_dahlia = 이제 모란뿌리를 상점에서 구입할 수 있어요.
+	notify_add_shop_mushroom = 이제 버섯종자를 상점에서 구입할 수 있어요.
+	notify_add_shop_pepper = 이제 고추 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_pumpkin = 이제 호박 씨앗을 상점에서 구입할 수 있어요.
+	notify_add_shop_radish = 이제 레디쉬 씨앗을 상점에서 구입할 수 있어요.
+	notify_add_shop_strawberries = 이제 딸기 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_sunflower = 이제 해바라기 씨앗을 상점에서 구입할 수 있어요.
+	notify_add_shop_tomato = 이제 토마토 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_tulip = 이제 튤립뿌리를 상점에서 구입할 수 있어요.
+	notify_add_shop_watermelon = 이제 수박 씨앗을 상점에서 구입할 수 있어요.
+	notify_add_shop_watercan = 이제 물뿌리개를 상점에서 구입할 수 있어요.
+	notify_add_shop_big_watercan = 이제 대형 물뿌리개를 상점에서 구입할 수 있어요
+	notify_add_shop_transporter = 지금부터 상점에서 크레인을 빌릴 수 있어요.
+
+	notify_add_shop_beehive = 이제 벌통을 상점에서 구입할 수 있어요.
+	notify_add_shop_house_sheep = 이제 양을 상점에서 구입할 수 있어요.
+	notify_add_shop_house_pig = 이제 돼지를 상점에서 구입할 수 있어요.
+	notify_add_shop_house_cow = 이제 젖소를 상점에서 구입할 수 있어요.
+	notify_add_shop_house_chicken = 이제 닭을 상점에서 구입할 수 있어요.
+
+	notify_add_shop_waterpump = 이제 펌프가 달린 우물을 상점에서 구입할 수 있어요.
+	notify_add_shop_water_sprinkler = 이제 스프링클러를 상점에서 구입할 수 있어요.
+	notify_add_shop_fertilizer = 이제 비료를 상점에서 구입할 수 있어요.
+	notify_add_shop_big_fertilizer = 이제 대형 비료를 상점에서 구입할 수 있어요.
+
+	notify_add_shop_tree_grass_palm = 이제 바나나 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_tree_grass_apple = 이제 사과 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_tree_grass_cherry = 이제 체리 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_tree_grass_plum = 이제 자두 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_tree_desert_palm = 이제 바나나 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_tree_desert_apple = 아제 사과 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_tree_desert_cherry = 이제 체리 묘목을 상점에서 구입할 수 있어요. 
+	notify_add_shop_tree_desert_plum = 이제 자두 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_tree_swamp_palm = 이제 바나나 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_tree_swamp_apple = 이제 사과 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_tree_swamp_cherry = 이제 체리 묘목을 상점에서 구입할 수 있어요.
+	notify_add_shop_tree_swamp_plum = 이제 자두 묘목을 상점에서 구입할 수 있어요.
+
+	notify_add_shop_patent_for_tulip = 지금 상점에서 튤립뿌리를 주문할 수 있어요.
+	notify_add_shop_patent_for_dahlia = 지금 상점에서 모란뿌리를 주문할 수 있어요.
+	notify_add_shop_patent_for_sunflower = 지금 상점에서 해바라기 씨앗을 주문할 수 있어요.
+	notify_add_shop_patent_for_cucumber = 지금 상점에서 오이 묘목을 주문할 수 있어요.
+	notify_add_shop_patent_for_tomato = 지금 상점에서 토마토 묘목을 주문할 수 있어요.
+	notify_add_shop_patent_for_aubergine = 지금 상점에서 가지 묘목을 주문할 수 있어요.
+	notify_add_shop_patent_for_pepper = 지금 상점에서 고추 묘목을 주문할 수 있어요.
+	notify_add_shop_patent_for_watermelon = 지금 상점에서 수박 씨앗을 주문할 수 있어요.
+	notify_add_shop_patent_for_hangar_flowers = 설비 허가증을 신청하여 온실을 짓는데 필요한 재료를 주문하세요.
+	notify_add_shop_patent_for_beehive = 지금 상점에서 벌통을 주문할 수 있습니다.
+	notify_add_shop_patent_for_cabbage = 지금 상점에서 양배추 씨앗을 주문할 수 있습니다.
+	notify_add_shop_patent_for_beetroot = 지금 상점에서 비트 씨앗을 주문할 수 있습니다.
+	notify_add_shop_patent_for_carrot = 지금 상점에서 당근 씨앗을 주문할 수 있습니다.
+	notify_add_shop_patent_for_house_pig = 지금 상점에서 돼지우리를 주문할 수 있습니다.
+	notify_add_shop_patent_for_corn = 지금 상점에서 옥수수 씨앗을 주문할 수 있습니다.
+	notify_add_shop_patent_for_mushroom = 지금 상점에서 버섯종자를 주문할 수 있습니다.
+	notify_add_shop_patent_for_strawberries = 지금 상점에서 딸기 묘목을 주문할 수 있습니다.
+	notify_add_shop_patent_for_pumpkin = 지금 상점에서 호박 씨앗을 주문할 수 있습니다.
+	notify_add_shop_patent_for_radish = 지금 상점에서 레디쉬 씨앗을 주문 할수 있습니다.
+	
+	notify_add_shop_hangar_vegetables = 지금 상점에서 창고를 구입할 수 있어요.
+	notify_add_shop_hangar_flowers = 지금 상점에서 온실을 구입할 수 있어요.
+	notify_add_shop_hangar_refrigerator = 지금 상점에서 냉동창고를 구입할 수 있어요.
+	notify_add_shop_patent_for_house_chicken = 지금 설비 허가증을 신청하여 닭장을 짓는데 필요한 재료를 구입하세요. 
+	notify_add_shop_patent_for_house_cow = 지금 설비 허가증을 신청하여 외양간을 짓는데 필요한 재료를 구입하세요.
+	notify_add_shop_patent_for_house_pig = 지금 설비 허가증을 신청하여 돼지우리를 짓는데 필요한 재료를 구입하세요.
+ 	notify_add_shop_patent_for_house_sheep = 지금 설비 허가증을 신청하여 양우리를 짓는데 필요한 재료를 구입하세요.
+	notify_add_shop_patent_for_house_beehive = 지금 설비 허가증을 신청하여 벌통을 짓는데 필요한 재료를 구입하세요.
+	notify_add_shop_patent_for_hangar_flowers = 지금 설비 허가증을 신청하여 온실을 짓는데 필요한 재료를 구입하세요.
+	notify_add_shop_patent_for_hangar_vegetables = 지금 설비 허가증을 신청하여 창고를 짓는데 필요한 재료를 구입하세요. 
+	notify_add_shop_patent_for_hangar_refrigerator = 지금 설비 허가증을 신청하여 냉동창고를 짓는데 필요한 재료를 구입 하세요. 
+	
+	notify_no_more_money = 물건을 살 돈이 부족해요!
+	notify_you_cant_put = 여기에는 놓을 수 없어요!
+	notify_you_cant_storebox = 이건 다른 곳에 저장해야 해요!
+	notify_store_in_hangar = 여기에는 저장할 수 없어요. 창고에 저장하세요.
+	notify_store_in_fridge = 여기에는 저장 할 수 없어요. 냉동창고에 보관 하세요.
+	notify_store_in_flower = 여기에는 저장할 수 없어요. 온실에 저장하세요.
+	notify_box_nomore_full = 상자가 아직 다 채워지지 않았어요!
+	notify_only_for_this_type = 상자를 %s 채웠군요. 같은 품종으로만 상자를 채우셔야 해요!
+	notify_box_full = 상자가 꽉 찼어요. 창고에 저장하세요!
+	
+	notify_cant_feed_house_sheep = 양은 배추와 당근만 먹어요.
+	notify_cant_feed_house_pig = 돼지는 비트와 토마토만 먹어요.
+	notify_cant_feed_house_cow = 젖소는 양배추와 당근만 먹어요.
+	notify_cant_feed_house_chicken = 닭은 옥수수만 먹어요.
+	
+	message_complete_sell_plant_tomato = 잘했어요! 토마토 주문을 완료했어요!
+	message_complete_sell_plant_aubergine = 대단해요! 가지 주문을 완료했어요!
+	message_complete_sell_plant_pepper = 훌륭해요! 고추 주문을 완료했어요!
+	message_complete_sell_plant_cucumber = 굉장해요! 오이 주문을 완료했어요!
+	message_complete_sell_plant_dahlia = 멋져요! 모란 주문을 완료했어요!
+	message_complete_sell_plant_sunflower = 믿을 수 없어요! 해바라기 주문을 완료했어요!
+	message_complete_sell_plant_tulip = 놀라워요! 튤립 주문을 완료했어요!
+	message_complete_sell_beehive = 잘했어요! 꿀 주문을 완료했어요!
+	message_complete_sell_plant_mushroom = 대단해요! 버섯 주문을 완료했어요!
+	message_complete_sell_plant_cabbage = 훌륭해요! 양배추 주문을 완료했어요!
+	message_complete_sell_plant_watermelon = 굉장해요! 수박 주문을 완료했어요!
+	message_complete_sell_plant_beetroot = 멋져요! 비트 주문을 완료했어요!
+	message_complete_sell_house_pig = 믿을 수 없어요! 돼지 주문을 완료했어요!
+	message_complete_sell_plant_carrot = 놀라워요! 당근 주문을 완료했어요!
+	message_complete_sell_plant_corn = 잘했어요! 옥수수 주문을 완료했어요!
+	message_complete_sell_plant_pumpkin = 대단해요! 호박 주문을 완료했어요!
+	message_complete_sell_plant_strawberries = 훌륭해요! 딸기 주문을 완료했어요!
+	message_complete_sell_house_sheep = 굉장해요! 양모 주문을 완료했어요!
+	message_complete_sell_house_chicken = 멋져요! 달걀 주문을 완료했어요!
+	message_complete_sell_house_cow = 믿을 수 없어요! 우유 주문을 완료했어요!
+	message_complete_sell_plant_for_radish = 놀라워요! 상추 주문을 완료했어요!
+	message_complete_sell_tree_apple = 잘했어요! 사과 주문을 완료했어요!
+	message_complete_sell_tree_plum = 대단해요! 자두 주문을 완료했어요!
+	message_complete_sell_tree_cherry = 훌륭해요! 체리 주문을 완료했어요!
+	message_complete_sell_tree_palm = 굉장해요! 바나나 주문을 완료했어요!
+	
+	l1_message_welcome = 농장에 오신 걸 환영합니다! 농작물을 재배하고 수확하는 방법을 배워보죠.
+	l1_message_dig_one = 시작하기에 앞서 땅부터 경작해야겠지요. 마우스를 더블 클릭하여 땅을 일구세요.
+	l1_message_dig_four = 훌륭해요! 정원을 만들려면 1평으로는 부족하니 3평을 더 일구세요.
+	l1_message_dig_twelve = 잘했어요! 다음 단계에서는 더 많은 땅을 일구어야 하지만 지금은 연습 중이니 이것으로 충분합니다.
+	l1_message_plant_four = 이제 씨앗을 뿌릴 시간이에요! 호박 씨앗을 클릭한 다음 4개의 경작지를 클릭하여 심으세요.
+	l1_message_wait_harvest = 대단해요! 호박이 자라서 열매를 맺으려면 시간이 필요해요. 빈 공간을 더블 클릭하여 호박씨 자루를 내려 놓으세요.
+	l1_message_water = 농작물이 잘 자라려면 지속적인 사랑과 관심이 필요해요. 물뿌리개를 클릭하고 우물을 클릭하여 물을 채운 후, 물을 줘야 하는 경작지를 클릭하여 물을 주세요.
+	l1_message_water_ok = 잘하고 있어요! 물을 준 농작물은 빨리 자라서 더 빨리 수확할 수 있지만 물을 주지 않은 농작물은 말라 죽는 답니다.
+	l1_message_dig_more = 지루해지지 않게 더 많은 땅을 경작하고 씨앗을 뿌려 보세요.
+	l1_message_fruits_ready = 자, 모든 농작물이 먹음직스럽게 익어서 수확을 해도 되겠어요. 운반 상자를 가져가 수확하세요. 최대 4개의 농작물을 담아 창고에 보관할 수 있어요. 
+	l1_message_box_tutorial = 대단해요. 다음 수확을 하려면 운반 상자가 더 필요해요. 상점에서 구입하려면 아래 메뉴의 상점탭에서 상자를 클릭하고 농장 아무 곳이나 클릭하세요. 
+	l1_message_second_harvest = 두 번째 수확을 할 차례에요! 새로 산 상자에 농작물을 담은 다음 창고에 저장하세요.
+	l1_message_third_harvest = 세 번째 수확을 할 차례에요! 연습을 마치려면 수확을 해서 창고에 저장하세요!
+	l1_message_fertilizer_tutorial = 비료는 식물들이 건강하게 빨리 자랄 수 있도록 도와 줍니다. 농장에 비료 주는 걸 잊지 마세요. 상점에 있는 상점탭을 클릭하면 비료를 구입할 수 있어요.
+	l1_message_thirst_reminder = 잊지 마세요! 농장에는 지속적으로 물을 공급해주어야 합니다! 규칙적으로 물을 주고 토양의 색깔 변화에 주의를 기울이세요.
+	l1_message_victory = 축하합니다! 이제 제법 농사일에 익숙해졌죠! 하지만 앞으로도 배울 것이 많답니다!
+	
+	l1_task_1dig = 삽을 이용하세요.
+	l1_task_1dig_details = 원하는 장소에 마우스를 더블 클릭하여 땅을 일구세요.
+	l1_task_4dig = 계속해서 연습해 보세요!
+	l1_task_4dig_details = 땅을 파서 4평을 경작 하세요.
+	l1_task_4plant = 씨앗을 뿌리세요.
+	l1_task_4plant_details = 씨앗을 뿌려 호박 4그루를 심으세요.
+	l1_task_4water = 물뿌리개를 사용하세요.
+	l1_task_4water_details = 우물을 클릭하여 물뿌리개에 물을 채운 다음 호박에 물을 주세요. 
+	l1_task_3sell = 연습이 끝났어요.
+	l1_task_3sell_details = 3개의 호박 상자를 판매하면 연습과정을 마칠 수 있어요.
+	
+	
+	l2_task_sow = 당신의 농장을 가꿔 볼까요!
+	l2_task_sow_details = 레디쉬 씨앗을 12개 심으세요.
+	
+	l2_task_first_sell = 첫 번째 주문이예요.
+	l2_task_first_sell_details = 우리는 레디쉬 3상자와 호박 3상자를 주문 받았어요.
+	
+	l2_task_first_patent = 주문 하세요.
+	l2_task_first_patent_details = 오이 묘목을 좀 주문 하세요. 
+	
+	l2_task_second_sell = 두 번째 주문이예요.
+	l2_task_second_sell_details = 우리는 오이 2상자, 호박 4상자, 레디쉬 3상자를 주문 받았어요.
+	
+	l2_task_second_patent = 주문 하세요.
+	l2_task_second_patent_details = 가지를 좀 주문 하세요. 이것들은 여기서 보기 드문 농작물이죠.
+	
+	l2_task_third_sell = 아직 다른 주문을 받지 못했어요.
+	l2_task_third_sell_details = 우리는 가지 1상자를 주문 받았어요.
+	
+	l2_message_start = 여기가 우리의 첫 번째 농장이군요. 자, 우리한테는 최신기술도 없고 농장도 풀만 그득해요. 하지만 우리한테는 튼튼한 창고와 비옥한 땅이 많이 있잖아요. 좋은 농장이 되는 필수 조건이죠!
+	l2_message_sow = 수년동안 관리를 하지 않은 농장이라 풀만 무성하게 자라있네요. 큰 일이지만 누군가는 해야만 해요. 자, 소매를 걷고 일을 시작해 봐요. 우리한테는 레디쉬와 호박 씨가 있어요. 그것들을 심는 것부터 시작하면 좋겠죠.
+	l2_message_first_sell = 우리가 씨앗을 뿌리는 동안 동네 상점의 주인이 잠시 들렸어요. 우리 농장의 야채가 좋아 보인다고 레디쉬 3상자와 호박 3상자를 주문 했어요.
+	l2_message_add_money = 첫 번째 주문을 처리해서 200달러를 벌었어요.
+	l2_message_add_money_2 = 두 번째 주문을 처리해서 300달러를 벌었어요. 
+	l2_message_first_patent = 당신의 농장이 이제 어느 정도 갖춰졌고 첫 임무까지 잘 마무리 됐어요. 하지만, 항상 똑같이 살 순 없죠? 오이 묘목을 구입해서 맛있는 야채로 재배해 보세요. 
+	l2_message_second_sell = 동네 상점의 주인이 다시 왔어요. 우리 야채를 무척 좋아하나 봐요. 좋은 가격에 오이 3상자, 호박 5상자, 레디쉬 6상자를 주문 했어요. 
+	l2_message_second_patent = 씨앗 공급 트럭 한 대가 새로운 씨앗을 가져 왔어요. 지금 그가 자기고 있는 가지 씨는 마을에서 아직 아무도 재배 하지 않는 품종이죠. 만약에 우리가 첫 번째로 재배 한다면 멋지지 않겠어요?
+	l2_message_third_sell = 실은, 마을에 있는 어떤 사람도 가지 씨앗을 샀더군요. 그래서 제일 먼저 가지를 재배해서 파는 사람이 이기게 될 거에요. 이번 경쟁으로 누가 이 마을에서 최고의 농부인지 확실히 증명될 거예요. 
+	l2_message_victory = 환상적이에요! 모두들 당신이 이 마을 최고의 농부라고 생각해요. 당신의 이름이 최고의 농부로 알려져 많은 사람이 당신에게 도움을 청하러 올거에요. 
+	
+	l2_message_add_waterpump = 농장에서 이것이 가장 중요한 일은 아니지만, 만약에 우물까지 갔다왔다 하는데 시간이 많이 걸린다면 두 번째 우물을 만들 수 있어요.(자세한 사항은 상점탭을 보세요.).
+	l2_message_add_big_watercan = 당신의 농장이 점점 더 커지고 있어요. 이렇게 큰 농장을 운영하는데 소형 물뿌리개로는 어림도 없어요. 하지만 대형 물뿌리개를 구입하면 한번 채워서 12평에 물을 줄 수 있어요. 상점을 클릭하여 하나 구입 하세요. 
+	l2_message_add_fivebox =새로운 상자가 필요할 때마다 상점에 가서 구입할 수 있어요. 하지만 귀찮겠죠? 우리한테 특별한 제안이 왔어요! 바로 상자 5개 묶음이에요!
+	l2_message_thirsty_need = 식물들을 잊지 않는 것이 중요해요. 그렇지 않으면 다들 말라 죽을지도 모르니까요. 
+	l2_fertilizer_help = 자주 비료를 주세요. 특히 하트 표시가 나타나면요. 그렇지 않으면 다 시들어 버릴 거에요. 
+	l2_help_help = 화면 맨 상단에 당신의 업무 리스트를 클릭하여 업무 상황을 체크할 수 있어요,
+	
+	l3_task_collect_batch_vegatables = 자라고 있는 야채
+	l3_task_collect_batch_vegatables_details = 버섯, 오이, 가지를 각각 4상자씩 재배하세요.  
+
+	l3_task_pig_alarm = 모조리 해치우기
+	l3_task_pig_alarm_details = 돼지 7마리를 키워 판매해 달라는 주문을 받았어요. 
+	
+	l3_message_pig_alarm = 안녕 이웃사촌!! 공장으로 연결되는 물 파이프가 터졌다니 상상이 가시나요. 그들이 고치긴 했지만 이미 땅에 물이 넘쳐흘러 우리가 재배한 비트를 모두 잃게 돼버렸죠. 이제 돼지가 먹을 것이 없으니 뼈만 앙상한 돼지를 누가 사가겠어요? 다행히 어떤 사람이 돼지 7마리를 주문 했지만 우리가 해낼 수 있을지 모르겠어요! 우리가 듣기로는 당신이 젊고 유능하고 신용있는 농부라던데, 우리를 좀 도와 줄 수 있나요?
+	l3_message_task_collect_batch_vegatables = 돼지를 키우려면 토마토를 재배해야 하지만 일단은 먼저 돈이 필요해요. 동네 마켓에서 버섯, 오이, 가지를 각각 4상자씩 주문 받았어요. 
+	l3_message_task_sell_pig = 드디어 토마토 묘목을 상점에서 파는군요.(식물 탭을 보세요.) 나무를 심어 열매가 열리면 돼지에게 줄 먹이가 생길 거에요. 
+	l3_message_complete_sell_plant_mushroom = 훌륭해요! 버섯 주문을 완료했어요!
+	l3_message_complete_sell_plant_cucumber = 대단 해요! 오이 주문을 완료했어요!
+	l3_message_complete_sell_plant_aubergine = 멋져요! 가지 주문을 완료했어요!
+	l3_message_victory = 우리가 해냈어요! 지금 우리 농장이 최고예요! 
+	l3_message_beetroot_help = 비트 씨앗이 상점에 있어요.(식물 탭을 보세요) 돼지는 토마토 보다 비트를 먹으면 더 빨리 자라요. 
+	l3_message_pig_feed_help = 우리 돼지들이 맛있게 잘 먹고 있어요. 우리는 돼지들이 통통하게 자랄 때까지 기다려야 해요. 먹이 주는 기계로 돼지들에게 먹이를 분배 하세요. 만약에 먹이가 떨어 지게 되면 돼지가 잘 자라지 못하기 때문에 신경 써야 해요. 
+	l3_message_pig_sow_help = 우리 작은 새끼 돼지들이 다 자라서 팔수 있겠어요. 상자를 이용해 돼지들을 헛간으로 옮기세요.
+	l3_message_destructor_help = 경운기를 이용하여 땅을 갈아 농사를 지을 수 있어요. 
+	l3_message_transporter_help	= 지금 상점에서 경운기를 빌릴 수 있어요. 크레인을 이용해 건물을 다른 곳으로 옮길 수 있어요.(상점 탭을 보세요)
+	l3_message_water_sprinkler_help	= 지금 상점에 스프링클러가 있어요. 물을 떠다 나를 필요 없이 이것을 설치하면 매우 유용하게 사용할 수 있겠어요. 하지만 물을 줄 수 있는 범위에 한계가 있는 걸 명심하세요. 
+	l3_message_add_house_pig = 주문을 빠른 속도로 이행하면 다른 돼지우리를 지을 수 있어요. 하지만 첫 번째로 건물 허가서 신청을 해야 해요. 건물 허가서를 신청하면 500달러를 획득하여 돼지 우리를 지을 수 있어요. 
+
+	l3_message_have_700money = 700달러를 벌었어요. 돼지 우리를 지을수 있는 허가서를 신청하세요. 이것이 당신이 원하는 목표를 빠르게 달성할 수 있도록 도와줄 거예요. 
+	l3_message_add_500money = 500달러를 벌었어요.
+	
+	l4_task_big_cooler = 방품림 
+	l4_task_big_cooler_details = 마을의 절약을 위해 6개의 나무를 더 사서 심어야 해요. 
+	l4_task_place_house_chicken = 닭장
+	l4_task_place_house_chicken_details = 닭장을 지어야 해요.
+	l4_task_place_hangar_refrigerator = 서늘하게 보관하세요.
+	l4_task_place_hangar_refrigerator_details = 냉동창고를 구입해야 해요. 
+	
+	l4_message_big_cooler = 도로변에 있는 공장에서 거대한 환풍기를 돌려 우리 지역의 농산물을 다 날려 버렸어요. 이 끔찍한 공장으로부터 우리 마을의 농작물을 지키려면 주변에 나무를 많이 심어야 해요. 우리가 몇 그루 심긴 했지만 더 많이 심어야 해요!
+	l4_message_first_task = 6그루의 나무를 더 심어야 하지만 돈이 없네요. 야채를 팔아서는 돈도 얼마 안되고 돼지우리도 파손되서 수입이 별로 없어요. 하지만 우리가 좋은 품질의 닭을 구입하여 닭장을 만들고 잘 먹인다면 달걀을 팔 수 있을 거에요. 이게 훨씬 수익이 좋을 거에요. 물론 닭을 키우려면 허가증이 필요 하지만 허가증을 받는 대로 마을 사람들이 비용을 대기로 했어요.
+	l4_message_place_patent_for_house_chicken = 그래서 우리는 닭장을 지을 수 있는 허가증을 발급 받았어요. 그리고 마을 사람들은 약속한 대로 당신이 비용을 충당할 수 있도록 500달러를 주었지요.  
+	l4_message_second_task = 좋아요, 이제 우리에게 닭장이 생겼군요. 하지만 안타깝게도 창고에는 달걀을 보관할 수 없기 때문에 냉동창고를 만들어야 해요. 건물을 지으려면 다른 건축 허가증이 필요 하지만 마을 사람들이 건물을 짓는데 돈을 내기로 했어요. 
+	l4_message_place_patent_for_hangar_refrigerator = 환상적이에요! 이제 수입이 좀 안정적이 되었네요. 닭들에게 옥수수를 꾸준히 잘 먹이면 수익이 좋은 달걀이 나올 거에요. 이젠 우리 마을을 구하는데 집중할 수 있겠어요. 우리는 딸기나무 3그루와 자두나무 3그루를 더 구입해야 해요. 
+	l4_message_trees_help = 나무들에게는 비료나 물을 줄 필요가 없어요. 하지만 항상 열매를 맺죠. 열매 따는 일을 잊지 마세요. 
+	l4_message_pig_help = 돼지 우리 앞쪽에 비트가 있어요. 돼지들은 토마토만큼 비트를 좋아하고 또한 비트는 빨리 자라지요. 
+	l4_message_victory = 고마워요! 우리가 이 모든 나무를 심어서 이제 농장이 안전하게 됐고 수입도 안정적으로 됐어요! 
+	l4_message_hangar_refrigerator_help = 우리의 첫 번째 냉동창고예요. 상하기 쉬운 달걀이나 우유 그리고 꿀들을 여기에 보관 하세요. 
+	
+	l4_message_harvester_help = 우리의 첫 번째 도우미, 빌리에요! 적은 돈만 받고 과일과 채소를 수확하는 일을 해 주기로 했답니다. 빌리를 클릭해서 임금을 주고 일을 시키세요. 당신의 통장에서 자동적으로 100달러씩 빠져 나갈 거에요. 
+	l4_message_harvester_money_help = 빌리가 일을 멈추고 머리위에 동전 그림을 나타내면 그날이 빌리의 월급 날이라는 뜻이에요. 임금을 지불하면 바로 일을 다시 시작할거에요. 
+	l4_message_harvester_question_help = 물음표가 일꾼의 머리 위에 나타나면 작업자가 무슨 일을 해야 할지 모른다는 의미에요. 수확할 양이 많지 않은 경우 이런 일이 발생하죠. 수확할 것이 많아 질 때까지 기다려 보세요. 
+	l4_message_transporter_help	= 지금 크레인을 상점에서 빌릴 수 있어요. 이 크레인으로 설비를 다른 곳으로 옮기거나 나무를 다른 곳에 옮겨 심을 수 있어요. 크레인을 선택하고 옮기고 싶은 설비를 클릭해서 원하는 곳으로 옮기세요. 이 서비스를 사용할 때마다 10달러를 내야 합니다!
+	
+	l5_task_flowers_garden = 꽃 판매
+	l5_task_flowers_garden_details = 꽃 판매 시작.
+	l5_task_buy_hangar_flowers = 새로운 저장설비 
+	l5_task_buy_hangar_flowers_details = 꽃을 보관할 수 있는 온실을 구입하세요. 
+	l5_task_sell_batch_flowers = 꽃을 수확하세요. 
+	l5_task_sell_batch_flowers_details = 해바라기꽃 6박스와 모란6박스 주문을 처리하세요. 
+	l5_task_buy_flowers_patent = 플로리스트 자격증을 구입 하세요. 
+	l5_task_buy_flowers_patent_details = 해바라기 씨앗과 모란뿌리를 주문 하세요. 
+	l5_task_flowers_sow = 꽃을 심으세요.
+	l5_task_flowers_sow_details = 해바라기 씨앗 12개와 모란뿌리 12개를 심으세요. 
+	
+	l5_message_about_tasks = 동네 공장에서 마을 바로 옆에 댐과 저수지를 지었어요. 토양이 축축해 지고 질퍽질퍽해졌지요. 농작물 상태가 너무 안 좋고, 오직 돼지우리와 외양간, 관계 시설만 남아 있어요. 우리가 거의 희망마저 포기 했을 때, 공장에서 나오는 강한 바람을 타고 희귀한 씨앗들이 농장으로 날아왔어요. 시장에서 좋은 가격으로 팔릴 것 같지만 팔기도 전에 다 시들어 버릴 거에요. 이것들을 살릴 좀 더 나은 방법을 찾아야만 해요. 
+	l5_message_first_task = 이 꽃들은 특별 온실에 놔둬야 해요. 하지만 온실을 짓기 전에 건축 허가증과 꽃을 판매할 수 있는 허가증이 필요해요. 온실을 짓고 나면 꽃이 시들지 않도록 잘 보살펴야 해요. 
+	l5_message_second_task = 대단해요! 이제 꽃을 수확하여 저장하세요. 일부 꽃을 골라봐요. 큰 돈벌이가 될지 한번 봅시다. 
+	l5_message_third_task = 꽃이 잘 팔리네요! 그래서 우리는 이곳을 화원으로 바꾸기로 했어요. 씨앗을 먼저 주문해야 겠어요. 일단 씨앗이 들어오면 꽃을 많이 팔 수 있을 거에요. 
+	l5_message_last_task = fnsls, 
+
+	l5_message_add_water_sprinkler = 동네 상점에서 우리가 꽃을 판다는 소식을 듣고 큰 스프링클러를 판다고 제안했어요. 이것이 있으면 꽃에 물을 주는 시간을 절약 할 수 있을 거에요. 
+	l5_message_plant_dahlia = 잘했어요! 모란꽃 주문을 완료 했어요!
+	l5_message_plant_sunflower = 놀라워요! 해바라기꽃 주문을 완료 했어요! 
+	l5_message_plant_sunflower_help = 우리는 닭들이 해바라기 씨앗을 정말 좋아 한다는 걸 발견했어요. 닭들에게 해바라기를 먹이로 주세요. 
+	l5_message_victory = 이제 우리가 이 지역에서 아름다운 꽃을 생산하는 가장 큰 화원이 됐어요! 고마워요!!
+		
+	l5_message_helper_help = 쟈니를 아세요? 쟈니가 100달러의 낮은 임금을 받고 꽃을 심고 돌보는 일을 해 줄거에요. 
+	
+	l5_notify_add_patent_for_flowers = 이제 해바라기 씨앗과 모란 뿌리를 주문할 수 있어요. 자세한 사항은 씨앗과 식물탭을 보세요. 
+		
+	l5_message_dead_flower = 꽃들이 죽었군요, 하지만 중간에 포기 할 순 없어요. 5,000달러를 벌어 농장을 건조 시키고 모든 것을 정상으로 돌려놔야 해요. 
+	l5_message_second_victory = 비록 꽃들이 죽었지만 나무를 잘 관리하면 충분한 돈을 벌어 개발을 할 수 있어요. 
+		
+	l6_task_beehive_save = 꿀통 보호하기 
+    l6_task_beehive_save_details = 마을의 전통적인 양봉 방식을 복원하세요. 꿀 4상자를 판매하세요.
+    l6_task_collect_batch_vegatables = 과일을 좀 판매하세요.
+    l6_task_collect_batch_vegatables_details = 오이, 토마토, 양배추, 고추를 각각 6상자씩 판매하세요. 
+    l6_task_collect_batch_flowers = 희귀한 꽃들을 판매하세요. 
+    l6_task_collect_batch_flowers_details = 해바라기, 모란 그리고 튤립을 각각 6상자씩 판매하세요. 
+    
+    l6_message_hello_heroine = 안녕 친구! 우리 마을은 꿀이 유명하기로 소문이 났었죠. 우리가 샐 수도 없을 정도로 꿀이 많았지만 지금은 꿀이 다 없어져 예전의 명성도 모두 사라졌지요. 많은 사람들이 전통을 지키려고 했지만 사탕 공장이 우리를 모두 망쳐 놨어요. 우리가 전통을 지켜 나아갈 수 있도록 우리 좀 도와 줄 수 있나요? 우리한테는 씨앗 몇 포대와 창고 옆에 작은 묘목 몇 그루밖에 없어요. 당신이 이걸로 충분히 일을 시작할 수 있길 바래요. 행운을 빌어요! 
+    l6_message_about_tasks = 이 마을을 도우려면 꿀 통을 복구 해야 하는데 갈 길이 너무 멀군요. 일을 시작하려면 재료들을 좀 구입해야 해요. 농장에서 채소를 키워 돈을 좀 마련하는 것부터 시작해 봅시다! 
+    l6_message_first_task = 대형고객을 유치하려면 동네 상점에서 새로운 아이템을 주문해야 해요. 오이, 토마토, 양배추, 고추를 각각 6상자씩 판매하세요. 
+    l6_message_second_task = 이제 우리는 기업들을 끌어드려야 할 필요가 있어요. 그렇게 하려면, 희귀한 꽃들을 심어보세요. 해바라기, 모란 그리고 튤립을 각각 6상자씩 판매하세요. 
+    l6_message_main_task = 이제 꿀통을 살 여유가 있어요. 우리가 만든 희귀한 꿀을 진열하기 딱 좋은 시간이거든요. 이 꿀이 손님을 끌어 모아 마을의 전통도 부활시키고 이 마을을 부자로 만들어 줄 거에요. 꿀 4상자를 판매하세요. 
+    l6_message_see_pedicellates_patents = 고추와 양배추 씨앗은 지금 상점에 없다는 걸 알아두세요. 이것들을 상점에 주문하고 수수료를 지불 하세요. 
+
+	l6_message_help_hangar_flowers = 꽃들이 시들기 시작하기 전까지 오랫동안 온실에 보관 할 수 있어요. 또한 수박과 딸기도 온실에 보관 할 수 있어요. 
+    l6_message_help_hangar_refrigerator =  상하기 쉬운 우유나 달걀, 꿀 등은 냉동창고에 보관 하세요. 
+    l6_message_help_beehive = 벌들이 어딘가에서 꿀을 모아와야 한다면 꿀통 옆에 꽃을 심는건 당연하지 않겠어요? 그리고 항상 물을 주는 것을 잊지 마세요. 
+
+	l6_message_add_hangar_refrigerator = 우유를 항상 냉장고에 보관 하듯이 우유나 달걀 그리고 꿀들도 냉동 창고에 보관해야 하지 않을까요? 지금 상점에서 냉동 창고를 판매하고 있어요. 
+
+
+	
+    l6_message_victory = 축하 해요! 정말 맛있는 꿀들이 생산되어 우리마을이 과거의 영광을 재현할 수 있게 되었어요. 생활도 더욱 윤택해 졌답니다! 
+
+	l7_task_contest0 = 참가 방법 
+	l7_task_contest0_details = 대회 참가비를 내려면 200달러가 필요해요. 
+	l7_task_contest1 = 예선 경기 
+	l7_task_contest1_details =	당신의 농업 기술을 증명 하려면 심사 위원 들에게 오이, 레디쉬, 호박을 각각 7상자씩 제출해야 해요. 
+	l7_task_contest2 = 첫 번째 경기 
+	l7_task_contest2_details = 이 경기에서 승리하려면 큰 농장이 필요해요. 토마토, 비트, 가지, 옥수수를 심어 한 박스씩을 심사위원에게 제출 하세요. 
+
+	l7_task_contest3 = 품질관리 
+	l7_task_contest3_details = 심사 위원들이 평가할 수 있도록  토마토, 비트, 가지 그리고 호박을 각각 2박스씩 제출 하세요. 
+	l7_task_contest4 = 축산업 
+	l7_task_contest4_details = 이번 경기를 마치려면 돼지 3마리와 달걀 3박스를 심사위원에게 제출해야 해요. 
+	l7_task_contest5 = 과수원
+	l7_task_contest5_details = 이번 경기를 마치려면 사과나무, 자두나무 그리고 체리 나무를 각각 3그루씩 심으세요.
+	l7_task_contest6 = 과학의 이름으로 
+	l7_task_contest6_details = 심사위원들이 우리 과일을 너무 좋아 해서 우리에게 사과,자두 그리고 체리를 각각 2박스씩 더 요청했어요. 
+	l7_task_contest7 = 꽃의 힘
+	l7_task_contest7_details = 이제 당신의 원예 기술을 보여줄 차례예요. 온실을 구입 하고, 모란, 해바라기 그리고 튤립을 각각 6상자씩 심사 위원에게 제출하세요. 
+	l7_task_contest8 = 흠…달지 않아요? 
+	l7_task_contest8_details = 벌처럼 바쁘게 일할 때에요. 꿀통을 구입해서 7상자의 꿀을 심사 위원에게 제출 하세요.
+	l7_task_contest9 = 새 경기를 위한 새로운 기술
+	l7_task_contest9_details = 적어도 외양간 하나는 주문해서 지어야 해요. 
+	l7_task_contest10 = 우유 있어요? 
+	l7_task_contest10_details = 비타민이 풍부한 우유 10상자를 심사위원에게 제출 하세요. 
+	l7_task_contest11 = 농장 사업
+	l7_task_contest11_details = 심사위원들은 우리 농장의 채산성을 알고 싶어 해요. 우리 농장이 이익이 많다는 걸 보여 주려면 1500달러를 벌어야 해요. 
+	l7_task_contest12 = 최고 야채 상 
+	l7_task_contest12_details = 농장에 4가지 종류의 열대 과일과 야채를 심으세요(버섯, 고추, 수박, 딸기). 각 농장에는 12가지의 식물들이 심어져 있어야 하며 신선도 하트 5개를 받아야 해요. 
+
+	l7_message_hello = 농산물 박람회가 곧 열리는데 우승 상금이 100,000달러입니다. 이 돈이면 이 근처의 고생하고 있는 농장을 도울 수 있겠어요. 매년 우리 마을에서도 박람회에 참가하지만 지난 2세대 동안 우승하지 못했어요. 하지만 모두들 이번에는 당신이 우승할 거라고 믿어요.  
+	l7_message_about_tasks = 대회 규칙은 다음과 같습니다: 모든 농부들은 대회 시작과 함께 작은 농장과 창고, 사과 나무, 그리고 씨앗이든 자루를 받게 됩니다. 대회가 종료될 때 최고의 농장을 일군 농부가 우승하는 거죠! 당신이 경기에서 이기면 상금으로 필요한 장비나 직원들을 고용 할 수 있어요. 이것뿐 만이 아니라 마을 전체에 큰 공을 세울 수 있지요!  
+	l7_message_first_task = 하지만 먼저 대회 참가 신청서를 쓰고 참가비로 200달러를 내야 합니다. 지금 당신이 가지고 있는 자원으로 벌 수 있어요. 대회를 시작하면 모든 참가자들은 정원에 필요한 재료비로 30달러를 내야 합니다. 
+	l7_message_second_task = 심사 위원들이 당신의 농장이 준비가 됐는지 체크 할 거에요. 이걸 하려면 심사 위원들에게 다양한 야채 7상자를 제출해야 하죠. 우린 운이 좋군요. 왜냐하면 심사위원들이 오이와 레디쉬, 호박을 제출하라고 하네요. 이 야채들은 우리 지역에서 잘 자라는 야채거든요! 
+
+	l7_message_third_task = 대회가 막 시작 됐어요. 대회에는 많은 관문이 있고, 각 관문에서 심사 위원들이 새로운 씨앗이나 아이템을 미션으로 나누어 주거든요. 대회 첫 관문에서는 가능한 한 다양한 종류의 식물을 키우는 것이 중요해요. 이제 토마토, 옥수수, 가지 그리고 비트를 심어보아요. 이 씨앗들을 상점에서 구입할 수 있어요. 
+
+	l7_message_fourth_task = 심사 위원들이 무게와 맛을 평가할 수 있도록 각 야채의 샘플을 심사 위원에게 제출 하세요. 
+	l7_message_fifth_task = 훌륭해요! 가축 기르는 능력을 평가하는 두 번째 단계를 통과 했어요. 우리는 돼지 3마리를 기르고 달걀 3상자를 제출해야 해요. 상점에서 냉동 창고와 닭장, 돼지 우리를 구입할 수 있어요. 그들은 우리가 두 번째 관문에서 사용해야 할 건물을 지을 수 있도록 500달러나 지원해 주었어요. 
+	l7_message_sixth_task = 나무가 땅을 좋게 한다는 건 잘 알려진 사실이죠. 또한 보기에도 좋구요. 심사위원들이 우리가 사과, 자두, 체리 나무를 각각 3그루씩 심길 바라네요. 
+	l7_message_seventh_task = 우리나무의 열매가  너무 좋아 보였는지 심사위원들이 평가용으로 사과, 자두, 체리를 각각 2상자씩 제출해 달라고  애원 하네요. 그가 말하길 우리 과일들이 너무 훌륭하여 지역 농업 학교에 보내 모두가 우리가 재배한 과일의 비법을 배울 수 있도록 하고 싶다고 했어요. 과일들이 심사위원들 뱃속이 아닌 농업 학교에 꼭 보내 지기를 바래보죠.
+	l7_message_eighth_task = 매년 대회마다 주최되는 원예가 올해도 여김 없이 진행 되는군요. 씨앗과 온실이 마침 상점에 준비 되어 있네요.  
+	l7_message_ninth_task = 꽃이 있는 곳엔 항상 벌이 있고 벌이 있는 곳엔 꿀이 있기 마련이죠. 마지막 관문은 바로 양봉업 입니다! 심사위원에게 맛있는 꿀 7상자를 제출 하세요. 
+
+
+	l7_message_tenth_task = 새로운 소식이 있어요. 이번 대회부터는 최고의 우유 뽑기가 경기 종목으로 채택 됐어요. 문제는 아무도 소를 그렇게 오랫동안 키워본 적이 없다는 거죠. 지금 적어도 한 개의 외양간을 주문 해야겠어요. 
+
+
+	l7_message_eleventh_task = 대회 규정에 따르면, 우유는 맛도 있고 비타민도 풍부 해야 한데요. 규정에 맞추기 위해서 풀 대신 야채를 먹이면 비타민을 얻는데 도움이 많이 될 거에요. 젖소는 당근과 양배추를 먹어요. 젖소들이 이 야채들을 먹고 우유를 생산하면 우유를 냉동창고에 보관하세요. 우유 10상자를 생산해서 심사 위원에게 제출 하세요. 
+
+
+	l7_message_twelfth_task = 이 농장이 채산성이 높다는 것을 증명해야만 해요. 우리 농장이 성공한 사업이라는걸 보여주려면 1500달러가 필요해요. 
+	l7_message_thirteenth_task = 우리는 모든 관문을 통과 했어요. 지금부터 심사위원들이 우리 농장에서 생산한 야채의 맛과 무게 등을 평가하여 승자를 가려 낼 거에요. 하지만 아직 농장을 좀 더 발전시킬 수 있는 시간이 있어요. 빨리 농장에 열대 과일 4종류와 야채를 심고 비료를 듬뿍 주세요(신선도 하트 5개를 받도록). 심사위원들이 우리 농장에 있는 과일과 야채가 얼만큼 건강하고 빠르게 자라는지 보여주려면 수확하지 마세요. 그럼 강력한 인상을 받을 거고 분명 승리는 우리 것이 될 거에요. 상점에서 수박, 고추, 딸기 씨앗과 버섯종자를 구입할 수 있어요. 
+	
+	l7_message_add_harvester = 대회 규정에 따르면 우리는 일꾼을 채용할 수 있어요. 아마도 우리가 이 장점을 이용해야 겠죠? 
+	l7_message_victory = 축하해요!심사위원들이 우리 농장이 가장 생산적이고 아름답다네요. 잘 익은 열대 과일과 야채들을 보자마자 우리 농장이 최고가 아닐거라는 의심이 확 사라졌다고 하는군요. 이제 이 상금으로 이 지역의 농업을 다시 살릴 수 있을 거에요. 최고의 농장을 위해 만세 삼창!! 
+	l7_message_watermelon_help = 수박은 냉동창고에 보관하세요.
+	l7_message_strawberries_help = 딸기는 냉동창고에 보관하세요. 
+
+	l8_task_first_task = 이웃사촌 
+	l8_task_first_task_details = 300달러를 벌어 존 어르신이 새로운 상점을 빌릴 수 있도록 도와 드리세요.
+	l8_task_second_task = 새로 주문 하기
+	l8_task_second_task_details = 가지, 옥수수, 당근 씨앗을 주문하세요.
+	l8_task_third_task = 가지 애호가
+	l8_task_third_task_details = 우리에게 묘목을 공급해 주는 그를 위해 가지 20상자를 수확하세요.
+	l8_task_fourth_task = 새로운 건축가
+	l8_task_fourth_task_details = 외양간, 양우리, 닭장, 그리고 벌집을 지으려면 건축 허가증을 구입하세요.
+	l8_task_fifth_task = 새로운 창고
+	l8_task_fifth_task_details = 창고와 냉동창고들을 주문하세요. 
+	l8_task_sixth_task = 홍보 캠페인 
+	l8_task_sixth_task_details = 닭장, 외양간, 양우리를 구입하세요. 
+	l8_task_seventh_task = 꽃의 힘
+	l8_task_seventh_task_details = 해바라기 7상자와 모란 7상자, 그리고 꿀 3상자를 판매하세요.
+	l8_task_eighth_task = 돌아온 튤립
+	l8_task_eighth_task_details = 튤립 묘목을 주문 하세요.
+	l8_task_ninth_task = 모델 정원
+	l8_task_ninth_task_details = 스프링클러 8개를 설치하고 4명의 정원사를 고용 하세요. 
+	l8_task_tenth_task  = 수입 물품
+	l8_task_tenth_task_details = 수박 씨앗, 딸기 씨앗, 버섯 종자, 그리고 고추 묘목을 각각 12개씩 심으세요. 
+	l8_task_eleventh_task = 저축
+	l8_task_eleventh_task_details = 나중에 생각지 않은 비용 지출을 대비하여 800 달러를 벌어두세요.
+
+	l8_message_hello = 우리 상점에 안 좋은 소식이 있어요. 지금 정원을 가꾸는데 필요한 물품들이 다 떨어졌다고 하네요. 더 이상 씨앗, 나무 그리고 가축을 살 수 없어요. 주인이 사과를 하고 있지만 우리에게는 도움이 안 되네요. 더 이상 씨앗을 구매할 수 없게 되면 이 지역에 농장을 복원시키려는 우리의 꿈이 산산조각 날 거에요. 무슨 조치를 취해야 해요.   
+
+	l8_message_about_tasks = 한 단골 상점 주인을 만났어요. 존 어르신은 정말 좋은 분이신데 최근에 모든 물품 배송을 취소해야만 했대요. 공장 감독관이 존의 상점에 와서 동네 농장과 한 모든 계약을 파기하라고 난동을 부렸대요. 존어르신의 말에 따르면 공장 감독관이 자신의 지시를 따르지 않으면 상점문을 닫게 만들어서 거리로 나앉게 할거라고 협박했다고 하네요. 그에게는 새로 상점을 낼 돈이 없어서 그의 요구를 받아들일 수 밖에 없대요.  
+	l8_message_first_task = 공장 감독관이 모든 상점들을 위협한다는 사실을 알리는 게 좋겠어요. 하지만 존의 동의서가 필요하죠. 그가 새로 상점을 여는데 300달러가 필요하다고 하니, 만약 우리가 그를 도와 준다면 그는 우리가 많은 양의 비트와 오이, 호박 씨앗 등을 구입할 수 있게 도와줄 거에요. 
+	l8_message_second_task = 존 어르신께서 매우 고마워 하세요.  새로 상점을 여는데 200달러밖에 안 들었다고 100달러를 다시 돌려주셨답니다. 또 다른 마을에서 상점을 하고 있는 그의 친구에게 편지를 보내서 옛날 가격으로 우리에게 씨앗을 팔도록 조치를 취해 두셨대요. 우리가 필요한 가지, 옥수수, 당근 씨앗을 주문하면 그가 공급해 줄 거에요. 
+	l8_message_third_task = 존 어르신에게 묘목 배달을 하실 수 있는 친구가 있으시데요. 그 친구분이 가지를 너무 좋아하는데 상점에서 더 이상 팔지 않는다고 하네요. 그분은 농담 조로 가지만 있으면 나무 100그루도 포기할 수도 있다고 말씀하셨데요. 완전 농담은 아닌 것 같아요. 그분께 우리가 가지 20상자를 제공해 주면 그가 우리에게 묘목을 팔지 않을 이유가 없다네요. 
+
+
+	l8_message_fourth_task = 아무도 우리에게 건물을 팔지 않겠다고 하는 소리를 제재소 사람들이 듣고는 그들이 나서서 도와 주겠대요. 그들이 돼지우리를 지었는데 우리가 전에 도시에서 구입했던 돼지우리만큼 좋은 품질이었어요. 제재소 사람들에게는 돼지우리를 만드는 허가증만 있어서 만약에 우리가 다른 건축 허가증을 획득하고 주문을 많이 한다면, 그들이 기꺼이 우리에게 외양간과 양우리, 닭장, 벌집을 지어 주겠대요.  
+	l8_message_fifth_task = 우리가 가게를 여는데 필요한 품목 중 빠진게 있나요? 창고와 냉동창고 그리고 건축 허가증이 필요하겠네요. 
+	l8_message_sixth_task = 제재소 사람들이 새로 하는 사업 홍보를 도와 주세요. 그들이 당신의 닭장과, 외양간, 양우리를 짓게 해주면 홍보에 큰 도움이 될거에요.  
+	l8_message_seventh_task = 다른 마을에 있는 씨앗 공급 업자가 친구로부터 우리 소식을 들었어요. 그 주인이 직접 지은 온실 뿐만 아니라 해바라기 씨앗과 모란 묘목을 지금 당장 우리에게 공급해 준데요. 이제 이 품종들은 따로 주문할 필요가 없겠네요. 하지만 그가 가장 사랑하는 튤립 묘목은 튤립을 잘 키운다고 인정받은 사람들에게만 판매한다고 해요. 그에게 7상자의 해바라기와 7상자의 모란을 주고 인정을 받으세요. 그가 꿀을 수확하는데 취약하다고 하니 꿀 5상자를 주면 거래를 쉽게 할 수 있어요.    
+
+
+	l8_message_eighth_task = 우리가 보낸 꽃들이 공급 업자의 맘에 들어서 그가 제일 좋아하는 튤립을 우리에게 팔기로 했어요. 자 이제 주문할 차례에요.
+	l8_message_ninth_task = 열대과일과 야채를 제외하곤 우리가 필요한 모든 상품을 공급해 줄 공급업자를 찾았어요. 우리는 운이 좋은가 봐요. 어제 마을에 도착한 수입상이 야채와 과일을 거래 한데요. 문제는 물건을 판매하는데 엄격한 규칙이 있나 봐요. 그에게 물건을 사려면 농장에 과일과 야채를 잘 관리할 수 있는 모든 장비가 제대로 갖춰져 있어야 한대요. 그의 기준에 맞추려면 스프링클러 8개를 설치하고 정원사 4명을 고용해야 해요.  
+	l8_message_tenth_task = 수입상이 우리에게 열대과일 뿐만 아니라 이전에는 찾아 보기도 힘들던 나머지 씨앗들도 공급 해주기로 약속 했어요. 자 수입한 씨앗들이 우리 환경에서 잘 자라는지 한번 심어 볼까요? 
+	l8_message_eleventh_task = 우리는 예상치 못한 일을 대비해 비상금이 필요해요. 800달러면 우리에게 아주 어려운 일이 닥쳐도 끄덕 없을 것 같아요. 
+	
+	l8_message_victory = 대단해요! 공장의 협박이 누그러졌어요. 우리가 필요한 모든 상점을 찾아봐요. 우리가 싸움에서 이길 게 분명해요! 
+	l8_message_sheep_help = 우리의 새 공급자가 새로운 가축인 양을 공급 해 줬어요. 최근 연구에 의하면, 양배추와 당근을 먹고 자란 양이 질 좋고 튼튼한 양털을 생산한다고 해요.
+	
+	l9_task_first_task = 대출 비용 갚기
+	l9_task_first_task_details = 10,000달러가 필요해요. 
+
+	l9_message_hello = 몇 년 전 우리가 큰 실수를 저질렀어요. 에그로 은행이 개업했을 때, 많은 농부들이 농장을 넓히고 설비를 업그레이드 하기 위해 큰 돈을 빌렸죠. 은행은 좋은 조건을 약속 했었고 우리도 굳게 믿었어요. 하지만 우리는 변호사가 아니라 농부잖아요! 과태료에 대해서는 잘 몰랐어요. 그 결과 많은 농부들이 에그로 은행에 큰 빚을 지게 됐죠. 
+	l9_message_about_tasks = 지금 에그로 은행이 권한을 행사하면서 농부들에게 돈을 갚으라고 재촉 하고 있어요. 만약 지금 은행에 돈을 갚지 못하면, 대부분의 농부들이 농장을 빼앗기고 말 거에요. 에그로 은행을 제거하고 농장을 지키려면 10,000달러를 벌어야 해요.
+
+
+	l9_message_victory = "9,998, 9,999, 10,000. 네, 모두 합해 10,000달러군요. 여기 돈을 모두 다 갚았다는 영수증에요! 좋은 하루 되세요" 라며 에그로 은행의 직원이 못마땅하게 인사하네요. 당신이 농장을 지켜냈어요!  
+	
+
+	
+	l10_task_first_task = 가뭄
+	l10_task_first_task_details = 스프링클러가 배달될 때까지 식물이 말라 죽지 않도록 잘 돌보세요.(10분)
+	l10_task_second_task = 급수 설비
+	l10_task_second_task_details = 스프링클러 5개를 설치하세요.
+	l10_task_third_task = 정원 복구
+	l10_task_third_task_details = 옥수수, 양배추, 당근을 각각 24개와 비트 12개를 심으세요. 
+	l10_task_fourth_task = 새로운 품질 개선
+ 	l10_task_fourth_task_details = 3명의 정원사를 고용하세요
+	l10_task_fifth_task = 다양성
+	l10_task_fifth_task_details = 바나나 나무 4개를 심으세요.
+	l10_task_sixth_task = 땅 분쟁
+	l10_task_sixth_task_details = 1200달러를 모으세요.
+	
+	l10_task_alt_second_task = 정원 복구 
+	l10_task_alt_second_task_details = 비트, 호박, 레디쉬, 오이를 각각 12개씩 심으세요. 
+	l10_task_alt_third_task = 새로운 품질 개선
+	l10_task_alt_third_task_details = 스프링클러 4개를 설치 하세요.
+	l10_task_alt_fourth_task = 가축 생산
+	l10_task_alt_fourth_task_details = 돼지 2마리, 달걀 2상자, 우유 2상자, 그리고 양모 2상자를 판매하세요.
+	l10_task_alt_fifth_task = 다양성
+	l10_task_alt_fifth_task_details = 바나나 나무 4그루, 체리 나무 3그루, 자두 나무 2그루를 심으세요.
+	l10_task_alt_sixth_task = 땅 분쟁
+	l10_task_alt_sixth_task_details = 1200 달러를 획득했어요. 
+	
+	l10_message_hello = 때마침 잘 오셨어요. 무슨 일이 일어 났는지 보세요. 가뭄이 와서 모든 것이 말라버렸어요. 우리가 작업 한 것들도 모두 말라버렸어요. 전에는 한번도 이런 적이 없어서 이곳 상점에서는 스프링클러를 취급하지도 않았죠. 우리 공급업자들이 스프링클러를 주문하긴 했지만 언제 도착할지 모르겠네요. 
+	l10_message_about_tasks = 우리는 농작물과 흙을 아껴야 해요. 우물 설비와 스프링클러 공급자가 조만간 꼭 필요할 거에요. 그 동안 농작물에 계속 물을 공급하고 돈을 좀 더 벌면 장비들이 도착하는 대로 구입할 수 있을 거에요. 스프링클러가 설치되면 모든 것이 안정될 거에요. 
+	l10_message_first_task = 우물 설비와 스프링클러가 배송 중이지만 그 동안 정원이 죽어가도록 둘 순 없어요. 설비가 도착할 때까지 계속 농작물에 물을 주세요.
+	l10_message_second_task = 훌륭해요! 이제 자동으로 물을 줄 수 있게 됐어요. 하지만 스프링클러가 모든 범위를 커버할 수는 없어요. 적어도 스프링클러 5개는 더 설치해야 될 거에요.
+
+
+
+	l10_message_third_task = 당신이 여기 도착하기 전에 농작물들이 모두 말라 죽어서 가축들을 먹일 수 없었어요. 스프링클러를 가지고 온 공급업자가 우리에게 필요한 씨앗도 가지고 왔지만 배송비를 지불해야만 해요. 그래야 24평에 옥수수, 양배추, 당근 그리고 비트 12개를 심을 수 있어요. 
+
+	l10_message_fourth_task = 놀라워요! 이제 가축들이 잘 자라서 농장의 수익도 많이 늘어날 거에요. 불행스럽게도, 가뭄 때문에 농장의 수확량이 전처럼 많지 않아요. 아무래도 정원사를 3명 고용해서 농장을 다시 비옥하게 만들어야겠어요. 야채들이 금방 자라 생산성이 높아지면 농장의 명성도 되찾을 수 있을 거에요.
+	l10_message_fifth_task = 대단해요! 당신이 농장을 구하고 명예를 되찾았어요. 지금 막 새로운 열대 나무를 제공 받았어요. 다양하고 새로운 나무를 심는다면 농장의 미래를 위한 현명한 투자가 될 거에요. 바나나 나무 4그루를 심으세요. 
+	l10_message_sixth_task = 참 잘했어요! 가뭄으로부터 농장은 구했지만 땅 분쟁으로 새로운 문제에 직면하게 됐어요. 지방 자치단체에서 농장의 수익이 나쁜 걸 알아차리고 우리 땅까지 공장으로 만들려고 해요. 농장 땅을 30년 이상 빌리기로 했으니, 이건 명백히 법에 어긋나는 일이죠. 변호사를 고용해서 법으로 해결하자구요. 하지만 불행하게도 좋은 변호사는 비싸요. 이 소송에서 이기려면, 1200달러를 벌어 최고의 변호사를 고용해야 해요.
+	
+	l10_message_alt_second_task = 어떻게 이런 일이! 우리 수확물 중 상당수를 못쓰게 됐어요. 정원을 복구시켜 농장을 다시 운영해야 해요. 상점에서 우리의 어려움을 알고 가뭄에도 끄떡없는 특수 계량 씨앗을 구입해보라고 하네요. 새롭게 다시 주문을 해야 하겠지만 분명 그만한 가치가 있을 거에요. 또한 이웃 농장에서도 우리의 어려움을 알고 680달러를 빌려 주기로 했어요. 말라 죽은 식물 대신에 비트 12개, 호박 12개, 레디쉬12개, 오이 12개를 심으세요.
+	l10_message_alt_third_task = 비록 우리가 특수 계량 씨앗을 갖고 있지만 가뭄이 아직 끝난 건 아니에요. 또 다른 피해를 방지하려면 적어도 4개의 스프링클러를 더 설치해야 해요. 또 지금 새로운 정원사를 고용 할 수 있어요. 
+	l10_message_alt_fourth_task = 이제 농장의 상태가 좋아 졌으니, 최근 며칠 동안 굶주렸던 가축들을 돌봐야 겠어요. 동물들 사료로 줄 야채를 심으세요. 그런 후 돼지 2마리, 달걀 2상자, 우유 2상자, 양모 2상자를 판매하세요.
+	l10_message_alt_fifth_task = 비록 우리가 구입한 씨앗이 사막에서도 잘 자라겠지만, 품종을 다양화 하는게 사업적으로 유리해요. 공급자들이 덥고 건조한 기후에도 잘 자라는 열대 과일을 추천하는군요. 바나나 나무 4그루, 체리 나무 3그루, 자두 나무 2그루를 심으세요. 
+
+
+	l10_message_alt_sixth_task = 가뭄으로부터 농장은 구했지만 땅 분쟁으로 새로운 문제에 직면하게 됐어요. 지방 자치단체에서 농장의 수익이 나쁜 걸 알아차리고 우리땅까지 공장으로 만들려고 해요. 농장 땅을 30년이상 빌리기로 했으니, 이건 명백히 법에 어긋나는 일이죠. 변호사를 고용해서 법으로 해결하자구요. 하지만 불행하게도 좋은 변호사는 비싸요. 이 소송에서 이길려면, 1200달러를 벌어 최고의 변호사를 고용해야 해요.
+	
+	l10_message_harvester = 농장의 일손을 좀 더 고용 해야겠어요. 고용된 사람들이 우리가 물을 주는 동안 과일이나 채소를 수확해 준다면 스프링클러를 사는 돈을 모으는데 많은 보탬이 될거에요.  
+
+
+	l10_message_add_water_sprinkler = 지금 상점에서 스프링클러를 판매하고 있어요. 
+	
+	l11_task_first_task = 첫 번째 할 일
+	l11_task_first_task_details = 비트 한 상자와 토마토 한 상자 그리고 돼지 5마리를 판매하고 과일과 야채를 수확하는 사람을 고용하세요. 
+	l11_task_second_task = 두 번째 할 일
+	l11_task_second_task_details = 가지 한 상자를 판매 하고, 냉동창고를 짓고, 새로운 정원사를 고용하고, 스프링클러 2개를 설치 하세요.
+	l11_task_third_task = 세 번째 할 일 
+	l11_task_third_task_details = 레디쉬 한 상자와 달걀 5상자를 판매 하고 정원사와 과일과 야채를 수확하는 사람을 고용 하세요.  
+
+
+	l11_task_fourth_task = 네 번째 할 일
+ 	l11_task_fourth_task_details = 해바라기와 모란을 각각 한 상자씩을 판매하고 온실과 벌집을 지으세요.
+	l11_task_fifth_task = 다섯 번째 할 일
+	l11_task_fifth_task_details = 당근 1상자, 양배추 1상자 그리고 우유 5상자를 판매하고 과일과 야채를 수확하는 사람을 고용하세요.
+	l11_task_sixth_task = 여섯 번째 할 일
+	l11_task_sixth_task_details = 버섯과 꿀을 각각 5상자씩 판매 하고 정원사를 1명 고용 한 다음 스프링클러 6개를 설치 하세요. 
+	l11_task_seventh_task = 일곱 번째 할 일
+	l11_task_seventh_task_details = 튤립 5상자, 호박 3상자, 오이 3상자를 판매하고 양우리를 지으세요. 
+	l11_task_eighth_task = 여덟 번째 할 일
+	l11_task_eighth_task_details = 딸기와 수박을 각각 4상자씩 판매 한 다음 정원사와 과일이나 야채를 수확하는 사람을 1명 고용 하세요. 
+	l11_task_ninth_task = 아홉 번째 할 일
+	l11_task_ninth_task_details = 양모 한 상자를 판매하고 사과 나무와 체리 나무를 각각 한 그루씩 심은 다음 스프링클러 2개를 설치 하세요. 
+	l11_task_tenth_task  = 열 번째 할 일
+	l11_task_tenth_task_details = 고추 5상자를 판매하고 닭장과, 양우리, 외양간을 지으세요. 
+	l11_task_eleventh_task = 열한 번째 할 일
+	l11_task_eleventh_task_details = 자두와 바나나 나무를 1그루씩 심고 800달러를 획득하세요. 
+	
+	l11_message_hello = 농장을 새로 업그레이드 시킬 시간이에요! 모든 새로운 기준에 딱 맞는 농장을 건축해야 해요. 이 지역의 모든 농장들이 당신의 전력을 따라 확장을 해서 더욱 많은 수익을 올리고 있지요. 당신 덕분에 우리 고장이 발전하고 있어요.
+	l11_message_about_tasks = 우리의 수익을 최대로 올리기 위해 현대적이고 효율적인 농장을 세울 계획이에요. 이것이 끝나면 다른 농장에서 우리의 방식을 따라 할 거에요. 
+	l11_message_first_task = 작업을 시작하기 전에 돈이 좀 필요해요. 첫 번째 단계인 자동화 작업을 시작하려면, 돼지 우리를 지어 돼지 5마리를 팔고 비트 1상자와 토마토 1상자를 판매한 다음 야채를 수확해 줄 사람을 고용 하세요. 
+
+
+	l11_message_second_task =  여러 가지 종류의 야채를 개발해야 해요. 가지 나무부터 시작해 보죠. 또한 썩기 쉬운 농작물도 재배를 해야 하니 냉동창고도 지어야겠죠. 그리고 자동화를 위해 스프링클러 2개를 설치하고 정원사를 고용 하세요. 
+	l11_message_third_task = 새로운 기술을 시험해 봅시다. 우리는 레디쉬 한 상자를 팔아야 해요. 그리고 새로운 냉동창고도 시험해 보고 싶으니 닭장을 만들어 달걀 5상자를 판매해 보죠. 앞으로 더 많이 자동화 하려면 정원사와 야채나 과일을 수확하는 사람을 1명씩 고용 하세요. 
+        
+
+
+        l11_message_fourth_task = 우리의 새 농장은 모든 것을 갖춰야 해요. 그러니 꽃을 빼놓을 수는 없겠죠. 새로운 꽃을 저장할 수 있는 온실을 짓고 해바라기 꽃과 모란 꽃을 심고 각각 1상자씩 판매하세요. 또한 그 동안 벌집도 만들어 보세요.
+ 	l11_message_fifth_task = 농장의 자동화를 향상시키기 위해 다른 일꾼을 더 고용해야 해요. 당근과 양배추를 각각 한 상자씩을 판매 하세요. 그리고 이 야채들을 우리 젖소에게 먹이고 우유 5상자를 생산해서 판매 하세요. 
+
+
+	l11_message_sixth_task = 더 이상 우리가 식물을 돌보는데 걱정하지 않도록 다른 정원사도 고용하고 스프링클러도 몇 개 더 설치하세요. 저기 신기하게 생긴 버섯을 재배 하여 5상자를 판매 하세요. 그리고 꿀 5상자를 판매하는 것도 잊지 마세요.
+	l11_message_seventh_task = 튤립 5상자, 호박 3상자 그리고 오이 3상자를 판매 하세요. 그리고 우리 농장은 모든 것을 갖추고 있어야 하니까 이제 양우리를 지으세요. 
+	l11_message_eighth_task = 2명의 일꾼을 고용하고 그들이 바쁘게 일하는 동안 우리는 새로운 과일을 재배해 봅시다. 수박과 딸기를 각각 4박스씩 판매 하세요. 
+	l11_message_ninth_task = 양모를 팔면서 양우리를 한번 살펴 볼까요? 앞으로 수확할 농작물을 위해 스프링클러 2개를 더 설치할 계획이에요. 사과와 체리 나무를 심으면 우리 농장에서 더욱 맛있는 과일이 생산될 거에요.
+	l11_message_tenth_task  = 농장을 더 확장시켜야 하니 닭장과 양우리, 그리고 외양간을 만들어요. 그런 후에 고추를 심어서 5상자를 판매 하세요. 
+	l11_message_eleventh_task = 또한, 우리의 야심 찬 계획을 달성하려면 바나나와 자두 나무를 심어 보세요. 그리고 800달러를 벌어 직원들을 통솔할 감독관을 고용하세요.
+	
+	l11_message_victory = 우리의 야심 찬 계획을 드디어 완성 했어요. 이 농장이 기존에 있는 농장들의 본보기가 되어 지속적으로 이 지역을 발전 시킬 거에요. 
+		
+	l12_task_first_lot_vegetables = 첫 번째 야채 출하
+	l12_task_first_lot_vegetables_details = 레디쉬, 호박, 옥수수 그리고 토마토를 각각 3상자씩 준비하세요. 
+	l12_task_second_lot_vegetables = 두 번째 야채 출하
+	l12_task_second_lot_vegetables_details = 오이, 가지, 고추 그리고 버섯을 각각 3상자씩 준비하세요. 
+	l12_task_first_lot_flowers = 첫 번째 꽃 출하
+	l12_task_first_lot_flowers_details = 튤립, 모란, 해바라기 그리고 수박을 각각 3상자씩 준비하세요. 
+	l12_task_first_lot_strawberries_behive = 꿀과 딸기 출하
+	l12_task_first_lot_strawberries_behive_details = 딸기와 꿀을 각각 3상자씩 준비하세요.
+	l12_task_first_lot_trees = 과일 출하 
+	l12_task_first_lot_trees_details = 사과, 바나나, 자두 그리고 체리를 각각 3상자씩 준비하세요.
+	l12_task_first_lot_farms_produktion = 야채류 출하
+	l12_task_first_lot_farms_produktion_details = 돼지 3마리와 달걀, 양모 그리고 우유를 각각 3상자씩 준비하세요.
+	l12_task_first_shop_order = 식품점 주문 배송.
+	l12_task_first_shop_order_details = 돼지 3마리와 해바라기, 버섯 그리고 바나나를 각각 3상자씩 준비하세요.
+	l12_task_second_shop_order = 식품점 주문 배송
+	l12_task_second_shop_order_details = 양배추, 양모, 튤립 그리고 수박을 각각 3상자씩 준비하세요.
+	l12_task_third_shop_order = 식품점 주문 배송
+	l12_task_third_shop_order_details = 우유, 딸기, 꿀 그리고 체리를 각각 3상자씩 준비하세요.
+	l12_task_fourth_shop_order = 식품점 주문 배송
+	l12_task_fourth_shop_order_details = 고추, 사과, 양배추 그리고 달걀을 각각 3상자씩 준비하세요.
+	
+	
+
+        l12_message_victory = 상점마다 우리 농장에서 생산된 신선한 채소들로 넘쳐나고 있어요. 이제는 아무도 에그로사의 가공품을 사지 않아 결국 에그로사가 파산했어요. 공장부지를 나눠서 공원으로 만든다고 하네요. 우리가 이겼답니다!!!
+	l12_message_cool_vegetables = 마을이 서서히 되살아나서 곧 부유한 농장이 많아 질 거에요. 에그로사가 입찰에서 이기려고 맛 좋고 값이 싼 음식을 개발 했어요. 하지만, 이 식품에는 비타민이나 영양소가 없어 몸에는 좋지 않답니다. 우리의 목표는 신선하고 영양가도 풍부한 과일과 야채로 모든 상점을 채우는 것이랍니다. 아무도 에그로사에서 생산한 가공음식을 구입하지 않는다면 곧 부도가 날 것이고 그럼 모든 사람들이 건강한 음식을 먹게 되겠지요.
+        l12_message_first_lot_vegetables = 식품점에서 우리 농작물을 구입하기 전에 우리 물건이 얼마나 잘 팔리는지 보고 싶어해요. 
+	l12_message_second_lot_vegetables = 상점들이 우리 야채가 품질도 좋고 불티나게 팔린다고 매우 놀라워 했어요. 그 동안 그들이 팔았던 우리 물건들의 수익 중 대금으로 200달러를 우리에게 지불했답니다. 이제 다른 종류의 야채들도 공급 해야겠어요. 이번에는 열대과일로 손님들을 행복하게 만들어 보자구요. 
+        l12_message_first_lot_flowers = 우리 야채들이 정말 잘 팔리나 봐요. 우리 꽃들은 또 얼마나 잘 팔릴지 한번 봅시다. 그리고 수박도 한번 팔아볼 거에요. 우리 수입이 두 배나 올랐어요. 이번에는 그들한테서 400달러를 받았답니다.  
+	l12_message_first_lot_strawberries_behive = 마을에 있는 모든 사람들이 우리가 재배한 수박을 좋아해요. 아주 히트를 쳤어요! 반면에 에그로사에서 판매하는 냉동 음식과 캔디의 매출은 떨어지고 있어요. 이제 사람들에게 천연의 달콤함을 맛보여 줄 절호의 기회에요. 자, 이제부터 꿀과 딸기를 배송해 볼까요! 저번에 상점에 납품했던 것으로 600달러의 이익을 봤답니다.
+        l12_message_first_lot_trees_details = 이웃 마을 상점의 선반 곳곳에 우리가 생산한 꿀과 야채가 진열돼 있어요. 하지만 우리는 나무에서 열리는 맛있는 열매가 많다는 사실을 잊으면 안돼요. 우리가 지난번 납품한 상품들로 700달러의 이익을 봤어요.   
+	l12_message_first_lot_farms_produktion = 거의 모든 생산품들이 상점에서 성공적으로 팔리고 있어요. 자 이제부터 자연 생산품인 우유, 달걀, 돼지 그리고 양모를 납품해 봐요. 지난번에 납품했던 상품들로 150달러를 이익 봤어요. 
+	l12_message_first_shop_order = 우리 상품들이 매진되기 시작해서 상점들이 더 많은 공급을 원하고 있어요! 상점에서 매진된 물건을 주문 받았어요. 또한 지난번에 납품했던 상품들로 1500달러 이익을 봤어요. 
+	l12_message_second_shop_order = 사람들이 우리가 생산한 맛있고 건강에 좋은 음식을 충분히 공급 받지 못하고 있네요! 곧 우리 물건만 사려고 들 거에요. 상점에서 추가 주문을 했고 900달러를 지불 했어요. 
+	l12_message_third_shop_order = 이웃 마을 상점들의 판매량 중 반 이상이 우리 물건으로 채워지고 있고 그만큼 매출도 많이 늘었어요. 지난번 납품한 물건값으로 1200달러를 벌었죠! 입찰에서 우리가 승리하는 건 시간 문제에요! 납품할 다른 물건이 준비 됐어요.  	
+	l12_message_fourth_shop_order = 상점들이 우리 물건으로 가득 찼고 대량 주문이 와서 1500달러를 받았어요. 이 대량 주문을 배송한다면 확실히 우리가 입찰에서 승리할 거에요.
+ 	l12_message_supplier_sabotage = 에그로사가 다시 우리 사업을 방해하고 있어요. 우리가 주문했던 씨앗을 모두 사들여서 우리의 공급업자도 더 이상 우리에게 공급할 씨앗이 없다고 해요. 왜 이런 일이 자꾸 발생하는 걸까요? 새로운 공급자를 찾아야 해요. 
+
+
+	comics_p1f1b1 = 옛날 옛적에 아득히 먼 작은 마을에 한 특별한 소녀가 살고 있었어요. 
+	comics_p1f1b2 = 당신은 이 시대 최고의 위대한 농부가 되어 거대 공장들의 맹공을 막고 우리를 구원할 거에요.
+	comics_p1f1b3 = 할머니께서 연세가 많으셔서 정신이 없으시긴 하지만 이건 할머니 말씀이 맞는 것 같아요. 
+	comics_p1f2b1 = 할머니도 어렸을 때는 농장일에 소질이 많으셨으니까요.
+	comics_p1f2b2 = 보세요, 한 살짜리 진저가 벌써부터 모래밭에 조그만 정원을 만들었어요!  
+	comics_p1f2b3 = 내 말을 잘 기억 두세요, 앞으로 진저가 큰일을 할거에요. 
+	comics_p1f3b1 = 할머니가 6살때 그녀의 할아버지가 그녀에게 어려운 농장일을 가르쳐 주셨어요. 
+	comics_p1f3b2 = 내 어린 제자야, 네 안에 힘을 느껴보렴. 그리고 밭을 갈아보렴. 
+	comics_p1f5b1 = 세게 쳐!
+	comics_p1f6b1 = 밟아!!
+	comics_p1f7b1 = 진저에게 쉬운 일은 별로 없었어요.
+	comics_p1f7b2 = 오 이런, 정원처럼 보이지는 않지만, 지금은 어떠니?
+	comics_p1f7b3 = ...하지만 그녀는 계속해서 할아버지의 정원 가꾸는 비법을 전수 받았어요. 
+	comics_p1f8b1 = 잊지 말아라, 내 어린 제자야. 무엇을 하든 그것은 항상 네 마음속에서 우러나와야 해요. 
+	comics_p1f8b2 =	할아버지. 왜 항상 그런 이상한 말만 하세요?
+	
+	comics_p2f1b1 = 이제 꽤 농장일을 잘 하는구나. 그래서 우리가 너의 18번째 생일에 특별한 선물을 준비 했지.
+	comics_p2f1b2 = 네 농장이란다!
+	comics_p2f1b3 = 와~!!
+	comics_p2f2b1 = 내가 여기에 모든 야채를 키울 수 있다니! 
+	comics_p2f2b2 = 그리고 과일도...
+	comics_p2f2b3 = 꼬끼오~!
+	comics_p2f3b1 = 이 땅은 원래 밥 존슨 즉, 네 증조 할아버지 것이었단다!
+	comics_p2f4b1 = 아!
+	comics_p2f4b2 = 할아버지 그때가 몇 년도 였어요?
+	comics_p2f5b1 = 콜록콜록-어험험! 
+	comics_p2f6b1 = 걱정 하지 말거라, 아가야. 
+	comics_p2f6b2 = 모든 것이 네 손에 달렸어. 그리고 난 니가 잘 할 거라는 걸 믿는단다!
+	comics_p2f7b1 = 쿵!
+	comics_p2f8b1 = 쿠....
+	
+	comics_p3f1b1 = 그리고 햇볕이 따사롭고 조용한 아침...
+        comics_p3f2b1 = 깊은 숲속에서 돼지가 꿀꿀 거리며 다가왔어요.
+	comics_p3f3b1 = 그것이 수탉의 관심을 끌었죠.
+	comics_p3f5b1 = 그리고 진저가 일어 났어요. 
+	comics_p3f5b2 = 무슨 일이지?
+	comics_p3f6b1 = 이웃 돼지 농장에서 무슨 일이 있어났구나! 
+	comics_p3f6b2 = 자, 진저야 어서 도와주러 가자꾸나.
+	comics_p3f7b1 = 그들이 돼지 농장에 도착하니 모든 것이 엉망이 되어 있었어요.
+	comics_p3f7b2 = 공장으로 들어가는 송수관이 이 터져 농장 전체를 물 바다로 만들어 놨어요! 
+	comics_p3f7b3 = 누가 이렇게 끔찍한 일을 저지른 거지?
+	comics_p3f7b4 = 돼지들! 돼지를 먹일 사료도 모두 엉망이에요. 저 불쌍한 돼지들이 배고픔에 떨고 있어요. 
+	comics_p3f8b1 = 불쌍한 돼지들!
+	comics_p3f8b2 = 문제 없어, 우리가 지금부터 돼지들을 돌보면 되니까. 
+	comics_p3f8b3 = 꿀꿀!
+	comics_p3f8b4 = 꿀꿀!
+	comics_p3f8b5 = 그얼얼얼얼
+    
+	comics_p4f1b1 = 가족들 모두가 할아버지의 생신을 축하 드렸어요. 
+	comics_p4f1b2 = ...그리고 할아버지께 물어 봤어요 "비료는 어떤 걸 쓰세요?"
+	comics_p4f1b3 = 그리고 그가 대답했어요, "평소처럼...흙이지 물론!"
+	comics_p4f1b4 = 하, 하, 하!
+	comics_p4f1b5 = 그리고 갑자기...
+	comics_p4f2b1 = 훅
+	comics_p4f3b1 = 휙!
+	comics_p4f5b1 = 야옹!
+	comics_p4f6b1 = 어머나!
+	comics_p4f7b1 = 철썩!
+	comics_p4f8b1 = 훅
+	comics_p4f9b1 = 팍!
+	comics_p4f10b1 = 철썩!
+	comics_p4f10b2 = 휙!
+	comics_p4f10b3 = 토마토 폭풍이 몰아 친 뒤.
+	comics_p4f10b4 = 따르릉,따르릉!
+	comics_p4f11b1 = 여보세요?
+	comics_p4f12b1 = 안녕하세요, 삼촌! 거기도 무엇인가 날아 갔나요?
+	comics_p4f12b2 = 조카야 너무 반갑구나. 토마토로 우릴 공격한게 너였니? 응?
+	comics_p4f12b3 = 이게 다 그 어리석은 공장 때문이에요! 
+        comics_p4f12b4 = 그들이 공장에 있는 큰 환풍 시스템을 틀어서 우리 들판에 있는 모든 토마토를 날려버렸어요. 지붕에 있는 고양이 까지도요!
+	comics_p4f12b5 = 정말이니!?
+	comics_p4f12b6 = 어떡해 해야 할지 모르겠요. 만약 이런 일이 다시 일어 난다면 우리 마을이 모두 날라가 버릴지도 몰라요. 
+	comics_p4f12b7 = 조카야 걱정하지 말거라.일단 우리 집에 있는 토마토 케찹들을 치운 뒤 어떻게 널 도와야 할지 생각해 보자. 
+	comics_p4f13b1 = 흠...지금부터 공장에서 불어오는 바람을 어떤 방법으로 막아서 조이 삼촌의 마을을 보호할까요?
+	comics_p4f13b2 = 나한테 좋은 생각이 떠올랐어요!
+	
+	comics_p5f1b1 = 진저가 값진 상을 받았어요.
+	comics_p5f1b2 = 우리 마을의 우수한 공로를 인정하여, 나는 당신에게 수여합니다...
+	comics_p5f1b3 = ...나의 사랑스러운 조카에게 표창장을 수여 합니다! 
+	comics_p5f1b4 = 고맙습니다! 우리 가족에게 너무 감사해요 특히 할아버지요!
+	comics_p5f1b5 = 그의 도움이 없었다면 전 이 자리에 있지 못했을 거에요. 정말 감사 드립니다....
+	comics_p5f1b6 = 하지만 진저가 연설하는 동안 어떤 한 남자가 손에 종이를 들고 다가와 연설을 방해 했어요. 
+	comics_p5f2b1 = 자 우리가 뭘 가져 왔는가 하면요, 흠, 한 마을 사람들이 당신의 도움을 절실히 필요로해요. 
+	comics_p5f2b2 = 이 편지를 읽어 드릴께요. 이 편지는 그린필드에서 온 편지에요. "친애하는 진저,우리의 어려운 상황을 좀 도와 주세요."
+	comics_p5f2b3 = "마을에 있는 공장의 기술자가 큰 댐을 지어 농장이 모두 물 바다가 되어 버렸어요.식물들이 시들고 농작물이 죽어 가고 있어요. 뭘 어떡해 해야 할지 모르겠어요."
+	comics_p5f2b4 = "당신 마을이 거대한 환풍기로 어렴움에 처했을 때 마을을 구했듯이 당신이 우리 마을도 도와 줄 수 있을 거라 믿어요. 그린필드 마을로부터."
+	comics_p5f2b5 = 와. 어떤 공장인가요? 내가 이번 문제를 해결할 수 있을 것 같아요.
+	comics_p5f2b6 = 자, 그것은 이런 것 같아요.,...
+	comics_p5f3b1 = 몇년전 갑자기 에그로슨씨가 마을에 나타났어요. 
+	comics_p5f3b2 = 그는 착해 보이진 않았지만 말도 잘하고 돈도 많이 가지고 있었어요. 
+	comics_p5f3b3 = 그는 도시에 값싸게 음식을 공급하겠다고 약속했어요. 하지만 마을 건강과 환경에는 아주 좋지 않았어요...
+	comics_p5f3b4 = 그는 마을 언덕에 음식 공장을 지었으며, 그때부터 문제가 시작됐어요.
+	comics_p5f3b5 = 우리 마을에 있는 모든 것이 침수됐고 이웃 마을은 가뭄이 왔어요. 
+	comics_p5f3b6 = 그리고 언덕으로부터 이상한 냄새가 바람에 실려 왔고 자주빛 비가 내리기 시작했어요. 
+	comics_p5f4b1 = 끔찍하군요! 더 이상 참을 수 없어요!
+	comics_p5f4b2 = 할아버지, 지금 당장 짐을 싸서 떠나야 겠어요!
+	comics_p5f4b3 = 마을로 걸어가면 8시간 정도 걸리는데 해지기 전에 도착 못하겠군요...
+	comics_p5f4b4 = 하지만 우리는 걸어가지 않을 거에요. 조이 삼촌의 선물을 테스트 해봐요! 
+	comics_p5f5b1 = 저것 봐요! 저 고물 자동차가 진흙 도로에는 안성맞춤이에요!
+	comics_p5f5b2 = 이건 고물 차가 아니란다, 작년 모델이지. 
+	comics_p5f5b3 = 좋아요, 가자구요!
+	comics_p5f6b1 = 삐뽀
+	
+	comics_p6f1b1 = 할머니와 할아버지는 오후에 차를 즐기고 있었는데...
+	comics_p6f1b2 = 진저가 언제 돌아오죠? 그녀가 너무 보고 싶어요.
+	comics_p6f1b3 = 아마 오늘 돌아올거야... 최근 그린필드에 대한 소식을 들었나? 지금은 모든 것이 괜찮아졌다고 합니다. 
+	comics_p6f1b4 = 부릉! 
+	comics_p6f1b5 = 양반은 아닌 것 같아요!
+	comics_p6f2b1 = 할머니 안녕하세요! 할아버지 안녕하세요! 다녀왔습니다! 
+	comics_p6f2b2 = 최근 그린필드는 늪 상태로 돌아왔어요!  개구리와 거머리들도 생존하구요…...
+	comics_p6f3b1 = 구구(비둘기 소리)?
+	comics_p6f4b1 = 휙!
+	comics_p6f5b1 = 진저, 여기 앉아라. 여기 찻잔....
+	comics_p6f5b2 = ...그리고 당신의 차도 있어요!
+	comics_p6f5b3 = 고마워요! 그런데 단것은 어디있죠?
+	comics_p6f5b4 = 음, 진저, 과자를 만들 수 있는 단 재료가 하나도 없어.
+	comics_p6f5b5 = 항상 플레인스 마을에 사는 베티에게 꿀을 얻곤 했지.
+	comics_p6f5b6 = 하지만 지금은 큰 공장에서 초콜릿과 사탕을 만들어. 그래서 사람들이 꿀 사는 걸 멈췄어요.  
+	comics_p6f5b7 = 근본적으로 공장이 모든 것을 망쳐놨어요.
+	comics_p6f5b8 = 뭐? 그럼 더 이상 없어요...
+	comics_p6f5b9 = ...할머니의 맛있는 캐익과 페이스트리가요?
+	comics_p6f6b1 = 저 지금 너무 화가 났어요!
+	comics_p6f7b1 = 걱정마요 플레인스 마을! 지금 마을을 구하러 가고있어요!
+	comics_p6f7b2 = 자유의...
+	comics_p6f7b3 = 이름으로!
+	comics_p6f7b4 = ...그리고 허니 페이스트리!
+	
+	comics_p7f1b1 = 한편 미스터 에그로슨의 사무실에서는......
+	comics_p7f1b2 = 빌어먹을! 그 못된 여자가 우리 초콜렛 공장의 문을 닫게 하려고 해. 참을 수 없어!
+	comics_p7f1b3 = 자크,헬멋, 잘들어! 우리는 그...꼬마 진저에 대해 모든 걸 알아야 해.
+	comics_p7f1b4 = 마을 구석구석을 모두 뒤져서라도 여자에게 불리한 정보를 얻어내...이 여자에게 큰 타격을 입힐 수 있는 정보, 알아 들었지.  
+	comics_p7f1b5 = 네 알겠어요, 사장님.
+	comics_p7f1b6 = 꼬마에게서 사탕을 뺏는 것 처럼!
+	comics_p7f1b7 = 훌륭해. 자 가서 일 봐, 자니스!
+	comics_p7f1b8 = 네 사장님?
+	comics_p7f1b9 = 진정양을 만날 스케줄을 잡아놔.그녕에게 말해 내가...
+	comics_p7f1b10 = ...그녀에게 사업 제안을 할꺼라고.
+	comics_p7f2b1 = 다음날...
+	comics_p7f2b2 = 와! 언제 이런 걸 지었어요? 엘에베이터가 잘 작동하길 바래요.
+	comics_p7f3b1 = 진저, 정말 대단하군요!
+	comics_p7f3b2 = 혼자의 힘으로 우리 회사를 무너뜨렸군요. 당신의 사업 수단에 놀랐어요.
+	comics_p7f3b3 = 하지만 생각해 봐요 당신이 내 돈과 거래처를 이용한다면 어떻게 될지.
+	comics_p7f3b4 = 나와 손잡고 마을 전체를 아름다운 유토피아로 만들어 보는 건 어때요? 
+	comics_p7f3b5 = 미스터 에그로슨씨 제안은 고맙습니다. 하지만 저는 제 친구들과 같이 일하는게 더 행복해요. 
+	comics_p7f3b6 = 당신의 돈으로 꽃과 나무를 사세요...이곳은 마치 무덤처럼 침울해요... 
+	comics_p7f4b1 = .만약 당신이 원한다면 24시간 안에 최고의 꽃을 구해줄 수도 있어요, 관심 있음 내 번호로 전화 하세요!
+	comics_p7f4b2 = 잠깐만...아주 오만하군요!
+	comics_p7f4b3 = 내 관대한 마음을 거절한 대가가 어떨지 곧 알게 될거야!
+	comics_p7f5b1 = 야오오오옹!
+	comics_p7f6b1 = 이틀뒤.....
+	comics_p7f6b2 = 다른 소식이에요....오늘 미스터 에그로슨씨의 회사인 에그로사가 새로운 사업을 공시했습니다..
+	comics_p7f6b3 = 에그로사가 12,000에이커의 땅을 사들여 놀이 공원을 만든데요.
+	comics_p7f6b4 = 에그로사에 따르면 놀이 공원으로 많은 관광객 유치로 마을의 재정이 많이 늘어날 거라고 예상했습니다. 
+	comics_p7f6b5 = 현재 이 땅에는 낡고 이익이 없는 농장들이 있습니다.
+	comics_p7f6b6 = 우리 회사가 이 마을에 새로운 활기를 북돋아 줄 겁니다.
+	comics_p7f6b7 = 썩은 야채 상자 대신 놀이 공원으로 많은 관광객들이 우리 마을에서 신나게 돈을 쓸 거에요. 
+	comics_p7f6b8 = 그리고 10년 안에 우리 마을이 세계에서 가장 유명한 회전목마가 있는 곳으로 알려질 겁니다.
+	comics_p7f7b1 = 와! 이대로 그의 협박을 당하고만 있을 순 없어.
+	comics_p7f8b1 = 마을 사람들에게 썩은 야채 상자가 아닌 더 나은 것이 있다는 걸 꼭 보여줄 거야!
+	
+	comics_p8f1b1 = 농산물 품평회가 1달밖에 남지 않았어요
+	comics_p8f1b2 = 50년도 넘게 이 대회에서 승리한 사람이 우리 마을에는 없어요. 
+	comics_p8f2b1 = 우리 마을의 유명한 농부 진저가 대회에 참가 한데요!
+	comics_p8f2b2 = 이 농장의 달인이 우리 마을을 되돌릴 수 있을까요?
+	comics_p8f3b1 = 마을 시장이 이 대회에 많은 관심을 가지고 있대요.
+	comics_p8f3b2 = 이 대회의 우승자는 명성, 상장 그리고 훌륭한 계약을 얻게 될 거에요. 
+	
+	comics_p9f1b1 = 이 바보야! 내가 전에 물어 봤던 정보는 어디있어?
+	comics_p9f2b1 = 하지만 에그로슨씨 그녀는 너무 깨끗해요.
+	comics_p9f2b2 = 그건 사실이에요 사장님! 모든 곳을 돌아다녀 보아도 진저를 망칠 만한 것을 찾을 수 없었어요.
+	comics_p9f2b3 = 말도 안돼!일주일을 더 주지. 만약 이번에도 아무것도 얻지 못하면 다 너를 탓할꺼야.
+	comics_p9f2b4 = 자니스! 진저에게 전화 하세요. 개인적으로 그녀에게 할 말이 있으니깐.
+	comics_p9f3b1 = 여보세요?
+	comics_p9f4b1 = 진저, 내말 잘 들어. 난 네가 우리 회사를 망치는 걸 그냥 보고 있지 않을 거야. 너의 고의적인 행동을 멈추지 않으면 끔찍한 결말을 보게 될거야!
+	comics_p9f4b2 = 날 협박할 수 없어요 미스터 에그로슨.....
+	comics_p9f4b3 = 정말? 내 땅에 너의 친구들이 얼마나 많이 살고 있는지 알고 있기나 해? 얼마나 많은 사람들이 돈을 갚아야 하는지도? 내가 곤경에 빠뜨리길 원치 않을 거야 이 쥐방울!
+	comics_p9f5b1 = "더 이상 낡고 이익도 없는 농장들은 필요없다! 지금부터 새 백화점과 놀이 공원을 만들거야!"
+	comics_p9f5b2 = 에그로사의 주주들의 미스터 에그로슨씨의 제안을 호의적으로 생각하고 있어요!
+	comics_p9f5b3 = 불이행된 채무를 회수하는 작업이 한창이며, 오늘도 한 농가가 파산 신청을 했습니다.  
+	
+	comics_p10f1b1 = 사장님, 사장님, 우리가 찾았어요!
+	comics_p10f1b2 = 우리는 진저에게서 아무것도 알아내지 못했지만, 그녀의 할아버지 대해서 무언가를 찾아냈어요.
+	comics_p10f1b3 = 자. 보자...고향...결혼...자식 없음. 그러면 그들이 그녀를 입양했어? 뭐가 잘못됐다는 거야?
+	comics_p10f1b4 = 자 사장님! 합법적으로 그녀를 입양했다는 자료가 없어요. 이건 합법적이지 않아요. 
+	comics_p10f1b5 = 정말? 흠...잘했어 녀석들!
+	comics_p10f2b1 = 진저! 앉아요. 차 좀 드릴까요? 이 파일을 좀 봐요, 내 생각에는 뭔가 흥미로운 걸 찾을 수 있을 거에요.
+	comics_p10f2b2 = 이게 뭔가요?
+	comics_p10f2b3 = 특별한 건 아니에요! 이건 단지 당신이 아기였을때 납치 됐다는 증거야.
+	comics_p10f2b4 = 이번에 마지막 경고야. 나와 내 회사를 가만두지 않으면 당신의 조부모들을 감옥으로 보낼꺼야! 하하하하!!
+	comics_p10f3b1 = 조 삼촌...내 친 부모님이 누구인지 아시나요?
+	comics_p10f4b1 = 오 진저...난 자세한건 잘 모르겠구나.거스 할아버지에게 물어 보렴.그가 아마 모든 것을 알 거야.
+	comics_p10f4b2 = 좋아요.어디가면 그를 찾을 수 있죠?
+	comics_p10f5b1 = 거스? 안녕하세요. 제 이름은...
+	comics_p10f5b2 = 진저, 그래, 난 니가 누군지 안다. 이쪽으로 들어오거라.
+	comics_p10f6b1 = 오, 아주 오래전 일이구나. 내가 늙어서 기억력이 썩 좋진 않단다.
+	comics_p10f6b2 = 우리 농장은 점점 황폐해져 가고 내 뜰은 잡초로 무성하고 소들은 다 도망갔지.
+	comics_p10f6b3 = 그러나 만약 나를 도와 준다면 아마도 내가 기억해낼 수 있을 거야. 아마도 신선한 오이들이 내 기억력도 신선하게 해줄 거야!
+	
+	comics_p11f1b1 = 진저, 정말 고맙구나. 모든 것을 되돌려 놓아 내 농장을 구했어. 신선한 야채들 때문에 내 기분도 상쾌하구나. 자 이제 너에게 부모님에 대해 들려줄 준비가 됐다.
+    comics_p11f1b2 = 이야기가 좀 길다...
+    comics_p11f2b1 = 오래전, 성공한 젊은 사업가가 그의 아내와 이혼을 했지.
+    comics_p11f2b2 = 법정의 판결을 봤지? 아기를 내 놓지 않으면 분노하는 피터 에그로슨을 보게 될거야! 그 아이는 내꺼야!
+    comics_p11f3b1 = 그러나 피할 수 없는 운명이 있었지.....
+    comics_p11f4b1 = 그의 리무진 자가용이 큰 구덩이와 부딪혀서 그 작은 소녀가 날아가 버렸지.
+    comics_p11f5b1 = 진저, 할머니 할아버지가 너를 발견하게 됬으며, 그들의 행복이었지.. 
+    comics_p11f5b2 = 신은 그들에게 아이들 주지 않았어 그래서 그들이 너를 키우기로 한거야.
+    comics_p11f6b1 = 그래서 너는 이 마을에서 살게 된거야.
+    comics_p11f6b2 = 음, 그러니까 그말은 제가 미스터 에그로슨의 딸이라는 건가요?!?
+    comics_p11f6b3 = 아니야 진저. 네 마음을 한번 느껴봐 그러면 누가 진짜 너의 부모님인지 알게 될거야.
+	
+	comics_p12f0b1 = 자 저번 에피소드에는 어떤 일이 있어났는지 한번 정리해 봅시다..
+	comics_p12f1b1 = 진저는 그녀의 과거를 알게 됐어요.
+	comics_p12f2b1 = 미스터 에그로슨에게 그 뉴스는 즐겁지 않은 소식이죠.
+	comics_p12f2b2 = 사장님, 우리가 당신 딸의 소식을 알아요.
+	comics_p12f2b3 = 내 딸은 죽었어, 자크.
+	comics_p12f2b4 = 아니에요 사장님. 진저가 당신 딸이에요.
+	comics_p12f2b5 = 그럴리가!!!!
+	comics_p12f3b1 = 좀 더! 자세히! 모든 걸 읽어봐요!
+	comics_p12f3b2 = 긴급 속보! 시장이 에그로사와 맺었던 마을 계획을 파기했어요.
+	comics_p12f3b3 = 시장은 도시에 음식을 공급할 사업자를 입찰 방식으로 진행합니다!  
+	comics_p12f3b4 = 누가 새로운 채소 왕이 될까요?
+	
+	comics_p13f1b1 = 이게 이야기의 결말이에요.
+	comics_p13f1b2 = 마을에 신선한 야채를 운반하는 트럭들이 끊임없이 들어오네요.
+	comics_p13f1b3 = 잘가요, 토마토! 여행길 조심해요!
+	comics_p13f2b1 = 이 마을에 많은 걸 공헌한 당신을 나는 공식적으로 인정합니다..
+	comics_p13f2b2 = 진저를 이 마을의 용감한 시민으로요.
+	comics_p13f3b1 = 에그로사의 사업과 가치가 하락하고 있어요.
+	comics_p13f3b2 = 각하, 시장 조사 결과 모두가 우리 상품 사는 것을 멈췄어요.
+	comics_p13f3b3 = 오, 진저, 진저...그녀는 나와 똑같아!
+	comics_p13f4b1 = 그리고 보시면 빨간 라인은 하락했고 녹색라인은 급등 했어요.
+	comics_p13f4b2 = 이 지표는  무엇을 뜻하는 걸까요? 11시에 자세히 보고 됩니다.!
+	comics_p13f5b1 = 에그로사는 강제로 팔리게 되었어요......
+	comics_p13f6b1 = 그리고 진저는 마침내 미스터 에그로슨의 회사가 있던 자리에 꽃과 나무를 심으며 행복하게 살고 있답니다.
+	comics_p13f6b2 = 끝
+
+>>
+
+
+
+	

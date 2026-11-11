@@ -1,0 +1,271 @@
+<<
+@plant 9
+{
+	#string name "plant_pepper";
+	#string type_goods "plants";
+	#int price 25;
+	#point pos 0, 0;
+	#point size 64, 64;
+	#bool solid false;
+	#point zbase 0, 0;
+
+	#int thirsty 70;
+	#int harvest 17;
+	#int growth 25;
+	#int harvest_damage 300;
+	#int shit_strength  420;
+	#int shit_time 100;
+	#int start_health 100;
+	#int thirst_death 200;
+	#int cost_fruit 50;
+	#int thirst_death 600;
+	
+	#bool complete_harvest false;
+	#int max_count_fruit 4;
+	#float time_spoil_fruit 0;
+	
+
+	#string name_fruit "fruit_pepper";
+	#string type_fruit "vegetables";
+
+	@sprite
+	{
+		#string name "sprite_pepper0";
+		#point pos 0, 16;
+		#point size 66, 68;
+		
+		@animation
+		{
+			#string name "plant_idle0";
+			#int start_frame 0;
+			#int end_frame 0;
+			#float frame_per_second 1;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_growth1";
+			#int start_frame 0;
+			#int end_frame 7;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_idle1";
+			#int start_frame 8;
+			#int end_frame 15;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_growth2";
+			#int start_frame 16;
+			#int end_frame 23;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_idle2";
+			#int start_frame 24;
+			#int end_frame 31;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_growth3";
+			#int start_frame 32;
+			#int end_frame 39;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_idle3";
+			#int start_frame 40;
+			#int end_frame 47;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_growth4";
+			#int start_frame 48;
+			#int end_frame 55;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_idle4";
+			#int start_frame 56;
+			#int end_frame 63;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+	}
+	@sprite
+	{
+		#string name "sprite_pepper1";
+		#point pos 16, -12;
+		#point size 66, 68;
+		
+		@animation
+		{
+			#string name "plant_idle0";
+			#int start_frame 0;
+			#int end_frame 0;
+			#float frame_per_second 1;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_growth1";
+			#int start_frame 0;
+			#int end_frame 7;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_idle1";
+			#int start_frame 8;
+			#int end_frame 15;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_growth2";
+			#int start_frame 16;
+			#int end_frame 23;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_idle2";
+			#int start_frame 24;
+			#int end_frame 31;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_growth3";
+			#int start_frame 32;
+			#int end_frame 39;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_idle3";
+			#int start_frame 40;
+			#int end_frame 47;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_growth4";
+			#int start_frame 48;
+			#int end_frame 55;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_idle4";
+			#int start_frame 56;
+			#int end_frame 63;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+	}
+	@sprite
+	{
+		#string name "sprite_pepper2";
+		#point pos -16, -12;
+		#point size 66, 68;
+		
+		@animation
+		{
+			#string name "plant_idle0";
+			#int start_frame 0;
+			#int end_frame 0;
+			#float frame_per_second 1;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_growth1";
+			#int start_frame 0;
+			#int end_frame 7;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_idle1";
+			#int start_frame 8;
+			#int end_frame 15;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_growth2";
+			#int start_frame 16;
+			#int end_frame 23;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_idle2";
+			#int start_frame 24;
+			#int end_frame 31;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_growth3";
+			#int start_frame 32;
+			#int end_frame 39;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_idle3";
+			#int start_frame 40;
+			#int end_frame 47;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_growth4";
+			#int start_frame 48;
+			#int end_frame 55;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+		@animation
+		{
+			#string name "plant_idle4";
+			#int start_frame 56;
+			#int end_frame 63;
+			#float frame_per_second 8;
+			#string texture_name "plant_pepper.tga";
+		}
+	}
+	@dummy_bar;
+}
+>>
+

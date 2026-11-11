@@ -1,0 +1,50 @@
+<<
+@water_sprinkler 1
+{
+	#string name "water_sprinkler";
+	#string type_goods "inventory";
+	#int price 350;
+	#point pos 0, 0;
+	#point size 128, 128;
+	#bool solid false;
+	#point zbase 19, -37;
+	#point sprinkle_radius 4.5, 2.5;	
+	#float sprinkle_frequency 2000;
+	#float sprinkle_strength 3;
+	#string texmask_name "water_sprinkler.tga";
+	#string name_sfx "watering_sfx.ogg";
+	#float length_sfx 6000;
+
+	#point base_center 0, -10;
+	#point base_radius 8, 4;
+	
+	#point dock_center 0, 0;
+	#point dock_radius 8, 8;
+
+	@sprite
+	{
+		#string name "sprite_water_sprinkler";
+		#point pos 0, 0;
+		#point size 128, 128;
+		
+		@animation
+		{
+			#string name "water_sprinkler_stop";
+			#int start_frame 0;
+			#int end_frame 0;
+			#float frame_per_second 8;
+			#string texture_name "water_sprinkler_idle.tga";
+		}
+		@animation
+		{
+			#string name "water_sprinkler_work";
+			#int start_frame 0;
+			#int end_frame 31;
+			#float frame_per_second 24;
+			#string texture_name "water_sprinkler_work.tga";
+		}
+	}
+	@dummy_bar;
+}
+>>
+

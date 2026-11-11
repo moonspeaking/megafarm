@@ -1,0 +1,188 @@
+<<
+
+@interface
+{
+	#string name "gamemap";
+	#string texture_pack "gamemap_pack";
+	#string sound_pack "gamemap_pack";
+	#string onmessage "gamemap";				
+	
+	@map
+	{
+		#string name "map";
+		#point size 800, 600;
+		#point pos 0, 0;
+		#string onmessage "gamemap.map";
+		[map_script]			
+	}
+	
+	
+	@simple_window	
+	{
+		#string name "level_info";
+		#point pos 290, 162;
+		#point size 200, 110;	
+		
+		@text
+		{
+			#string name "level_name";
+			#point pos 0, 0;
+			#point size 0, 32;
+			#float font_size 14;
+			#string text_align "center";
+			#string align "center top";
+			#string text_key "level_name";
+		}
+		
+		@text
+		{
+			#string name "level_complete";
+			#point pos 0, 20;
+			#point size 0, 32;
+			#float font_size 10;
+			#bool font_scale true;
+			#string text_align "center";
+			#string align "center top";
+			#string text_key "level_complete";
+		}
+		
+		@text
+		{
+			#string name "level_time";
+			#point pos 0, 40;
+			#point size 256, 32;
+			#float font_size 10;
+			#string text_align "center";
+			#string align "center top";
+			#string text_key "level_time: 00:00:00";
+		}
+		
+		@text
+		{
+			#string name "best_time_header";
+			#point pos 0, 60;
+			#point size 0, 32;
+			#float font_size 10;
+			#string text_align "center";
+			#string align "center top";
+			#string text_key "best_time";
+		}
+		
+		@text
+		{
+			#string name "best_time";
+			#point pos 0, 76;
+			#point size 0, 32;
+			#float font_size 10;
+			#string text_align "center";
+			#string align "center top";
+			#string text_key "Тормоз 24:00:00";
+		}		
+	}
+	
+	@particle_list;
+	
+	@virtual_window
+	{
+		#string name "levels_form";
+		#point pos 0, -236;
+		#point size 800, 128;
+		#string tex_mask_name "level_bar.tga";
+
+		@bitmap
+		{
+			#string name "main_layer";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#rect texcoord 0, 0, 1, 1;
+			#bool mask true;
+			#string align "scalex scaley";
+			#string texture_name "level_bar.tga";
+		}
+
+		@simple_popup
+		{
+			#string name "levels_menu";
+			#point pos -4, -28;
+			#point size 800, 100;
+			#float margin 8;
+			#bool vertical false;
+			#bool autosize false;
+			#string type_items "speed_button";
+			#string align "scaley";	
+			#string onmessage "gamemap.levels_form.levels_menu";
+						
+		}
+	}
+	
+	@active
+	{
+		#string name "level_arrow";
+		#point pos 0, -224;
+		#point size 32, 32;
+		#string align "scalex scaley";
+		#string texture_name "lvl_arr.tga";
+		#bool visible false;
+	}
+	
+	
+	@active
+	{
+		#string name "map_back";
+		#point pos -355, -170;
+		#point size 128, 128;
+		#string texture_name "map_back.tga";
+		#string tex_mask_name "map_back.tga";
+		#string onmessage "gamemap.exit";
+
+		@text
+		{
+			#string name "caption";
+			#point pos -40, 4;
+			#point size 80, 32;
+			#float font_size 14;
+			#bool font_scale true;
+			#string text_align "right";
+			#string text_key "back";
+		}
+	}
+	
+	@active
+	{
+		#string name "comics_play";
+		#point pos 352, 250;
+		#point size 128, 128;
+		#string texture_name "map_comics.tga";
+		#string tex_mask_name "map_comics.tga";
+		#string onmessage "gamemap.level_info.comics_play";			
+	}
+
+	@active
+	{
+		#string name "map_play";
+		#point pos 272, -146;
+		#point size 256, 128;
+		#string texture_name "map_start.tga";
+		#string tex_mask_name "map_start.tga";
+		#string onmessage "gamemap.play";			
+
+		@text
+		{
+			#string name "caption";
+			#point pos 128, 4;
+			#point size 140, 32;
+			#float font_size 26;
+			#bool font_scale true;			
+			#string text_align "left";
+			#string text_key "start";
+		}		
+	}
+	
+	@cursor;
+}
+
+
+
+>>
+
+

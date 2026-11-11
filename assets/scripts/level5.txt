@@ -1,0 +1,769 @@
+тут можно писать что угодно!
+
+<<
+
+@level 2
+{
+	#string level_name "Цветы";
+	#point level_size 32, 24; 
+	#string level_env "swamp";
+	#float level_time 1600;
+	#float plant_thirst_growth 0.25;
+	#float health_reduction_after_harvest 1.5;
+	#float plant_fertilizer_strength 0.7;
+	#float plant_fertilizer_time 7;
+
+	@scenario
+	{
+		//----------------------------------------------//
+		//				все условии						//
+		//----------------------------------------------//
+
+		@first_task
+		{
+			place_hangar_flowers >= 1;
+		}
+
+		@second_task_part1
+		{
+			sell_plant_dahlia >= 6;
+		}
+		
+		@second_task_part2
+		{
+			sell_plant_sunflower >= 6;
+		}
+		
+		@third_task_part1
+		{
+			place_patent_for_sunflower >= 1;
+		}
+		
+		@third_task_part2
+		{
+			place_patent_for_dahlia >= 1;
+		}
+		
+		@last_task_part1
+		{
+			sow_dahlia >= 12;
+		}
+		
+		@last_task_part2
+		{
+			sow_sunflower >= 12;
+		}
+		
+		@add_water_sprinkler
+		{
+			sell_plant_dahlia >= 1;
+			sell_plant_sunflower >= 1;
+		}
+		
+		@comics_episode1
+		{
+			time >= 1;
+		}
+		
+		@comics_episode2
+		{
+			time >= 2;
+		}
+		
+		@helper_help
+		{
+			time >= 3;
+		}
+		
+		@defeat_time
+		{
+			time >= 10000000000000;
+		}
+		
+		@place_patent_for_hangar_flowers
+		{
+			place_patent_for_hangar_flowers >= 1;
+		}
+		
+		//второй вариант прохождения с гибелью 
+		
+		@dead_plant_sunflower
+		{
+			dead_plant_sunflower >= 9;
+		}
+		
+		@dead_plant_dahlia
+		{
+			dead_plant_dahlia >= 9;
+		}
+		
+		@second_victory
+		{
+			money >= 5000;
+		}
+		
+		//----------------------------------------------//
+		//				отключение кондишенов			//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "disable condition";
+			#string data "second_victory";
+		}
+		
+
+		@action
+		{
+			#string type "disable condition";
+			#string data "dead_plant_sunflower";
+			@condition
+			{
+				dead_plant_dahlia;
+			}	
+		}
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "dead_plant_dahlia";
+			@condition
+			{
+				dead_plant_sunflower;
+			}	
+		}
+	
+		@action
+		{
+			#string type "disable condition";
+			#string data "dead_plant_dahlia";
+			@condition
+			{
+				second_task_part1;
+			}	
+		}
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "dead_plant_sunflower";
+			@condition
+			{
+				second_task_part2;
+			}	
+		}
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "second_victory";
+			@condition
+			{
+				dead_plant_sunflower;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "second_victory";
+			@condition
+			{
+				dead_plant_dahlia;
+			}
+		}  
+		
+		//----------------------------------------------//
+		//				мессаги							//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l5_message_second_task";
+			@condition
+			{
+				first_task;
+			}
+		}  
+
+		@action
+		{
+			#string type "show message";
+			#string data "l5_message_third_task";
+			#int delay 2;
+			@condition
+			{
+				second_task_part1;
+				second_task_part2;
+
+			}
+		}  
+			
+		@action
+		{
+			#string type "show message";
+			#string data "l5_message_last_task";
+			@condition
+			{
+				third_task_part1;
+				third_task_part2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l5_message_victory";
+			@condition
+			{
+				last_task_part1;
+				last_task_part2;
+			}
+		} 
+		
+		@action
+		{
+			#string type "show message";
+			#string data "message_complete_sell_plant_dahlia";
+			@condition
+			{
+				second_task_part1;
+			}
+		}  
+		@action
+		{
+			#string type "show message";
+			#string data "message_complete_sell_plant_sunflower";
+			@condition
+			{
+				second_task_part2;
+			}
+		}  
+
+		@action
+		{
+			#string type "show message";
+			#string data "l5_message_about_tasks";
+			@condition
+			{
+				comics_episode1;
+			}
+		}  
+
+		@action
+		{
+			#string type "show message";
+			#string data "l5_message_first_task";
+			@condition
+			{
+				comics_episode2;
+			}
+		}  
+
+		@action
+		{
+			#string type "show message";
+			#string data "l5_message_add_water_sprinkler";
+			@condition
+			{
+				add_water_sprinkler;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l5_message_helper_help";
+			@condition
+			{
+				helper_help;
+			}
+		} 
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l5_message_dead_flower";
+			@condition
+			{
+				dead_plant_dahlia;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l5_message_dead_flower";
+			@condition
+			{
+				dead_plant_sunflower;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l5_message_second_victory";
+			@condition
+			{
+				second_victory;
+			}
+		}
+		
+		//----------------------------------------------//
+		//				нотифаи							//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "add notify";
+			#string data "l5_notify_add_patent_for_flowers";
+			#int delay 5;
+			@condition
+			{
+				second_task_part1;
+				second_task_part2;
+			}
+		}  
+		
+
+		//----------------------------------------------//
+		//		а тут дибильные таски на уровень		//
+		//----------------------------------------------//
+		@action
+		{
+			#string type "set task";
+			#string data "l5_task_buy_hangar_flowers";
+			@condition
+			{
+				first_task;
+			}
+		}  
+
+		@action
+		{
+			#string type "set task";
+			#string data "l5_task_sell_batch_flowers";
+			@condition
+			{
+				second_task_part1;
+				second_task_part2;
+			}
+		}  
+
+		@action
+		{
+			#string type "set task";
+			#string data "l5_task_buy_flowers_patent";
+			@condition
+			{
+				third_task_part1;
+				third_task_part2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l5_task_flowers_sow";
+			@condition
+			{
+				last_task_part1;
+				last_task_part2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l5_task_second_victory";
+			@condition
+			{
+				second_victory;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l5_task_second_victory";
+			@condition
+			{
+				second_victory;
+			}
+		}  
+		
+		//----------------------------------------------//
+		//				подзадачи						//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "add task";
+			#string data "l5_task_buy_hangar_flowers";
+		}  
+
+		@action
+		{
+			#string type "add task";
+			#string data "l5_task_sell_batch_flowers";
+			@condition
+			{
+				first_task;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l5_task_buy_flowers_patent";
+			@condition
+			{
+				second_task_part1;
+				second_task_part2;
+			}
+		}  
+		
+		//----------------------------------------------//
+		//				главное задание					//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "add task";
+			#string data "l5_task_flowers_sow";
+			@condition
+			{
+				third_task_part1;
+				third_task_part2;
+			}
+		} 
+
+		//----------------------------------------------//
+		//				главное задание		2			//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l5_task_second_victory";
+			@condition
+			{
+				dead_plant_sunflower;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l5_task_second_victory";
+			@condition
+			{
+				dead_plant_dahlia;
+			}
+		}  
+		
+		//----------------------------------------------//
+		//				добавляем на поле				//
+		//----------------------------------------------//
+		@action
+		{
+			#string type "add to field";
+			#string data "hero";
+			#point coords 15, 7;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "harvester";
+			#point coords 13, 7;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "helper";
+			#point coords 17, 7;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "hangar_vegetables";
+			#point coords 15, 3;
+		}
+	
+		@action
+		{
+			#string type "add to field";
+			#string data "hangar_refrigerator";
+			#point coords 19, 3;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "house_pig";
+			#point coords 11, 3;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "house_chicken";
+			#point coords 23, 3;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "big_watercan";
+			#point coords 20, 7;
+		}
+		@action
+		{
+			#string type "add to field";
+			#string data "waterpump";
+			#point coords 19, 6;
+		}
+		@action
+		{
+			#string type "add to field";
+			#string data "fivebox";
+			#point coords 14, 5;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "water_sprinkler";
+			#point coords 16.5, 9.5;
+		}
+
+		@action
+		{
+			#string type "add field";
+			#string data "plant_tomato 4 3";
+			#point coords 8, 6;
+		}
+		
+		@action
+		{
+			#string type "add field";
+			#string data "plant_corn 4 3";
+			#point coords 21, 5;
+		}
+
+		@action
+		{
+			#string type "add field";
+			#string data "plant_sunflower 4 3";
+			#point coords 12, 8;
+		}
+		
+		@action
+		{
+			#string type "add field";
+			#string data "plant_dahlia 4 3";
+			#point coords 17, 8;
+		}
+		//----------------------------------------------//
+		//				добавляем всякое				//
+		//----------------------------------------------//
+		@action
+		{
+			#string type "add money";
+			#string data "200";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "box";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "fivebox";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "tenbox";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "fertilizer";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "big_fertilizer";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "big_watercan";
+		}
+		
+		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "destructor";
+ 		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "waterpump";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "tomato";
+		}	
+		@action
+		{
+			#string type "add to shop";
+			#string data "cucumber";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "corn";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "mushroom";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "aubergine";
+		}		
+		@action
+		{
+			#string type "add to shop";
+			#string data "radish";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "beetroot";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "pumpkin";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_chicken";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_pig";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_hangar_flowers";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "tree_swamp_apple";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "tree_swamp_plum";
+		}
+		
+		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "transporter";
+ 		}
+
+		//----------------------------------------------//
+		//				игровые события					//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_sunflower";
+			@condition
+			{
+				second_task_part1;
+				second_task_part2;
+			}
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_dahlia";
+			#int delay 5;
+			@condition
+			{
+				second_task_part1;
+				second_task_part2;
+			}
+		}
+
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "water_sprinkler";
+			@condition
+			{
+				add_water_sprinkler;
+			}
+		}  
+
+		@action
+		{
+			#string type "victory";
+			@condition 1
+			{
+				last_task_part1;
+				last_task_part2;
+			}
+		}
+		
+		@action
+		{
+			#string type "victory";
+			@condition 1
+			{
+				second_victory;
+			}
+		}
+		
+		@action
+		{
+			#string type "defeat";
+			@condition 1
+			{
+				defeat_time;
+			}
+		}
+	}
+}
+
+
+>>
+
+тут тоже можно писать что угодно
+что угодно
+
+

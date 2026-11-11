@@ -1,0 +1,15 @@
+<<
+
+	@interface
+	{
+		#string name "gameplay";
+		#string texture_pack "gameplay_pack";
+		#string sound_pack "gameplay_pack";
+		#string onmessage "gameplay";
+	}
+
+
+
+>>
+
+

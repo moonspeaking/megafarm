@@ -1,0 +1,666 @@
+тут список всех ключевых слов для перевода
+<<
+
+@texturehost
+{
+	@main_pack
+	{
+		@static
+		{
+			animations/heroine/heroine_sprite0.tga;
+			animations/heroine/heroine_sprite1.tga;
+			animations/heroine/heroine_sprite2.tga;
+			animations/heroine/heroine_sprite3.tga;
+			animations/heroine/heroine_sprite4.tga;
+			animations/heroine/heroine_sprite5.tga;
+			animations/heroine/heroine_sprite6.tga;
+			animations/heroine/heroine_sprite7.tga;
+			animations/heroine/heroine_sprite8.tga;
+			animations/heroine/heroine_sprite9.tga;
+
+			animations/harvester/harvester_sprite0.tga;
+			animations/harvester/harvester_sprite1.tga;
+			animations/harvester/harvester_sprite2.tga;
+
+			animations/helper/helper_sprite0.tga;
+			animations/helper/helper_sprite1.tga;
+
+			animations/plants/plant_aubergine.tga;
+			animations/plants/plant_beetroot.tga;
+			animations/plants/plant_cabbage.tga;
+			animations/plants/plant_carrot.tga;
+			animations/plants/plant_corn.tga;
+			animations/plants/plant_cucumber.tga;
+			animations/plants/plant_dahlia.tga;
+			animations/plants/plant_mushroom.tga;
+			animations/plants/plant_pepper.tga;
+			animations/plants/plant_pumpkin.tga;
+			animations/plants/plant_radish.tga;
+			animations/plants/plant_strawberries.tga;
+			animations/plants/plant_sunflower.tga;
+			animations/plants/plant_tomato.tga;
+			animations/plants/plant_tulip.tga;
+			animations/plants/plant_watermelon.tga;
+
+			animations/dugs/bee_fly.tga;
+			animations/dugs/butterfly1_fly.tga;
+			animations/dugs/butterfly2_fly.tga;
+			animations/dugs/butterfly3_fly.tga;
+
+			animations/animals/chickens_idle.tga;
+			animations/animals/animals_idle.tga;
+			animations/animals/pig_idle.tga;
+			animations/animals/bird_idle0.tga;		
+
+			animations/objects/water_sprinkler_idle.tga;
+			animations/objects/water_sprinkler_work.tga;
+
+			objects/patents/patent_for_aubergine.tga;
+			objects/patents/patent_for_beetroot.tga;
+			objects/patents/patent_for_cabbage.tga;
+			objects/patents/patent_for_carrot.tga;
+			objects/patents/patent_for_corn.tga;
+			objects/patents/patent_for_cucumber.tga;
+			objects/patents/patent_for_dahlia.tga;
+			objects/patents/patent_for_mushroom.tga;
+			objects/patents/patent_for_pepper.tga;
+			objects/patents/patent_for_pumpkin.tga;
+			objects/patents/patent_for_radish.tga;
+			objects/patents/patent_for_strawberries.tga;
+			objects/patents/patent_for_sunflower.tga;
+			objects/patents/patent_for_tomato.tga;
+			objects/patents/patent_for_tulip.tga;
+			objects/patents/patent_for_watermelon.tga;
+			objects/patents/patent_for_hangar_flowers.tga;
+			objects/patents/patent_for_hangar_refrigerator.tga;
+			objects/patents/patent_for_hangar_vegetables.tga;
+			objects/patents/patent_for_house_chicken.tga;
+			objects/patents/patent_for_house_cow.tga;
+			objects/patents/patent_for_house_pig.tga;
+			objects/patents/patent_for_house_sheep.tga;
+			objects/patents/patent_for_beehive.tga;
+			
+			objects/buildings/house_cow.tga;
+			objects/buildings/house_sheep.tga;
+			objects/buildings/house_pig.tga;
+			objects/buildings/house_chicken.tga;
+			objects/buildings/hangar_vegetables.tga;
+			objects/buildings/hangar_flowers.tga;
+			objects/buildings/hangar_refrigerator.tga;
+			objects/buildings/beehive.tga;
+
+			objects/inventory/spade.tga;
+			objects/inventory/box.tga;
+			objects/inventory/fivebox.tga;
+			objects/inventory/tenbox.tga;
+			objects/inventory/water_sprinkler.tga;
+			objects/inventory/watercan.tga;
+			objects/inventory/big_watercan.tga;
+			objects/inventory/waterpump.tga;
+			objects/inventory/waterpump_base.tga;
+			objects/inventory/fertilizer.tga;
+			objects/inventory/big_fertilizer.tga;
+			objects/inventory/multibox.tga;
+			objects/inventory/fertilizer_on_bad1.tga;
+			objects/inventory/fertilizer_on_bad2.tga;
+			objects/inventory/harvester.tga;
+			objects/inventory/harvester_mask.tga;
+			objects/inventory/helper.tga;
+			objects/inventory/helper_mask.tga;
+			
+			objects/inventory/destructor.tga;
+			objects/inventory/transporter.tga;
+
+			objects/seeds/aubergine.tga;
+			objects/seeds/beetroot.tga;
+			objects/seeds/cabbage.tga;
+			objects/seeds/carrot.tga;
+			objects/seeds/corn.tga;
+			objects/seeds/cucumber.tga;
+			objects/seeds/dahlia.tga;
+			objects/seeds/mushroom.tga;
+			objects/seeds/pepper.tga;
+			objects/seeds/pumpkin.tga;
+			objects/seeds/radish.tga;
+			objects/seeds/strawberries.tga;
+			objects/seeds/sunflower.tga;
+			objects/seeds/tomato.tga;
+			objects/seeds/tulip.tga;
+			objects/seeds/watermelon.tga;
+
+			objects/others/egg.tga;
+
+			objects/others/multibox1.tga;
+			objects/others/multibox2.tga;
+			objects/others/multibox3.tga;
+			objects/others/multibox4.tga;
+			objects/others/multibox5.tga;
+			objects/others/multibox6.tga;
+			objects/others/multibox7.tga;
+			objects/others/multibox8.tga;
+			objects/others/multibox9.tga;
+			objects/others/multibox10.tga;
+			
+			objects/levels/level1.tga;
+			objects/levels/level2.tga;
+			objects/levels/level3.tga;
+			objects/levels/level4.tga;
+			objects/levels/level5.tga;
+			objects/levels/level6.tga;
+			objects/levels/level7.tga;
+			objects/levels/level8.tga;
+			objects/levels/level9.tga;
+			objects/levels/level10.tga;
+			objects/levels/level11.tga;
+			objects/levels/level12.tga;
+			
+			objects/levels/hidden_level.tga;
+
+			gui/particles.tga;
+			
+			gui/circle.tga;
+			gui/wcircle.tga;
+			gui/center_gui.tga;
+			gui/down_gui.tga;
+			gui/down_gui_arrow.tga;
+			gui/left_down_gui.tga;
+			gui/left_gui.tga;
+			gui/left_up_gui.tga;
+			gui/right_down_gui.tga;
+			gui/right_gui.tga;
+			gui/right_up_gui.tga;
+			gui/up_gui.tga;
+			
+			gui/slider_back.tga;
+			gui/slider_knob.tga;
+			
+			gui/editbox_back.tga;
+			
+			gui/center_balloon.tga;
+			gui/down_balloon.tga;
+			gui/left_down_balloon.tga;
+			gui/left_balloon.tga;
+			gui/left_up_balloon.tga;
+			gui/right_down_balloon.tga;
+			gui/right_balloon.tga;
+			gui/right_up_balloon.tga;
+			gui/up_balloon.tga;
+			gui/left_down_arrow_balloon.tga;
+			gui/left_up_arrow_balloon.tga;
+			gui/right_down_arrow_balloon.tga;
+			gui/right_up_arrow_balloon.tga;
+			
+			gui/tab_act_left.tga;
+			gui/tab_act_right.tga;
+			gui/tab_act_center.tga;
+			gui/tab_pas_left.tga;
+			gui/tab_pas_right.tga;
+			gui/tab_pas_center.tga;
+			gui/arrow_left.tga;
+			gui/arrow_right.tga;
+			gui/skip_right.tga;
+			gui/fill.tga;
+			gui/fill_border.tga;
+			gui/menu_item_blue.tga
+			gui/button.tga;
+			gui/bitbtn.tga;
+			gui/flag.tga;
+			gui/flag1.tga;
+			gui/check_on.tga;
+			gui/check_off.tga;
+			gui/icons.tga;
+			gui/icons_ex.tga;
+			gui/worker_icons.tga;
+			gui/level_arrow.tga;
+			
+			gui/help1.tga;
+			gui/help2.tga;
+			gui/help3.tga;
+			gui/help4.tga;			
+			gui/keyhelper.tga;
+			gui/keyhelper2.tga;
+			
+			gameplay/gamefield/beds_dry.tga;
+			gameplay/gamefield/beds_wet.tga;
+			gameplay/gamefield/decor.tga;
+
+			gameplay/levelgui/shop_item.tga;
+			gameplay/levelgui/item_shop_menu.tga;
+			gameplay/levelgui/timebar.tga;
+			gameplay/levelgui/upbar.tga;
+			gameplay/levelgui/mask_upbar.tga;
+			gameplay/levelgui/downbar.tga;
+
+			objects/fruits/fruit_bananag_a_1.tga;
+			objects/fruits/fruit_bananag_b_1.tga;
+			objects/fruits/fruit_bananag_c_1.tga;
+		
+			objects/fruits/fruit_bananad_a_1.tga;
+			objects/fruits/fruit_bananad_b_1.tga;
+			objects/fruits/fruit_bananad_c_1.tga;
+			objects/fruits/fruit_bananad_a_2.tga;
+			objects/fruits/fruit_bananad_b_2.tga;
+			objects/fruits/fruit_bananad_c_2.tga;
+
+			objects/fruits/fruit_bananas_a_1.tga;
+			objects/fruits/fruit_bananas_b_1.tga;
+			objects/fruits/fruit_bananas_c_1.tga;
+
+			objects/fruits/fruit_plumg_a_1.tga;
+			objects/fruits/fruit_plumg_b_1.tga;
+			objects/fruits/fruit_plumg_c_1.tga;
+			objects/fruits/fruit_plumg_a_2.tga;
+			objects/fruits/fruit_plumg_b_2.tga;
+			objects/fruits/fruit_plumg_c_2.tga;
+
+			objects/fruits/fruit_plumd_a_1.tga;
+			objects/fruits/fruit_plumd_b_1.tga;
+			objects/fruits/fruit_plumd_c_1.tga;
+
+			objects/fruits/fruit_plums_a_1.tga;
+			objects/fruits/fruit_plums_b_1.tga;
+			objects/fruits/fruit_plums_c_1.tga;
+			objects/fruits/fruit_plums_a_2.tga;
+			objects/fruits/fruit_plums_b_2.tga;
+			objects/fruits/fruit_plums_c_2.tga;
+
+			objects/fruits/fruit_cherryg_a_1.tga;
+			objects/fruits/fruit_cherryg_b_1.tga;
+			objects/fruits/fruit_cherryg_c_1.tga;
+
+			objects/fruits/fruit_cherryd_a_1.tga;
+			objects/fruits/fruit_cherryd_b_1.tga;
+			objects/fruits/fruit_cherryd_c_1.tga;
+
+			objects/fruits/fruit_cherrys_a_1.tga;
+			objects/fruits/fruit_cherrys_b_1.tga;
+			objects/fruits/fruit_cherrys_c_1.tga;
+
+			objects/fruits/fruit_appleg_a_1.tga;
+			objects/fruits/fruit_appleg_b_1.tga;
+			objects/fruits/fruit_appleg_c_1.tga;
+
+			objects/fruits/fruit_appled_a_1.tga;
+			objects/fruits/fruit_appled_b_1.tga;
+			objects/fruits/fruit_appled_c_1.tga;
+
+			objects/fruits/fruit_apples_a_1.tga;
+			objects/fruits/fruit_apples_b_1.tga;
+			objects/fruits/fruit_apples_c_1.tga;
+
+			objects/trees/tree_swamp_palm.tga;
+			objects/trees/tree_swamp_apple.tga;
+			objects/trees/tree_swamp_cherry.tga;
+			objects/trees/tree_swamp_plum.tga;
+
+			objects/trees/tree_desert_palm.tga;
+			objects/trees/tree_desert_apple.tga;
+			objects/trees/tree_desert_cherry.tga;
+			objects/trees/tree_desert_plum.tga;
+
+			objects/trees/tree_grass_palm.tga;
+			objects/trees/tree_grass_apple.tga;
+			objects/trees/tree_grass_cherry.tga;
+			objects/trees/tree_grass_plum.tga;
+
+			gui/gamemap/level_bar.tga;
+			gui/gamemap/lvl_arr.tga;
+			gui/gamemap/map_back.tga;
+			gui/gamemap/map_start.tga;
+			gui/gamemap/map_comics.tga;
+			gui/gamemap/lvl_h.tga;
+			gui/gamemap/lvl_set.tga;
+			gui/gamemap/lvl_set_lh.tga;
+			gui/gamemap/lvl_set_rh.tga;
+
+			gamecomics/comics1.jpg;
+		}
+		
+		@dynamic
+		{
+		}
+		
+		@temporary
+		{
+		}
+	}
+
+	//минимально необходимая графика для старта
+	@intro_pack
+	{
+		@static
+		{
+			fonts/uni.tga;
+			fonts/jap.tga;
+			fonts/kor.tga;
+			fonts/chn.tga;
+			gui/cursor.tga;
+		}
+		
+		@dynamic
+		{
+			intro/splash1.jpg;
+			intro/splash2.jpg;
+		}
+		
+		@temporary
+		{
+		}
+	}
+
+	//текстуры невыгружаемые в течении всей игры
+	@loader_pack
+	{
+		@static
+		{
+		}
+		
+		@dynamic
+		{
+			loader/loadbar.tga;
+			loader/loadscreen.jpg;
+		}
+		
+		@temporary
+		{
+		}
+	}
+
+	@menu_pack
+	{
+		@static
+		{
+		}
+		
+		@dynamic
+		{
+			menu/sky2.jpg;
+			menu/menu_background.tga;
+			menu/hair_01.tga;
+			menu/hair_02.tga;
+			menu/hair_03.tga;
+			menu/flower_01.tga;
+			menu/flower_02.tga;
+			menu/flower_03.tga;
+			menu/foliage_01.tga;
+			menu/foliage_02.tga;
+			menu/foliage_03.tga;
+			menu/foliage_04.tga;
+			menu/foliage_05.tga;
+			menu/tablo.tga;
+
+			animations/heroine/eyes.tga;
+		}
+		
+		@temporary
+		{
+		}
+	}
+	
+	@gamemap_pack
+	{
+		@static
+		{
+		}
+		
+		@dynamic
+		{
+			gamemap/map.tga;
+			gamemap/sky.jpg;
+			gamemap/star.tga;			
+			gamemap/point.tga;			
+			gamemap/medal1.tga;
+			gamemap/medal2.tga;
+		}
+		
+		@temporary
+		{
+		}
+	}
+
+	@desert_pack
+	{
+		@static
+		{
+		}
+		
+		@dynamic
+		{
+			objects/buildings/desert_house_cow.tga;
+			objects/buildings/desert_house_sheep.tga;
+			objects/buildings/desert_house_pig.tga;
+			objects/buildings/desert_house_chicken.tga;
+			objects/buildings/desert_hangar_vegetables.tga;
+			objects/buildings/desert_hangar_flowers.tga;
+			objects/buildings/desert_hangar_refrigerator.tga;
+			objects/buildings/desert_beehive.tga;
+
+			gameplay/gamefield/desert_center_tile.tga;
+			gameplay/gamefield/desert_down_center.tga;
+			gameplay/gamefield/desert_left_center.tga;
+			gameplay/gamefield/desert_right_center.tga;
+			gameplay/gamefield/desert_up_center.tga;
+
+			gameplay/gamefield/desert_right_up.tga;
+			gameplay/gamefield/desert_right_down.tga;
+			gameplay/gamefield/desert_left_up.tga;
+			gameplay/gamefield/desert_left_down.tga;
+
+			gameplay/gamefield/desert_bed_lr.tga;
+			gameplay/gamefield/desert_bed_ud.tga;
+		}
+		
+		@temporary
+		{
+		}
+	}
+	
+	@grass_pack
+	{
+		@static
+		{
+		}
+		
+		@dynamic
+		{
+			objects/buildings/grass_house_cow.tga;
+			objects/buildings/grass_house_sheep.tga;
+			objects/buildings/grass_house_pig.tga;
+			objects/buildings/grass_house_chicken.tga;
+			objects/buildings/grass_hangar_vegetables.tga;
+			objects/buildings/grass_hangar_flowers.tga;
+			objects/buildings/grass_hangar_refrigerator.tga;
+			objects/buildings/grass_beehive.tga;
+
+			gameplay/gamefield/grass_center_tile.tga;
+			gameplay/gamefield/grass_down_center.tga;
+			gameplay/gamefield/grass_left_center.tga;
+			gameplay/gamefield/grass_right_center.tga;
+			gameplay/gamefield/grass_up_center.tga;
+
+			gameplay/gamefield/grass_right_up.tga;
+			gameplay/gamefield/grass_right_down.tga;
+			gameplay/gamefield/grass_left_up.tga;
+			gameplay/gamefield/grass_left_down.tga;
+
+			gameplay/gamefield/grass_bed_lr.tga;
+			gameplay/gamefield/grass_bed_ud.tga;
+		}
+		
+		@temporary
+		{
+		}
+	}
+
+	@swamp_pack
+	{
+		@static
+		{
+		}
+		
+		@dynamic
+		{
+			objects/buildings/swamp_house_cow.tga;
+			objects/buildings/swamp_house_sheep.tga;
+			objects/buildings/swamp_house_pig.tga;
+			objects/buildings/swamp_house_chicken.tga;
+			objects/buildings/swamp_hangar_vegetables.tga;
+			objects/buildings/swamp_hangar_flowers.tga;
+			objects/buildings/swamp_hangar_refrigerator.tga;
+			objects/buildings/swamp_beehive.tga;
+
+			gameplay/gamefield/swamp_center_tile.tga;
+			gameplay/gamefield/swamp_down_center.tga;
+			gameplay/gamefield/swamp_left_center.tga;
+			gameplay/gamefield/swamp_right_center.tga;
+			gameplay/gamefield/swamp_up_center.tga;
+
+			gameplay/gamefield/swamp_right_up.tga;
+			gameplay/gamefield/swamp_right_down.tga;
+			gameplay/gamefield/swamp_left_up.tga;
+			gameplay/gamefield/swamp_left_down.tga;
+
+			gameplay/gamefield/swamp_bed_lr.tga;
+			gameplay/gamefield/swamp_bed_ud.tga;
+		}
+		
+		@temporary
+		{
+		}
+	}
+
+	@trophyroom_pack
+	{
+		@static
+		{
+		}
+		
+		@dynamic
+		{
+			trophyroom/trophyroom.jpg;
+			trophyroom/trophy00.tga;
+			trophyroom/trophy01.tga;
+			trophyroom/trophy02.tga;
+			trophyroom/trophy03.tga;
+			trophyroom/trophy04.tga;
+			trophyroom/trophy05.tga;
+			trophyroom/trophy06.tga;
+			trophyroom/trophy07.tga;
+			trophyroom/trophy08.tga;
+			trophyroom/trophy09.tga;
+			trophyroom/trophy10.tga;
+			trophyroom/trophy11.tga;
+			trophyroom/trophy12.tga;
+		}
+		
+		@temporary
+		{
+		}
+	}
+	
+	@comics0_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage1.tga;
+		}
+	}
+	@comics1_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage2.tga;
+		}
+	}
+	@comics2_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage3.tga;
+		}
+	}
+	@comics3_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage4.tga;
+		}
+	}
+	@comics4_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage5.tga;
+		}
+	}
+	@comics5_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage6.tga;
+		}
+	}
+	@comics6_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage7.tga;			
+		}
+	}
+	@comics7_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage8.tga;
+		}
+	}
+	@comics8_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage9.tga;
+		}
+	}
+	@comics9_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage10.tga;
+		}
+	}
+	@comics10_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage11.tga;
+		}
+	}
+	@comics11_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage12.tga;
+		}
+	}
+	@comics12_pack
+	{
+		@dynamic
+		{
+			gamecomics/comicpage13.tga;
+		}
+	}	
+	
+	@credits_pack
+	{
+		@dynamic
+		{
+			credits/end.jpg;
+			gamecomics/wombat.jpg
+			gui/credits_fade_in.tga;
+			gui/credits_fade_out.tga;
+		}
+	}
+}
+
+>>
+

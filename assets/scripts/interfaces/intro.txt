@@ -1,0 +1,17 @@
+<<
+
+	@interface
+	{
+		#string name "intro";
+		#string texture_pack "intro_pack";
+		#string sound_pack "intro_pack";
+
+
+		@splasher;
+		
+		@cursor;
+	}
+
+>>
+
+

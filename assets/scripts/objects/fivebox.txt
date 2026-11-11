@@ -1,0 +1,24 @@
+<<
+@multibox 2
+{
+	#string name "fivebox";
+	#string type_goods "inventory";
+	#int price 5;
+	#point pos 0, 0;
+	#point size 64, 64;
+	#bool solid false;
+	#point zbase 1, -50;
+	
+	#point base_center 0, -50;
+	#point base_radius 32, 16;
+	#point dock_center 0, -60;
+	#point dock_radius 16, 16;
+	
+	#int boxcount 5;
+	#string texpicture_name "fivebox.tga";
+	#string texhighlight_name "fivebox.tga";
+	#string texmask_name "fivebox.tga";
+}
+
+>>
+

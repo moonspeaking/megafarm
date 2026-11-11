@@ -1,0 +1,45 @@
+<<
+
+	@interface
+	{
+		#string name "loader";
+		#string texture_pack "loader_pack";
+		#string sound_pack "loader_pack";
+		#string onmessage "loader";
+		
+		@bitmap
+		{
+			#string name "loadscreen";
+			#point pos 0, 0;
+			#point size 800, 600;
+			#rect texcoord 0, 0, 0.78125, 0.58594;
+			#string align "scalex scaley";
+			#string texture_name "loadscreen.jpg";
+		}
+		@bitmap
+		{
+			#string name "loadbar";
+			#point pos 0, -255;
+			#point size 350, 64;
+			#rect texcoord 0, 0, 0, 1;
+			#string align "scalex scaley";
+			#string texture_name "loadbar.tga";
+			#string onmessage "loader.loadbar";
+		}
+		@text
+		{
+			#string name "loading";
+			#point pos 0, -255;
+			#point size 350, 64;
+			#float font_size 17;
+			#string text_align "center";
+			#string text_key "loading";
+		}
+		@cursor;
+	}
+
+
+
+>>
+
+

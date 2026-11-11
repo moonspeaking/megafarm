@@ -1,0 +1,1070 @@
+<<
+
+	begin_lower_char = a
+	end_lower_char = z
+	begin_upper_char = A
+	end_upper_char = Z
+	start = Inizia
+	freemode = Test
+	options = Opzioni
+	trophyroom = Trofei
+	change_player = Cambia giocatore
+	credits = Riconoscimenti
+	help = Guida
+	exit = Esci
+	back = Indietro
+	loading = Caricamento
+
+	musics = Musica
+	fullscreen = Schermo intero
+	windowed = A finestra
+	vsync = Sincronia verticale
+	
+	new_profile = Nuovo giocatore
+	delete_profile = Elimina giocatore
+
+	music_on = MUSICA: SÌ
+	music_off = MUSICA: NO
+	sound_on = EFFETTI: SÌ
+	sound_off = EFFETTI: NO
+	cursor_on = Cursore: sì
+	cursor_off = Cursore: no
+	
+	set_volume = Volume
+	sound_volume = VOLUME EFFETTI
+	music_volume = VOLUME MUSICA
+
+	languages = Seleziona lingua
+	lang_rus = Русский
+	lang_eng = English
+	lang_fra = Français
+	lang_ita = Italiano
+	lang_por = Inglês
+	lang_dut = Nederlands
+	lang_swe = Svenska
+	lang_deu = Deutsch
+	lang_esp = Español
+	lang_jap = Japanese
+	lang_kor = Korean
+	lang_chn = Chinese
+
+	change_player_label = (Cambia giocatore)
+	ok = OK
+	cancel = ANNULLA
+	yes = SÌ
+	no = NO
+	game_saved = Partita salvata!
+	game_loaded = Caricamento completato.
+	question_save_game = Salvare la partita corrente?
+	question_load_game = Caricare un salvataggio precedente?
+	question_exit_game = Uscire?
+	question_replay_game = Rigiocare questo livello?
+	question_end_game = Tornare al menu principale?
+	question_saveandexit_game = Salvare la partita prima di uscire?
+	cheatmodeon = Modalità cheat attivata!
+	cheatmodeoff = Modalità cheat disattivata!
+	tasks = Attività
+	mainmenu = Menu
+	continue = Continua
+	restart = Rigioca
+	exitgame = Esci
+	profit_hint = Hai ottenuto % monete.
+	current_task = Attività corrente
+	click_to_continue = CONTINUA
+	patent_buy_confirm = Inoltrare questo ordine?
+	notify_you_cant_place = Non puoi metterlo qui!
+	notify_you_cant_gowhere = Non puoi andare là!
+	
+	wombat = Vombato
+	
+	control_help_1 = Controlla i personaggi con il pulsante sinistro del mouse, annulla i comandi con quello destro. Usa i tasti di direzione per spostare la visuale.
+	control_help_2 = Fai clic per eseguire le funzioni di base o doppio clic per arare il suolo o deporre un oggetto.
+	
+	text_enter_name = Inserire un nome
+	welcome_message = Ciao,
+
+	dig_squares = Ara il suolo
+	water_plants = Annaffia le piante
+
+	level1_name = Allenamento
+	level2_name = La tua prima fattoria
+	level3_name = Maiali e Co.
+	level4_name = I soldi crescono sugli alberi
+	level5_name = Potere dei fiori
+	level6_name = Tutti presi come api
+	level7_name = La fiera
+	level8_name = Rifornitori
+	level9_name = Soldi, soldi, soldi
+	level10_name = Siccità
+	level11_name = La fattoria dei sogni
+	level12_name = Al mercato
+	
+	trophy_announce_header = Hai vinto un trofeo!
+	
+	trophy_hint0 = Hai ottenuto l'orologio a cucù per l'ottimo lavoro nel livello di allenamento.
+	trophy_hint1 = Hai ottenuto il porcellino salvadanaio perché il risparmio conduce alla ricchezza.
+	trophy_hint2 = Hai ottenuto il trovatempo della statuetta dei maiali per aver salvato i suini.
+	trophy_hint3 = Questa palma ti è stata donata dagli abitanti del villaggio per aver salvato le loro case dalla ventola della fabbrica.
+	trophy_hint4 = Hai ottenuto la medaglia d'oro della floricoltura per lo straordinario lavoro in ambito floreale.
+	trophy_hint5 = Hai ottenuto il premio Ape operosa per aver ripristinato le tradizioni dell'apicoltura.
+	trophy_hint6 = Primo premio della fiera.
+	trophy_hint7 = Hai ottenuto la statua del libero contadino per aver mantenuto l'indipendenza di fronte all'aggressione. Liberté, agriculture, fraternité.
+	trophy_hint8 = La ricevuta della banca è il tuo miglior trofeo. I contadini ti hanno offerto del gelato!
+	trophy_hint9 = Hai ottenuto il secchio d'argento per aver salvato la fattoria dalla siccità.
+	trophy_hint10 = Hai ottenuto la pannocchia d'oro per aver creato la fattoria del futuro!
+	trophy_hint11 = Un certificato di miglior fornitore di prodotti. Hai vinto il super premio!
+	trophy_hint12 = Trofeo del miglior contadino nella storia dell'agricoltura.
+	
+	level_not_finished = Non hai superato questo livello
+    level_completed = Livello completato
+    level_completed_with_trophy = Lavoro da premiare!
+    level_time = Tempo
+    level_money = Denaro
+    best_time = Tempo record:
+    best_money = Profitto record:
+
+	inventory_form = SCORTE
+	buildings_form = EDIFICI
+	seeds_form = SEMENTI
+	sprouts_form = PIANTE
+	trees_form = ALBERI
+	workers_form = LAVORATORI
+
+	aubergine = Melanzane
+	beetroot = Barbabietole
+	cabbage = Cavoli
+	carrot = Carote
+	corn = Mais
+	cucumber = Cetrioli
+	dahlia = Dalie
+	mushroom = Funghi
+	pepper = Peperoni
+	pumpkin = Zucche
+	radish = Rapanelli
+	strawberries = Fragole
+	sunflower = Girasoli
+	tomato = Pomodori
+	tulip = Tulipani
+	watermelon = Angurie
+	
+	task_separator = a
+	task_sow = pianta
+	task_sell = vendi
+	task_fertilize = fertilizza
+	task_buy = compra
+	
+	water_sprinkler = Irrigatori
+	time = Tempo
+	
+	tree_desert_apple = Meli
+	tree_desert_cherry = Ciliegi
+	tree_desert_palm = Banani
+	tree_desert_plum = Susini
+	tree_grass_apple = Meli
+	tree_grass_cherry = Ciliegi
+	tree_grass_palm = Banani
+	tree_grass_plum = Susini
+	tree_swamp_apple = Meli
+	tree_swamp_cherry = Ciliegi
+	tree_swamp_palm = Banani
+	tree_swamp_plum = Susini
+	
+	house_chicken_product = Uova
+	house_cow_product = Latte
+	house_pig_product = Porcellini
+	house_sheep_product = Lana
+	beehive_product = Miele
+	
+	tree_desert_apple_product = Mele
+	tree_desert_cherry_product = Ciliegie
+	tree_desert_palm_product = Banane
+	tree_desert_plum_product = Susine
+	tree_grass_apple_product = Mele
+	tree_grass_cherry_product = Ciliegie
+	tree_grass_palm_product = Banane
+	tree_grass_plum_product = Susine
+	tree_swamp_apple_product = Mele
+	tree_swamp_cherry_product = Ciliegie
+	tree_swamp_palm_product = Banane
+	tree_swamp_plum_product = Susine
+	
+	house_chicken = Pollai
+	house_cow = Stalle
+	house_pig = Recinti maiali
+	house_sheep = Ovili
+	hangar_refrigerator = Magazzini refrigerati
+	hangar_flowers = Serre
+	beehive = Alveari
+	
+	helper = Giardinieri
+	harvester = Raccoglitori di frutta e verdura
+	
+	patent_for_tulip = Ordini bulbi tulipani
+	patent_for_dahlia = Ordini bulbi dalie
+	patent_for_sunflower = Ordini semi girasoli
+	patent_for_cucumber = Ordini semi cetrioli
+	patent_for_tomato = Ordini semi pomodori
+	patent_for_aubergine = Ordini semi melanzane
+	patent_for_pepper = Ordini semi peperoni
+	patent_for_watermelon = Ordini semi angurie
+	patent_for_hangar_flowers = Permessi costruzione serre
+	patent_for_beehive = Licenze apicoltura
+	patent_for_cabbage = Ordini semi cavoli
+	patent_for_beetroot = Ordini semi barbabietole
+	patent_for_house_pig = Permessi costruzione recinti maiali
+	patent_for_carrot = Ordini semi carote
+	patent_for_corn = Ordini semi mais
+	patent_for_hangar_vegetables = Permessi costruzione granaio
+	patent_for_mushroom = Ordini spore funghi
+	patent_for_pumpkin = Ordini semi zucche
+	patent_for_strawberries = Ordini semi fragole
+	patent_for_hangar_refrigerator = Permessi costruzione magazzino refrigerato
+	patent_for_house_sheep = Licenze allevamento ovini
+	patent_for_house_chicken = Licenze allevamento pollame
+	patent_for_house_cow = Licenze allevamento bovini
+	patent_for_radish = Ordini semi rapanelli
+	
+	plant_aubergine = Melanzane
+	plant_beetroot = Barbabietole
+	plant_cabbage = Cavoli
+	plant_carrot = Carote
+	plant_corn = Mais
+	plant_cucumber = Cetrioli
+	plant_dahlia = Dalie
+	plant_mushroom = Funghi
+	plant_pepper = Peperoni
+	plant_pumpkin = Zucche
+	plant_radish = Rapanelli
+	plant_strawberries = Fragole
+	plant_sunflower = Girasoli
+	plant_tomato = Pomodori
+	plant_tulip = Tulipani
+	plant_watermelon = Angurie
+	
+	money = Denaro
+
+	cost_goods = Puoi vendere una cassa di questo prodotto per %i monete.
+	cost_work = Il salario di un lavoratore è pari a %i monete.
+
+	box_shop_hint = Cassa per raccogliere i prodotti.
+	fivebox_shop_hint = Scorta di cinque casse
+	tenbox_shop_hint = Scorta di dieci casse
+
+	spade_shop_hint = Vanga di alta qualità
+	watercan_shop_hint = Annaffiatoio piccolo
+	big_watercan_shop_hint = Annaffiatoio grande
+
+	destructor_shop_hint = Attrezzo per estirpare erbacce o arare una zolla esistente.
+	transporter_shop_hint = La gru serve a spostare gli edifici della fattoria.
+	
+	hangar_vegetables_shop_hint = I granai servono per conservare frutta e verdura non deperibili.
+	hangar_flowers_shop_hint = Le serre servono per conservare i fiori.
+	hangar_refrigerator_shop_hint = I magazzini refrigerati servono per conservare merci deperibili.
+
+	beehive_shop_hint = Gli alveari servono per l'allevamento di api che producono miele.
+	house_sheep_shop_hint = Gli ovili servono per allevare pecore che producono lana.
+	house_pig_shop_hint = I recinti servono per allevare maiali.
+	house_cow_shop_hint = Le stalle servono per allevare mucche che producono latte.
+	house_chicken_shop_hint = I pollai servono per allevare pollame che produce uova.
+	
+	
+	waterpump_shop_hint = Se devi fare molta strada per raggiungere l'acqua, ti conviene scavare un altro pozzo.
+	water_sprinkler_shop_hint = Gli irrigatori sono indispensabili in una grande fattoria.
+	fertilizer_shop_hint = Sacco piccolo di fertilizzante
+	big_fertilizer_shop_hint = Sacco grande di fertilizzante
+	
+	tree_desert_palm_shop_hint = Le banane crescono lentamente, ma fanno guadagnare molto.
+	tree_desert_apple_shop_hint = Il melo è poco costoso e le mele crescono in fretta.
+	tree_desert_cherry_shop_hint = Il ciliegio sembra strano, ma dà frutti redditizi.
+	tree_desert_plum_shop_hint = I frutti del susino maturano in fretta e si vendono bene.
+	
+	tree_swamp_palm_shop_hint = Le banane crescono lentamente, ma fanno guadagnare molto.
+	tree_swamp_apple_shop_hint = Il melo è poco costoso e le mele crescono in fretta.
+	tree_swamp_cherry_shop_hint = Il ciliegio sembra strano, ma dà frutti redditizi.
+	tree_swamp_plum_shop_hint = I frutti del susino maturano in fretta e si vendono bene.
+
+	tree_grass_palm_shop_hint = Le banane crescono lentamente, ma fanno guadagnare molto.
+	tree_grass_apple_shop_hint = Il melo è poco costoso e le mele crescono in fretta.
+	tree_grass_cherry_shop_hint = Il ciliegio sembra strano, ma dà frutti redditizi.
+	tree_grass_plum_shop_hint = I frutti del susino maturano in fretta e si vendono bene.
+	
+	harvester_shop_hint = I raccoglitori di frutta e verdura colgono i vegetali dalle piante.
+	helper_shop_hint = I giardinieri tengono concimate le piante.
+	
+	aubergine_shop_hint = Pacchetto di semi di melanzane.
+	beetroot_shop_hint = Pacchetto di semi di barbabietole.
+	cabbage_shop_hint = Pacchetto di semi di cavoli.
+	carrot_shop_hint = Pacchetto di semi di carote.
+	corn_shop_hint = Pacchetto di semi di mais.
+	cucumber_shop_hint = Pacchetto di semi di cetrioli.
+	dahlia_shop_hint = Pacchetto di bulbi di dalie.
+	mushroom_shop_hint = Pacchetto di spore di funghi.
+	pepper_shop_hint = Pacchetto di semi di peperoni.
+	pumpkin_shop_hint = Pacchetto di semi di zucche.
+	radish_shop_hint = Pacchetto di semi di rapanelli.
+	strawberries_shop_hint = Pacchetto di semi di fragole.
+	sunflower_shop_hint = Pacchetto di semi di girasoli.
+	tomato_shop_hint = Pacchetto di semi di pomodori.
+	tulip_shop_hint = Pacchetto di bulbi di tulipani.
+	watermelon_shop_hint = Pacchetto di semi di angurie.
+	
+	patent_for_tulip_shop_hint = Ordina bulbi di tulipani. Una volta evaso l'ordine, potrai acquistare bulbi di tulipani al negozio.
+	patent_for_dahlia_shop_hint = Ordina bulbi di dalie. Una volta evaso l'ordine, potrai acquistare bulbi di dalie al negozio.
+	patent_for_sunflower_shop_hint = Ordina semi di girasoli. Una volta evaso l'ordine, potrai acquistare semi di girasoli al negozio.
+	patent_for_cucumber_shop_hint =  Ordina semi di cetrioli. Una volta evaso l'ordine, potrai acquistare semi di cetrioli al negozio.
+	patent_for_tomato_shop_hint =  Ordina semi di pomodori. Una volta evaso l'ordine, potrai acquistare semi di pomodori al negozio.
+	patent_for_aubergine_shop_hint =  Ordina semi di melanzane. Una volta evaso l'ordine, potrai acquistare semi di melanzane al negozio.
+	patent_for_pepper_shop_hint =  Ordina semi di peperoni. Una volta evaso l'ordine, potrai acquistare semi di peperoni al negozio.
+	patent_for_watermelon_shop_hint =  Ordina semi di angurie. Una volta evaso l'ordine, potrai acquistare semi di angurie al negozio.
+	patent_for_hangar_flowers_shop_hint =  Acquista una licenza di floricoltura e un permesso di costruzione per creare una serra. La licenza di floricoltura permette di coltivare e vendere fiori.
+	patent_for_beehive_shop_hint = Acquista una licenza di apicoltura, che permette di produrre e vendere miele.
+	patent_for_beetroot_shop_hint = Ordina semi di barbabietole. Una volta evaso l'ordine, potrai acquistare semi di barbabietole al negozio.
+	patent_for_cabbage_shop_hint = Ordina semi di cavoli. Una volta evaso l'ordine, potrai acquistare semi di cavoli al negozio.
+	patent_for_carrot_shop_hint = Ordina semi di carote. Una volta evaso l'ordine, potrai acquistare semi di carote al negozio.
+	patent_for_corn_shop_hint = Ordina semi di mais. Una volta evaso l'ordine, potrai acquistare semi di mais al negozio.
+	patent_for_hangar_refrigerator_shop_hint = Acquista un permesso di costruzione e una licenza per creare e utilizzare un magazzino refrigerato.
+	patent_for_hangar_vegetables_shop_hint = Acquista un permesso di costruzione di un granaio, che consente di creare un altro granaio in un punto più comodo della fattoria.
+	patent_for_house_chicken_shop_hint = Acquista una licenza di avicoltura, che permette di allevare pollame e vendere uova.
+	patent_for_house_cow_shop_hint = Acquista una licenza di allevamento bovini, che permette di allevare mucche e vendere latte.
+	patent_for_house_pig_shop_hint = Acquista una licenza di allevamento di suini, che permette di allevare e vendere maiali. 
+	patent_for_house_sheep_shop_hint = Acquista una licenza di allevamento ovini, che permette di allevare pecore e vendere la loro lana.
+	patent_for_mushroom_shop_hint = Ordina spore di funghi. Una volta evaso l'ordine, potrai acquistare spore di funghi al negozio.
+	patent_for_pumpkin_shop_hint = Ordina semi di zucche. Una volta evaso l'ordine, potrai acquistare semi di zucche al negozio.
+	patent_for_radish_shop_hint = Ordina semi di rapanelli. Una volta evaso l'ordine, potrai acquistare semi di rapanelli al negozio.
+	patent_for_strawberries_shop_hint = Ordina semi di fragole. Una volta evaso l'ordine, potrai acquistare semi di fragole al negozio.
+	
+	notify_add_shop_harvester = Ora puoi assumere un raccoglitore di frutta e verdura che ti aiuti con il raccolto.
+	notify_add_shop_helper = Ora puoi assumere un giardiniere che annaffi e concimi le piante.
+	notify_add_shop_box = Ora le casse sono disponibili al negozio.
+	notify_add_shop_fivebox = Ora le scorte di cinque casse sono disponibili al negozio.
+	notify_add_shop_tenbox = Ora le scorte di 10 casse sono disponibili al negozio.
+	notify_add_shop_aubergine = Ora i semi di melanzane sono disponibili al negozio.
+	notify_add_shop_beetroot = Ora i semi di barbabietole sono disponibili al negozio.
+	notify_add_shop_cabbage = Ora i semi di cavoli sono disponibili al negozio.
+	notify_add_shop_carrot = Ora i semi di carote sono disponibili al negozio.
+	notify_add_shop_corn = Ora i semi di mais sono disponibili al negozio.
+	notify_add_shop_cucumber = Ora i semi di cetrioli sono disponibili al negozio.
+	notify_add_shop_dahlia = Ora i bulbi di dalie sono disponibili al negozio.
+	notify_add_shop_mushroom = Ora le spore di funghi sono disponibili al negozio.
+	notify_add_shop_pepper = Ora i semi di peperoni sono disponibili al negozio.
+	notify_add_shop_pumpkin = Ora i semi di zucche sono disponibili al negozio.
+	notify_add_shop_radish = Ora i semi di rapanelli sono disponibili al negozio.
+	notify_add_shop_strawberries = Ora i semi di fragole sono disponibili al negozio.
+	notify_add_shop_sunflower = Ora i semi di girasoli sono disponibili al negozio.
+	notify_add_shop_tomato = Ora i semi di pomodori sono disponibili al negozio.
+	notify_add_shop_tulip = Ora i bulbi di tulipani sono disponibili al negozio.
+	notify_add_shop_watermelon = Ora i semi di angurie sono disponibili al negozio.
+	notify_add_shop_watercan = Ora gli annaffiatoi sono disponibili al negozio. 
+	notify_add_shop_big_watercan = Ora gli annaffiatoi grandi sono disponibili al negozio.
+	notify_add_shop_transporter = Ora puoi noleggiare una gru al negozio.
+
+	notify_add_shop_beehive = Ora gli alveari sono disponibili al negozio.
+	notify_add_shop_house_sheep = Ora le pecore sono disponibili al negozio.
+	notify_add_shop_house_pig = Ora i maiali sono disponibili al negozio.
+	notify_add_shop_house_cow = Ora le mucche sono disponibili al negozio.
+	notify_add_shop_house_chicken = Ora le galline sono disponibili al negozio.
+
+	notify_add_shop_waterpump = Ora i pozzi con pompa sono disponibili al negozio.
+	notify_add_shop_water_sprinkler = Ora gli irrigatori sono disponibili al negozio.
+	notify_add_shop_fertilizer = Ora i fertilizzanti sono disponibili al negozio.
+	notify_add_shop_big_fertilizer = Ora i pacchetti grandi di fertilizzanti sono disponibili al negozio.
+
+	notify_add_shop_tree_grass_palm = Ora i banani sono disponibili al negozio.
+	notify_add_shop_tree_grass_apple = Ora i meli sono disponibili al negozio.
+	notify_add_shop_tree_grass_cherry = Ora i ciliegi sono disponibili al negozio.
+	notify_add_shop_tree_grass_plum = Ora i susini sono disponibili al negozio.
+	notify_add_shop_tree_desert_palm = Ora i banani sono disponibili al negozio.
+	notify_add_shop_tree_desert_apple = Ora i meli sono disponibili al negozio.
+	notify_add_shop_tree_desert_cherry = Ora i ciliegi sono disponibili al negozio.
+	notify_add_shop_tree_desert_plum = Ora i susini sono disponibili al negozio.
+	notify_add_shop_tree_swamp_palm = Ora i banani sono disponibili al negozio.
+	notify_add_shop_tree_swamp_apple = Ora i meli sono disponibili al negozio.
+	notify_add_shop_tree_swamp_cherry = Ora i ciliegi sono disponibili al negozio.
+	notify_add_shop_tree_swamp_plum = Ora i susini sono disponibili al negozio.
+
+	notify_add_shop_patent_for_tulip = Ora puoi fare un ordine di bulbi di tulipani al negozio.
+	notify_add_shop_patent_for_dahlia = Ora puoi fare un ordine di bulbi di dalie al negozio.
+	notify_add_shop_patent_for_sunflower = Ora puoi fare un ordine di semi di girasoli al negozio.
+	notify_add_shop_patent_for_cucumber = Ora puoi fare un ordine di semi di cetrioli al negozio.
+	notify_add_shop_patent_for_tomato = Ora puoi fare un ordine di semi di pomodori al negozio.
+	notify_add_shop_patent_for_aubergine = Ora puoi fare un ordine di semi di melanzane al negozio.
+	notify_add_shop_patent_for_pepper = Ora puoi fare un ordine di semi di peperoni al negozio.
+	notify_add_shop_patent_for_watermelon = Ora puoi fare un ordine di semi di angurie al negozio.
+	notify_add_shop_patent_for_hangar_flowers = Ora puoi richiedere un permesso di costruzione e ordinare i materiali per la serra.
+	notify_add_shop_patent_for_beehive = Ora puoi fare un ordine di alveari al negozio.
+	notify_add_shop_patent_for_cabbage = Ora puoi fare un ordine di semi di cavoli al negozio.
+	notify_add_shop_patent_for_beetroot = Ora puoi fare un ordine di semi di barbabietole al negozio.
+	notify_add_shop_patent_for_carrot = Ora puoi fare un ordine di semi di carote al negozio.
+	notify_add_shop_patent_for_house_pig = Ora puoi fare un ordine per un recinto per maiali al negozio.
+	notify_add_shop_patent_for_corn = Ora puoi fare un ordine di semi di mais al negozio.
+	notify_add_shop_patent_for_mushroom = Ora puoi fare un ordine di spore di funghi al negozio.
+	notify_add_shop_patent_for_strawberries = Ora puoi fare un ordine di semi di fragole al negozio.
+	notify_add_shop_patent_for_pumpkin = Ora puoi fare un ordine di semi di zucche al negozio.
+	notify_add_shop_patent_for_radish = Ora puoi fare un ordine di semi di rapanelli al negozio.
+	
+	notify_add_shop_hangar_vegetables = Ora i granai sono disponibili al negozio.
+	notify_add_shop_hangar_flowers = Ora le serre sono disponibili al negozio.
+	notify_add_shop_hangar_refrigerator = Ora i magazzini refrigerati sono disponibili al negozio.
+	notify_add_shop_patent_for_house_chicken = Ora puoi richiedere un permesso di costruzione e ordinare i materiali per il pollaio.
+	notify_add_shop_patent_for_house_cow = Ora puoi richiedere un permesso di costruzione e ordinare i materiali per la stalla.
+	notify_add_shop_patent_for_house_pig = Ora puoi richiedere un permesso di costruzione e ordinare i materiali per il recinto dei maiali.
+ 	notify_add_shop_patent_for_house_sheep = Ora puoi richiedere un permesso di costruzione e ordinare i materiali per l'ovile.
+	notify_add_shop_patent_for_house_beehive = Ora puoi richiedere un permesso di costruzione e ordinare i materiali per l'alveare.
+	notify_add_shop_patent_for_hangar_flowers = Ora puoi richiedere un permesso di costruzione e ordinare i materiali per la serra.
+	notify_add_shop_patent_for_hangar_vegetables = Ora puoi richiedere un permesso di costruzione e ordinare i materiali per il granaio.
+	notify_add_shop_patent_for_hangar_refrigerator = Ora puoi richiedere un permesso di costruzione e ordinare i materiali per il magazzino refrigerato.
+	
+	notify_no_more_money = Non hai denaro a sufficienza per l'acquisto!
+	notify_you_cant_put = Non puoi metterlo qui!
+	notify_you_cant_storebox = Devi conservarlo altrove!
+	notify_store_in_hangar = Non puoi conservarlo qui! Mettilo nel granaio.
+	notify_store_in_fridge = Non puoi conservarlo qui! Mettilo nel magazzino refrigerato.
+	notify_store_in_flower = Non puoi conservarlo qui! Mettilo nella serra.
+	notify_box_nomore_full = La cassa non è ancora piena!
+	notify_only_for_this_type = Stai riempiendo questa cassa di %s. Non puoi metterci altri oggetti.
+	notify_box_full = La cassa è piena. Portala nel granaio!
+	
+	notify_cant_feed_house_sheep = Le pecore mangiano solo cavoli e carote.
+	notify_cant_feed_house_pig = I maiali mangiano solo barbabietole e pomodori.
+	notify_cant_feed_house_cow = Le mucche mangiano solo cavoli e carote.
+	notify_cant_feed_house_chicken = Le galline mangiano solo mais.
+	
+	message_complete_sell_plant_tomato = Ottimo, ordine di pomodori evaso!
+	message_complete_sell_plant_aubergine = Magnifico, ordine di melanzane evaso!
+	message_complete_sell_plant_pepper = Eccellente, ordine di peperoni evaso!
+	message_complete_sell_plant_cucumber = Fantastico, ordine di cetrioli evaso!
+	message_complete_sell_plant_dahlia = Splendido, ordine di dalie evaso!
+	message_complete_sell_plant_sunflower = Favoloso, ordine di girasoli evaso!
+	message_complete_sell_plant_tulip = Meraviglioso, ordine di tulipani evaso!
+	message_complete_sell_beehive = Ottimo, ordine di miele evaso!
+	message_complete_sell_plant_mushroom = Magnifico, ordine di funghi evaso!
+	message_complete_sell_plant_cabbage = Eccellente, ordine di cavoli evaso!
+	message_complete_sell_plant_watermelon = Fantastico, ordine di angurie evaso!
+	message_complete_sell_plant_beetroot = Splendido, ordine di barbabietole evaso!
+	message_complete_sell_house_pig = Favoloso, ordine di maiali evaso! 
+	message_complete_sell_plant_carrot = Meraviglioso, ordine di carote evaso!
+	message_complete_sell_plant_corn = Ottimo, ordine di mais evaso!
+	message_complete_sell_plant_pumpkin = Magnifico, ordine di zucche evaso!
+	message_complete_sell_plant_strawberries = Eccellente, ordine di fragole evaso! 
+	message_complete_sell_house_sheep = Fantastico, ordine di lana evaso! 
+	message_complete_sell_house_chicken = Splendido, ordine di uova evaso!
+	message_complete_sell_house_cow = Favoloso, ordine di latte evaso!
+	message_complete_sell_plant_for_radish = Meraviglioso, ordine di rapanelli evaso!
+	message_complete_sell_tree_apple = Ottimo, ordine di mele evaso!
+	message_complete_sell_tree_plum = Magnifico, ordine di susine evaso!
+	message_complete_sell_tree_cherry = Eccellente, ordine di ciliegie evaso!
+	message_complete_sell_tree_palm = Fantastico, ordine di banane evaso!
+	
+	l1_message_welcome = Eccoci alla fattoria! Impareremo a coltivare e mietere il raccolto.
+	l1_message_dig_one = Per iniziare, dobbiamo arare il suolo. Fai doppio clic in un punto libero del campo per scavare.
+	l1_message_dig_four = Bene! Ma una zolla non basta per un orto, quindi arane altre tre.
+	l1_message_dig_twelve = Ottimo! Nei prossimi livelli, dovrai arare molta più terra, ma per ora è sufficiente.
+	l1_message_plant_four = Adesso piantiamo i semi. Fai clic sul pacchetto di semi di zucche per prenderlo, poi fai clic sulle quattro zolle dell'orto per piantare i semi.
+	l1_message_wait_harvest = Grandioso! Ora aspetta che le zucche crescano e maturino. Puoi posare il pacchetto di semi facendo doppio clic in un punto libero del campo.
+	l1_message_water = Le piante richiedono cure e attenzioni costanti. Fai clic sull'annaffiatoio per prenderlo, riempilo d'acqua facendo clic sul pozzo, poi innaffia l'orto facendo clic sulle zolle da irrigare. 
+	l1_message_water_ok = Continua così! Le piante irrigate crescono più in fretta e possono essere colte prima, mentre quelle secche muoiono.
+	l1_message_dig_more = Per evitare di annoiarti, puoi arare altra terra e piantare i semi restanti.
+	l1_message_fruits_ready = Ok, è tutto maturo e pronto per il raccolto. Prendi la cassa e raccogli le verdure. Dopo quattro oggetti, la cassa è piena e puoi portarla nel granaio.
+	l1_message_box_tutorial = Ottimo! Ti servirà una nuova cassa per il prossimo raccolto. Per acquistarne una al negozio, fai clic sulla scheda Scorte nel menu in basso, poi fai clic sulla cassa e infine in un punto libero del campo.
+	l1_message_second_harvest = Il secondo raccolto è pronto! Metti i frutti del tuo lavoro nella nuova cassa e portali nel granaio.
+	l1_message_third_harvest = Il terzo raccolto è pronto! Per completare l'esercitazione, cogli tutto e porta la cassa nel granaio.
+	l1_message_fertilizer_tutorial = I fertilizzanti mantengono sane le tue piante e le fanno crescere più in fretta, quindi ricordati di usarli nell'orto. Puoi acquistarli al negozio accedendo alla scheda Scorte e facendo clic su una confezione.
+	l1_message_thirst_reminder = Ricorda che l'orto ha costantemente bisogno di acqua, quindi annaffialo regolarmente e fai attenzione al colore del terreno.
+	l1_message_victory = Complimenti! Ora conosci le basi dell'agricoltura, ma c'è molto altro da imparare!
+	
+	l1_task_1dig = Utilizzare la pala
+	l1_task_1dig_details = Fai doppio clic in un punto libero del campo per scavare e arare il suolo.
+	l1_task_4dig = Continuiamo l'esercizio!
+	l1_task_4dig_details = Scava e ara quattro zolle del campo.
+	l1_task_4plant = Piantare i semi
+	l1_task_4plant_details = Prendi il sacchetto di semi e pianta quattro zucche.
+	l1_task_4water = Usare l'annaffiatoio
+	l1_task_4water_details = Vai al pozzo a riempire l'annaffiatoio e bagna le zucche.
+	l1_task_3sell = Terminare l'esercizio
+	l1_task_3sell_details = Vendi tre casse di zucche per terminare l'esercitazione.
+	
+	
+	l2_task_sow = Iniziare a coltivare l'orto
+	l2_task_sow_details = Pianta 12 semi di rapanelli.
+	
+	l2_task_first_sell = Il tuo primo ordine
+	l2_task_first_sell_details = Abbiamo ricevuto un ordine di 3 casse di rapanelli e altrettante di zucche.
+	
+	l2_task_first_patent = Fare un ordine
+	l2_task_first_patent_details = Ordina dei semi di cetrioli.
+	
+	l2_task_second_sell = Il tuo secondo ordine
+	l2_task_second_sell_details = Abbiamo ricevuto un ordine di 2 casse di cetrioli, 4 casse di zucche e 3 casse di rapanelli.
+	
+	l2_task_second_patent = Fare un ordine
+	l2_task_second_patent_details = Ordina dei semi di melanzane. Sono rari da queste parti.
+	
+	l2_task_third_sell = Abbiamo ricevuto un altro ordine
+	l2_task_third_sell_details = Abbiamo ricevuto un ordine di una cassa di melanzane.
+	
+	l2_message_start = Ecco la prima fattoria. Non è all'avanguardia ed è piena di erbacce, ma ha un bel granaio robusto in cui immagazzinare il raccolto, oltre a tanta terra fertile. Una buona fattoria non ha bisogno d'altro!
+	l2_message_sow = Questa fattoria non viene usata da anni e ci sono erbacce ovunque. È un duro lavoro, ma qualcuno deve occuparsene, quindi rimboccati le maniche e datti da fare. Abbiamo dei semi di rapanelli e zucche: piantarli sarebbe un buon inizio.
+	l2_message_first_sell = Mentre piantavamo i semi, è passato il proprietario del negozio locale. Le nostre verdure gli sono piaciute e ha ordinato 3 casse di rapanelli e altrettante di zucche. 
+	l2_message_add_money = Hai completato il primo ordine, ottieni 200 monete.
+	l2_message_add_money_2 = Hai completato il secondo ordine, ottieni 300 monete.
+	l2_message_first_patent = La tua fattoria ha tutto il necessario e hai completato la prima missione, ma non puoi fermarti qui. Ordina delle piante di cetrioli nella scheda Piante, per coltivare queste deliziose verdure.
+	l2_message_second_sell = È venuto di nuovo il proprietario del negozio. Le nostre verdure gli sono piaciute e ci ha fatto una buona offerta per 3 casse di cetrioli, 5 casse di zucche e 6 casse di rapanelli. 
+	l2_message_second_patent = Al villaggio è arrivato un camion con tanti nuovi semi interessanti. Ora vende semi di melanzane, che non vengono coltivate da nessun altro. Non sarebbe fantastico se noi fossimo i primi a coltivarle?
+	l2_message_third_sell = Veramente, qualcun altro al villaggio ha comprato i semi di melanzane, quindi noi dovremo essere i primi a coltivarle e venderle, per mostrare a tutti chi è il miglior agricoltore del villaggio.
+	l2_message_victory = Fantastico! Tutti pensano che la tua fattoria sia la migliore del villaggio. Ti hanno nominato miglior agricoltore e molti vengono a chiederti un consiglio.
+	
+	l2_message_add_waterpump = Forse non è la cosa più importante per la fattoria, ma se impieghi molto tempo a fare avanti e indietro dal pozzo, puoi sempre scavarne un altro. Per i dettagli, vedi la scheda del negozio.
+	l2_message_add_big_watercan = Il tuo orto si sta ingrandendo ed è difficile gestirlo con un annaffiatoio così piccolo, ma puoi acquistarne uno più grande che annaffi 12 zolle alla volta. Fai clic sulla scheda Scorte per comprarlo.
+	l2_message_add_fivebox = Non è faticoso andare al negozio ogni volta che ti serve una nuova cassa? Abbiamo un'offerta speciale: una scorta di 5 casse!
+	l2_message_thirsty_need = Non trascurare le piante, altrimenti seccheranno e moriranno.
+	l2_fertilizer_help = Fertilizza spesso, in particolare quando appaiono i cuori, altrimenti le tue piante avvizziranno.
+	l2_help_help = Puoi leggere un riassunto delle attività facendo clic sul relativo elenco nella parte superiore dello schermo.
+	
+	l3_task_collect_batch_vegatables = Coltivare le verdure
+	l3_task_collect_batch_vegatables_details = Coltiva 4 casse di funghi e altrettante di cetrioli e melanzane.
+
+	l3_task_pig_alarm = Maiali e Co.
+	l3_task_pig_alarm_details = Abbiamo l'ordine di allevare e vendere 7 maiali.
+	
+	l3_message_pig_alarm = Ehilà! Sai, le tubazioni che portano acqua alla fabbrica sono esplose. Le hanno riparate, ma il terreno è fradicio e abbiamo perso le barbabietole. Ora non abbiamo nulla con cui nutrire i maiali e chi comprerebbe dei suini tanto emaciati? Qualcuno mi aveva perfino ordinato 7 maiali, ma ora non credo di potercela fare! Abbiamo saputo che sei giovane, hai talento e sei un tipo affidabile. Potresti aiutarci?
+	l3_message_task_collect_batch_vegatables = Dobbiamo coltivare pomodori per nutrire i maiali, ma prima dobbiamo guadagnare del denaro. Abbiamo ricevuto un ordine di 4 casse di funghi e altrettante di cetrioli e melanzane per il mercato locale.
+	l3_message_task_sell_pig = Finalmente al negozio sono disponibili i semi di pomodori (cfr. scheda Piante). Piantiamoli: quando saranno maturi, avremo un cibo adatto per i maiali.
+	l3_message_complete_sell_plant_mushroom = Magnifico, ordine di funghi evaso!
+	l3_message_complete_sell_plant_cucumber = Magnifico, ordine di cetrioli evaso!
+	l3_message_complete_sell_plant_aubergine = Ottimo, ordine di melanzane evaso!
+	l3_message_victory = Ce l'abbiamo fatta! E la fattoria è più splendida che mai!
+	l3_message_beetroot_help = Al negozio sono disponibili i semi di barbabietole (cfr. scheda Piante). I maiali le adorano e crescono più in fretta dei pomodori.
+	l3_message_pig_feed_help = Ora i nostri maiali mangiano felici, non ci resta che aspettare che i porcellini diventino grandi e grossi. L'indicatore alimentazione scende man mano che il maiale mangia e cresce. Se non ha cibo non cresce, quindi ricordati di nutrirlo.
+	l3_message_pig_sow_help = Il porcellino è cresciuto e pronto per essere venduto. Usa una cassa per portarlo al granaio.
+	l3_message_destructor_help = Se il terreno o il raccolto ti intralciano, ara il suolo con l'aratro rotativo.
+	l3_message_transporter_help	= Ora puoi noleggiare una gru al negozio. Usala per spostare gli edifici in un altro posto (cfr. la scheda Negozio).
+	l3_message_water_sprinkler_help	= Gli irrigatori sono disponibili al negozio! Sono convenienti: mettine uno accanto all'orto e non dovrai più annaffiare le piante manualmente, ma tieni a mente che ha una portata limitata.
+	l3_message_add_house_pig = Per completare l'ordine più in fretta, puoi costruire un altro recinto, ma prima devi chiedere la licenza di costruzione. Quando avrai pagato il permesso, otterrai 500 monete per costruire un recinto per maiali.
+	
+	l3_message_have_700money = Hai guadagnato 700 monete. Puoi chiedere la licenza per costruire il recinto per i maiali e raggiungere l'obiettivo in meno tempo.
+	l3_message_add_500money = Hai guadagnato 500 monete.
+	
+	l4_task_big_cooler = Riparo nella foresta
+	l4_task_big_cooler_details = Per salvare il villaggio, dobbiamo comprare e piantare altri 6 alberi!
+	l4_task_place_house_chicken = Pollaio
+	l4_task_place_house_chicken_details = Devi costruire un pollaio.
+	l4_task_place_hangar_refrigerator = Sangue freddo
+	l4_task_place_hangar_refrigerator_details = Devi acquistare un magazzino refrigerato.
+	
+	l4_message_big_cooler = La fabbrica in fondo alla strada ha sperimentato una ventola gigante, spazzando via il raccolto locale. Dobbiamo piantare degli alberi per proteggere il villaggio e il raccolto dal vento distruttivo generato da quell'orribile fabbrica. Ne abbiamo già piantati alcuni, ma ne servono molti altri!
+	l4_message_first_task = Dobbiamo piantare altri 6 alberi, ma non possiamo permetterceli. Non guadagniamo molto con le verdure e il recinto dei maiali è rotto e non ci ricaviamo molto. Però potremmo tenere delle galline: mangiano molto, ma possiamo comprare un pollaio e vendere le uova per aumentare i profitti. Ovviamente ci serve una licenza avicola, ma gli abitanti del posto hanno promesso di aiutarci a pagarla.
+	l4_message_place_patent_for_house_chicken = Abbiamo il permesso di costruzione del pollaio e la licenza per avviare i lavori. Come promesso, gli abitanti ti hanno dato 500 monete per coprire le spese.
+	l4_message_second_task = Ok, ora abbiamo un pollaio, ma purtroppo non possiamo conservare le uova nel granaio: dovremo costruire un magazzino refrigerato. Servirà un altro permesso di costruzione, ma gli abitanti hanno accettato di finanziare i lavori.
+	l4_message_place_patent_for_hangar_refrigerator = Ottimo! Abbiamo il permesso di costruzione, possiamo iniziare i lavori e gli abitanti del villaggio ci hanno dato 500 monete.
+	l4_message_last_task = Fantastico! Ora abbiamo delle entrate regolari. Finché continueremo a dare il mais alle galline, le loro uova saranno una buona fonte di reddito. Ora possiamo concentrarci sul salvataggio del paese. Dobbiamo comprare e piantare altri 3 meli e 3 susini.
+	l4_message_trees_help = Gli alberi non richiedono acqua o fertilizzante e producono molta frutta. Ricordati di raccoglierla.
+	l4_message_pig_help = Nel giardino di fronte al recinto dei maiali ci sono le barbabietole, adorate dai maiali quanto i pomodori ma dalla crescita più rapida.
+	l4_message_victory = Grazie! Ora che abbiamo piantato tutti questi alberi, la fattoria è salva e abbiamo un'altra fonte di reddito stabile!
+	l4_message_hangar_refrigerator_help = Il nostro primo magazzino refrigerato. Qui conserveremo cibi deperibili come uova, latte e miele.
+	
+	l4_message_harvester_help = E guarda il nostro primo aiutante, Billy! Ha accettato di raccogliere frutta e verdura dietro modesto compenso. Fai clic su di lui per pagarlo e metterlo all'opera. Dal tuo conto verranno prelevate automaticamente cento monete.
+	l4_message_harvester_money_help = Billy ha smesso di lavorare e c'è una moneta sopra la sua testa. Significa che è giorno di paga: quando l'avrai pagato, tornerà al lavoro.
+	l4_message_harvester_question_help = Sulla testa dell'aiutante è comparso un punto di domanda: significa che Billy non sa cosa fare. Succede, quando non ha nulla da raccogliere. Aspetta che ci sia qualcosa da raccogliere.
+	l4_message_transporter_help	= Ora puoi noleggiare una gru al negozio. Usala per spostare gli edifici e gli alberi in un altro posto. Seleziona la gru, fai clic sull'elemento da spostare, quindi sulla nuova destinazione. Ogni utilizzo di questo servizio costa 10 monete!
+	
+	l5_task_flowers_garden = Fiori in vendita
+	l5_task_flowers_garden_details = Inizia a vendere fiori.
+	l5_task_buy_hangar_flowers = Nuovi magazzini
+	l5_task_buy_hangar_flowers_details = Compra una serra per conservare i fiori.
+	l5_task_sell_batch_flowers = Raccogli dei fiori
+	l5_task_sell_batch_flowers_details = Completa un ordine di 6 casse di girasoli e altrettante di dalie.
+	l5_task_buy_flowers_patent = Acquista una licenza di floricoltura
+	l5_task_buy_flowers_patent_details = Ordina semi di girasole e bulbi di dalie.
+	l5_task_flowers_sow = Pianta i fiori
+	l5_task_flowers_sow_details = Pianta 12 semi di girasoli e 12 bulbi di dalia.
+	
+	l5_message_about_tasks = La fabbrica locale ha costruito una diga per avere un bacino idrico nei pressi del villaggio, così il terreno è fradicio. Il raccolto versa in pessime condizioni e restano solo il recinto dei maiali, la stalla delle mucche e il sistema di irrigazione. Stavamo per perdere la speranza, quando un forte vento ha portato alla fattoria dei semi rari. Venderanno bene al mercato, ma avvizziranno prima di poterli vendere. Ci serve un magazzino adeguato.
+	l5_message_first_task = Questi fiori vanno tenuti in una serra speciale ma, prima di poterla costruire, ci servono il permesso di costruzione e la licenza di vendita. Quando avremo la serra, cogliere e conservare i fiori non sarà più un problema.
+	l5_message_second_task = Ottimo! Ora possiamo cogliere e conservare fiori. Raccogline alcuni e scopriamo se c'è una buona richiesta al mercato.
+	l5_message_third_task = Le vendite dei fiori vanno bene. così abbiamo deciso di trasformare quest'area in un giardino. Dobbiamo ordinare dei semi, a quel punto potremo vendere un sacco di fiori.
+	l5_message_last_task = Abbiamo molti ordini. Dobbiamo piantare rapidamente un campo di girasoli e uno di dalie.
+
+	l5_message_add_water_sprinkler = Quando il negozio locale ha saputo che vendi fiori, ti ha detto di avere degli ottimi irrigatori che non ti faranno perdere tempo ad annaffiare manualmente.
+	l5_message_plant_dahlia = Ottimo, ordine di dalie evaso!
+	l5_message_plant_sunflower = Magnifico, ordine di girasoli evaso!
+	l5_message_plant_sunflower_help = Abbiamo notato che le galline adorano i semi di girasole, quindi puoi darglieli da mangiare.
+	l5_message_victory = Ora siamo i maggiori fornitori di fiori della regione! Grazie!
+	l5_task_second_victory = Guadagna denaro.
+	l5_task_second_victory_details = I fiori sono morti, ma non puoi fuggire ora. Devi guadagnare 5000 monete per bonificare il campo e riportare tutto alla normalità.
+		
+	l5_message_helper_help = Hai visto Johnny? Fertilizza fiori e piante, per il modesto salario di 100 monete.
+	
+	l5_notify_add_patent_for_flowers = Ora puoi ordinare semi di girasoli e bulbi di dalie. Per i dettagli, consulta le schede Semi e Piante.
+		
+	l5_message_dead_flower = I fiori sono morti, ma non puoi lasciare le cose a metà. Devi guadagnare 5000 monete per bonificare il campo e riportare tutto alla normalità.
+	l5_message_second_victory = I fiori sono morti, ma hai salvato gli alberi e hai guadagnato una somma sufficiente per un ulteriore sviluppo.
+		
+	l6_task_beehive_save = Salva l'alveare
+    l6_task_beehive_save_details = Ripristina le tradizioni apicole del villaggio. Vendi 4 casse di miele.
+    l6_task_collect_batch_vegatables = Vendi delle verdure
+    l6_task_collect_batch_vegatables_details = Vendi 6 casse di cetrioli e altrettante di pomodori, cavoli e peperoni.
+    l6_task_collect_batch_flowers = Vendi alcuni fiori rari
+    l6_task_collect_batch_flowers_details = Vendi 6 casse di girasoli e altrettante di dalie e tulipani.
+    
+    l6_message_hello_heroine = Salve! Una volta, il nostro villaggio era noto per il suo miele. Avevamo moltissimi alveari, ma negli ultimi anni il settore è in declino e i dolci giorni del villaggio sono ormai solo un ricordo. Molti di noi tenevano vive le tradizioni, ma la fabbrica di dolciumi ci ha mandato in rovina. Ci aiuterai a ripristinare gli alveari e le tradizioni? Abbiamo solo qualche sacco di semi e degli alberi accanto al granaio. Speriamo che siano sufficienti per iniziare. Buona fortuna!
+    l6_message_about_tasks = Per aiutare il villaggio, devi ripristinare gli alveari, ma non sarà così facile. Per iniziare, dovrai attirare dei fornitori. Cominceremo guadagnando del denaro coltivando verdure nell'orto!
+    l6_message_first_task = Per attirare clienti importanti e ordinare nuovi oggetti al negozio locale, dovremo vendere 6 casse di cetrioli e altrettante di pomodori, cavoli e peperoni.
+    l6_message_second_task = Ora dobbiamo attirare gli imprenditori. Per riuscirci, piantiamo dei fiori rari. Vendi 6 casse di girasoli e altrettante di dalie e tulipani.
+    l6_message_main_task = Ora possiamo permetterci gli alveari. È il momento giusto per vendere il miele raro che produciamo, in modo da attirare clienti e riportare il villaggio all'antico benessere. Vendi 4 casse di miele.
+    l6_message_see_pedicellates_patents = I semi di peperoni e cavoli non sono disponibili al negozio. Dovrai ordinarli e pagare al negozio i costi di spedizione.
+
+	l6_message_help_hangar_flowers = Se tieni i fiori nella serra, impiegheranno molto tempo ad appassire. Qui puoi conservare anche angurie e fragole.
+    l6_message_help_hangar_refrigerator = Nel magazzino refrigerato puoi conservare merci deperibili come latte, uova e miele.
+    l6_message_help_beehive = Dato che le api hanno bisogno di nettare, non sarebbe opportuno piantare dei fiori vicino all'alveare? Ma ricordati di annaffiarli.
+	l6_message_add_hangar_refrigerator = Se a casa conservi il latte in frigo, non sarebbe opportuno tenere latte, uova e miele in un magazzino refrigerato? Ora i magazzini refrigerati sono disponibili al negozio.
+	
+    l6_message_victory = Complimenti! Il tuo miele delizioso ha riportato il villaggio alla gloria passata e la qualità della vita è decisamente migliore!
+
+	l7_task_contest0 = Modulo di iscrizione
+	l7_task_contest0_details = Per pagare l'iscrizione, devi guadagnare 200 monete.
+	l7_task_contest1 = Round di qualificazione
+	l7_task_contest1_details = Per dimostrare le tue abilità agricole, devi portare ai giudici 7 casse di cetrioli e altrettante di rapanelli e zucche.
+	l7_task_contest2 = Primo round
+	l7_task_contest2_details = Per vincere questa sfida, serve una grande fattoria. Pianta pomodori, barbabietole, melanzane e mais e portane una cassa ciascuno ai giudici.
+	l7_task_contest3 = Controllo qualità
+	l7_task_contest3_details = Porta ai giudici 2 casse di pomodori e altrettante di barbabietole, melanzane e zucche.
+	l7_task_contest4 = Allevamento
+	l7_task_contest4_details = Per completare questo round, devi portare ai giudici 3 maiali e 3 casse di uova.
+	l7_task_contest5 = Frutteto
+	l7_task_contest5_details = Per completare questo round, devi piantare 3 meli, 3 susini e 3 ciliegi.
+	l7_task_contest6 = Nel nome della scienza
+	l7_task_contest6_details = Ai giudici piace così tanto la nostra frutta che ci hanno chiesto 2 casse di mele e altrettante di susine e ciliegie.
+	l7_task_contest7 = Potere dei fiori
+	l7_task_contest7_details = Mostra le tue abilità nell'orticoltura. Compra una serra e porta ai giudici 6 casse di dalie e altrettante di girasoli e tulipani.
+	l7_task_contest8 = Non è dolcissimo?
+	l7_task_contest8_details = Procurati un alveare e porta ai giudici 7 casse di miele.
+	l7_task_contest9 = Nuovo round, nuove abilità
+	l7_task_contest9_details = Ordina e costruisci almeno una stalla per le mucche.
+	l7_task_contest10 = Bianco latte
+	l7_task_contest10_details = Porta ai giudici 10 casse di latte ricco di vitamine.
+	l7_task_contest11 = Fattoria e affari
+	l7_task_contest11_details = I giudici vogliono metterti alla prova. Dobbiamo guadagnare 1500 monete per dimostrare che la nostra fattoria è redditizia.
+	l7_task_contest12 = Verdure da premiare
+	l7_task_contest12_details = Pianta 4 campi di frutta e verdura esotica (funghi, peperoni, angurie e fragole). Ogni campo deve contenere 12 piante e avere un livello di salute pari a 5 cuori!
+
+	l7_message_hello = La fiera della contea si avvicina e ci sono in palio 100.000 monete. Quei soldi servirebbero ad aiutare le fattorie che faticano a restare a galla. I contadini del villaggio partecipano ogni anno, ma non vincono da due generazioni. Però tutti pensano che tu abbia buone possibilità.
+	l7_message_about_tasks = Ecco le regole della sfida: ogni contadino inizia con un piccolo campo completo di un granaio, un melo e un sacco di semi. Al termine della gara, vince il fattore con la fattoria migliore! In caso di vincita, potrai usare il premio per acquistare altre attrezzature e magari assumere degli aiutanti. Inoltre, sarebbe una vittoria morale per tutto il villaggio!
+	l7_message_first_task = Ma prima devi compilare il modulo e pagare la quota di iscrizione di 200 monete, che puoi guadagnare con le risorse attuali. All'inizio della gara, a tutti i partecipanti verranno date 30 monete per le scorte.
+	l7_message_second_task = Ora i giudici controlleranno la fattoria per vedere se siamo pronti. Dovrai portare loro 7 casse di vari prodotti. Per fortuna, hanno chiesto 7 casse di cetrioli e altrettante di rapanelli e zucche, che crescono molto bene in questa zona!
+	l7_message_third_task = La sfida è iniziata. L'evento comprende diverse fasi, in ciascuna delle quali i giudici distribuiranno nuovi semi o altri oggetti per le varie attività. Nella prima fase, è importante far crescere più tipi di piante possibile, quindi piantiamo pomodori, mais, melanzane e barbabietole. Questi semi sono disponibili al negozio.
+	l7_message_fourth_task = Ora devi portare ai giudici una cassa di ogni verdura, in modo che possano verificarle, pesarle e assaggiarle.
+	l7_message_fifth_task = Ottimo! Abbiamo avuto accesso al secondo round, dove metteranno alla prova le nostre capacità di allevamento. Alleviamo 3 maiali e portiamo 3 casse di uova. Un recinto per maiali, un pollaio e un magazzino refrigerato saranno disponibili al negozio. Ci hanno perfino dato 500 monete per le strutture che ci serviranno per accedere al round successivo.
+	l7_message_sixth_task = Tutti sanno che gli alberi fanno bene al terreno, oltre a essere una gioia per gli occhi. I giudici ci chiedono di piantare 3 meli, 3 susini e 3 ciliegi.
+	l7_message_seventh_task = La frutta sugli alberi è così attraente che uno dei giudici ci prega di dargli due casse di mele e altrettante di susini e ciliegie da provare. Gli sono piaciute così tanto che vuole mandarle alla scuola di agricoltura locale in modo che tutti possano imparare il nostro segreto. Speriamo che la nostra frutta arrivi alla scuola e non finisca nella pancia dei giudici.
+	l7_message_eighth_task = Ogni anno, questa gara ha una componente floreale e quest'anno non fa eccezione. Semi e serre sono già disponibili al negozio.
+	l7_message_ninth_task = Dove ci sono fiori ci sono api e dove ci sono api c'è miele. Hai indovinato: l'ultimo livello della gara riguarda l'apicoltura! Dovrai portare ai giudici 7 casse del tuo delizioso miele.
+	l7_message_tenth_task = Ho delle novità. Quest'anno è stata aggiunta una sfida per il miglior latte, ma da tempo nessuno di noi alleva delle mucche. Dovremo ordinare almeno una stalla per le mucche.
+	l7_message_eleventh_task = Secondo il regolamento, il latte dev'essere delizioso e ricco di vitamine, quindi devi nutrire le mucche con verdure invece di erba, per arricchire il loro latte di vitamine. Le mucche mangiano carote e cavoli. Il loro latte va conservato nel magazzino refrigerato. Dobbiamo consegnare ai giudici 10 casse di bottiglie di latte.
+	l7_message_twelfth_task = Dobbiamo dimostrare che questa fattoria è redditizia guadagnando 1500 monete per dimostrare che è un'attività produttiva.
+	l7_message_thirteenth_task = Abbiamo completato tutti i livelli della sfida. Ora i giudici valuteranno peso e sapore delle nostre verdure, oltre all'estetica e al successo della fattoria, ma abbiamo ancora un po' di tempo per migliorarla, quindi piantiamo 4 campi di frutta e verdura esotica e fertilizziamo tutto abbondantemente per avere un livello salute di 5 cuori. Non raccogliere nulla: i giudici devono vedere come crescono in fretta la frutta e la verdura rara alla nostra fattoria. Ne rimarranno colpiti e la vittoria sarà nostra. Semi di angurie, peperoni e fragole, oltre alle spore dei funghi, sono disponibili al negozio.
+	
+	l7_message_add_harvester = Secondo il regolamento, possiamo assumere degli aiutanti. Pensi che dovremmo sfruttare questa opportunità?
+	l7_message_victory = Complimenti! Secondo i giudici, la nostra fattoria è la più bella e la più produttiva. Appena hanno visto il campo di frutta e verdura esotica matura, hanno accantonato ogni dubbio. Ora che il premio è nostro, potremo dare nuova vita all'agricoltura della regione. Tre urrà per il miglior agricoltore!
+	l7_message_watermelon_help = Le angurie vanno conservate in un magazzino refrigerato.
+	l7_message_strawberries_help = Le fragole vanno conservate in un magazzino refrigerato.
+
+	l8_task_first_task = Aiuta il vicino
+	l8_task_first_task_details = Guadagna 300 monete e aiuta il vecchio Jones ad affittare un nuovo negozio.
+	l8_task_second_task = Effettuare nuovi ordini
+	l8_task_second_task_details = Effettua ordini di semi di melanzane, mais e carote.
+	l8_task_third_task = Melanzane, che passione
+	l8_task_third_task_details = Raccogli 20 casse di melanzane per l'uomo che ci vende gli alberi.
+	l8_task_fourth_task = Nuove costruzioni
+	l8_task_fourth_task_details = Ordina e acquista i permessi di costruzione di stalle, ovili, pollai e alveari.
+	l8_task_fifth_task = Nuovo magazzino
+	l8_task_fifth_task_details = Ordina granai e magazzini refrigerati.
+	l8_task_sixth_task = Campagna pubblicitaria
+	l8_task_sixth_task_details = Compra un pollaio, una stalla e un ovile.
+	l8_task_seventh_task = Potere dei fiori
+	l8_task_seventh_task_details = Vendi 7 casse di girasoli, 7 di dalie e 3 di miele.
+	l8_task_eighth_task = Il ritorno dei tulipani
+	l8_task_eighth_task_details = Ordina dei bulbi di tulipani.
+	l8_task_ninth_task = Giardino modello
+	l8_task_ninth_task_details = Piazza 8 irrigatori e assumi 4 giardinieri.
+	l8_task_tenth_task  = Rifornitore esterno
+	l8_task_tenth_task_details = Pianta 12 angurie, 12 semi di fragole, 12 spore di funghi e 12 semi di peperoni.
+	l8_task_eleventh_task = Risparmi
+	l8_task_eleventh_task_details = Guadagna 800 monete per coprire eventuali costi imprevisti futuri.
+
+	l8_message_hello = Pessime notizie dal negozio fornitore: hanno esaurito il materiale come semi, alberi o bestiame. I proprietari sono dispiaciuti, ma non possono aiutarci. Senza semi, i nostri sogni di ridare vita all'agricoltura nell'area si infrangeranno. Dobbiamo fare qualcosa.
+	l8_message_about_tasks = Abbiamo incontrato uno dei precedenti fornitori. Il vecchio Jones è simpatico e dice di aver dovuto annullare tutte le spedizioni perché il direttore della fabbrica è andato al negozio e gli ha intimato di stracciare i contratti con le fattorie locali. Jones sostiene che, se avesse rifiutato, il direttore gli avrebbe fatto chiudere il negozio e l'avrebbe sbattuto in mezzo a una strada. Ha dovuto accettare perché non ha soldi per affittare un nuovo negozio.
+	l8_message_first_task = Sarebbe utile sapere se il direttore della fabbrica ha minacciato tutti i fornitori dell'area, ma possiamo fare un accordo con il vecchio Jones. Gli servono 300 monete per affittare un nuovo negozio. Se l'aiutiamo, probabilmente evaderà il nostro ordine di semi e potremo comprare qualche seme di barbabietola, cetriolo e zucca.
+	l8_message_second_task = Il vecchio Jones ci è molto grato: ha affittato un nuovo negozio a sole 200 monete e ce ne ha restituite 100. Inoltre, ci ha detto di aver inviato una lettera a un amico che gestisce un negozio di giardinaggio in un'altra città. Ci invierà dei semi al vecchio prezzo. Non dobbiamo fare altro che ordinarli e lui ci consegnerà semi di melanzane, mais e carote.
+	l8_message_third_task = Il vecchio Jones ha un altro amico che può consegnare degli alberi. Secondo Jones, va pazzo per le melanzane, che non si trovano più dal fruttivendolo. Scherzando, dice che rinuncerebbe a 100 alberi in cambio di una melanzana, ma in ogni scherzo c'è un pizzico di verità. Se gli offriamo 20 casse di melanzane, non potrà rifiutare di venderci gli alberi.
+	l8_message_fourth_task = Quando i tizi della segheria hanno saputo che nessuno ci vende le strutture, hanno deciso di prendere in mano la faccenda. Hanno costruito un recinto per maiali uguale a quelli che ricevevamo dalla città. Hanno il permesso di costruire solo recinti per maiali, ma se facciamo qualche ordine e richiediamo altri permessi, sono disposti a fabbricarci stalle, ovili, pollai e alveari.
+	l8_message_fifth_task = Come faremo senza un magazzino? Procuriamoci i permessi di costruzione e richiediamo un granaio e un magazzino refrigerato.
+	l8_message_sixth_task = Devi aiutare i falegnami a pubblicizzare la nuova attività facendogli costruire un pollaio, una stalla e un ovile.
+	l8_message_seventh_task = Un fornitore di semi di un'altra città ha saputo della nostra fattoria da un amico. Fornisce semi di fiori e ci ha subito dato dei bulbi di dalie e dei semi di girasoli, oltre a una serra costruita dal negoziante stesso. Non dobbiamo nemmeno ordinare questi semi e bulbi, tuttavia lui vende i suoi amati tulipani solo a chi ha dimostrato di sapersi prendere cura dei fiori, quindi devi dimostrargli la tua abilità portandogli 7 casse di girasoli e altrettante di dalie. Ma non è tutto: a quanto pare, ha un debole per il miele, quindi addolciamolo portandogliene 5 casse.
+	l8_message_eighth_task = Il fornitore è rimasto colpito dai nostri fiori e ha accettato di fornirci i bulbi dei suoi amati tulipani. Non ci resta che effettuare l'ordine.
+	l8_message_ninth_task = Siamo riusciti a trovare nuovi fornitori quasi per tutto, tranne per la frutta e la verdura esotica, ma forse abbiamo fortuna: un fornitore straniero che tratta frutta e verdura è arrivato in città ieri. L'unico problema è che i suoi clienti devono rispettare degli standard piuttosto severi. Venderà i semi e le piante solo a fattorie ben attrezzate e posizionate in modo da curare al meglio la frutta e la verdura. Per soddisfare questi requisiti dobbiamo avere 8 irrigatori e 4 giardinieri.
+	l8_message_tenth_task = Oltre ai semi esotici, il fornitore straniero ha accettato di spedirci gli altri semi che non siamo riusciti a trovare. Piantiamo qualche seme e vediamo come si adattano al nostro ambiente.
+	l8_message_eleventh_task = Dobbiamo risparmiare denaro per le spese impreviste. Ottocento monete farebbero miracoli in caso di difficoltà.
+	
+	l8_message_victory = Ottimo! Abbiamo sventato ogni minaccia alla fattoria, trovando dei fornitori per tutto quello che ci serve. Ora anche i più scettici sono convinti che vinceremo!
+	l8_message_sheep_help = Il nostro nuovo fornitore ci offre delle pecore. Secondo gli studi più recenti, quando le pecore mangiano cavoli e carote, la loro lana è più bella e resistente.
+	
+	l9_task_first_task = Pagare il mutuo
+	l9_task_first_task_details = Devi guadagnare 10.000 monete.
+
+	l9_message_hello = Qualche anno fa, abbiamo commesso un grosso errore. All'apertura della AgroBank, molti contadini hanno contratto ingenti prestiti per migliorare le terre e aggiornare le attrezzature. Promettevano condizioni favorevoli e speravamo in bene, ma siamo contadini, non avvocati e non abbiamo letto le clausole in caratteri minuscoli. Per questo, ora molte fattorie devono un sacco di soldi alla banca.
+	l9_message_about_tasks = AgroBank ha chiesto alle fattorie di pagare in fretta i mutui, altrimenti le farà chiudere. Dobbiamo guadagnare 10.000 monete per salvare le fattorie e sbarazzarci per sempre della AgroBank.
+	l9_message_victory = '9998, 9999, 10.000. Sì, ci sono tutti. Ecco la ricevuta che attesta il saldo del mutuo. Buona giornata.' ha sibilato l'impiegato della AgroBank. Hai salvato le fattorie!
+	
+	l10_task_first_task = Siccità
+	l10_task_first_task_details = Impedisci alle piante di avvizzire e morire in attesa dei nuovi irrigatori (10 minuti).
+	l10_task_second_task = Opere idriche
+	l10_task_second_task_details = Installa 5 irrigatori.
+	l10_task_third_task = Ripristino orticolo
+	l10_task_third_task_details = Pianta 24 zolle di mais, 24 di cavoli, 24 di carote e 12 di barbabietole.
+	l10_task_fourth_task = Nuove migliorie
+ 	l10_task_fourth_task_details = Assumi 3 giardinieri
+	l10_task_fifth_task = Diversità
+	l10_task_fifth_task_details = Pianta 4 banani.
+	l10_task_sixth_task = Diverbio per il terreno
+	l10_task_sixth_task_details = Guadagna 1200 monete.
+	
+	l10_task_alt_second_task = Ripristino orticolo
+	l10_task_alt_second_task_details = Pianta 12 barbabietole, 12 zucche, 12 rapanelli e 12 cetrioli.
+	l10_task_alt_third_task = Nuove migliorie
+	l10_task_alt_third_task_details = Installa 4 irrigatori.
+	l10_task_alt_fourth_task = Animali produttivi
+	l10_task_alt_fourth_task_details = Vendi 2 maiali, 2 casse di uova, 2 di latte e 2 di lana.
+	l10_task_alt_fifth_task = Diversità
+	l10_task_alt_fifth_task_details = Pianta 4 banani, 3 ciliegi e 2 susini.
+	l10_task_alt_sixth_task = Diverbio per il terreno
+	l10_task_alt_sixth_task_details = Guadagna 1200 monete.
+	
+	l10_message_hello = È bello averti qui. Guarda cos'è successo: questo terreno si è tramutato in un deserto. Il nostro campo modello sta seccando. Non c'è mai stata una siccità simile nella nostra zona e i negozi non tengono gli irrigatori. I fornitori ne hanno ordinati, ma non sanno quando verranno consegnati.
+	l10_message_about_tasks = Dobbiamo salvare terreno e raccolto. Gli scavatori di pozzi e i fornitori di irrigatori dovrebbero essere disponibili a breve. Nel frattempo, continua ad annaffiare il raccolto e guadagna un po' di denaro per poterli pagare quando arriveranno. Una volta installati gli irrigatori, sarà tutto a posto.
+	l10_message_first_task = Gli scavatori e le scorte sono in viaggio, ma non possiamo lasciar morire l'orto. Continua ad annaffiare le piante fino all'arrivo di un aiuto a lungo termine.
+	l10_message_second_task = Ottimo! Ora possiamo annaffiare automaticamente, ma dobbiamo assicurarci che gli irrigatori raggiungano tutte le piante. Pare che dovremo installarne almeno 5.
+	l10_message_third_task = Prima del tuo arrivo, tutte le nostre piante sono seccate e non avevamo cibo per gli animali. I fornitori di irrigatori hanno tutti i semi che ci servono, ma dovremo pagare una tariffa di spedizione. A quel punto, potremo piantare 24 zolle di mais, 24 di cavoli, 24 di carote e 12 di barbabietole.
+	l10_message_fourth_task = Magnifico! Ora potremo nutrire gli animali e incrementare i profitti. Purtroppo, a causa della siccità i raccolti della fattoria sono meno abbondanti. Probabilmente dovremo assumere almeno 3 giardinieri per fertilizzare ogni zolla. Le verdure cresceranno più in fretta e la produzione incrementata ridonerà prestigio alla fattoria.
+	l10_message_fifth_task = Straordinario! Hai salvato la fattoria e le hai ridonato la gloria passata. Ci hanno offerto nuovi alberi esotici. La diversificazione con l'aggiunta di nuovi alberi è un buon investimento per il futuro. Pianta 4 banani.
+	l10_message_sixth_task = Ottimo lavoro! La fattoria è sopravvissuta alla siccità, ma ora c'è un problema territoriale. L'amministrazione locale ha notato che la fattoria era deserta e ha offerto la terra alla fabbrica vicina, per permetterle di espandersi. Sulla fattoria c'è un mutuo trentennale, quindi è contro la legge. Devi assumere un avvocato e portare la questione in tribunale. Purtroppo, i bravi avvocati sono costosi. Guadagna 1200 monete per assumere il miglior avvocato sulla piazza e vincere la causa.
+	
+	l10_message_alt_second_task = È terribile! Abbiamo perso parte del raccolto. Dobbiamo sistemare l'orto e rimettere in sesto la fattoria. Il negoziante ha saputo del nostro problema e ci ha consigliato l'acquisto di speciali semi ibridi che sopravvivono alla siccità. Dovremo compilare qualche altro modulo d'ordine, ma ne vale la pena. Anche la fattoria vicina ha sentito dei nostri guai e ci ha prestato 680 monete. Dovrai sostituire le piante morte con 12 barbabietole, 12 zucche, 12 rapanelli e 12 cetrioli.
+	l10_message_alt_third_task = Abbiamo i nuovi semi ibridi, ma la siccità non è finita. Per evitare il peggio dobbiamo installare almeno 4 irrigatori. Ora è anche possibile assumere dei giardinieri.
+	l10_message_alt_fourth_task = Ora che i campi sono in buone condizioni, possiamo dedicarci al bestiame, che negli ultimi giorni ha patito la fame. Piantiamo delle verdure per nutrire gli animali, poi vendiamo 2 maiali, 2 casse di uova, 2 di latte e 2 di lana.
+	l10_message_alt_fifth_task = I semi che abbiamo comprato attecchirebbero anche nel deserto, ma è sempre meglio diversificare le attività. I fornitori ci hanno consigliato l'acquisto di alberi esotici, adatti ai climi secchi. Pianta 4 banani, 3 ciliegi e 2 susini.
+	l10_message_alt_sixth_task = La fattoria è sopravvissuta alla siccità, ma ora c'è un problema territoriale. L'amministrazione locale ha notato che la fattoria era deserta e ha offerto la terra alla fabbrica vicina, per permetterle di espandersi. Sulla fattoria c'è un mutuo trentennale, quindi è contro la legge. Devi assumere un avvocato e portare la questione in tribunale. Purtroppo, i bravi avvocati sono costosi. Guadagna 1200 monete per assumere il miglior avvocato sulla piazza e vincere la causa.
+	
+	l10_message_harvester = Dovremmo assumere un aiutante per raccogliere frutta e verdura e aiutarci a guadagnare i soldi per gli irrigatori mentre noi annaffiamo le piante.
+	l10_message_add_water_sprinkler = Gli irrigatori sono disponibili al negozio.
+	
+	l11_task_first_task = Prima attività
+	l11_task_first_task_details = Vendi 1 cassa di barbabietole, 1 cassa di pomodori e 5 maiali; assumi un raccoglitore.
+	l11_task_second_task = Seconda attività
+	l11_task_second_task_details = Vendi 1 cassa di melanzane, costruisci un magazzino refrigerato, assumi un giardiniere e installa 2 irrigatori.
+	l11_task_third_task = Terza attività
+	l11_task_third_task_details = Vendi 1 cassa di rapanelli e 5 casse di uova; assumi un giardiniere e un raccoglitore.
+	l11_task_fourth_task = Quarta attività
+ 	l11_task_fourth_task_details = Vendi 1 cassa di girasoli e 1 cassa di dalie; costruisci una serra e un alveare.
+	l11_task_fifth_task = Quinta attività
+	l11_task_fifth_task_details = Vendi 1 cassa di carote, 1 cassa di cavoli e 5 casse di latte; assumi un raccoglitore.
+	l11_task_sixth_task = Sesta attività
+	l11_task_sixth_task_details = Vendi 5 casse di funghi e 5 casse di miele, assumi un giardiniere e installa 6 irrigatori.
+	l11_task_seventh_task = Settima attività
+	l11_task_seventh_task_details = Vendi 5 casse di tulipani, 3 casse di zucche e 3 casse di cetrioli; costruisci un ovile.
+	l11_task_eighth_task = Ottava attività
+	l11_task_eighth_task_details = Vendi 4 casse di fragole e 4 casse di angurie; assumi un giardiniere e un raccoglitore.
+	l11_task_ninth_task = Nona attività
+	l11_task_ninth_task_details = Vendi 1 cassa di lana, pianta 1 melo e 1 ciliegio, installa 2 irrigatori.
+	l11_task_tenth_task  = Decima attività
+	l11_task_tenth_task_details = Vendi 5 casse di peperoni, costruisci un pollaio, un ovile e una stalla.
+	l11_task_eleventh_task = Undicesima attività
+	l11_task_eleventh_task_details = Pianta 1 susino e 1 banano; guadagna 800 monete.
+	
+	l11_message_hello = Potenziamo l'agricoltura! Dobbiamo costruire una fattoria conforme a tutti i nuovi standard. Tutte le altre fattorie nella regione hanno seguito il tuo esempio e si espandono per aumentare i profitti. Grazie a te, la regione è rifiorita!
+	l11_message_about_tasks = Vogliamo costruire una fattoria più moderna ed efficiente per massimizzare i profitti. A quel punto, tutte le altre fattorie nell'area seguiranno il nostro esempio!
+	l11_message_first_task = Prima di iniziare, dobbiamo guadagnare del denaro. Costruiamo un recinto per maiali e vendiamo 5 maiali, 1 cassa di barbabietole e 1 cassa di pomodori, quindi assumiamo un aiutante per raccogliere le verdure.
+	l11_message_second_task = Dobbiamo coltivare vari tipi di verdure, iniziamo dalle melanzane. Dobbiamo inoltre prepararci a raccogliere prodotti deperibili, quindi costruiamo un magazzino refrigerato e, nel nome dell'automazione, installiamo 2 irrigatori e assumiamo un giardiniere.
+	l11_message_third_task = Sperimentiamo una nuova tecnica. Dobbiamo vendere una cassa di rapanelli. Dato che vogliamo usare il nuovo magazzino refrigerato, costruiamo un pollaio e vendiamo 5 casse di uova. Per contribuire all'automazione, assumiamo 2 assistenti: un giardiniere e un raccoglitore.
+	l11_message_fourth_task = La nuova fattoria deve avere tutto, quindi ricordiamoci dei fiori. Piantiamo e vendiamo una cassa di girasoli e una di dalie, poi costruiamo una serra per conservare i nuovi fiori e, già che ci siamo, costruiamo anche un alveare.
+ 	l11_message_fifth_task = Per incrementare l'automazione della fattoria, assumiamo un altro assistente. Devi vendere una cassa di carote e una di cavoli, poi nutrire le mucche con queste verdure e vendere 5 casse di latte.
+	l11_message_sixth_task = Dobbiamo assumere un altro giardiniere e installare altri irrigatori per non doverci preoccupare delle piante. A quel punto, piantiamo dei funghi e vendiamone 5 casse. E non trascurare l'alveare: vendi 5 casse di miele.
+	l11_message_seventh_task = Vendi 5 casse di tulipani, 3 casse di zucche e 3 casse di cetrioli. E dato che alla fattoria serve un po' di tutto, costruisci un ovile.
+	l11_message_eighth_task = Assumi 2 assistenti e, mentre sono indaffarati, aggiungiamo della nuova frutta. Vendi 4 casse di angurie e 4 di fragole.
+	l11_message_ninth_task = Testiamo l'ovile vendendo una cassa di lana. Pianifichiamo il raccolto futuro installando altri 2 irrigatori. Piantiamo meli e ciliegi in modo che la fattoria produca altra frutta deliziosa.
+	l11_message_tenth_task  = La fattoria deve continuare a espandersi, quindi costruiamo un pollaio, un ovile e una stalla, poi piantiamo alcuni peperoni e vendiamone 5 casse.
+	l11_message_eleventh_task = Per completare il nostro piano, piantiamo susini e banani, poi guadagniamo 800 monete per assumere un direttore che controlli gli aiutanti.
+	
+	l11_message_victory = Abbiamo realizzato il nostro grandioso progetto. Questa fattoria sarà un esempio per la contea e l'area continuerà a prosperare.
+		
+	l12_task_first_lot_vegetables = Consegna il primo carico di verdure
+	l12_task_first_lot_vegetables_details = Riempi 3 casse di rapanelli e altrettante di zucche, mais e pomodori.
+	l12_task_second_lot_vegetables = Consegna il secondo carico di verdure.
+	l12_task_second_lot_vegetables_details = Riempi 3 casse di cetrioli e altrettante di melanzane, peperoni e funghi.
+	l12_task_first_lot_flowers = Consegna il primo carico di fiori
+	l12_task_first_lot_flowers_details = Riempi 3 casse di tulipani e altrettante di dalie, girasoli e angurie.
+	l12_task_first_lot_strawberries_behive = Consegna miele e fragole
+	l12_task_first_lot_strawberries_behive_details = Riempi 3 casse di fragole e miele.
+	l12_task_first_lot_trees = Consegna un carico di frutta
+	l12_task_first_lot_trees_details = Riempi 3 casse di mele e altrettante di banane, susine e ciliegie.
+	l12_task_first_lot_farms_produktion = Consegna un carico di prodotti.
+	l12_task_first_lot_farms_produktion_details = Alleva 3 maiali e riempi 3 casse di uova e altrettante di lana e latte.
+	l12_task_first_shop_order = Evadi l'ordine del negozio di alimentari
+	l12_task_first_shop_order_details = Alleva 3 maiali e riempi 3 casse di girasoli e altrettante di funghi e banane.
+	l12_task_second_shop_order = Evadi l'ordine del negozio di alimentari
+	l12_task_second_shop_order_details = Riempi 3 casse di cavoli e altrettante di lana, tulipani e angurie.
+	l12_task_third_shop_order = Evadi l'ordine del negozio di alimentari
+	l12_task_third_shop_order_details = Riempi 3 casse di latte e altrettante di fragole, miele e ciliegie.
+	l12_task_fourth_shop_order = Evadi l'ordine del negozio di alimentari
+	l12_task_fourth_shop_order_details = Riempi 3 casse di peperoni e altrettante di mele, cavoli e uova.
+	
+	l12_message_victory = I negozi vendono i nostri prodotti freschi e nessuno compra più la robaccia della Agro Corporation, che ha dichiarato bancarotta. Si dice che la fabbrica verrà smantellata e al suo posto sorgerà un parco. Abbiamo vinto!!!
+	l12_message_cool_vegetables = La regione ha ripreso vita e presto qui ci saranno tante fattorie produttive. La Agro Corporation produce cibo delizioso ma malsano e pieno di conservanti. È povero di vitamine e principi nutritivi, ma costa poco. Dobbiamo fornire ai negozi frutta e verdura fresca, nutriente e deliziosa. Quando nessuno comprerà i cibi preconfezionati, la Agro Corporation andrà in bancarotta e tutti mangeranno cibi sani. 
+	l12_message_first_lot_vegetables = Prima di vendere i nostri prodotti, il gestore dell'alimentari propone un periodo di prova per verificare le vendite.
+	l12_message_second_lot_vegetables = I negozi sono stupiti delle vendite delle nostre verdure e vogliono provarne altre. Ci hanno anche dato i proventi delle vendite precedenti, che ammontano a 200 monete. Dobbiamo consegnare nuove verdure. Questa volta, faremo felici i clienti con qualcosa di esotico.
+	l12_message_first_lot_flowers = Le verdure vendono molto bene, forse dovremmo cimentarci anche con i fiori e addolcire il tutto con qualche anguria. I proventi delle vendite sono raddoppiati. Questa volta ci hanno dato 400 monete.
+	l12_message_first_lot_strawberries_behive = Tutta la città va pazza per le nostre angurie, sono un successone! E le vendite di dolciumi e cibi surgelati della Agro Corporation sono in calo. È il momento adatto per offrire alla gente dei dolci naturali, quindi consegniamo del miele e delle fragole. L'ultimo carico ci ha fruttato 600 monete.
+	l12_message_first_lot_trees_details = Miele e verdure sono sugli scaffali dei negozi di tutta la città, ma ricordiamo che sugli alberi crescono frutti deliziosi. Con l'ultimo carico, abbiamo guadagnato 700 monete.
+	l12_message_first_lot_farms_produktion = Tutti i nostri prodotti vanno a ruba. Consegniamo ottimi prodotti naturali come uova, latte, maiali e lana. L'ultimo carico ci ha fruttato 150 monete.
+	l12_message_first_shop_order = I nostri prodotti sono quasi esauriti e i negozi ne vogliono altri! Abbiamo un ordine di prodotti in esaurimento. Inoltre, con l'ultimo carico abbiamo guadagnato 1500 monete.
+	l12_message_second_shop_order = La gente non è mai sazia dei nostri cibi sani e deliziosi: i negozi ne vogliono ancora! Presto la gente comprerà solo le nostre verdure. Ci hanno dato un nuovo ordine e 900 monete.
+	l12_message_third_shop_order = I nostri prodotti occupano circa metà dello spazio di vari negozi di alimentari in città e le vendite aumentano! Con l'ultimo carico, abbiamo guadagnato 1200 monete! Vinceremo la competizione, è solo questione di tempo. Abbiamo un altro carico da preparare.
+	l12_message_fourth_shop_order = I negozi sono pieni dei nostri prodotti, abbiamo ricevuto un altro grosso ordine e 1500 monete. Se evaderemo questo ordine, vinceremo senz'altro.
+ 	l12_message_supplier_sabotage = La Agro Corporation continua a interferire con il nostro lavoro. Ha comprato tutti i semi che avevamo ordinato e ora i fornitori non hanno più niente da venderci. Perché la sorte si accanisce contro di noi? Dovremo trovare dei nuovi fornitori.
+
+
+	comics_p1f1b1 = C'era una volta, in un piccolo villaggio lontano, una ragazza speciale.
+	comics_p1f1b2 = Diventerai l'agricoltore più celebre dei nostri tempi e ci salverai dal massacro dell'industria!
+	comics_p1f1b3 = Con l'età, la nonna era diventata un po' svagata, ma in questo aveva ragione.
+	comics_p1f2b1 = Fin dall'infanzia, la ragazza mostrava un talento per l'agricoltura.
+	comics_p1f2b2 = Guarda, Ginger non ha ancora un anno e ha già creato un giardino nella sabbia!
+	comics_p1f2b3 = Ricorda le mie parole: Ginger ha un luminoso futuro davanti a sé.
+	comics_p1f3b1 = Quando aveva sei anni, il nonno le insegnò i principi dell'agricoltura.
+	comics_p1f3b2 = Senti la forza dentro di te, piccola, e ara quel terreno!
+	comics_p1f5b1 = Bam!
+	comics_p1f6b1 = Crunch!
+	comics_p1f7b1 = Alcuni compiti erano duri per Ginger...
+	comics_p1f7b2 = Ehi, non sembra affatto un giardino, eh?
+	comics_p1f7b3 = ... ma lei perseverò e nel tempo imparò tutti i segreti del nonno.
+	comics_p1f8b1 = Ricorda, piccola: fai ogni cosa con il cuore!
+	comics_p1f8b2 =	Nonno, perché dici sempre queste cose strane?
+	
+	comics_p2f1b1 = Ora sei esperta di agricoltura, quindi ti faremo un regalo speciale per il tuo 18° compleanno...
+	comics_p2f1b2 = Una fattoria tutta tua!
+	comics_p2f1b3 = Oh wow!
+	comics_p2f2b1 = Pensa quante verdure potrò coltivare qui!
+	comics_p2f2b2 = E la frutta...
+	comics_p2f2b3 = Chicchirichììì!
+	comics_p2f3b1 = Un tempo, questa terra apparteneva a mio nonno, il grande Bob Johnson!
+	comics_p2f4b1 = Ahhh!
+	comics_p2f4b2 = Nonno, che anno era?
+	comics_p2f5b1 = Chicchiri-coff-chììì!
+	comics_p2f6b1 = Non preoccuparti, nipotina.
+	comics_p2f6b2 = È tutto in mano tua e so che farai un ottimo lavoro!
+	comics_p2f7b1 = Bam!
+	comics_p2f8b1 = Cooooo...
+	
+	comics_p3f1b1 = Poi, una splendida mattina soleggiata...
+	comics_p3f2b1 = Dal bosco provenne un grugnito acuto.
+	comics_p3f3b1 = Attirò l'attenzione del gallo.
+	comics_p3f5b1 = E svegliò Ginger.
+	comics_p3f5b2 = Che cosa è successo?
+	comics_p3f6b1 = Si è verificato un incidente alla vicina fattoria dei suini!
+	comics_p3f6b2 = Forza Ginger, andiamo a dare una mano.
+	comics_p3f7b1 = Quando raggiunsero la fattoria, trovarono una gran confusione.
+	comics_p3f7b2 = Un condotto idrico sulla strada per la fabbrica è scoppiato, inondando la fattoria!
+	comics_p3f7b3 = E chi ha cacciato quell'orribile urlo?
+	comics_p3f7b4 = I maiali! Il loro cibo è rovinato e i poveretti muoiono di fame.
+	comics_p3f8b1 = Poveri maiali!
+	comics_p3f8b2 = Nessun problema, ci pensiamo noi a loro.
+	comics_p3f8b3 = Oink!
+	comics_p3f8b4 = Oink!
+	comics_p3f8b5 = Grrrr
+    
+	comics_p4f1b1 = La famiglia stava festeggiando il compleanno del nonno.
+	comics_p4f1b2 = ... e così gli ho chiesto: 'Cosa usi come fertilizzante?'
+	comics_p4f1b3 = E lui ha risposto: 'Sempre il solito... la sabbia!'
+	comics_p4f1b4 = Ah ah ah!
+	comics_p4f1b5 = Poi, all'improvviso...
+	comics_p4f2b1 = Whosh
+	comics_p4f3b1 = Smack!
+	comics_p4f5b1 = Miao!
+	comics_p4f6b1 = Cielo...!
+	comics_p4f7b1 = Splat!
+	comics_p4f8b1 = Whosh
+	comics_p4f9b1 = Bam!
+	comics_p4f10b1 = Splat!
+	comics_p4f10b2 = Smack!
+	comics_p4f10b3 = Poco dopo, la 'tempesta di pomodori' si placò.
+	comics_p4f10b4 = Drin drin!
+	comics_p4f11b1 = Pronto?
+	comics_p4f12b1 = Ciao zio! Ti è volato addosso qualcosa?
+	comics_p4f12b2 = Ciao a te, nipote, sei stato tu ad attaccarci con i pomodori, eh?
+	comics_p4f12b3 = È stata quella stupida fabbrica!
+	comics_p4f12b4 = Hanno acceso un enorme sistema di ventilazione che ha fatto volare via tutti i pomodori dai campi e perfino il gatto dal tetto!
+	comics_p4f12b5 = Dici sul serio?!
+	comics_p4f12b6 = Non sappiamo cosa fare. Se lo riaccendono, spazzerà via l'intero villaggio.
+	comics_p4f12b7 = Non preoccuparti, nipote. Una volta tolto il ketchup dalla casa, penseremo a un modo per aiutarti.
+	comics_p4f13b1 = Mmm... Come facciamo a proteggere il villaggio di zio Joe dal vento della fabbrica?
+	comics_p4f13b2 = Credo di avere un'idea!
+	
+	comics_p5f1b1 = Ginger ha ricevuto un meritato premio.
+	comics_p5f1b2 = Per lo straordinario servizio reso al villaggio e ai suoi abitanti, cara nipote...
+	comics_p5f1b3 = ... ecco un certificato di benemerenza!
+	comics_p5f1b4 = Grazie! Vorrei ringraziare la mia famiglia e in particolare mio nonno.
+	comics_p5f1b5 = Senza il suo aiuto, oggi non sarei qui. Vorrei anche ringraziare...
+	comics_p5f1b6 = Ma il discorso di Ginger fu interrotto da un uomo che emerse dal pubblico con una lettera in mano.
+	comics_p5f2b1 = Beh, che abbiamo qui, beh, insomma, questa gente è qui per chiedere aiuto.
+	comics_p5f2b2 = Lascia che ti legga questa lettera degli abitanti di Greenfield. 'Cara Ginger, ci troviamo in una brutta situazione qui a Greenfield.'
+	comics_p5f2b3 = 'Gli ingegneri della fabbrica locale hanno costruito una diga che ha inondato gran parte dei terreni. Le piante avvizziscono, il raccolto muore e non sappiamo cosa fare.'
+	comics_p5f2b4 = 'Sei stata così brava a salvare il tuo villaggio dal ventilatore gigante che abbiamo pensato che magari potresti aiutare anche noi. Cordialmente, gli abitanti di Greenfield.'
+	comics_p5f2b5 = Wow. Che tipo di fabbrica è? Pare che io risolva un problema dopo l'altro.
+	comics_p5f2b6 = Beh, le cose stanno così...
+	comics_p5f3b1 = Qualche anno fa, arrivò un certo signor Agroson...
+	comics_p5f3b2 = Non era uno splendore, ma parlava bene e aveva un sacco di soldi.
+	comics_p5f3b3 = Ci promise di fornire cibo alla città. Era conveniente, ma malsano e dannoso per l'ambiente.
+	comics_p5f3b4 = Costruì la fabbrica sull'altro lato delle colline e da lì ebbero inizio i problemi.
+	comics_p5f3b5 = Nel nostro villaggio diventava tutto umido e paludoso, mentre poco lontano soffrivano la siccità.
+	comics_p5f3b6 = E quando il vento soffia da quelle colline, puzza terribilmente e la pioggia diventa viola!
+	comics_p5f4b1 = È terribile e intollerabile!
+	comics_p5f4b2 = Nonno, facciamo i bagagli, dobbiamo partire subito!
+	comics_p5f4b3 = Ci vogliono otto ore di cammino per arrivare al villaggio, non ce la faremo entro sera...
+	comics_p5f4b4 = Ma non andremo a piedi. Collaudiamo il regalo di zio Joe!
+	comics_p5f5b1 = Guarda un po'! Quel rudere è perfetto per le strade sterrate!
+	comics_p5f5b2 = Non è un rudere, è uno Chevrodzuki dell'anno scorso.
+	comics_p5f5b3 = Ok, andiamo!
+	comics_p5f6b1 = Biip-boop
+	
+	comics_p6f1b1 = Il nonno e la nonna assaporavano il loro tè quotidiano, quando...
+	comics_p6f1b2 = Quando tornerà Ginger? Mi manca molto.
+	comics_p6f1b3 = Oggi, credo. Hai saputo di Greenfield? Ora è tutto sistemato.
+	comics_p6f1b4 = Vrooom!
+	comics_p6f1b5 = Si parla del diavolo...
+	comics_p6f2b1 = Ciao nonna! Ciao nonno! Che piacere vedervi!
+	comics_p6f2b2 = Greenfield è un pantano di questi tempi, con tanto di rane e sanguisughe...
+	comics_p6f3b1 = Coo-coooo?
+	comics_p6f4b1 = Smack!
+	comics_p6f5b1 = Siediti, Ginger. Ecco la tua tazza...
+	comics_p6f5b2 = ... e il tuo tè.
+	comics_p6f5b3 = Grazie. Dove sono i dolcetti?
+	comics_p6f5b4 = Beh, Ginger, non ho più nulla di dolce con cui cucinare.
+	comics_p6f5b5 = Ordinavo il miele da Betty di Plainsville.
+	comics_p6f5b6 = Ma ora là c'è una fabbrica che produce cioccolatini e caramelle, così la gente ha smesso di comprare il suo miele.
+	comics_p6f5b7 = In pratica, cara, la fattoria ha rovinato tutto.
+	comics_p6f5b8 = Cosa? Allora non potrò più mangiare...
+	comics_p6f5b9 = ... le tue torte e i tuoi pasticcini al miele?
+	comics_p6f6b1 = Ora sono davvero furiosa!
+	comics_p6f7b1 = Aspettami Plainsville, vengo a salvarti!
+	comics_p6f7b2 = Nel nome della...
+	comics_p6f7b3 = Libertà!
+	comics_p6f7b4 = ... e dei pasticcini al miele!
+	
+	comics_p7f1b1 = Nel frattempo, nell'ufficio del signor Agroson...
+	comics_p7f1b2 = Maledizione, quella ragazza ci ha costretto a chiudere la fabbrica di cioccolato. Non la tollererò oltre!
+	comics_p7f1b3 = Jacques, Helmut, ascoltate: dobbiamo scoprire tutto il possibile su questa... Ginger.
+	comics_p7f1b4 = Non mi importa se dovrete radere al suolo il villaggio, voglio del materiale compromettente su questa ragazza, qualcosa che possiamo usare contro di lei. Mi sono spiegato?
+	comics_p7f1b5 = Oui, tutto chiaro, mon general!
+	comics_p7f1b6 = Ja, natürlich! Come rubare le caramelle a un bambino!
+	comics_p7f1b7 = Ottimo. Andate e datevi da fare. Janice!
+	comics_p7f1b8 = Sì?
+	comics_p7f1b9 = Organizza un incontro con Ginger. Dille che ho... 
+	comics_p7f1b10 = ... una proposta da farle.
+	comics_p7f2b1 = Il giorno dopo...
+	comics_p7f2b2 = Wow! Come hanno fatto a costruirlo? Spero che l'ascensore funzioni.
+	comics_p7f3b1 = Ginger, hai un grande potenziale!
+	comics_p7f3b2 = Hai rovinato una divisione della mia società da sola. Ammiro le tue capacità commerciali.
+	comics_p7f3b3 = Ma immagina cosa potresti fare con il supporto del mio denaro e delle mie conoscenze!
+	comics_p7f3b4 = Unisciti a me: insieme, trasformeremo questa regione in una meravigliosa utopia. Cosa ne pensi?
+	comics_p7f3b5 = Grazie per l'offerta, signor Agroson, ma preferisco lavorare con i miei amici.
+	comics_p7f3b6 = Dovrebbe usare parte del denaro per acquistare fiori e piante. Questo ambiente è deprimente... come un mausoleo.
+	comics_p7f4b1 = Ha il mio numero, perciò se vuole le posso portare i migliori fiori della regione in meno di 24 ore!
+	comics_p7f4b2 = Aspetta un attimo, piccola snob arrogante!
+	comics_p7f4b3 = Presto scoprirai cosa succede a chi rifiuta la mia generosità!
+	comics_p7f5b1 = Miiiiaaaaoooo!
+	comics_p7f6b1 = Due giorni dopo...
+	comics_p7f6b2 = Passiamo alle altre notizie. Ogni il signor Agroson, presidente della Agro Corporation, ha annunciato la nuova iniziativa dell'azienda.
+	comics_p7f6b3 = La Agro Corporation intende acquistare 12.000 acri di terra nella nostra regione per costruire un parco di divertimenti.
+	comics_p7f6b4 = Secondo Agroson, il parco attirerà innumerevoli turisti, aumentando le entrate della contea.
+	comics_p7f6b5 = La terra è al momento occupata da alcune fattorie obsolete e in rosso.
+	comics_p7f6b6 = La mia compagnia darà nuova vita alla regione.
+	comics_p7f6b7 = Invece di qualche cassa di verdure marce, attireremo migliaia di turisti che spenderanno qui il loro denaro!
+	comics_p7f6b8 = E tra dieci anni, quest'area sarà la capitale mondiale del divertimento!
+	comics_p7f7b1 = Wow, ha già messo in atto la sua minaccia.
+	comics_p7f8b1 = Dovremo dimostrare alla città che possiamo offrire molto più di qualche cassa di verdure marce!
+	
+	comics_p8f1b1 = Manca un mese alla fiera della contea!
+	comics_p8f1b2 = Il nostro villaggio non vince il premio di miglior agricoltore da oltre 50 anni.
+	comics_p8f2b1 = Ginger, una contadina locale, ha annunciato l'intenzione di partecipare alla sfida!
+	comics_p8f2b2 = Questo genio dell'agricoltura riuscirà a regalare la vittoria al villaggio?
+	comics_p8f3b1 = Il sindaco è molto interessato ai risultati di quest'anno.
+	comics_p8f3b2 = Il vincitore ottiene sempre fama, premi e ottimi contratti!
+	
+	comics_p9f1b1 = Idioti! Dove sono le informazioni che vi avevo chiesto?
+	comics_p9f2b1 = Ma Monsieur Agroson, la ragazza è pulita!
+	comics_p9f2b2 = È vero, capo! Abbiamo cercato ovunque, ma non c'è assolutamente niente su Fräulein Ginger.
+	comics_p9f2b3 = È ridicolo! Vi do un'altra settimana: se non trovate niente, ve ne pentirete amaramente!
+	comics_p9f2b4 = Janice! Chiama Ginger al telefono, voglio dirle un paio di cose di persona.
+	comics_p9f3b1 = Pronto?
+	comics_p9f4b1 = Ok, stammi bene a sentire, Ginger! Non ti permetterò di rovinare i profitti della mia azienda. Smettila subito o te ne pentirai!
+	comics_p9f4b2 = Non può minacciarmi, signor Agroson...
+	comics_p9f4b3 = Davvero? Hai idea di quanti tuoi amici vivono nelle mie terre? Di quanti devono dei soldi alla mia banca? Non mettermi i bastoni tra le ruote, ragazzina!
+	comics_p9f5b1 = 'Basta con le fattorie obsolete! Costruiamo nuovi centri commerciali e parchi di divertimenti!'
+	comics_p9f5b2 = Il discorso del signor Agroson ha suscitato la reazione positiva degli azionisti alla riunione della Agro Corporation!
+	comics_p9f5b3 = La campagna contro i debitori inadempienti continua e oggi un'altra fattoria ha dichiarato bancarotta per non aver pagato il mutuo.
+	
+	comics_p10f1b1 = Capo, capo, abbiamo trovato qualcosa!
+	comics_p10f1b2 = Non c'è niente su Ginger, ma abbiamo qualcosa sui suoi nonni.
+	comics_p10f1b3 = Vediamo... Nati... sposati... niente figli. Quindi l'hanno adottata? E che c'è di male in questo?
+	comics_p10f1b4 = Nein, capo! Nessun documento attesta la sua adozione. Non è ufficiale.
+	comics_p10f1b5 = Davvero? Mmm... Bel lavoro!
+	comics_p10f2b1 = Siediti, Ginger. Vuoi del tè? Guarda questa cartelletta, sono sicuro che la troverai interessante.
+	comics_p10f2b2 = Cosa contiene?
+	comics_p10f2b3 = Niente di particolare, solo la prova che sei stata rapita quando eri in fasce.
+	comics_p10f2b4 = Questo è l'ultimo avvertimento. Lascia stare me e la mia azienda o manderò in prigione i tuoi amati nonni! Ah ah ah! Ah! Aaaah!
+	comics_p10f3b1 = Zio Joe, sono Ginger! Sai chi sono i miei veri genitori?
+	comics_p10f4b1 = Oh, Ginger... Non conosco i dettagli della storia. Ti conviene chiedere al vecchio Gus, penso che lui ricordi tutto.
+	comics_p10f4b2 = Ok. Sai dove posso trovarlo?
+	comics_p10f5b1 = Gus? Salve, Mi chiamo...
+	comics_p10f5b2 = Ginger, sì, ti conosco. Entra pure.
+	comics_p10f6b1 = Oh, è una brutta storia. Sono vecchio e non ho più buona memoria.
+	comics_p10f6b2 = La mia fattoria è rovinata, il mio orto è infestato di erbacce e le mucche sono scappate...
+	comics_p10f6b3 = Ma se mi aiuterai, forse riuscirò a ricordare. Credo che qualche cetriolo fresco mi rinfrescherebbe la memoria!
+	
+	comics_p11f1b1 = Grazie Ginger, hai salvato la mia fattoria. E con tutta questa verdura fresca, mi sento come nuovo e sono pronto a raccontarti dei tuoi genitori.
+    comics_p11f1b2 = È andata così...
+    comics_p11f2b1 = Tempo fa, un uomo d'affari di successo divorziò dalla moglie.
+    comics_p11f2b2 = Hai visto il verdetto del tribunale? Dammi la piccola o scatenerai la furia di Peter Agroson! La bimba è mia e solo mia!
+    comics_p11f3b1 = Ma, per uno strano scherzo del destino...
+    comics_p11f4b1 = La limousine prese una buca che sbalzò fuori la bambina.
+    comics_p11f5b1 = Quando i tuoi nonni ti trovarono, beh, Ginger, ne furono estasiati.
+    comics_p11f5b2 = Dio non aveva donato loro dei figli, ma ti accolsero come se lo fossi.
+    comics_p11f6b1 = Ecco come sei finita nel nostro villaggio.
+    comics_p11f6b2 = Uhm, quindi mi sta dicendo che sono la figlia del signor Agroson?!
+    comics_p11f6b3 = No, Ginger. Ascolta il tuo cuore e capirai chi sono i tuoi veri genitori.
+	
+	comics_p12f0b1 = Ricapitoliamo l'episodio precedente.
+	comics_p12f1b1 = Ginger ha scoperto la verità sul suo passato.
+	comics_p12f2b1 = La notizia non ha fatto molto piacere al signor Agroson.
+	comics_p12f2b2 = Mon general, abbiamo notizie su sua figlia.
+	comics_p12f2b3 = Mia figlia è morta, Jacques.
+	comics_p12f2b4 = Nein, capo. Ginger è sua figlia.
+	comics_p12f2b5 = Noooooo!
+	comics_p12f3b1 = Edizione straordinaria! Leggete tutti!
+	comics_p12f3b2 = Ultim'ora! Il sindaco annulla il contratto con la Agro Corporation!
+	comics_p12f3b3 = Ha proposto un appalto per la fornitura di cibo alla città!
+	comics_p12f3b4 = Chi sarà il nuovo re delle verdure?
+	
+	comics_p13f1b1 = Ecco com'è finita la storia.
+	comics_p13f1b2 = Una serie di camion porta verdure fresche in città.
+	comics_p13f1b3 = Addio, pomodori! Buon viaggio!
+	comics_p13f2b1 = Per i servizi resi a questa grande città, ti dono questa benemerenza...
+	comics_p13f2b2 = Ginger divenne cittadina onoraria della città.
+	comics_p13f3b1 = Gli affari della Agro Corporation continuarono a peggiorare.
+	comics_p13f3b2 = Signore, le analisi di mercato indicano che nessuno compra più i nostri prodotti.
+	comics_p13f3b3 = Oh, Ginger, Ginger... È identica a me!
+	comics_p13f4b1 = E come vedete, la linea rossa scende, mentre quella verde continua a salire.
+	comics_p13f4b2 = Cosa significa questo per la città? Ve lo diremo alle 11!
+	comics_p13f5b1 = La Agro Corporation fu costretta a vendere la sede dell'azienda...
+	comics_p13f6b1 = E finalmente Ginger decorò l'ex ufficio del signor Agroson con piante e fiori.
+	comics_p13f6b2 = FINE
+
+>>

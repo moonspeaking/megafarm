@@ -1,0 +1,361 @@
+<<
+
+@interface
+	{
+		#string name "trophyroom";
+		#string texture_pack "trophyroom_pack";
+		#string sound_pack "trophyroom_pack";
+		#string onmessage "trophyroom";
+
+		@dataholder
+		{
+			#string name "trophies";
+		}
+		
+		@dataholder
+		{
+			#string name "old_trophies";
+		}
+
+		@bitmap
+		{
+			#string name "main_layer";
+			#point pos 0, 0;
+			#point size 800, 600;
+			#string texture_name "trophyroom.jpg";			
+		}
+		
+		@button_right
+		{
+			#string name "exit";
+			#point pos 355, -255;
+			#point size 64, 64;
+			#string onmessage "trophyroom.exit";
+		}
+		
+		@bitmap //кубок
+		{
+			#string name "trophy12";
+			#point pos -15, 77;
+			#point size 256, 512;
+			#string texture_name "trophy12.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+		}
+		@bitmap //медаль
+		{
+			#string name "trophy4";
+			#point pos 209, -97;
+			#point size 128, 256;
+			#string texture_name "trophy00.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+		}
+		@bitmap //мороженое
+		{
+			#string name "trophy8";
+			#point pos 29, -101;
+			#point size 128, 128;
+			#string texture_name "trophy09.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+			
+		}
+		@bitmap //свинья с часами
+		{
+			#string name "trophy2";
+			#point pos 33, -200;
+			#point size 128, 256;
+			#string texture_name "trophy01.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+			
+		}
+		@bitmap //золотая кукуруза
+		{
+			#string name "trophy10";
+			#point pos 154, -177;
+			#point size 128, 64;
+			#string texture_name "trophy02.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+			
+		}
+		
+		@bitmap //золотой жук
+		{
+			#string name "trophy5";
+			#point pos -258, -165;
+			#point size 128, 256;
+			#string texture_name "trophy04.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+		}
+		@bitmap //хрустальная лейка
+		{
+			#string name "trophy9";
+			#point pos -168, -183;
+			#point size 256, 256;
+			#string texture_name "trophy03.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+
+		}
+		@bitmap //часы с кукушкой
+		{
+			#string name "trophy0";
+			#point pos -215, 170;
+			#point size 256, 256;
+			#string texture_name "trophy05.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+		}
+		@bitmap //свинья-копилка
+		{
+			#string name "trophy1";
+			#point pos 128, -90;
+			#point size 128, 128;
+			#string texture_name "trophy06.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+		}
+		@bitmap //статуя свободы
+		{
+			#string name "trophy7";
+			#point pos -66, -151;
+			#point size 128, 256;
+			#string texture_name "trophy07.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+		}
+		@bitmap //сертификат
+		{
+			#string name "trophy11";
+			#point pos -217, -12;
+			#point size 256, 256;
+			#string texture_name "trophy08.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+		}		
+		@bitmap //пальма
+		{
+			#string name "trophy3";
+			#point pos -297, 16;
+			#point size 256, 512;
+			#string texture_name "trophy10.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+		}
+		@bitmap //фото
+		{
+			#string name "trophy6";
+			#point pos 150, 20;
+			#point size 256, 256;
+			#string texture_name "trophy11.tga";
+			#bool visible false;
+			#string onmessage "trophyroom.trophy";
+		}
+		@simple_hint //кубок
+		{
+			#string name "hint12";
+			#point pos 35, 136;
+			#point size 256, 0;				
+			#string activator "trophy12";
+			@hint_text
+			{
+				#string text_key "trophy_hint12";					
+			}
+		}			
+		@simple_hint //медаль
+		{
+			#string name "hint4";
+			#point pos 253, -32;
+			#point size 256, 0;
+			#string activator "trophy4";	
+			@hint_text
+			{
+				#string text_key "trophy_hint4";					
+			}
+		}
+		@simple_hint //мороженое
+		{
+			#string name "hint8";
+			#point pos 77, -38;
+			#point size 256, 0;
+			#string activator "trophy8";
+			@hint_text
+			{
+				#string text_key "trophy_hint8";					
+			}
+		}
+		@simple_hint //свинья
+		{
+			#string name "hint2";
+			#point pos 89, -157;
+			#point size 256, 0;
+			#string activator "trophy2";		
+			@hint_text
+			{
+				#string text_key "trophy_hint2";					
+			}
+		}
+		@simple_hint //кукуруза
+		{
+			#string name "hint10";
+			#point pos 197,-120;
+			#point size 256, 0;
+			#string activator "trophy10";		
+			@hint_text
+			{
+				#string text_key "trophy_hint10";					
+			}
+		}
+		@simple_hint //жук
+		{
+			#string name "hint5";
+			#point pos -207, -116;
+			#point size 256, 0;		
+			#string activator "trophy5";		
+			@hint_text
+			{
+				#string text_key "trophy_hint5";					
+			}
+		}
+		@simple_hint //лейка
+		{
+			#string name "hint9";
+			#point pos -125, -117;
+			#point size 256, 0;		
+			#string activator "trophy9";		
+			@hint_text
+			{
+				#string text_key "trophy_hint9";					
+			}
+		}
+		@simple_hint //часы
+		{
+			#string name "hint0";
+			#point pos -151, 233;
+			#point size 256, 0;		
+			#string activator "trophy0";		
+			@hint_text
+			{
+				#string text_key "trophy_hint0";					
+			}
+		}
+		@simple_hint //копилка
+		{
+			#string name "hint1";
+			#point pos 170, -42;
+			#point size 256, 0;		
+			#string activator "trophy1";		
+			@hint_text
+			{
+				#string text_key "trophy_hint1";					
+			}
+		}
+		@simple_hint //статуя
+		{
+			#string name "hint7";
+			#point pos -6,-105;
+			#point size 256, 0;		
+			#string activator "trophy7";		
+			@hint_text
+			{
+				#string text_key "trophy_hint7";					
+			}
+		}
+		@simple_hint //сертификат
+		{
+			#string name "hint11";
+			#point pos -165, 45;
+			#point size 256, 0;		
+			#string activator "trophy11";		
+			@hint_text
+			{
+				#string text_key "trophy_hint11";					
+			}
+		}
+		@simple_hint //пальма
+		{
+			#string name "hint3";
+			#point pos -257, 77;
+			#point size 256, 0;
+			#string activator "trophy3";
+			@hint_text
+			{
+				#string text_key "trophy_hint3";
+			}
+		}			
+		@simple_hint //фото
+		{
+			#string name "hint6";
+			#point pos 190, 85;
+			#point size 256, 0;		
+			#string activator "trophy6";		
+			@hint_text
+			{
+				#string text_key "trophy_hint6";					
+			}
+		}
+		
+		@simple_window
+		{
+			#string name "announce";
+			#point pos 0, 0;
+			#point size 512, 512;
+			
+			#bool alive false;
+			
+			@bitmap
+			{
+				#string name "trophy_pic";
+				#point pos -128, 0;
+				#point size 256, 256;				
+				#string texture_name "trophy08.tga";				
+			}
+			@simple_textbox
+			{
+				#string name "trophy_details";
+				#float font_size 12;
+				#point pos 0, 0;
+				#point size 256, 256;
+				#string text_align "right";
+				#string align "right";
+				#string text_key "trophy_hint11";
+			}
+			@text			
+			{
+				#string name "details_header";
+				#float font_size 24;
+				#string text_key "trophy_announce_header";
+				#string text_align "center";
+				#string align "top center";
+				#point pos 0,0;
+				#point size 96, 48;			
+			}			
+			@button
+			{
+				#string name "details_button";
+				#point pos 0,5;
+				#string align "bottom";
+				#point size 96, 48;
+				#string onmessage "trophyroom.announce.ok";
+				@text
+				{
+					#string name "message_text";
+					#string text_key "ok";
+					#string text_align "center";
+					#point pos 0,0;
+					#point size 96, 48;
+				}				
+			}
+		}
+		
+		@particle_list;
+
+		@cursor;		
+	}
+
+>>
+

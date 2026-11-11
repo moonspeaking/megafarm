@@ -1,0 +1,1070 @@
+<<
+
+	begin_lower_char = a
+	end_lower_char = z
+	begin_upper_char = A
+	end_upper_char = Z
+	start = Start
+	freemode = Test
+	options = Options
+	trophyroom = Trophies
+	change_player = Change Player
+	credits = Credits
+	help = Help
+	exit = Exit
+	back = Back
+	loading = Loading
+
+	musics = Music
+	fullscreen = Full Screen Mode
+	windowed = Windowed Mode
+	vsync = Vertical Synch
+	
+	new_profile = New Player
+	delete_profile = Delete Player
+
+	music_on = MUSIC ON
+	music_off = MUSIC OFF
+	sound_on = SFX ON
+	sound_off = SFX OFF
+	cursor_on = Game Cursor On
+	cursor_off = Game Cursor Off
+	
+	set_volume = Volume
+	sound_volume = SFX VOLUME
+	music_volume = MUSIC VOLUME
+
+	languages = Select Language
+	lang_rus = Русский
+	lang_eng = English
+	lang_fra = Français
+	lang_ita = Italiano
+	lang_por = Inglês
+	lang_dut = Nederlands
+	lang_swe = Svenska
+	lang_deu = Deutsch
+	lang_esp = Español
+	lang_jap = Japanese
+	lang_kor = Korean
+	lang_chn = Chinese
+
+	change_player_label = (Change player)
+	ok = OK
+	cancel = CANCEL
+	yes = YES
+	no = NO
+	game_saved = Game saved!
+	game_loaded = Finished loading.
+	question_save_game = Save the current game?
+	question_load_game = Load a previously saved game?
+	question_exit_game = Are you sure you want to quit?
+	question_replay_game = Are you sure you want to replay this level?
+	question_end_game = Are you sure you want to exit to the main menu?
+	question_saveandexit_game = Save this game before you quit?
+	cheatmodeon = Cheat mode activated!
+	cheatmodeoff = Cheat mode deactivated!
+	tasks = Tasks
+	mainmenu = Menu
+	continue = Continue
+	restart = Replay
+	exitgame = Quit
+	profit_hint = You have earned % coins.
+	current_task = Current task
+	click_to_continue = CONTINUE
+	patent_buy_confirm = Are you sure you want to place that order?
+	notify_you_cant_place = You can't put that here!
+	notify_you_cant_gowhere = You can't go there!
+	
+	wombat = Wombat
+	
+	control_help_1 = The left mouse button controls the characters, while the right mouse button cancels commands. They arrow keys move the field.
+	control_help_2 = A single-click performs basic functions, while a double-click will dig and till the soil or set down an object.
+	
+	text_enter_name = Please enter your name
+	welcome_message = Welcome,
+
+	dig_squares = Till the soil
+	water_plants = Water the plants
+
+	level1_name = Training
+	level2_name = Your First Farm
+	level3_name = Going Whole Hog
+	level4_name = Money Grows on Trees
+	level5_name = Flower Power
+	level6_name = Busy as a Bee
+	level7_name = The County Fair
+	level8_name = Suppliers
+	level9_name = Money, money, money
+	level10_name = Drought
+	level11_name = Your Dream Farm
+	level12_name = Going to Market
+	
+	trophy_announce_header = You won a trophy!
+	
+	trophy_hint0 = The cuckoo clock was awarded to you for excellent work during the training level.
+	trophy_hint1 = The Farmer's Piggy Bank was awarded to you because saving capital is the road to riches.
+	trophy_hint2 = The Finding Time for the Pigs statuette was awarded to you for going whole hog and saving the pigs.
+	trophy_hint3 = This palm tree was a gift from the villagers for saving their homes form the factory's gigantic fan.
+	trophy_hint4 = The Floriculture Gold Medal was awarded to you for your amazing work in the flower business.
+	trophy_hint5 = The Good Worker Bee Award was awarded to you for restoring old-time beekeeping traditions.
+	trophy_hint6 = The Grand Prize from the County Fair.
+	trophy_hint7 = The Statue of Farmer Freedom was awarded to you for maintaining your independence in the face of aggression. Liberté, l'agriculture, fraternité.
+	trophy_hint8 = The receipt from the bank is your best trophy yet. The farmers treated you to some ice cream!
+	trophy_hint9 = The Silver Water Bucket was awarded to you for helping the farm surviving the drought.
+	trophy_hint10 = The Golden Ear was awarded to you for establishing the farm of future!
+	trophy_hint11 = A certificate naming you the best produce supplier. You won the tender!
+	trophy_hint12 = The Best Farmer in the History of Agriculture Trophy.
+	
+	level_not_finished = You didn't pass this level.
+    level_completed = Level Complete
+    level_completed_with_trophy = Award Winning Work!
+    level_time = Time
+    level_money = Money
+    best_time = Record Time:
+    best_money = Record Profit:
+
+	inventory_form = SUPPLIES
+	buildings_form = BUILDINGS
+	seeds_form = SEEDS
+	sprouts_form = PLANTS
+	trees_form = TREES
+	workers_form = WORKERS
+
+	aubergine = Eggplants
+	beetroot = Beets
+	cabbage = Cabbage
+	carrot = Carrots
+	corn = Corn
+	cucumber = Cucumbers
+	dahlia = Dahlias
+	mushroom = Mushrooms
+	pepper = Peppers
+	pumpkin = Pumpkins
+	radish = Radishes
+	strawberries = Strawberries
+	sunflower = Sunflowers
+	tomato = Tomatoes
+	tulip = Tulips
+	watermelon = Watermelons
+	
+	task_separator = to
+	task_sow = plant
+	task_sell = sell
+	task_fertilize = fertilize
+	task_buy = buy
+	
+	water_sprinkler = Water sprinklers
+	time = Time
+	
+	tree_desert_apple = Apple trees
+	tree_desert_cherry = Cherry trees
+	tree_desert_palm = Banana trees
+	tree_desert_plum = Plum trees
+	tree_grass_apple = Apple trees
+	tree_grass_cherry = Cherry trees
+	tree_grass_palm = Banana trees
+	tree_grass_plum = Plum trees
+	tree_swamp_apple = Apple trees
+	tree_swamp_cherry = Cherry trees
+	tree_swamp_palm = Banana trees
+	tree_swamp_plum = Plum trees
+	
+	house_chicken_product = Eggs
+	house_cow_product = Milk
+	house_pig_product = Piglets
+	house_sheep_product = Wool
+	beehive_product = Honey
+	
+	tree_desert_apple_product = Apples
+	tree_desert_cherry_product = Cherries
+	tree_desert_palm_product = Bananas
+	tree_desert_plum_product = Plums
+	tree_grass_apple_product = Apples
+	tree_grass_cherry_product = Cherries
+	tree_grass_palm_product = Bananas
+	tree_grass_plum_product = Plums
+	tree_swamp_apple_product = Apples
+	tree_swamp_cherry_product = Cherries
+	tree_swamp_palm_product = Bananas
+	tree_swamp_plum_product = Plums
+	
+	house_chicken = Chicken coops
+	house_cow = Cow barns
+	house_pig = Pigpens
+	house_sheep = Sheep shacks
+	hangar_refrigerator = Refrigerated warehouses
+	hangar_flowers = Greenhouses
+	beehive = Beehives
+	
+	helper = Gardeners
+	harvester = Fruit and Vegetable Pickers
+	
+	patent_for_tulip = Tulip bulb orders
+	patent_for_dahlia = Dahlia bulb orders
+	patent_for_sunflower = Sunflower seed orders
+	patent_for_cucumber = Cucumber seedling orders
+	patent_for_tomato = Tomato seedling orders
+	patent_for_aubergine = Eggplant seedling orders
+	patent_for_pepper = Pepper seedling orders
+	patent_for_watermelon = Watermelon seed orders
+	patent_for_hangar_flowers = Greenhouse building permits
+	patent_for_beehive = Beekeeping licenses
+	patent_for_cabbage = Cabbage seed orders
+	patent_for_beetroot = Beet seed orders
+	patent_for_house_pig = Pigpen building permits
+	patent_for_carrot = Carrot seed orders
+	patent_for_corn = Corn seed orders
+	patent_for_hangar_vegetables = Barn building permits
+	patent_for_mushroom = Mushroom spore orders
+	patent_for_pumpkin = Pumpkin seed orders
+	patent_for_strawberries = Strawberry seedling orders
+	patent_for_hangar_refrigerator = Refrigerated warehouse building permits
+	patent_for_house_sheep = Sheep raising licenses
+	patent_for_house_chicken = Chicken farming licenses
+	patent_for_house_cow = Dairy farming licenses
+	patent_for_radish = Radish seed orders
+	
+	plant_aubergine = Eggplants
+	plant_beetroot = Beets
+	plant_cabbage = Cabbages
+	plant_carrot = Carrots
+	plant_corn = Corn
+	plant_cucumber = Cucumbers
+	plant_dahlia = Dahlias
+	plant_mushroom = Mushrooms
+	plant_pepper = Peppers
+	plant_pumpkin = Pumpkins
+	plant_radish = Radishes
+	plant_strawberries = Strawberries
+	plant_sunflower = Sunflowers
+	plant_tomato = Tomatoes
+	plant_tulip = Tulips
+	plant_watermelon = Watermelons
+	
+	money = Money
+
+	cost_goods = You can sell a crate of this product for %i coins.
+	cost_work = A farm hand's salary is %i coins.
+
+	box_shop_hint = A crate for collecting your harvest.
+	fivebox_shop_hint = A package of five crates
+	tenbox_shop_hint = A package of 10 crates
+
+	spade_shop_hint = A high-quality gardening spade
+	watercan_shop_hint = A small watering can
+	big_watercan_shop_hint = A big watering can
+
+	destructor_shop_hint = This tool is for killing weeds or retilling an existing vegetable patch.
+	transporter_shop_hint = The crane can be used to move buildings on your farm.
+	
+	hangar_vegetables_shop_hint = Barns are for storing non-perishable fruits and vegetables.
+	hangar_flowers_shop_hint = Greenhouses are for storing flowers.
+	hangar_refrigerator_shop_hint = Refrigerated warehouses are for storing perishable goods.
+
+	beehive_shop_hint = Beehives are for beekeeping so you can sell delicious honey.
+	house_sheep_shop_hint = Sheep shacks are for raising sheep so you can sell wool.
+	house_pig_shop_hint = Pigpen ares for raising piglets.
+	house_cow_shop_hint = Cow barns are for raising dairy cows so you can sell milk.
+	house_chicken_shop_hint = Chicken coops are for raising chickens so you can sell eggs.
+	
+	
+	waterpump_shop_hint = If you're walking a long way to get water you might want to drill another well.
+	water_sprinkler_shop_hint = Sprinklers are indispensable items on any large farm.
+	fertilizer_shop_hint = A small bag of fertilizer
+	big_fertilizer_shop_hint = A big bag of fertilizer
+	
+	tree_desert_palm_shop_hint = Bananas may not grow quickly, but you can get a lot of money for them.
+	tree_desert_apple_shop_hint = Apple trees aren't expensive, but apples grow quickly.
+	tree_desert_cherry_shop_hint = Cherry trees may seem whimsical, but their fruit is quite profitable.
+	tree_desert_plum_shop_hint = Plum trees have fruit that ripens quickly, and they sell well too.
+	
+	tree_swamp_palm_shop_hint = Bananas may not grow quickly, but you can get a lot of money for them.
+	tree_swamp_apple_shop_hint = Apple trees aren't expensive, but apples grow quickly.
+	tree_swamp_cherry_shop_hint = Cherry trees may seem whimsical, but their fruit is quite profitable.
+	tree_swamp_plum_shop_hint = Plum trees have fruit that ripens quickly, and they sell well too.
+
+	tree_grass_palm_shop_hint = Bananas may not grow quickly, but you can get a lot of money for them.
+	tree_grass_apple_shop_hint = Apple trees aren't expensive, but apples grow quickly.
+	tree_grass_cherry_shop_hint = Cherry trees may seem whimsical, but their fruit is quite profitable.
+	tree_grass_plum_shop_hint = Plum trees have fruit that ripens quickly, and they sell well too.
+	
+	harvester_shop_hint = Fruit and vegetable pickers are hired hands who collect the fruits and vegetables off your plants.
+	helper_shop_hint = Gardening assistants are hired hands who keep your plants fertilized.
+	
+	aubergine_shop_hint = Packet of eggplant seedlings.
+	beetroot_shop_hint = Packet of beet seeds.
+	cabbage_shop_hint = Packet of cabbage seeds.
+	carrot_shop_hint = Packet of carrot seeds.
+	corn_shop_hint = Packet of corn seeds.
+	cucumber_shop_hint = Packet of cucumber seedlings.
+	dahlia_shop_hint = Packet of dahlia bulbs.
+	mushroom_shop_hint = Packet of mushroom spores.
+	pepper_shop_hint = Packet of pepper seedlings.
+	pumpkin_shop_hint = Packet of pumpkins seeds.
+	radish_shop_hint = Packet of radishes seeds.
+	strawberries_shop_hint = Packet of strawberry seedlings.
+	sunflower_shop_hint = Packet of sunflower seeds.
+	tomato_shop_hint = Packet of tomato seedlings.
+	tulip_shop_hint = Packet of tulip bulbs.
+	watermelon_shop_hint = Packet of watermelon seeds.
+	
+	patent_for_tulip_shop_hint = Order tulip bulbs. Once the order arrives you can purchase tulip bulbs from the store.
+	patent_for_dahlia_shop_hint = Order dahlia bulbs. Once the order arrives you can purchase dahlia bulbs from the store.
+	patent_for_sunflower_shop_hint = Order sunflower seeds. Once the order arrives you can purchase sunflower seeds from the store.
+	patent_for_cucumber_shop_hint =  Order cucumber seedlings. Once the order arrives you can purchase cucumber seedlings from the store.
+	patent_for_tomato_shop_hint =  Order tomato seedlings. Once the order arrives you can purchase tomato seedlings from the store.
+	patent_for_aubergine_shop_hint =  Order eggplant seedlings. Once the order arrives you can purchase eggplant seedlings from the store.
+	patent_for_pepper_shop_hint =  Order pepper seedlings. Once the order arrives you can purchase pepper seedlings from the store.
+	patent_for_watermelon_shop_hint =  Order watermelon seeds. Once the order arrives you can purchase watermelon seeds from the store.
+	patent_for_hangar_flowers_shop_hint =  Purchase a floriculture license and a building permit to build a greenhouse. With a floriculture license you can grow and sell flowers.
+	patent_for_beehive_shop_hint = Purchase a beekeeping license. With this license you can make and sell honey.
+	patent_for_beetroot_shop_hint = Order beet seeds. Once the order arrives you can purchase beet seeds from the store.
+	patent_for_cabbage_shop_hint = Order cabbage seeds. Once the order arrives you can purchase cabbage seeds from the store.
+	patent_for_carrot_shop_hint = Order carrot seeds. Once the order arrives you can purchase carrot seeds from the store.
+	patent_for_corn_shop_hint = Order corn seeds. Once the order arrives you can purchase corn seeds from the store.
+	patent_for_hangar_refrigerator_shop_hint = Purchase a building permit to build a refrigerated warehouse and a license to operate it.
+	patent_for_hangar_vegetables_shop_hint = Purchase a barn building permit. With this permit you can build another barn in a more convenient location on the farm.
+	patent_for_house_chicken_shop_hint = Purchase a chicken farming license. With this license you can raise chickens and sell eggs.
+	patent_for_house_cow_shop_hint = Purchase a dairy farming license. With this license you can breed cows and sell milk.
+	patent_for_house_pig_shop_hint = Purchase a pig farming license. With this license you can raise and sell pigs. 
+	patent_for_house_sheep_shop_hint = Purchase a sheep farming license. With this license you can raise sheep and sell their wool.
+	patent_for_mushroom_shop_hint = Order mushroom spores. Once the order arrives you can purchase mushroom spores from the store.
+	patent_for_pumpkin_shop_hint = Order pumpkin seeds. Once the order arrives you can purchase pumpkin seeds from the store.
+	patent_for_radish_shop_hint = Order radish seeds. Once the order arrives you can purchase radish seeds from the store.
+	patent_for_strawberries_shop_hint = Order strawberry seedlings. Once the order arrives you can purchase strawberry seedlings from the store.
+	
+	notify_add_shop_harvester = You can now hire a fruit and vegetable picker to help you with your harvest.
+	notify_add_shop_helper = You can now hire a gardener to help you water and fertilize your crops.
+	notify_add_shop_box = Crates are now available in the store.
+	notify_add_shop_fivebox = Packages of five crates available in the store.
+	notify_add_shop_tenbox = Packages of 10 crates available in the store.
+	notify_add_shop_aubergine = Eggplant seedlings are now available in the store.
+	notify_add_shop_beetroot = Beet seeds are now available in the store.
+	notify_add_shop_cabbage = Cabbage seeds are now available in the store.
+	notify_add_shop_carrot = Carrot seeds are now available in the store.
+	notify_add_shop_corn = Corn seeds are now available in the store.
+	notify_add_shop_cucumber = Cucumber seedlings are now available in the store.
+	notify_add_shop_dahlia = Dahlia bulbs are now available in the store.
+	notify_add_shop_mushroom = Mushroom spores are now available in the store.
+	notify_add_shop_pepper = Pepper seedlings are now available in the store.
+	notify_add_shop_pumpkin = Pumpkin seeds are now available in the store.
+	notify_add_shop_radish = Radish seeds are now available in the store.
+	notify_add_shop_strawberries = Strawberry seedlings are now available in the store.
+	notify_add_shop_sunflower = Sunflower seeds are now available in the store.
+	notify_add_shop_tomato = Tomato seedlings are now available in the store.
+	notify_add_shop_tulip = Tulip bulbs are now available in the store.
+	notify_add_shop_watermelon = Watermelon seeds are now available in the store.
+	notify_add_shop_watercan = Watering cans are now available in the store. 
+	notify_add_shop_big_watercan = Big watering cans are now available in the store.
+	notify_add_shop_transporter = You can now rent a crane from the store.
+
+	notify_add_shop_beehive = Beehives are now available in the store.
+	notify_add_shop_house_sheep = Sheep are now available in the store.
+	notify_add_shop_house_pig = Pigs are now available in the store.
+	notify_add_shop_house_cow = Cows are now available in the store.
+	notify_add_shop_house_chicken = Chickens are now available in the store.
+
+	notify_add_shop_waterpump = Wells with water pumps are now available in the store.
+	notify_add_shop_water_sprinkler = Sprinklers are now available in the store.
+	notify_add_shop_fertilizer = Fertilizer is now available at the store.
+	notify_add_shop_big_fertilizer = Big packages of fertilizer are now available in the store.
+
+	notify_add_shop_tree_grass_palm = Banana saplings are now available in the store.
+	notify_add_shop_tree_grass_apple = Apple saplings are now available in the store.
+	notify_add_shop_tree_grass_cherry = Cherry saplings are now available in the store.
+	notify_add_shop_tree_grass_plum = Plum saplings are now available in the store.
+	notify_add_shop_tree_desert_palm = Banana saplings are now available in the store.
+	notify_add_shop_tree_desert_apple = Apple saplings are now available in the store.
+	notify_add_shop_tree_desert_cherry = Cherry saplings are now available in the store.
+	notify_add_shop_tree_desert_plum = Plum saplings are now available in the store.
+	notify_add_shop_tree_swamp_palm = Banana saplings are now available in the store.
+	notify_add_shop_tree_swamp_apple = Apple saplings are now available in the store.
+	notify_add_shop_tree_swamp_cherry = Cherry saplings are now available in the store.
+	notify_add_shop_tree_swamp_plum = Plum saplings are now available in the store.
+
+	notify_add_shop_patent_for_tulip = You can now place an order with the store to get tulip bulbs.
+	notify_add_shop_patent_for_dahlia = You can now place an order with the store to get dahlia bulbs.
+	notify_add_shop_patent_for_sunflower = You can now place an order with the store to get sunflower seeds.
+	notify_add_shop_patent_for_cucumber = You can now place an order with the store to get cucumber seedlings.
+	notify_add_shop_patent_for_tomato = You can now place an order with the store to get tomato seedlings.
+	notify_add_shop_patent_for_aubergine = You can now place an order with the store to get eggplant seedlings.
+	notify_add_shop_patent_for_pepper = You can now place an order with the store to get pepper seedlings.
+	notify_add_shop_patent_for_watermelon = You can now place an order with the store to get watermelon seeds.
+	notify_add_shop_patent_for_hangar_flowers = You can apply for a building permit and order the materials to build a greenhouse.
+	notify_add_shop_patent_for_beehive = You can now place an order with the store to get a beehive.
+	notify_add_shop_patent_for_cabbage = You can now place an order with the store to get cabbage seeds.
+	notify_add_shop_patent_for_beetroot = You can now place an order with the store to get beet seeds.
+	notify_add_shop_patent_for_carrot = You can now place an order with the store to get carrot seeds.
+	notify_add_shop_patent_for_house_pig = You can now place an order with the store to get a pigpen.
+	notify_add_shop_patent_for_corn = You can now place an order with the store to get corn seed.
+	notify_add_shop_patent_for_mushroom = You can now place an order with the store to get mushroom spores.
+	notify_add_shop_patent_for_strawberries = You can now place an order with the store to get strawberry seedlings.
+	notify_add_shop_patent_for_pumpkin = You can now place an order with the store to get pumpkin seeds.
+	notify_add_shop_patent_for_radish = You can now place an order with the store to get radish seeds.
+	
+	notify_add_shop_hangar_vegetables = Barns are now available at the store.
+	notify_add_shop_hangar_flowers = Greenhouses are now available at the store.
+	notify_add_shop_hangar_refrigerator = Refrigerated warehouses are now available at the store.
+	notify_add_shop_patent_for_house_chicken = You can now apply for a building permit and order the materials to build a chicken coop.
+	notify_add_shop_patent_for_house_cow = You can now apply for a building permit and order the materials to build a cow barn.
+	notify_add_shop_patent_for_house_pig = You can now apply for a building permit and order the materials to build a pigpen.
+ 	notify_add_shop_patent_for_house_sheep = You can now apply for a building permit and order the materials to build a sheep shack.
+	notify_add_shop_patent_for_house_beehive = You can now apply for a building permit and order the materials to build a beehive.
+	notify_add_shop_patent_for_hangar_flowers = You can now apply for a building permit and order the materials to build a greenhouse.
+	notify_add_shop_patent_for_hangar_vegetables = You can now apply for a building permit and order the materials to build a barn.
+	notify_add_shop_patent_for_hangar_refrigerator = You can now apply for a building permit and order the materials to build a refrigerated warehouse.
+	
+	notify_no_more_money = You don't have enough money to buy that!
+	notify_you_cant_put = You can't put that here!
+	notify_you_cant_storebox = This needs to be stored somewhere else!
+	notify_store_in_hangar = You can't store that here! Take it to the barn.
+	notify_store_in_fridge = You can't store that here! Take it to the refrigerated warehouse.
+	notify_store_in_flower = You can't store that here! Take it to the greenhouse.
+	notify_box_nomore_full = That crate isn't full yet!
+	notify_only_for_this_type = You're filling this crate with %s. Fill it with only this item!
+	notify_box_full = This crate is full. Take it to the barn!
+	
+	notify_cant_feed_house_sheep = Sheep only eat cabbage and carrots.
+	notify_cant_feed_house_pig = Pigs only eat beets and tomatoes.
+	notify_cant_feed_house_cow = Cows only eat cabbage and carrots.
+	notify_cant_feed_house_chicken = Chickens only eat corn feed.
+	
+	message_complete_sell_plant_tomato = Great! You fulfilled your tomato order!
+	message_complete_sell_plant_aubergine = Wonderful! You fulfilled your eggplant order!
+	message_complete_sell_plant_pepper = Excellent! You fulfilled your pepper order!
+	message_complete_sell_plant_cucumber = Terrific! You fulfilled your cucumber order!
+	message_complete_sell_plant_dahlia = Splendid! You fulfilled your dahlia order!
+	message_complete_sell_plant_sunflower = Fabulous! You fulfilled your sunflower order!
+	message_complete_sell_plant_tulip = Marvelous! You fulfilled your tulip order!
+	message_complete_sell_beehive = Great! You fulfilled your honey order!
+	message_complete_sell_plant_mushroom = Wonderful! You fulfilled your mushroom order!
+	message_complete_sell_plant_cabbage = Excellent! You fulfilled your cabbage order!
+	message_complete_sell_plant_watermelon = Terrific! You fulfilled your watermelon order!
+	message_complete_sell_plant_beetroot = Splendid! You fulfilled your beet order!
+	message_complete_sell_house_pig = Fabulous! You fulfilled your pig order! 
+	message_complete_sell_plant_carrot = Marvelous! You fulfilled your carrot order!
+	message_complete_sell_plant_corn = Great! You fulfilled your corn order!
+	message_complete_sell_plant_pumpkin = Wonderful! You fulfilled your pumpkin order!
+	message_complete_sell_plant_strawberries = Excellent! You fulfilled your strawberry order! 
+	message_complete_sell_house_sheep = Terrific! You fulfilled your wool order! 
+	message_complete_sell_house_chicken = Splendid! You fulfilled your egg order!
+	message_complete_sell_house_cow = Fabulous! You fulfilled your milk order!
+	message_complete_sell_plant_for_radish = Marvelous! You fulfilled your radish order!
+	message_complete_sell_tree_apple = Great! You fulfilled your apple order!
+	message_complete_sell_tree_plum = Wonderful! You fulfilled your plum order!
+	message_complete_sell_tree_cherry = Excellent! You fulfilled your cherry order!
+	message_complete_sell_tree_palm = Terrific! You fulfilled your banana order!
+	
+	l1_message_welcome = Welcome to the farm! We are going to learn to grow and harvest crops.
+	l1_message_dig_one = To start things off we need to till the soil. Double-click on a free place in the field to dig.
+	l1_message_dig_four = Excellent! But one square isn't enough space for our garden, so till another three sections.
+	l1_message_dig_twelve = Great! In the next levels you'll have to till much more land, but this is enough for our training garden.
+	l1_message_plant_four = Now it's time to plant seeds. Click on the packet of pumpkin seeds to take it, then click on the four sections of the garden to plant the seeds.
+	l1_message_wait_harvest = Wonderful! Now you need to wait while the pumpkins grow and ripen. You can set the packet of seeds down by double-clicking in any free space in the field.
+	l1_message_water = Plants require constant attention and care. Take the watering can by clicking on it, fill it with water by clicking on the well, then water your garden by clicking on the spaces you want to water. 
+	l1_message_water_ok = Keep it up! Watered plants grow quicker and therefore can be harvested quicker, while dry plants wilt and die.
+	l1_message_dig_more = To avoid getting bored you can dig up and till more land and plant the rest of the seeds.
+	l1_message_fruits_ready = Okay, everything's ripe and your first harvest is ready. Grab the crate and pick your vegetables. Four items will fill the crate, which you can then take to the barn.
+	l1_message_box_tutorial = Excellent! You'll need a new crate for your next harvest. To buy one from the store click on the Supplies tab in the menu below, click on the crate, then click on a free space in the field.
+	l1_message_second_harvest = Your second harvest is ready! Put the fruits of your labor in your new crate and take them to the barn.
+	l1_message_third_harvest = Your third harvest is ready! To complete this training, collect the harvest and take it to the barn.
+	l1_message_fertilizer_tutorial = Fertilizer keeps your plants healthy and makes them grow faster, so don't forget to use it in your garden. You can buy it at the store using the Supplies tab and clicking on a packet of fertilizer.
+	l1_message_thirst_reminder = Don't forget, your garden constantly needs water! So water it regularly and pay attention to the color of the soil.
+	l1_message_victory = Congratulations! Now you're familiar with the basics of farming. But there's much more to learn!
+	
+	l1_task_1dig = Using the shovel
+	l1_task_1dig_details = Double-click on a free place in the field to dig up and till the soil.
+	l1_task_4dig = Lets continue the exercise!
+	l1_task_4dig_details = Dig up and till four squares in the field.
+	l1_task_4plant = Planting the seeds
+	l1_task_4plant_details = Take the bag of seeds and plant four pumpkin plants.
+	l1_task_4water = Using the watering can
+	l1_task_4water_details = Go to the well to fill the watering can and water the pumpkin plants.
+	l1_task_3sell = Finishing the exercise
+	l1_task_3sell_details = Sell three crates of pumpkins to end the training session.
+	
+	
+	l2_task_sow = Getting Your Garden Started
+	l2_task_sow_details = Plant 12 radish seeds.
+	
+	l2_task_first_sell = Your First Order
+	l2_task_first_sell_details = We received an order for 3 crates of radishes and 3 crates of pumpkins.
+	
+	l2_task_first_patent = Place an Order
+	l2_task_first_patent_details = Order some cucumber seedlings.
+	
+	l2_task_second_sell = Your Second Order
+	l2_task_second_sell_details = We received an order for 2 crates of cucumbers, 4 crates of pumpkins, and 3 crates of radishes.
+	
+	l2_task_second_patent = Place an Order
+	l2_task_second_patent_details = Order some eggplant plants. They are pretty rare around here.
+	
+	l2_task_third_sell = We Received Yet Another Order
+	l2_task_third_sell_details = We received an order for a crate of eggplants.
+	
+	l2_message_start = So here's our first farm. Okay, now maybe we don't have the latest technology and everything's grown over with grass. But it does have a good, strong barn where we can store the harvest, and lots of fertile soil. Everything a good farm needs!
+	l2_message_sow = This farm hasn't been used for years and the grass is overgrown. It's a big job, but someone's got to do it. So roll up your sleeves and get to work. We have radish and pumpkin seeds. Planting them would be a good start.
+	l2_message_first_sell = While we were planting the seeds, the owner of the local store walked by. He liked the look of our vegetables and placed an order for 3 crates of radishes and 3 crates of pumpkins. 
+	l2_message_add_money = You fulfilled your first order and earned 200 coins.
+	l2_message_add_money_2 = You fulfilled your second order and earned 300 coins.
+	l2_message_first_patent = Your farm has all the basics and you even completed your first task. But life doesn't stand still. Order cucumber plants on the Plants tab and then you can grow these delicious vegetables.
+	l2_message_second_sell = The owner of the local store walked by again. He liked the look of our vegetables and made a good offer to buy 3 crates of cucumbers, 5 crates of pumpkins and 6 crates of radishes. 
+	l2_message_second_patent = A seed delivery truck was driving through the village with new and interesting seeds. Right now he has eggplant seeds, which no one else in the village is growing. Wouldn't it be great if we were the first to grow this wonderful vegetable?
+	l2_message_third_sell = Actually, someone else in the village also bought some eggplant seeds. So the race is on to be the first farmer to grow and sell them. This will clearly determine who's the best farmer in the village.
+	l2_message_victory = Fantastic! Everyone thinks you have the best farm in the village. You were named best farmer and lots of people are coming to visit you for advice.
+	
+	l2_message_add_waterpump = Maybe this isn't the most important thing for the farm, but if it takes you a long time to walk back and forth to the well, you can always drill a second one. (See the supply store tab for details).
+	l2_message_add_big_watercan = Your garden is getting big. It's difficult to manage a large garden with such a small watering can. But you can buy a bigger one that will let you water 12 parts of your garden with one filling. Click on the inventory tab to buy one.
+	l2_message_add_fivebox = You go to the store each time you need a new crate. Aren't you tired? We've got a special new offer! A package of five crates!
+	l2_message_thirsty_need = It's important not to forget about your plants. Otherwise they will wilt and die.
+	l2_fertilizer_help = Fertilize often, particularly when hearts appear, otherwise your plants will wilt.
+	l2_help_help = You can read a summary of your tasks by clicking on your task list at the top of the screen.
+	
+	l3_task_collect_batch_vegatables = Growing Vegetables
+	l3_task_collect_batch_vegatables_details = Grow 4 crates each of mushrooms, cucumbers, and eggplants.
+
+	l3_task_pig_alarm = Going Whole Hog
+	l3_task_pig_alarm_details = We received an order to raise and sell 7 pigs.
+	
+	l3_message_pig_alarm = Howdy neighbor! Can you imagine, the water pipe that leads to the factory burst. They've fixed it, but ground is flooded and we lost our crop of beets. Now we don't have anything to feed the pigs, and who is going to buy these scrawny, little pigs? Someone even placed an order for 7 pigs, but now were not sure we can fulfill it! We heard that you're a young, talented and trustworthy farmer. Can you help us?
+	l3_message_task_collect_batch_vegatables = We need to get growing tomatoes to feed pigs, but first we need to earn some money. We received an order to grow 4 crates each of mushrooms, cucumbers, and eggplants for the local market.
+	l3_message_task_sell_pig = Tomato seedlings are finally available at the store (see the Plants tab). We need to plant them, when they're ripe and ready we'll have something to feed our pigs.
+	l3_message_complete_sell_plant_mushroom = Great! You fulfilled your mushroom order!
+	l3_message_complete_sell_plant_cucumber = Wonderful! You fulfilled your cucumber order!
+	l3_message_complete_sell_plant_aubergine = Excellent! You fulfilled your eggplant order!
+	l3_message_victory = We did it! And now this farm is better than ever!
+	l3_message_beetroot_help = Beet seeds are available at the store (see the Seeds tab). Pigs also eat beets, and they grow faster than tomatoes .
+	l3_message_pig_feed_help = Our pigs are now eating happily. Now we just need to wait until the little piglets grow big and fat. The feed indicator will drop as the pig eats and grows. If the pig is out of food it won't grow, so be sure to them fed.
+	l3_message_pig_sow_help = Our little piglet has grown and is ready to be sold. Use a crate to carry it to the barn.
+	l3_message_destructor_help = If some earth or some existing crops are in your way, you can use the rototiller to till the soil.
+	l3_message_transporter_help	= It's now possible to rent a crane from the store. You can use the crane to move any construction to a different location (see the Store tab).
+	l3_message_water_sprinkler_help	= Sprinklers are now available at the store! It's very convenient, just place it near your garden and you won't have to water your plants by hand. Bear in mind, however, that each sprinkler only has a limited reach.
+	l3_message_add_house_pig = In order to fill your order faster, you can build another pigpen. But first you need to apply for a building license. Once you've paid for the building permit, you'll get a 500 coin grant for building a pigpen.
+	
+	l3_message_have_700money = You've earned 700 coins. You can apply for a license to build a pigpen. This will help you reach your goal faster.
+	l3_message_add_500money = You earned 500 coins.
+	
+	l4_task_big_cooler = Forest Shelterbelt
+	l4_task_big_cooler_details = In order to save the village we need to buy and plant 6 more trees!
+	l4_task_place_house_chicken = Chicken Coop
+	l4_task_place_house_chicken_details = You need to build a chicken coop.
+	l4_task_place_hangar_refrigerator = Keep it Cool
+	l4_task_place_hangar_refrigerator_details = You need to buy refrigerated warehouse.
+	
+	l4_message_big_cooler = The factory up the road experimented with a gigantic fan and it swept the local crops away. We need to plant a line of trees to protect the village and our crops from the destructive winds generated by this horrible factory. We've already planted a few, but we'll need a lot more!
+	l4_message_first_task = We need to plant 6 more trees, but we can't afford them. We don't make much money selling vegetables and our pigpen has fallen into disrepair and doesn't earn much money either. But we could get some wonderful chickens, and although they eat a lot, we could build a chicken coop and sell their eggs. Now that's much more profitable. Of course we'll need to get a license for keeping chickens, but as soon as we get it the local villagers promised to help pay for it.
+	l4_message_place_patent_for_house_chicken = So we have building permit to build the chicken coop and the license for running the operation. And, as the villagers promised, they gave you 500 coins to help cover your expenses.
+	l4_message_second_task = Okay, so now we have a chicken coop. But unfortunately we can't store their eggs in the barn, we'll need to build a refrigerated warehouse. We'll need to get another building permit, but the villagers have agreed to pay for its construction.
+	l4_message_place_patent_for_hangar_refrigerator = Great! We've got the building permit so we can start construction. And the villagers chipped in 500 coins.
+	l4_message_last_task = Fantastic! Now we have a regular flow of income. As long as we keep feeding the chickens corn feed, their eggs will make a good source of income. Now we can focus on our main goal of saving the village. We need to buy and plant 3 more apple tress and 3 more plum trees.
+	l4_message_trees_help = Trees don't require watering or fertilizer, yet they always bear fruit. Just don't forget to pick it.
+	l4_message_pig_help = We have beets in the garden in front of the pigpen. Pigs like beets just as much as tomatoes and they grow faster.
+	l4_message_victory = Thank you! The farm is safe now that we have planted all of these trees, plus we have another form of stable income!
+	l4_message_hangar_refrigerator_help = Our first refrigerated warehouse. Perishable items like eggs, milk and honey need to be stored here.
+	
+	l4_message_harvester_help = And take a look at our first hired hand, Billy! He's agreed to help pick fruits and vegetables for a small wage. Click on him to pay him and put him to work. One hundred coins will automatically be deducted from you account.
+	l4_message_harvester_money_help = Billy has stopped working and there is a coin above his head. That means its pay day. Once you've paid him he'll get back to work.
+	l4_message_harvester_question_help = A question mark has appeared above the hired hand's head. This means that Billy doesn't know to do. This can happen if be doesn't have enough to harvest. You need to wait until there are things ready to be harvested.
+	l4_message_transporter_help	= It's now possible to rent a crane from the store. You can use the crane to move any construction to a new location or replant a tree in a different place. Select the crane, click on what you want to move and then where you want to move it. It costs 10 coins every time you use this service!
+	
+	l5_task_flowers_garden = Flowers for Sale
+	l5_task_flowers_garden_details = Start selling flowers.
+	l5_task_buy_hangar_flowers = New Storage Facilities
+	l5_task_buy_hangar_flowers_details = Buy a greenhouse for storing flowers.
+	l5_task_sell_batch_flowers = Pick Some Flowers
+	l5_task_sell_batch_flowers_details = Fulfill an order for 6 crates of sunflowers and 6 crates of dahlias.
+	l5_task_buy_flowers_patent = Purchase a Florist License
+	l5_task_buy_flowers_patent_details = Place an order sunflower seeds and dahlia bulbs.
+	l5_task_flowers_sow = Plant Flowers
+	l5_task_flowers_sow_details = Plant 12 sunflowers seeds and 12 dahlia bulbs.
+	
+	l5_message_about_tasks = The local factory built a dam and made a water reservoir right next to the village. Now the soil is wet and swampy. The crops are in really poor condition and only the pigpen, cow barn and irrigation system are left. We almost totally gave up hope, but then a strong wind blew some rare seeds to the farm. They would sell for good money at the market, but they wilt before we can sell them. We need a better way of storing them.
+	l5_message_first_task = These flowers need to be stored in a special greenhouse. But before we can build one we need to apply for a building permit and a license to sell flowers. Once we have the greenhouse, collecting and keeping the flowers won't be a problem.
+	l5_message_second_task = Excellent! Now we can pick flowers and store them. Pick some flowers and see if there is a big demand for them at the market.
+	l5_message_third_task = The flowers are selling well! Therefore we decided to turn this area into a flower garden. We need to place an order for some seeds. Once we can get the seeds we'll be able to sell lots of flowers.
+	l5_message_last_task = We have lots of orders. We need to quickly plant a field of sunflowers and a field of dahlias.
+
+	l5_message_add_water_sprinkler = When the local store learned that you were selling flowers they mentioned that they have great sprinklers so we won't have to waste time watering the flowers.
+	l5_message_plant_dahlia = Great! You fulfilled your order of dahlias!
+	l5_message_plant_sunflower = Wonder! You fulfilled your order of sunflowers!
+	l5_message_plant_sunflower_help = We noticed that chickens really like sunflower seeds. So you can feed sunflowers to your chickens.
+	l5_message_victory = Now we are the largest suppliers of beautiful flowers in the region! Thank you!!
+	l5_task_second_victory = Earn some cash.
+	l5_task_second_victory_details = The flowers have died, but you can't just walk away now. You need to earn 5000 coins so you can pay to have the field dried out and return everything to normal.
+		
+	l5_message_helper_help = Did you notice Johnny? He will fertilize your flowers and plants, all for the low salary of 100 coins.
+	
+	l5_notify_add_patent_for_flowers = It's now possible to order sunflower seeds and dahlia bulbs. See the Seeds and Plants tabs for details.
+		
+	l5_message_dead_flower = The flowers have died, but you can't just quit in the middle of things. You need to earn 5000 coins to pay to have the field's dried out and return everything to normal.
+	l5_message_second_victory = Even though your flowers died, you managed to save the trees, earning enough money for further development.
+		
+	l6_task_beehive_save = Save the beehive
+    l6_task_beehive_save_details = Restore the village's beekeeping traditions. Sell 4 crates of honey.
+    l6_task_collect_batch_vegatables = Sell some vegetables
+    l6_task_collect_batch_vegatables_details = Sell 6 crates each of cucumbers, tomatoes, cabbages, and peppers.
+    l6_task_collect_batch_flowers = Sell some rare flowers
+    l6_task_collect_batch_flowers_details = Sell 6 crates each of sunflowers, dahlias, and tulips.
+    
+    l6_message_hello_heroine = Hi there! Once our village was known for its honey. We had more beehives than you could shake a stick at, but it's all been on the decline in recent years and village's hey day is long gone. Many of us were keeping the traditions going, but the candy factory pretty much ruined us. Can you help us restore our beehives and our traditions? We only have a few bags of seeds and a few small trees next to the barn. We hope that will be enough to get you started. Good luck!
+    l6_message_about_tasks = To help the village you need to restore the beehives, but that's still a long way off. For a start you'll need to attract some suppliers. We'll start by earning some money by growing vegetables in the garden!
+    l6_message_first_task = In order to attract some big customers and order some new items at the local store we need to sell 6 crates each of cucumbers, tomatoes, cabbages, and peppers.
+    l6_message_second_task = Now we need to attract some entrepreneurs. To do this let's try planting some rare flowers. Sell 6 crates each of sunflowers, dahlias, and tulips.
+    l6_message_main_task = Now we can afford the beehives. This is a good time to display the rare honey that we're making. It will attract some customers and restore the villages traditions and wealth. Sell 4 crates of honey.
+    l6_message_see_pedicellates_patents = Note that pepper and cabbage seeds are not available in the store. You need to place an order for them and pay the store a handling fee.
+
+	l6_message_help_hangar_flowers = You can store flowers in a greenhouse for a long time before they'll start to wilt. You can also store watermelons and strawberries there.
+    l6_message_help_hangar_refrigerator =  You can store perishable items like milk, eggs and honey in a refrigerated warehouse.
+    l6_message_help_beehive = Considering that bees need to get nectar from somewhere, doesn't it make sense to plant some flowers next the beehive? And don't forget to keep them watered.
+	l6_message_add_hangar_refrigerator = If you keep milk in your refrigerator, then doesn't it makes sense to store things like milk, eggs, and honey in a refrigerated warehouse? Refrigerated warehouses are now available at the store.
+	
+    l6_message_victory = Congratulations! The wonderfully delicious honey that is coming from here has restored the village's past glory and life here is much better!
+
+	l7_task_contest0 = Entry Form
+	l7_task_contest0_details = You need to earn 200 coins so you can pay the competition entry fee.
+	l7_task_contest1 = Qualifying Round
+	l7_task_contest1_details =	In order to prove your farming skills you need to give the judges 7 crates each of cucumbers, radishes, and pumpkins.
+	l7_task_contest2 = First Round
+	l7_task_contest2_details = In order to win this competition you need to have a big farm. Plant some tomatoes, beets, eggplants, and corn, and provide one crate of each to the judges.
+	l7_task_contest3 = Quality Control
+	l7_task_contest3_details = You need to provide the judges with 2 crates of tomatoes, beets, eggplants, and pumpkins for testing.
+	l7_task_contest4 = Animal Husbandry
+	l7_task_contest4_details = In order to complete this round you need to give 3 pigs and 3 crates of eggs to the judges.
+	l7_task_contest5 = Orchards
+	l7_task_contest5_details = In order to complete this round you need to plant 3 apple trees, 3 plum trees, and 3 cherry trees.
+	l7_task_contest6 = In the Name of Science
+	l7_task_contest6_details = The judges liked our fruit so much they asked us to for 2 creates each of apples, plums, and cherries.
+	l7_task_contest7 = Flower Power
+	l7_task_contest7_details = You need to show of your horticultural skills. Buy a greenhouse and give 6 crates each of dahlias, sunflowers, and tulips to the judges.
+	l7_task_contest8 = Well Isn't That Sweet?
+	l7_task_contest8_details = Time to get busy and as a bee, get a beehive and make 7 crates of honey for the judges.
+	l7_task_contest9 = New Skills for a New Round
+	l7_task_contest9_details = You need to order and build at least one cow barn.
+	l7_task_contest10 = Got Milk?
+	l7_task_contest10_details = You need to submit 10 crates of milk with plenty of vitamins to the judges.
+	l7_task_contest11 = Farm Business
+	l7_task_contest11_details = The judges want to look at the bottom line. We need to earn 1500 coins to prove that our farm is profitable.
+	l7_task_contest12 = Award Winning Vegetables
+	l7_task_contest12_details = Plant 4 fields of exotic fruits and vegetables (mushrooms, peppers, watermelons, and strawberries). Each field should have 12 plants and they all should have a health rating of 5 hearts!
+
+	l7_message_hello = The county fair is coming up and the main prize is 100,000 coins. This is money that can be used to help the farms that have been struggling around here lately. Every year farmers from our village participate, but haven't won in over two generations. But everyone seems to think you have a good chance.
+	l7_message_about_tasks = The competition's rules are as follows: every farmer starts with a small field with a barn, an apple tree, and a bag of seeds. At the end of the competition the farmer with the best farm wins! If you win you can use the prize money to buy some much needed equipment and maybe hire some workers. And not only that, it will be a moral victory for the whole village!
+	l7_message_first_task = But first you need to fill out an entry application and send in your 200 coin registration fee. You can earn that with your current resources. At the beginning of the competition all of the entrants are issued 30 coins for garden supplies.
+	l7_message_second_task = Now the judges will check your farm and see if you're ready. To do this you need to provide them with 7 crates of various vegetables. We're lucky because the judges asked for 7 crates each of cucumbers, radishes, and pumpkins. These vegetables grow very well in this area!
+	l7_message_third_task = The competition has started. There are many stages to this event, and at each stage the judges will distribute new seeds or other items for that stage's tasks. During the first stage of the competition it is important to grow as many different kinds of plants as possible. So let's plant tomatoes, corn, eggplants, and beets. These seeds are available in the store.
+	l7_message_fourth_task = Now you need to give a sample crate of each of your vegetables to the judges so they can test, weigh, and taste them.
+	l7_message_fifth_task = Excellent! We made it to the second round where they test our livestock skills. We need to raise 3 pigs and provide them with 3 crates of eggs. A pigpen, chicken coop, and refrigerated warehouse will be available at the store. They even gave us 500 coins towards some of the buildings we need for making it to the second round.
+	l7_message_sixth_task = It's a well-known fact that tress are good for the soil. They're also quite appealing to the eye. The judges would like us to plant 3 apple tress, 3 plum trees, and 3 cherry trees.
+	l7_message_seventh_task = The fruit on our trees looks so great that one of the judges was begging us for two crates each of apples, plums, and cherries for testing purposes. He said they were so great that he wants to send them to the local agricultural school so everyone can learn our secret. Let's just hope that our fruit makes it to the agricultural school and not inside the judge's tummies.
+	l7_message_eighth_task = Every year this competition includes a flower component and this year is no different. Seeds and greenhouses are already available in the store.
+	l7_message_ninth_task = Where there are flowers there are bees and where there are bees there is honey. You guessed it, the final stage of this competition is beekeeping! You need to supply the judges with 7 crates of your delicious honey.
+	l7_message_tenth_task = Here's some news. This year they added a competition for the best milk. The problem for us is that no one has raised cows for milk in a long time. We'll need to place an order for at least one cow barn.
+	l7_message_eleventh_task = According to the competition rules, the milk needs to be delicious and be rich in vitamins. In order for this to happen you need to feed your cows vegetables instead of grass, it helps add vitamins to their milk. Cows eat carrots and cabbage. When the cows eat those vegetables they will give you milk, which you'll need to store in the refrigerated warehouse. We need to provide the judges with 10 crates of milk bottles.
+	l7_message_twelfth_task = We need to demonstrate that this farm is profitable. We need to earn 1500 coins to show that our farm is a successful business!
+	l7_message_thirteenth_task = We've completed all of the competition's stages. Now the judges will evaluate the weight and taste of our vegetables, and the beauty and success of our farm. But we still have a little time to make our farm even better! We can quickly plant 4 fields of exotic fruits and vegetables, and fertilize them heavily (so they have a health rating of 5 hearts). Don't pick them because we need to the judges see how quickly the rare fruits and vegetables are growing at our farm. They will surely be impressed and victory will be ours. Watermelon, pepper, and strawberry seeds and mushroom spores are available at the store.
+	
+	l7_message_add_harvester = According to the contest rules, we're allowed to hire some helpers. Maybe we should take advantage of this possibility?
+	l7_message_victory = Congratulations! The judges thought our farm was the prettiest and most productive. As soon as they saw the field of ripe exotic fruits and vegetables it removed all doubt that we run the best farm. Now that we've won this money we'll be able to revive farming in the region. Three cheers to the best farmer!
+	l7_message_watermelon_help = Watermelons need to be stored in a refrigerated warehouse.
+	l7_message_strawberries_help = Strawberries need to be stored in a refrigerated warehouse.
+
+	l8_task_first_task = Neighborly Help
+	l8_task_first_task_details = Earn 300 coins and help old man Jones rent a new place for his store.
+	l8_task_second_task = Placing New Orders
+	l8_task_second_task_details = Place orders for eggplant, corn and carrot seeds.
+	l8_task_third_task = Eggplant Lover
+	l8_task_third_task_details = Harvest 20 crates of eggplants for the man who can sell us the saplings.
+	l8_task_fourth_task = New Builders
+	l8_task_fourth_task_details = Place orders and buy building permits for cow barns, sheep shacks, chicken coops, and beehives.
+	l8_task_fifth_task = New Storage
+	l8_task_fifth_task_details = Order barns and refrigerated warehouses.
+	l8_task_sixth_task = An Advertising Campaign
+	l8_task_sixth_task_details = Buy a chicken coop, a cow barn and a sheep shack.
+	l8_task_seventh_task = Flower Power
+	l8_task_seventh_task_details = Sell 7 crates each of sunflowers and dahlias, plus 3 crates of honey.
+	l8_task_eighth_task = The Return of the Tulips
+	l8_task_eighth_task_details = Place an order for tulip bulbs.
+	l8_task_ninth_task = A Model Garden
+	l8_task_ninth_task_details = Install 8 sprinklers and hire 4 gardeners.
+	l8_task_tenth_task  = A Foreign Supplier
+	l8_task_tenth_task_details = Plant 12 watermelons, 12 strawberry seedings, 12 mushrooms spores, and 12 pepper seedlings.
+	l8_task_eleventh_task = Savings
+	l8_task_eleventh_task_details = Earn 800 coins to cover any unforeseen costs that might arise in the future.
+
+	l8_message_hello = We've got some really bad news from our supply store. They announced that they are out of gardening supplies. No more seeds, trees, or livestock. The owners are sorry, but they just can't help us. If we can't get seeds than our dreams of restoring farming in the area will be dashed. We need to do something.
+	l8_message_about_tasks = We met with one of our old suppliers. Old man Jones is a nice old man, who said he had to cancel all of his shipments. He said that the factory director stopped by his store and told him to rip up all the contracts with the local farms. Mr. Jones said if he refused the factory director would shut down his store and kick him out on the street. He was forced to comply because the doesn't have the money to rent the space for a new store.
+	l8_message_first_task = It would be nice to know if the factory director threatened all of the farm supply stores in the area. But we can reach and agreement with old man Jones. He needs 300 coins to rent a new place for his new store. If we help him, he'll probably help us with our seed order and we'll be able to by buy a bunch of beet, cucumber and pumpkin seeds.
+	l8_message_second_task = Old man Jones was very grateful. He was able to rent a new space for only 200 coins and gave us 100 back. He also explained that he sent a letter to his friend, who runs a garden supply store in a different town. He will sell us certain seeds at his old prices. We just need to place the order and he'll be able to supply us with eggplant, corn, and carrot seeds.
+	l8_message_third_task = Old man Jones has another friend who can deliver tree saplings. Jones says he absolutely loves eggplant, and it's no longer available in the grocery stores. He jokingly said he'd give up 100 trees for an eggplant, but there's a little bit of truth in every joke. If we offer him 20 crates of eggplants there's no way he can refuse to sell us saplings.
+	l8_message_fourth_task = When the guys from the sawmill heard that no one would sell us buildings, they decided to take matters into their own hands. They built a pigpen, and it's just as good as the ones we used to get from town. They only have a permit for building pigpens, but if we place a bunch of orders and apply for additional building permits they are willing to make us cow barns, sheep shacks, chicken coops, and beehives.
+	l8_message_fifth_task = Now where are we going to be without a place to store everything? We need to get building permits and a barn and refrigerated warehouse.
+	l8_message_sixth_task = You need to help the sawmill guys advertise their new undertaking. You can do this by having them build you a chicken coop, a cow barn and a sheep shack.
+	l8_message_seventh_task = A seed supplier from another town heard about our farm from a friend. They provide flower seeds and immediately gave us some dahlia bulbs and sunflower seeds, as well as a greenhouse that the store owner built himself. We don't even need to place an order for these seeds and bulbs, however he only sells his beloved tulips to people who have proven they know how to take care of flowers. You need to prove yourself by giving him 7 crates of sunflowers and 7 crates of dahlias. But that's not all. It turns out he has a weakness for honey, so let's sweeten the deal with 5 crates of honey.
+	l8_message_eighth_task = The supplier was impressed with our flowers and has agreed to provide us his beloved tulip bulbs. Now we just need to place an order.
+	l8_message_ninth_task = We've practically managed to find new suppliers for just about everything we need except for exotic fruits and vegetables. But it looks like we're in luck. A foreign supplier that deals in fruits and vegetables arrived in town yesterday. The only problem is that his clients need to meet rather strict standards. He will only sell seeds and plants to well-equipped farms that are well positioned to take care of the fruits and vegetables. To meet his requirements we need to install 8 sprinklers and 4 gardeners.
+	l8_message_tenth_task = In addition to exotic seeds, the foreign supplier agreed to ship us the rest of the seeds that we haven't been able to find. Let's plant a bunch of patches and see how these foreign seeds adapt to our environment.
+	l8_message_eleventh_task = We need to save some money for unforeseen expenses. Eight hundred coins would probably do wonders in getting us out of any serious difficulty.
+	
+	l8_message_victory = Excellent! The factory's threats have been mitigated. We have managed to find suppliers for everything we need. And now even the biggest skeptics believe that we'll win!
+	l8_message_sheep_help = Our new supplier has offered us a new kind of livestock, sheep. According to the latest studies, when sheep eat cabbage and carrots their wool is much better and stronger.
+	
+	l9_task_first_task = Paying the Mortgages
+	l9_task_first_task_details = You need to earn 10,000 coins.
+
+	l9_message_hello = A few years ago we made a huge mistake. When AgroBank opened, a number of farmers took out big loans to improve their land and upgrade their facilities. Agroson promised good terms, and we hoped for the best. But we're farmers, not lawyers! We didn't know that you have to read the fine print. As a result a large number of farms owe Argoson's bank lots of money.
+	l9_message_about_tasks = AgroBank is now exercising a point in the mortgages that farms quickly repay their loans. If they don't pay the bank back now they will foreclose on most of the farms in our county. We need to earn 10,000 coins to save the farms and be rid of AgroBank forever.
+	l9_message_victory = "9,998, 9,999, 10,000. Yes, it's all here. And here's your receipt to show that you've paid the loans in full. Have a nice day." hissed the teller at AgroBank. You've saved the farms!
+	
+	l10_task_first_task = Drought
+	l10_task_first_task_details = Keep the plants from wilting and dying while you wait for the new sprinklers (10 minutes).
+	l10_task_second_task = Water Works
+	l10_task_second_task_details = Install 5 sprinklers.
+	l10_task_third_task = Garden Restoration
+	l10_task_third_task_details = Plant 24 patches each of corn, cabbage and carrots, and 12 patches of beets.
+	l10_task_fourth_task = New Improvements
+ 	l10_task_fourth_task_details = Hire 3 gardeners
+	l10_task_fifth_task = Diversity
+	l10_task_fifth_task_details = Plant 4 banana trees.
+	l10_task_sixth_task = Land Dispute
+	l10_task_sixth_task_details = Earn 1200 coins.
+	
+	l10_task_alt_second_task = Garden Restoration
+	l10_task_alt_second_task_details = Plant 12 beets, 12 pumpkins, 12 radishes, and 12 cucumbers.
+	l10_task_alt_third_task = New Improvements
+	l10_task_alt_third_task_details = Install 4 sprinklers.
+	l10_task_alt_fourth_task = Productive Animals
+	l10_task_alt_fourth_task_details = Sell 2 pigs, 2 crates of eggs, 2 crates of milk, and 2 crates of wool.
+	l10_task_alt_fifth_task = Diversity
+	l10_task_alt_fifth_task_details = Plant 4 banana trees, 3 cherry trees, and 2 plum trees.
+	l10_task_alt_sixth_task = Land Dispute
+	l10_task_alt_sixth_task_details = Earn 1200 coins.
+	
+	l10_message_hello = It's great to have you here. Look at what happened. Everything dried up and turned into a desert. Our once model field is drying up. Our area has never had a drought before and the stores here don't even carry spriklers. Our suppliers have ordered spriklers, but they aren't sure when they will reach the store.
+	l10_message_about_tasks = We need to save the ground and the crops. The well diggers and the sprinkler supplies should be available soon. In the meantime you need to keep watering the crops and earn a bit of money so you can pay for them when they arrive. Once the sprinklers are put into place everything will be safe.
+	l10_message_first_task = The well diggers and supplies are on their way, but we can't let the garden die. Keep watering the plants until more long term help arrives.
+	l10_message_second_task = Excellent! Now we can water the plants automatically, however we need to make sure that sprinklers cover all our plants. It looks like we'll need to install at least 5 sprinklers.
+	l10_message_third_task = Before you got here all of our plants wilted and died and we couldn't grow any food for our animals. The suppliers that delivered the sprinklers have all the seeds that we need, but we'll need to pay a delivery fee. Then we can plant 24 sections of corn, cabbage, and carrots each, and 12 beets.
+	l10_message_fourth_task = Wonderful! Now the livestock will be well fed and increase the farm's profits. Unfortunately, due to the drought, the farm's harvests aren't as plentiful as before. It probably makes sense to hire at least 3 gardeners to help keep everything well fertilized. The vegetables will grow faster and the increased production will restore the farm's prestige.
+	l10_message_fifth_task = Awesome! You've saved the farm and restored its glory. We were just offered some new exotic trees. Diversifying our activities by adding a few trees is a wise investment for the future. Plant 4 banana trees.
+	l10_message_sixth_task = Great job! The farm survived the drought, but now it faces a land dispute. The local government noticed that farm was dead and dusty and offered the land to the neighboring factory for expansion. The farm's lease on the land is still valid for more than 30 years, so it's clearly against the law. You'll have to hire a lawyer and take everyone to court. Unfortunately, good lawyers are expensive. Earn 1200 coins so you can hire the best lawyer to ensure that you'll win the case.
+	
+	l10_message_alt_second_task = How awful! We've lost a bunch of crops. We need to restore the garden and get the farm running again. The supply store heard about our problem and suggested we buy special hybrid seeds that are better able to survive droughts. We'll have to fill out some new order forms but it'll be worth it. The neighboring farm also heard about our troubles and lent us 680 coins. You need to replace the dead plants with 12 beets, 12 pumpkins, 12 radishes, and 12 cucumbers.
+	l10_message_alt_third_task = Even though we have these special hybrid seeds, the drought isn't over yet. In order to avoid another disaster we need to install at least 4 sprinklers. It's also now possible to hire gardeners.
+	l10_message_alt_fourth_task = Now that the fields look like they're in good shape, we should start paying attention to the livestock that's been starving for the last few days. We need to plant some vegetables to feed the animals. Then we need to sell 2 pigs, 2 crates of eggs, 2 crates of milk, and 2 crates of wool.
+	l10_message_alt_fifth_task = Even though the seeds we bought can grow in the desert, it's always good for business to diversify the farm's activities. Our suppliers have recommended we buy some exotic trees that are well suited for hot dry climates. Plant 4 banana trees, 3 cherry trees, and 2 plum trees.
+	l10_message_alt_sixth_task = The farm survived the drought, but now it faces a land dispute. The local government noticed that farm was dead and dusty and offered the land to the neighboring factory for expansion. The farm's lease on the land is still valid for more than 30 years, so it's clearly against the law. You'll have to hire a lawyer and take everyone to court. Unfortunately, good lawyers are expensive. Earn 1200 coins so you can hire the best lawyer to ensure that you'll win the case.
+	
+	l10_message_harvester = It probably makes sense to hire a farm hand. They can pick our fruits and vegetable and help us earn money for the sprinklers while we water the plants.
+	l10_message_add_water_sprinkler = Sprinklers are available in the store.
+	
+	l11_task_first_task = First Task
+	l11_task_first_task_details = Sell a crate of beets, a crate of tomatoes, and 5 pigs, and hire a fruit and vegetable picker.
+	l11_task_second_task = Second Task
+	l11_task_second_task_details = Sell a crate of eggplants, build a refrigerated warehouse, hire a gardener, and install 2 sprinklers.
+	l11_task_third_task = Third Task
+	l11_task_third_task_details = Sell a crate of radishes and 5 crates of eggs, hire a gardener and a fruit and vegetable picker.
+	l11_task_fourth_task = Fourth Task
+ 	l11_task_fourth_task_details = Sell a crate of sunflowers and a crate of dahlias, build a greenhouse and a beehive.
+	l11_task_fifth_task = Fifth Task
+	l11_task_fifth_task_details = Sell a crate of carrots, a crate of cabbage, 5 crates of milk, and hire a fruit and vegetable picker.
+	l11_task_sixth_task = Sixth Task
+	l11_task_sixth_task_details = Sell 5 crates of mushrooms and 5 crates of honey, hire a gardener, and install 6 sprinklers.
+	l11_task_seventh_task = Seventh Task
+	l11_task_seventh_task_details = Sell 5 crates of tulips, 3 crates of pumpkins, and 3 crates of cucumbers, and build a sheep shack.
+	l11_task_eighth_task = Eighth Task
+	l11_task_eighth_task_details = Sell 4 crates of strawberries and 4 creates of watermelons, and hire a gardener and a fruit and vegetable picker.
+	l11_task_ninth_task = Ninth Task
+	l11_task_ninth_task_details = Sell a crate of wool, plant a apple tree and a cherry tree, and install 2 sprinklers.
+	l11_task_tenth_task  = Tenth Task
+	l11_task_tenth_task_details = Sell 5 crates of peppers, build a chicken coop, a sheep shack, and cow barn.
+	l11_task_eleventh_task = Eleventh Task
+	l11_task_eleventh_task_details = Plant a plum tree and a banana tree, and earn 800 coins.
+	
+	l11_message_hello = It's time to take farming to a new level! We need to build a farm that will conform to all of the new standards. All of the other farms in the region have followed your example and are expanding and becoming more profitable. Thanks to you the region is booming!
+	l11_message_about_tasks = We have a plan to build a modern, efficient farm that will maximize profits. When were done all the other farms in the area will use it as an example!
+	l11_message_first_task = Before we can start we need to earn some money. Let's build a pigpen and sell 5 pigs, a crate of beets and a crate of tomatoes, and, as a first step toward automation, let's hire a farm hand to help pick your vegetables.
+	l11_message_second_task =  We need to develop different kinds of vegetables, so let's start with eggplants. We also need to prepare to grow perishable items so let's build a refrigerated warehouse. And, in the name of automation, let's install 2 sprinklers and hire a gardener.
+	l11_message_third_task = Let's test a new technique. We need to sell a crate of radishes. And since we really want to use our new refrigerated warehouse, let's build a chicken coop and sell 5 crates of eggs. To further develop automation we should hire two assistants - a gardener and a fruit and vegetable picker.
+	l11_message_fourth_task = Our new farm has to have everything. So we shouldn't forget about flowers. You need to plant and sell a crate of sunflowers and a crate of dahlias and build a greenhouse for storing our new flowers, and while we're at, let's build a beehive too.
+ 	l11_message_fifth_task = In order to improve the farm's automation we should hire another assistant. You need to sell a crate of carrots and a crate of cabbage. Then feed these vegetable to our cows and sell 5 crates of milk.
+	l11_message_sixth_task = We need to hire another gardener and install a few more spriklers so we don't have to worry about taking care of the plants. Once that's out of the way plant some mushrooms and sell 5 crates of them. Don't forget about that beehive, sell 5 crates of honey.
+	l11_message_seventh_task = Sell 5 crates of tulips, 3 crates of pumpkins, and 3 crates of cucumbers. And since our farm needs everything, we need to build a sheep shack.
+	l11_message_eighth_task = Hire two assistants and while they are busy working, let's get to work on introducing some new fruit. Sell 4 crates of each watermelons and strawberries.
+	l11_message_ninth_task = Let's check our sheep shack by selling a crate a wool. Plan ahead for future crops by installing 2 more sprinklers. Plant apple and cherry trees so our farm is making more delicious fruit.
+	l11_message_tenth_task  = The farm needs to continue to expand, so let's build a chicken coop, a sheep shack, and a cow barn. Then plant some peppers and sell 5 crates.
+	l11_message_eleventh_task = And so, as we complete our grand plan, let's plant plum and banana trees. Then earn 800 coins so you can hire a director who will manage all the workers.
+	
+	l11_message_victory = We've completed our grandiose plan. This farm will serve as an example for the entire county and the area will continue to prosper.
+		
+	l12_task_first_lot_vegetables = Deliver the First Shipment of Vegetables
+	l12_task_first_lot_vegetables_details = Organize 3 crates each of radishes, pumpkins, corn, and tomatoes.
+	l12_task_second_lot_vegetables = Deliver the Second Shipment of Vegetables.
+	l12_task_second_lot_vegetables_details = Organize 3 crates each of cucumbers, eggplants, peppers, and mushrooms.
+	l12_task_first_lot_flowers = Deliver the First Shipment of Flowers
+	l12_task_first_lot_flowers_details = Organize 3 crates each of tulips, dahlias, sunflowers, and watermelons.
+	l12_task_first_lot_strawberries_behive = Deliver Honey and Strawberries
+	l12_task_first_lot_strawberries_behive_details = Organize 3 crates each of strawberries and honey.
+	l12_task_first_lot_trees = Deliver a Shipment of Fruit
+	l12_task_first_lot_trees_details = Organize 3 crates each of apples, bananas, plums, and cherries.
+	l12_task_first_lot_farms_produktion = Deliver a Shipment of Groceries.
+	l12_task_first_lot_farms_produktion_details = Organize 3 pigs and 3 crates each of eggs, wool, and milk.
+	l12_task_first_shop_order = Fulfill the Grocery Store's Order
+	l12_task_first_shop_order_details = Organize 3 pigs and 3 crates each of sunflowers, mushrooms, and bananas.
+	l12_task_second_shop_order = Fulfill the Grocery Store's Order
+	l12_task_second_shop_order_details = Organize 3 crates each of cabbage, wool, tulips, and watermelons.
+	l12_task_third_shop_order = Fulfill the Grocery Store's Order
+	l12_task_third_shop_order_details = Organize 3 crates each of milk, strawberries, honey, and cherries.
+	l12_task_fourth_shop_order = Fulfill the Grocery Store's Order
+	l12_task_fourth_shop_order_details = Organize 3 crates each of peppers, apples, cabbages, and eggs.
+	
+	l12_message_victory = The stores are overflowing with our fresh vegetables and no one buys Agro Corporation's processed stuff anymore. They went bankrupt. They say they are going to tear down the factory and make a park. We won!!!
+	l12_message_cool_vegetables = The region has been slowly reviving and soon there will be lots of prosperous farms here. Agro Corporation in its bid to win the tender developed delicious tasting, but unhealthy processed food. Even though it doesn't contain any vitamins or nutrition, it's cheap. It's our mission to fill the stores with delicious, nutritious, fresh fruits and vegetables. When no one buys the processed food the Agro Corporation will go bankrupt and everyone will eat good healthy food. 
+	l12_message_first_lot_vegetables = Before the grocery stores will stock our products they want to see how well they sell during a trial period.
+	l12_message_second_lot_vegetables = The stores are amazed at how well our vegetables sold and are ready to try more. They also paid us our proceeds from their sales, which came to 200 coins. We need to ship them some different vegetables. This time let's make their customers happy with something a little exotic.
+	l12_message_first_lot_flowers = Our vegetables are selling really well. Maybe we should see how our flowers will sell. And let's sweeten the deal and throw in some watermelons too. Our proceeds from the sales doubled. This time they gave us 400 coins
+	l12_message_first_lot_strawberries_behive = Everyone in the city loved our watermelons. They are a total hit! At the same time, Agro Corporation's packaged frozen food and candy sales have dropped. It's the perfect time to give the people some natural sweets, so let's ship some honey and strawberries. The profits from the last shipment came to 600 coins.
+	l12_message_first_lot_trees_details = Are honey and vegetables are on shelves in stores all across the city. But we must not forget that lot's of delicious fruit grows on tress. We earned 700 coins from the last shipment.
+	l12_message_first_lot_farms_produktion = All of our products have been selling very successful in the stores. Let's ship some great natural products like eggs, milk, pigs, and wool. Our profits from the last shipment was 150 coins.
+	l12_message_first_shop_order = Our products are beginning to sell out and the stores want more! We have an order for items that they are running out of. We also earned 1500 coins from our last shipment.
+	l12_message_second_shop_order = People can't get enough of our delicious, healthy food. The stores want more! Pretty soon people will be buying only our vegetables. They gave us another order to fill and 900 coins.
+	l12_message_third_shop_order = Our products are occupying about half of the floor space in numerous grocery stores across town and sales are up! We earned 1200 coins on the last shipment! It's just a matter of time before we win the tender. We have another shipment to get ready.
+	l12_message_fourth_shop_order = The stores are filled with our products and they just placed another huge order and paid us 1500 coins. If we fulfill this big order we'll win the tender for sure.
+ 	l12_message_supplier_sabotage = Once again Agro Corporation is interfering with our work. They bought up all the seeds that we ordered and now our suppliers don't have anything to sell us. Why does this keep happening to us? We'll have to find some new suppliers.
+
+
+	comics_p1f1b1 = Once upon a time, in a small, faraway village, there was a special girl.
+	comics_p1f1b2 = You will become the greatest farmer of our time and you'll save us from the onslaught of heavy industry!
+	comics_p1f1b3 = Old granny was losing her mind in her old age, but she was right about this.
+	comics_p1f2b1 = Even in her infancy, the little girl showed a strong aptitude in farming.
+	comics_p1f2b2 = Look, Ginger's not even a year old, and she's already made quite a garden there in the sand!
+	comics_p1f2b3 = Mark my words, little Ginger has a great future ahead of her.
+	comics_p1f3b1 = When she was six years old, her grandfather taught her the intricacies of farming.
+	comics_p1f3b2 = Feel the strength within you, my young student, and till that soil!
+	comics_p1f5b1 = Whack!!
+	comics_p1f6b1 = Crunch!!
+	comics_p1f7b1 = Some things didn't come easily to Ginger...
+	comics_p1f7b2 = Boy, that doesn't really look like a garden, now does it?
+	comics_p1f7b3 = ...but she persisted and over time learned all of her grandfather's gardening secrets.
+	comics_p1f8b1 = Don't forget, my young student, that anything you do must come from deep within you!
+	comics_p1f8b2 =	Grandpa, why do you always say such weird stuff?
+	
+	comics_p2f1b1 = You're quite accomplished at farming now. That's why we're giving you a special present for your 18th birthday...
+	comics_p2f1b2 = Your own farm!
+	comics_p2f1b3 = Oh wow!
+	comics_p2f2b1 = Just imagine all of the vegetables I'll be able to grow here!
+	comics_p2f2b2 = And fruit...
+	comics_p2f2b3 = Cock-a-doodle-doo!
+	comics_p2f3b1 = This land once belonged to my grandfather, the great Bob Johnson!
+	comics_p2f4b1 = Ahhhh!
+	comics_p2f4b2 = Grandpa, what year was that again?
+	comics_p2f5b1 = Hack-a-cough-doo!
+	comics_p2f6b1 = Don't worry, my grandchild.
+	comics_p2f6b2 = Everything's in your hands and I know you'll do a great job!
+	comics_p2f7b1 = Bam!
+	comics_p2f8b1 = Cooooo...
+	
+	comics_p3f1b1 = Then one beautiful, sunny, quiet morning...
+	comics_p3f2b1 = From the deep of the woods came a loud pig oinking.
+	comics_p3f3b1 = It piqued the rooster's interest.
+	comics_p3f5b1 = And woke up Ginger.
+	comics_p3f5b2 = What happened?
+	comics_p3f6b1 = There's been an accident at the neighbor's pig farm!
+	comics_p3f6b2 = Come on, Ginger, let's go help.
+	comics_p3f7b1 = When they reached the pig farm they found a horrible mess.
+	comics_p3f7b2 = A water pipe that leads to the factory down the road burst and flooded the entire farm!
+	comics_p3f7b3 = And who let out that horrible scream?
+	comics_p3f7b4 = The pigs! All their food had been ruined. The poor creatures are raging with hunger.
+	comics_p3f8b1 = The poor pigs!
+	comics_p3f8b2 = No problem, we'll help take care of them now.
+	comics_p3f8b3 = Oink!
+	comics_p3f8b4 = Oink!
+	comics_p3f8b5 = Grrrr
+    
+	comics_p4f1b1 = The family was celebrating Grandpa's birthday.
+	comics_p4f1b2 = ...and so I asked him, "what are you using for fertilizer?"
+	comics_p4f1b3 = And he answered, "Same as always... sand of course!"
+	comics_p4f1b4 = Ha, ha, ha!
+	comics_p4f1b5 = Then all of a sudden...
+	comics_p4f2b1 = Whosh
+	comics_p4f3b1 = Smack!
+	comics_p4f5b1 = Meow!
+	comics_p4f6b1 = Oh my!
+	comics_p4f7b1 = Splat!
+	comics_p4f8b1 = Whosh
+	comics_p4f9b1 = Bam!
+	comics_p4f10b1 = Splat!
+	comics_p4f10b2 = Smack!
+	comics_p4f10b3 = After a while the "tomato storm" subsided.
+	comics_p4f10b4 = Ring, Ring!
+	comics_p4f11b1 = Hello?
+	comics_p4f12b1 = Howdy Uncle! Did anything just fly your way?
+	comics_p4f12b2 = A big hello to you Nephew. So that was you attacking us with tomatoes, huh?
+	comics_p4f12b3 = It was that stupid factory!
+	comics_p4f12b4 = They turned on some sort of huge ventilation system and the darn thing blew all the tomatoes off our fields! Blew the cat off the roof too!
+	comics_p4f12b5 = No kidding!?
+	comics_p4f12b6 = We're not sure what to do. If they turn it back on, it might blow the entire village away.
+	comics_p4f12b7 = Don't worry about it nephew! After we clean all the ketchup off the house we'll figure out how to help you.
+	comics_p4f13b1 = Hmmm. Now how can we protect uncle Joe's village from the wind that factory kicks up?
+	comics_p4f13b2 = I think I have an idea!
+	
+	comics_p5f1b1 = Ginger received a much deserved award.
+	comics_p5f1b2 = For outstanding service to our village and all its residents, I present you...
+	comics_p5f1b3 = ...my dear niece, this honorary certificate!
+	comics_p5f1b4 = Thank you! I would like to thank my entire family, particularly my grandpa!
+	comics_p5f1b5 = Without his help I never would have been here today. I would also like to thank...
+	comics_p5f1b6 = But Ginger's speech was interrupted by a man who stepped out of the crowd with a letter in his hand.
+	comics_p5f2b1 = Well, what we got here, is well you know, well, these folks here are asking for help.
+	comics_p5f2b2 = Let me read this letter to you. It's from the folks over yonder in Greenfield. "Dear Ginger! We have a rather unfortunate situation here in Greenfield."
+	comics_p5f2b3 = "The engineers from the local factory have built a power dam which has flooded much of our land. Plants are wilting, our crops are dying and we don't know what to do."
+	comics_p5f2b4 = "You did such a good job solving saving your village from your local factory's gigantic fan, we thought maybe you could help us too? Sincerely yours, the villagers from Greenfield."
+	comics_p5f2b5 = Wow. What kind of factory is it? It seems I just solve one problem after another.
+	comics_p5f2b6 = Well, it's like this...
+	comics_p5f3b1 = A few years back a certain Mr. Agroson showed up.
+	comics_p5f3b2 = Not your nicest looking fellow, but he spoke well and had plenty of money.
+	comics_p5f3b3 = He promised to supply the city with food. Cheap, but unhealthy and bad for the environment.
+	comics_p5f3b4 = He built his food factory on the other side of the hills and then it all started.
+	comics_p5f3b5 = Everything in our village got wet and swampy, while our neighboring village is experiencing a drought.
+	comics_p5f3b6 = And when the wind blows from those hills it has an awful smell and the rain turns all purple!
+	comics_p5f4b1 = That's horrible! And totally intolerable!
+	comics_p5f4b2 = Grandpa, let's pack our things, we need to leave immediately!
+	comics_p5f4b3 = It will take us eight hours to walk to that village, we won't make it by nightfall...
+	comics_p5f4b4 = But we're not going to walk. Let's test Uncle Joe's present!
+	comics_p5f5b1 = Well look at that! That old jalopy is perfect for dirt roads!
+	comics_p5f5b2 = It's not an old jalopy, it last year's Chevrodzuki.
+	comics_p5f5b3 = Okay, let's go!
+	comics_p5f6b1 = Beep-boop
+	
+	comics_p6f1b1 = Grandpa and Grandma were enjoying their usual afternoon tea when...
+	comics_p6f1b2 = When will Ginger be back? I really miss her.
+	comics_p6f1b3 = Today I think. Did you hear about Greenfield? Everything's okay now.
+	comics_p6f1b4 = Vrooom!
+	comics_p6f1b5 = Speak of the devil!
+	comics_p6f2b1 = Hi Grandma! Hi Grandpa! It's so good to see you!
+	comics_p6f2b2 = Greenfield is quite a swamp these days! Complete with frogs and leeches...
+	comics_p6f3b1 = Coo-Coooo?
+	comics_p6f4b1 = Smack!
+	comics_p6f5b1 = Have a seat Ginger. Here's your teacup...
+	comics_p6f5b2 = ...and your tea!
+	comics_p6f5b3 = Thank you! Where are the sweets?
+	comics_p6f5b4 = Well, Ginger, I don't have anything sweet to bake with!
+	comics_p6f5b5 = I used to get honey from old Betty up in Plainsville.
+	comics_p6f5b6 = But now there's a big factory up there that's making chocolates and candies. As a result people stopped buying her honey.
+	comics_p6f5b7 = Basically, dear, the factory ruined everything.
+	comics_p6f5b8 = What? There there won't be anymore...
+	comics_p6f5b9 = ...of your honey cakes and pastries?
+	comics_p6f6b1 = Well, now I'm really mad!
+	comics_p6f7b1 = Hold on Plainsville! I'm coming to save you!
+	comics_p6f7b2 = In the name of...
+	comics_p6f7b3 = Freedom!
+	comics_p6f7b4 = ...and honey pastries!
+	
+	comics_p7f1b1 = Meanwhile, in Mr. Agroson's office...
+	comics_p7f1b2 = Curses! That damn girl forced us to close our chocolate factory. I just won't stand for it!
+	comics_p7f1b3 = Jacques, Helmut, pay attention! We need to learn everything we can about this little... Ginger.
+	comics_p7f1b4 = I don't care if you have to tear the entire village apart, I want some compromising material on this girl... something we can use against her. Understand?
+	comics_p7f1b5 = Oui, everything's clear, mon general!
+	comics_p7f1b6 = Ja, natürlich! Like taking candy from a baby!
+	comics_p7f1b7 = Excellent. You're free to go and get to work. Janice!
+	comics_p7f1b8 = Yes sir?
+	comics_p7f1b9 = Arrange a meeting with little Miss Ginger. Tell her that I have a... 
+	comics_p7f1b10 = ...a proposition for her.
+	comics_p7f2b1 = The next day...
+	comics_p7f2b2 = Wow! When did they manage to build this? I hope the elevator works.
+	comics_p7f3b1 = Ginger, you have great potential!
+	comics_p7f3b2 = Single handedly you took down one of my corporation's divisions. I truly admire your business skills.
+	comics_p7f3b3 = But imagine what you could do if you had the backing of my money and connections!
+	comics_p7f3b4 = Join me and together we'll turn the whole region into a wonderful utopia. What do you think?
+	comics_p7f3b5 = Thank you for your offer Mr. Agroson, but I'm happier working with my friends.
+	comics_p7f3b6 = You should use some of your money to buy some flowers and plants. It's depressing here... sort of like a tomb.
+	comics_p7f4b1 = You know my number, so if you want I can have the best flowers in the region delivered here in less than 24 hours!
+	comics_p7f4b2 = Now just wait a second, you arrogant little snob!
+	comics_p7f4b3 = You'll soon find out what happens to those who reject my generosity!
+	comics_p7f5b1 = Meeeeoooowwwww!
+	comics_p7f6b1 = Two days later...
+	comics_p7f6b2 = And in other news... Today Mr. Agroson, CEO of The Agro Corporation, announced his company's latest new initiative.
+	comics_p7f6b3 = The Agro Corportation plans to buy 12,000 acres of land in our region to build a giant new amusement park.
+	comics_p7f6b4 = According to Agroson, this park will attract countless tourists and significantly raise the county's budget.
+	comics_p7f6b5 = The land is currently occupied by a few of out-of-date and unprofitable farms.
+	comics_p7f6b6 = My company will breathe new life into this region.
+	comics_p7f6b7 = Instead of a few crates of rotting vegetables, we can attract thousands of tourists who will be happy to spend their money!
+	comics_p7f6b8 = And in ten years this region will be known as the carousel capital of the world!
+	comics_p7f7b1 = Wow! It didn't take him long to carry out his threat.
+	comics_p7f8b1 = We'll just have to show the city that we can give them more than just a few crates of rotten vegetables!
+	
+	comics_p8f1b1 = Only a month until the county fair!
+	comics_p8f1b2 = It's been over 50 years since someone from our village won the prize for best farmer.
+	comics_p8f2b1 = Ginger, a famous local farmer, has announced that she is entering the competition!
+	comics_p8f2b2 = Can this agricultural genius bring victory to our village?
+	comics_p8f3b1 = The mayor has said that he is very interested in this year's results.
+	comics_p8f3b2 = The winners always get fame, prizes, and great contracts!
+	
+	comics_p9f1b1 = You idiots! Where's the information that I asked you to get?
+	comics_p9f2b1 = But Monsieur Agroson, the girl is clean!
+	comics_p9f2b2 = It's true, boss! We looked everywhere, but der is absolutely nothing on die Fräulein Ginger.
+	comics_p9f2b3 = That is ridiculous! I will give you one more week. But if you don't come up with anything you'll only have yourselves to blame!
+	comics_p9f2b4 = Janice! Get me Ginger on the phone. I want to tell her a few things personally.
+	comics_p9f3b1 = Hello?
+	comics_p9f4b1 = Okay, now listen carefully, Ginger! I will not have you wrecking my company's profits. Stop your malignant behavior or suffer the consequences!
+	comics_p9f4b2 = You can't threaten me Mr. Agroson...
+	comics_p9f4b3 = Really? Do you have any idea how many of your friends are living on my land? How many of them owe money to my bank? You don't want to mess with me, little girl!
+	comics_p9f5b1 = "Down with out-of-date and unprofitable farms! Let's build new shopping centers and amusement parks!"
+	comics_p9f5b2 = Mr. Agroson's speech got a lot of positive feedback from investors at Agro Corporation's stockholder meeting!
+	comics_p9f5b3 = The campaign against loan defaulters continues to grow. And today another farm declared bankruptcy and foreclosed on its loan.
+	
+	comics_p10f1b1 = Boss, boss! We found it!
+	comics_p10f1b2 = We didn't find anything on Ginger, but we found something on her grandparents.
+	comics_p10f1b3 = So, let's see... Born... married... no children. So they adopted her? What's criminal about that?
+	comics_p10f1b4 = Nein, boss! There is no paperwork to show that she was legally adopted. It's not official.
+	comics_p10f1b5 = Really? Hmmm... Good work boys!
+	comics_p10f2b1 = Ginger! Have a seat. Would you like some tea? Have a look at this folder, I think you'll find it interesting!
+	comics_p10f2b2 = What is it?
+	comics_p10f2b3 = Nothing in particular! Just proof that you were kidnaped when you were a baby.
+	comics_p10f2b4 = This is your last warning. Don't mess with me or my company or I'll send your beloved grandparents to jail! Ha! Ha! Ha! Ha! Haaaa!
+	comics_p10f3b1 = Uncle Joe, it's Ginger! Do you know who my real parents are?
+	comics_p10f4b1 = Oh, Ginger... I really don't know all the details to the story. You'd better ask old Gus. He probably remembers everything.
+	comics_p10f4b2 = Okay. Do you know where I can find him?
+	comics_p10f5b1 = Gus? Hello. My name is...
+	comics_p10f5b2 = Ginger, yes, I know who you are. Please come in.
+	comics_p10f6b1 = Oh, it really was a dark tale. I'm old and my memory isn't so great anymore.
+	comics_p10f6b2 = My farm is run-down, my garden is overrun with weeds, and my cows have run away...
+	comics_p10f6b3 = But if you can help me, I'll probably be able to remember. Maybe some fresh cucumbers will help refresh my memory!
+	
+	comics_p11f1b1 = Well, thank you, Ginger, you did right by me and saved my farm. And with all these fresh vegetables I feel as good as new, and I'm ready to tell you about your parents.
+    comics_p11f1b2 = It was like this...
+    comics_p11f2b1 = A long time ago, a young successful businessman divorced his wife.
+    comics_p11f2b2 = Do you see the court's decision? Give me the baby or witness the total rage of Peter Agroson! The girl is mine and mine alone!
+    comics_p11f3b1 = But there was a strange turn of fate...
+    comics_p11f4b1 = That limousine hit a big pothole that sent the little girl flying.
+    comics_p11f5b1 = When your grandpa and grandma found you, well, Ginger, their happiness had no limits.
+    comics_p11f5b2 = God didn't give them children, but they took you in as their own.
+    comics_p11f6b1 = And that's how you ended up on our village, here.
+    comics_p11f6b2 = Um, so, you're telling me that I'm Mr. Agroson's daughter?!?
+    comics_p11f6b3 = No, Ginger. You listen to your heart and you'll understand who your real parents are.
+	
+	comics_p12f0b1 = Let's quickly recap what happened in the last episode.
+	comics_p12f1b1 = Ginger learned the truth about her past.
+	comics_p12f2b1 = The news didn't exactly please Mr. Argoson either.
+	comics_p12f2b2 = Mon general, we have some news on your daughter.
+	comics_p12f2b3 = My daughter is dead, Jacques.
+	comics_p12f2b4 = Nein, boss. Ginger is your daughter.
+	comics_p12f2b5 = Noooooo!
+	comics_p12f3b1 = Extra! Extra! Read all about it!
+	comics_p12f3b2 = Breaking news! The mayor has broken the city's contract with the Agro Corporation!
+	comics_p12f3b3 = He has opened a tender on providing food for the city!
+	comics_p12f3b4 = Who will be the new Vegetable King?
+	
+	comics_p13f1b1 = And so this is how the story ends.
+	comics_p13f1b2 = An endless chain of trucks ship fresh vegetables to the city.
+	comics_p13f1b3 = Goodbye, Tomatoes! And have a safe trip!
+	comics_p13f2b1 = For your services to this great city, I present you with this certificate of recognition...
+	comics_p13f2b2 = Ginger became an honorary citizen of the city.
+	comics_p13f3b1 = Agro Corporation's business and value continued to plunge.
+	comics_p13f3b2 = Sir, market analysis shows everyone stopped buying our products.
+	comics_p13f3b3 = Oh, Ginger, Ginger... She's just like me!
+	comics_p13f4b1 = And as you can see, the red line has dropped, while the green one has made serious gains.
+	comics_p13f4b2 = What do this mean for the city? Details at 11:00!
+	comics_p13f5b1 = The Agro Corportation was forced to sell the company's headquarters...
+	comics_p13f6b1 = And Ginger, finally, decorated Mr. Agroson's former office with live plants and flowers.
+	comics_p13f6b2 = THE END
+
+>>

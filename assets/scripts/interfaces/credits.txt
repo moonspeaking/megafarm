@@ -1,0 +1,77 @@
+<<
+
+@interface
+{
+	#string name "credits";
+	#string texture_pack "credits_pack";
+	#string sound_pack "credits_pack";
+	#string onmessage "credits";
+
+	
+	@bitmap
+	{
+		#string name "main_layer";
+		#point pos 0, 0;
+		#point size 800, 600;
+		#rect texcoord 0, 0, 0.78125, 0.58594;
+		#string texture_name "end.jpg";
+	}
+	@bitmap
+	{		
+		#bool visible false;
+		#string name "wombat";
+		#point pos 0, 0;
+		#point size 800, 600;
+		#string texture_name "wombat.jpg";		
+	}
+
+	@simple_credits
+	{
+		#string name "inagalaxyfaraway";
+
+		[credits_rus]
+		[credits_eng]
+		[credits_fra]
+		[credits_ita]
+		[credits_por]
+		[credits_dut]
+		[credits_swe]
+		[credits_esp]
+		[credits_deu]
+		[credits_jap]
+		[credits_kor]
+		[credits_chn]
+	}
+	@bitmap
+	{
+		#string name "fader_in";
+		#point pos 0, -244;
+		#point size 800, 128;
+		#rect texcoord 0, 0, 0.78125, 1;
+		#string align "scalex";
+		#string texture_name "credits_fade_in.tga";
+	}
+	
+	@bitmap
+	{
+		#string name "fader_out";
+		#point pos 0, 236;
+		#point size 800, 128;
+		#rect texcoord 0, 0, 0.78125, 1;
+		#string align "scalex";
+		#string texture_name "credits_fade_out.tga";
+	}
+	
+	@button_right
+	{
+		#string name "credits_back";
+		#point pos 355, -255;
+		#point size 64, 64;
+		#string onmessage "credits.exit";		
+	}
+	
+	@cursor;
+}
+
+>>
+

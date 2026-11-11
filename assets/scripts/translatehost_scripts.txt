@@ -1,0 +1,57 @@
+тут список всех ключевых слов для перевода
+<<
+
+@translatehost
+{
+	@rus
+	{
+		[rus]
+	}
+	@eng
+	{
+		[eng]
+	}
+	@deu
+	{
+		[deu]
+	}
+	@ita
+	{
+		[ita]
+	}
+	@por
+	{
+		[por]
+	}
+	@dut
+	{
+		[dut]
+	}
+	@swe
+	{
+		[swe]
+	}
+	@fra
+	{
+		[fra]
+	}
+	@esp
+	{
+		[esp]
+	}
+	@jap
+	{
+		[jap]
+	}
+	@kor
+	{
+		[kor]
+	}
+	@chn
+	{
+		[chn]
+	}
+}
+
+>>
+

@@ -1,0 +1,16 @@
+<<
+@worker 1
+{
+	#string name "bee";
+	#string type_goods "workers";
+	#int price 0;
+	#point pos 0, 0;
+	#point size 32, 32;
+	#bool solid false;
+	#point zbase 0, 0;
+	#int work_time -1;
+	#int pay 5;
+	#float speed 100;
+}
+>>
+

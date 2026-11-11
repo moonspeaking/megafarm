@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>Farm Craft — веб-версия</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="game">
+  <canvas id="screen" width="800" height="600"></canvas>
+
+  <!-- HUD -->
+  <div id="hud" class="hidden">
+    <div id="topbar">
+      <div id="taskbox">
+        <div id="task_label">Задание</div>
+        <div id="task_text"></div>
+      </div>
+      <div id="timebox">
+        <div id="timebar"><div id="timefill"></div></div>
+      </div>
+      <div id="moneybox"><span id="money_icon"></span><span id="money">0</span></div>
+      <button id="btn_menu" title="Меню">Меню</button>
+    </div>
+
+    <div id="bottombar">
+      <div id="toolslots"></div>
+      <div id="shop">
+        <div id="shop_tabs"></div>
+        <div id="shop_items"></div>
+      </div>
+    </div>
+
+    <div id="hint"></div>
+  </div>
+
+  <!-- message box -->
+  <div id="msgbox" class="overlay hidden">
+    <div class="window">
+      <div id="msg_text"></div>
+      <button id="msg_ok">ОК</button>
+    </div>
+  </div>
+
+  <!-- level end -->
+  <div id="endbox" class="overlay hidden">
+    <div class="window">
+      <div id="end_title"></div>
+      <div id="end_stats"></div>
+      <button id="end_next">Продолжить</button>
+    </div>
+  </div>
+
+  <!-- main menu (built by src/menu.js) -->
+  <div id="menu" class="overlay"></div>
+
+  <div id="loading"><div class="ld_bar"><div class="ld_fill"></div></div><div class="ld_text">Загрузка…</div></div>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

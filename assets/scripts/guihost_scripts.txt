@@ -1,0 +1,1063 @@
+скрипт содержит все базовые элементы GUI
+
+<<
+@guihost
+{
+	@activeelement
+	{
+		#string name "active";
+	}
+
+	@bitmapelement
+	{
+		#string name "bitmap";
+	}
+
+	@textelement
+	{
+		#string name "text";
+		#string text_key "undef";
+	}
+
+	@spriteelement
+	{
+		#string name "sprite";
+	}
+
+	@bitbtn
+	{
+		#string name "button";
+		#point size 64, 32;
+		
+		@active
+		{
+			#string name "main_layer";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "bitbtn.tga";
+		}
+	}
+
+	@bitbtn
+	{
+		#string name "button_left";
+		#point size 64, 32;
+		
+		@active
+		{
+			#string name "main_layer";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "arrow_left.tga";
+		}
+	}
+	
+	@bitbtn
+	{
+		#string name "button_right";
+		#point size 64, 32;
+		
+		@active
+		{
+			#string name "main_layer";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "arrow_right.tga";
+		}
+	}
+
+	@bitbtn
+	{
+		#string name "button_skip_right";
+		#point size 64, 32;
+		
+		@active
+		{
+			#string name "main_layer";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "skip_right.tga";
+		}
+	}
+
+	@bitbtn
+	{
+		#string name "speed_button";
+		#point pos 0, 0;
+		#point size 58, 58;
+		
+		@active
+		{
+		   #string name "main_layer";
+		   #point pos 0, 0;
+		   #point size 100, 100;
+		   #string align "scalex scaley";
+		   #string texture_name "item_shop_menu.tga";
+		}
+		
+		@bitmap
+		{
+			#string name "background";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#bool visible false;
+		}
+
+		@bitmap
+		{
+			#string name "image";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+		}
+		@text
+		{
+			#string name "price";
+			#point pos 0, -17;
+			#string text_key "150";
+		}
+	}
+
+	@bitbtn
+	{
+		#string name "text_button";
+		#point pos 0, 0;
+		#point size 192, 42;
+
+		@active
+		{
+			#string name "main_layer";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "menu_item_blue.tga";
+		}
+		@text
+		{
+			#string name "label";
+			#point pos 0, 0;
+			#point size 100, 32;
+			#float font_size 20;
+			#bool font_scale true;
+			#bool autosize true;
+			#string text_key "null";
+		}
+	}
+
+	@bitbtn
+	{
+		#string name "text_button_ex";
+		#point pos 0, 0;
+		#point size 192, 32;
+
+		@bitmap
+		{
+			#string name "main_layer";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "upmenu_center.tga";
+		}
+		@bitmap
+		{
+			#string name "left";
+			#point pos -32, 0;
+			#point size 32, 100;
+			#string align "left scaley";
+			#string texture_name "upmenu_left.tga";
+		}
+		@bitmap
+		{
+			#string name "right";
+			#point pos -32, 0;
+			#point size 32, 100;
+			#string align "right scaley";
+			#string texture_name "upmenu_right.tga";
+		}
+		@text
+		{
+			#string name "label";
+			#point pos 0, 8;
+			#point size 100, 32;
+			#float font_size 12;
+			#bool autosize true;
+			#string text_key "null";
+		}
+	}
+
+	@form
+	{
+		//невидимая форма, по сути контейнер
+		#string name "virtual_window";
+	}
+	
+	@form
+	{
+		#string name "layer_window";
+
+		@bitmap
+		{
+			#string name "center";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "center_gui.tga";
+		}
+	}
+
+	@form
+	{
+		#string name "popup_window";
+
+		@bitmap
+		{
+			#string name "center";
+			#point pos 0, 0;
+			#point size 800, 78;
+			#rect texcoord 0, 0.39, 1, 1;
+			#string texture_name "downbar.tga";
+		}
+	}
+
+	@form
+	{
+		#string name "simple_window";
+			
+		@bitmap
+		{
+			#string name "center";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "center_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "right_up";
+			#point pos -16, -16;
+			#point size 16, 16;
+			#string align "right top";
+			#string texture_name "right_up_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "left_up";
+			#point pos -16, -16;
+			#point size 16, 16;
+			#string align "left top";
+			#string texture_name "left_up_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "right_down";
+			#point pos -16, -16;
+			#point size 16, 16;
+			#string align "right bottom";
+			#string texture_name "right_down_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "left_down";
+			#point pos -16, -16;
+			#point size 16, 16;
+			#string align "left bottom";
+			#string texture_name "left_down_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "left";
+			#point pos -16, 0;
+			#point size 16, 100;
+			#string align "left scaley";
+			#string texture_name "left_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "right";
+			#point pos -16, 0;
+			#point size 16, 100;
+			#string align "right scaley";
+			#string texture_name "right_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "top";
+			#point pos 0, -16;
+			#point size 100, 16;
+			#string align "top scalex";
+			#string texture_name "up_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "bottom";
+			#point pos 0, -16;
+			#point size 100, 16;
+			#string align "bottom scalex";
+			#string texture_name "down_gui.tga";
+		}
+	}
+	
+	@popupmenu
+	{
+		#string name "simple_popup";
+		#point pos 0, 0;
+		#point size 128, 128;
+	}
+
+	@imageshow
+	{
+		#string name "simple_slide_show";
+		#point pos 0, 0;
+		#point size 256, 256;
+		#float delay_time 3000;
+		#float app_time 1000;
+		#float disapp_time 1000;
+	}
+	
+	@checkbox
+	{
+		#string name "simple_checkbox";
+		#point pos 0, 0;
+		#point size 64, 64;
+		#bool checked false;
+		#bool editable false;
+		@bitmap
+		{
+			#string name "bitmap_checked";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "check_on.tga";				
+			#bool visible false;
+		}
+		@bitmap
+		{
+			#string name "bitmap_unchecked";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "check_off.tga";
+		}
+	}
+	
+	@textbox
+	{
+		#string name "simple_textbox";
+		#point pos 0, 0;
+		#point size 64, 64;
+		#float font_size 12;
+		#string text_align "fill";
+		#string text_key "undef";
+	}
+	
+	@taskdisplay
+	{
+		#string name "task_display";
+		#point pos 0, 0;
+		#point size 700, 32;
+
+		@text
+		{
+			#string name "task_text";
+			#string text_align "right";
+			#point pos 2.5, 0;
+			#point size 0, 32;			
+			#string align "undockx left top"
+			#float font_size 16;
+			#rect color 255, 255, 0, 255;
+		}
+		@simple_checkbox
+		{
+			#string name "task_check";
+			#point pos 4, 4;
+			#point size 32, 32;
+			#string align "right top";
+		}
+		@simple_textbox
+		{
+			#string name "task_details";
+			#float font_size 12;
+			#point pos 0, 0;
+			#point size 97, 0;
+			#string text_align "right";
+			#string align "scalex bottom";
+		}
+	}
+	
+	@taskbox
+	{
+		#string name "simple_taskbox";
+		#point pos 0, 0;
+		#point size 700, 32;
+	}
+
+	@messagebox
+	{
+		#string name "simple_messagebox";
+		#point pos 0, 0;
+		#point size 320, 128;
+		#string onmessage "gameplay.simple_messagebox";
+		
+		@simple_window
+		{
+			#string name "message_form";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";	
+			
+			@simple_textbox
+			{
+				#string name "message_text";
+				#float font_size 12;
+				#point size 95, 0;
+				#point pos 0, 5;
+				#string align "scalex top";
+				#string text_align "fill";
+			}
+
+			@button
+			{
+				#string name "message_button1";
+				#point pos -50,5;
+				#string align "bottom";
+				#point size 96, 48;
+				@text
+				{
+					#string name "message_text";
+					#string text_key "yes";
+					#string text_align "center";
+					#point pos 0,0;
+					#point size 96, 48;
+				}
+			}
+			@button
+			{
+				#string name "message_button2";
+				#point pos 50,5;
+				#string align "bottom";
+				#point size 96, 48;				
+				@text
+				{
+					#string name "message_text";
+					#string text_key "no";
+					#string text_align "center";
+					#point pos 0,0;
+					#point size 96, 48;
+				}
+			}
+			@button
+			{
+				#string name "message_button3";
+				#point pos 0,5;
+				#string align "bottom";
+				#point size 96, 48;
+				@text
+				{
+					#string name "message_text";
+					#string text_key "ok";
+					#string text_align "center";
+					#point pos 0,0;
+					#point size 96, 48;
+				}
+			}
+		}		
+	}
+
+	@notification
+	{	
+		#string name "simple_notification";
+		#point pos 0, 0;
+		#point size 256, 192;
+				
+		#float showtime 5000;
+		#float show_speed 500;
+		#float fade_speed 500;
+			
+		
+		@bitmap
+		{
+			#string name "center";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "center_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "right_up";
+			#point pos -8, -8;
+			#point size 8, 8;
+			#string align "right top";
+			#string texture_name "right_up_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "left_up";
+			#point pos -8, -8;
+			#point size 8, 8;
+			#string align "left top";
+			#string texture_name "left_up_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "right_down";
+			#point pos -8, -8;
+			#point size 8, 8;
+			#string align "right bottom";
+			#string texture_name "right_down_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "left_down";
+			#point pos -8, -8;
+			#point size 8, 8;
+			#string align "left bottom";
+			#string texture_name "left_down_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "left";
+			#point pos -8, 0;
+			#point size 8, 100;
+			#string align "left scaley";
+			#string texture_name "left_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "right";
+			#point pos -8, 0;
+			#point size 8, 100;
+			#string align "right scaley";
+			#string texture_name "right_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "top";
+			#point pos 0, -8;
+			#point size 100, 8;
+			#string align "top scalex";
+			#string texture_name "up_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "bottom";
+			#point pos 0, -8;
+			#point size 100, 8;
+			#string align "bottom scalex";
+			#string texture_name "down_gui.tga";
+		}					
+		@simple_textbox
+		{
+			#string name "notification_text";
+			#point pos 0, 0;
+			#point size 100, 0;
+			#float font_size 10;
+			#string text_align "fill";
+			#string align "scalex";			
+		}
+	}
+	
+	@notification
+	{	
+		#string name "shop_notification";
+		#point pos 0, 0;
+		#point size 256, 192;
+				
+		#float showtime 4000;
+		#float show_speed 500;
+		#float fade_speed 500;
+			
+		
+		@bitmap
+		{
+			#string name "center";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "center_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "right_up";
+			#point pos -8, -8;
+			#point size 8, 8;
+			#string align "right top";
+			#string texture_name "right_up_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "left_up";
+			#point pos -8, -8;
+			#point size 8, 8;
+			#string align "left top";
+			#string texture_name "left_up_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "right_down";
+			#point pos -8, -8;
+			#point size 8, 8;
+			#string align "right bottom";
+			#string texture_name "right_down_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "left_down";
+			#point pos -8, -8;
+			#point size 8, 8;
+			#string align "left bottom";
+			#string texture_name "left_down_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "left";
+			#point pos -8, 0;
+			#point size 8, 100;
+			#string align "left scaley";
+			#string texture_name "left_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "right";
+			#point pos -8, 0;
+			#point size 8, 100;
+			#string align "right scaley";
+			#string texture_name "right_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "top";
+			#point pos 0, -8;
+			#point size 100, 8;
+			#string align "top scalex";
+			#string texture_name "up_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "bottom";
+			#point pos 0, -8;
+			#point size 100, 8;
+			#string align "bottom scalex";
+			#string texture_name "down_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "bottom_arrow";
+			#point pos 0, -8;
+			#point size 8, 8;
+			#string align "bottom";
+			#string texture_name "down_gui_arrow.tga";
+		}
+		@simple_textbox
+		{
+			#string name "notification_text";
+			#point pos 0, 0;
+			#point size 100, 0;
+			#float font_size 10;
+			#string text_align "fill";
+			#string align "scalex";			
+		}
+	}
+	
+	@notification_holder
+	{
+		#string name "notify_holder";
+		#point pos 0, 23;
+		#point size 762, 440;
+		#string start "left";
+		#string direction "up";
+		#float horizontal_margin 8;
+		#float vertical_margin 8;
+		#float notification_width 192;
+	}
+	
+	@dataholder
+	{
+		#string name "dataholder";
+	}
+	
+	@hint
+	{	
+		#string name "simple_hint";
+		#point pos 0, 0;
+		#point size 256, 192;
+				
+		#float hint_delay 250;
+		#float show_speed 250;
+		#float fade_speed 250;
+			
+		
+		@bitmap
+		{
+			#string name "center";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "center_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "right_up";
+			#point pos -8, -8;
+			#point size 8, 8;
+			#string align "right top";
+			#string texture_name "right_up_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "left_up";
+			#point pos -8, -8;
+			#point size 8, 8;
+			#string align "left top";
+			#string texture_name "left_up_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "right_down";
+			#point pos -8, -8;
+			#point size 8, 8;
+			#string align "right bottom";
+			#string texture_name "right_down_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "left_down";
+			#point pos -8, -8;
+			#point size 8, 8;
+			#string align "left bottom";
+			#string texture_name "left_down_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "left";
+			#point pos -8, 0;
+			#point size 8, 100;
+			#string align "left scaley";
+			#string texture_name "left_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "right";
+			#point pos -8, 0;
+			#point size 8, 100;
+			#string align "right scaley";
+			#string texture_name "right_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "top";
+			#point pos 0, -8;
+			#point size 100, 8;
+			#string align "top scalex";
+			#string texture_name "up_gui.tga";
+		}
+		@bitmap
+		{
+			#string name "bottom";
+			#point pos 0, -8;
+			#point size 100, 8;
+			#string align "bottom scalex";
+			#string texture_name "down_gui.tga";
+		}					
+		@simple_textbox
+		{
+			#string name "hint_text";
+			#point pos 0, 0;
+			#point size 100, 0;
+			#float font_size 10;
+			#string text_align "fill";
+			#string text_key "hint";
+			#string align "scalex";			
+		}
+	}
+
+	@checkbox
+	{
+		#string name "tab_button";
+		#point pos 0, 0;
+		#point size 128, 32;
+		#bool checked false;
+		#bool editable true;
+		@bitmap
+		{
+			#string name "bitmap_checked";
+			#point pos 0, -13;
+			#point size 100, 64;
+			#string align "scalex";
+			#string texture_name "tab_act_center.tga";				
+			#bool visible false;
+			@bitmap
+			{
+				#string name "left";
+				#point pos -16, 0;
+				#point size 16, 64;
+				#string align "left";
+				#string texture_name "tab_act_left.tga";
+			}					
+			@bitmap
+			{
+				#string name "right";
+				#point pos -16, 0;
+				#point size 16, 64;
+				#string align "right";
+				#string texture_name "tab_act_right.tga";
+			}					
+		}
+		@bitmap
+		{
+			#string name "bitmap_unchecked";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "tab_pas_center.tga";
+			@bitmap
+			{
+				#string name "left";
+				#point pos -16, 0;
+				#point size 16, 32;
+				#string align "left";
+				#string texture_name "tab_pas_left.tga";
+			}					
+			@bitmap
+			{
+				#string name "right";
+				#point pos -16, 0;
+				#point size 16, 32;
+				#string align "right";
+				#string texture_name "tab_pas_right.tga";
+			}					
+		}
+		@text
+		{
+			#string name "caption";
+			#point pos 0, -4;
+			#point size 100, 32;
+			#float font_size 12;
+			#bool autosize true;
+			#string text_key "null";
+		}
+	}
+	@dummyprogressbar
+	{
+		#string name "dummy_bar";
+	}
+	
+	@particlelist
+	{
+		#string name "particle_list";
+	}
+	
+	@balloon
+	{	
+		#string name "simple_balloon";
+		#point pos 0, 0;
+		#point size 256, 192;
+		
+		#string text_key "unknown";
+				
+		#float showtime 10000;
+		#float show_speed 500;
+		#float fade_speed 500;			
+		
+		@bitmap
+		{
+			#string name "center";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string texture_name "center_balloon.tga";
+		}
+		
+		@bitmap
+		{
+			#string name "left";
+			#point pos -16, 0;
+			#point size 16, 100;
+			#string align "left scaley";
+			#string texture_name "left_balloon.tga";
+		}
+		@bitmap
+		{
+			#string name "right";
+			#point pos -16, 0;
+			#point size 16, 100;
+			#string align "right scaley";
+			#string texture_name "right_balloon.tga";
+		}
+		@bitmap
+		{
+			#string name "top";
+			#point pos 0, -16;
+			#point size 100, 16;
+			#string align "top scalex";
+			#string texture_name "up_balloon.tga";
+		}
+		@bitmap
+		{
+			#string name "bottom";
+			#point pos 0, -16;
+			#point size 100, 16;
+			#string align "bottom scalex";
+			#string texture_name "down_balloon.tga";
+		}
+		
+		@bitmap
+		{
+			#string name "right_up";
+			#point pos -16, -16;
+			#point size 16, 16;
+			#string align "right top";
+			#string texture_name "right_up_balloon.tga";
+		}	
+		
+		
+		@bitmap
+		{
+			#string name "left_up";
+			#point pos -16, -16;
+			#point size 16, 16;
+			#string align "left top";
+			#string texture_name "left_up_balloon.tga";
+		}
+		
+		@bitmap
+		{
+			#string name "right_down";
+			#point pos -16, -16;
+			#point size 16, 16;
+			#string align "right bottom";
+			#string texture_name "right_down_balloon.tga";
+		}
+		
+		@bitmap
+		{
+			#string name "left_down";
+			#point pos -16, -16;
+			#point size 16, 16;
+			#string align "left bottom";
+			#string texture_name "left_down_balloon.tga";
+		}
+		
+		@bitmap
+		{
+			#string name "left_up_arrow";
+			#point pos -24, -24;
+			#point size 32, 32;
+			#string align "left top";
+			#string texture_name "left_up_arrow_balloon.tga";
+			#bool visible false;
+		}
+		
+		@bitmap
+		{
+			#string name "right_down_arrow";
+			#point pos -24, -24;
+			#point size 32, 32;
+			#string align "right bottom";
+			#string texture_name "right_down_arrow_balloon.tga";
+			#bool visible false;
+		}
+		
+		@bitmap
+		{
+			#string name "left_down_arrow";
+			#point pos -24, -24;
+			#point size 32, 32;
+			#string align "left bottom";
+			#string texture_name "left_down_arrow_balloon.tga";
+			#bool visible false;
+		}
+		
+		@bitmap
+		{
+			#string name "right_up_arrow";
+			#point pos -24, -24;
+			#point size 32, 32;
+			#string align "right top";
+			#string texture_name "right_up_arrow_balloon.tga";			
+			#bool visible false;
+		}
+		
+							
+		@simple_textbox
+		{
+			#string name "notification_text";
+			#point pos 0, 0;
+			#point size 100, 0;
+			#float font_size 10;
+			#string text_align "fill";
+			#string align "scalex";			
+		}
+	}
+	
+	@comicframe
+	{
+		#string name "simple_comicframe";
+		#point size 0, 0
+		#rect texcoord 0, 0, 1, 1;
+		#point start_point 0, 0;
+		#point end_point 0, 0;
+		#float start_angle 45;
+		#float start_size 1.5;
+		#float start_alpha 0.7;
+		#float time_show 500;
+	}
+	
+	@comicspage
+	{
+		#string name "simple_comicspage";
+		#point size 800, 600;
+		#point pos 0, 0;
+	}
+	@gamecomics
+	{
+		#string name "comics";
+		#point size 800, 600;
+		#point pos 0, 0;
+	}
+	
+	@editbox
+	{
+		#string name "simple_editbox";
+		#point size 1600, 1200; //дохуя много - чтобы перехватывало все клики, где бы на экране не находилось
+		#point pos 0, 0;
+		#float font_size 12;
+		#int max_len 32;
+		@bitmap
+		{
+			#string name "inputbox";
+			#point pos 0, 0;
+			#point size 300, 30;			
+			#string texture_name "editbox_back.tga";
+		}
+		@dummy_bar;
+	}
+	
+	@slider
+	{
+		#string name "simple_slider";
+		#point pos 0, 0;
+		#point size 256, 32;
+		#string backtexture "slider_back.tga";
+		#string knobtexture "slider_knob.tga";
+	}
+	
+	@cursor
+	{
+		#string name "cursor";
+	}
+
+	@credits
+	{
+		#string name "simple_credits";
+		#float font_size 12;
+		#float scroll_speed 20;
+		#float margin 10;		
+	}		
+}
+>>

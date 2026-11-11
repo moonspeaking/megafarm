@@ -1,0 +1,623 @@
+тут можно писать что угодно!
+
+<<
+
+@level 2
+{
+	#string level_name "Лесополоса";
+	#point level_size 32, 32; 
+	#string level_env "grass";
+	#float level_time 1200;
+
+	@scenario
+	{
+		//----------------------------------------------//
+		//				все условии						//
+		//----------------------------------------------//
+
+		@comics_episode1
+		{
+			time >= 1;
+		}
+		
+		@comics_episode2
+		{
+			time >= 2;
+		}
+		
+		@help_episode1
+		{
+			time >= 10;
+		}
+		
+		@harvester_help
+		{	
+			time >= 3;
+		}
+		
+		@harvester_coin_help
+		{	
+			worker_coin >= 1;
+		}
+		
+		@harvester_question_help
+		{	
+			worker_question >= 1;
+		}
+				
+		@first_task
+		{
+			place_house_chicken >= 1;
+		}
+		
+		@second_task
+		{
+			place_hangar_refrigerator >= 1;
+		}
+		
+		@add_shop_ten_box
+		{
+			fruits_ready >= 12;
+		}
+		
+		@trees_help
+		{
+			time >= 35;
+		}
+		
+		@place_patent_for_house_chicken
+		{
+			place_patent_for_house_chicken >= 1;
+		}
+	
+		@place_patent_for_hangar_refrigerator
+		{
+			place_patent_for_hangar_refrigerator >= 1;
+		}
+		
+		@victory
+		{
+			place_tree_grass_apple >= 3;
+			place_tree_grass_plum >= 3;
+		}
+		
+		@transporter_help
+		{
+			place_hangar_refrigerator >= 1;
+		}
+		
+		@defeat_time
+		{
+			time >= 100000000000000;
+		}
+
+		@place_hangar_refrigerator
+		{
+			place_hangar_refrigerator >= 1;
+		}
+		
+		
+		//----------------------------------------------//
+		//				мессаги							//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_big_cooler";
+			@condition
+			{
+				comics_episode1;
+			}
+		}  
+
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_first_task";
+			@condition
+			{
+				comics_episode2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_place_patent_for_house_chicken";
+			@condition
+			{
+				place_patent_for_house_chicken;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_place_patent_for_hangar_refrigerator";
+			@condition
+			{
+				place_patent_for_hangar_refrigerator;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_second_task";
+			@condition
+			{
+				first_task;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_trees_help";
+			@condition
+			{
+				trees_help;
+			}
+		}  
+	
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_pig_help";
+			@condition
+			{
+				help_episode1;
+			}
+		} 
+	
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_last_task";
+			@condition
+			{
+				second_task;
+			}
+		} 
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_hangar_refrigerator_help";
+			@condition
+			{
+				place_hangar_refrigerator;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_victory";
+			@condition
+			{
+				victory;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_harvester_help";
+			@condition
+			{
+				harvester_help;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_harvester_money_help";
+			@condition
+			{
+				harvester_coin_help;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_harvester_question_help";
+			@condition
+			{
+				harvester_question_help;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l4_message_transporter_help";
+			#int delay 10;
+			@condition
+			{
+				transporter_help;
+			}
+		}  
+		
+		
+				
+		//----------------------------------------------//
+		//		а тут дибильные таски на уровень		//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l4_task_place_house_chicken";
+			@condition
+			{
+				first_task;
+			}
+		} 
+
+		@action
+		{
+			#string type "set task";
+			#string data "l4_task_place_hangar_refrigerator";
+			@condition
+			{
+				second_task;
+			}
+		} 
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l4_task_big_cooler";
+			@condition
+			{
+				victory;
+			}
+		} 
+
+		//----------------------------------------------//
+		//				подзадачи						//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "add task";
+			#string data "l4_task_place_house_chicken";
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l4_task_place_hangar_refrigerator";
+			@condition
+			{
+				first_task;
+			}
+		}  
+		
+		//----------------------------------------------//
+		//				главное задание					//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l4_task_big_cooler";
+			@condition
+			{
+				second_task;
+			}
+		}  
+
+		//----------------------------------------------//
+		//				добавляем на поле				//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "hero";
+			#point coords  10, 6;
+		}
+		@action //добавили ангар
+		{
+			#string type "add to field";
+			#string data "hangar_vegetables";
+			#point coords  7, 3;
+		}
+		@action
+		{
+			#string type "add to field";
+			#string data "big_watercan";
+			#point coords  14, 8;
+		}
+		@action
+		{
+			#string type "add to field";
+			#string data "waterpump";
+			#point coords  13, 7;
+		}
+		@action //добавили ящик
+		{
+			#string type "add to field";
+			#string data "fivebox";
+			#point coords  7, 5;
+		}
+		@action //добавили свинарник
+		{	
+			#string type "add to field";
+			#string data "house_pig";
+			#point coords  3, 3;
+		}
+		@action //добавили яблоньку
+		{	
+			#string type "add to field";
+			#string data "tree_grass_apple";
+			#point coords  10, 3;
+		}
+		@action //добавили яблоньку
+		{	
+			#string type "add to field";
+			#string data "tree_grass_apple";
+			#point coords  13, 3;
+		}
+		@action //добавили яблоньку
+		{	
+			#string type "add to field";
+			#string data "tree_grass_plum";
+			#point coords  16, 3;
+		}
+		@action //добавили яблоньку
+		{	
+			#string type "add to field";
+			#string data "tree_grass_plum";
+			#point coords  19, 3;
+		}
+		@action
+		{
+			#string type "add field";
+			#string data "plant_beetroot 4 3";
+			#point coords 2, 7;
+		}
+		
+		@action
+		{
+			#string type "add field";
+			#string data "plant_corn 4 3";
+			#point coords 7, 7;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "water_sprinkler";
+			#point coords 6.5, 8.5;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "harvester";
+			#point coords 12, 6;
+		}
+		
+		//----------------------------------------------//
+		//				добавляем всякое				//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "add money";
+			#string data "210";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "box";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "fivebox";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "tenbox";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "watercan";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "big_watercan";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "fertilizer";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "big_fertilizer";
+		}
+		
+		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "destructor";
+ 		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "cucumber";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "waterpump";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "corn";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "mushroom";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "aubergine";
+		}		
+		@action
+		{
+			#string type "add to shop";
+			#string data "radish";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "pumpkin";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "beetroot";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_house_chicken";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "hangar_vegetables";
+		}
+
+		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "water_sprinkler";
+ 		}
+			
+				
+		//----------------------------------------------//
+		//				игровые события					//
+		//----------------------------------------------//
+
+
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_hangar_refrigerator";
+			@condition
+			{
+				first_task;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "tree_grass_plum";
+			@condition
+			{
+				second_task;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "tree_grass_apple";
+			#int delay 2;
+			@condition
+			{
+				second_task;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add money";
+			#string data "400";
+			@condition
+			{
+				place_patent_for_house_chicken;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add money";
+			#string data "500";
+			@condition
+			{
+				place_patent_for_hangar_refrigerator;
+			}
+		}  
+		
+		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "transporter";
+ 			#int delay 10;
+			@condition
+			{
+				transporter_help;
+			}
+		}
+
+		@action
+		{
+			#string type "victory";
+			@condition 1
+			{
+				victory;
+			}
+		}
+		
+		@action
+		{
+			#string type "defeat";
+			@condition 1
+			{
+				defeat_time;
+			}
+		}
+	}
+}
+
+
+>>
+
+тут тоже можно писать что угодно
+что угодно
+
+

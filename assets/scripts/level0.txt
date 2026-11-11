@@ -1,0 +1,808 @@
+тут можно писать что угодно!
+
+<<
+
+@level 2
+{
+	#string level_name "пробный";
+	#point level_size 40, 32; 
+	#string level_env "swamp";
+	#float level_time 2700;
+	#float plant_thirst_growth 0.25;
+	#float health_reduction_after_harvest 1.5;
+	#float plant_fertilizer_strength 0.7;
+	#float plant_fertilizer_time 7;
+
+	
+	
+	
+	@scenario
+	{
+		
+	//----------------------------------------------//
+	//				все условия						//
+	//----------------------------------------------//		
+	
+	@intro1
+	{
+	time >= 1;
+	}
+	@intro2
+	{
+	time >= 2;
+	}
+	// 1 задание  Купить ангар
+	@t1_place_hangar
+	{
+		place_hangar_vegetables >=1;
+	}
+	// 2 задание  засеять 12 грядок баклажанов
+	@t2_sow_aubergine
+	{
+		sow_aubergine >=12;
+	}
+	// 3 задание  заработать штуку баксов
+	@t3_get_1000
+	{
+		money >= 1000;
+		place_hangar_vegetables >=1;
+		sow_aubergine >=12;
+	}
+	// 4 задание  засеять 12 капусты + 12 томатов
+	@t4_sow_tomato_and_cabbage
+	{
+		sow_tomato >=12;
+		sow_cabbage >=12;
+	}
+	// 5 задание  продать партию овощей
+	@t5_sell_vegetables
+	{
+		sell_plant_tomato >=8;
+		sell_plant_aubergine >=8;
+		sell_plant_cabbage >=8;
+	}
+	// 6 задание продать 2 свиньи и два мотка шерсти
+	@t6_sell_pig_and_fur
+	{
+		sell_house_pig >=1;
+		sell_house_sheep >=1;
+	}
+	// 7 задание построить холодильник, курятник и коровник
+	@t7_place_cow_chicken_ref
+	{
+		place_house_cow >=1;
+		place_house_chicken >=1;
+		place_hangar_refrigerator >=1;
+	}
+	// 8 задание высадить цветы и продать мёд
+	@t8_sow_flowers_and_sell_honey
+	{
+		sow_dahlia >=12;
+		sell_beehive >=3;
+	}
+	
+		//----------------------------------------------//
+		//				мессаги							//
+		//----------------------------------------------//
+		@action // интро1
+		{ 
+			#string type "show message";
+			#string data "l66_message_intro1";
+			@condition 
+			{
+				intro1;
+			}
+		}
+		@action // интро2
+		{ 
+			#string type "show message";
+			#string data "l66_message_intro2";
+			@condition 
+			{
+				intro2;
+			}
+		}
+		@action // задание 1 выполнено
+		{ 
+			#string type "show message";
+			#string data "l66_message_t1_place_hangar";
+			@condition 
+			{
+				t1_place_hangar;
+			}
+		}
+		@action // задание 2 выполнено
+		{ 
+			#string type "show message";
+			#string data "l66_message_t2_sow_aubergine";
+			@condition 
+			{
+				t2_sow_aubergine;
+			}
+		}
+		
+		@action // задание 3 выполнено
+		{ 
+			#string type "show message";
+			#string data "l66_message_t3_get_1000";
+			@condition 
+			{
+				t3_get_1000;
+			}
+		}
+		
+		@action // задание 4 выполнено
+		{ 
+			#string type "show message";
+			#string data "l66_message_t4_sow_tomato_and_cabbage";
+			@condition 
+			{
+				t4_sow_tomato_and_cabbage;
+			}
+		}
+		@action // задание 5 выполнено
+		{ 
+			#string type "show message";
+			#string data "l66_message_t5_sell_vegetables";
+			@condition 
+			{
+				t5_sell_vegetables;
+			}
+		}
+		@action // задание 6 выполнено
+		{ 
+			#string type "show message";
+			#string data "l66_message_t6_sell_pig_and_fur";
+			@condition 
+			{
+				t6_sell_pig_and_fur;
+			}
+		}
+		
+		@action // задание 7 выполнено
+		{ 
+			#string type "show message";
+			#string data "l66_message_t7_place_cow_chicken_ref";
+			@condition 
+			{
+				t7_place_cow_chicken_ref;
+			}
+		}
+		@action // задание 8 выполнено
+		{ 
+			#string type "show message";
+			#string data "l66_message_t8_sow_flowers_and_sell_honey";
+			@condition 
+			{
+				t8_sow_flowers_and_sell_honey;
+			}
+		}
+		
+		
+		
+		//----------------------------------------------//
+		//					задачи						//
+		//----------------------------------------------//
+		@action // 
+		{ 
+			#string type "add task";
+			#string data "l66_task_t1_place_hangar";
+		}
+		
+		@action // 
+		{ 
+			#string type "set task";
+			#string data "l66_task_t1_place_hangar";
+			@condition 
+			{
+				t1_place_hangar;
+			}
+		}
+		
+		@action // 
+		{ 
+			#string type "add task";
+			#string data "l66_task_t2_sow_aubergine";
+			@condition 
+			{
+				t1_place_hangar;
+			}
+		}
+		
+		@action // 
+		{ 
+			#string type "set task";
+			#string data "l66_task_t2_sow_aubergine";
+			@condition 
+			{
+				t2_sow_aubergine;
+			}
+		} 
+		
+		@action // 
+		{ 
+			#string type "add task";
+			#string data "l66_task_t3_get_1000";
+			@condition 
+			{
+				t2_sow_aubergine;
+			}
+		}
+		
+		@action // 
+		{ 
+			#string type "set task";
+			#string data "l66_task_t3_get_1000";
+			@condition 
+			{
+				t3_get_1000;
+			}
+		} 
+		
+		@action // 
+		{ 
+			#string type "add task";
+			#string data "l66_task_t4_sow_tomato_and_cabbage";
+			@condition 
+			{
+				t3_get_1000;
+			}
+		}
+		
+		@action // 
+		{ 
+			#string type "set task";
+			#string data "l66_task_t4_sow_tomato_and_cabbage";
+			@condition 
+			{
+				t4_sow_tomato_and_cabbage;
+			}
+		} 
+		
+			@action // 
+		{ 
+			#string type "add task";
+			#string data "l66_task_t5_sell_vegetables";
+			@condition 
+			{
+				t4_sow_tomato_and_cabbage;
+			}
+		}
+		
+		@action // 
+		{ 
+			#string type "set task";
+			#string data "l66_task_t5_sell_vegetables";
+			@condition 
+			{
+				t5_sell_vegetables;
+			}
+		} 
+		@action // 
+		{ 
+			#string type "add task";
+			#string data "l66_task_t6_sell_pig_and_fur";
+			@condition 
+			{
+				t5_sell_vegetables;
+			}
+		}
+		
+		@action // 
+		{ 
+			#string type "set task";
+			#string data "l66_task_t6_sell_pig_and_fur";
+			@condition 
+			{
+				t6_sell_pig_and_fur;
+			}
+		} 
+		@action // 
+		{ 
+			#string type "add task";
+			#string data "l66_task_t7_place_cow_chicken_ref";
+			@condition 
+			{
+				t6_sell_pig_and_fur;
+			}
+		}
+		
+		@action // 
+		{ 
+			#string type "set task";
+			#string data "l66_task_t7_place_cow_chicken_ref";
+			@condition 
+			{
+				t7_place_cow_chicken_ref;
+			}
+		} 
+		@action // 
+		{ 
+			#string type "add task";
+			#string data "l66_task_t8_sow_flowers_and_sell_honey";
+			@condition 
+			{
+				t7_place_cow_chicken_ref;
+			}
+		}
+		
+		@action // 
+		{ 
+			#string type "set task";
+			#string data "l66_task_t8_sow_flowers_and_sell_honey";
+			@condition 
+			{
+				t8_sow_flowers_and_sell_honey;
+			}
+		} 
+		
+		
+		//----------------------------------------------//
+		//				добавляем на поле				//
+		//----------------------------------------------//
+		
+		@action // добавили героя
+		{ 
+			#string type "add to field";
+			#string data "hero";
+			#point coords 21, 10;
+		}
+		
+		@action // добавили деревья
+		{ 
+			#string type "add to field";
+			#string data "tree_swamp_apple";
+			#point coords 25, 2;
+		}
+		
+		@action // добавили деревья
+		{ 
+			#string type "add to field";
+			#string data "tree_swamp_apple";
+			#point coords 31, 3;
+		}
+		
+		@action // добавили деревья
+		{ 
+			#string type "add to field";
+			#string data "tree_swamp_plum";
+			#point coords 35, 4;
+		}
+		
+		@action // добавили деревья
+		{ 
+			#string type "add to field";
+			#string data "tree_swamp_cherry";
+			#point coords 23, 6;
+		}
+		
+		@action // добавили деревья
+		{ 
+			#string type "add to field";
+			#string data "tree_swamp_cherry";
+			#point coords 29, 8;
+		}
+		
+		@action // добавили деревья
+		{ 
+			#string type "add to field";
+			#string data "tree_swamp_plum";
+			#point coords 28, 13;
+		}
+		
+		@action // добавили деревья
+		{ 
+			#string type "add to field";
+			#string data "tree_swamp_apple";
+			#point coords 37, 11;
+		}
+		
+		@action // добавили деревья
+		{ 
+			#string type "add to field";
+			#string data "tree_swamp_cherry";
+			#point coords 35, 17;
+		}
+		
+		@action // добавили деревья
+		{ 
+			#string type "add to field";
+			#string data "tree_swamp_cherry";
+			#point coords 29, 16;
+		}
+		
+		@action // добавили ульи
+		{ 
+			#string type "add to field";
+			#string data "beehive";
+			#point coords 28, 4;
+		}
+		@action // добавили ульи
+		{ 
+			#string type "add to field";
+			#string data "beehive";
+			#point coords 26, 9;
+		}
+		@action // добавили ульи
+		{ 
+			#string type "add to field";
+			#string data "beehive";
+			#point coords 33, 8;
+		}
+		@action // добавили ульи
+		{ 
+			#string type "add to field";
+			#string data "beehive";
+			#point coords 34, 13;
+		}
+		
+		@action // добавили грядки
+		{ 
+			#string type "add field";
+			#string data "none 4 3";
+			#point coords 9, 6;
+		}
+		@action // добавили грядки
+		{ 
+			#string type "add field";
+			#string data "none 4 3";
+			#point coords 14, 6;
+		}
+		@action // добавили грядки
+		{ 
+			#string type "add field";
+			#string data "none 5 1";
+			#point coords 11, 5;
+		}
+		@action // добавили грядки
+		{ 
+			#string type "add field";
+			#string data "none 5 1";
+			#point coords 11, 9;
+		}
+
+		@action // добавили грядки
+		{ 
+			#string type "add field";
+			#string data "none 1 1";
+			#point coords 13, 6;
+		}
+		@action // добавили грядки
+		{ 
+			#string type "add field";
+			#string data "none 1 1";
+			#point coords 13, 8;
+		}
+		
+		// грядко 2
+		@action // добавили грядки
+		{ 
+			#string type "add field";
+			#string data "none 4 3";
+			#point coords 11, 12;
+		}
+		@action // добавили грядки
+		{ 
+			#string type "add field";
+			#string data "none 4 3";
+			#point coords 16, 12;
+		}
+		@action // добавили грядки
+		{ 
+			#string type "add field";
+			#string data "none 5 1";
+			#point coords 13, 11;
+		}
+		@action // добавили грядки
+		{ 
+			#string type "add field";
+			#string data "none 5 1";
+			#point coords 13, 15;
+		}
+		
+		@action // добавили грядки
+		{ 
+			#string type "add field";
+			#string data "none 1 1";
+			#point coords 15, 12;
+		}
+		@action // добавили грядки
+		{ 
+			#string type "add field";
+			#string data "none 1 1";
+			#point coords 15, 14;
+		}
+		@action // добавили поливалко
+		{ 
+			#string type "add to field";
+			#string data "water_sprinkler";
+			#point coords 13.5, 7.5;
+		}
+		@action // добавили колонко
+		{ 
+			#string type "add to field";
+			#string data "waterpump";
+			#point coords 20, 7;
+		}
+		
+		@action // добавили лейко
+		{ 
+			#string type "add to field";
+			#string data "big_watercan";
+			#point coords 23, 11;
+		}
+
+		
+		@action // добавили удобрения
+		{ 
+			#string type "add to field";
+			#string data "big_fertilizer";
+			#point coords 24, 10;
+		}
+		@action // добавили ящеги
+		{ 
+			#string type "add to field";
+			#string data "fivebox";
+			#point coords 19, 10;
+		}
+		
+		
+		//----------------------------------------------//
+		//				добавляем всякое				//
+		//----------------------------------------------//
+		
+		@action // добавили монет
+		{ 
+			#string type "set money";
+			#string data "800";	
+		}
+		@action // добавили монет
+		{ 
+			#string type "add to shop";
+			#string data "hangar_vegetables";	
+		}
+	
+		//----------------------------------------------//
+		//				игровые события					//
+		//----------------------------------------------//	
+		
+		@action // добавили ящег
+		{ 
+			#string type "add to shop";
+			#string data "box";
+			@condition 
+			{
+				t1_place_hangar;
+			}
+		}
+		@action // добавили ящеги
+		{ 
+			#string type "add to shop";
+			#string data "fivebox";
+			@condition 
+			{
+				t1_place_hangar;
+			}
+		}
+		@action // добавили многа ящегов
+		{ 
+			#string type "add to shop";
+			#string data "tenbox";
+			@condition 
+			{
+				t1_place_hangar;
+			}
+		}
+		@action // добавили овна
+		{ 
+			#string type "add to shop";
+			#string data "fertilizer";
+			@condition 
+			{
+				t1_place_hangar;
+			}
+		}
+		
+		@action // добавили многа овна
+		{ 
+			#string type "add to shop";
+			#string data "big_fertilizer";
+			@condition 
+			{
+				t1_place_hangar;
+			}
+		}
+		@action // добавили колонку
+		{ 
+			#string type "add to shop";
+			#string data "waterpump";
+			@condition 
+			{
+				t1_place_hangar;
+			}
+		}
+		
+		@action // добавили синюю лейку
+		{ 
+			#string type "add to shop";
+			#string data "big_watercan";
+			@condition 
+			{
+				t1_place_hangar;
+			}
+		}
+		@action // добавили баклажан о да!
+		{ 
+			#string type "add to shop";
+			#string data "aubergine";
+			@condition 
+			{
+				t1_place_hangar;
+			}
+		}
+		
+		@action // добавили автополивалку
+		{ 
+			#string type "add to shop";
+			#string data "water_sprinkler";
+			@condition 
+			{
+				t2_sow_aubergine;
+			}
+		}
+	
+		@action // отняли бабло сцуко
+		{ 
+			#string type "add money";
+			#string data "-800";
+			@condition 
+			{
+				t3_get_1000;
+			}
+		}
+		@action // добавили памедораф
+		{ 
+			#string type "add to shop";
+			#string data "tomato";
+			@condition 
+			{
+				t3_get_1000;
+			}
+		}
+		
+		@action // добавили куку-руку
+		{ 
+			#string type "add to shop";
+			#string data "corn";
+			@condition 
+			{
+				t3_get_1000;
+			}
+		}
+		
+		@action // добавили капусты
+		{ 
+			#string type "add to shop";
+			#string data "cabbage";
+			@condition 
+			{
+				t3_get_1000;
+			}
+		}
+	
+	
+		@action // добавили лицензию на свиней
+		{ 
+			#string type "add to shop";
+			#string data "patent_for_house_pig";
+			@condition 
+			{
+				t4_sow_tomato_and_cabbage;
+			}
+		}
+	
+		@action // добавили лицензию на овец
+		{ 
+			#string type "add to shop";
+			#string data "patent_for_house_sheep";
+			@condition 
+			{
+				t4_sow_tomato_and_cabbage;
+			}
+		}
+	
+		@action // дали кредит!!!
+		{ 
+			#string type "add money";
+			#string data "1500";
+			@condition 
+			{
+				t5_sell_vegetables;
+			}
+		}
+	
+	
+		@action // добавили коровник
+		{ 
+			#string type "add to shop";
+			#string data "house_cow";
+			@condition 
+			{
+				t6_sell_pig_and_fur;
+			}
+		}
+		@action // добавили курятник
+		{ 
+			#string type "add to shop";
+			#string data "house_chicken";
+			@condition 
+			{
+				t6_sell_pig_and_fur;
+			}
+		}
+		@action // добавили холодильнег
+		{ 
+			#string type "add to shop";
+			#string data "hangar_refrigerator";
+			@condition 
+			{
+				t6_sell_pig_and_fur;
+			}
+		}
+	
+		
+	
+		@action // нас проспонсировали
+		{ 
+			#string type "add money";
+			#string data "10000";
+			@condition 
+			{
+				t7_place_cow_chicken_ref;
+			}
+		}
+	
+		@action // нам дали георгины
+		{ 
+			#string type "add to shop";
+			#string data "patent_for_dahlia";
+			@condition 
+			{
+				t7_place_cow_chicken_ref;
+			}
+		}
+	
+		
+		@action // нам дали цветочный сарай
+		{ 
+			#string type "add to shop";
+			#string data "hangar_flowers";
+			@condition 
+			{
+				t7_place_cow_chicken_ref;
+			}
+		}
+		
+		
+		
+		
+		@action // победа йопт
+		{ 
+			#string type "victory";
+			@condition 
+			{
+				t8_sow_flowers_and_sell_honey;
+			}
+		}
+	
+	
+	}
+}
+
+
+>>
+
+тут тоже можно писать что угодно
+что угодно
+
+

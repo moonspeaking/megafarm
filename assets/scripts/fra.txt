@@ -1,0 +1,1073 @@
+<<
+
+	begin_lower_char = a
+	end_lower_char = z
+	begin_upper_char = A
+	end_upper_char = Z
+	begin_lower_char = a
+	end_lower_char = z
+	begin_upper_char = A
+	end_upper_char = Z
+	start = Commencer
+	freemode = Test
+	options = Options
+	trophyroom = Trophées
+	change_player = Changer de joueur
+	credits = Crédits
+	help = Aide
+	exit = Quitter
+	back = Retour
+	loading = Chargement en cours
+
+	musics = Musique
+	fullscreen = Mode plein écran
+	windowed = Mode fenêtre
+	vsync = Synch verticale
+	
+	new_profile = Nouveau joueur
+	delete_profile = Supprimer le joueur
+
+	music_on = MUSIQUE ACTIVÉE
+	music_off = MUSIQUE DÉSACTIVÉE
+	sound_on = EFFETS SONORES ACTIVÉS
+	sound_off = EFFETS SONORES DÉSACTIVÉS
+	cursor_on = Curseur du jeu activé
+	cursor_off = Curseur du jeu désactivé
+	
+	set_volume = Volume
+	sound_volume = VOLUME DES EFFETS SONORES
+	music_volume = VOLUME DE LA MUSIQUE
+
+	languages = Sélectionner la langue
+	lang_rus = Русский
+	lang_eng = English
+	lang_fra = Français
+	lang_ita = Italiano
+	lang_por = Inglês
+	lang_dut = Nederlands
+	lang_swe = Svenska
+	lang_deu = Deutsch
+	lang_esp = Español
+	lang_jap = Japanese
+	lang_kor = Korean
+	lang_chn = Chinese
+
+	change_player_label = (Changer de joueur)
+	ok = OK
+	cancel = ANNULER
+	yes = OUI
+	no = NON
+	game_saved = Partie sauvegardée !
+	game_loaded = Chargement terminé.
+	question_save_game = Enregistrer la partie actuelle ?
+	question_load_game = Charger une partie précédemment chargée ?
+	question_exit_game = Êtes-vous sûr de vouloir quitter ?
+	question_replay_game = Êtes-vous sûr de vouloir rejouer ce niveau ?
+	question_end_game = Êtes-vous sûr de vouloir revenir au menu principal ?
+	question_saveandexit_game = Enregistrer cette partie avant de quitter ?
+	cheatmodeon = Mode triche activé !
+	cheatmodeoff = Mode triche désactivé !
+	tasks = Tâches
+	mainmenu = Menu
+	continue = Continuer
+	restart = Rejouer
+	exitgame = Quitter
+	profit_hint = Vous avez gagné % pièces.
+	current_task = Tâche en cours
+	click_to_continue = CONTINUER
+	patent_buy_confirm = Êtes-vous sûr de vouloir passer cette commande ?
+	notify_you_cant_place = Vous ne pouvez pas mettre ça ici !
+	notify_you_cant_gowhere = Vous ne pouvez pas aller là !
+	
+	wombat = Wombat
+	
+	control_help_1 = Le bouton gauche de la souris permet de contrôler les personnages. Le bouton droit annule les commandes. Les touches fléchées déplacent le champ.
+	control_help_2 = Un clic simple permet d’exécuter des fonctions de base. Un double-clic permet de creuser et de labourer le sol ou de déposer un objet.
+	
+	text_enter_name = Entrez votre nom
+	welcome_message = Bienvenue,
+
+	dig_squares = Labourer le sol
+	water_plants = Arroser les plantes
+
+	level1_name = Apprentissage
+	level2_name = Votre première ferme
+	level3_name = Donner le meilleur de soi-même
+	level4_name = L’argent pousse dans les arbres
+	level5_name = Pouvoir des fleurs
+	level6_name = Très occupé
+	level7_name = La foire du Comté
+	level8_name = Fournisseurs
+	level9_name = Argent, argent, argent
+	level10_name = Sécheresse
+	level11_name = La ferme de vos rêves
+	level12_name = Aller au marché
+	
+	trophy_announce_header = Vous avez gagné un trophée !
+	
+	trophy_hint0 = Le coucou vous a été offert en récompense de votre excellent travail pendant le niveau d’apprentissage.
+	trophy_hint1 = La tirelire du fermier vous a été offerte car c’est en économisant de l’argent que l’on devient riche.
+	trophy_hint2 = La statuette Trouver du temps pour les porcs vous a été offerte parce que vous avez donné le meilleur de vous-même et sauvé les porcs.
+	trophy_hint3 = Ce palmier était un cadeau des villageois pour avoir sauvé leurs maisons du gigantesque ventilateur de l’usine.
+	trophy_hint4 = La Médaille d’or de la floriculture vous a été remise en récompense de votre travail exceptionnel dans le domaine des fleurs.
+	trophy_hint5 = Le Prix de la bonne abeille ouvrière vous a été remis en récompense de votre restauration des traditions anciennes d’apiculture.
+	trophy_hint6 = Le Grand prix de la foire du Comté.
+	trophy_hint7 = La Statue de la liberté du fermier vous a été remise pour vous récompenser d’avoir maintenu votre indépendance face à l’agression. Liberté, agriculture, fraternité.
+	trophy_hint8 = Le reçu de la banque est votre meilleur trophée jusqu’à présent. Les fermiers vous offrent de la glace !
+	trophy_hint9 = Le Seau d’eau d’argent vous a été remis pour avoir aidé la ferme à survivre à la sécheresse.
+	trophy_hint10 = L’Oreille dorée vous a été remise pour avoir fondé la ferme du futur !
+	trophy_hint11 = Un certificat vous nommant meilleur fournisseur de produits de la terre. Vous avez obtenu le marché !
+	trophy_hint12 = Le trophée du Meilleur fermier dans l’histoire de l’agriculture.
+	
+	level_not_finished = Vous n’avez pas réussi ce niveau.
+    level_completed = Niveau terminé
+    level_completed_with_trophy = Travail récompensé!
+    level_time = Temps
+    level_money = Argent
+    best_time = Meilleur temps :
+    best_money = Meilleur bénéfice :
+
+	inventory_form = FOURNITURES
+	buildings_form = BÂTIMENTS
+	seeds_form = GRAINES
+	sprouts_form = PLANTES
+	trees_form = ARBRES
+	workers_form = OUVRIERS
+
+	aubergine = Aubergines
+	beetroot = Betteraves
+	cabbage = Choux
+	carrot = Carottes
+	corn = Maïs
+	cucumber = Concombres
+	dahlia = Dahlias
+	mushroom = Champignons
+	pepper = Poivrons
+	pumpkin = Potirons
+	radish = Radis
+	strawberries = Fraises
+	sunflower = Tournesols
+	tomato = Tomates
+	tulip = Tulipes
+	watermelon = Pastèques
+	
+	task_separator = à
+	task_sow = plante
+	task_sell = vendre
+	task_fertilize = fertiliser
+	task_buy = acheter
+	
+	water_sprinkler = Systèmes d’arrosage
+	time = Temps
+	
+	tree_desert_apple = Pommiers
+	tree_desert_cherry = Cerisiers
+	tree_desert_palm = Bananiers
+	tree_desert_plum = Pruniers
+	tree_grass_apple = Pommiers
+	tree_grass_cherry = Cerisiers
+	tree_grass_palm = Bananiers
+	tree_grass_plum = Pruniers
+	tree_swamp_apple = Pommiers
+	tree_swamp_cherry = Cerisiers
+	tree_swamp_palm = Bananiers
+	tree_swamp_plum = Pruniers
+	
+	house_chicken_product = Œufs
+	house_cow_product = Lait
+	house_pig_product = Porcelets
+	house_sheep_product = Laine
+	beehive_product = Miel
+	
+	tree_desert_apple_product = Pommes
+	tree_desert_cherry_product = Cerises
+	tree_desert_palm_product = Bananes
+	tree_desert_plum_product = Prunes
+	tree_grass_apple_product = Pommes
+	tree_grass_cherry_product = Cerises
+	tree_grass_palm_product = Bananes
+	tree_grass_plum_product = Prunes
+	tree_swamp_apple_product = Pommes
+	tree_swamp_cherry_product = Cerises
+	tree_swamp_palm_product = Bananes
+	tree_swamp_plum_product = Prunes
+	
+	house_chicken = Poulaillers
+	house_cow = Étables
+	house_pig = Porcheries
+	house_sheep = Bergeries
+	hangar_refrigerator = Entrepôts réfrigérés
+	hangar_flowers = Serres
+	beehive = Ruches
+	
+	helper = Jardiniers
+	harvester = Cueilleurs de fruits et légumes
+	
+	patent_for_tulip = Commandes de bulbes de tulipes
+	patent_for_dahlia = Commandes de bulbes de dahlias
+	patent_for_sunflower = Commandes de graines de tournesols
+	patent_for_cucumber = Commandes de semis de concombres
+	patent_for_tomato = Commandes de semis de plants de tomates
+	patent_for_aubergine = Commandes de semis d’aubergines
+	patent_for_pepper = Commandes de semis de poivrons
+	patent_for_watermelon = Commandes de graines de pastèques
+	patent_for_hangar_flowers = Permis de construire pour serres
+	patent_for_beehive = Autorisations de pratiquer l’apiculture
+	patent_for_cabbage = Commandes de graines de choux
+	patent_for_beetroot = Commandes de graines de betteraves
+	patent_for_house_pig = Permis de construire pour porcheries
+	patent_for_carrot = Commandes de graines de carottes
+	patent_for_corn = Commandes de graines de maïs
+	patent_for_hangar_vegetables = Permis de construire pour granges
+	patent_for_mushroom = Commandes de spores de champignons
+	patent_for_pumpkin = Commandes de graines de potirons
+	patent_for_strawberries = Commandes de semis de fraisiers
+	patent_for_hangar_refrigerator = Permis de construire pour entrepôts réfrigérés
+	patent_for_house_sheep = Autorisations d’oviculture
+	patent_for_house_chicken = Autorisations d’élevages avicoles
+	patent_for_house_cow = Autorisations d’exploitation de fermes laitières
+	patent_for_radish = Commandes de graines de radis
+	
+	plant_aubergine = Aubergines
+	plant_beetroot = Betteraves
+	plant_cabbage = Choux
+	plant_carrot = Carottes
+	plant_corn = Maïs
+	plant_cucumber = Concombres
+	plant_dahlia = Dahlias
+	plant_mushroom = Champignons
+	plant_pepper = Poivrons
+	plant_pumpkin = Potirons
+	plant_radish = Radis
+	plant_strawberries = Fraises
+	plant_sunflower = Tournesols
+	plant_tomato = Tomates
+	plant_tulip = Tulipes
+	plant_watermelon = Pastèques
+	
+	money = Argent
+
+	cost_goods = Vous pouvez vendre une caisse de ce produit pour %i pièces.
+	cost_work = Le salaire d’un ouvrier agricole s’élève à %i pièces.
+
+	box_shop_hint = Une caisse pour recueillir votre récolte.
+	fivebox_shop_hint = Un lot de cinq caisses
+	tenbox_shop_hint = Un lot de 10 caisses
+
+	spade_shop_hint = Une pelle de grande qualité
+	watercan_shop_hint = Un petit arrosoir
+	big_watercan_shop_hint = Un grand arrosoir
+
+	destructor_shop_hint = Cet outil sert à éliminer les mauvaises herbes ou à relabourer un carré potager existant.
+	transporter_shop_hint = La grue peut être utilisée pour déplacer des bâtiments sur votre exploitation.
+	
+	hangar_vegetables_shop_hint = Les granges servent à stocker les fruits et légumes non périssables.
+	hangar_flowers_shop_hint = Les serres servent à stocker les fleurs.
+	hangar_refrigerator_shop_hint = Les entrepôts réfrigérés servent à stocker les denrées périssables.
+
+	beehive_shop_hint = Les ruches servent à l’apiculture afin que vous puissiez vendre un miel délicieux.
+	house_sheep_shop_hint = Les bergeries servent à l’oviculture afin que vous puissiez vendre de la laine.
+	house_pig_shop_hint = Les porcheries servent à l’élevage de porcelets.
+	house_cow_shop_hint = Les étables servent à l’élevage de vaches laitières pour que vous puissiez vendre du lait.
+	house_chicken_shop_hint = Les poulaillers servent à l’élevage de poules pour que vous puissiez vendre des œufs.
+	
+	
+	waterpump_shop_hint = Si vous parcourez une grande distance pour vous procurer de l’eau, vous voudrez peut-être creuser un autre puits.
+	water_sprinkler_shop_hint = Les systèmes d’arrosage sont indispensables sur toute exploitation de grande taille.
+	fertilizer_shop_hint = Un petit sac d’engrais
+	big_fertilizer_shop_hint = Un grand sac d’engrais
+	
+	tree_desert_palm_shop_hint = Les bananes ne pousseront peut-être pas vite, mais vous pouvez en retirer une coquette somme d’argent.
+	tree_desert_apple_shop_hint = Les pommiers ne sont pas chers mais les pommes poussent rapidement.
+	tree_desert_cherry_shop_hint = Les cerisiers peuvent sembler saugrenus, mais leurs fruits sont assez rentables.
+	tree_desert_plum_shop_hint = Les pruniers ont des fruits qui mûrissent rapidement et qui se vendent également bien.
+	
+	tree_swamp_palm_shop_hint = Les bananes ne pousseront peut-être pas vite, mais vous pouvez en retirer une coquette somme d’argent.
+	tree_swamp_apple_shop_hint = Les pommiers ne sont pas chers mais les pommes poussent rapidement.
+	tree_swamp_cherry_shop_hint = Les cerisiers peuvent sembler saugrenus, mais leurs fruits sont assez rentables.
+	tree_swamp_plum_shop_hint = Les pruniers ont des fruits qui mûrissent rapidement et qui se vendent également bien.
+
+	tree_grass_palm_shop_hint = Les bananes ne pousseront peut-être pas vite, mais vous pouvez en retirer une coquette somme d’argent.
+	tree_grass_apple_shop_hint = Les pommiers ne sont pas chers mais les pommes poussent rapidement.
+	tree_grass_cherry_shop_hint = Les cerisiers peuvent sembler saugrenus, mais leurs fruits sont assez rentables.
+	tree_grass_plum_shop_hint = Les pruniers ont des fruits qui mûrissent rapidement et qui se vendent également bien.
+	
+	harvester_shop_hint = Les cueilleurs de fruits et légumes sont des ouvriers engagés pour la récolte des fruits et des légumes sur vos plantations.
+	helper_shop_hint = Les assistants jardiniers sont des ouvriers embauchés pour s’assurer que vos plantes ne manquent pas d’engrais.
+	
+	aubergine_shop_hint = Paquet de semis d’aubergines.
+	beetroot_shop_hint = Paquet de graines de betteraves.
+	cabbage_shop_hint = Paquet de graines de choux.
+	carrot_shop_hint = Paquet de graines de carottes.
+	corn_shop_hint = Paquet de graines de maïs.
+	cucumber_shop_hint = Paquet de semis de concombres.
+	dahlia_shop_hint = Paquet de bulbes de dahlias.
+	mushroom_shop_hint = Paquet de spores de champignons.
+	pepper_shop_hint = Paquet de semis de poivrons.
+	pumpkin_shop_hint = Paquet de graines de potirons.
+	radish_shop_hint = Paquet de graines de radis.
+	strawberries_shop_hint = Paquet de semis de fraisiers.
+	sunflower_shop_hint = Paquet de graines de tournesols.
+	tomato_shop_hint = Paquet de semis de plants de tomates.
+	tulip_shop_hint = Paquet de bulbes de tulipes.
+	watermelon_shop_hint = Paquet de graines de pastèques.
+	
+	patent_for_tulip_shop_hint = Commandez des bulbes de tulipes. Une fois que la commande arrive, vous pouvez acheter des bulbes de tulipes dans la boutique.
+	patent_for_dahlia_shop_hint = Commandez des bulbes de dahlias. Une fois que la commande arrive, vous pouvez acheter des bulbes de dahlias dans la boutique.
+	patent_for_sunflower_shop_hint = Commandez des graines de tournesols. Une fois que la commande arrive, vous pouvez acheter des graines de tournesols dans la boutique.
+	patent_for_cucumber_shop_hint =  Commandez des semis de concombres. Une fois que la commande arrive, vous pouvez acheter des semis de concombres dans la boutique.
+	patent_for_tomato_shop_hint =  Commandez des semis de plants de tomates. Une fois que la commande arrive, vous pouvez acheter des semis de plants de tomates dans la boutique.
+	patent_for_aubergine_shop_hint =  Commandez des semis d’aubergines. Une fois que la commande arrive, vous pouvez acheter des semis d’aubergines dans la boutique.
+	patent_for_pepper_shop_hint =  Commandez des semis de poivrons. Une fois que la commande arrive, vous pouvez acheter des semis de poivrons dans la boutique.
+	patent_for_watermelon_shop_hint =  Commandez des graines de pastèques. Une fois que la commande arrive, vous pouvez acheter des graines de pastèques dans la boutique.
+	patent_for_hangar_flowers_shop_hint =  Achetez une autorisation de pratiquer la floriculture et un permis pour construire une serre. Avec une autorisation de pratiquer la floriculture, vous pouvez cultiver et vendre des fleurs.
+	patent_for_beehive_shop_hint = Achetez une autorisation de pratiquer l’apiculture. Avec cette autorisation, vous pouvez fabriquer et vendre du miel.
+	patent_for_beetroot_shop_hint = Commandez des graines de betteraves. Une fois que la commande arrive, vous pouvez acheter des graines de betteraves dans la boutique.
+	patent_for_cabbage_shop_hint = Commandez des graines de choux. Une fois que la commande arrive, vous pouvez acheter des graines de choux dans la boutique.
+	patent_for_carrot_shop_hint = Commandez des graines de carottes. Une fois que la commande arrive, vous pouvez acheter des graines de carottes dans la boutique.
+	patent_for_corn_shop_hint = Commandez des graines de maïs. Une fois que la commande arrive, vous pouvez acheter des graines de maïs dans la boutique.
+	patent_for_hangar_refrigerator_shop_hint = Achetez un permis pour construire un entrepôt réfrigéré et une autorisation pour l’utiliser.
+	patent_for_hangar_vegetables_shop_hint = Achetez un permis pour construire une grange. Avec ce permis, vous pouvez construire une autre grange à un emplacement plus pratique sur l’exploitation.
+	patent_for_house_chicken_shop_hint = Achetez une autorisation d’élevage avicole. Avec cette autorisation, vous pouvez élever des poules et vendre des œufs.
+	patent_for_house_cow_shop_hint = Achetez une autorisation d’exploitation de ferme laitière. Avec cette autorisation, vous pouvez élever des vaches et vendre du lait.
+	patent_for_house_pig_shop_hint = Achetez une autorisation d’élevage de porcs. Avec cette autorisation, vous pouvez élever et vendre des porcs. 
+	patent_for_house_sheep_shop_hint = Achetez une autorisation d’élevage de mouton. Avec cette autorisation, vous pouvez élever des moutons et vendre leur laine.
+	patent_for_mushroom_shop_hint = Commandez des spores de champignons. Une fois que la commande arrive, vous pouvez acheter des spores de champignons dans la boutique.
+	patent_for_pumpkin_shop_hint = Commandez des graines de potirons. Une fois que la commande arrive, vous pouvez acheter des graines de potirons dans la boutique.
+	patent_for_radish_shop_hint = Commandez des graines de radis. Une fois que la commande arrive, vous pouvez acheter des graines de radis dans la boutique.
+	patent_for_strawberries_shop_hint = Commandez des semis de fraisiers. Une fois que la commande arrive, vous pouvez acheter des semis de fraisiers dans la boutique.
+	
+	notify_add_shop_harvester = Vous pouvez à présent embaucher un cueilleur de fruits et légumes pour vous aider dans votre récolte.
+	notify_add_shop_helper = Vous pouvez à présent embaucher un jardinier pour vous aider à arroser et fertiliser vos cultures.
+	notify_add_shop_box = Des caisses sont désormais disponibles dans la boutique.
+	notify_add_shop_fivebox = Des lots de cinq caisses sont disponibles dans la boutique.
+	notify_add_shop_tenbox = Des lots de 10 caisses sont disponibles dans la boutique.
+	notify_add_shop_aubergine = Des semis d’aubergines sont désormais disponibles dans la boutique.
+	notify_add_shop_beetroot = Des graines de betteraves sont désormais disponibles dans la boutique.
+	notify_add_shop_cabbage = Des graines de choux sont désormais disponibles dans la boutique.
+	notify_add_shop_carrot = Des graines de carottes sont désormais disponibles dans la boutique.
+	notify_add_shop_corn = Des graines de maïs sont désormais disponibles dans la boutique.
+	notify_add_shop_cucumber = Des semis de concombres sont désormais disponibles dans la boutique.
+	notify_add_shop_dahlia = Des bulbes de dahlias sont désormais disponibles dans la boutique.
+	notify_add_shop_mushroom = Des spores de champignons sont désormais disponibles dans la boutique.
+	notify_add_shop_pepper = Des semis de poivrons sont désormais disponibles dans la boutique.
+	notify_add_shop_pumpkin = Des graines de potirons sont désormais disponibles dans la boutique.
+	notify_add_shop_radish = Des graines de radis sont désormais disponibles dans la boutique.
+	notify_add_shop_strawberries = Des semis de fraisiers sont désormais disponibles dans la boutique.
+	notify_add_shop_sunflower = Des graines de tournesols sont désormais disponibles dans la boutique.
+	notify_add_shop_tomato = Des semis de tomates sont désormais disponibles dans la boutique.
+	notify_add_shop_tulip = Des bulbes de tulipes sont désormais disponibles dans la boutique.
+	notify_add_shop_watermelon = Des graines de pastèques sont désormais disponibles dans la boutique.
+	notify_add_shop_watercan = Des arrosoirs sont désormais disponibles dans la boutique. 
+	notify_add_shop_big_watercan = De gros arrosoirs sont désormais disponibles dans la boutique.
+	notify_add_shop_transporter = Vous pouvez à présent louer une grue dans la boutique.
+
+	notify_add_shop_beehive = Des ruches sont désormais disponibles dans la boutique.
+	notify_add_shop_house_sheep = Des moutons sont désormais disponibles dans la boutique.
+	notify_add_shop_house_pig = Des porcs sont désormais disponibles dans la boutique.
+	notify_add_shop_house_cow = Des vaches sont désormais disponibles dans la boutique.
+	notify_add_shop_house_chicken = Des poulets sont désormais disponibles dans la boutique.
+
+	notify_add_shop_waterpump = Des puits avec pompes à eau sont désormais disponibles dans la boutique.
+	notify_add_shop_water_sprinkler = Des systèmes d’arrosage sont désormais disponibles dans la boutique.
+	notify_add_shop_fertilizer = De l’engrais est désormais disponible dans la boutique.
+	notify_add_shop_big_fertilizer = De gros sacs d’engrais sont désormais disponibles dans la boutique.
+
+	notify_add_shop_tree_grass_palm = De jeunes bananiers sont désormais disponibles dans la boutique.
+	notify_add_shop_tree_grass_apple = De jeunes pommiers sont désormais disponibles dans la boutique.
+	notify_add_shop_tree_grass_cherry = De jeunes cerisiers sont désormais disponibles dans la boutique.
+	notify_add_shop_tree_grass_plum = De jeunes pruniers sont désormais disponibles dans la boutique.
+	notify_add_shop_tree_desert_palm = De jeunes bananiers sont désormais disponibles dans la boutique.
+	notify_add_shop_tree_desert_apple = De jeunes pommiers sont désormais disponibles dans la boutique.
+	notify_add_shop_tree_desert_cherry = De jeunes cerisiers sont désormais disponibles dans la boutique.
+	notify_add_shop_tree_desert_plum = De jeunes pruniers sont désormais disponibles dans la boutique.
+	notify_add_shop_tree_swamp_palm = De jeunes bananiers sont désormais disponibles dans la boutique.
+	notify_add_shop_tree_swamp_apple = De jeunes pommiers sont désormais disponibles dans la boutique.
+	notify_add_shop_tree_swamp_cherry = De jeunes cerisiers sont désormais disponibles dans la boutique.
+	notify_add_shop_tree_swamp_plum = De jeunes pruniers sont désormais disponibles dans la boutique.
+
+	notify_add_shop_patent_for_tulip = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des bulbes de tulipes.
+	notify_add_shop_patent_for_dahlia = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des bulbes de dahlias.
+	notify_add_shop_patent_for_sunflower = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des graines de tournesol.
+	notify_add_shop_patent_for_cucumber = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des semis de concombres.
+	notify_add_shop_patent_for_tomato = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des semis de plants de tomates.
+	notify_add_shop_patent_for_aubergine = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des semis d’aubergines.
+	notify_add_shop_patent_for_pepper = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des semis de poivrons.
+	notify_add_shop_patent_for_watermelon = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des graines de pastèques.
+	notify_add_shop_patent_for_hangar_flowers = Vous pouvez demander un permis de construire et commander le matériel nécessaire à la construction d’une serre.
+	notify_add_shop_patent_for_beehive = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer une ruche.
+	notify_add_shop_patent_for_cabbage = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des graines de choux.
+	notify_add_shop_patent_for_beetroot = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des graines de betteraves.
+	notify_add_shop_patent_for_carrot = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des graines de carottes.
+	notify_add_shop_patent_for_house_pig = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer une porcherie.
+	notify_add_shop_patent_for_corn = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des graines de maïs.
+	notify_add_shop_patent_for_mushroom = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des spores de champignons.
+	notify_add_shop_patent_for_strawberries = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des semis de fraisiers.
+	notify_add_shop_patent_for_pumpkin = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des graines de potirons.
+	notify_add_shop_patent_for_radish = Vous pouvez à présent passer commande auprès de la boutique pour vous procurer des graines de radis.
+	
+	notify_add_shop_hangar_vegetables = Des granges sont désormais disponibles dans la boutique.
+	notify_add_shop_hangar_flowers = Des serres sont désormais disponibles dans la boutique.
+	notify_add_shop_hangar_refrigerator = Des entrepôts réfrigérés sont désormais disponibles dans la boutique.
+	notify_add_shop_patent_for_house_chicken = Vous pouvez demander un permis de construire et commander le matériel nécessaire à la construction d’un poulailler.
+	notify_add_shop_patent_for_house_cow = Vous pouvez demander un permis de construire et commander le matériel nécessaire à la construction d’une étable.
+	notify_add_shop_patent_for_house_pig = Vous pouvez demander un permis de construire et commander le matériel nécessaire à la construction d’une porcherie.
+ 	notify_add_shop_patent_for_house_sheep = Vous pouvez demander un permis de construire et commander le matériel nécessaire à la construction d’une bergerie.
+	notify_add_shop_patent_for_house_beehive = Vous pouvez demander un permis de construire et commander le matériel nécessaire à la construction d’une ruche.
+	notify_add_shop_patent_for_hangar_flowers = Vous pouvez demander un permis de construire et commander le matériel nécessaire à la construction d’une serre.
+	notify_add_shop_patent_for_hangar_vegetables = Vous pouvez demander un permis de construire et commander le matériel nécessaire à la construction d’une grange.
+	notify_add_shop_patent_for_hangar_refrigerator = Vous pouvez demander un permis de construire et commander le matériel nécessaire à la construction d’un entrepôt réfrigéré.
+	
+	notify_no_more_money = Vous n’avez pas suffisamment d’argent pour effectuer cet achat !
+	notify_you_cant_put = Vous ne pouvez pas mettre ça ici !
+	notify_you_cant_storebox = Cela doit être stocké ailleurs !
+	notify_store_in_hangar = Vous ne pouvez pas stocker ça ici ! Emmenez ça dans la grange.
+	notify_store_in_fridge = Vous ne pouvez pas stocker ça ici ! Emmenez ça dans l’entrepôt réfrigéré.
+	notify_store_in_flower = Vous ne pouvez pas stocker ça ici ! Emmenez ça dans la serre.
+	notify_box_nomore_full = Cette caisse n’est pas encore pleine !
+	notify_only_for_this_type = Vous remplissez cette caisse de %s. Ne la remplissez qu’avec cet élément !
+	notify_box_full = Cette caisse est pleine. Emmenez ça dans la grange !
+	
+	notify_cant_feed_house_sheep = Les moutons ne mangent que du chou et des carottes.
+	notify_cant_feed_house_pig = Les porcs ne mangent que des betteraves et des tomates.
+	notify_cant_feed_house_cow = Les vaches ne mangent que du chou et des carottes.
+	notify_cant_feed_house_chicken = Les poulets ne mangent que maïs fourrage.
+	
+	message_complete_sell_plant_tomato = Parfait ! Vous avez honoré votre commande de tomates !
+	message_complete_sell_plant_aubergine = Magnifique ! Vous avez honoré votre commande d’aubergines !
+	message_complete_sell_plant_pepper = Excellent ! Vous avez honoré votre commande de poivrons !
+	message_complete_sell_plant_cucumber = Épatant ! Vous avez honoré votre commande de concombres !
+	message_complete_sell_plant_dahlia = Magnifique ! Vous avez honoré votre commande de dahlias !
+	message_complete_sell_plant_sunflower = Super ! Vous avez honoré votre commande de tournesols !
+	message_complete_sell_plant_tulip = Merveilleux ! Vous avez honoré votre commande de tulipes !
+	message_complete_sell_beehive = Parfait ! Vous avez honoré votre commande de miel !
+	message_complete_sell_plant_mushroom = Magnifique ! Vous avez honoré votre commande de champignons !
+	message_complete_sell_plant_cabbage = Excellent ! Vous avez honoré votre commande de choux !
+	message_complete_sell_plant_watermelon = Épatant ! Vous avez honoré votre commande de pastèques !
+	message_complete_sell_plant_beetroot = Magnifique ! Vous avez honoré votre commande de betteraves !
+	message_complete_sell_house_pig = Super ! Vous avez honoré votre commande de porcs ! 
+	message_complete_sell_plant_carrot = Merveilleux ! Vous avez honoré votre commande de carottes !
+	message_complete_sell_plant_corn = Parfait ! Vous avez honoré votre commande de maïs !
+	message_complete_sell_plant_pumpkin = Magnifique ! Vous avez honoré votre commande de potirons !
+	message_complete_sell_plant_strawberries = Excellent ! Vous avez honoré votre commande de fraises ! 
+	message_complete_sell_house_sheep = Épatant ! Vous avez honoré votre commande de laine ! 
+	message_complete_sell_house_chicken = Magnifique ! Vous avez honoré votre commande d’œufs !
+	message_complete_sell_house_cow = Super ! Vous avez honoré votre commande de lait !
+	message_complete_sell_plant_for_radish = Merveilleux ! Vous avez honoré votre commande de radis !
+	message_complete_sell_tree_apple = Parfait ! Vous avez honoré votre commande de pommes !
+	message_complete_sell_tree_plum = Magnifique ! Vous avez honoré votre commande de prunes !
+	message_complete_sell_tree_cherry = Excellent ! Vous avez honoré votre commande de cerises !
+	message_complete_sell_tree_palm = Épatant ! Vous avez honoré votre commande de bananes !
+	
+	l1_message_welcome = Bienvenue à la ferme ! Nous allons apprendre à cultiver et récolter des cultures.
+	l1_message_dig_one = Pour commencer, nous devons labourer le sol. Double-cliquez sur un endroit libre dans le champ pour creuser.
+	l1_message_dig_four = Excellent ! Mais un carré n’est pas suffisamment grand pour notre jardin. Labourez encore trois autres sections.
+	l1_message_dig_twelve = Parfait ! Aux niveaux suivants, vous devrez labourer bien plus de terre. Mais c’est suffisant pour notre jardin d’apprentissage.
+	l1_message_plant_four = Il est maintenant temps de planter des graines. Cliquez sur le paquet de graines de potirons pour le saisir. Puis cliquez sur les quatre sections du jardin pour planter les graines.
+	l1_message_wait_harvest = Magnifique ! Vous devez maintenant attendre pendant que les potirons poussent et mûrissent. Vous pouvez poser le paquet de graines en double-cliquant sur n’importe quel espace libre dans le champ.
+	l1_message_water = Les plantes ont besoin d’une attention et de soins constants. Cliquez sur l’arrosoir pour le saisir. Remplissez-le d’eau en cliquant sur le puits. Puis arrosez votre jardin en cliquant sur les espaces que vous voulez arroser. 
+	l1_message_water_ok = Continuez ! Les plantes arrosées poussent plus vite et peuvent donc être récoltées plus rapidement. Au contraire, les plantes sèches se fanent et périssent.
+	l1_message_dig_more = Pour éviter de vous ennuyer, vous pouvez creuser et labourer une plus grande superficie et planter le reste des graines.
+	l1_message_fruits_ready = D’accord. Tout est mûr et votre première récolte est prête. Saisissez la caisse et ramassez vos légumes. Quatre éléments rempliront la caisse que vous pouvez alors apporter dans la grange.
+	l1_message_box_tutorial = Excellent ! Vous aurez besoin d’une nouvelle caisse pour votre prochaine récolte. Pour en acheter une dans la boutique, cliquez sur l’onglet des fournitures dans le menu ci-dessous. Cliquez ensuite sur la caisse, puis sur un espace libre dans le champ.
+	l1_message_second_harvest = Votre deuxième récolte est prête ! Mettez les fruits de votre travail dans votre nouvelle caisse puis apportez-les dans la grange.
+	l1_message_third_harvest = Votre troisième récolte est prête ! Pour compléter cet apprentissage, faites votre récolte puis emportez-la dans la grange.
+	l1_message_fertilizer_tutorial = L’engrais maintient vos plantes en bonne santé et leur permet de pousser plus vite. N’oubliez donc pas de l’utiliser dans votre jardin. Vous pouvez l’acheter dans la boutique en utilisant l’onglet Fournitures puis en cliquant sur un paquet d’engrais.
+	l1_message_thirst_reminder = N’oubliez pas que votre jardin doit constamment être arrosé ! Alors, arrosez-le régulièrement et soyez attentif à la couleur du sol.
+	l1_message_victory = Félicitations ! Vous maîtrisez maintenant les bases de l’agriculture. Mais il y a encore beaucoup à apprendre !
+	
+	l1_task_1dig = Utilisation de la pelle
+	l1_task_1dig_details = Double-cliquez sur un endroit libre dans le champ pour creuser et labourer le sol.
+	l1_task_4dig = Continuons l’exercice !
+	l1_task_4dig_details = Creusez et labourez quatre carrés dans le champ.
+	l1_task_4plant = Plantation des graines
+	l1_task_4plant_details = Prenez le sachet de graines et plantez quatre plants de potirons.
+	l1_task_4water = Utilisation de l’arrosoir
+	l1_task_4water_details = Allez au puits pour remplir l’arrosoir et arrosez les plants de potirons.
+	l1_task_3sell = Fin de l’exercice
+	l1_task_3sell_details = Vendez trois caisses de potirons pour terminer la session d’apprentissage.
+	
+	
+	l2_task_sow = Mise en route de votre jardin
+	l2_task_sow_details = Plantez 12 graines de radis.
+	
+	l2_task_first_sell = Votre première commande
+	l2_task_first_sell_details = Nous avons reçu une commande pour 3 caisses de radis et 3 caisses de potirons.
+	
+	l2_task_first_patent = Passez une commande
+	l2_task_first_patent_details = Commandez des semis de concombres.
+	
+	l2_task_second_sell = Votre deuxième commande
+	l2_task_second_sell_details = Nous avons reçu une commande pour 2 caisses de concombres, 4 caisses de potirons et 3 caisses de radis.
+	
+	l2_task_second_patent = Passez une commande
+	l2_task_second_patent_details = Commandez des plants d’aubergines. Ils sont assez rares par ici.
+	
+	l2_task_third_sell = Nous avons déjà reçu une autre commande
+	l2_task_third_sell_details = Nous avons reçu une commande pour une caisse d’aubergines.
+	
+	l2_message_start = Voici donc notre première ferme. Et bien peut-être que nous ne disposons pas de la toute dernière technologie et que tout est recouvert d’herbe. Mais nous avons une bonne grange bien solide où stocker les récoltes et la majeure partie des sols est fertile. C’est tout ce dont a besoin une bonne ferme !
+	l2_message_sow = Cette ferme n’a pas été utilisée depuis des années et le terrain est en friche. Il y a du boulot, mais il faut que quelqu’un le fasse. Alors, retroussez vos manches et mettez-vous au travail. Nous avons des graines de radis et de potirons. Ça pourrait être un bon début de les planter.
+	l2_message_first_sell = Pendant que nous plantions les graines, le propriétaire de la boutique du coin est passé nous voir. Il a aimé l’aspect de nos légumes et a commandé 3 caisses de radis et 3 caisses de potirons. 
+	l2_message_add_money = Vous avez honoré votre première commande et gagné 200 pièces.
+	l2_message_add_money_2 = Vous avez honoré votre deuxième commande et gagné 300 pièces.
+	l2_message_first_patent = Votre ferme dispose de toutes les bases nécessaires et vous avez même achevé votre première tâche. Mais la vie n’est pas un long fleuve tranquille. Commandez des plants de concombres sur l’onglet Plantes puis vous pourrez faire pousser ces délicieux légumes.
+	l2_message_second_sell = Le propriétaire de la boutique du coin est repassé nous voir. Il a aimé l’aspect de nos légumes et nous a fait une bonne proposition d’achat : 3 caisses de concombres, 5 caisses de potirons et 6 caisses de radis. 
+	l2_message_second_patent = Un camion de livraisons de graines est passé dans le village. Il proposait de nouvelles graines intéressantes. Il pouvait nous proposer immédiatement des graines d’aubergines. Aucun autre exploitant n’en cultive dans le village. Est-ce que ça ne serait pas merveilleux si nous étions les premiers à proposer ce magnifique légume ?
+	l2_message_third_sell = En fait, une autre personne du village a également acheté des graines d’aubergines. Le défi consiste donc maintenant à être le premier à les faire pousser et à les commercialiser. Cela déterminera clairement qui est le meilleur fermier du village.
+	l2_message_victory = Fantastique ! Tout le monde pense que vous avez la meilleure ferme du village. Vous avez été nommé meilleur fermier et de nombreuses personnes viennent vous demander conseil.
+	
+	l2_message_add_waterpump = Ça n’est peut-être pas le plus important pour la ferme, mais il vous faut longtemps pour faire les allers-retours au puits. Vous pouvez en creuser un deuxième. (Consultez l’onglet de la boutique d’approvisionnement pour avoir plus d’informations).
+	l2_message_add_big_watercan = Votre jardin s’agrandit. Il est difficile de gérer un grand jardin avec un si petit arrosoir. Mais vous pouvez en acheter un plus grand qui vous permettra d’arroser 12 zones de votre jardin en une fois. Cliquez sur l’onglet du stock pour en acheter un.
+	l2_message_add_fivebox = Vous allez dans la boutique à chaque fois que vous avez besoin d’une nouvelle caisse. Vous n’en avez pas assez ? Nous avons une nouvelle offre spéciale ! Un lot de cinq caisses !
+	l2_message_thirsty_need = Il est important de ne pas oublier vos plantes. Sinon elles se fanent et périssent.
+	l2_fertilizer_help = Mettez souvent de l’engrais, particulièrement lorsque des cœurs apparaissent, pour éviter aux plantes de se faner.
+	l2_help_help = Vous pouvez accéder à un résumé de vos tâches en cliquant sur votre liste de tâches en haut de l’écran.
+	
+	l3_task_collect_batch_vegatables = Culture de légumes
+	l3_task_collect_batch_vegatables_details = Cultivez 4 caisses de chacune de ces variétés : champignons, concombres et aubergines.
+
+	l3_task_pig_alarm = Donner le meilleur de soi-même
+	l3_task_pig_alarm_details = Nous avons reçu une commande pour élever et vendre 7 porcs.
+	
+	l3_message_pig_alarm = Salut, voisin ! Imaginez, la conduite d’eau qui alimente l’usine a explosé. Ils l’ont réparée, mais le sol est inondé et nous avons perdu notre récolte de betteraves. Nous n’avons plus rien pour nourrir les porcs et qui va acheter ces petits porcs maigrichons ? Quelqu’un a même commandé 7 porcs mais nous ne sommes plus sûrs de pouvoir honorer cette commande ! Nous avons entendu dire que vous êtes un jeune fermier doué et digne de confiance. Pouvez-vous nous aider ?
+	l3_message_task_collect_batch_vegatables = Nous devons faire pousser des tomates pour nourrir les porcs. Mais avant cela, nous devons gagner de l’argent. Nous avons reçu une commande pour 4 caisses de chacune de ces variétés : champignons, concombres et aubergines pour le marché local.
+	l3_message_task_sell_pig = Les semis de plants de tomates sont enfin disponibles dans la boutique (voir l’onglet Plantes). Nous devons les planter. Dès que les tomates seront mûres et prêtes, nous aurons de quoi nourrir nos porcs.
+	l3_message_complete_sell_plant_mushroom = Parfait ! Vous avez honoré votre commande de champignons !
+	l3_message_complete_sell_plant_cucumber = Magnifique ! Vous avez honoré votre commande de concombres !
+	l3_message_complete_sell_plant_aubergine = Excellent ! Vous avez honoré votre commande d’aubergines !
+	l3_message_victory = On a réussi ! Et à présent cette ferme est plus florissante que jamais !
+	l3_message_beetroot_help = Les graines de betteraves sont enfin disponibles dans la boutique (voir l’onglet Graines). Les porcs mangent également des betteraves qui poussent plus vite que les tomates.
+	l3_message_pig_feed_help = Nos porcs mangent maintenant allègrement. Nous devons juste attendre que les petits porcelets soient gros et gras. L’indicateur d’alimentation diminue à mesure que les porcs mangent et grossissent. Si le porc n’a plus à manger, il ne grossit pas. N’oubliez donc pas de le nourrir.
+	l3_message_pig_sow_help = Notre petit porcelet a grossi et est prêt pour la vente. Utilisez une caisse pour le transporter dans la grange.
+	l3_message_destructor_help = Si de la terre ou des cultures existantes vous dérangent, vous pouvez utiliser le motoculteur pour labourer le sol.
+	l3_message_transporter_help	= Vous pouvez à présent louer une grue dans la boutique. Vous pouvez utiliser la grue pour déplacer toute construction vers un autre emplacement (voir l’onglet Boutique).
+	l3_message_water_sprinkler_help	= Des systèmes d’arrosage sont désormais disponibles dans la boutique ! Ils sont très pratiques. Il vous suffit de les placer à proximité de votre jardin et vous n’aurez plus à arroser vos plantations manuellement. N’oubliez cependant pas que chaque système d’arrosage n’a qu’une portée limitée.
+	l3_message_add_house_pig = Afin d’honorer plus rapidement votre commande, vous pouvez bâtir une autre porcherie. Mais vous devez tout d’abord demander un permis de construire. Une fois que vous avez payé le permis de construire, vous obtenez une subvention de 500 pièces pour bâtir une porcherie.
+	
+	l3_message_have_700money = Vous avez gagné 700 pièces. Vous pouvez demander un permis pour construire une porcherie. Cela vous permettra d’atteindre plus rapidement vos objectifs.
+	l3_message_add_500money = Vous avez gagné 500 pièces.
+	
+	l4_task_big_cooler = Des arbres pour nous protéger
+	l4_task_big_cooler_details = Pour sauver le village, nous devons acheter et planter 6 arbres supplémentaires !
+	l4_task_place_house_chicken = Poulailler
+	l4_task_place_house_chicken_details = Vous devez bâtir un poulailler.
+	l4_task_place_hangar_refrigerator = Bien frais
+	l4_task_place_hangar_refrigerator_details = Vous devez acheter un entrepôt réfrigéré.
+	
+	l4_message_big_cooler = L’usine en haut de la rue a expérimenté un ventilateur gigantesque et il a balayé toutes les cultures locales. Nous devons planter une rangée d’arbres pour protéger le village et nos cultures des vents destructeurs générés par cette horrible usine. Nous en avons déjà planté quelques uns, mais il nous en faut encore beaucoup plus !
+	l4_message_first_task = Nous devons planter 6 arbres supplémentaires mais nous n’avons pas les moyens de les acheter. La vente de nos légumes n’est pas suffisamment lucrative. Quant à notre porcherie, elle tombe en ruine et ne nous rapporte pas non plus beaucoup d’argent. Mais nous pourrions acquérir de magnifiques poules et, bien qu’elles mangent beaucoup, nous pourrions bâtir un poulailler et vendre leurs œufs. C’est bien plus rentable à présent. Bien sûr, il nous faudra obtenir une autorisation pour élever des poules mais dès que nous l’aurons, les villageois ont promis de nous aider à régler les dépenses.
+	l4_message_place_patent_for_house_chicken = Nous avons le permis pour construire le poulailler et l’autorisation pour élever des poules. Et, comme promis, les villageois nous ont donné 500 pièces pour nous aider à couvrir nos frais.
+	l4_message_second_task = Très bien, nous avons donc désormais un poulailler. Mais malheureusement nous ne pouvons pas stocker leurs œufs dans la grange, nous allons devoir bâtir un entrepôt réfrigéré. Il va nous falloir un nouveau permis de construire mais les villageois doivent accepter de payer pour sa construction.
+	l4_message_place_patent_for_hangar_refrigerator = Parfait ! Nous avons le permis, nous pouvons démarrer la construction. Et les villageois ont contribué à hauteur de 500 pièces.
+	l4_message_last_task = Fantastique ! Nous avons à présent des revenus réguliers. Tant que nous continuons à nourrir les poules avec du maïs fourrage, leurs œufs offriront une bonne source de revenus. Nous pouvons à présent nous concentrer sur notre objectif principal : sauver le village. Nous devons acheter et planter 3 pommiers et 3 pruniers supplémentaires.
+	l4_message_trees_help = Les arbres n’ont pas besoin d’eau ni d’engrais et ils donnent toujours des fruits. Il vous suffit de penser à les cueillir.
+	l4_message_pig_help = Nous avons des betteraves dans le jardin en face de la porcherie. Les porcs aiment autant les betteraves que les tomates et ces premières poussent plus vite.
+	l4_message_victory = Merci ! La ferme est désormais en sécurité maintenant que nous avons planté tous ces arbres. De plus nous avons une nouvelle source de revenus stable !
+	l4_message_hangar_refrigerator_help = Notre premier entrepôt réfrigéré. Les biens périssables comme les œufs, le lait et le miel doivent y être stockés.
+	
+	l4_message_harvester_help = Et voici notre premier ouvrier, Billy ! Il a accepté de ramasser les fruits et les légumes pour un petit salaire. Cliquez sur lui pour le payer et le mettre au travail. Cent pièces seront automatiquement prélevées sur votre compte.
+	l4_message_harvester_money_help = Billy a arrêté de travailler et il y a une pièce au-dessus de sa tête. Ça signifie que c’est le jour de la paie. Une fois que vous l’aurez payé, il se remettra au travail.
+	l4_message_harvester_question_help = Un point d’interrogation est apparu au-dessus de la tête de l’ouvrier. Cela signifie que Billy ne sait pas quoi faire. Cela peut se produire s’il n’a pas suffisamment de travail. Vous devez attendre que des choses soient prêtes pour la culture.
+	l4_message_transporter_help	= Vous pouvez à présent louer une grue dans la boutique. Vous pouvez utiliser la grue pour déplacer n’importe quelle construction vers un nouvel emplacement ou replanter un arbre à un autre endroit. Sélectionnez la grue, cliquez sur ce que vous voulez déplacer puis sur l’emplacement où vous voulez l’installer. Chaque utilisation de ce service vous est facturée 10 pièces !
+	
+	l5_task_flowers_garden = Fleurs à vendre
+	l5_task_flowers_garden_details = Commencez à vendre des fleurs.
+	l5_task_buy_hangar_flowers = Nouveaux sites de stockage
+	l5_task_buy_hangar_flowers_details = Achetez une serre pour stocker les fleurs.
+	l5_task_sell_batch_flowers = Cueillez quelques fleurs
+	l5_task_sell_batch_flowers_details = Honorez une commande de 6 caisses de tournesols et 6 caisses de dahlias.
+	l5_task_buy_flowers_patent = Achetez une autorisation de fleuriste
+	l5_task_buy_flowers_patent_details = Commandez des graines de tournesols et des bulbes de dahlias.
+	l5_task_flowers_sow = Plantez des fleurs
+	l5_task_flowers_sow_details = Plantez 12 graines de tournesols et 12 bulbes de dahlias.
+	l5_task_second_victory = Gagnez de l'argent.
+	l5_task_second_victory_details = Les fleurs sont mortes, vous ne pouvez pas partir comme ça. Gagnez 500 pièces pour payer le nettoyage du champ et pour que tout redevienne normal.	
+	
+	l5_message_about_tasks = L’usine locale a construit un barrage et constitué un réservoir d’eau juste à côté du village. À présent le sol est mouillé et marécageux. Les cultures sont en très mauvais état et il ne reste que la porcherie, l’étable et le système d’irrigation. Nous avions abandonné presque tout espoir mais un vent fort a soufflé d’étranges graines jusqu’à la ferme. Nous pourrions en tirer un bon prix au marché mais elles se dessèchent avant que nous puissions les vendre. Nous devons trouver une meilleure méthode de stockage.
+	l5_message_first_task = Ces fleurs doivent être stockées dans une serre spéciale. Mais avant de la construire, nous devons déposer des demandes de permis de construire et d’autorisation de commerce des fleurs. Une fois que nous aurons la serre, la cueillette et la conservation des fleurs ne poseront plus problème.
+	l5_message_second_task = Excellent ! Nous pouvons désormais cueillir et stocker les fleurs. Cueillez des fleurs pour voir si elles sont très demandées sur le marché.
+	l5_message_third_task = Les fleurs se vendent bien ! Nous avons donc décidé de transformer cet endroit en jardin de fleurs. Nous devons commander quelques graines. Une fois que nous aurons les graines, nous pourrons vendre beaucoup de fleurs.
+	l5_message_last_task = Nous avons beaucoup de commandes. Nous devons planter rapidement un champ de tournesols et un champ de dahlias.
+
+	l5_message_add_water_sprinkler = Lorsque la boutique locale a appris que vous vendiez des fleurs, elle vous a informé qu’elle vend d’excellents systèmes d’arrosage afin que nous ne perdions pas de temps à arroser les fleurs.
+	l5_message_plant_dahlia = Parfait ! Vous avez honoré votre commande de dahlias !
+	l5_message_plant_sunflower = Super ! Vous avez honoré votre commande de tournesols !
+	l5_message_plant_sunflower_help = Nous avons remarqué que les poules aiment beaucoup les graines de tournesols. Vous pouvez donc donner des tournesols à manger à vos poules.
+	l5_message_victory = Nous sommes désormais les plus importants fournisseurs de belles fleurs de toute la région ! Merci !!
+	l5_message_helper_help = Avez-vous remarqué Johnny ? Il va apporter de l’engrais à vos fleurs et vos plantes, le tout pour le modique salaire de 100 pièces.
+	
+	l5_notify_add_patent_for_flowers = Vous pouvez à présent commander des graines de tournesols et des bulbes de dahlias. Consultez les onglets Graines et Plantes pour obtenir de plus amples informations.
+		
+	l5_message_dead_flower = Les fleurs ont fané, mais vous ne pouvez pas tout laisser en plan. Vous devez gagner 5 000 pièces afin de faire assécher le champ et que tout redevienne normal.
+	l5_message_second_victory = Même si vos fleurs ont fané, vous avez pu sauver les arbres en gagnant suffisamment d’argent pour poursuivre le développement.
+		
+	l6_task_beehive_save = Sauvez la ruche
+    l6_task_beehive_save_details = Restaurez les traditions d’apiculture du village. Vendez 4 caisses de miel.
+    l6_task_collect_batch_vegatables = Vendez des légumes
+    l6_task_collect_batch_vegatables_details = Vendez 6 caisses de concombres, de tomates, de choux et de poivrons.
+    l6_task_collect_batch_flowers = Vendez quelques fleurs rares
+    l6_task_collect_batch_flowers_details = Vendez 6 caisses de chacune de ces variétés : tournesols, dahlias et tulipes.
+    
+    l6_message_hello_heroine = Bonjour ! À une époque, notre village était connu pour son miel. Nous avions un nombre infini de ruches, mais nous avons connu un net déclin ces dernières années et l’âge d’or du village est depuis longtemps révolu. Nombre d’entre nous maintenions les traditions, mais l’usine de bonbons nous a pratiquement ruinés. Pouvez-vous nous aider à restaurer nos ruches et nos traditions ? Nous n’avons que quelques sachets de graines et quelques petits arbres à côté de la grange. Nous espérons que cela suffira à vous aider à démarrer. Bonne chance !
+    l6_message_about_tasks = Pour aider le village, vous devez restaurer les ruches, mais il y a encore beaucoup de chemin à parcourir. Pour commencer, vous devrez attirer des fournisseurs. Nous commencerons par gagner de l’argent en cultivant des légumes dans le jardin !
+    l6_message_first_task = Afin d’attirer de gros clients pour pouvoir commander de nouveaux articles dans la boutique locale, nous devons vendre 6 caisses de chacune de ces variétés : concombres, tomates, choux et poivrons.
+    l6_message_second_task = Nous devons à présent attirer des chefs d’entreprise. Pour cela, essayons de planter quelques fleurs rares. Vendez 6 caisses de chacune de ces variétés : tournesols, dahlias et tulipes.
+    l6_message_main_task = Nous disposons à présent de suffisamment d’argent pour acheter les ruches. Le moment est propice pour montrer le peu de miel que nous produisons. Ça attirera des clients et restaurera les traditions et la richesse du village. Vendez 4 caisses de miel.
+    l6_message_see_pedicellates_patents = Veuillez noter qu’il n’y a pas de graines de poivrons et de choux en vente dans la boutique. Vous devez passer une commande et régler des frais de gestion à la boutique.
+
+	l6_message_help_hangar_flowers = Vous pouvez stocker des fleurs dans une serre pendant longtemps avant qu’elles ne commencent à se faner. Vous pouvez également y stocker des pastèques et des fraises.
+    l6_message_help_hangar_refrigerator =  Vous pouvez stocker des biens périssables comme du lait, des œufs et du miel dans un entrepôt réfrigéré.
+    l6_message_help_beehive = Considérant que les abeilles ont besoin de se procurer du nectar quelque part, ne serait-il pas judicieux de planter des fleurs à proximité de la ruche ? Et n’oubliez pas de les arroser.
+	l6_message_add_hangar_refrigerator = Si vous conservez du lait dans votre réfrigérateur, n’est-il alors pas logique de stocker des éléments tels que le lait, les œufs et le miel dans un entrepôt réfrigéré ? Des entrepôts réfrigérés sont désormais disponibles dans la boutique.
+	
+    l6_message_victory = Félicitations ! Le délicieux miel que nous produisons ici a restauré la gloire passée du village et la vie y est bien plus agréable !
+
+	l7_task_contest0 = Formulaire d’inscription
+	l7_task_contest0_details = Vous devez gagner 200 pièces afin de régler les frais d’inscriptions au concours.
+	l7_task_contest1 = Tour de qualifications
+	l7_task_contest1_details =	Afin de faire la démonstration de vos compétences en tant qu’agriculteur, vous devez remettre aux juges 7 caisses de chacune de ces variétés : concombres, radis et potirons.
+	l7_task_contest2 = Premier tour
+	l7_task_contest2_details = Afin de remporter ce concours, vous devez avoir une grande ferme. Plantez des tomates, des betteraves, des aubergines et du maïs puis remettez une caisse de chacun de ces légumes aux juges.
+	l7_task_contest3 = Contrôle de la qualité
+	l7_task_contest3_details = Vous devez remettre aux juges 2 caisses de tomates, de betteraves, d’aubergines et de potirons pour qu’ils les soumettent à des tests.
+	l7_task_contest4 = Élevage
+	l7_task_contest4_details = Afin d’effectuer cette épreuve, vous devez remettre 3 porcs et 3 caisses d’œufs aux juges.
+	l7_task_contest5 = Vergers
+	l7_task_contest5_details = Afin d’effectuer cette épreuve, vous devez planter 3 pommiers, 3 pruniers et 3 cerisiers.
+	l7_task_contest6 = Au nom de la science
+	l7_task_contest6_details = les juges ont aimé nos fruits et nous ont donc demandé 2 caisses de chacune de ces variétés : pommes, prunes et cerises.
+	l7_task_contest7 = Pouvoir des fleurs
+	l7_task_contest7_details = Vous devez faire la démonstration de vos compétences en matière d’horticulture. Achetez une serre et donnez aux juges 6 caisses de chacune de ces variétés : dahlias, tournesols et tulipes.
+	l7_task_contest8 = On en mangerait, non ?
+	l7_task_contest8_details = Il est temps de s’activer... comme une abeille ouvrière ! Procurez-vous une ruche et préparez 7 caisses de miel pour les juges.
+	l7_task_contest9 = Nouvelles compétences pour un nouveau tour
+	l7_task_contest9_details = Vous devez commander et bâtir au moins une étable.
+	l7_task_contest10 = Vous avez du lait ?
+	l7_task_contest10_details = Vous devez soumettre aux juges 10 caisses de lait plein de vitamines.
+	l7_task_contest11 = Exploitation agricole
+	l7_task_contest11_details = Les juges veulent contrôler les résultats financiers. Nous devons gagner 1 500 pièces pour prouver que notre ferme est rentable.
+	l7_task_contest12 = Légumes primés
+	l7_task_contest12_details = Plantez 4 champs de légumes et de fruits exotiques (champignons, poivrons, pastèques et fraises). Chaque champ doit contenir 12 plants et tous devront avoir une notation de santé de 5 cœurs !
+
+	l7_message_hello = La foire du Comté est proche et le premier prix est de 100 000 pièces. Voilà de l’argent qui pourrait servir à aider les fermes qui se sont efforcées de s’en sortir dans la région dernièrement. Chaque année, des fermiers de notre village y prennent part. Mais aucun n’a jamais gagné depuis plus de deux générations. Mais tout le monde semble penser que vous avez de bonnes chances d’y arriver.
+	l7_message_about_tasks = Les règles du concours sont les suivantes : chaque fermier commence par un petit champ avec une grange, un pommier et un sac de graines. À la fin du concours, le fermier qui a la meilleure ferme gagne ! Si vous gagnez, vous pouvez utiliser l’argent de la récompense pour acheter du matériel qui fait cruellement défaut et peut-être embaucher quelques ouvriers. Et ça n’est pas tout. Ça sera également une victoire morale pour tout le village !
+	l7_message_first_task = Mais vous devez auparavant remplir une demande d’inscription et envoyer 200 pièces pour les frais d’inscription. Vous pouvez gagner cette somme avec vos ressources actuelles. Au début du concours, tous les participants reçoivent 30 pièces pour leurs fournitures de jardin.
+	l7_message_second_task = À présent, les juges vont vérifier votre ferme et voir si vous êtes prêt. Pour cela, vous devez leur remettre 7 caisses de légumes divers. Nous avons de la chance parce que les juges ont demandé 7 caisses de chacune de ces variétés : concombres, radis et potirons. Ces légumes poussent très bien dans cette région !
+	l7_message_third_task = Le concours a commencé. Cet événement comprend beaucoup d’étapes et, à chaque étape, les juges vont distribuer de nouvelles graines ou d’autres éléments correspondant aux tâches de cette étape. Au cours de la première étape du concours, il est important de cultiver le plus de variétés différentes de plantes possibles. Alors, plantons des tomates, du maïs, des aubergines et des betteraves. Ces graines sont disponibles dans la boutique.
+	l7_message_fourth_task = Vous devez maintenant remettre aux juges une caisse-échantillon de chacun de vos légumes pour qu’ils puissent les tester, les peser et les goûter.
+	l7_message_fifth_task = Excellent ! Nous sommes acceptés au deuxième tour durant lequel ils vont tester les compétences de nos animaux d’élevage. Nous devons élever 3 porcs et remettre 3 caisses d’œufs. Une porcherie, un poulailler et un entrepôt réfrigéré seront disponibles dans la boutique. Ils nous ont même donné 500 pièces à utiliser pour certains des bâtiments dont nous avons besoin afin que nous puissions accéder au second tour.
+	l7_message_sixth_task = Tout le monde sait que les arbres sont bons pour le sol. Ils sont également agréables à regarder. Les juges voudraient que nous plantions 3 pommiers, 3 pruniers et 3 cerisiers.
+	l7_message_seventh_task = Les fruits sur nos arbres sont tellement beaux qu’un des juges nous a supplié de lui donner deux caisses de chaque : pommes, prunes et cerises, pour les tester. Il a dit qu’ils étaient tellement exceptionnels qu’il veut les envoyer à l’école agricole locale pour qu’ils apprennent notre secret. Espérons juste que nos fruits arrivent bien à l’école agricole et pas dans l’estomac de notre juge.
+	l7_message_eighth_task = Chaque année, ce concours inclut une épreuve florale et cette année ne fait pas exception à la règle. Les graines et serres sont déjà disponibles dans la boutique.
+	l7_message_ninth_task = Qui dit fleurs, dit abeilles et qui dit abeilles, dit miel. Vous avez deviné, l’étape finale de notre concours est l’apiculture ! Vous devez remettre aux juges 7 caisses de votre délicieux miel.
+	l7_message_tenth_task = Voici quelques nouvelles. Cette année, ils ont ajouté une épreuve pour le meilleur lait. Le problème pour nous c’est qu’il y a bien longtemps que plus personne n’a élevé des vaches à lait. Nous allons devoir commander au moins une étable.
+	l7_message_eleventh_task = Selon les règles du concours, le lait doit être délicieux et riche en vitamines. Pour cela, vous devez nourrir vos vaches avec des légumes et non de l’herbe, leur lait est ainsi plus vitaminé. Les vaches aiment les carottes et les choux. Lorsque les vaches mangent ces légumes, elles produisent du lait. Vous devrez stocker ce lait dans un entrepôt réfrigéré. Nous devons remettre aux juges 10 caisses de bouteilles de lait.
+	l7_message_twelfth_task = Nous devons démontrer que cette ferme est rentable. Nous devons gagner 1 500 pièces pour prouver que notre ferme est une affaire florissante !
+	l7_message_thirteenth_task = Nous avons passé toutes les étapes du concours. Les juges vont maintenant évaluer le poids et le goût de nos légumes ainsi que la beauté et la réussite de notre ferme. Mais nous disposons d’encore un peu de temps pour encore améliorer notre ferme ! Nous pouvons planter rapidement 4 champs de légumes et de fruits exotiques et leur apporter beaucoup d’engrais (pour que leur notation de santé soit de 5 cœurs). Ne les cueillez pas. Il faut que les juges voient avec quelle rapidité les légumes et fruits rares poussent dans notre ferme. Ils seront sûrement impressionnés et nous remporterons la victoire. Des graines de pastèques, de poivrons et de fraises ainsi que des spores de champignons sont disponibles dans la boutique.
+	
+	l7_message_add_harvester = Selon les règles du concours, nous avons le droit d’embaucher des personnes pour nous aider. Nous devrions peut-être profiter de cette possibilité ?
+	l7_message_victory = Félicitations ! Les juges ont trouvé que notre ferme était la plus jolie et la plus productive. Dès qu’ils ont vu le champ de légumes et fruits exotiques mûrs, il n’y a plus eu aucun doute : notre ferme était la meilleure. Maintenant que nous avons gagné cet argent, nous allons pouvoir redynamiser l’agriculture dans la région. Hourra pour le meilleur fermier !
+	l7_message_watermelon_help = Les pastèques doivent être stockées dans un entrepôt réfrigéré.
+	l7_message_strawberries_help = Les fraises doivent être stockées dans un entrepôt réfrigéré.
+
+	l8_task_first_task = Aide de voisinage
+	l8_task_first_task_details = Gagnez 300 pièces pour aider le vieux Jones à louer un nouvel endroit pour sa boutique.
+	l8_task_second_task = Nouvelles commandes
+	l8_task_second_task_details = Passez de nouvelles commandes de graines d’aubergines, de maïs et de carottes.
+	l8_task_third_task = Amoureux des aubergines
+	l8_task_third_task_details = Récoltez 20 caisses d’aubergines pour l’homme qui peut nous vendre de jeunes arbres.
+	l8_task_fourth_task = Nouveaux constructeurs
+	l8_task_fourth_task_details = Commandez et achetez des permis de construire pour des étables, des bergeries, des poulaillers et des ruches.
+	l8_task_fifth_task = Nouveau stockage
+	l8_task_fifth_task_details = Commandez des granges et des entrepôts réfrigérés.
+	l8_task_sixth_task = Une campagne de publicité
+	l8_task_sixth_task_details = Achetez un poulailler, une étable et une bergerie.
+	l8_task_seventh_task = Pouvoir des fleurs
+	l8_task_seventh_task_details = Vendez 7 caisses de chacune de ces variétés : tournesols et dahlias, plus 3 caisses de miel.
+	l8_task_eighth_task = Le retour des tulipes
+	l8_task_eighth_task_details = Commandez des bulbes de tulipes.
+	l8_task_ninth_task = Un jardin modèle
+	l8_task_ninth_task_details = Installez 8 systèmes d’arrosage et embauchez 4 jardiniers.
+	l8_task_tenth_task  = Un fournisseur étranger
+	l8_task_tenth_task_details = Plantez 12 semis de pastèques, 12 semis de fraisiers, 12 spores de champignons et 12 semis de poivrons.
+	l8_task_eleventh_task = Économies
+	l8_task_eleventh_task_details = Gagnez 800 pièces pour couvrir tous coûts imprévus susceptibles de se présenter à l’avenir.
+
+	l8_message_hello = Notre boutique nous annonce de bien mauvaises nouvelles. Il n’y a plus de matériel de jardinage. Plus de graines, d’arbres ou d’animaux d’élevage. Les propriétaires sont navrés, mais ils ne peuvent pas nous venir en aide. Si nous ne pouvons pas nous procurer de graines, alors nos rêves de restauration de l’agriculture dans la région vont être anéantis. Nous devons faire quelque chose.
+	l8_message_about_tasks = Nous avons revu un de nos anciens fournisseurs. Le vieux Jones est un vieil homme gentil. Il nous a dit qu’il a dû annuler toutes ses expéditions. Il nous a raconté que le directeur de l’usine est passé dans sa boutique. Il lui a dit de déchirer tous les contrats avec les fermes locales. M. Jones a dit que s’il refusait, le directeur de l’usine fermerait sa boutique et le jetterait à la rue. Il a été obligé de se soumettre parce qu’il n’a pas l’argent pour louer un endroit pour une nouvelle boutique.
+	l8_message_first_task = Il serait intéressant de savoir si le directeur de l’usine a menacé toutes les boutiques de matériel agricole de la région. Mais nous pouvons conclure un accord avec le vieux Jones. Il a besoin de 300 pièces pour louer un nouvel emplacement pour sa nouvelle boutique. Si nous l’aidons, il nous aidera probablement pour notre commande de graines et nous pourrons acheter quelques graines de betteraves, de concombres et de potirons.
+	l8_message_second_task = Le vieux Jones était très reconnaissant. Il a pu louer un nouvel emplacement pour seulement 200 pièces et nous a rendu les 100 pièces restant. Il a également expliqué qu’il a envoyé une lettre à son ami qui est propriétaire d’une jardinerie dans une autre ville. Il va nous vendre certaines graines à son ancien tarif. Nous devons juste passer la commande et il pourra nous fournir des graines d’aubergines, de maïs et de carottes.
+	l8_message_third_task = Le vieux Jones a un autre ami qui peut nous fournir de jeunes arbres. Jones dit qu’il adore les aubergines et qu’il n’y en a plus dans les épiceries. Pour plaisanter, il a dit qu’il échangerait volontiers 100 arbres contre une aubergine. Mais toutes les blagues comportent une part de vérité. Si nous lui offrons 20 caisses d’aubergines, il ne refusera sûrement pas de nous vendre des jeunes arbres.
+	l8_message_fourth_task = Lorsque les gens de la scierie ont entendu dire que personne ne voulait nous vendre de bâtiments, ils ont décidé de prendre les choses en main. Ils ont bâti une porcherie et elle est aussi bien que celles que nous nous procurions avant en ville. Ils n’ont de permis de construire que pour les porcheries, mais si nous passons plusieurs commandes et que nous demandons des permis de construire supplémentaires, ils veulent bien nous fabriquer des étables, des bergeries, des poulaillers et des ruches.
+	l8_message_fifth_task = Mais qu’allons-nous faire sans un endroit pour tout stocker ? Nous avons besoin de permis de construire pour bâtir une grange et un entrepôt réfrigéré.
+	l8_message_sixth_task = Vous devez aider les gens de la scierie à faire la promotion de leur nouvelle activité. Pour cela, vous pouvez leur faire construire un poulailler, une étable et une bergerie.
+	l8_message_seventh_task = Un fournisseur de graines d’une autre ville a entendu parler de notre ferme par un ami. Ils fournissent des graines de fleurs et nous ont immédiatement donné des bulbes de dahlias et des graines de tournesols, ainsi qu’une serre que le propriétaire de la boutique a construite de ses propres mains. Nous n’avons même pas à passer une commande pour ces graines et ces bulbes. Cependant, il ne vend ses tulipes adorées qu’aux personnes qui ont démontré qu’elles savent prendre soin des fleurs. Vous devez faire vos preuves en lui donnant 7 caisses de tournesols et 7 caisses de dahlias. Mais ce n’est pas tout. Le fait est qu’il a un faible pour le miel. Alors, adoucissons l’opération avec 5 caisses de miel.
+	l8_message_eighth_task = Le fournisseur a été impressionné par nos fleurs et a accepté de nous fournir des bulbes de ses tulipes adorées. Il nous suffit à présent de passer commande.
+	l8_message_ninth_task = Nous avons presque réussi à trouver de nouveaux fournisseurs pour presque tout ce dont nous avons besoin, sauf les légumes et fruits exotiques. Mais on dirait que la chance est de notre côté. Un fournisseur étranger spécialisé dans les fruits et légumes est arrivés en ville hier. Le seul problème c’est que ses clients doivent satisfaire des normes assez strictes. Il ne vendra des graines et des plantes qu’à des fermes bien équipées et jouissant d’un emplacement avantageux pour s’occuper de fruits et de légumes. Pour satisfaire ces exigences, nous devons installer 8 systèmes d’arrosage et 4 jardiniers.
+	l8_message_tenth_task = En plus de graines exotiques, le fournisseur étranger a accepté de nous expédier le reste des graines que nous n’avons pas réussi à trouver. Plantons-en sur quelques parcelles pour voir comment ces graines étrangères s’adaptent à notre environnement.
+	l8_message_eleventh_task = Nous devons économiser de l’argent pour les dépenses imprévues. Huit cents pièces feraient certainement merveille pour nous tirer de tout mauvais pas.
+	
+	l8_message_victory = Excellent ! Les menaces de l’usine ont été atténuées. Nous avons réussi à trouver des fournisseurs pour tout ce dont nous avons besoin. Et maintenant, même les plus sceptiques pensent que nous allons gagner !
+	l8_message_sheep_help = Notre nouveau fournisseur nous a proposé une nouvelle espèce d’animal d’élevage, des moutons. Selon les dernières études, lorsque des moutons mangent des choux et des carottes, leur laine est bien plus belle et résistante.
+	
+	l9_task_first_task = Règlement des emprunts immobiliers
+	l9_task_first_task_details = Vous devez gagner 10 000 pièces.
+
+	l9_message_hello = Il y a quelques années de cela, nous avons fait une grave erreur. Lorsqu’AgroBank a ouvert, plusieurs fermiers ont contracté de gros emprunts pour améliorer leurs terres et moderniser leurs structures. Agroson avait promis de bonnes modalités et nous avions nourri certaines espérances. Mais nous sommes des fermiers, pas des avocats ! Nous ne savions pas qu’il fallait lire les petites lignes. Par conséquent, un grand nombre de fermes doivent beaucoup d’argent à la banque d’Argoson.
+	l9_message_about_tasks = AgroBank exige à présent des fermes qu’elles remboursent rapidement leurs emprunts. Si elles ne remboursent pas immédiatement la banque, cette dernière va saisir la plupart des fermes de notre comté. Nous devons gagner 10 000 pièces pour sauver les fermes et nous serons débarrassés d’AgroBank à jamais.
+	l9_message_victory = « 9 998, 9 999, 10 000. Oui, tout est là. Et voici votre reçu prouvant que vous avez remboursé l’intégralité des emprunts. Bonne journée. », a sifflé le caissier d’AgroBank. Vous avez sauvé les fermes !
+	
+	l10_task_first_task = Sécheresse
+	l10_task_first_task_details = Empêchez les plantes de se faner et de périr pendant que vous attendez les nouveaux systèmes d’arrosage (10 minutes).
+	l10_task_second_task = Systèmes d’eau
+	l10_task_second_task_details = Installez 5 systèmes d’arrosage.
+	l10_task_third_task = Restauration du jardin
+	l10_task_third_task_details = Sur 24 parcelles plantez du maïs, des choux et des carottes et sur 12 parcelles, plantez des betteraves.
+	l10_task_fourth_task = Nouvelles améliorations
+ 	l10_task_fourth_task_details = Embauchez 3 jardiniers.
+	l10_task_fifth_task = Diversité
+	l10_task_fifth_task_details = Plantez 4 bananiers.
+	l10_task_sixth_task = Terre en litige
+	l10_task_sixth_task_details = Gagnez 1 200 pièces.
+	
+	l10_task_alt_second_task = Restauration du jardin
+	l10_task_alt_second_task_details = Plantez 12 betteraves, 12 potirons, 12 radis et 12 concombres.
+	l10_task_alt_third_task = Nouvelles améliorations
+	l10_task_alt_third_task_details = Installez 4 systèmes d’arrosage.
+	l10_task_alt_fourth_task = Des animaux productifs
+	l10_task_alt_fourth_task_details = Vendez 2 porcs, 2 caisses d’œufs, 2 caisses de lait et 2 caisses de laine.
+	l10_task_alt_fifth_task = Diversité
+	l10_task_alt_fifth_task_details = Plantez 4 bananiers, 3 cerisiers et 2 pruniers.
+	l10_task_alt_sixth_task = Terre en litige
+	l10_task_alt_sixth_task_details = Gagnez 1 200 pièces.
+	
+	l10_message_hello = Quel plaisir de vous avoir parmi nous. Regardez ce qui s’est passé. Tout a séché, l’endroit est devenu un véritable désert. Notre champ autrefois modèle est en train de s’assécher. Notre région n’avait jamais connu de sécheresse auparavant et les boutiques d’ici ne proposent même pas de systèmes d’arrosage. Nos fournisseurs ont commandé des systèmes d’arrosage mais ils ne savent pas quand ils les recevront
+	l10_message_about_tasks = Nous devons sauver la terre et les cultures. Les outils de forage de puits et les systèmes d’arrosage devraient bientôt être disponibles. En attendant, vous devez continuer à arroser les cultures et gagner un peu d’argent pour pouvoir acheter le matériel quand il arrivera. Une fois que les systèmes d’arrosage seront installés, tout sera en sécurité.
+	l10_message_first_task = Les outils de forage de puits et les fournitures sont en route. Mais nous ne pouvons pas laisser le jardin périr. Continuez d’arroser les plantes jusqu’à ce qu’une aide à plus long terme arrive.
+	l10_message_second_task = Excellent ! Nous pouvons désormais arroser les plantes automatiquement. Nous devons cependant nous assurer que les systèmes d’arrosage couvrent toutes nos plantes. On dirait qu’il va nous falloir au moins 5 systèmes d’arrosage.
+	l10_message_third_task = Toutes nos plantes se sont fanées et ont péri avant que vous n’arriviez et nous n’avons pas pu faire pousser de nourriture pour nos animaux. Les fournisseurs qui ont livré les systèmes d’arrosage ont toutes les graines dont nous avons besoin, mais nous devrons régler des frais de livraison. Nous pouvons alors planter 24 sections de maïs, autant de choux et de carottes, et 12 betteraves.
+	l10_message_fourth_task = Magnifique ! À présent les animaux seront bien nourris et augmenteront les bénéfices de la ferme. Malheureusement, en raison de la sécheresse, les cultures de la ferme ne sont pas aussi abondantes que par le passé. Il est probablement judicieux d’embaucher au moins 3 jardiniers pour nous aider à maintenir tout bien fertilisé. Les légumes pousseront plus vite et la production accrue rétablira le prestige de la ferme.
+	l10_message_fifth_task = Génial ! Vous avez sauvé la ferme et lui avez rendu sa gloire. On vient de nous proposer de nouveaux arbres exotiques. La diversification de nos activités en ajoutant quelques arbres est un sage investissement pour l’avenir. Plantez 4 bananiers.
+	l10_message_sixth_task = Excellent travail ! La ferme a survécu à la sécheresse. Mais maintenant elle fait face à un différend concernant des terres. Le gouvernement local s’est rendu compte que la ferme était en désuétude et poussiéreuse. Il a offert la terre à l’usine voisine pour qu’elle puisse s’agrandir. Le bail à ferme pour cette terre est encore valide pendant plus de 30 ans. Cette offre est donc clairement illégale. Vous allez devoir engager un avocat pour traîner tout le monde en justice. Malheureusement, les bons avocats coûtent cher. Gagnez 1 200 pièces pour pouvoir embaucher le meilleur avocat afin de vous assurer d’avoir gain de cause.
+	
+	l10_message_alt_second_task = Quel horreur ! Nous avons perdu un lot de cultures. Nous devons rétablir le jardin et relancer l’activité de la ferme. La boutique a entendu parler de notre problème. Elle nous a suggéré d’acheter des graines hybrides spéciales qui sont mieux à même de supporter les sécheresses. Nous allons devoir remplir de nouveaux formulaires de commande, mais ça en vaudra la peine. La ferme voisine a aussi entendu parler de nos problèmes. Elle nous a prêté 680 pièces. Vous devez remplacer les plantes mortes par 12 betteraves, 12 potirons, 12 radis et 12 concombres.
+	l10_message_alt_third_task = Même si nous avons ces graines hybrides spéciales, la sécheresse n’est pas encore terminée. Pour éviter une autre catastrophe, nous devons installer au moins 4 systèmes d’arrosage. Il est maintenant également possible d’embaucher des jardiniers.
+	l10_message_alt_fourth_task = Maintenant que les champs semblent en bon état, nous devrions commencer à prêter attention aux animaux qui ont faim depuis quelques jours. Nous devons planter des légumes pour nourrir les animaux. Nous devons ensuite vendre 2 porcs, 2 caisses d’œufs, 2 caisses de lait et 2 caisses de laine.
+	l10_message_alt_fifth_task = Même si les graines que nous avons achetées peuvent pousser dans le désert, il est toujours bon pour les affaires de diversifier les activités de la ferme. Nos fournisseurs nous ont recommandé d’acheter des fruits exotiques qui conviennent bien pour les climats chauds et secs. Plantez 4 bananiers, 3 cerisiers et 2 pruniers.
+	l10_message_alt_sixth_task = La ferme a survécu à la sécheresse. Mais maintenant elle fait face à un différend concernant des terres. Le gouvernement local s’est rendu compte que la ferme était en désuétude et poussiéreuse. Il a offert la terre à l’usine voisine pour qu’elle puisse s’agrandir. Le bail à ferme pour cette terre est encore valide pour plus de 30 ans. Cette offre est donc clairement illégale. Vous allez devoir engager un avocat pour traîner tout le monde en justice. Malheureusement, les bons avocats coûtent cher. Gagnez 1 200 pièces pour pouvoir embaucher le meilleur avocat afin de vous assurer d’avoir gain de cause.
+	
+	l10_message_harvester = Il est probablement judicieux d’embaucher un ouvrier agricole. Il pourra cueillir nos fruits et légumes et nous aider à gagner de l’argent pour les systèmes d’arrosage pendant que nous arrosons les plantes.
+	l10_message_add_water_sprinkler = Des systèmes d’arrosage sont disponibles dans la boutique.
+	
+	l11_task_first_task = Première tâche
+	l11_task_first_task_details = Vendez une caisse de betteraves, une caisse de tomates et 5 porcs puis embauchez quelqu’un pour cueillir les fruits et légumes.
+	l11_task_second_task = Deuxième tâche
+	l11_task_second_task_details = Vendez une caisse d’aubergines, bâtissez un entrepôt réfrigéré, embauchez un jardinier et installez 2 systèmes d’arrosage.
+	l11_task_third_task = Troisième tâche
+	l11_task_third_task_details = Vendez une caisse de radis et 5 caisses d’œufs, embauchez un jardinier et une personne pour cueillir les fruits et légumes.
+	l11_task_fourth_task = Quatrième tâche
+ 	l11_task_fourth_task_details = Vendez une caisse de tournesols et une caisse de dahlias, bâtissez une serre et une ruche.
+	l11_task_fifth_task = Cinquième tâche
+	l11_task_fifth_task_details = Vendez une caisse de carottes, une caisse de choux, 5 caisses de lait et embauchez quelqu’un pour cueillir les fruits et légumes.
+	l11_task_sixth_task = Sixième tâche
+	l11_task_sixth_task_details = Vendez 5 caisses de champignons et 5 caisses de miel, embauchez un jardinier et installez 6 systèmes d’arrosage.
+	l11_task_seventh_task = Septième tâche
+	l11_task_seventh_task_details = Vendez 5 caisses de tulipes, 3 caisses de potirons et 3 caisses de concombres puis bâtissez une bergerie.
+	l11_task_eighth_task = Huitième tâche
+	l11_task_eighth_task_details = Vendez 4 caisses de fraises et 4 caisses de pastèques puis embauchez un jardinier et une personne pour cueillir les fruits et légumes.
+	l11_task_ninth_task = Neuvième tâche
+	l11_task_ninth_task_details = Vendez une caisse de laine, plantez un pommier et un cerisier et installez 2 systèmes d’arrosage.
+	l11_task_tenth_task  = Dixième tâche
+	l11_task_tenth_task_details = Vendez 5 caisses de poivrons, bâtissez un poulailler, une bergerie et une étable.
+	l11_task_eleventh_task = Onzième tâche
+	l11_task_eleventh_task_details = Plantez un prunier et un bananier et gagnez 800 pièces.
+	
+	l11_message_hello = Il est temps d’élever le niveau agricole ! Nous devons construire une ferme qui sera conforme à toutes les nouvelles normes. Toutes les autres fermes de la région ont suivi notre exemple. Elles s’agrandissent et deviennent plus rentables. Grâce à vous, la région est en plein essor !
+	l11_message_about_tasks = Nous avons un plan pour construire une ferme moderne et efficace qui va maximiser les bénéfices. Une fois cela terminé, toutes les autres fermes de la région vont nous prendre en exemple !
+	l11_message_first_task = Avant de commencer, nous devons gagner un peu d’argent. Construisons une porcherie et vendons 5 porcs, une caisse de betteraves et une caisse de tomates. Ensuite, pour entreprendre l’automatisation, nous embaucherons un ouvrier agricole pour nous aider à cueillir les fruits et légumes.
+	l11_message_second_task =  Nous devons développer d’autres variétés de légumes. Commençons par des aubergines. Nous devons également nous préparer à cultiver des denrées périssables. Bâtissons un entrepôt réfrigéré. Et, au nom de l’automatisation, installons 2 systèmes d’arrosage et embauchons un jardinier.
+	l11_message_third_task = Testons une nouvelle technique. Nous devons vendre une caisse de radis. Et comme nous voulons vraiment utiliser notre nouvel entrepôt réfrigéré, bâtissons un poulailler et vendons 5 caisses d’œufs. Pour continuer à développer l’automatisation, nous devrions embaucher deux assistants : un jardinier et une personne pour cueillir les fruits et les légumes.
+	l11_message_fourth_task = Notre nouvelle ferme doit tout avoir. Nous ne devrions pas oublier les fleurs. Vous devez planter et vendre une caisse de tournesols et une caisse de dahlias puis bâtir un entrepôt pour stocker vos nouvelles fleurs et, pendant que nous y sommes, construisons aussi une ruche.
+ 	l11_message_fifth_task = Afin d’améliorer l’automatisation de la ferme, nous devrions embaucher un autre assistant. Vous devez vendre une caisse de carottes et une caisse de choux. Nourrissez ensuite nos vaches avec ces légumes et vendez 5 caisses de lait.
+	l11_message_sixth_task = Nous devons embaucher un autre jardinier et installer quelques systèmes d’arrosage supplémentaires afin de ne pas avoir à nous inquiéter de prendre soin des plantes. Une fois ce problème réglé, plantez des champignons et vendez-en 5 caisses. N’oubliez pas la ruche, vendez 5 caisses de miel.
+	l11_message_seventh_task = Vendez 5 caisses de tulipes, 3 caisses de potirons et 3 caisses de concombres. Et comme notre ferme a besoin de tout, nous devons bâtir une bergerie.
+	l11_message_eighth_task = Embauchez deux assistants et pendant qu’ils travaillent, occupons-nous d’introduire de nouveaux fruits. Vendez 4 caisses de chaque : pastèques et fraises.
+	l11_message_ninth_task = Vérifions notre bergerie en vendant une caisse de laine. Prévoyez de futures cultures en installant 2 systèmes d’arrosage supplémentaires. Plantez des pommiers et des cerisiers pour que notre ferme produise encore plus de fruits délicieux.
+	l11_message_tenth_task  = La ferme doit continuer à s’agrandir. Bâtissons un poulailler, une bergerie et une étable. Puis plantons des poivrons et vendons-en 5 caisses.
+	l11_message_eleventh_task = Et ainsi, en menant à bien notre grand plan, plantons des pruniers et des bananiers. Gagnez ensuite 800 pièces pour pouvoir embaucher un directeur qui gèrera tous les ouvriers.
+	
+	l11_message_victory = Nous avons mené à bien notre plan grandiose. Cette ferme servira d’exemple pour tout le comté et la région continuera à prospérer.
+		
+	l12_task_first_lot_vegetables = Livrez le premier lot de légumes.
+	l12_task_first_lot_vegetables_details = Organisez 3 caisses de chaque variété : radis, potirons, maïs et tomates.
+	l12_task_second_lot_vegetables = Livrez le deuxième lot de légumes.
+	l12_task_second_lot_vegetables_details = Organisez 3 caisses de chaque variété : concombres, aubergines, poivrons et champignons.
+	l12_task_first_lot_flowers = Livrez le premier lot de fleurs.
+	l12_task_first_lot_flowers_details = Organisez 3 caisses de chacune de ces variétés : tulipes, dahlias et tournesols. Et pendant que vous y êtes, pourquoi ne pas adoucir le tout avec 3 caisses de pastèques.
+	l12_task_first_lot_strawberries_behive = Livrez du miel et des fraises
+	l12_task_first_lot_strawberries_behive_details = Organisez 3 caisses de chaque variété : fraises et miel.
+	l12_task_first_lot_trees = Livrez un lot de fruits.
+	l12_task_first_lot_trees_details = Organisez 3 caisses de chaque variété : pommes, bananes, prunes et cerises.
+	l12_task_first_lot_farms_produktion = Livrez un lot pour l’épicerie.
+	l12_task_first_lot_farms_produktion_details = Organisez 3 porcs et 3 caisses de chaque : œufs, laines et lait.
+	l12_task_first_shop_order = Honorez la commande de l’épicerie.
+	l12_task_first_shop_order_details = Organisez 3 porcs et 3 caisses de chaque : tournesols, champignons et bananes.
+	l12_task_second_shop_order = Honorez la commande de l’épicerie.
+	l12_task_second_shop_order_details = Organisez 3 caisses de chacune de ces variétés : choux, laine, tulipes et pastèques.
+	l12_task_third_shop_order = Honorez la commande de l’épicerie.
+	l12_task_third_shop_order_details = Organisez 3 caisses de chaque : lait, fraises, miel et cerises.
+	l12_task_fourth_shop_order = Honorez la commande de l’épicerie.
+	l12_task_fourth_shop_order_details = Organisez 3 caisses de chaque : poivrons, pommes, choux et œufs.
+	
+	l12_message_victory = Les boutiques regorgent de nos légumes frais et personne n’achète plus les aliments préparés d’Agro Corporation. Ils ont fait faillite. Ils disent qu’ils vont démolir l’usine et construire un parc. Nous avons gagné !!!
+	l12_message_cool_vegetables = La région s’est lentement redynamisée et elle comprendra bientôt un grand nombre de fermes prospères. Agro Corporation dans sa tentative de remporter l’offre a développé des aliments préparés délicieux mais qui n’étaient pas sains. Ça ne contient ni vitamines, ni éléments nutritifs, mais c’est bon marché. C’est notre mission de remplir les boutiques avec de délicieux fruits et légumes nourrissants et frais. Si les gens arrêtent d’acheter les aliments préparés d’Agro Corporation, ils feront faillite et tout le monde bénéficiera d’une alimentation saine. 
+	l12_message_first_lot_vegetables = Avant d’accepter nos produits, les épiceries veulent s’accorder une période d’essai pour voir s’ils se vendent bien.
+	l12_message_second_lot_vegetables = Les boutiques sont épatées de voir comme nos légumes se vendent bien. Elles acceptent d’en prendre plus. Elles nous ont aussi payé le produit de leurs ventes qui s’élevait à 200 pièces. Nous devons leur envoyer différents légumes. Cette fois, faisons la joie de leurs clients avec quelque chose un peu exotique.
+	l12_message_first_lot_flowers = Nos légumes se vendent vraiment bien. Nous devrions peut-être essayer de voir si nos fleurs auraient le même succès. Et nous allons ajouter quelques pastèques aussi. Le produit de nos ventes à doublé. Cette fois, elles nous ont donné 400 pièces.
+	l12_message_first_lot_strawberries_behive = Toute la ville a adoré nos pastèques. Elles font un carton ! Pendant ce temps, les ventes de bonbons et d’aliments surgelés d’Agro Corporation ont chuté. C’est le moment idéal pour proposer aux gens des sucreries naturelles. Proposons un peu de miel et de fraises. Les bénéfices du dernier envoi se sont élevés à 600 pièces.
+	l12_message_first_lot_trees_details = Notre miel et nos légumes sont sur les étagères de toutes les boutiques de la ville. Mais nous ne devons pas oublier que nos arbres regorgent de fruits délicieux. Nous avons gagné 700 pièces avec le dernier envoi.
+	l12_message_first_lot_farms_produktion = Tous nos produits se sont très bien vendus dans les boutiques. Envoyez de supers produits naturels comme des œufs, du lait, des porcs et de la laine. Nos bénéfices du dernier envoi se sont élevés à 150 pièces.
+	l12_message_first_shop_order = Nos produits commencent à être en rupture de stock et les magasins en veulent d’autres ! Nous avons une commande pour les articles dont ils manquent. Nous avons également gagné 1 500 pièces avec notre dernier envoi.
+	l12_message_second_shop_order = Les gens ne se lassent pas de nos délicieux produits si bons pour la santé. Les magasins en veulent davantage ! Bientôt les gens n’achèteront plus que nos légumes. Ils nous ont passé une autre commande à honorer et nous ont donné 900 pièces.
+	l12_message_third_shop_order = Nos produits occupent environ la moitié de la surface utile dans de nombreuses épiceries de la ville et les ventes sont en hausse ! Le dernier envoi nous a rapporté 1 200 pièces ! Ce n’est plus qu’une question de temps avant que nous remportions l’offre. Nous devons préparer un nouvel envoi.
+	l12_message_fourth_shop_order = Les magasins sont remplis de nos produits et ils viennent de passer une nouvelle énorme commande et de nous régler 1 500 pièces. Si nous honorons cette énorme commande, nous remporterons l’offre à coup sûr.
+ 	l12_message_supplier_sabotage = Une fois de plus, Agro Corporation nous gêne dans notre travail. Ils ont acheté toutes les graines que nous avions commandées et maintenant nos fournisseurs n’ont plus rien à nous vendre. Pourquoi ça nous arrive sans cesse ? Nous allons devoir trouver de nouveaux fournisseurs.
+
+
+	comics_p1f1b1 = Il était une fois, dans un petit village loin de tout, une jeune fille très spéciale.
+	comics_p1f1b2 = Vous allez devenir la meilleure fermière du moment et vous nous sauverez de l’attaque de l’industrie lourde !
+	comics_p1f1b3 = Grand-mère perdait la tête sur ses vieux jours, mais elle avait raison sur ce point-là.
+	comics_p1f2b1 = Même pendant son enfance, cette petite fille présentait de véritables aptitudes pour l’agriculture.
+	comics_p1f2b2 = Regardez, Ginger n’a même pas un an, et elle a déjà fait un sacré jardin là dans le sable !
+	comics_p1f2b3 = Vous verrez, cette petite Ginger a un avenir prometteur.
+	comics_p1f3b1 = Lorsqu’elle avait six ans, son grand-père lui a appris les subtilités de l’agriculture.
+	comics_p1f3b2 = Imprègne-toi de la force qui est en toi, jeune élève, et laboure ce sol !
+	comics_p1f5b1 = Clac !!
+	comics_p1f6b1 = Crac !!
+	comics_p1f7b1 = Certaines choses n’étaient pas si faciles pour Ginger...
+	comics_p1f7b2 = Mince alors, on ne dirait vraiment pas un jardin !
+	comics_p1f7b3 = ...mais elle n’abandonna pas et, avec le temps, elle apprit tous les secrets de jardinage de son grand-père.
+	comics_p1f8b1 = N’oublie pas, jeune élève, que tout ce que tu fais doit venir du plus profond de toi-même !
+	comics_p1f8b2 =	Papy, pourquoi dis-tu toujours des choses étranges comme ça ?
+	
+	comics_p2f1b1 = Tu connais beaucoup de choses en agriculture maintenant. C’est pourquoi nous t’offrons un cadeau spécial pour ton 18ème anniversaire...
+	comics_p2f1b2 = Ta propre ferme !
+	comics_p2f1b3 = Mince alors !
+	comics_p2f2b1 = Vous imaginez tous les légumes que je vais pouvoir faire pousser ?!
+	comics_p2f2b2 = Et les fruits...
+	comics_p2f2b3 = Cocorico !
+	comics_p2f3b1 = Cette terre a appartenu à mon grand-père, le merveilleux Bob Johnson !
+	comics_p2f4b1 = Ahhhh !
+	comics_p2f4b2 = Papy, c’était en quelle année ça déjà ?
+	comics_p2f5b1 = Cocoric-tousse !
+	comics_p2f6b1 = Ne t’inquiète pas, ma petite-fille.
+	comics_p2f6b2 = Tout est entre tes mains et je sais que tu vas très bien t’en sortir !
+	comics_p2f7b1 = Boum !
+	comics_p2f8b1 = Coouuu...
+	
+	comics_p3f1b1 = Et par un beau matin calme et ensoleillé...
+	comics_p3f2b1 = Du plus profond des bois, surgit un porc qui grognait bruyamment.
+	comics_p3f3b1 = Cela suscita l’intérêt du coq.
+	comics_p3f5b1 = Et réveilla Ginger.
+	comics_p3f5b2 = Que s’est-il passé ?
+	comics_p3f6b1 = Il y a eu un accident dans la ferme porcine voisine !
+	comics_p3f6b2 = Viens, Ginger, allons les aider.
+	comics_p3f7b1 = Dans la ferme porcine, une pagaille infernale les attendait.
+	comics_p3f7b2 = Une conduite d’eau qui rallie l’usine en bas de la rue a explosé et inondé toute la ferme !
+	comics_p3f7b3 = Et qui a poussé cet horrible cri ?
+	comics_p3f7b4 = Les porcs ! Toute leur nourriture a été détruite. Ces pauvres créatures grognent de faim.
+	comics_p3f8b1 = Les pauvres porcs !
+	comics_p3f8b2 = Aucun problème, nous allons vous aider à prendre soin d’eux.
+	comics_p3f8b3 = Groin !
+	comics_p3f8b4 = Groin !
+	comics_p3f8b5 = Grrrr
+    
+	comics_p4f1b1 = La famille était en train de fêter l’anniversaire de Grand-père.
+	comics_p4f1b2 = ...et je lui ai demandé : « Quel engrais utilises-tu ? »
+	comics_p4f1b3 = Et il m’a répondu : « Toujours le même... du sable bien sûr ! »
+	comics_p4f1b4 = Ah ha ha !
+	comics_p4f1b5 = Puis tout à coup...
+	comics_p4f2b1 = Splash
+	comics_p4f3b1 = Pan !
+	comics_p4f5b1 = Miaou !
+	comics_p4f6b1 = Oh mon dieu !
+	comics_p4f7b1 = Flac !
+	comics_p4f8b1 = Splash
+	comics_p4f9b1 = Boum !
+	comics_p4f10b1 = Flac !
+	comics_p4f10b2 = Pan !
+	comics_p4f10b3 = Au bout d’un moment, la « tempête de tomates » se calma.
+	comics_p4f10b4 = Dring, Dring !
+	comics_p4f11b1 = Allô ?
+	comics_p4f12b1 = Salut, tonton ! T’as pas vu des choses voler il y a un instant ?
+	comics_p4f12b2 = Un grand bonjour mon neveu. Alors c’était toi qui nous attaquais avec des tomates, hein ?
+	comics_p4f12b3 = C’était cette imbécile d’usine !
+	comics_p4f12b4 = Ils ont mis en marche une sorte d’énorme système de ventilation et à cause de ce maudit truc, toutes les tomates se sont envolées de nos champs ! Et le chat à volé depuis le toit aussi !
+	comics_p4f12b5 = Sans blague ?!
+	comics_p4f12b6 = Nous ne savons pas quoi faire. S’ils le remettent en route, c’est peut-être tout le village qui va partir en miettes.
+	comics_p4f12b7 = Ne t’inquiète pas de cela, cher neveu ! Une fois que nous aurons nettoyé tout le Ketchup sur la maison, nous trouverons un moyen de t’aider.
+	comics_p4f13b1 = Hummm... Comment pouvons-nous protéger le village d’oncle Joe contre le vent de cette usine ?
+	comics_p4f13b2 = Je crois que j’ai une idée !
+	
+	comics_p5f1b1 = Ginger a reçu une récompense plus que méritée.
+	comics_p5f1b2 = Pour les services exceptionnels que vous avez rendus à notre village et à tous ses habitants, je vous remets...
+	comics_p5f1b3 = ...ma très chère nièce, ce certificat d’honneur !
+	comics_p5f1b4 = Merci ! J’aimerais remercier toute ma famille et plus particulièrement mon grand-père !
+	comics_p5f1b5 = Sans son aide, je n’aurais jamais pu être ici aujourd’hui. J’aimerais également remercier...
+	comics_p5f1b6 = Mais le discours de Ginger fut interrompu par un homme qui sortit de la foule avec une lettre à la main.
+	comics_p5f2b1 = Et bien, ce que nous avons ici est bien connu... en réalité, ces gens demandent de l’aide.
+	comics_p5f2b2 = Permettez-moi de lire cette lettre pour vous. Ça vient des gens de là-bas, à Greenfield. « Chère Ginger ! Nous avons un sérieux problème ici, à Greenfield. »
+	comics_p5f2b3 = « Les ingénieurs de l’usine locale ont construit un barrage hydro-électrique qui a inondé presque toutes nos terres. Les plantes se fanent, nos cultures périssent et nous ne savons pas quoi faire. »
+	comics_p5f2b4 = « Vous avez fait un travail si formidable pour sauver votre village contre le ventilateur gigantesque de votre usine locale que nous avons pensé que vous pourriez peut-être nous aider aussi ? Bien cordialement, les villageois de Greenfield. »
+	comics_p5f2b5 = Ouah ! De quel genre d’usine s’agit-il ? On dirait que j’enchaîne les problèmes à résoudre.
+	comics_p5f2b6 = Et bien, voilà...
+	comics_p5f3b1 = Il y a quelques années de cela, un certain M. Agroson est apparu.
+	comics_p5f3b2 = Ça n’était pas un bel homme, mais il s’exprimait bien et il avait beaucoup d’argent.
+	comics_p5f3b3 = Il promit alors de fournir de la nourriture pour la ville. Bon marché, mais pas saine et mauvaise pour l’environnement.
+	comics_p5f3b4 = Il a construit son entreprise de transformation des produits alimentaires de l’autre côté des collines et c’est alors que tout a commencé.
+	comics_p5f3b5 = Tout dans notre village est devenu humide et marécageux, pendant que le village voisin subit une période de sécheresse.
+	comics_p5f3b6 = Et lorsque le vent souffle depuis ces collines, l’odeur est infecte et la pluie est violette !
+	comics_p5f4b1 = C’est horrible ! Et complètement intolérable !
+	comics_p5f4b2 = Grand-père, faisons nos bagages, nous devons partir immédiatement !
+	comics_p5f4b3 = Il va nous falloir huit heures pour marcher jusqu’à ce village, nous n’arriverons pas avant la tombée de la nuit...
+	comics_p5f4b4 = Mais nous n’allons pas y aller à pied. Testons le cadeau d’oncle Joe !
+	comics_p5f5b1 = Regardez donc ça ! Ce vieux tacot est parfait pour les chemins de terre !
+	comics_p5f5b2 = Ça n’est pas un vieux tacot, c’est le modèle Chevrodzuki de l’année dernière.
+	comics_p5f5b3 = D’accord, allons-y !
+	comics_p5f6b1 = Bip Bip
+	
+	comics_p6f1b1 = Grand-père et grand-mère prenait leur habituelle collation de l’après-midi quand tout à coup...
+	comics_p6f1b2 = Quand Ginger sera-t-elle de retour ? Elle me manque beaucoup.
+	comics_p6f1b3 = Aujourd’hui, je pense. Tu as entendu parler de Greenfield ? Tout est réglé maintenant.
+	comics_p6f1b4 = Vroum !
+	comics_p6f1b5 = Quand on parle du loup...
+	comics_p6f2b1 = Salut grand-mère ! Salut grand-père ! Je suis contente de vous voir !
+	comics_p6f2b2 = Greenfield ressemble à un marécage ! Avec des grenouilles et des sangsues pour compléter le tout...
+	comics_p6f3b1 = Coouu-Coouu ?
+	comics_p6f4b1 = Smack !
+	comics_p6f5b1 = Assieds-toi, Ginger. Voici ta tasse à thé...
+	comics_p6f5b2 = ...et ton thé !
+	comics_p6f5b3 = Merci ! Où sont les sucreries ?
+	comics_p6f5b4 = Et bien, Ginger, je n’ai plus rien de sucré pour cuisiner !
+	comics_p6f5b5 = Avant, j’achetais du miel à la vieille Betty à Plainsville.
+	comics_p6f5b6 = Mais maintenant il y a une grande usine là-bas qui fabrique des chocolats et des bonbons. Du coup, les gens ont arrêté de lui acheter du miel.
+	comics_p6f5b7 = En fait, ma chérie, l’usine a tout gâché.
+	comics_p6f5b8 = Quoi ? Il, il n’y aura plus de...
+	comics_p6f5b9 = ...de pâtisseries ou de gâteaux au miel ?
+	comics_p6f6b1 = Ah non ! Je suis en colère !
+	comics_p6f7b1 = Ne bouge pas, Plainsville ! Je viens te sauver !
+	comics_p6f7b2 = Au nom de...
+	comics_p6f7b3 = la liberté !
+	comics_p6f7b4 = ...et des pâtisseries au miel !
+	
+	comics_p7f1b1 = Pendant ce temps, dans le bureau de M. Agroson...
+	comics_p7f1b2 = Zut ! Cette chipie nous a forcé à fermer notre usine de chocolats. Je ne le tolérerai pas !
+	comics_p7f1b3 = Jacques, Helmut, écoutez-moi bien ! Nous devons récolter le plus d’informations possibles sur cette petite... Ginger.
+	comics_p7f1b4 = Je m’en moque si pour cela vous devez mettre tout le village sens dessus dessous. Je veux des éléments pour compromettre cette jeune fille... quelque chose que nous pourrions utiliser contre elle. C’est compris ?
+	comics_p7f1b5 = Oui, tout est clair, mon général !
+	comics_p7f1b6 = Ja, natürlich ! C’est comme si c’était fait !
+	comics_p7f1b7 = Excellent. Vous pouvez y aller et vous mettre au travail. Janice !
+	comics_p7f1b8 = Oui Monsieur ?
+	comics_p7f1b9 = Organisez une réunion avec la petite mademoiselle Ginger. Dites-lui que j’ai... 
+	comics_p7f1b10 = ...une proposition à lui faire.
+	comics_p7f2b1 = Le jour suivant...
+	comics_p7f2b2 = Incroyable ! Quand ont-ils pu construire ça ? J’espère que l’ascenseur fonctionne.
+	comics_p7f3b1 = Ginger, vous avez un énorme potentiel !
+	comics_p7f3b2 = À vous seule, vous avez mis à terre une des filiales de ma corporation. J’admire véritablement vos compétences en affaires.
+	comics_p7f3b3 = Mais imaginez ce que vous pourriez réaliser si vous pouviez bénéficier de l’appui de mon argent et de mes relations !
+	comics_p7f3b4 = Rejoignez-moi et ensemble nous pourrons transformer toute cette région en une merveilleuse utopie. Qu’en pensez-vous ?
+	comics_p7f3b5 = Merci de votre offre, M. Agroson, mais je préfère travailler avec mes amis.
+	comics_p7f3b6 = Vous devriez utiliser un peu de votre argent pour acheter des fleurs et des plantes. C’est déprimant ici... on dirait un tombeau.
+	comics_p7f4b1 = Vous savez où me joindre. Alors, si vous le souhaitez je peux vous faire livrer ici les meilleures fleurs de la région en moins de 24 heures !
+	comics_p7f4b2 = Attendez une petite minute, espèce de petite arrogante !
+	comics_p7f4b3 = Vous découvrirez bientôt ce qu’il en coûte de refuser ma générosité !
+	comics_p7f5b1 = Miiiaaaooouuuu !
+	comics_p7f6b1 = Deux jours plus tard...
+	comics_p7f6b2 = Une nouvelle parmi d’autres... Aujourd’hui, M. Agroson, PDG d’Agro Corporation, a annoncé la toute dernière initiative de son entreprise.
+	comics_p7f6b3 = Agro Corporation envisage d’acheter 6 000 hectares de terres dans notre région pour construire un gigantesque parc d’attractions.
+	comics_p7f6b4 = Selon Agroson, ce parc attirera un nombre infini de touristes et relancera considérablement le budget du comté.
+	comics_p7f6b5 = Les terres sont actuellement occupées par quelques fermes obsolètes et non rentables.
+	comics_p7f6b6 = Mon entreprise apportera un souffle nouveau dans cette région.
+	comics_p7f6b7 = Au lieu de quelques caisses de légumes pourris, nous pouvons attirer des milliers de touristes qui seront ravis de dépenser leur argent !
+	comics_p7f6b8 = Et dans dix ans, cette région sera connue comme étant la capitale mondiale du carrousel !
+	comics_p7f7b1 = Ben dis donc ! Il ne lui a pas fallu longtemps pour mettre sa menace à exécution.
+	comics_p7f8b1 = Nous allons juste devoir prouver à la ville que nous avons mieux à lui offrir que quelques caisses de légumes pourris !
+	
+	comics_p8f1b1 = Il ne reste qu’un seul mois avant la foire du Comté !
+	comics_p8f1b2 = Cela fait plus de 50 ans que personne n’a remporté le prix du meilleur fermier dans notre village.
+	comics_p8f2b1 = Ginger, une fermière locale connue, a annoncé qu’elle souhaite concourir !
+	comics_p8f2b2 = Ce génie de l’agriculture peut-elle remporter la victoire pour notre village ?
+	comics_p8f3b1 = Le maire a dit qu’il est très intéressé par les résultats de cette année.
+	comics_p8f3b2 = Les vainqueurs remportent toujours la gloire, les récompenses et d’excellents contrats !
+	
+	comics_p9f1b1 = Imbéciles ! Où sont les informations que je vous ai demandées ?
+	comics_p9f2b1 = Mais, Monsieur Agroson, la petite est irréprochable !
+	comics_p9f2b2 = C’est vrai, patron ! Nous afons regardé partout, mais zil n’y a absolument rien sur die Fräulein Ginger.
+	comics_p9f2b3 = C’est ridicule ! Je vous donne une semaine de plus. Mais si vous ne me rapportez rien, vous ne pourrez en vouloir qu’à vous-mêmes !
+	comics_p9f2b4 = Janice ! Appelez Ginger au téléphone. J’ai deux, trois choses à lui dire de vive voix.
+	comics_p9f3b1 = Allô ?
+	comics_p9f4b1 = Bien, maintenant écoutez-moi bien, Ginger ! Je ne vais pas vous laisser ruiner les bénéfices de mon entreprise. Arrêtez de me mettre des bâtons dans les roues ou vous en paierez les conséquences !
+	comics_p9f4b2 = Vous n’avez pas le droit de me menacer M. Agroson...
+	comics_p9f4b3 = Vraiment ? Savez-vous combien de vos amis vivent sur mes terres ? Combien d’entre eux doivent de l’argent à ma banque ? Ne me cherchez pas, petite fille !
+	comics_p9f5b1 = « Détruisons les vieilles fermes qui ne rapportent rien ! Construisons de nouveaux centres commerciaux et des parcs d’attraction ! »
+	comics_p9f5b2 = Le discours de M. Agroson a été très bien accueilli par des investisseurs lors de la réunion des actionnaires d’Agro Corporation !
+	comics_p9f5b3 = La campagne contre ceux qui ne paient pas leurs prêts continue de prendre de l’ampleur. Et aujourd’hui une autre banque a été déclarée en faillite et saisie pour régler son prêt.
+	
+	comics_p10f1b1 = Patron, Patron ! On a trouvé !
+	comics_p10f1b2 = Nous n’avons rien trouvé sur Ginger. Mais nous avons quelque chose sur ses grands-parents.
+	comics_p10f1b3 = Voyons un peu... Nés... mariés... pas d’enfants. Ils l’ont adoptée ? Et alors ? Ça n’est pas un crime ?
+	comics_p10f1b4 = Nein, Patron ! Il n’y a aucun document prouvant son adoption légale. Ça n’est pas officiel.
+	comics_p10f1b5 = Vraiment ? Hummm... Bon travail, les gars !
+	comics_p10f2b1 = Ginger ! Asseyez-vous. Voulez-vous du thé ? Regardez ce dossier. Je pense que ça va vous intéresser !
+	comics_p10f2b2 = Qu’est-ce que c’est !
+	comics_p10f2b3 = Rien de particulier ! Juste la preuve que vous avez été kidnappée quand vous étiez bébé.
+	comics_p10f2b4 = C’est mon dernier avertissement. Ne nous cherchez pas querelle, ni à moi, ni à mon entreprise. Sinon, j’envoie vos grands-parents chéris en prison ! Ha ! Ha ! Ha ! Ha ! Haaaa !
+	comics_p10f3b1 = Oncle Joe, c’est Ginger ! Sais-tu qui sont mes vrais parents ?
+	comics_p10f4b1 = Oh, Ginger... Je ne connais vraiment pas tous les détails de l’histoire. Tu ferais mieux de demander au vieux Gus. Il doit se souvenir de tout.
+	comics_p10f4b2 = D’accord. Tu sais où je peux le trouver ?
+	comics_p10f5b1 = Gus ? Bonjour. Je m’appelle...
+	comics_p10f5b2 = Ginger, oui, je sais qui tu es. Vas-y, entre.
+	comics_p10f6b1 = Oh, c’est une bien sombre histoire. Je suis âgé et ma mémoire n’est plus si nette qu’avant.
+	comics_p10f6b2 = Ma ferme est délabrée, mon jardin est envahi par les mauvaises herbes et mes vaches se sont enfuies...
+	comics_p10f6b3 = Mais si tu peux m’aider, je parviendrai sûrement à me souvenir. Peut-être que des concombres frais pourraient me rafraîchir la mémoire !
+	
+	comics_p11f1b1 = Merci bien, Ginger, tu m’as aidé et tu as sauvé ma ferme. Et avec tous ces légumes frais, je me sens comme neuf. Je suis prêt à te parler de tes parents.
+    comics_p11f1b2 = Voici ce qui s’est passé...
+    comics_p11f2b1 = Il y a bien longtemps, un jeune homme d’affaires talentueux a divorcé de sa femme.
+    comics_p11f2b2 = Tu vois la décision du tribunal ? Donnez-moi le bébé ou bien vous devrez affronter toute la colère de Peter Agroson ! La petite m’appartient, à moi et à moi seul !
+    comics_p11f3b1 = Mais le destin en a voulu autrement...
+    comics_p11f4b1 = Une limousine a roulé dans un gros nid de poule et la petite fille a été éjectée.
+    comics_p11f5b1 = Lorsque ton grand-père et ta grand-mère t’ont trouvée, et bien, Ginger, ils ne se tenaient plus de joie.
+    comics_p11f5b2 = Dieu ne leur avait pas donné d’enfants, mais ils t’ont élevée comme si tu étais leur propre fille.
+    comics_p11f6b1 = Et c’est ainsi que tu as atterri dans notre village, ici.
+    comics_p11f6b2 = Heu, donc, vous me dites que je suis la fille de M. Agroson ?!?
+    comics_p11f6b3 = Non, Ginger. Écoute ton cœur et tu sauras qui sont tes véritables parents.
+	
+	comics_p12f0b1 = Récapitulons brièvement le dernier épisode.
+	comics_p12f1b1 = Ginger a appris la vérité sur son passé.
+	comics_p12f2b1 = La nouvelle n’a pas vraiment fait plaisir à M. Argoson non plus.
+	comics_p12f2b2 = Mon général, nous avons du nouveau sur votre fille.
+	comics_p12f2b3 = Ma fille est morte, Jacques.
+	comics_p12f2b4 = Nein, Patron. Ginger est votre fille.
+	comics_p12f2b5 = Noooooon !
+	comics_p12f3b1 = Extra ! Extra ! Lisez tout sur le sujet !
+	comics_p12f3b2 = Grande nouvelle ! Le maire a révoqué le contrat de la ville avec Agro Corporation !
+	comics_p12f3b3 = Il a ouvert un appel d’offres pour l’approvisionnement en nourriture de la ville !
+	comics_p12f3b4 = Qui sera le nouveau roi du légume ?
+	
+	comics_p13f1b1 = Et c’est ainsi que l’histoire prend fin.
+	comics_p13f1b2 = Une file infinie de camions achemine les légumes vers la ville.
+	comics_p13f1b3 = Adieu, tomates ! Et bon voyage !
+	comics_p13f2b1 = Pour les services que vous avez rendus à cette magnifique ville, je vous offre ce certificat de reconnaissance...
+	comics_p13f2b2 = Ginger est devenue une citoyenne d’honneur de la ville.
+	comics_p13f3b1 = La valeur et les affaires d’Agro Corporation ont continué à dégringoler.
+	comics_p13f3b2 = Monsieur, l’analyse de marché montre que tout le monde a cessé d’acheter nos produits.
+	comics_p13f3b3 = Oh, Ginger, Ginger... Elle est comme moi !
+	comics_p13f4b1 = Et comme vous pouvez le voir, la ligne rouge à chuté alors que la verte affiche d’importants bénéfices.
+	comics_p13f4b2 = Qu’est-ce que cela signifie pour la ville ? Les détails à 11h00 !
+	comics_p13f5b1 = Agro Corporation a été forcée de vendre le siège de l’entreprise...
+	comics_p13f6b1 = Et Ginger, enfin, a décoré l’ancien bureau de M. Agroson avec des fleurs et des plantes vivantes.
+	comics_p13f6b2 = FIN
+
+>>

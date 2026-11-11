@@ -1,0 +1,44 @@
+<<
+@tree 3
+{
+	#string name "tree_grass_plum";
+	#string type_goods "trees";
+	#int price 200;
+	#point pos 0, 0;
+	#point size 256, 256;
+	#bool solid true;
+	#point zbase -25, -80;
+	
+	#int harvest 20;
+	#int cost_fruit 19;
+	#float time_spoil_fruit 0;
+	
+	#string name_fruit "fruit_plumg";
+	#string type_fruit "vegetables";
+
+	#string texpicture_name "tree_grass_plum.tga";
+	#string texhighlight_name "tree_grass_plum.tga";
+	#string texmask_name "tree_grass_plum.tga";	
+	
+	#point base_center -25, -80;
+	#point base_radius 53, 38;
+	#point dock_center -25, -118;
+	#point dock_radius 8, 8;
+	
+	#int ready_icon_num 16;
+	#point ready_bar_pos 0, 128;
+	#point ready_notify_pos 0, 128;
+
+	@fruit
+	{
+		#point fruit_size 32, 128;
+		#point fruit_pos -60, 24;
+	}
+	@fruit
+	{
+		#point fruit_size 128, 128;
+		#point fruit_pos 40, 32;
+	}
+}
+>>
+

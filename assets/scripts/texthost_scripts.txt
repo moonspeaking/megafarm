@@ -1,0 +1,1072 @@
+тут список всех ключевых слов для перевода
+<<
+
+@texthost
+{
+	begin_lower_char;
+	end_lower_char;
+	begin_upper_char;
+	end_upper_char;
+	start;
+	freemode;
+	options;
+	trophyroom;
+	change_player;
+	credits;
+	help;
+	exit;
+	back;
+	loading;
+
+	musics;
+	fullscreen;
+	windowed;
+	vsync;
+
+	languages;
+	lang_rus;
+	lang_eng;
+	lang_fra;
+	lang_ita;
+	lang_por;
+	lang_dut;
+	lang_swe;
+	lang_deu;
+	lang_esp;
+	lang_jap;
+	lang_kor;
+	lang_chn;
+
+	music_on;
+	music_off;
+	sound_on;
+	sound_off;
+	
+	cursor_on;
+	cursor_off;
+	
+	set_volume;
+	sound_volume;
+	music_volume;
+	
+	change_player_label;
+
+	ok;
+	cancel;
+	yes;
+	no;
+	game_saved;
+	game_loaded;
+	question_save_game;
+	question_load_game;
+	question_exit_game;
+	question_replay_game;
+	question_end_game;
+	question_saveandexit_game;
+	cheatmodeon;
+	cheatmodeoff;
+	mainmenu;
+	continue;
+	restart;
+	exitgame;
+	profit_hint;
+	current_task;
+	click_to_continue;
+	patent_buy_confirm;
+	notify_you_cant_place;
+	notify_you_cant_gowhere;
+	change_player_label;
+	wombat;
+	
+	control_help_1;
+	control_help_2;
+	
+	dig_squares;
+	water_plants;
+	
+	new_profile;
+	delete_profile;
+	
+	inventory_form;
+	buildings_form;
+	seeds_form;
+	sprouts_form;
+	trees_form;
+	workers_form;
+	
+	text_enter_name;
+	welcome_message;	
+	
+	level1_name;
+	level2_name;
+	level3_name;
+	level4_name;
+	level5_name;
+	level6_name;
+	level7_name;
+	level8_name;
+	level9_name;
+	level10_name;
+	level11_name;
+	level12_name;
+	
+	trophy_announce_header;
+	
+	trophy_hint0;
+	trophy_hint1;
+	trophy_hint2;
+	trophy_hint3;
+	trophy_hint4;
+	trophy_hint5;
+	trophy_hint6;
+	trophy_hint7;
+	trophy_hint8;
+	trophy_hint9;
+	trophy_hint10;
+	trophy_hint11;
+	trophy_hint12;
+	
+	level_not_finished;
+    level_completed;
+    level_completed_with_trophy;
+    level_time;
+    level_money;
+    best_time;
+    best_money;
+
+	plant_aubergine;
+	plant_beetroot;
+	plant_cabbage;
+	plant_carrot;
+	plant_corn;
+	plant_cucumber;
+	plant_dahlia;
+	plant_mushroom;
+	plant_pepper;
+	plant_pumpkin;
+	plant_radish;
+	plant_strawberries;
+	plant_sunflower;
+	plant_tomato;
+	plant_tulip;
+	plant_watermelon;
+	
+	task_separator;
+	task_sow;
+	task_sell;
+	task_fertilize;
+	task_buy;
+
+	aubergine;
+	beetroot;
+	cabbage;
+	carrot;
+	corn;
+	cucumber;
+	dahlia;
+	mushroom;
+	pepper;
+	pumpkin;
+	radish;
+	strawberries;
+	sunflower;
+	tomato;
+	tulip;
+	watermelon;
+	
+	house_chicken; 
+	house_cow; 
+	house_pig;
+	house_sheep;
+	hangar_refrigerator;
+	hangar_flowers;
+	beehive;
+	
+	helper;
+	harvester;
+	
+	water_sprinkler;
+	time;
+	
+	tree_desert_apple;
+	tree_desert_cherry;
+	tree_desert_palm;
+	tree_desert_plum;
+	tree_grass_apple;
+	tree_grass_cherry;
+	tree_grass_palm;
+	tree_grass_plum;
+	tree_swamp_apple;
+	tree_swamp_cherry;
+	tree_swamp_palm;
+	tree_swamp_plum;
+	
+	house_chicken_product;
+	house_cow_product;
+	house_pig_product;
+	house_sheep_product;
+	beehive_product;
+	
+	tree_desert_apple_product;
+	tree_desert_cherry_product;
+	tree_desert_palm_product;
+	tree_desert_plum_product;
+	tree_grass_apple_product;
+	tree_grass_cherry_product;
+	tree_grass_palm_product;
+	tree_grass_plum_product;
+	tree_swamp_apple_product;
+	tree_swamp_cherry_product;
+	tree_swamp_palm_product;
+	tree_swamp_plum_product;
+	
+	patent_for_tulip;
+	patent_for_dahlia;
+	patent_for_sunflower;
+	patent_for_cucumber;
+	patent_for_tomato;
+	patent_for_aubergine;
+	patent_for_pepper;
+	patent_for_watermelon;
+	patent_for_hangar_flowers;
+	patent_for_beehive;
+	patent_for_cabbage;
+	patent_for_beetroot;
+	patent_for_house_pig;
+	patent_for_carrot;
+	patent_for_corn;
+	patent_for_hangar_vegetables;
+	patent_for_mushroom;
+	patent_for_pumpkin;
+	patent_for_strawberries;
+	patent_for_hangar_refrigerator;
+	patent_for_house_sheep;
+	patent_for_house_chicken;
+	patent_for_house_cow;
+	patent_for_radish;
+
+	patent_for_tulip_shop_hint;
+	patent_for_dahlia_shop_hint;
+	patent_for_sunflower_shop_hint;
+	patent_for_cucumber_shop_hint;
+	patent_for_tomato_shop_hint;
+	patent_for_aubergine_shop_hint;
+	patent_for_pepper_shop_hint;
+	patent_for_watermelon_shop_hint;
+	patent_for_hangar_flowers_shop_hint;
+	patent_for_beehive_shop_hint;
+	patent_for_beetroot_shop_hint;
+	patent_for_cabbage_shop_hint;
+	patent_for_carrot_shop_hint;
+	patent_for_corn_shop_hint;
+	patent_for_hangar_refrigerator_shop_hint;
+	patent_for_hangar_vegetables_shop_hint;
+	patent_for_house_chicken_shop_hint;
+	patent_for_house_cow_shop_hint;
+	patent_for_house_pig_shop_hint;
+	patent_for_house_sheep_shop_hint;
+	patent_for_mushroom_shop_hint;
+	patent_for_pumpkin_shop_hint;
+	patent_for_radish_shop_hint;
+	patent_for_strawberries_shop_hint;
+
+	cost_goods;
+	cost_work;
+	
+	destructor_shop_hint;
+	transporter_shop_hint;
+	
+	box_shop_hint;
+	fivebox_shop_hint;
+	tenbox_shop_hint;
+
+	spade_shop_hint;
+	watercan_shop_hint;
+	big_watercan_shop_hint;
+
+	hangar_vegetables_shop_hint;
+	hangar_flowers_shop_hint;
+	hangar_refrigerator_shop_hint;
+
+	beehive_shop_hint;
+	house_sheep_shop_hint;
+	house_pig_shop_hint;
+	house_cow_shop_hint;
+	house_chicken_shop_hint;
+
+	waterpump_shop_hint;
+	water_sprinkler_shop_hint;
+	fertilizer_shop_hint;
+	big_fertilizer_shop_hint;
+
+	tree_desert_palm_shop_hint;
+	tree_desert_apple_shop_hint;
+	tree_desert_cherry_shop_hint;
+	tree_desert_plum_shop_hint;
+	
+	tree_swamp_palm_shop_hint;
+	tree_swamp_apple_shop_hint;
+	tree_swamp_cherry_shop_hint;
+	tree_swamp_plum_shop_hint;
+
+	tree_grass_palm_shop_hint;
+	tree_grass_apple_shop_hint;
+	tree_grass_cherry_shop_hint;
+	tree_grass_plum_shop_hint;
+	
+	harvester_shop_hint;
+	helper_shop_hint;
+
+	aubergine_shop_hint;
+	beetroot_shop_hint;
+	cabbage_shop_hint;
+	carrot_shop_hint;
+	corn_shop_hint;
+	cucumber_shop_hint;
+	dahlia_shop_hint;
+	mushroom_shop_hint;
+	pepper_shop_hint;
+	pumpkin_shop_hint;
+	radish_shop_hint;
+	strawberries_shop_hint;
+	sunflower_shop_hint;
+	tomato_shop_hint;
+	tulip_shop_hint;
+	watermelon_shop_hint;
+	
+	harvester_shop_hint;
+	helper_shop_hint;
+	
+	money;
+
+	notify_add_shop_harvester;
+	notify_add_shop_helper;
+	notify_add_shop_box;
+	notify_add_shop_fivebox;
+	notify_add_shop_tenbox;
+	notify_add_shop_aubergine;
+	notify_add_shop_beetroot;
+	notify_add_shop_cabbage;
+	notify_add_shop_carrot;
+	notify_add_shop_corn;
+	notify_add_shop_cucumber;
+	notify_add_shop_dahlia;
+	notify_add_shop_mushroom;
+	notify_add_shop_pepper;
+	notify_add_shop_pumpkin;
+	notify_add_shop_radish;
+	notify_add_shop_strawberries;
+	notify_add_shop_sunflower;
+	notify_add_shop_tomato;
+	notify_add_shop_tulip;
+	notify_add_shop_watermelon;
+	notify_add_shop_watercan;
+	notify_add_shop_big_watercan;
+	notify_add_shop_hangar_vegetables;
+	notify_add_shop_hangar_flowers;
+	notify_add_shop_hangar_refrigerator;
+	notify_add_shop_transporter;
+
+	notify_add_shop_beehive;
+	notify_add_shop_house_sheep;
+	notify_add_shop_house_pig;
+	notify_add_shop_house_cow;
+	notify_add_shop_house_chicken;
+
+	notify_add_shop_waterpump;
+	notify_add_shop_water_sprinkler;
+	notify_add_shop_fertilizer;
+	notify_add_shop_big_fertilizer;
+
+	notify_add_shop_tree_grass_palm;
+	notify_add_shop_tree_grass_apple;
+	notify_add_shop_tree_grass_cherry;
+	notify_add_shop_tree_grass_plum;
+	notify_add_shop_tree_desert_palm;
+	notify_add_shop_tree_desert_apple;
+	notify_add_shop_tree_desert_cherry;
+	notify_add_shop_tree_desert_plum;
+	notify_add_shop_tree_swamp_palm;
+	notify_add_shop_tree_swamp_apple;
+	notify_add_shop_tree_swamp_cherry;
+	notify_add_shop_tree_swamp_plum;
+
+	notify_add_shop_patent_for_tulip;
+	notify_add_shop_patent_for_dahlia;
+	notify_add_shop_patent_for_sunflower;
+	notify_add_shop_patent_for_cucumber;
+	notify_add_shop_patent_for_tomato;
+	notify_add_shop_patent_for_aubergine;
+	notify_add_shop_patent_for_pepper;
+	notify_add_shop_patent_for_watermelon;
+	notify_add_shop_patent_for_hangar_flowers;
+	notify_add_shop_patent_for_beehive;
+	notify_add_shop_patent_for_cabbage;
+	notify_add_shop_patent_for_beetroot;
+	notify_add_shop_patent_for_carrot;
+	notify_add_shop_patent_for_house_pig;	
+	notify_add_shop_patent_for_corn;
+	notify_add_shop_patent_for_mushroom;
+	notify_add_shop_patent_for_pumpkin;
+	notify_add_shop_patent_for_radish;
+	notify_add_shop_patent_for_strawberries;
+		
+	notify_add_shop_hangar_flowers;
+	notify_add_shop_hangar_refrigerator;
+	notify_add_shop_patent_for_house_chicken;
+	notify_add_shop_patent_for_house_cow;
+	notify_add_shop_patent_for_house_pig;
+ 	notify_add_shop_patent_for_house_sheep;
+	notify_add_shop_patent_for_house_beehive;
+	notify_add_shop_patent_for_hangar_flowers;
+	notify_add_shop_patent_for_hangar_vegetables;
+	notify_add_shop_patent_for_hangar_refrigerator;
+	
+	notify_no_more_money;
+	notify_you_cant_put;
+	notify_you_cant_storebox;
+	notify_store_in_hangar;
+	notify_store_in_fridge;
+	notify_store_in_flower;
+	notify_box_nomore_full;
+	notify_only_for_this_type;
+	notify_box_full;
+	
+	notify_cant_feed_house_sheep;
+	notify_cant_feed_house_pig;
+	notify_cant_feed_house_cow;
+	notify_cant_feed_house_chicken;
+
+	message_complete_sell_plant_tomato;
+	message_complete_sell_plant_aubergine;
+	message_complete_sell_plant_pepper;
+	message_complete_sell_plant_cucumber;
+	message_complete_sell_plant_dahlia;
+	message_complete_sell_plant_sunflower;
+	message_complete_sell_plant_tulip;
+	message_complete_sell_beehive;
+	message_complete_sell_plant_mushroom;
+	message_complete_sell_plant_cabbage;
+	message_complete_sell_plant_watermelon;
+	message_complete_sell_plant_beetroot;
+	message_complete_sell_house_pig;
+	message_complete_sell_plant_carrot;
+	message_complete_sell_plant_corn;
+	message_complete_sell_plant_pumpkin;
+	message_complete_sell_plant_strawberries;
+	message_complete_sell_house_sheep;
+	message_complete_sell_house_chicken;
+	message_complete_sell_house_cow;
+	message_complete_sell_plant_for_radish;
+	
+
+	l1_message_welcome;
+	l1_message_dig_one;
+	l1_message_dig_four;
+	l1_message_dig_twelve;
+	l1_message_plant_four;
+	l1_message_wait_harvest;
+
+	
+	l1_message_water;
+	l1_message_water_ok;
+	l1_message_fruits_ready;
+	l1_message_box_tutorial;
+	l1_message_second_harvest;
+	l1_message_third_harvest;
+	l1_message_thirst_reminder;
+	l1_message_dig_more;
+	l1_message_fertilizer_tutorial;
+	l1_message_victory;
+	
+	l1_task_1dig;
+	l1_task_1dig_details;
+	l1_task_4dig;
+	l1_task_4dig_details;
+	l1_task_4plant;
+	l1_task_4plant_details;
+	l1_task_4water;
+	l1_task_4water_details;
+	l1_task_3sell;
+	l1_task_3sell_details;
+	
+
+	l2_task_sow;
+	l2_task_sow_details;
+	
+	l2_task_first_sell;
+	l2_task_first_sell_details;
+	
+	l2_task_first_patent;
+	l2_task_first_patent_details;
+	
+	l2_task_second_sell;
+	l2_task_second_sell_details;
+	
+	l2_task_second_patent;
+	l2_task_second_patent_details;
+	
+	l2_task_third_sell;
+	l2_task_third_sell_details;
+	
+	l2_message_start;
+	l2_message_sow;
+	l2_message_first_sell;
+	l2_message_add_money;
+	l2_message_add_money_2;
+	l2_message_first_patent;
+	l2_message_second_sell;
+	l2_message_second_patent;
+	l2_message_third_sell;
+	l2_message_victory;
+
+	l2_message_add_waterpump;
+	l2_message_add_big_watercan;
+	l2_message_add_fivebox;
+	l2_message_thirsty_need;
+	l2_fertilizer_help;
+	l2_help_help;
+
+	l3_task_pig_alarm;
+	l3_task_pig_alarm_details;
+	l3_task_collect_batch_vegatables; 
+	l3_task_collect_batch_vegatables_details; 
+	l3_message_pig_alarm;
+	l3_message_task_collect_batch_vegatables;
+	l3_message_task_sell_pig;
+	l3_message_complete_sell_plant_mushroom;
+	l3_message_complete_sell_plant_cucumber;
+	l3_message_complete_sell_plant_aubergine;
+	l3_message_victory;
+	l3_message_beetroot_help;
+	l3_message_pig_feed_help;
+	l3_message_pig_sow_help;
+	l3_message_destructor_help;
+	l3_message_water_sprinkler_help;
+	l3_message_add_house_pig;
+	
+	l3_message_have_700money; 
+	l3_message_add_500money; 
+	
+	l4_task_big_cooler;
+	l4_task_big_cooler_details;
+	l4_task_place_house_chicken;
+	l4_task_place_house_chicken_details;
+	l4_task_place_hangar_refrigerator;
+	l4_task_place_hangar_refrigerator_details;
+	l4_message_big_cooler;
+	l4_message_first_task;
+	l4_message_place_patent_for_house_chicken;
+	l4_message_second_task;
+	l4_message_place_patent_for_hangar_refrigerator;
+	l4_message_last_task;
+	l4_message_victory;
+	l4_message_trees_help;
+	l4_message_pig_help;
+	l4_message_hangar_refrigerator_help;
+
+	l4_message_harvester_help;
+	l4_message_harvester_money_help;
+	l4_message_harvester_question_help;
+	l4_message_transporter_help;
+	
+	l5_task_flowers_garden;
+	l5_task_flowers_garden_details;
+	l5_task_buy_hangar_flowers;
+	l5_task_buy_hangar_flowers_details;
+	l5_task_sell_batch_flowers;
+	l5_task_sell_batch_flowers_details;
+	l5_task_buy_flowers_patent;
+	l5_task_buy_flowers_patent_details;
+	l5_task_flowers_sow;
+	l5_task_flowers_sow_details;
+	l5_task_second_victory;
+	l5_task_second_victory_details;
+	l5_message_about_tasks;
+	l5_message_first_task;
+	l5_message_second_task;
+	l5_message_third_task;
+	l5_message_last_task;
+	
+	l5_message_dead_flower;
+	l5_message_second_victory;
+
+	l5_message_add_water_sprinkler;
+	l5_message_plant_dahlia;
+	l5_message_plant_sunflower;
+	l5_message_plant_sunflower_help;
+	l5_message_victory;
+		
+	l5_message_helper_help;		
+	l5_notify_add_patent_for_flowers;
+
+	l6_task_beehive_save;
+    l6_task_beehive_save_details;
+    l6_task_collect_batch_vegatables;
+    l6_task_collect_batch_vegatables_details;
+    l6_task_collect_batch_flowers;
+    l6_task_collect_batch_flowers_details;
+    l6_message_hello_heroine;
+    l6_message_about_tasks;
+    l6_message_first_task;
+    l6_message_second_task;
+    l6_message_main_task;
+    l6_message_victory;
+    l6_message_see_pedicellates_patents;
+    l6_message_help_hangar_flowers;
+    l6_message_help_hangar_refrigerator;
+    l6_message_help_beehive;
+    l6_message_add_hangar_refrigerator;
+
+	l7_task_contest0;
+	l7_task_contest0_details;
+	l7_task_contest1;
+	l7_task_contest1_details;
+	l7_task_contest2;
+	l7_task_contest2_details;
+	l7_task_contest3;
+	l7_task_contest3_details;
+	l7_task_contest4;
+	l7_task_contest4_details;
+	l7_task_contest5;
+	l7_task_contest5_details;
+	l7_task_contest6;
+	l7_task_contest6_details;
+	l7_task_contest7;
+	l7_task_contest7_details;
+	l7_task_contest8;
+	l7_task_contest8_details;
+	l7_task_contest9;
+	l7_task_contest9_details;
+	l7_task_contest10;
+	l7_task_contest10_details;
+	l7_task_contest11;
+	l7_task_contest11_details;
+	l7_task_contest12;
+	l7_task_contest12_details;
+		
+	l7_message_hello;
+	l7_message_about_tasks;
+	l7_message_first_task;
+	l7_message_second_task;
+	l7_message_third_task;
+	l7_message_fourth_task;
+	l7_message_fifth_task;
+	l7_message_sixth_task;
+	l7_message_seventh_task;
+	l7_message_eighth_task;
+	l7_message_ninth_task;
+	l7_message_tenth_task;
+	l7_message_eleventh_task;
+	l7_message_twelfth_task;
+	l7_message_thirteenth_task;
+	
+	l7_message_add_harvester;
+	l7_message_victory;
+	l7_message_watermelon_help;
+	l7_message_strawberries_help;
+
+	l8_task_first_task;
+	l8_task_first_task_details;
+	l8_task_second_task;
+	l8_task_second_task_details;
+	l8_task_third_task;
+	l8_task_third_task_details;
+	l8_task_fourth_task;
+	l8_task_fourth_task_details;
+	l8_task_fifth_task;
+	l8_task_fifth_task_details;
+	l8_task_sixth_task;
+	l8_task_sixth_task_details;
+	l8_task_seventh_task;
+	l8_task_seventh_task_details;
+	l8_task_eighth_task;
+	l8_task_eighth_task_details;
+	l8_task_ninth_task;
+	l8_task_ninth_task_details;
+	l8_task_tenth_task;
+	l8_task_tenth_task_details;
+	l8_task_eleventh_task;
+	l8_task_eleventh_task_details;
+
+	l8_message_hello;
+	l8_message_about_tasks;
+	l8_message_first_task;
+	l8_message_second_task;
+	l8_message_third_task;
+	l8_message_fourth_task;
+	l8_message_fifth_task;
+	l8_message_sixth_task;
+	l8_message_seventh_task;
+	l8_message_eighth_task;
+	l8_message_ninth_task;
+	l8_message_tenth_task;
+	l8_message_eleventh_task;
+	
+	l8_message_victory;
+	l8_message_sheep_help;
+
+	l9_task_first_task;
+	l9_task_first_task_details;
+
+	l9_message_hello;
+	l9_message_about_tasks;
+	l9_message_victory;
+	
+	l10_task_first_task;
+	l10_task_first_task_details;
+	l10_task_second_task;
+	l10_task_second_task_details;
+	l10_task_third_task;
+	l10_task_third_task_details;
+	l10_task_fourth_task;
+ 	l10_task_fourth_task_details;
+	l10_task_fifth_task;
+	l10_task_fifth_task_details;
+	l10_task_sixth_task;
+	l10_task_sixth_task_details;
+	
+	l10_task_alt_second_task;
+	l10_task_alt_second_task_details;
+	l10_task_alt_third_task;
+	l10_task_alt_third_task_details;
+	l10_task_alt_fourth_task;
+	l10_task_alt_fourth_task_details;
+	l10_task_alt_fifth_task;
+	l10_task_alt_fifth_task_details;
+	l10_task_alt_sixth_task;
+	l10_task_alt_sixth_task_details;
+	
+	l10_message_hello;
+	l10_message_about_tasks;
+	l10_message_first_task;
+	l10_message_second_task;
+	l10_message_third_task;
+	l10_message_fourth_task;
+	l10_message_fifth_task;
+	l10_message_sixth_task;
+	
+	l10_message_alt_second_task;
+	l10_message_alt_third_task;
+	l10_message_alt_fourth_task;
+	l10_message_alt_fifth_task;
+	l10_message_alt_sixth_task;
+	
+	
+	l10_message_add_water_sprinkler;
+	l10_message_harvester;
+	
+	l11_task_first_task;
+	l11_task_first_task_details;
+	l11_task_second_task;
+	l11_task_second_task_details;
+	l11_task_third_task;
+	l11_task_third_task_details;
+	l11_task_fourth_task;
+ 	l11_task_fourth_task_details;
+	l11_task_fifth_task;
+	l11_task_fifth_task_details;
+	l11_task_sixth_task;
+	l11_task_sixth_task_details;
+	l11_task_seventh_task;
+	l11_task_seventh_task_details;
+	l11_task_eighth_task;
+	l11_task_eighth_task_details;
+	l11_task_ninth_task;
+	l11_task_ninth_task_details;
+	l11_task_tenth_task;
+	l11_task_tenth_task_details;
+	l11_task_eleventh_task;
+	l11_task_eleventh_task_details;
+	
+	l11_message_hello;
+	l11_message_about_tasks;
+	l11_message_first_task;
+	l11_message_second_task;
+	l11_message_third_task;
+	l11_message_fourth_task;
+ 	l11_message_fifth_task;
+	l11_message_sixth_task;
+	l11_message_seventh_task;
+	l11_message_eighth_task;
+	l11_message_ninth_task;
+	l11_message_tenth_task;
+	l11_message_eleventh_task;
+
+	l11_message_victory;
+	
+	l12_task_first_lot_vegetables;
+	l12_task_first_lot_vegetables_details;
+	l12_task_second_lot_vegetables;
+	l12_task_second_lot_vegetables_details;
+	l12_task_first_lot_flowers;
+	l12_task_first_lot_flowers_details;
+	l12_task_first_lot_strawberries_behive;
+	l12_task_first_lot_strawberries_behive_details;
+	l12_task_first_lot_trees;
+	l12_task_first_lot_trees_details;
+	l12_task_first_lot_farms_produktion;
+	l12_task_first_lot_farms_produktion_details;
+	l12_task_first_shop_order;
+	l12_task_first_shop_order_details;
+	l12_task_second_shop_order;
+	l12_task_second_shop_order_details;
+	l12_task_third_shop_order;
+	l12_task_third_shop_order_details;
+	l12_task_fourth_shop_order;
+	l12_task_fourth_shop_order_details;
+	l12_message_victory;
+	l12_message_cool_vegetables;
+	l12_message_first_lot_vegetables;
+	l12_message_second_lot_vegetables;
+	l12_message_first_lot_flowers;
+	l12_message_first_lot_strawberries_behive;
+	l12_message_first_lot_trees_details;
+	l12_message_first_lot_farms_produktion;
+	l12_message_first_shop_order;
+	l12_message_second_shop_order;
+	l12_message_third_shop_order;
+	l12_message_fourth_shop_order;
+	l12_message_supplier_sabotage;
+	
+	comics_p1f1b1;
+	comics_p1f1b2;
+	comics_p1f1b3;
+	comics_p1f2b1;
+	comics_p1f2b2;
+	comics_p1f2b3;
+	comics_p1f3b1;
+	comics_p1f3b2;
+	comics_p1f5b1;
+	comics_p1f6b1;
+	comics_p1f7b1;
+	comics_p1f7b2;
+	comics_p1f7b3;
+	comics_p1f8b1;
+	comics_p1f8b2;
+	
+	comics_p2f1b1;
+	comics_p2f1b2;		
+	comics_p2f1b3;
+	comics_p2f2b1;
+	comics_p2f2b2;
+	comics_p2f2b3;	
+	comics_p2f3b1;	
+	comics_p2f4b1;
+	comics_p2f4b2;	
+	comics_p2f5b1;	
+	comics_p2f6b1;
+	comics_p2f6b2;	
+	comics_p2f7b1;	
+	comics_p2f8b1;
+
+	comics_p3f1b1;
+	comics_p3f2b1;
+	comics_p3f3b1;
+	comics_p3f5b1;
+	comics_p3f5b2;	
+	comics_p3f6b1;
+	comics_p3f6b2;
+	comics_p3f7b1;
+	comics_p3f7b2;
+	comics_p3f7b3;
+	comics_p3f7b4;
+	comics_p3f8b1;
+	comics_p3f8b2;
+	comics_p3f8b3;
+	comics_p3f8b4;
+	comics_p3f8b5;
+	
+	comics_p4f1b1;
+	comics_p4f1b2;
+	comics_p4f1b3;
+	comics_p4f1b4;
+	comics_p4f1b5;
+	comics_p4f2b1;
+	comics_p4f3b1;
+	comics_p4f5b1;
+	comics_p4f6b1;
+	comics_p4f7b1;
+	comics_p4f8b1;
+	comics_p4f9b1;
+	comics_p4f10b1;
+	comics_p4f10b2;
+	comics_p4f10b3;
+	comics_p4f10b4;
+	comics_p4f11b1;
+	comics_p4f12b1;
+	comics_p4f12b2;
+	comics_p4f12b3;
+	comics_p4f12b4;
+	comics_p4f12b5;
+	comics_p4f12b6;
+	comics_p4f12b7;
+	comics_p4f13b1;
+	comics_p4f13b2;
+	
+	comics_p5f1b1;
+	comics_p5f1b2;
+	comics_p5f1b3;
+	comics_p5f1b4;
+	comics_p5f1b5;
+	comics_p5f1b6;	
+	comics_p5f2b1;
+	comics_p5f2b2;
+	comics_p5f2b3;
+	comics_p5f2b4;
+	comics_p5f2b5;
+	comics_p5f2b6;
+	comics_p5f3b1;
+	comics_p5f3b2;
+	comics_p5f3b3;
+	comics_p5f3b4;
+	comics_p5f3b5;
+	comics_p5f3b6;
+	comics_p5f4b1;
+	comics_p5f4b2;
+	comics_p5f4b3;
+	comics_p5f4b4;
+	comics_p5f5b1;
+	comics_p5f5b2;
+	comics_p5f5b3;
+	comics_p5f6b1;
+	
+	comics_p6f1b1;
+	comics_p6f1b2;
+	comics_p6f1b3;
+	comics_p6f1b4;
+	comics_p6f1b5;
+	comics_p6f2b1;
+	comics_p6f2b2;
+	comics_p6f3b1;
+	comics_p6f4b1;
+	comics_p6f5b1;
+	comics_p6f5b2;
+	comics_p6f5b3;
+	comics_p6f5b4;
+	comics_p6f5b5;
+	comics_p6f5b6;
+	comics_p6f5b7;
+	comics_p6f5b8;
+	comics_p6f5b9;
+	comics_p6f6b1;
+	comics_p6f7b1;
+	comics_p6f7b2;
+	comics_p6f7b3;
+	comics_p6f7b4;
+	
+	comics_p7f1b1;
+	comics_p7f1b2;
+	comics_p7f1b3;
+	comics_p7f1b4;
+	comics_p7f1b5;
+	comics_p7f1b6;
+	comics_p7f1b7;
+	comics_p7f1b8;
+	comics_p7f1b9;
+	comics_p7f1b10;
+	comics_p7f2b1;
+	comics_p7f2b2;
+	comics_p7f3b1;
+	comics_p7f3b2;
+	comics_p7f3b3;
+	comics_p7f3b4;
+	comics_p7f3b5;
+	comics_p7f3b6;
+	comics_p7f4b1;
+	comics_p7f4b2;
+	comics_p7f4b3;
+	comics_p7f5b1;
+	comics_p7f6b1;
+	comics_p7f6b2;
+	comics_p7f6b3;
+	comics_p7f6b4;
+	comics_p7f6b5;
+	comics_p7f6b6;
+	comics_p7f6b7;
+	comics_p7f6b8;
+	comics_p7f6b9;
+	comics_p7f7b1;
+	comics_p7f8b1;
+	
+	comics_p8f1b1;
+	comics_p8f1b2;
+	comics_p8f2b1;
+	comics_p8f2b2;
+	comics_p8f3b1;
+	comics_p8f3b2;
+	
+	comics_p9f1b1;
+	comics_p9f2b1;
+	comics_p9f2b2;
+	comics_p9f2b3;
+	comics_p9f2b4;
+	comics_p9f3b1;
+	comics_p9f4b1;
+	comics_p9f4b2;
+	comics_p9f4b3;
+	comics_p9f5b1;
+	comics_p9f5b2;
+	comics_p9f5b3;
+	
+	comics_p10f1b1;
+	comics_p10f1b2;
+	comics_p10f1b3;
+	comics_p10f1b4;
+	comics_p10f1b5;
+	comics_p10f2b1;
+	comics_p10f2b2;
+	comics_p10f2b3;
+	comics_p10f2b4;
+	comics_p10f3b1;
+	comics_p10f4b1;
+	comics_p10f4b2;
+	comics_p10f5b1;
+	comics_p10f5b2;
+	comics_p10f6b1;
+	comics_p10f6b2;
+	comics_p10f6b3;
+	
+	comics_p11f1b1;
+	comics_p11f1b2;
+	comics_p11f2b1;
+	comics_p11f2b2;
+	comics_p11f3b1;
+	comics_p11f4b1;
+	comics_p11f5b1;
+	comics_p11f5b2;
+	comics_p11f6b1;
+	comics_p11f6b2;
+	comics_p11f6b3;
+	
+	comics_p12f0b1;
+	comics_p12f1b1;
+	comics_p12f2b1;
+	comics_p12f2b2;
+	comics_p12f2b3;
+	comics_p12f2b4;
+	comics_p12f2b5;
+	comics_p12f3b1;
+	comics_p12f3b2;
+	comics_p12f3b3;
+	comics_p12f3b4;
+	
+	
+	comics_p13f1b1;
+	comics_p13f1b2;
+	comics_p13f1b3;
+	comics_p13f2b1;
+	comics_p13f2b2;
+	comics_p13f3b1;
+	comics_p13f3b2;
+	comics_p13f3b3;
+	comics_p13f4b1;
+	comics_p13f4b2;
+	comics_p13f5b1;
+	comics_p13f6b1;
+	comics_p13f6b2;
+	
+}
+
+>>
+

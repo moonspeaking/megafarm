@@ -1,0 +1,41 @@
+<<
+@hangar 1
+{
+	#string name "hangar_vegetables";
+	#string type_goods "buildings";
+	#int price 500;
+	#point pos 0, 0;
+	#point size 256, 256;
+	#bool solid true;
+	#point zbase 10, -34;
+	#string texpicture_name "hangar_vegetables.tga";
+	#string texhighlight_name "hangar_vegetables.tga";
+	#string texmask_name "hangar_vegetables.tga";
+	
+	#point base_center 2, -42;
+	#point base_radius 98, 80;
+	#point dock_center 0, -122;
+	#point dock_radius 8, 8;
+	
+	#string accept_goods "vegetables herb piggy pig_food grass fleece";
+
+	@sprite
+	{
+		#string name "sprite_bird";
+		#point pos 6, 12;
+		#point size 32, 32;
+		
+		@animation
+		{
+			#string name "bird_idle0";
+			#int start_frame 0;
+			#int end_frame 7;
+			#float frame_per_second 8;
+			#string texture_name "bird_idle0.tga";
+		}
+	}
+
+	@dummy_bar;
+}
+>>
+

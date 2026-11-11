@@ -1,0 +1,572 @@
+тут можно писать что угодно!
+
+<<
+
+@level 1
+{
+	#string level_name "Обучение";
+	#point level_size 24, 16; 
+	#string level_env "grass";
+	#float level_time 300;
+	#float plant_thirst_growth 1.3;
+	#float health_reduction_after_harvest 2;
+	#float plant_minimal_health 1;
+	
+	@scenario
+	{
+		//----------------------------------------------//
+		//				все условии						//
+		//----------------------------------------------//
+
+		@l1_cond1
+		{
+			time >= 1;
+		}
+		
+		@l1_cond2
+		{
+			time >= 2;		
+		}
+		
+		@l1_1dig_cond
+		{
+			fields_dug >= 1;
+		}
+		
+		@l1_4dig_cond
+		{
+			fields_dug >= 4;
+		}
+		
+		@l1_4plant_cond
+		{
+			sow_pumpkin >= 4;
+		}
+		
+		@l1_4ready_cond
+		{
+			fruits_ready >= 2;
+			plants_watered >= 4;
+		}
+		
+		@l1_8ready_cond
+		{
+			fruits_ready >= 6;
+		}
+		
+		@l1_12ready_cond
+		{
+			fruits_ready >= 10;
+		}
+		
+		@l1_4water_cond
+		{
+			plants_watered >= 4;
+		}
+		
+		@l1_4thirsty_cond
+		{
+			thirsty_plants >= 1;
+		}
+		
+		@l1_8thirsty_cond
+		{
+			thirsty_plants >= 5;
+		}
+		
+		@l1_1sell_cond
+		{
+			sell_plant_pumpkin >=1;
+		}
+		
+		@l1_2sell_cond
+		{
+			sell_plant_pumpkin >=2;
+		}
+		
+		@victory
+		{
+			sell_plant_pumpkin >=3;
+		}
+				
+		@defeat_time
+		{
+			time >= 300000000000000;
+		}
+		
+		//----------------------------------------------//
+		//				мессаги							//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_welcome";
+			@condition
+			{
+				l1_cond1;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_dig_one";
+			@condition
+			{
+				l1_cond2;
+			}
+		}  
+						
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_dig_four";
+			@condition
+			{
+				l1_1dig_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_dig_twelve";
+			@condition
+			{
+				l1_4dig_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_plant_four";
+			#int delay 2;
+			@condition
+			{
+				l1_4dig_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "add particles";
+			#string data "pumpkin item_hint 20";
+			#int delay 2;
+			@condition
+			{
+				l1_4dig_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_wait_harvest";
+			@condition
+			{
+				l1_4plant_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_water";
+			#int delay 5;
+			@condition
+			{
+				l1_4plant_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "add particles";
+			#string data "watercan item_hint 20";
+			#int delay 5;
+			@condition
+			{
+				l1_4plant_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "add particles";
+			#string data "waterpump item_hint 20";
+			#int delay 7;
+			@condition
+			{
+				l1_4plant_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "add particles";
+			#string data "plant_pumpkin item_hint 20";
+			#int delay 9;
+			@condition
+			{
+				l1_4plant_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_water_ok";
+			@condition
+			{
+				l1_4water_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_dig_more";
+			#int delay 2;
+			@condition
+			{
+				l1_4water_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_fruits_ready";
+			@condition
+			{
+				l1_4ready_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "add particles";
+			#string data "box item_hint 20";			
+			@condition
+			{
+				l1_4ready_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "add particles";
+			#string data "hangar_vegetables item_hint 20";
+			#int delay 6;			
+			@condition
+			{
+				l1_4ready_cond;
+			}
+		}
+		
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_box_tutorial";
+			#int delay 2;
+			@condition
+			{
+				l1_1sell_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_thirst_reminder";
+			@condition
+			{
+				l1_4thirsty_cond;
+			}
+		}
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_thirst_reminder";
+			@condition
+			{
+				l1_8thirsty_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_second_harvest";
+			@condition
+			{
+				l1_8ready_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_third_harvest";
+			@condition
+			{
+				l1_12ready_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_fertilizer_tutorial";
+			#int delay 2;
+			@condition
+			{
+				l1_2sell_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "show help";
+			#string data "";
+			#int delay 2;
+			@condition
+			{
+				victory;
+			}
+		}		
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l1_message_victory";
+			#int delay 4;			
+			@condition
+			{
+				victory;
+			}
+		}		
+		
+
+
+		//----------------------------------------------//
+		//		а тут дибильные таски на уровень		//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l1_task_1dig";
+			@condition
+			{
+				l1_1dig_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l1_task_4dig";
+			@condition
+			{
+				l1_4dig_cond;
+			}
+		} 
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l1_task_4plant";
+			@condition
+			{
+				l1_4plant_cond;
+			}
+		} 
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l1_task_4water";
+			@condition
+			{
+				l1_4water_cond;
+			}
+		}
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l1_task_3sell";
+			@condition
+			{
+				victory;
+			}
+		} 
+		
+		//----------------------------------------------//
+		//				подзадачи						//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "add task";
+			#string data "l1_task_1dig";
+			@condition
+			{
+				l1_cond2;			
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l1_task_4dig";
+			@condition
+			{
+				l1_1dig_cond;
+			}
+		} 
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l1_task_4plant";
+			@condition
+			{
+				l1_4dig_cond;
+			}
+		} 
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l1_task_4water";
+			@condition
+			{
+				l1_4plant_cond;
+			}
+		} 
+				
+		//----------------------------------------------//
+		//				главное задание					//
+		//----------------------------------------------//
+		@action
+		{
+			#string type "add task";
+			#string data "l1_task_3sell";
+			@condition
+			{
+				l1_4water_cond;
+			}
+		} 
+	
+		//----------------------------------------------//
+		//				добавляем на поле				//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "hero";
+			#point coords  6, 6;
+		}
+		@action //добавили ангар
+		{
+			#string type "add to field";
+			#string data "hangar_vegetables";
+			#point coords  5, 3;
+		}
+		
+		@action //добавили лейку
+		{
+			#string type "add to field";
+			#string data "watercan";
+			#point coords  9, 4;
+		}
+		
+		@action //добавили колонку
+		{
+			#string type "add to field";
+			#string data "waterpump";
+			#point coords  8, 3;
+		}
+		
+		@action //добавили ящик
+		{
+			#string type "add to field";
+			#string data "box";
+			#point coords  8, 5;
+		}
+		
+		@action //добавили семена капусту
+		{
+			#string type "add to field";
+			#string data "pumpkin";
+			#point coords  9, 5;
+		}
+		//----------------------------------------------//
+		//				добавляем всякое				//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "add money";
+			#string data "10";
+		}
+		
+
+		//----------------------------------------------//
+		//				игровые события					//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "box";
+			#int delay 2;
+			@condition
+			{
+				l1_1sell_cond;
+			}
+		}  
+		@action
+		{
+			#string type "add to shop";
+			#string data "fertilizer";
+			#int delay 2;
+			@condition
+			{
+				l1_2sell_cond;
+			}
+		}
+
+		@action
+		{
+			#string type "victory";
+			#int delay 4;
+			@condition 1
+			{
+				victory;
+			}
+		}
+		@action
+		{
+			#string type "defeat";
+			@condition 1
+			{
+				defeat_time;
+			}
+		}
+	}
+}
+
+
+>>
+
+тут тоже можно писать что угодно
+что угодно
+
+

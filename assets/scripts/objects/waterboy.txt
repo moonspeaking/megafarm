@@ -1,0 +1,115 @@
+<<
+@worker 1
+{
+	#string name "waterboy";
+	#string type_goods "personal";
+	#int price 0;
+	#point pos 0, 0;
+	#point size 96, 192;
+	#bool solid false;
+	#point zbase 9, -52;
+	#int work_time 100;
+	#int pay 5;
+	@animation
+	{
+		#string anim_name "worker_idle1";
+		#int start_frame 0;
+		#int end_frame 15;
+		#float animation_time 1;
+		#point frame_size 128, 256;
+		#point texture_size 1024, 512;
+		#string texture_name "mover_idle1.tga";
+	}
+	@animation
+	{
+		#string anim_name "worker_idle2";
+		#int start_frame 0;
+		#int end_frame 31;
+		#float animation_time 2;
+		#point frame_size 128, 256;
+		#point texture_size 1024, 1024;
+		#string texture_name "mover_idle2.tga";
+	}
+	@animation
+	{
+		#string anim_name "worker_walk0";
+		#int start_frame 0;
+		#int end_frame 15;
+		#float animation_time 8;
+		#point frame_size 128, 256;
+		#point texture_size 1024, 512;
+		#string texture_name "mover_walk0.tga";
+	}
+	@animation
+	{
+		#string anim_name "worker_walk1";
+		#int start_frame 0;
+		#int end_frame 15;
+		#float animation_time 1;
+		#point frame_size 128, 256;
+		#point texture_size 1024, 512;
+		#string texture_name "mover_walk1.tga";
+	}
+	@animation
+	{
+		#string anim_name "worker_walk2";
+		#int start_frame 0;
+		#int end_frame 15;
+		#float animation_time 1;
+		#point frame_size 128, 256;
+		#point texture_size 1024, 512;
+		#string texture_name "mover_walk2.tga";
+	}
+	@animation
+	{
+		#string anim_name "worker_walk3";
+		#int start_frame 0;
+		#int end_frame 15;
+		#float animation_time 1;
+		#point frame_size 128, 256;
+		#point texture_size 1024, 512;
+		#string texture_name "mover_walk3.tga";
+	}
+	@animation
+	{
+		#string anim_name "worker_walk4";
+		#int start_frame 0;
+		#int end_frame 15;
+		#float animation_time 1;
+		#point frame_size 128, 256;
+		#point texture_size 1024, 512;
+		#string texture_name "mover_walk4.tga";
+	}
+	@animation
+	{
+		#string anim_name "worker_walk5";
+		#int start_frame 0;
+		#int end_frame 15;
+		#float animation_time 1;
+		#point frame_size 128, 256;
+		#point texture_size 1024, 512;
+		#string texture_name "mover_walk5.tga";
+	}
+	@animation
+	{
+		#string anim_name "worker_walk6";
+		#int start_frame 0;
+		#int end_frame 15;
+		#float animation_time 1;
+		#point frame_size 128, 256;
+		#point texture_size 1024, 512;
+		#string texture_name "mover_walk6.tga";
+	}
+	@animation
+	{
+		#string anim_name "worker_walk7";
+		#int start_frame 0;
+		#int end_frame 15;
+		#float animation_time 1;
+		#point frame_size 128, 256;
+		#point texture_size 1024, 512;
+		#string texture_name "mover_walk7.tga";
+	}
+}
+>>
+

@@ -1,0 +1,85 @@
+<<
+
+@chn
+{
+	_計劃總監
+	Sergey Smirnov
+	_遊戲設計
+	Sergey Smirnov
+	Oleg Dolgikh
+	Sergey Seleznev
+	_製作
+	Vitaly Romanov
+	_開發
+	Sergey Simirnov
+	Oleg Dolgikh
+	_關卡設計
+	Sergey Seleznev
+	_藝術製作
+	Denis Markelov
+	Zlata Markelova
+	_美術和設計
+	_Positive Games
+	Alexander Boldin
+	Valery Nefedov
+	Alexander Yurgens
+	_Nevosoft
+	Ksenia Mamaeva
+	Yuri Voronov
+	Anastasia Borzykh
+	_原型和動畫
+	Positive Games
+	_劇本
+	Sergey Smirnov
+	Oleg Dolgikh
+	Sergey Seleznev
+	_音樂
+	The SandS
+	_音效
+	The SandS
+	Nick Oshurkov
+	Denis Antonov
+	Doug Pullar
+	_英文
+	Christopher Hamilton
+	_聲音總監
+	Christopher Hamilton
+	Nick Oshurkov
+	_配音
+	Ginger           Jennifer Gaspar
+	奶奶            Kaycee Zeller
+	爺爺              Doug Pullar
+	敘述    Christopher Hamilton
+	養豬農場主  Christopher Hamilton 
+	Joe叔父       Donough McNamara
+	老人              Doug Pullar
+	Agroson先生        Marcus Godwyn
+	Jacques         Donough McNamara
+	Helmut               Doug Pullar
+	Janice             Kaycee Zeller
+	電視主播      Kaycee Zeller
+	Gus         Christopher Hamilton
+	市長                Doug Pullar
+	經濟分析家  Nick Oshurkov
+	_測試
+	Sergey Seleznev
+	Vitaly Romanov
+	Alexandra Ryabchikova
+	Alexey Serebrov
+	Pavel Räikkönen
+	Andrey Litvinov
+	Mikhail Gurenkov
+	Sergey Korshun
+	Christopher Hamilton
+	_創造性支持
+	Vitaly Romanov
+	Alexey Serebrov
+	Pavel Räikkönen
+	Mikhail Gurenkov
+	Sergey Korshun
+	Christopher Hamilton
+	_此遊戲中蔬菜無害。
+	(с) NevoSoft, 2008
+}
+
+>>

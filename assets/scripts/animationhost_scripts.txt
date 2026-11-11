@@ -1,0 +1,974 @@
+тут список всех звуков и музыки и даже url =)
+<<
+
+@animationhost
+{
+	@animation
+	{
+		#string name "bee_idle1";
+		#int start_frame 64;
+		#int end_frame 79;
+		#float animation_time 1;
+		#point frame_size 32, 32;
+		#string texname "bee_fly.tga";
+	}
+	@animation
+	{
+		#string name "bee_idle2";
+		#int start_frame 64;
+		#int end_frame 79;
+		#float animation_time 1;
+		#point frame_size 32, 32;
+		#string texname "bee_fly.tga";
+	}
+	@animation
+	{
+		#string name "bee_walk0";
+		#int start_frame 32;
+		#int end_frame 47;
+		#float animation_time 1;
+		#point frame_size 32, 32;
+		#string texname "bee_fly.tga";
+	}
+	@animation
+	{
+		#string name "bee_walk1";
+		#int start_frame 48;
+		#int end_frame 63;
+		#float animation_time 1;
+		#point frame_size 32, 32;
+		#string texname "bee_fly.tga";
+	}
+	@animation
+	{
+		#string name "bee_walk2";
+		#int start_frame 64;
+		#int end_frame 79;
+		#float animation_time 1;
+		#point frame_size 32, 32;
+		#string texname "bee_fly.tga";
+	}
+	@animation
+	{
+		#string name "bee_walk3";
+		#int start_frame 80;
+		#int end_frame 95;
+		#float animation_time 1;
+		#point frame_size 32, 32;
+		#string texname "bee_fly.tga";
+	}
+	@animation
+	{
+		#string name "bee_walk4";
+		#int start_frame 96;
+		#int end_frame 111;
+		#float animation_time 1;
+		#point frame_size 32, 32;
+		#string texname "bee_fly.tga";
+	}
+	@animation
+	{
+		#string name "bee_walk5";
+		#int start_frame 112;
+		#int end_frame 127;
+		#float animation_time 1;
+		#point frame_size 32, 32;
+		#string texname "bee_fly.tga";
+	}
+	@animation
+	{
+		#string name "bee_walk6";
+		#int start_frame 0;
+		#int end_frame 15;
+		#float animation_time 1;
+		#point frame_size 32, 32;
+		#string texname "bee_fly.tga";
+	}
+	@animation
+	{
+		#string name "bee_walk7";
+		#int start_frame 16;
+		#int end_frame 31;
+		#float animation_time 1;
+		#point frame_size 32, 32;
+		#string texname "bee_fly.tga";
+	}
+//--------------------------------------------------------------------------//
+//стоит																		//
+//--------------------------------------------------------------------------//
+	@animation
+	{
+		#string name "hero_idle1";
+		#int start_frame 32;
+		#int end_frame 39;
+		#float animation_time 1;
+		#point frame_size 141, 157;
+		#string texname "heroine_sprite8.tga";
+	}
+//--------------------------------------------------------------------------//
+//стоит																		//
+//--------------------------------------------------------------------------//
+	@animation
+	{
+		#string name "hero_idle2";
+		#int start_frame 0;
+		#int end_frame 31;
+		#float animation_time 4.5;
+		#point frame_size 96, 157;
+		#point delta_pos -7, 9;
+		#string texname "heroine_sprite9.tga";
+	}
+//--------------------------------------------------------------------------//
+//идет																		//
+//--------------------------------------------------------------------------//
+	@animation
+	{
+		#string name "hero_walk0";
+		#int start_frame 32;
+		#int end_frame 39;
+		#float animation_time 0.75;
+		#point frame_size 102, 138;
+		#string texname "heroine_sprite3.tga";
+	}
+	@animation
+	{
+		#string name "hero_walk1";
+		#int start_frame 24;
+		#int end_frame 31;
+		#float animation_time 0.75;
+		#point frame_size 102, 138;
+		#string texname "heroine_sprite3.tga";
+	}
+	@animation
+	{
+		#string name "hero_walk2";
+		#int start_frame 48;
+		#int end_frame 55;
+		#float animation_time 0.75;
+		#point frame_size 65, 138;
+		#string texname "heroine_sprite5.tga";
+	}
+	@animation
+	{
+		#string name "hero_walk3";
+		#int start_frame 16;
+		#int end_frame 23;
+		#float animation_time 0.75;
+		#point frame_size 102, 138;
+		#string texname "heroine_sprite3.tga";
+	}
+	@animation
+	{
+		#string name "hero_walk4";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 0.75;
+		#point frame_size 102, 138;
+		#string texname "heroine_sprite3.tga";
+	}
+	@animation
+	{
+		#string name "hero_walk5";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 0.75;
+		#point frame_size 102, 138;
+		#string texname "heroine_sprite3.tga";
+	}
+	@animation
+	{
+		#string name "hero_walk6";
+		#int start_frame 40;
+		#int end_frame 47;
+		#float animation_time 0.75;
+		#point frame_size 65, 138;
+		#string texname "heroine_sprite5.tga";
+	}
+	@animation
+	{
+		#string name "hero_walk7";
+		#int start_frame 40;
+		#int end_frame 47;
+		#float animation_time 0.75;
+		#point frame_size 102, 138;
+		#string texname "heroine_sprite3.tga";
+	}
+//--------------------------------------------------------------------------//
+//стоит с лейкой															//
+//--------------------------------------------------------------------------//
+	@animation
+	{
+		#string name "hero_idle_watercan";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 1;
+		#point delta_pos -11, 1;
+		#point frame_size 106, 158;
+		#string texname "heroine_sprite1.tga";
+	}
+//--------------------------------------------------------------------------//
+//носит лейку																//
+//--------------------------------------------------------------------------//
+	@animation
+	{
+		#string name "hero_carry_watercan0";
+		#int start_frame 56;
+		#int end_frame 63;
+		#float animation_time 0.75;
+		#point frame_size 99, 137;
+		#string texname "heroine_sprite6.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_watercan1";
+		#int start_frame 48;
+		#int end_frame 55;
+		#float animation_time 0.75;
+		#point frame_size 99, 137;
+		#string texname "heroine_sprite6.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_watercan2";
+		#int start_frame 48;
+		#int end_frame 55;
+		#float animation_time 0.75;
+		#point frame_size 89, 138;
+		#string texname "heroine_sprite7.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_watercan3";
+		#int start_frame 40;
+		#int end_frame 47;
+		#float animation_time 0.75;
+		#point frame_size 89, 138;
+		#string texname "heroine_sprite7.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_watercan4";
+		#int start_frame 40;
+		#int end_frame 47;
+		#float animation_time 0.75;
+		#point frame_size 99, 137;
+		#string texname "heroine_sprite6.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_watercan5";
+		#int start_frame 32;
+		#int end_frame 39;
+		#float animation_time 0.75;
+		#point frame_size 99, 137;
+		#string texname "heroine_sprite6.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_watercan6";
+		#int start_frame 32;
+		#int end_frame 39;
+		#float animation_time 0.75;
+		#point frame_size 89, 138;
+		#string texname "heroine_sprite7.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_watercan7";
+		#int start_frame 56;
+		#int end_frame 63;
+		#float animation_time 0.75;
+		#point frame_size 89, 138;
+		#string texname "heroine_sprite7.tga";
+	}
+//--------------------------------------------------------------------------//
+//стоит с семенами															//
+//--------------------------------------------------------------------------//
+	@animation
+	{
+		#string name "hero_idle_seed";
+		#int start_frame 96;
+		#int end_frame 103;
+		#float animation_time 1;
+		#point frame_size 65, 138;
+		#point delta_pos 5, -1;
+		#string texname "heroine_sprite5.tga";
+	}
+//--------------------------------------------------------------------------//
+//носит семена																//
+//--------------------------------------------------------------------------//
+	@animation
+	{
+		#string name "hero_carry_seed0";
+		#int start_frame 64;
+		#int end_frame 71;
+		#float animation_time 0.75;
+		#point frame_size 93, 137;
+		#string texname "heroine_sprite4.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_seed1";
+		#int start_frame 56;
+		#int end_frame 63;
+		#float animation_time 0.75;
+		#point frame_size 93, 137;
+		#string texname "heroine_sprite4.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_seed2";
+		#int start_frame 80;
+		#int end_frame 87;
+		#float animation_time 0.75;
+		#point frame_size 65, 138;
+		#string texname "heroine_sprite5.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_seed3";
+		#int start_frame 48;
+		#int end_frame 55;
+		#float animation_time 0.75;
+		#point frame_size 93, 137;
+		#string texname "heroine_sprite4.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_seed4";
+		#int start_frame 40;
+		#int end_frame 47;
+		#float animation_time 0.75;
+		#point frame_size 93, 137;
+		#string texname "heroine_sprite4.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_seed5";
+		#int start_frame 32;
+		#int end_frame 39;
+		#float animation_time 0.75;
+		#point frame_size 93, 137;
+		#string texname "heroine_sprite4.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_seed6";
+		#int start_frame 72;
+		#int end_frame 79;
+		#float animation_time 0.75;
+		#point frame_size 65, 138;
+		#string texname "heroine_sprite5.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_seed7";
+		#int start_frame 64;
+		#int end_frame 71;
+		#float animation_time 0.75;
+		#point frame_size 89, 138;
+		#string texname "heroine_sprite7.tga";
+	}
+//--------------------------------------------------------------------------//
+//стоит с коробкой															//
+//--------------------------------------------------------------------------//
+	@animation
+	{
+		#string name "hero_idle_box";
+		#int start_frame 88;
+		#int end_frame 95;
+		#float animation_time 1;
+		#point frame_size 65, 138;
+		#string texname "heroine_sprite5.tga";
+	}
+//--------------------------------------------------------------------------//
+//носит коробку																//
+//--------------------------------------------------------------------------//
+	@animation
+	{
+		#string name "hero_carry_box0";
+		#int start_frame 16;
+		#int end_frame 23;
+		#float animation_time 0.75;
+		#point frame_size 93, 137;
+		#string texname "heroine_sprite4.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_box1";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 0.75;
+		#point frame_size 93, 137;
+		#string texname "heroine_sprite4.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_box2";
+		#int start_frame 64;
+		#int end_frame 71;
+		#float animation_time 0.75;
+		#point frame_size 65, 138;
+		#string texname "heroine_sprite5.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_box3";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 0.75;
+		#point frame_size 93, 137;
+		#string texname "heroine_sprite4.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_box4";
+		#int start_frame 56;
+		#int end_frame 63;
+		#float animation_time 0.75;
+		#point frame_size 102, 138;
+		#string texname "heroine_sprite3.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_box5";
+		#int start_frame 48;
+		#int end_frame 55;
+		#float animation_time 0.75;
+		#point frame_size 102, 138;
+		#string texname "heroine_sprite3.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_box6";
+		#int start_frame 56;
+		#int end_frame 63;
+		#float animation_time 0.75;
+		#point frame_size 65, 138;
+		#string texname "heroine_sprite5.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_box7";
+		#int start_frame 24;
+		#int end_frame 31;
+		#float animation_time 0.75;
+		#point frame_size 93, 137;
+		#string texname "heroine_sprite4.tga";
+	}
+//--------------------------------------------------------------------------//
+//стоит с большой лейкой													//
+//--------------------------------------------------------------------------//
+	@animation
+	{
+		#string name "hero_idle_big_watercan";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 1;
+		#point frame_size 106, 158;
+		#point delta_pos -6, 0;
+		#string texname "heroine_sprite1.tga";
+	}
+//--------------------------------------------------------------------------//
+//носит большую лейку														//
+//--------------------------------------------------------------------------//
+	@animation
+	{
+		#string name "hero_carry_big_watercan0";
+		#int start_frame 24;
+		#int end_frame 31;
+		#float animation_time 0.75;
+		#point frame_size 99, 137;
+		#string texname "heroine_sprite6.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_big_watercan1";
+		#int start_frame 16;
+		#int end_frame 23;
+		#float animation_time 0.75;
+		#point frame_size 99, 137;
+		#string texname "heroine_sprite6.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_big_watercan2";
+		#int start_frame 16;
+		#int end_frame 23;
+		#float animation_time 0.75;
+		#point frame_size 89, 138;
+		#string texname "heroine_sprite7.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_big_watercan3";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 0.75;
+		#point frame_size 89, 138;
+		#string texname "heroine_sprite7.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_big_watercan4";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 0.75;
+		#point frame_size 99, 137;
+		#string texname "heroine_sprite6.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_big_watercan5";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 0.75;
+		#point frame_size 99, 137;
+		#string texname "heroine_sprite6.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_big_watercan6";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 0.75;
+		#point frame_size 89, 138;
+		#string texname "heroine_sprite7.tga";
+	}
+	@animation
+	{
+		#string name "hero_carry_big_watercan7";
+		#int start_frame 24;
+		#int end_frame 31;
+		#float animation_time 0.75;
+		#point frame_size 89, 138;
+		#string texname "heroine_sprite7.tga";
+	}
+	@animation
+	{
+		#string name "hero_harvest1";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 0.75;
+		#point frame_size 91, 108;
+		#point delta_pos 0, -16;
+		#string texname "heroine_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "hero_harvest2";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 0.75;
+		#point frame_size 91, 108;
+		#point delta_pos 0, -16;
+		#string texname "heroine_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "hero_harvest3";
+		#int start_frame 16;
+		#int end_frame 23;
+		#float animation_time 0.75;
+		#point frame_size 91, 108;
+		#point delta_pos 0, -16;
+		#string texname "heroine_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "hero_harvest4";
+		#int start_frame 24;
+		#int end_frame 31;
+		#float animation_time 0.75;
+		#point frame_size 91, 108;
+		#point delta_pos 0, -16;
+		#string texname "heroine_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "hero_dug";
+		#int start_frame 44;
+		#int end_frame 51;
+		#float animation_time 0.75;
+		#point frame_size 106, 158;
+		#string texname "heroine_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "hero_sow1";
+		#int start_frame 36;
+		#int end_frame 43;
+		#float animation_time 0.75;
+		#point frame_size 106, 158;
+		#point delta_pos -1, -1;
+		#string texname "heroine_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "hero_sow2";
+		#int start_frame 32;
+		#int end_frame 39;
+		#float animation_time 0.75;
+		#point frame_size 91, 108;
+		#point delta_pos 0, -15;
+		#string texname "heroine_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "hero_use1";
+		#int start_frame 16;
+		#int end_frame 23;
+		#float animation_time 0.5;
+		#point frame_size 65, 138;
+		#point delta_pos 0, 0;
+		#string texname "heroine_sprite5.tga";
+	}
+	@animation
+	{
+		#string name "hero_fill_watercan";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 1;
+		#point frame_size 151, 128;
+		#point delta_pos 45, 0;
+		#string texname "heroine_sprite2.tga";
+	}
+	@animation
+	{
+		#string name "hero_water1";
+		#int start_frame 0;
+		#int end_frame 15;
+		#float animation_time 1.5;
+		#point frame_size 141, 157;
+		#point delta_pos 12, -11;
+		#string texname "heroine_sprite8.tga";
+	}
+	@animation
+	{
+		#string name "hero_water2";
+		#int start_frame 16;
+		#int end_frame 31;
+		#float animation_time 1.5;
+		#point frame_size 141, 157;
+		#point delta_pos 14, -6;
+		#string texname "heroine_sprite8.tga";
+	}
+	@animation
+	{
+		#string name "hero_take_box1";
+		#int start_frame 36;
+		#int end_frame 39;
+		#float animation_time 0.5;
+		#point frame_size 96, 157;
+		#point key_point -18, 28;
+		#point key_point -18, 28;
+		#point key_point -18, 28;
+		#point key_point -14, 52;
+		#string texname "heroine_sprite9.tga";
+	}
+	@animation
+	{
+		#string name "hero_take_box2";
+		#int start_frame 40;
+		#int end_frame 43;
+		#float animation_time 0.5;
+		#point frame_size 96, 157;
+		#string texname "heroine_sprite9.tga";
+	}
+	@animation
+	{
+		#string name "hero_take_seed";
+		#int start_frame 44;
+		#int end_frame 47;
+		#float animation_time 0.5;
+		#point frame_size 96, 157;
+		#point delta_pos 7, -4;
+		#string texname "heroine_sprite9.tga";
+	}
+	@animation
+	{
+		#string name "hero_take_watercan1";
+		#int start_frame 48;
+		#int end_frame 51;
+		#float animation_time 0.5;
+		#point frame_size 96, 157;
+		#point delta_pos -3, 0;
+		#string texname "heroine_sprite9.tga";
+	}
+	@animation
+	{
+		#string name "hero_take_watercan2";
+		#int start_frame 52;
+		#int end_frame 55;
+		#float animation_time 0.5;
+		#point frame_size 96, 157;
+		#point delta_pos -3, 0;
+		#string texname "heroine_sprite9.tga";
+	}
+	@animation
+	{
+		#string name "hero_put_box1";
+		#int start_frame 20;
+		#int end_frame 23;
+		#float animation_time 0.5;
+		#point frame_size 106, 158;
+		#point key_point -6, 76;
+		#point key_point -12, 52;
+		#point key_point -16, 28;
+		#point key_point -16, 28;
+		#string texname "heroine_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "hero_put_box2";
+		#int start_frame 24;
+		#int end_frame 27;
+		#float animation_time 0.5;
+		#point frame_size 106, 158;
+		#string texname "heroine_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "hero_put_seed";
+		#int start_frame 32;
+		#int end_frame 35;
+		#float animation_time 0.5;
+		#point frame_size 96, 157;
+		#point delta_pos 4, -4;
+		#string texname "heroine_sprite9.tga";
+	}
+	@animation
+	{
+		#string name "hero_put_watercan1";
+		#int start_frame 28;
+		#int end_frame 31;
+		#float animation_time 0.5;
+		#point frame_size 106, 158;
+		#point delta_pos 2, 0;
+		#string texname "heroine_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "hero_put_watercan2";
+		#int start_frame 32;
+		#int end_frame 35;
+		#float animation_time 0.5;
+		#point frame_size 106, 158;
+		#point delta_pos -3, 0;
+		#string texname "heroine_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "harvester_idle1";
+		#int start_frame 48;
+		#int end_frame 55;
+		#float animation_time 1;
+		#point frame_size 102, 151;
+		#string texname "harvester_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "harvester_idle2";
+		#int start_frame 32;
+		#int end_frame 47;
+		#float animation_time 2;
+		#point delta_pos 2, -1;
+		#point frame_size 109, 150;
+		#string texname "harvester_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "harvester_walk0";
+		#int start_frame 40;
+		#int end_frame 47;
+		#float animation_time 0.75;
+		#point frame_size 102, 151;
+		#string texname "harvester_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "harvester_walk1";
+		#int start_frame 32;
+		#int end_frame 39;
+		#float animation_time 0.75;
+		#point frame_size 102, 151;
+		#string texname "harvester_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "harvester_walk2";
+		#int start_frame 24;
+		#int end_frame 31;
+		#float animation_time 0.75;
+		#point frame_size 102, 151;
+		#string texname "harvester_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "harvester_walk3";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 0.75;
+		#point frame_size 109, 150;
+		#string texname "harvester_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "harvester_walk4";
+		#int start_frame 16;
+		#int end_frame 23;
+		#float animation_time 0.75;
+		#point frame_size 102, 151;
+		#string texname "harvester_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "harvester_walk5";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 0.75;
+		#point frame_size 102, 151;
+		#string texname "harvester_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "harvester_walk6";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 0.75;
+		#point frame_size 102, 151;
+		#string texname "harvester_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "harvester_walk7";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 0.75;
+		#point frame_size 109, 150;
+		#string texname "harvester_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "harvester_empty";
+		#int start_frame 16;
+		#int end_frame 31;
+		#float animation_time 1.5;
+		#point delta_pos 16, 0;
+		#point frame_size 109, 150;
+		#string texname "harvester_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "harvester_harvest1";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 0.75;
+		#point delta_pos 1, -22;
+		#point frame_size 98, 116;
+		#string texname "harvester_sprite2.tga";
+	}
+	@animation
+	{
+		#string name "helper_idle1";
+		#int start_frame 48;
+		#int end_frame 55;
+		#float animation_time 1;
+		#point frame_size 95, 155;
+		#string texname "helper_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "helper_idle2";
+		#int start_frame 16;
+		#int end_frame 31;
+		#float animation_time 2;
+		#point frame_size 108, 154;
+		#point delta_pos 3.5, 2.5;
+		#string texname "helper_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "helper_work";
+		#int start_frame 32;
+		#int end_frame 39;
+		#float animation_time 1;
+		#point frame_size 108, 154;
+		#string texname "helper_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "helper_walk0";
+		#int start_frame 40;
+		#int end_frame 47;
+		#float animation_time 0.75;
+		#point frame_size 95, 155;
+		#string texname "helper_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "helper_walk1";
+		#int start_frame 32;
+		#int end_frame 39;
+		#float animation_time 0.75;
+		#point frame_size 95, 155;
+		#string texname "helper_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "helper_walk2";
+		#int start_frame 24;
+		#int end_frame 31;
+		#float animation_time 0.75;
+		#point frame_size 95, 155;
+		#string texname "helper_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "helper_walk3";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 0.75;
+		#point frame_size 108, 154;
+		#string texname "helper_sprite1.tga";
+	}
+	@animation
+	{
+		#string name "helper_walk4";
+		#int start_frame 16;
+		#int end_frame 23;
+		#float animation_time 0.75;
+		#point frame_size 95, 155;
+		#string texname "helper_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "helper_walk5";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 0.75;
+		#point frame_size 95, 155;
+		#string texname "helper_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "helper_walk6";
+		#int start_frame 0;
+		#int end_frame 7;
+		#float animation_time 0.75;
+		#point frame_size 95, 155;
+		#string texname "helper_sprite0.tga";
+	}
+	@animation
+	{
+		#string name "helper_walk7";
+		#int start_frame 8;
+		#int end_frame 15;
+		#float animation_time 0.75;
+		#point frame_size 108, 154;
+		#string texname "helper_sprite1.tga";
+	}
+}
+
+>>
+

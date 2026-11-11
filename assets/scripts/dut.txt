@@ -1,0 +1,1070 @@
+<<
+	
+	begin_lower_char = a
+	end_lower_char = z
+	begin_upper_char = A
+	end_upper_char = Z
+	start = Start
+	freemode = Test
+	options = Opties
+	trophyroom = Prijzen
+	change_player = Andere speler
+	credits = Credits
+	help = Hulp
+	exit = Afsluiten
+	back = Terug
+	loading = Laden
+
+	musics = Muziek
+	fullscreen = Beeldvullend
+	windowed = Venster
+	vsync = V-sync
+	
+	new_profile = Nieuwe speler
+	delete_profile = Speler wissen
+
+	music_on = MUZIEK AAN
+	music_off = MUZIEK UIT
+	sound_on = EFFECTEN AAN
+	sound_off = EFFECTEN UIT
+	cursor_on = Spelcursor aan
+	cursor_off = Spelcursor uit
+	
+	set_volume = Volume
+	sound_volume = VOLUME EFFECTEN
+	music_volume = VOLUME MUZIEK
+
+	languages = Taal kiezen
+	lang_rus = Русский
+	lang_eng = English
+	lang_fra = Français
+	lang_ita = Italiano
+	lang_por = Inglês
+	lang_dut = Nederlands
+	lang_swe = Svenska
+	lang_deu = Deutsch
+	lang_esp = Español
+	lang_jap = Japanese
+	lang_kor = Korean
+	lang_chn = Chinese
+
+	change_player_label = (Andere speler)
+	ok = OK
+	cancel = TERUG
+	yes = JA
+	no = NEE
+	game_saved = Spel opgeslagen!
+	game_loaded = Klaar met laden.
+	question_save_game = Huidige spel opslaan?
+	question_load_game = Eerder opgeslagen spel laden?
+	question_exit_game = Weet je zeker dat je wilt stoppen?
+	question_replay_game = Weet je zeker dat je dit level opnieuw wilt spelen?
+	question_end_game = Weet je zeker dat je naar het hoofdmenu wilt gaan?
+	question_saveandexit_game = Dit spel opslaan voordat je afsluit?
+	cheatmodeon = Cheatstand geactiveerd!
+	cheatmodeoff = Cheatstand uitgeschakeld!
+	tasks = Opdrachten
+	mainmenu = Menu
+	continue = Doorgaan
+	restart = Opnieuw spelen
+	exitgame = Stoppen
+	profit_hint = Je hebt % munten verdiend.
+	current_task = Huidige opdracht
+	click_to_continue = DOORGAAN
+	patent_buy_confirm = Weet je zeker dat je dit wilt bestellen?
+	notify_you_cant_place = Dat kun je daar niet neerzetten!
+	notify_you_cant_gowhere = Daar kun je niet heen!
+	
+	wombat = Wombat
+	
+	control_help_1 = Met de linkermuisknop bestuur je de personages en met de rechtermuisknop annuleer je de opdrachten. Met de pijltoetsen beweeg je de camera over het veld.
+	control_help_2 = Met een enkele klik voer je basisfuncties uit. Met een dubbelklik spit je de aarde om, of zet je een voorwerp neer.
+	
+	text_enter_name = Vul je naam in
+	welcome_message = Welkom,
+
+	dig_squares = Spit de aarde om
+	water_plants = Geef de planten water
+
+	level1_name = Training
+	level2_name = Je eerste boerderij
+	level3_name = Grondige aanpak
+	level4_name = Geldboom in de tuin
+	level5_name = Zeg het met bloemen
+	level6_name = Bezige bij
+	level7_name = De boerenmarkt
+	level8_name = Leveranciers
+	level9_name = Geld, geld, geld
+	level10_name = Droogte
+	level11_name = Je droomboerderij
+	level12_name = Zaken doen
+	
+	trophy_announce_header = Je hebt een prijs gewonnen!
+	
+	trophy_hint0 = Je hebt de koekoeksklok gewonnen vanwege je uitmuntende werk in het trainingslevel.
+	trophy_hint1 = Je hebt het Boerenspaarvarken gewonnen omdat geld sparen de weg naar rijkdom is.
+	trophy_hint2 = Je hebt het beeldje 'Tijd voor de varkens' gewonnen omdat je de varkens hebt gered door je 'Grondige aanpak'.
+	trophy_hint3 = Deze palmboom is een cadeau van de dorpelingen omdat je hun huizen hebt behoed voor de enorme fabrieksventilator.
+	trophy_hint4 = Je hebt de gouden florakweekmedaille gewonnen vanwege je uitmuntende werk in de bloemenhandel.
+	trophy_hint5 = Je hebt de Bezige bij-trofee gewonnen omdat je de oude bijenhoudertradities in ere hebt hersteld.
+	trophy_hint6 = De Grote Prijs van de boerenmarkt.
+	trophy_hint7 = Je hebt het Standbeeld voor boerenvrijheid gewonnen omdat je je onafhankelijkheid hebt behouden in een bedreigende situatie. Liberté, l'agriculture, fraternité.
+	trophy_hint8 = Het bankafschrift is je mooiste prijs tot nu toe. De boeren hebben je getrakteerd op ijs!
+	trophy_hint9 = Je hebt de Zilveren Gieter gewonnen omdat je de boerderij hebt gered van de droogte.
+	trophy_hint10 = Je hebt de Gouden Aar gewonnen omdat je de boerderij van de toekomst hebt opgebouwd!
+	trophy_hint11 = Een certificaat dat verklaart dat jij de beste leverancier bent. Je hebt de opdracht binnen!
+	trophy_hint12 = De trofee voor de beste boer in de landbouwhistorie.
+	
+	level_not_finished = Je hebt dit level niet gehaald.
+    level_completed = Level voltooid
+    level_completed_with_trophy = Prijzenswaardig werk!
+    level_time = Tijd
+    level_money = Geld
+    best_time = Recordtijd:
+    best_money = Recordwinst:
+
+	inventory_form = MATERIAAL
+	buildings_form = GEBOUWEN
+	seeds_form = ZADEN
+	sprouts_form = PLANTEN
+	trees_form = BOMEN
+	workers_form = PERSONEEL
+
+	aubergine = Aubergines
+	beetroot = Bieten
+	cabbage = Kool
+	carrot = Wortelen
+	corn = Maïs
+	cucumber = Komkommers
+	dahlia = Dahlia's
+	mushroom = Paddenstoelen
+	pepper = Paprika's
+	pumpkin = Pompoenen
+	radish = Radijsjes
+	strawberries = Aardbeien
+	sunflower = Zonnebloemen
+	tomato = Tomaten
+	tulip = Tulpen
+	watermelon = Watermeloenen
+	
+	task_separator = te
+	task_sow = planten
+	task_sell = verkopen
+	task_fertilize = bemesten
+	task_buy = kopen
+	
+	water_sprinkler = Watersproeiers
+	time = Tijd
+	
+	tree_desert_apple = Appelbomen
+	tree_desert_cherry = Kersenbomen
+	tree_desert_palm = Bananenbomen
+	tree_desert_plum = Pruimenbomen
+	tree_grass_apple = Appelbomen
+	tree_grass_cherry = Kersenbomen
+	tree_grass_palm = Bananenbomen
+	tree_grass_plum = Pruimenbomen
+	tree_swamp_apple = Appelbomen
+	tree_swamp_cherry = Kersenbomen
+	tree_swamp_palm = Bananenbomen
+	tree_swamp_plum = Pruimenbomen
+	
+	house_chicken_product = Eieren
+	house_cow_product = Melk
+	house_pig_product = Biggen
+	house_sheep_product = Wol
+	beehive_product = Honing
+	
+	tree_desert_apple_product = Appels
+	tree_desert_cherry_product = Kersen
+	tree_desert_palm_product = Bananen
+	tree_desert_plum_product = Pruimen
+	tree_grass_apple_product = Appels
+	tree_grass_cherry_product = Kersen
+	tree_grass_palm_product = Bananen
+	tree_grass_plum_product = Pruimen
+	tree_swamp_apple_product = Appels
+	tree_swamp_cherry_product = Kersen
+	tree_swamp_palm_product = Bananen
+	tree_swamp_plum_product = Pruimen
+	
+	house_chicken = Kippenrennen
+	house_cow = Koeienstallen
+	house_pig = Varkenshokken
+	house_sheep = Schaapskooien
+	hangar_refrigerator = Koelpakhuizen
+	hangar_flowers = Broeikassen
+	beehive = Bijenkorven
+	
+	helper = Tuinmannen
+	harvester = Groente- en fruitplukkers
+	
+	patent_for_tulip = Bestellingen voor tulpenbollen
+	patent_for_dahlia = Bestellingen voor dahliabollen
+	patent_for_sunflower = Bestellingen voor zonnebloemzaad
+	patent_for_cucumber = Bestellingen voor komkommerstekjes
+	patent_for_tomato = Bestellingen voor tomatenstekjes
+	patent_for_aubergine = Bestellingen voor auberginestekjes
+	patent_for_pepper = Bestellingen voor paprikastekjes
+	patent_for_watermelon = Bestellingen voor watermeloenzaad
+	patent_for_hangar_flowers = Bouwvergunningen voor broeikassen
+	patent_for_beehive = Bijenhoudervergunningen
+	patent_for_cabbage = Bestellingen voor koolzaad
+	patent_for_beetroot = Bestellingen voor bietenzaad
+	patent_for_house_pig = Bouwvergunningen voor varkenshokken
+	patent_for_carrot = Bestellingen voor wortelzaad
+	patent_for_corn = Bestellingen voor maïszaad
+	patent_for_hangar_vegetables = Bouwvergunningen voor schuren
+	patent_for_mushroom = Bestellingen voor paddenstoelsporen
+	patent_for_pumpkin = Bestellingen voor pompoenzaad
+	patent_for_strawberries = Bestellingen voor aardbeistekjes
+	patent_for_hangar_refrigerator = Bouwvergunningen voor koelpakhuizen
+	patent_for_house_sheep = Schapenfokvergunningen
+	patent_for_house_chicken = Kippenhouderijvergunningen
+	patent_for_house_cow = Melkveehouderijvergunningen
+	patent_for_radish = Bestellingen voor radijszaad
+	
+	plant_aubergine = Aubergines
+	plant_beetroot = Bieten
+	plant_cabbage = Kool
+	plant_carrot = Wortelen
+	plant_corn = Maïs
+	plant_cucumber = Komkommers
+	plant_dahlia = Dahlia's
+	plant_mushroom = Paddenstoelen
+	plant_pepper = Paprika's
+	plant_pumpkin = Pompoenen
+	plant_radish = Radijsjes
+	plant_strawberries = Aardbeien
+	plant_sunflower = Zonnebloemen
+	plant_tomato = Tomaten
+	plant_tulip = Tulpen
+	plant_watermelon = Watermeloenen
+	
+	money = Geld
+
+	cost_goods = Een krat van dit product levert %i munten op.
+	cost_work = Het salaris van een boerenknecht bedraagt %i munten.
+
+	box_shop_hint = Een krat om je oogst in te verzamelen.
+	fivebox_shop_hint = Een stapel van 5 kratten
+	tenbox_shop_hint = Een stapel van 10 kratten
+
+	spade_shop_hint = Een sterke tuinschep
+	watercan_shop_hint = Een kleine gieter
+	big_watercan_shop_hint = Een grote gieter
+
+	destructor_shop_hint = Dit gereedschap gebruik je om onkruid te wieden of een bestaand groenteperkje om te spitten.
+	transporter_shop_hint = Met de kraan kun je gebouwen op je boerderij verplaatsen.
+	
+	hangar_vegetables_shop_hint = In schuren kun je houdbaar fruit en houdbare groente opslaan.
+	hangar_flowers_shop_hint = In broeikassen kun je bloemen opslaan.
+	hangar_refrigerator_shop_hint = In koelpakhuizen kun je bederfelijke goederen opslaan.
+
+	beehive_shop_hint = In bijenkorven kun je bijen houden, zodat je heerlijke honing kunt verkopen.
+	house_sheep_shop_hint = In schaapskooien kun je schapen houden, zodat je wol kunt verkopen.
+	house_pig_shop_hint = In varkenshokken kun je biggen fokken.
+	house_cow_shop_hint = In koeienstallen kun je melkkoeien houden, zodat je melk kunt verkopen.
+	house_chicken_shop_hint = In kippenrennen kun je kippen houden, zodat je eieren kunt verkopen.
+	
+	
+	waterpump_shop_hint = Als je ver moet lopen om water te halen, kun je misschien beter een extra put boren.
+	water_sprinkler_shop_hint = Sproeiers zijn onmisbaar op een grote boerderij.
+	fertilizer_shop_hint = Een kleine zak kunstmest.
+	big_fertilizer_shop_hint = Een grote zak kunstmest.
+	
+	tree_desert_palm_shop_hint = Bananen groeien niet snel, maar ze leveren wel veel geld op.
+	tree_desert_apple_shop_hint = Appelbomen zijn niet duur en de appels groeien snel.
+	tree_desert_cherry_shop_hint = Kersenbomen zijn een beetje onvoorspelbaar, maar het fruit levert veel geld op.
+	tree_desert_plum_shop_hint = Het fruit van pruimenbomen rijpt snel en verkoopt goed.
+	
+	tree_swamp_palm_shop_hint = Bananen groeien niet snel, maar ze leveren wel veel geld op.
+	tree_swamp_apple_shop_hint = Appelbomen zijn niet duur en de appels groeien snel.
+	tree_swamp_cherry_shop_hint = Kersenbomen zijn een beetje onvoorspelbaar, maar het fruit levert veel geld op.
+	tree_swamp_plum_shop_hint = Het fruit van pruimenbomen rijpt snel en verkoopt goed.
+
+	tree_grass_palm_shop_hint = Bananen groeien niet snel, maar ze leveren wel veel geld op.
+	tree_grass_apple_shop_hint = Appelbomen zijn niet duur en de appels groeien snel.
+	tree_grass_cherry_shop_hint = Kersenbomen zijn een beetje onvoorspelbaar, maar het fruit levert veel geld op.
+	tree_grass_plum_shop_hint = Het fruit van pruimenbomen rijpt snel en verkoopt goed.
+	
+	harvester_shop_hint = Groente- en fruitplukkers zijn betaalde hulpjes die fruit en groente oogsten.
+	helper_shop_hint = Tuinmannen zijn betaalde hulpjes die je planten bemesten.
+	
+	aubergine_shop_hint = Een zak auberginestekjes.
+	beetroot_shop_hint = Een zak bietenzaad.
+	cabbage_shop_hint = Een zak koolzaad.
+	carrot_shop_hint = Een zak wortelzaad.
+	corn_shop_hint = Een zak maïszaad.
+	cucumber_shop_hint = Een zak komkommerstekjes.
+	dahlia_shop_hint = Een zak dahliabollen.
+	mushroom_shop_hint = Een zak paddenstoelsporen.
+	pepper_shop_hint = Een zak paprikastekjes.
+	pumpkin_shop_hint = Een zak pompoenzaad.
+	radish_shop_hint = Een zak radijszaad.
+	strawberries_shop_hint = Een zak aardbeistekjes.
+	sunflower_shop_hint = Een zak zonnebloemzaad.
+	tomato_shop_hint = Een zak tomatenstekjes.
+	tulip_shop_hint = Een zak tulpenbollen.
+	watermelon_shop_hint = Een zak watermeloenzaad.
+	
+	patent_for_tulip_shop_hint = Bestel tulpenbollen. Zodra ze binnen zijn, kun je de tulpenbollen in de winkel kopen.
+	patent_for_dahlia_shop_hint = Bestel dahliabollen. Zodra ze binnen zijn, kun je de dahliabollen in de winkel kopen.
+	patent_for_sunflower_shop_hint = Bestel zonnebloemzaad. Zodra het binnen is, kun je het zonnebloemzaad in de winkel kopen.
+	patent_for_cucumber_shop_hint = Bestel komkommerstekjes. Zodra ze binnen zijn, kun je de komkommerstekjes in de winkel kopen.
+	patent_for_tomato_shop_hint = Bestel tomatenstekjes. Zodra ze binnen zijn, kun je de tomatenstekjes in de winkel kopen.
+	patent_for_aubergine_shop_hint = Bestel auberginestekjes. Zodra ze binnen zijn, kun je de auberginestekjes in de winkel kopen.
+	patent_for_pepper_shop_hint = Bestel paprikastekjes. Zodra ze binnen zijn, kun je de paprikastekjes in de winkel kopen.
+	patent_for_watermelon_shop_hint = Bestel watermeloenzaad. Zodra het binnen is, kun je het watermeloenzaad in de winkel kopen.
+	patent_for_hangar_flowers_shop_hint = Koop een florakweekvergunning en een bouwvergunning om een broeikas te bouwen. Met een florakweekvergunning kun je bloemen kweken en verkopen.
+	patent_for_beehive_shop_hint = Koop een bijenhoudervergunning. Met deze vergunning kun je honing maken en verkopen. 
+	patent_for_beetroot_shop_hint = Bestel bietenzaad. Zodra het binnen is, kun je het bietenzaad in de winkel kopen.
+	patent_for_cabbage_shop_hint = Bestel koolzaad. Zodra het binnen is, kun je het koolzaad in de winkel kopen.
+	patent_for_carrot_shop_hint = Bestel wortelzaad. Zodra het binnen is, kun je het wortelzaad in de winkel kopen.
+	patent_for_corn_shop_hint = Bestel maïszaad. Zodra het binnen is, kun je het maïszaad in de winkel kopen.
+	patent_for_hangar_refrigerator_shop_hint = Koop een bouwvergunning om een koelpakhuis te bouwen en een vergunning om hem te runnen.
+	patent_for_hangar_vegetables_shop_hint = Koop een bouwvergunning voor een schuur. Met deze vergunning kun je nog een schuur bouwen op een betere plek op de boerderij.
+	patent_for_house_chicken_shop_hint = Koop een kippenhouderijvergunning. Met deze vergunning kun je kippen houden en eieren verkopen.
+	patent_for_house_cow_shop_hint = Koop een melkveehouderijvergunning. Met deze vergunning kun je koeien houden en melk verkopen.
+	patent_for_house_pig_shop_hint = Koop een varkenshouderijvergunning. Met deze vergunning kun je varkens fokken en verkopen.
+	patent_for_house_sheep_shop_hint = Koop een schapenhouderijvergunning. Met deze vergunning kun je schapen houden en de wol verkopen.
+	patent_for_mushroom_shop_hint = Bestel paddenstoelsporen. Zodra ze binnen zijn, kun je de paddenstoelsporen in de winkel kopen.
+	patent_for_pumpkin_shop_hint = Bestel pompoenzaad. Zodra het binnen is, kun je het pompoenzaad in de winkel kopen.
+	patent_for_radish_shop_hint = Bestel radijszaad. Zodra het binnen is, kun je het radijszaad in de winkel kopen.
+	patent_for_strawberries_shop_hint = Bestel aardbeistekjes. Zodra ze binnen zijn, kun je de aardbeistekjes in de winkel kopen.
+	
+	notify_add_shop_harvester = Je kunt nu een groente- en fruitplukker huren om je te helpen oogsten.
+	notify_add_shop_helper = Je kunt nu een tuinman huren om je te helpen met water geven en bemesten.
+	notify_add_shop_box = Er zijn nu kratten verkrijgbaar in de winkel.
+	notify_add_shop_fivebox = Er zijn stapels van 5 kratten verkrijgbaar in de winkel.
+	notify_add_shop_tenbox = Er zijn stapels van 10 kratten verkrijgbaar in de winkel.
+	notify_add_shop_aubergine = Er zijn nu auberginestekjes verkrijgbaar in de winkel.
+	notify_add_shop_beetroot = Er is nu bietenzaad verkrijgbaar in de winkel.
+	notify_add_shop_cabbage = Er is nu koolzaad verkrijgbaar in de winkel.
+	notify_add_shop_carrot = Er is nu wortelzaad verkrijgbaar in de winkel.
+	notify_add_shop_corn = Er is nu maïszaad verkrijgbaar in de winkel.
+	notify_add_shop_cucumber = Er zijn nu komkommerstekjes verkrijgbaar in de winkel.
+	notify_add_shop_dahlia = Er zijn nu dahliabollen verkrijgbaar in de winkel.
+	notify_add_shop_mushroom = Er zijn nu paddenstoelsporen verkrijgbaar in de winkel.
+	notify_add_shop_pepper = Er zijn nu paprikastekjes verkrijgbaar in de winkel.
+	notify_add_shop_pumpkin = Er is nu pompoenzaad verkrijgbaar in de winkel.
+	notify_add_shop_radish = Er is nu radijszaad verkrijgbaar in de winkel.
+	notify_add_shop_strawberries = Er zijn nu aardbeistekjes verkrijgbaar in de winkel.
+	notify_add_shop_sunflower = Er is nu zonnebloemzaad verkrijgbaar in de winkel.
+	notify_add_shop_tomato = Er zijn nu tomatenstekjes verkrijgbaar in de winkel.
+	notify_add_shop_tulip = Er zijn nu tulpenbollen verkrijgbaar in de winkel.
+	notify_add_shop_watermelon = Er is nu watermeloenzaad verkrijgbaar in de winkel.
+	notify_add_shop_watercan = Er zijn nu gieters verkrijgbaar in de winkel.
+	notify_add_shop_big_watercan = Er zijn nu grote gieters verkrijgbaar in de winkel.
+	notify_add_shop_transporter = Je kunt nu een kraan huren bij de winkel.
+
+	notify_add_shop_beehive = Er zijn nu bijenkorven verkrijgbaar in de winkel.
+	notify_add_shop_house_sheep = Er zijn nu schapen verkrijgbaar in de winkel.
+	notify_add_shop_house_pig = Er zijn nu varkens verkrijgbaar in de winkel.
+	notify_add_shop_house_cow = Er zijn nu koeien verkrijgbaar in de winkel.
+	notify_add_shop_house_chicken = Er zijn nu kippen verkrijgbaar in de winkel.
+
+	notify_add_shop_waterpump = Er zijn nu putten met waterpompen verkrijgbaar in de winkel.
+	notify_add_shop_water_sprinkler = Er zijn nu sproeiers verkrijgbaar in de winkel.
+	notify_add_shop_fertilizer = Er is nu kunstmest verkrijgbaar in de winkel.
+	notify_add_shop_big_fertilizer = Er zijn nu grote zakken kunstmest verkrijgbaar in de winkel.
+
+	notify_add_shop_tree_grass_palm = Er zijn nu bananenstekjes verkrijgbaar in de winkel.
+	notify_add_shop_tree_grass_apple = Er zijn nu appelstekjes verkrijgbaar in de winkel.
+	notify_add_shop_tree_grass_cherry = Er zijn nu kersenstekjes verkrijgbaar in de winkel.
+	notify_add_shop_tree_grass_plum = Er zijn nu pruimenstekjes verkrijgbaar in de winkel.
+	notify_add_shop_tree_desert_palm = Er zijn nu bananenstekjes verkrijgbaar in de winkel.
+	notify_add_shop_tree_desert_apple = Er zijn nu appelstekjes verkrijgbaar in de winkel.
+	notify_add_shop_tree_desert_cherry = Er zijn nu kersenstekjes verkrijgbaar in de winkel.
+	notify_add_shop_tree_desert_plum = Er zijn nu pruimenstekjes verkrijgbaar in de winkel.
+	notify_add_shop_tree_swamp_palm = Er zijn nu bananenstekjes verkrijgbaar in de winkel.
+	notify_add_shop_tree_swamp_apple = Er zijn nu appelstekjes verkrijgbaar in de winkel.
+	notify_add_shop_tree_swamp_cherry = Er zijn nu kersenstekjes verkrijgbaar in de winkel.
+	notify_add_shop_tree_swamp_plum = Er zijn nu pruimenstekjes verkrijgbaar in de winkel.
+
+	notify_add_shop_patent_for_tulip = Je kunt nu een bestelling plaatsen bij de winkel voor tulpenbollen.
+	notify_add_shop_patent_for_dahlia = Je kunt nu een bestelling plaatsen bij de winkel voor dahliabollen.
+	notify_add_shop_patent_for_sunflower = Je kunt nu een bestelling plaatsen bij de winkel voor zonnebloemzaad.
+	notify_add_shop_patent_for_cucumber = Je kunt nu een bestelling plaatsen bij de winkel voor komkommerstekjes.
+	notify_add_shop_patent_for_tomato = Je kunt nu een bestelling plaatsen bij de winkel voor tomatenstekjes.
+	notify_add_shop_patent_for_aubergine = Je kunt nu een bestelling plaatsen bij de winkel voor auberginestekjes.
+	notify_add_shop_patent_for_pepper = Je kunt nu een bestelling plaatsen bij de winkel voor paprikastekjes.
+	notify_add_shop_patent_for_watermelon = Je kunt nu een bestelling plaatsen bij de winkel voor watermeloenzaad.
+	notify_add_shop_patent_for_hangar_flowers = Je kunt nu een bouwvergunning aanvragen en materiaal bestellen om een broeikas te bouwen.
+	notify_add_shop_patent_for_beehive = Je kunt nu een bestelling plaatsen bij de winkel voor een bijenkorf.
+	notify_add_shop_patent_for_cabbage = Je kunt nu een bestelling plaatsen bij de winkel voor koolzaad.
+	notify_add_shop_patent_for_beetroot = Je kunt nu een bestelling plaatsen bij de winkel voor bietenzaad.
+	notify_add_shop_patent_for_carrot = Je kunt nu een bestelling plaatsen bij de winkel voor wortelzaad.
+	notify_add_shop_patent_for_house_pig = Je kunt nu een bestelling plaatsen bij de winkel voor een varkenshok.
+	notify_add_shop_patent_for_corn = Je kunt nu een bestelling plaatsen bij de winkel voor maïszaad.
+	notify_add_shop_patent_for_mushroom = Je kunt nu een bestelling plaatsen bij de winkel voor paddenstoelsporen.
+	notify_add_shop_patent_for_strawberries = Je kunt nu een bestelling plaatsen bij de winkel voor aardbeistekjes.
+	notify_add_shop_patent_for_pumpkin = Je kunt nu een bestelling plaatsen bij de winkel voor pompoenzaad.
+	notify_add_shop_patent_for_radish = Je kunt nu een bestelling plaatsen bij de winkel voor radijszaad.
+	
+	notify_add_shop_hangar_vegetables = Er zijn nu schuren verkrijgbaar in de winkel.
+	notify_add_shop_hangar_flowers = Er zijn nu broeikassen verkrijgbaar in de winkel.
+	notify_add_shop_hangar_refrigerator = Er zijn nu koelpakhuizen verkrijgbaar in de winkel.
+	notify_add_shop_patent_for_house_chicken = Je kunt nu een bouwvergunning aanvragen en materiaal bestellen om een kippenren te bouwen.
+	notify_add_shop_patent_for_house_cow = Je kunt nu een bouwvergunning aanvragen en materiaal bestellen om een koeienstal te bouwen.
+	notify_add_shop_patent_for_house_pig = Je kunt nu een bouwvergunning aanvragen en materiaal bestellen om een varkenshok te bouwen.
+ 	notify_add_shop_patent_for_house_sheep = Je kunt nu een bouwvergunning aanvragen en materiaal bestellen om een schaapskooi te bouwen.
+	notify_add_shop_patent_for_house_beehive = Je kunt nu een bouwvergunning aanvragen en materiaal bestellen om een bijenkorf te bouwen.
+	notify_add_shop_patent_for_hangar_flowers = Je kunt nu een bouwvergunning aanvragen en materiaal bestellen om een broeikas te bouwen.
+	notify_add_shop_patent_for_hangar_vegetables = Je kunt nu een bouwvergunning aanvragen en materiaal bestellen om een schuur te bouwen.
+	notify_add_shop_patent_for_hangar_refrigerator = Je kunt nu een bouwvergunning aanvragen en materiaal bestellen om een koelpakhuis te bouwen.
+	
+	notify_no_more_money = Je hebt niet genoeg geld om dat te kopen!
+	notify_you_cant_put = Dat kun je daar niet neerzetten!
+	notify_you_cant_storebox = Dit moet je ergens anders neerzetten!
+	notify_store_in_hangar = Dat kun je hier niet neerzetten! Breng het naar de schuur.
+	notify_store_in_fridge = Dat kun je hier niet neerzetten! Breng het naar het koelpakhuis.
+	notify_store_in_flower = Dat kun je hier niet neerzetten! Breng het naar de broeikas.
+	notify_box_nomore_full = Dit krat is nog niet vol!
+	notify_only_for_this_type = Je vult deze krat met %s. Vul het met alleen dit product!
+	notify_box_full = Deze krat is vol. Breng hem naar de schuur!
+	
+	notify_cant_feed_house_sheep = Schapen eten alleen kool en wortels.
+	notify_cant_feed_house_pig = Varkens eten alleen bieten en tomaten.
+	notify_cant_feed_house_cow = Koeien eten alleen kool en wortelen.
+	notify_cant_feed_house_chicken = Kippen eten alleen maïsvoer.
+	
+	message_complete_sell_plant_tomato = Goed zo! Je hebt je tomatenbestelling uitgevoerd!
+	message_complete_sell_plant_aubergine = Geweldig! Je hebt je auberginebestelling uitgevoerd!
+	message_complete_sell_plant_pepper = Uitstekend! Je hebt je tomatenbestelling uitgevoerd!
+	message_complete_sell_plant_cucumber = Fantastisch! Je hebt je komkommerbestelling uitgevoerd!
+	message_complete_sell_plant_dahlia = Voortreffelijk! Je hebt je dahliabestelling uitgevoerd!
+	message_complete_sell_plant_sunflower = Klasse! Je hebt je zonnebloembestelling uitgevoerd!
+	message_complete_sell_plant_tulip = Top! Je hebt je tulpenbestelling uitgevoerd!
+	message_complete_sell_beehive = Goed zo! Je hebt je honingbestelling uitgevoerd!
+	message_complete_sell_plant_mushroom = Geweldig! Je hebt je paddenstoelenbestelling uitgevoerd!
+	message_complete_sell_plant_cabbage = Uitstekend! Je hebt je koolbestelling uitgevoerd!
+	message_complete_sell_plant_watermelon = Fantastisch! Je hebt je watermeloenbestelling uitgevoerd!
+	message_complete_sell_plant_beetroot = Voortreffelijk! Je hebt je bietenbestelling uitgevoerd!
+	message_complete_sell_house_pig = Klasse! Je hebt je varkensbestelling uitgevoerd!
+	message_complete_sell_plant_carrot = Top! Je hebt je wortelbestelling uitgevoerd!
+	message_complete_sell_plant_corn = Goed zo! Je hebt je maïsbestelling uitgevoerd!
+	message_complete_sell_plant_pumpkin = Geweldig! Je hebt je pompoenbestelling uitgevoerd!
+	message_complete_sell_plant_strawberries = Uitstekend! Je hebt je aardbeienbestelling uitgevoerd!
+	message_complete_sell_house_sheep = Fantastisch! Je hebt je wolbestelling uitgevoerd!
+	message_complete_sell_house_chicken = Voortreffelijk! Je hebt je eierenbestelling uitgevoerd!
+	message_complete_sell_house_cow = Klasse! Je hebt je melkbestelling uitgevoerd!
+	message_complete_sell_plant_for_radish = Uitmuntend! Je hebt je radijsjesbestelling uitgevoerd!
+	message_complete_sell_tree_apple = Goed zo! Je hebt je appelbestelling uitgevoerd!
+	message_complete_sell_tree_plum = Geweldig! Je hebt je pruimenbestelling uitgevoerd!
+	message_complete_sell_tree_cherry = Uitstekend! Je hebt je kersenbestelling uitgevoerd!
+	message_complete_sell_tree_palm = Fantastisch! Je hebt je bananenbestelling uitgevoerd!
+	
+	l1_message_welcome = Welkom op de boerderij! We gaan leren om gewassen te kweken en te oogsten.
+	l1_message_dig_one = Voor een goede start moeten we eerst de aarde omspitten. Klik op een vrije plek in het veld om te graven.
+	l1_message_dig_four = Uitstekend! Maar één perkje is niet genoeg voor onze tuin, dus spit nog maar 3 vakken om.
+	l1_message_dig_twelve = Goed zo! In de volgende levels ga je veel meer land omspitten, maar dit is genoeg voor onze trainingstuin.
+	l1_message_plant_four = Nu is het tijd om de zaden te planten. Klik op de zak pompoenzaad om hem op te pakken en klik vervolgens op de 4 vakken van de tuin om het zaad te planten.
+	l1_message_wait_harvest = Geweldig! Nu moet je wachten totdat de pompoenen gaan groeien en rijpen. Zet de zak met zaad neer door te dubbelklikken op een vrije plek in het veld.
+	l1_message_water = Planten hebben constant aandacht en verzorging nodig. Pak de gieter door erop te klikken en vul hem met water door op de pomp te klikken. Vervolgens klik je op de vakken die je water wilt geven.
+	l1_message_water_ok = Ga zo door! Planten die water hebben gehad groeien sneller en kunnen dus eerder geoogst worden, terwijl verdroogde planten verwelken en doodgaan.
+	l1_message_dig_more = Als je je verveelt, kun je meer land omspitten en de rest van het zaad planten.
+	l1_message_fruits_ready = Oké, alles is rijp en je eerste oogst is klaar. Pak het krat en pluk de groenten. Er passen 4 stuks in het krat, die je vervolgens naar de schuur moet brengen.
+	l1_message_box_tutorial = Fantastisch! Je hebt een nieuw krat nodig voor je volgende oogst. Om er een bij de winkel te kopen klik je op de tab Materiaal in het menu onderaan. Klik op het krat en vervolgens op een vrije plek in het veld.
+	l1_message_second_harvest = Je tweede oogst is klaar! Om deze training te voltooien haal je de oogst binnen en breng je alles naar de schuur.
+	l1_message_third_harvest = Je derde oogst is klaar! Om deze training te voltooien haal je de oogst binnen en breng je alles naar de schuur.
+	l1_message_fertilizer_tutorial = Met kunstmest hou je je planten gezond en laat je ze sneller groeien, dus vergeet het niet te gebruiken in je tuin. Koop het bij de winkel door eerst op de tab Materiaal te klikken en vervolgens op een zak kunstmest.
+	l1_message_thirst_reminder = Vergeet niet dat je tuin constant water nodig heeft! Geef de planten geregeld water en let op de kleur van de aarde.
+	l1_message_victory = Gefeliciteerd! Nu heb je de basis geleerd van het boerenbedrijf. Maar je kunt nog veel meer leren!
+	
+	l1_task_1dig = De schep gebruiken.
+	l1_task_1dig_details = Dubbelklik op een vrije plek in het veld om de aarde om te spitten.
+	l1_task_4dig = We gaan door met de oefening!
+	l1_task_4dig_details = Spit 4 vakken om in het veld.
+	l1_task_4plant = De zaden planten.
+	l1_task_4plant_details = Pak de zak met zaad en plant 4 pompoenplanten.
+	l1_task_4water = De gieter gebruiken.
+	l1_task_4water_details = Ga naar de pomp om de gieter te vullen en geef de pompoenplanten water.
+	l1_task_3sell = De oefening afmaken.
+	l1_task_3sell_details = Verkoop 3 kratten met pompoenen om de trainingssessie te voltooien.
+	
+	
+	l2_task_sow = Aan de slag met je tuin
+	l2_task_sow_details = Plant 12 radijszaadjes
+	
+	l2_task_first_sell = Je eerste bestelling
+	l2_task_first_sell_details = We hebben een bestelling gekregen voor 3 kratten radijsjes en 3 kratten pompoenen.
+	
+	l2_task_first_patent = Plaats een bestelling
+	l2_task_first_patent_details = Bestel komkommerstekjes.
+	
+	l2_task_second_sell = Je tweede bestelling
+	l2_task_second_sell_details = We hebben een bestelling gekregen voor 2 kratten komkommers, 4 kratten pompoenen en 3 kratten radijsjes.
+	
+	l2_task_second_patent = Plaats een bestelling
+	l2_task_second_patent_details = Bestel aubergineplanten. Ze zijn hier vrij zeldzaam.
+	
+	l2_task_third_sell = We hebben weer een nieuwe bestelling ontvangen
+	l2_task_third_sell_details = We hebben een bestelling ontvangen voor een krat aubergines.
+	
+	l2_message_start = Dit is onze eerste boerderij. Oké, we beschikken nog niet over de nieuwste apparatuur en overal groeit gras. Maar er is wel een goede, stevige schuur waar we de oogst kunnen opslaan en veel vruchtbare grond. Alles wat een goede boerderij nodig heeft!
+	l2_message_sow = Deze boerderij is jaren niet gebruikt en is met gras overwoekerd. Het is een flinke klus, maar iemand moet het doen. Dus steek je handen uit de mouwen en ga aan de slag. We hebben radijs- en pompoenzaad. Begin maar eens met deze te planten.
+	l2_message_first_sell = Terwijl we het zaad aan het planten waren, kwam de eigenaar van de buurtwinkel voorbij. Hij vond dat de groente er goed uitzag en bestelde 3 kratten radijsjes en 3 kratten pompoenen.
+	l2_message_add_money = Je hebt je eerste bestelling volbracht en 200 munten verdiend.
+	l2_message_add_money_2 = Je hebt je tweede bestelling volbracht en 300 munten verdiend.
+	l2_message_first_patent = Je boerderij heeft nu een goede basis en je hebt zelfs je eerste bestelling volbracht. Maar het leven gaat door. Bestel komkommerplanten via de tab Planten en kweek deze heerlijke groente.
+	l2_message_second_sell = De eigenaar van de buurtwinkel kwam weer langs. Hij vond de groente er goed uitzien en plaatste een flinke bestelling: 3 kratten komkommers, 5 kratten pompoenen en 6 kratten radijsjes.
+	l2_message_second_patent = Er kwam een goederenwagen met nieuwe en interessante zaden door het dorp. Hij heeft auberginezaad, dat niemand anders in het dorp kweekt. Zou het niet geweldig zijn om deze prachtige groente als eerste te verbouwen?
+	l2_message_third_sell = Hé, iemand anders uit het dorp heeft ook auberginezaad gekocht. De strijd wie als eerste de groente verbouwt en verkoopt is begonnen. Dit zal bepalen wie de beste landbouwer van het dorp is.
+	l2_message_victory = Fantastisch! Iedereen vindt dat jij de beste boerderij van het dorp hebt. Je bent uitgeroepen tot beste landbouwer en er komen allerlei mensen bij je langs voor advies.
+	
+	l2_message_add_waterpump = Misschien heeft dit niet de hoogste prioriteit op de boerderij, maar als je er lang over doet om heen en weer te lopen naar de pomp, dan kun je altijd een tweede boren (zie de tab Materiaal voor details).
+	l2_message_add_big_watercan = Je tuin wordt groot. Het is moeilijk om een grote tuin te onderhouden met een kleine gieter. Je kunt ook een grotere kopen om in één keer 12 perkjes in je tuin te besproeien. Klik op de tab Materiaal om er een te kopen.
+	l2_message_add_fivebox = Je gaat telkens naar de winkel als je een nieuw krat nodig hebt. Ben je nog niet moe? We hebben een speciale aanbieding! Een stapel van 5 kratten!
+	l2_message_thirsty_need = Het is belangrijk om je planten te onderhouden. Anders verwelken ze en gaan ze dood.
+	l2_fertilizer_help = Bemest je planten regelmatig, zeker wanneer er hartjes verschijnen. Anders verwelken ze.
+	l2_help_help = Klik op je takenlijst bovenin het scherm om een overzicht te krijgen van je opdrachten.
+	
+	l3_task_collect_batch_vegatables = Groente kweken
+	l3_task_collect_batch_vegatables_details = Kweek 4 kratten paddenstoelen, komkommers en aubergines.
+
+	l3_task_pig_alarm = Grondige aanpak
+	l3_task_pig_alarm_details = We hebben een bestelling gekregen voor het fokken en verkopen van 7 varkens.
+	
+	l3_message_pig_alarm = Môgge buur! Niet te geloven, de waterleiding naar de fabriek is gebarsten. Het is gerepareerd, maar de akker is overstroomd en we zijn onze bietenoogst kwijt. Nu hebben we geen voer voor de varkens en wie wil deze kleine, ielige varkens nou kopen? We hebben zelfs een bestelling voor 7 varkens, maar die kunnen we misschien niet uitvoeren! We hoorden dat jij een jonge, getalenteerde en betrouwbare boerin bent. Kun je ons helpen?
+	l3_message_task_collect_batch_vegatables = We gaan tomaten kweken om de varkens te voeren, maar eerst moeten we geld verdienen. We hebben een bestelling gekregen voor 4 kratten paddenstoelen, komkommers en aubergines voor de dorpsmarkt.
+	l3_message_task_sell_pig = Er zijn eindelijk tomatenstekjes verkrijgbaar in de winkel (zie de tab Planten). We planten ze zodat we voer voor onze varkens hebben zodra ze rijp zijn.
+	l3_message_complete_sell_plant_mushroom = Goed zo! Je hebt je paddenstoelenbestelling uitgevoerd!
+	l3_message_complete_sell_plant_cucumber = Geweldig! Je hebt je komkommerbestelling uitgevoerd!
+	l3_message_complete_sell_plant_aubergine = Fantastisch! Je hebt je auberginebestelling uitgevoerd!
+	l3_message_victory = Het is gelukt! En nu draait deze boerderij beter dan ooit!
+	l3_message_beetroot_help = Er is bietenzaad verkrijgbaar in de winkel (zie de tab Zaden). Varkens eten ook bieten en bieten groeien sneller dan tomaten.
+	l3_message_pig_feed_help = Onze varkens eten hun buikjes rond. Nu moeten we wachten totdat de kleine biggen groot en dik zijn geworden. De voedselmeter daalt terwijl het varken eet en groeit. Blijf het varken voeren, want als hij geen voer meer krijgt groeit hij niet.
+	l3_message_pig_sow_help = Onze kleine big is volgroeid en klaar om verkocht te worden. Gebruik een krat om hem naar de schuur te brengen.
+	l3_message_destructor_help = Als er aarde of bestaande planten in de weg staan, gebruik je de rotospitter om de grond om te spitten.
+	l3_message_transporter_help	= Je kunt nu een kraan huren bij de winkel. Gebruik de kraan om een gebouw naar een andere plek te verplaatsen (zie de tab Materiaal).
+	l3_message_water_sprinkler_help	= Er zijn sproeiers verkrijgbaar bij de winkel! Ze zijn erg handig: je plaatst ze naast je tuin zodat je de planten niet meer met de hand hoeft te besproeien. Maar onthou goed dat elke sproeier een beperkt bereik heeft.
+	l3_message_add_house_pig = Om je bestellingen sneller te volbrengen, kun je nog een varkenshok bouwen. Maar eerst moet je een bouwvergunning aanvragen. Zodra je deze betaald hebt, krijg je een toelage van 500 munten om het hok te bouwen.
+	
+	l3_message_have_700money = Je hebt 700 munten verdiend. Je kunt nu een bouwvergunning aanvragen voor een varkenshok. Hiermee behaal je je doel sneller.
+	l3_message_add_500money = Je hebt 500 munten verdiend.
+	
+	l4_task_big_cooler = Boomgordel
+	l4_task_big_cooler_details = Om het dorp te beschermen moeten we nog 6 extra bomen kopen en planten!
+	l4_task_place_house_chicken = Kippenren
+	l4_task_place_house_chicken_details = Je moet een kippenren bouwen.
+	l4_task_place_hangar_refrigerator = Hou het koel
+	l4_task_place_hangar_refrigerator_details = Je moet een koelpakhuis kopen.
+	
+	l4_message_big_cooler = De fabriek verderop probeerde een grote ventilator uit, die alle gewassen heeft weggeblazen. We moeten een rij bomen plaatsen om het dorp en de gewassen te beschermen tegen de vernietigende stormen van die vreselijke fabriek. We hebben er al een paar geplant, maar we hebben er meer nodig!
+	l4_message_first_task = We moeten nog 6 extra bomen planten, maar we kunnen ze niet betalen. We verdienen weinig geld met de groenten en ons varkenshok is vervallen, dus levert het weinig op. Maar we kunnen wat mooie kippen kopen. Ze eten veel, maar dan bouwen we een kippenren en verkopen we de eieren. Dat levert veel meer geld op. We hebben een vergunning nodig om kippen te houden, maar de dorpelingen hebben beloofd mee te betalen zodra we hem hebben.
+	l4_message_place_patent_for_house_chicken = Nu hebben we de bouwvergunning voor de kippenren en de vergunning om het bedrijf te runnen. En de dorpelingen hebben je, zoals beloofd, 500 munten gegeven om je kosten te dekken.
+	l4_message_second_task = Oké, nu hebben we een kippenren. Maar helaas kunnen we de eieren niet in de schuur opslaan, we moeten een koelpakhuis bouwen. Daarvoor is nog een bouwvergunning nodig, maar de dorpelingen hebben beloofd te betalen voor de bouwmaterialen.
+	l4_message_place_patent_for_hangar_refrigerator = Goed zo! We hebben de vergunning zodat de bouw kan beginnen. En de dorpelingen hebben 500 munten ingelegd.
+	l4_message_last_task = Fantastisch! Nu hebben we een regelmatig inkomen. Zolang we de kippen maïsvoer blijven geven, zijn hun eieren een goede bron van inkomsten. Laten we ons nu richten op het redden van het dorp. We moeten 3 extra appelbomen en 3 extra pruimenbomen kopen en planten.
+	l4_message_trees_help = Bomen hebben geen water of kunstmest nodig en ze leveren altijd fruit. Je moet alleen niet vergeten het te plukken.
+	l4_message_pig_help = We hebben bieten in de tuin voor het varkenshok. Varkens vinden bieten net zo lekker als tomaten en bieten groeien sneller.
+	l4_message_victory = Dank je! De boerderij is veilig nu we al deze bomen hebben geplant. Bovendien hebben we een nieuwe en vaste bron van inkomsten!
+	l4_message_hangar_refrigerator_help = Ons eerste koelpakhuis. Bederfelijke producten zoals eieren, melk en honing moet je hier opslaan.
+	
+	l4_message_harvester_help = En hier is ons eerste hulpje, Billy! Hij gaat ons helpen fruit en groente te plukken tegen een laag salaris. Klik op Billy om hem te betalen en aan het werk te zetten. Er worden automatisch 100 munten van je rekening gehaald.
+	l4_message_harvester_money_help = Billy is gestopt met werken en er staat een munt boven zijn hoofd. Dat betekent dat het betaaldag is. Zodra je hem betaald hebt, gaat hij aan het werk.
+	l4_message_harvester_question_help = Er is een vraagteken verschenen boven het hoofd van het hulpje. Dit betekent dat Billy niet weet wat hij moet doen. Dat kan gebeuren als er te weinig te oogsten is. Wacht totdat er weer iets klaar is om te oogsten.
+	l4_message_transporter_help	= Je kunt nu een kraan huren bij de winkel. Gebruik de kraan om een gebouw naar een andere plek te verplaatsen, of om een boom te herplanten. Selecteer de kraan, klik op wat je wilt verplaatsen en daarna op de plek waar je het wilt hebben. Elke keer als je de kraan gebruikt, kost het je 10 munten!
+	
+	l5_task_flowers_garden = Bloemen te koop
+	l5_task_flowers_garden_details = Ga bloemen verkopen
+	l5_task_buy_hangar_flowers = Nieuwe opslagvoorzieningen
+	l5_task_buy_hangar_flowers_details = Koop een broeikas om de bloemen in op te slaan.
+	l5_task_sell_batch_flowers = Pluk wat bloemen
+	l5_task_sell_batch_flowers_details = Voer een bestelling van 6 kratten zonnebloemen en 6 kratten dahlia's uit.
+	l5_task_buy_flowers_patent = Koop een bloemkwekervergunning
+	l5_task_buy_flowers_patent_details = Bestel zonnebloemzaad en dahliabollen.
+	l5_task_flowers_sow = Plant bloemen
+	l5_task_flowers_sow_details = Plant 12 zonnebloemzaden en 12 dahliabollen.
+	
+	l5_message_about_tasks = De lokale fabriek heeft een dam gebouwd met een waterreservoir precies naast het dorp. Nu is de grond vochtig en drassig. De gewassen zijn in slechte staat en alleen het varkenshok, de koeienstal en het irrigatiesysteem zijn overgebleven. We hadden het bijna opgegeven, maar toen blies een sterke wind zeldzaam zaad naar de boerderij. Die bloemen leveren veel geld op, maar ze verwelken al voordat we ze hebben verkocht. We moeten een betere opslagmethode vinden.
+	l5_message_first_task = Deze bloemen moeten opgeslagen worden in een speciale broeikas. Maar voordat we deze kunnen bouwen, moeten we een bouwvergunning aanvragen en een vergunning om bloemen te verkopen. Zodra we de broeikas hebben is het plukken en opslaan van de bloemen geen probleem.
+	l5_message_second_task = Uitstekend! Nu kunnen we de bloemen plukken en opslaan. Pluk wat bloemen en kijk of er veel vraag naar is.
+	l5_message_third_task = De bloemen verkopen goed! Daarom hebben we besloten om van dit gebied een bloementuin te maken. We moeten zaden bestellen. Zodra we de zaden hebben, kunnen we heel veel bloemen verkopen.
+	l5_message_last_task = We hebben veel bestellingen. We moeten snel een veld met zonnebloemen en dahlia's planten.
+
+	l5_message_add_water_sprinkler = Toen ze bij de buurtwinkel hoorden dat je bloemen verkocht, zeiden ze dat ze geweldige sproeiers hadden. Zo verspillen we geen tijd met het water geven van de planten.
+	l5_message_plant_dahlia = Goed zo! Je hebt je dahliabestelling uitgevoerd!
+	l5_message_plant_sunflower = Geweldig! Je hebt je zonnebloembestelling uitgevoerd!
+	l5_message_plant_sunflower_help = We zagen dat de kippen erg van zonnebloemzaad houden. Je kunt de zonnebloemen dus aan je kippen voeren.
+	l5_message_victory = Nu zijn we de grootste leverancier van prachtige bloemen in de regio! Dank je!
+	l5_task_second_victory = Verdien wat geld.
+	l5_task_second_victory_details = De bloemen zijn dood, maar je kunt niet zomaar stoppen. Het kost 5000 munten om het veld te laten opdrogen en alles in zijn oude staat te herstellen.
+		
+	l5_message_helper_help = Heb je Johnny gezien? Hij kan je bloemen en planten bemesten, tegen het lage salaris van 100 munten.
+	
+	l5_notify_add_patent_for_flowers = Je kunt nu zonnebloemzaad en dahliabollen bestellen. Zie de tabs Zaden en Planten voor details.
+		
+	l5_message_dead_flower = De bloemen zijn dood, maar je kunt niet zo maar weglopen. Het kost 5000 munten om de velden te laten opdrogen en alles in zijn oude staat te herstellen. 
+	l5_message_second_victory = Alhoewel je bloemen zijn doodgegaan, heb je de bomen weten te redden. Zo heb je toch nog genoeg geld verdiend voor verdere ontwikkeling.
+		
+	l6_task_beehive_save = Red de bijenkorf
+    l6_task_beehive_save_details = Herstel de traditie van bijenhouderijen in het dorp. Verkoop 4 kratten honing.
+    l6_task_collect_batch_vegatables = Verkoop groenten
+    l6_task_collect_batch_vegatables_details = Verkoop 6 kratten komkommers, tomaten, kool en paprika's.
+    l6_task_collect_batch_flowers = Verkoop zeldzame bloemen
+    l6_task_collect_batch_flowers_details = Verkoop 6 kratten zonnebloemen, dahlia's en tulpen.
+    
+    l6_message_hello_heroine = Hallo daar! Ons dorp was ooit beroemd om zijn honing. We hadden meer bijenkorven dan je je kunt voorstellen, maar het is in de afgelopen jaren allemaal in verval geraakt. Velen van ons hielden de traditie in leven, maar de snoepfabriek heeft ons praktisch geruïneerd. Kun je ons helpen om onze bijenkorven en tradities te herstellen? We hebben maar een paar zakken zaad en er staan een paar bomen naast de schuur. Hopelijk is het genoeg om je op weg te helpen! Succes!
+    l6_message_about_tasks = Om het dorp te helpen moet je de bijenkorven herstellen, maar zo ver zijn we nog niet. Eerst moet je leveranciers aantrekken. Laten beginnen door wat geld te verdienen met de groente uit de tuin!
+    l6_message_first_task = Om grote klanten aan te trekken en nieuw materiaal te kopen in de buurtwinkel moeten we 6 kratten komkommers, tomaten, kool en paprika's verkopen.
+    l6_message_second_task = Nu moeten we ondernemers aantrekken. Laten we daarom wat zeldzame bloemen planten. Verkoop 6 kratten zonnebloemen, dahlia's en tulpen.
+    l6_message_main_task = Nu kunnen we de bijenkorven betalen. Dit is het moment om onze zeldzame honing aan de man te brengen. Dat trekt klanten aan en herstelt de traditie en welvaart van het dorp. Verkoop 4 kratten honing.
+    l6_message_see_pedicellates_patents = Let erop dat paprika- en koolzaad niet verkrijgbaar is in de winkel. Je moet het bestellen en vervoerkosten betalen.
+
+	l6_message_help_hangar_flowers = Je kunt de bloemen lange tijd in de broeikas opslaan voordat ze verwelken. Je kunt er ook watermeloenen en aardbeien opslaan.
+    l6_message_help_hangar_refrigerator = Sla bederfelijke producten zoals melk, eieren en honing op in een koelpakhuis.
+    l6_message_help_beehive = Bijen moeten ergens hun nectar vandaan halen. Lijkt het je geen goed idee om bloemen rond de bijenkorf te planten? En vergeet ze geen water te geven.
+	l6_message_add_hangar_refrigerator = Melk bewaar je in je koelkast. Lijkt het je dan geen goed idee om producten als melk, eieren en honing in een koelpakhuis op te slaan? Er zijn nu koelpakhuizen verkrijgbaar in de winkel.
+	
+    l6_message_victory = Gefeliciteerd! De verkoop van onze overheerlijke honing heeft de oude glorie van het dorp hersteld. Het leven is hier nu stukken aangenamer!
+
+	l7_task_contest0 = Deelnemersformulier
+	l7_task_contest0_details = Je moet 200 munten verdienen om het inschrijfgeld voor de wedstrijd te betalen.
+	l7_task_contest1 = Kwalificatieronde
+	l7_task_contest1_details =	Om je landbouwvaardigheden te tonen, moet je bij de jury 7 kratten komkommers, radijsjes en pompoenen inleveren.
+	l7_task_contest2 = Eerste ronde
+	l7_task_contest2_details = Om deze wedstrijd te winnen moet je een grote boerderij hebben. Plant tomaten, bieten, aubergines en maïs, en lever van elke soort een krat in bij de jury.
+	l7_task_contest3 = Kwaliteitscontrole
+	l7_task_contest3_details = Je moet voor de test 2 kratten tomaten, bieten, aubergines en pompoenen inleveren bij de jury.
+	l7_task_contest4 = Veeteelt
+	l7_task_contest4_details = Om deze ronde te volbrengen moet je 3 varkens en 3 kratten eieren bij de jury inleveren.
+	l7_task_contest5 = Boomgaarden
+	l7_task_contest5_details = Om deze ronde te volbrengen moet je 3 appelbomen, 3 pruimenbomen en 3 kersenbomen planten.
+	l7_task_contest6 = In naam der wetenschap
+	l7_task_contest6_details = De jury vond ons fruit zo lekker dat ze om nog 2 kratten appels, pruimen en kersen heeft gevraagd.
+	l7_task_contest7 = Zeg het met bloemen
+	l7_task_contest7_details = Je moet je tuinbouwvaardigheden tonen. Koop een broeikas en lever 6 kratten dahlia's, zonnebloemen en tulpen in bij de jury.
+	l7_task_contest8 = Zoete broodjes bakken
+	l7_task_contest8_details = Wees een bezige bij: koop een bijenkorf en maak 7 kratten honing voor de jury.
+	l7_task_contest9 = Nieuwe ronde, nieuwe vaardigheden
+	l7_task_contest9_details = Je moet minstens één koeienstal bestellen en bouwen.
+	l7_task_contest10 = Melk is goed voor elk
+	l7_task_contest10_details = Je moet 10 kratten melk met voldoende vitaminen inleveren bij de jury.
+	l7_task_contest11 = Boerderijzaken
+	l7_task_contest11_details = De jury kijkt naar het eindresultaat. We moeten 1500 munten verdienen om te bewijzen dat onze boerderij winstgevend is.
+	l7_task_contest12 = Prijzenswaardige groenten
+	l7_task_contest12_details = Plant 4 velden met exotische groente en fruit (paddenstoelen, paprika's, watermeloenen en aardbeien). Op elk veld moeten 12 planten staan met een gezondheidsniveau van 5 hartjes.
+
+	l7_message_hello = De boerenmarkt komt eraan en de hoofdprijs is 100.000 munten. Met dit geld kunnen de boerderijen geholpen worden die het moeilijk hebben. Elk jaar doen er boeren uit ons dorp mee, maar ze hebben al 2 generaties lang niks gewonnen. Iedereen denkt dat wel jij een goede kans maakt.
+	l7_message_about_tasks = De wedstrijdregels zijn als volgt: elke boer begint met een klein veld met een schuur, een appelboom en een zak zaad. Aan het einde van de wedstrijd wint degene met de beste boerderij! Als je wint, kun je het prijzengeld gebruiken om apparatuur te kopen en personeel in te huren. En dat niet alleen: het zal een morele overwinning zijn voor het hele dorp!
+	l7_message_first_task = Maar eerst moet je het deelnemersformulier invullen en 200 munten inschrijfgeld betalen. Dat kun je verdienen met je huidige middelen. Aan het begin van de wedstrijd krijgen alle deelnemers 30 munten voor tuinbenodigdheden.
+	l7_message_second_task = Nu gaat de jury je boerderij controleren om te zien of je er klaar voor bent. Hiervoor moet je van 3 verschillende groenten elk 7 kratten inleveren. We hebben geluk: de jury heeft gevraagd om 7 kratten komkommers, radijsjes en pompoenen. Deze groenten groeien erg goed in dit gebied!
+	l7_message_third_task = De wedstrijd is begonnen. Dit evenement heeft vele rondes en in elke ronde deelt de jury nieuw zaad of ander materiaal uit voor de betreffende opdracht. Tijdens de eerste wedstrijdronde is het belangrijk om zo veel mogelijk verschillende planten te kweken. Laten we tomaten, maïs, aubergines en bieten planten. Deze zaden zijn verkrijgbaar in de winkel.
+	l7_message_fourth_task = Nu moet je een voorbeeldkrat van elke groente inleveren bij de jury om de groenten te testen, te wegen en te proeven.
+	l7_message_fifth_task = Uitstekend! We hebben de tweede ronde gehaald, waar ze onze veeteeltvaardigheden testen. We moeten 3 varkens fokken en 3 kratten eieren inleveren. Een varkenshok, kippenren en koelpakhuis zijn verkrijgbaar bij de winkel. We krijgen zelfs 500 munten voor de gebouwen die we in de tweede ronde moeten bouwen.
+	l7_message_sixth_task = Het is een bekend gegeven dat bomen goed zijn voor de aarde. En ze zien er mooi uit. De jury wil dat we 3 appelbomen, 3 pruimenbomen en 3 kersenbomen planten.
+	l7_message_seventh_task = Het fruit aan onze bomen ziet er zo goed uit dat een van de juryleden ons smeekte om 2 kratten appels, pruimen en kersen, om ze te testen. Hij zei dat het fruit zo lekker was, dat hij het naar de plaatselijke landbouwschool wil sturen zodat iedereen ons geheim kan leren. Laten we hopen dat ons fruit inderdaad op de landbouwschool belandt en niet in de magen van de juryleden.
+	l7_message_eighth_task = Deze wedstrijd heeft elk jaar een bloemenronde. Dit jaar dus ook. Er zijn nu al zaden en broeikassen verkrijgbaar in de winkel.
+	l7_message_ninth_task = Waar bloemen zijn, zijn bijen en waar bijen zijn, is honing. Je raadt het al, in de laatste ronde van de wedstrijd ga je bijen houden! Je moet 7 kratten van je overheerlijke honing bij de jury inleveren.
+	l7_message_tenth_task = Een nieuwtje: dit jaar organiseren ze een wedstrijd voor de beste melk. Het probleem is dat we al een hele tijd geen melkkoeien meer hebben gefokt. We moeten minstens één koeienstal bestellen.
+	l7_message_eleventh_task = Volgens de wedstrijdregels moet de melk overheerlijk zijn en rijk aan vitaminen. Hiervoor moet je de koeien groente voeren in plaats van gras, dit voegt namelijk vitaminen toe aan hun melk. Koeien eten wortelen en kool. Als ze dit krijgen, produceren de koeien melk. Sla de melk op in het koelpakhuis. We moeten 10 kratten met melk inleveren bij de jury.
+	l7_message_twelfth_task = We moeten bewijzen dat deze boerderij winstgevend is. Laten we de 1500 munten verdienen waarmee we kunnen aantonen dat onze boerderij een succes is!
+	l7_message_thirteenth_task = We hebben alle wedstrijdrondes voltooid. Nu gaat de jury het gewicht en de smaak van onze groenten beoordelen en de schoonheid en het succes van onze boerderij. We hebben nog heel even de tijd om onze boerderij verder te verbeteren! Laten we snel 4 velden met exotisch fruit en groente planten en ze flink bemesten, zodat ze een gezondheidsniveau van 5 hartjes hebben. Pluk niets, zodat de jury kan zien hoe snel het zeldzame fruit en de groente groeit op onze boerderij. De jury zal zeker onder de indruk zijn en dan is de winst voor ons. In de winkel zijn watermeloen-, paprika- en aardbeienzaad, en paddenstoelsporen verkrijgbaar.
+	
+	l7_message_add_harvester = Volgens de wedstrijdregels is het toegestaan om hulp in te huren. Misschien moeten we gebruikmaken van deze mogelijkheid?
+	l7_message_victory = Gefeliciteerd! De jury vond onze boerderij de mooiste en de meest productieve. Zodra de jury het veld met rijp exotisch fruit en groente zag, was het duidelijk dat wij de beste boerderij runnen. Nu we dit geld gewonnen hebben, kunnen we de landbouw in deze regio ondersteunen. Drie hoeraatjes voor de beste boerin!
+	l7_message_watermelon_help = Watermeloenen sla je op in een koelpakhuis.
+	l7_message_strawberries_help = Aardbeien sla je op in een koelpakhuis.
+
+	l8_task_first_task = Burenhulp
+	l8_task_first_task_details = Verdien 300 munten en help de oude Jones om een nieuwe winkelruimte te huren.
+	l8_task_second_task = Nieuwe bestellingen plaatsen
+	l8_task_second_task_details = Bestel aubergine-, maïs- en wortelzaad.
+	l8_task_third_task = Aubergineliefhebber
+	l8_task_third_task_details = Oogst 20 kratten aubergines voor de man die ons de stekjes kan verkopen.
+	l8_task_fourth_task = Nieuwe bouwers
+	l8_task_fourth_task_details = Bestel en koop bouwvergunningen voor koeienstallen, schaapskooien, kippenrennen en bijenkorven.
+	l8_task_fifth_task = Nieuwe opslag
+	l8_task_fifth_task_details = Bestel schuren en koelpakhuizen.
+	l8_task_sixth_task = Een advertentiecampagne
+	l8_task_sixth_task_details = Koop een kippenren, een koeienstal en een schaapskooi.
+	l8_task_seventh_task = Zeg het met bloemen
+	l8_task_seventh_task_details = Verkoop 7 kratten zonnebloemen en dahlia's, plus 3 kratten honing.
+	l8_task_eighth_task = De tulpen zijn terug
+	l8_task_eighth_task_details = Bestel tulpenbollen.
+	l8_task_ninth_task = Een modeltuin
+	l8_task_ninth_task_details = Installeer 8 sproeiers en huur 4 tuinmannen.
+	l8_task_tenth_task  = Een vreemde leverancier
+	l8_task_tenth_task_details = Plant 12 watermeloenen, 12 aardbeienstekjes, 12 paddenstoelsporen en 12 paprikastekjes.
+	l8_task_eleventh_task = Spaargeld
+	l8_task_eleventh_task_details = Verdien 800 munten voor onvoorziene uitgaven in de toekomst.
+
+	l8_message_hello = We hebben slecht nieuws gehad van onze voorraadwinkel. Ze hebben aangekondigd dat ze geen tuinbenodigdheden meer hebben. Geen zaden, bomen of vee. De eigenaars vinden het heel erg, maar ze kunnen ons niet helpen. Als we geen zaden kunnen kopen, kunnen we onze dromen om de landbouw in de regio te herstellen wel vergeten. We moeten iets doen.
+	l8_message_about_tasks = We hebben een van onze oude leveranciers ontmoet. De oude Jones is een aardige oude baas, maar hij zei dat hij al zijn bestellingen moest annuleren. De fabrieksdirecteur was bij hem langs geweest en had Jones bevolen om alle contracten met de lokale boeren te verscheuren. Als meneer Jones zou weigeren, zou de directeur zijn winkel sluiten en hem op straat gooien. Jones moest wel meewerken, want hij heeft geen geld om nieuwe winkelruimte te huren.
+	l8_message_first_task = We zouden wel willen weten of de fabrieksdirecteur alle boerenwinkels in de omgeving heeft bedreigd. In ieder geval kunnen we een afspraak maken met de oude Jones. Hij heeft 300 munten nodig voor nieuwe winkelruimte. Als we hem helpen, helpt hij ons vast met onze zadenbestelling en kunnen we een hoop bieten-, komkommer- en pompoenzaad kopen.
+	l8_message_second_task = De oude Jones was heel dankbaar. Hij kon een nieuwe ruimte huren voor maar 200 munten en gaf ons 100 terug. Hij vertelde ook dat hij een brief naar een vriend had gestuurd, die een tuinmateriaalwinkel in een ander dorp heeft. Hij verkoopt ons zaden tegen zijn oude prijzen. We hoeven alleen de bestelling te plaatsen en dan levert hij ons auberginezaad, maïs en wortelzaad.
+	l8_message_third_task = De oude Jones heeft een andere vriend die boomstekjes kan leveren. Volgens Jones houdt hij enorm van aubergines, maar zijn ze niet meer verkrijgbaar in de groentewinkel. Hij zei voor de grap dat hij 100 bomen zou geven voor een aubergine, maar in elke grap zit een kern van waarheid. Als we hem 20 kratten aubergines geven, wil hij ons vast wel de stekjes verkopen.
+	l8_message_fourth_task = Toen de jongens van de houtzagerij hoorden dat niemand ons meer gebouwen wilde leveren, besloten ze er zelf iets aan te doen. Ze bouwden een varkenshok, net zo goed als die uit het dorp. Ze hebben alleen een bouwvergunning voor varkenshokken, maar als we een hoop bestellingen plaatsen en extra bouwvergunningen aanvragen, willen ze ook koeienstallen, schaapskooien, kippenrennen en bijenkorven voor ons maken.
+	l8_message_fifth_task = Waar zouden we zijn zonder een plek om alles op te slaan? We moeten bouwvergunningen halen voor een schuur en een koelpakhuis.
+	l8_message_sixth_task = Je moet de jongens van de houtzagerij helpen te adverteren voor hun nieuwe zaak. Dat kan door ze bij jou een kippenren, koeienstal en schaapskooi te laten bouwen.
+	l8_message_seventh_task = Een zadenleverancier uit een ander dorp hoorde van een vriend over onze boerderij. Ze leveren bloemzaden en gaven ons meteen wat dahliabollen en zonnebloemzaad. Bovendien kregen we een broeikas die de winkeleigenaar zelf heeft gebouwd. We hoeven de zaden en bollen niet te bestellen, maar hij verkoopt zijn geliefde tulpen alleen aan echte bloemliefhebbers. Je moet jezelf bewijzen door hem 7 kratten zonnebloemen en 7 kratten dahlia's te geven. Maar dat is niet alles. Hij heeft een zwak voor honing, dus laten we zoete broodjes bij hem bakken met 5 kratten honing.
+	l8_message_eighth_task = De leverancier was onder de indruk van onze bloemen en beloofde zijn geliefde tulpenbollen te leveren. We hoeven alleen maar een bestelling te plaatsen.
+	l8_message_ninth_task = We hebben voor bijna al onze benodigdheden nieuwe leveranciers gevonden, behalve voor exotisch fruit en groente. Maar we hebben geluk. Er is gisteren in het dorp een buitenlandse handelaar in groente en fruit aangekomen. Het enige probleem is dat hij hoge eisen stelt aan zijn klanten. Hij verkoopt alleen zaden en planten aan goed uitgeruste boerderijen, die in staat zijn om kwaliteitsgroente en -fruit te kweken. Om zijn eis te voldoen moeten we 8 sproeiers installeren en 4 tuinmannen inhuren.
+	l8_message_tenth_task = Naast de exotische zaden levert de buitenlandse handelaar ons de overige zaden die we niet kunnen krijgen. Laten we een paar perken aanleggen, dan kunnen we zien hoe deze exotische zaden het in onze omgeving doen.
+	l8_message_eleventh_task = We moeten geld opzijleggen voor onvoorziene uitgaven. Met 800 munten kunnen we vast en zeker elke financiële tegenslag overwinnen.
+	
+	l8_message_victory = Uitstekend! De dreiging van de fabriek is afgewend. We zijn erin geslaagd om leveranciers te vinden voor alles wat we nodig hebben. En nu gelooft iedereen dat we gaan winnen!
+	l8_message_sheep_help = Onze nieuwe leverancier heeft ons nieuw vee aangeboden: schapen. Uit de nieuwste onderzoeken blijkt dat hun wol veel beter en sterker wordt als schapen kool en wortels eten.
+	
+	l9_task_first_task = De hypotheek betalen
+	l9_task_first_task_details = Je moet 10.000 munten verdienen.
+
+	l9_message_hello = Een aantal jaar geleden hebben we een grote fout gemaakt. Toen AgroBank open ging, sloot een aantal boeren grote leningen af om hun land en voorzieningen te verbeteren. Agroson beloofde gunstige voorwaarden en we hadden goede hoop. Maar wij zijn boeren, geen juristen! We wisten niet dat je de kleine lettertjes moest lezen. Daarom heeft een groot aantal boeren nu een schuld bij Agrosons bank.
+	l9_message_about_tasks = AgroBank laat nu een clausule uit de hypotheek gelden dat boeren hun leningen snel moeten terugbetalen. Als ze de bank niet meteen betalen, worden vele boerderijen in de omgeving in beslag genomen. We moeten 10.000 munten verdienen om de boerderijen te redden en om voorgoed van AgroBank verlost te zijn.
+	l9_message_victory = 9.998, 9.999, 10.000. Ja, dat is het. En hier is uw afschrift om te laten zien dat u alle leningen volledig heeft afbetaald. Een prettige dag,' siste de kassier bij AgroBank. Je hebt de boerderijen gered!
+	
+	l10_task_first_task = Droogte
+	l10_task_first_task_details = Zorg dat de planten niet verwelken en doodgaan terwijl je wacht op de nieuwe sproeiers (10 minuten).
+	l10_task_second_task = Waterwerken
+	l10_task_second_task_details = Installeer 5 sproeiers.
+	l10_task_third_task = Tuinrestauratie
+	l10_task_third_task_details = Plant 24 maïs-, kool- en wortelvelden en 12 velden met bieten.
+	l10_task_fourth_task = Nieuwe verbeteringen
+ 	l10_task_fourth_task_details = Huur 3 tuinmannen
+	l10_task_fifth_task = Variatie
+	l10_task_fifth_task_details = Plant 4 bananenbomen
+	l10_task_sixth_task = Landruzie
+	l10_task_sixth_task_details = Verdien 1200 munten.
+	
+	l10_task_alt_second_task = Tuinrestauratie
+	l10_task_alt_second_task_details = Plant 12 bieten, 12 pompoenen, 12 radijsjes en 12 komkommers.
+	l10_task_alt_third_task = Nieuwe verbeteringen
+	l10_task_alt_third_task_details = Installeer 4 sproeiers.
+	l10_task_alt_fourth_task = Productieve dieren
+	l10_task_alt_fourth_task_details = Verkoop 2 varkens, 2 kratten eieren, 2 kratten melk en 2 kratten wol.
+	l10_task_alt_fifth_task = Variatie
+	l10_task_alt_fifth_task_details = Plant 4 bananenbomen, 3 kersenbomen en 2 pruimenbomen.
+	l10_task_alt_sixth_task = Landruzie
+	l10_task_alt_sixth_task_details = Verdien 1200 munten.
+	
+	l10_message_hello = Wat geweldig dat je er bent. Kijk eens wat er is gebeurd. Alles is opgedroogd en in een woestijn veranderd. Ons prachtige veld is aan het opdrogen. Er is hier nog nooit een droogte geweest. De winkels verkopen niet eens sproeiers! Onze leveranciers hebben sproeiers besteld, maar het is niet zeker wanneer die binnenkomen.
+	l10_message_about_tasks = We moeten de grond en de gewassen redden. De putgravers en de sproeiers zijn binnenkort beschikbaar. In de tussentijd moet je de gewassen water blijven geven en een beetje geld verdienen, zodat je de spullen kunt betalen als ze binnenkomen. Zodra de sproeiers zijn geïnstalleerd, is alles veilig.
+	l10_message_first_task = De putgravers en benodigdheden zijn onderweg, maar we kunnen de tuin niet laten verwelken. Blijf de planten water geven totdat er substantiële hulp arriveert.
+	l10_message_second_task = Uitstekend! Nu kunnen we de planten automatisch water geven, maar we moeten er wel voor zorgen dat de sproeiers al onze planten bereiken. Het ziet ernaar uit dat we minsten 5 sproeiers nodig hebben.
+	l10_message_third_task = Voordat jij kwam, verwelkten al onze planten. We konden geen voer voor onze dieren verbouwen. De leveranciers van de sproeiers hebben alle benodigde zaden, maar we moeten wel vervoerskosten betalen. Dan kunnen we 24 maïs-, kool- en wortelvelden aanleggen, en 12 bietenvelden.
+	l10_message_fourth_task = Fantastisch! Nu krijgt het vee genoeg voer en gaan de inkomsten van de boerderij omhoog. Helaas levert de oogst van de boerderij door de droogte minder op dan vroeger. Het is een goed idee om minstens 3 tuinmannen in te huren om alles goed bemest te houden. De groenten groeien dan sneller en de verhoogde productie zal het aanzien van de boerderij vergroten.
+	l10_message_fifth_task = Te gek! Je hebt de boerderij gered en in z'n oude glorie hersteld. We kregen zojuist nieuwe exotische bomen aangeboden. Het is een slimme investering voor de toekomst om ons aanbod uit te breiden met een aantal bomen. Plant 4 bananenbomen.
+	l10_message_sixth_task = Goed gedaan! De boerderij heeft de droogte overleefd, maar is nu onderwerp van een landruzie. De lokale overheid zag dat de boerderij oud en vervallen was, en heeft het land voor uitbreiding aangeboden aan een nabijgelegen fabriek. De pacht van het land is nog meer dan 30 jaar geldig, dus het is absoluut illegaal. Je zult een advocaat moeten huren om de partijen voor de rechter te dagen. Helaas zijn goede advocaten erg duur. Verdien 1200 munten om de beste advocaat in te huren, die de zaak zeker voor je zal winnen.
+	
+	l10_message_alt_second_task = Wat vreselijk! Een groot aantal gewassen is verloren gegaan. We moeten de tuin herstellen en de boerderij weer op gang krijgen. De voorraadwinkel hoorde van ons probleem en raadde ons aan om speciale hybride zaden te kopen die beter tegen droogte kunnen. We moeten wel nieuwe bestelformulieren invullen, maar dat is het waard. De buurboerderij hoorde ook van onze problemen en leende ons 680 munten. Vervang de dode planten voor 12 bieten, 12 pompoenen, 12 radijsjes en 12 komkommers.
+	l10_message_alt_third_task = Ondanks de speciale hybride zaden zijn we nog niet van de droogte af. Om nog een ramp te voorkomen moeten we minstens 4 sproeiers installeren. Het is nu ook mogelijk om tuinmannen in te huren.
+	l10_message_alt_fourth_task = Nu de velden in goede conditie zijn, gaan we aandacht besteden aan het vee dat de afgelopen dagen honger heeft geleden. We planten groenten om de dieren te voeren. Daarna verkopen we 2 varkens, 2 kratten eieren, 2 kratten melk en 2 kratten wol.
+	l10_message_alt_fifth_task = De zaden die we gekocht hebben groeien goed in de woestijn, maar het is altijd goed om een gevarieerd aanbod te hebben. Onze leveranciers hebben ons aangeraden exotische bomen te kopen die goed groeien in een droge, hete omgeving. Plant 4 bananenbomen, 3 kersenbomen en 2 pruimenbomen.
+	l10_message_alt_sixth_task = De boerderij heeft de droogte overleefd, maar is nu onderwerp van een landruzie. De lokale overheid zag dat de boerderij oud en vervallen was en heeft het land voor uitbreiding aangeboden aan een nabijgelegen fabriek. De pacht van het land is nog meer dan 30 jaar geldig, dus het is absoluut illegaal. Je zult een advocaat moeten huren om de partijen voor de rechter te dagen. Helaas zijn goede advocaten erg duur. Verdien 1200 munten om de beste advocaat in te huren, die de zaak zeker voor je zal winnen.
+	
+	l10_message_harvester = Het is een goed idee om een boerenknecht in te huren. Hij kan door fruit en groente te plukken geld helpen verdienen voor de sproeiers, terwijl wij de planten water geven.
+	l10_message_add_water_sprinkler = Er zijn sproeiers verkrijgbaar bij de winkel.
+	
+	l11_task_first_task = Eerste opdracht
+	l11_task_first_task_details = Verkoop een krat bieten, een krat tomaten en 5 varkens, en huur een groente- en fruitplukker.
+	l11_task_second_task = Tweede opdracht
+	l11_task_second_task_details = Verkoop een krat aubergines, bouw een koelpakhuis, huur een tuinman en installeer 2 sproeiers.
+	l11_task_third_task = Derde opdracht
+	l11_task_third_task_details = Verkoop een krat radijsjes en 5 kratten eieren, huur een tuinman en een groente- en fruitplukker.
+	l11_task_fourth_task = Vierde opdracht
+ 	l11_task_fourth_task_details = Verkoop een krat zonnebloemen en een krat dahlia's, bouw een broeikas en een bijenkorf.
+	l11_task_fifth_task = Vijfde opdracht
+	l11_task_fifth_task_details = Verkoop een krat wortels, een krat kool, 5 kratten melk en huur een groente- en fruitplukker.
+	l11_task_sixth_task = Zesde opdracht
+	l11_task_sixth_task_details = Verkoop 5 kratten paddenstoelen en 5 kratten honing, huur een tuinman en installeer 6 sproeiers.
+	l11_task_seventh_task = Zevende opdracht
+	l11_task_seventh_task_details = Verkoop 5 kratten tulpen, 3 kratten pompoenen en 3 kratten komkommers, en bouw een schaapskooi.
+	l11_task_eighth_task = Achtste opdracht
+	l11_task_eighth_task_details = Verkoop 4 kratten aardbeien en 4 kratten watermeloenen, huur een tuinman en een groente- en fruitplukker.
+	l11_task_ninth_task = Negende opdracht
+	l11_task_ninth_task_details = Verkoop een krat wol, plant een appelboom en een kersenboom, en installeer 2 sproeiers.
+	l11_task_tenth_task  = Tiende opdracht
+	l11_task_tenth_task_details = Verkoop 5 kratten paprika's, bouw een kippenren, een schaapskooi en een koeienstal
+	l11_task_eleventh_task = Elfde opdracht
+	l11_task_eleventh_task_details = Plant een pruimenboom en een bananenboom, en verdien 800 munten.
+	
+	l11_message_hello = Het is tijd om de landbouw naar een hoger niveau te tillen! We gaan een boerderij bouwen die aan alle nieuwe eisen voldoet. Alle andere boerderij volgen je voorbeeld: ze breiden uit en worden winstgevender. Dankzij jou is de regio opgebloeid!
+	l11_message_about_tasks = We hebben het plan om een moderne, efficiënte boerderij te bouwen, die maximale winst behaalt. Als we klaar zijn, dienen we als voorbeeld voor alle andere boerderijen in de omgeving!
+	l11_message_first_task = Voordat we beginnen moeten we wat geld verdienen. Laten we een varkenshok bouwen en 5 varkens, een krat bieten en een krat tomaten verkopen. We huren bovendien een boerenhulp om te helpen met groente plukken. De eerste stap op weg naar automatisering.
+	l11_message_second_task =  We gaan verschillende soorten groente kweken. Laten we beginnen met aubergines. We moeten ons ook voorbereiden op het kweken van bederfelijke producten, daarom bouwen we een koelpakhuis. En voor de broodnodige automatisering installeren we 2 sproeiers en huren we een tuinman.
+	l11_message_third_task = We gaan een nieuwe methode testen. We moeten een krat radijsjes verkopen. En omdat we graag ons nieuwe koelpakhuis willen uitproberen, bouwen we een kippenren en verkopen we 5 kratten eieren. Om de automatisering verder te ontwikkelen huren we 2 assistenten: een tuinman en een groente- en fruitplukker.
+	l11_message_fourth_task = Onze nieuwe boerderij moet van alles voorzien zijn. We mogen de bloemen dus niet vergeten. Verkoop een krat zonnebloemen, plant en verkoop dahlia's, en bouw een broeikas om onze nieuwe bloemen op te slaan. En als we dan toch bezig zijn, bouwen we ook een bijenkorf.
+ 	l11_message_fifth_task = Om de automatisering van de boerderij te stimuleren moeten we nog een assistent inhuren. Verkoop een krat wortels en een krat kool. Voer deze groenten ook aan onze koeien en verkoop daarna 5 kratten melk.
+	l11_message_sixth_task = We moeten nog een tuinman inhuren en extra sproeiers installeren, zodat we ons geen zorgen hoeven maken over de verzorging van onze planten. Als dat geregeld is, plant en verkoop je 5 kratten paddenstoelen. Vergeet de bijenkorf niet en verkoop 5 kratten honing.
+	l11_message_seventh_task = Verkoop 5 kratten tulpen, 3 kratten pompoenen en 3 kratten komkommers. Omdat onze boerderij van alles voorzien moet zijn, gaan we een schaapskooi bouwen.
+	l11_message_eighth_task = Huur 2 assistenten. Terwijl zij aan het werk zijn, gaan wij nieuw fruit introduceren. Verkoop 4 kratten watermeloenen en 4 kratten aardbeien.
+	l11_message_ninth_task = We controleren onze schaapskooi door een krat wol te verkopen. Denk alvast aan de toekomstige gewassen en installeer 2 sproeiers. Plant appel- en kersenbomen zodat onze boerderij nog meer heerlijk fruit produceert.
+	l11_message_tenth_task  = De boerderij moet blijven groeien, dus we bouwen een kippenren, een schaapskooi en een koeienstal. Plant en verkoop vervolgens 5 kratten paprika's.
+	l11_message_eleventh_task = En als klap op de vuurpijl planten we pruimen- en bananenbomen. Verdien vervolgens 800 munten om een directeur aan te nemen die leiding geeft aan alle arbeiders.
+	
+	l11_message_victory = We hebben ons grootse plan volbracht. Deze boerderij zal als voorbeeld dienen voor de hele provincie en het gebied zal gouden tijden beleven.
+		
+	l12_task_first_lot_vegetables = Lever de eerste bestelling groenten af
+	l12_task_first_lot_vegetables_details = Produceer 3 kratten radijsjes, pompoenen, maïs en tomaten.
+	l12_task_second_lot_vegetables = Lever de tweede bestelling groenten af
+	l12_task_second_lot_vegetables_details = Produceer 3 kratten komkommers, aubergines, paprika's en paddenstoelen
+	l12_task_first_lot_flowers = Lever de eerste bestelling bloemen af
+	l12_task_first_lot_flowers_details = Produceer 3 kratten tulpen, dahlia's, zonnebloemen en watermeloenen.
+	l12_task_first_lot_strawberries_behive = Lever honing en aardbeien
+	l12_task_first_lot_strawberries_behive_details = Produceer 3 kratten aardbeien en honing.
+	l12_task_first_lot_trees = Lever een bestelling fruit
+	l12_task_first_lot_trees_details = Produceer 3 kratten appels, bananen, pruimen en kersen.
+	l12_task_first_lot_farms_produktion = Lever een bestelling kruidenierswaren
+	l12_task_first_lot_farms_produktion_details = Produceer 3 varkens en 3 kratten eieren, wol en melk.
+	l12_task_first_shop_order = Voer de bestelling van de kruidenier uit
+	l12_task_first_shop_order_details = Produceer 3 varkens en 3 kratten zonnebloemen, paddenstoelen en bananen.
+	l12_task_second_shop_order = Voer de bestelling van de kruidenier uit
+	l12_task_second_shop_order_details = Produceer 3 kratten kool, wol, tulpen en watermeloenen.
+	l12_task_third_shop_order = Voer de bestelling van de kruidenier uit
+	l12_task_third_shop_order_details = Produceer 3 kratten melk, aardbeien, honing en kersen.
+	l12_task_fourth_shop_order = Voer de bestelling van de kruidenier uit
+	l12_task_fourth_shop_order_details = Produceer 3 kratten paprika's, appels, kool en kersen.
+	
+	l12_message_victory = De winkels liggen vol met onze verse groenten en niemand koopt meer het geconserveerde voedsel van Agro Corporation. Die is failliet gegaan. Men zegt dat er op de plaats van de fabriek een park wordt aangelegd. We hebben gewonnen!
+	l12_message_cool_vegetables = Het gebied komt er langzaam weer bovenop en binnenkort zullen hier veel bloeiende boerderijen staan. Agro Corporation wilde de opdracht binnenhalen met smakelijk, maar ongezond geconserveerd voedsel. Het bevat geen vitaminen of voedingsstoffen, maar het is goedkoop. Het is onze taak om de winkels te vullen met smakelijke, voedzame en verse groente en fruit. Als niemand de conserven koopt, gaat Agro Corporation failliet en gaat iedereen gezond en goed voedsel eten.
+	l12_message_first_lot_vegetables = Voordat de kruideniers onze producten inkopen, willen ze een proefperiode om te zien hoe goed ze verkopen.
+	l12_message_second_lot_vegetables = De winkels zijn verbaasd over hoe goed onze groenten verkopen en willen meer. Ze hebben ons ook hun winst uit de verkoop uitbetaald en dat leverde 200 munten op. We moeten ze andere groenten leveren. Dit keer maken we onze klanten blij met een exotische verrassing.
+	l12_message_first_lot_flowers = Onze groenten verkopen erg goed. Misschien moeten we eens kijken hoe onze bloemen het doen. En we maken het extra aantrekkelijk met wat watermeloenen. Onze inkomsten uit de verkoop zijn verdubbeld. Dit keer kregen we 400 munten.
+	l12_message_first_lot_strawberries_behive = Iedereen in de stad vond onze watermeloenen geweldig. Ze zijn een succes! Ondertussen is de verkoop van het diepvriesvoedsel en snoep van Agro Corporation gedaald. Dit is hét moment om iedereen natuurlijk snoepgoed te geven, dus laten we honing en aardbeien leveren. De opbrengst van de laatste levering was 600 munten.
+	l12_message_first_lot_trees_details = Onze honing en groenten liggen door het hele land in de schappen. Maar we moeten niet vergeten dat het heerlijkste fruit aan bomen groeit. We hebben 700 munten verdiend met de laatste levering.
+	l12_message_first_lot_farms_produktion = Al onze producten verkopen erg goed in de winkels. Laten we ook onze geweldige natuurproducten aanleveren zoals eieren, melk, varkens en wol. De opbrengst van onze laatste levering was 150 munten.
+	l12_message_first_shop_order = Onze producten beginnen uitverkocht te raken en de winkels willen meer! We hebben een bestelling voor de producten die op zijn. We hebben bovendien 1500 munten verdiend met onze laatste levering.
+	l12_message_second_shop_order = Ze krijgen geen genoeg van ons heerlijke, gezonde voedsel. De winkels willen meer! Binnenkort zal men alleen onze groenten kopen. Ze hebben nog een bestelling gedaan en ons 900 munten gegeven.
+	l12_message_third_shop_order = In een heleboel kruidenierswinkels in het dorp beslaan onze producten bijna de helft van de ruimte op de schappen en de verkoop stijgt! We hebben 1200 munten verdiend met de laatste levering! Het is een kwestie van tijd voordat we de opdracht binnenhalen. We moeten nog een levering klaarzetten.
+	l12_message_fourth_shop_order = De winkels zijn gevuld met onze producten. Ze hebben zojuist nog een enorme bestelling geplaatst en ons 1500 munten betaald. Als we deze grote bestelling volbrengen, halen we die opdracht zeker binnen.
+ 	l12_message_supplier_sabotage = Opnieuw mengt Agro Corporation zich in onze zaken. Ze hebben alle zaden die wij besteld hebben opgekocht en nu hebben onze leveranciers niets meer om aan ons te verkopen. Waarom gebeurt ons dit steeds? We moeten nieuwe leveranciers vinden.
+
+
+	comics_p1f1b1 = In een klein dorpje hier ver vandaan woonde eens een bijzonder meisje.
+	comics_p1f1b2 = Jij zult de beste boerin van onze tijd worden en je gaat ons redden uit de klauwen van de zware industrie!
+	comics_p1f1b3 = Opoe raakte op hoge leeftijd haar verstand kwijt, maar hierin had ze gelijk.
+	comics_p1f2b1 = Zelfs als baby toonde het meisje een grote aanleg voor het boerenleven.
+	comics_p1f2b2 = Kijk, Ginger is nog geen jaar oud en ze heeft al een behoorlijke tuin aangelegd daar in het zand!
+	comics_p1f2b3 = Let op mijn woorden, kleine Ginger heeft een grote toekomst voor zich.
+	comics_p1f3b1 = Toen ze 6 jaar was, leerde haar opa haar alle geheimen van het boerenbedrijf.
+	comics_p1f3b2 = Voel de kracht binnen in je, mijn kleine leerling, en bewerk de aarde!
+	comics_p1f5b1 = Knal!
+	comics_p1f6b1 = Kraak!
+	comics_p1f7b1 = Sommige dingen gingen Ginger minder makkelijk af...
+	comics_p1f7b2 = Tjonge, dat ziet er niet echt uit als een tuin hè?
+	comics_p1f7b3 = ... Maar ze hield vol en na een tijdje had ze alle tuingeheimen van haar opa onder de knie.
+	comics_p1f8b1 = Vergeet niet, mijn jonge leerling, dat alles wat je doet uit het diepst van je hart moet komen!
+	comics_p1f8b2 =	Opa, waarom zegt u altijd van die rare dingen?
+	
+	comics_p2f1b1 = Je hebt het boerenleven nu goed onder de knie. Daarom hebben wij een bijzonder cadeau voor je 18de verjaardag...
+	comics_p2f1b2 = Je eigen boerderij!
+	comics_p2f1b3 = O, wauw!
+	comics_p2f2b1 = Stel je eens voor welke groente ik daar allemaal kan verbouwen!
+	comics_p2f2b2 = En fruit...
+	comics_p2f2b3 = Kukelekuu!
+	comics_p2f3b1 = Dit land behoorde ooit toe aan mijn grootvader, de grote Bob Johnson!
+	comics_p2f4b1 = Ahhhh!
+	comics_p2f4b2 = Opa, in welk jaar was dat ook al weer?
+	comics_p2f5b1 = Kuch-elekuu!
+	comics_p2f6b1 = Geen zorgen, mijn kleinkind.
+	comics_p2f6b2 = Jij hebt alles in handen en ik weet zeker dat je het geweldig gaat doen!
+	comics_p2f7b1 = Bam!
+	comics_p2f8b1 = Kuuuu...
+	
+	comics_p3f1b1 = Maar op een prachtige, zonnige, stille ochtend...
+	comics_p3f2b1 = Kwam diep uit het woud het luide geknor van een varken.
+	comics_p3f3b1 = De haan werd erg nieuwsgierig.
+	comics_p3f5b1 = En Ginger werd er wakker van.
+	comics_p3f5b2 = Wat is er gebeurd?
+	comics_p3f6b1 = Er is een ongeluk gebeurd op de varkensboerderij van de buurman!
+	comics_p3f6b2 = Kom op Ginger, we gaan ze helpen.
+	comics_p3f7b1 = Toen ze op de boerderij aankwamen, troffen ze een enorme puinhoop aan.
+	comics_p3f7b2 = De waterleiding, die naar de fabriek verderop leidde, was gebarsten en de hele boerderij was overstroomd!
+	comics_p3f7b3 = En wie gilde daar zo verschrikkelijk?
+	comics_p3f7b4 = De varkens! Al hun voer is verpest. De arme dieren vergaan van de honger.
+	comics_p3f8b1 = Arme varkens!
+	comics_p3f8b2 = Geen probleem, we gaan ze helpen verzorgen.
+	comics_p3f8b3 = Knor!
+	comics_p3f8b4 = Knor!
+	comics_p3f8b5 = Grrr.
+    
+	comics_p4f1b1 = De familie vierde opa's verjaardag.
+	comics_p4f1b2 = ...en toen vroeg ik hem: ''Wat gebruik jij als kunstmest?''
+	comics_p4f1b3 = En hij antwoordde: ''Wat ik altijd gebruik...zand natuurlijk!''
+	comics_p4f1b4 = Hahaha!
+	comics_p4f1b5 = Maar plotseling...
+	comics_p4f2b1 = Woesj!
+	comics_p4f3b1 = Beng!
+	comics_p4f5b1 = Miauw!
+	comics_p4f6b1 = Verhip!
+	comics_p4f7b1 = Splet!
+	comics_p4f8b1 = Woesj!
+	comics_p4f9b1 = Bam!
+	comics_p4f10b1 = Splet!
+	comics_p4f10b2 = Beng!
+	comics_p4f10b3 = Na een tijdje ging de 'tomatenstorm' liggen.
+	comics_p4f10b4 = Tring, tring!
+	comics_p4f11b1 = Hallo?
+	comics_p4f12b1 = Hoi, oom! Hebben jullie iets voorbij zien vliegen?
+	comics_p4f12b2 = Ook goeiendag, neefje. Dus jij hebt ons aangevallen met die tomaten?
+	comics_p4f12b3 = Nee, het was die rotfabriek!
+	comics_p4f12b4 = Ze hadden een of andere enorme ventilator aangezet en dat pestding heeft alle tomaten van onze akker geblazen! En de kat vloog van het dak!
+	comics_p4f12b5 = Ga weg, joh!
+	comics_p4f12b6 = We weten niet wat we moeten doen. Als ze 'm weer aanzetten, wordt het hele dorp misschien wel weggevaagd.
+	comics_p4f12b7 = Maak je geen zorgen, neef! Zodra we alle ketchup van het huis gepoetst hebben, bedenken we een plan om je te helpen.
+	comics_p4f13b1 = Hmm. Hoe kunnen we ome Joe's dorp beschermen tegen de wind die de fabriek produceert?
+	comics_p4f13b2 = Ik heb een idee!
+	
+	comics_p5f1b1 = Ginger ontving een welverdiende prijs.
+	comics_p5f1b2 = Voor uitmuntende diensten voor ons dorp en zijn bewoners, krijg je van mij...
+	comics_p5f1b3 = ...mijn lieve nicht, dit erecertificaat!
+	comics_p5f1b4 = Dank u! Ik wil graag mijn hele familie bedanken en mijn opa in het bijzonder!
+	comics_p5f1b5 = Zonder zijn hulp had ik hier vandaag niet gestaan. En ik bedank ook mijn...
+	comics_p5f1b6 = Maar Gingers toespraak werd onderbroken door een man die uit de menigte naar voren kwam met een brief in zijn hand.
+	comics_p5f2b1 = Nou, wat hier dus gebeurd is, is dus dat, nou, deze mensen hier vragen om hulp.
+	comics_p5f2b2 = Ik zal de brief aan je voorlezen. Het komt van de mensen uit Greenfield. ''Lieve Ginger! We zitten hier in Greenfield met een behoorlijk groot probleem.''
+	comics_p5f2b3 = ''De ingenieurs van de lokale fabriek hebben een dam gebouwd, waardoor ons land grotendeels is overstroomd. De planten verwelken, onze gewassen gaan dood en we weten niet wat we moeten doen.''
+	comics_p5f2b4 = ''Je hebt je eigen dorp op zo'n geweldige manier gered van de fabrieksventilator, dat we hoopten dat je ons ook kunt helpen. Met vriendelijke groeten, de inwoners van Greenfield.''
+	comics_p5f2b5 = Wauw. Wat is dat voor een fabriek? Ik ben het ene probleem na het andere aan het oplossen.
+	comics_p5f2b6 = Nou, het zit zo...
+	comics_p5f3b1 = Een paar jaar geleden dook een zekere meneer Agroson op.
+	comics_p5f3b2 = Niet echt een aantrekkelijk type, maar hij sprak beleefd en was erg rijk.
+	comics_p5f3b3 = Hij beloofde dat hij de stad van voedsel zou voorzien. Goedkoop, maar ongezond en slecht voor het milieu.
+	comics_p5f3b4 = Hij bouwde zijn voedselfabriek aan de andere kant van de heuvels en toen begon de ellende.
+	comics_p5f3b5 = Het hele dorp werd nat en drassig, terwijl ons buurdorp midden in een droogte zat.
+	comics_p5f3b6 = En als de wind vanuit de heuvels komt, ruiken we een vreselijke stank en wordt de regen paars!
+	comics_p5f4b1 = Wat vreselijk! En onaanvaardbaar!
+	comics_p5f4b2 = Opa, we pakken onze koffers, want we moeten meteen weg!
+	comics_p5f4b3 = We doen er 8 uur over om naar dat dorp te lopen dus, we zijn er niet voor de avond valt...
+	comics_p5f4b4 = We gaan niet lopen. Laten we ome Joe's cadeau uitproberen!
+	comics_p5f5b1 = Moet je eens kijken! Dat oude barrel is perfect voor zandwegen!
+	comics_p5f5b2 = Het is geen oud barrel, het is een Chevrozuki van vorig jaar.
+	comics_p5f5b3 = Oké, we gaan!
+	comics_p5f6b1 = Bliep-bloep
+	
+	comics_p6f1b1 = Opa en oma zaten 's middags aan hun kopje thee, toen...
+	comics_p6f1b2 = Wanneer komt Ginger weer terug? Ik mis haar zo.
+	comics_p6f1b3 = Ik denk vandaag. Heb je het gehoord van Greenfield? Alles is goed gekomen.
+	comics_p6f1b4 = Vrroem!
+	comics_p6f1b5 = Alsof je het over de duivel hebt!
+	comics_p6f2b1 = Hoi, oma! Hoi, opa! Wat heerlijk om jullie te zien!
+	comics_p6f2b2 = Greenfield lijkt wel een moeras tegenwoordig! Compleet met kikkers en bloedzuigers...
+	comics_p6f3b1 = Ku-kuuuu?
+	comics_p6f4b1 = Beng!
+	comics_p6f5b1 = Ga zitten, Ginger. Hier is je theekopje...
+	comics_p6f5b2 = ...en je thee!
+	comics_p6f5b3 = Dank u! Waar zijn de koekjes?
+	comics_p6f5b4 = Nou, Ginger, ik heb niks zoets meer om te bakken!
+	comics_p6f5b5 = Ik haalde mijn honing altijd bij Betty in Plainsville.
+	comics_p6f5b6 = Maar nu staat daar een grote fabriek die chocola en snoep maakt. Daardoor koopt niemand haar honing meer.
+	comics_p6f5b7 = Kort gezegd lieverd, heeft de fabriek alles verpest.
+	comics_p6f5b8 = Wat? Dus ik krijg nooit meer...
+	comics_p6f5b9 = ... je honingcakejes en gebak?
+	comics_p6f6b1 = Nu ben ik pas echt kwaad!
+	comics_p6f7b1 = Hou je vast Plainsville! Ik kom je redden!
+	comics_p6f7b2 = In de naam van de...
+	comics_p6f7b3 = Vrijheid!
+	comics_p6f7b4 = En het honinggebak!
+	
+	comics_p7f1b1 = Ondertussen, in meneer Agrosons kantoor...
+	comics_p7f1b2 = Verdorie! Door die rotmeid moeten we onze chocoladefabriek sluiten. Ik accepteer dit niet!
+	comics_p7f1b3 = Jacques, Helmut, let op! We moeten alles te weten zien te komen over deze kleine... Ginger.
+	comics_p7f1b4 = Het kan me niet schelen of je het hele dorp binnenstebuiten moet keren, ik wil belastend materiaal over deze meid. Iets dat we tegen haar kunnen gebruiken. Gesnopen?
+	comics_p7f1b5 = Oui, alles is duidelijk mon general!
+	comics_p7f1b6 = Ja, natürlich! Een fluitje van een cent!
+	comics_p7f1b7 = Uitstekend. Jullie kunnen gaan, aan de slag. Janice!
+	comics_p7f1b8 = Ja meneer?
+	comics_p7f1b9 = Regel een afspraak met mejuffrouw Ginger. Zeg maar dat ik een...
+	comics_p7f1b10 = ... voorstel voor haar heb.
+	comics_p7f2b1 = De volgende dag...
+	comics_p7f2b2 = Wauw! Wanneer hebben ze dit gebouwd? Ik hoop dat de lift het doet.
+	comics_p7f3b1 = Ginger, je hebt veel in je mars!
+	comics_p7f3b2 = Je hebt eigenhandig een van mijn fabrieken weten te sluiten. Ik bewonder je zakeninstinct.
+	comics_p7f3b3 = Maar bedenk eens wat je zou kunnen doen als je gesteund werd door mijn geld en netwerk!
+	comics_p7f3b4 = Sluit je bij mij aan en we veranderen het hele gebied in een prachtig utopia. Wat zeg je ervan?
+	comics_p7f3b5 = Bedankt voor uw aanbod meneer Agroson, maar ik werk liever samen met mijn vrienden.
+	comics_p7f3b6 = U zou uw geld moeten gebruiken om wat bloemen en planten te kopen. Het is hier deprimerend. Het lijkt wel een graftombe.
+	comics_p7f4b1 = U heeft mijn nummer, dus als u wilt kan ik hier binnen 24 uur de mooiste bloemen van de regio afleveren!
+	comics_p7f4b2 = Wacht eens even, jij arrogante kleine snotneus!
+	comics_p7f4b3 = Je zal er snel achterkomen wat er gebeurt als je mijn vrijgevigheid weigert!
+	comics_p7f5b1 = Miiiiaaauuuwww!
+	comics_p7f6b1 = Twee dagen later...
+	comics_p7f6b2 = Nu het overige nieuws... Vandaag heeft meneer Agroson, directeur van de Agro Corporation, zijn nieuwste initiatief aangekondigd.
+	comics_p7f6b3 = De Agro Corporation gaat 12.000 hectare land in onze regio kopen om een enorm nieuw pretpark te bouwen.
+	comics_p7f6b4 = Volgens Agroson zal dit park ontelbare toeristen trekken en zo het inkomen van de provincie aanzienlijk verhogen.
+	comics_p7f6b5 = Het land wordt momenteel bezet door een aantal verouderde en verlieslijdende boerderijen.
+	comics_p7f6b6 = Mijn bedrijf zal deze regio nieuw leven inblazen.
+	comics_p7f6b7 = In plaats van een paar kratten rottende groente, trekken we duizenden toeristen aan die met liefde hun geld willen uitgeven!
+	comics_p7f6b8 = En over 10 jaar zal dit gebied bekend staan als de achtbaanhoofdstad van de wereld!
+	comics_p7f7b1 = Wauw! Hij laat er geen gras over groeien zeg.
+	comics_p7f8b1 = We moeten de stad laten zien dat we de mensen meer kunnen bieden dan een paar kratten rottende groente!
+	
+	comics_p8f1b1 = Nog een maand tot de boerenmarkt!
+	comics_p8f1b2 = Het is al meer dan 50 jaar geleden dat iemand uit ons dorp de prijs voor beste landbouwer won.
+	comics_p8f2b1 = Ginger, een beroemde lokale boerin, heeft aangekondigd dat ze meedoet aan de wedstrijd!
+	comics_p8f2b2 = Kan dit landbouwgenie ons dorp de overwinning brengen?
+	comics_p8f3b1 = De burgemeester zei dat hij erg geïnteresseerd was in de uitslag van dit jaar.
+	comics_p8f3b2 = De winnaar wordt overladen met roem, prijzen en goede contracten!
+	
+	comics_p9f1b1 = Idioten! Waar is de informatie waar ik om gevraagd had?
+	comics_p9f2b1 = Maar meneer Agroson, we konden niks vinden!
+	comics_p9f2b2 = Dat klopt baas! We hebben overal gezocht, maar er is echt niks bekend over die Fraülein Ginger.
+	comics_p9f2b3 = Dat is belachelijk! Ik geef jullie nog een week. Als jullie weer met lege handen aankomen, krijgen jullie ervan langs!
+	comics_p9f2b4 = Janice! Bel Ginger op. Ik wil persoonlijk een aantal dingen met haar bespreken.
+	comics_p9f3b1 = Hallo?
+	comics_p9f4b1 = Oké, luister goed Ginger! Ik laat jou mijn bedrijfswinsten niet vernietigen. Hou op met je boosaardige acties of je zult ervan lusten!
+	comics_p9f4b2 = U kunt me niet bedreigen meneer Agroson...
+	comics_p9f4b3 = Echt niet? Heb je enig idee hoeveel van je vrienden op mijn land wonen? Hoeveel van hen een schuld hebben bij mijn bank? Je wilt geen ruzie met mij, kleine meid!
+	comics_p9f5b1 = ''Weg met verouderde en verlieslijdende boerderijen! We bouwen nieuwe winkelcentra en pretparken!''
+	comics_p9f5b2 = Meneer Agrosons toespraak kreeg veel steun van investeerders tijdens de aandeelhoudersvergadering van Agro Corporation.
+	comics_p9f5b3 = De campagne tegen de wanbetalers gaat door. Vandaag werd opnieuw een boerderij failliet verklaard en werd de lening in beslag genomen.
+	
+	comics_p10f1b1 = Baas, baas! We hebben het!
+	comics_p10f1b2 = We konden niks over Ginger vinden, maar wel iets over haar grootouders.
+	comics_p10f1b3 = Goed, eens kijken... geboren... getrouwd... geen kinderen. Dus ze is geadopteerd? Daar is niks illegaals aan.
+	comics_p10f1b4 = Nein, baas! Er is geen papierwerk waaruit blijkt dat ze legaal geadopteerd is. Het is onofficieel.
+	comics_p10f1b5 = Echt? Hmmm... Goed werk jongens!
+	comics_p10f2b1 = Ginger! Ga zitten. Wil je een kopje thee? Bekijk deze map eens, ik denk dat je het interessant zult vinden!
+	comics_p10f2b2 = Wat is dit?
+	comics_p10f2b3 = Niks bijzonders! Slechts het bewijs dat je als baby bent ontvoerd.
+	comics_p10f2b4 = Dit is je laatste waarschuwing. Bemoei je niet met mij of mijn bedrijf, anders ik stuur je geliefde grootouders naar de gevangenis! Ha! Ha! Ha! Haaaa!
+	comics_p10f3b1 = Ome Joe, Ginger hier! Weet u wie mijn echte ouders zijn?
+	comics_p10f4b1 = O, Ginger... Ik ken niet alle details van het verhaal. Je kunt het beter aan de oude Gus vragen. Hij herinnert het zich vast nog wel.
+	comics_p10f4b2 = Oké. Weet u waar ik hem kan vinden?
+	comics_p10f5b1 = Gus? Hallo, mijn naam is...
+	comics_p10f5b2 = Ginger, ja. Ik weet wie je bent. Toe, kom binnen.
+	comics_p10f6b1 = O, het was een vreselijk verhaal. Ik ben oud en mijn geheugen laat mij in de steek.
+	comics_p10f6b2 = Mijn boerderij is vervallen, mijn tuin is overwoekerd met onkruid en mijn koeien zijn weggelopen.
+	comics_p10f6b3 = Maar als je me kunt helpen, herinner ik het me vast weer. Misschien komt door een paar verse komkommers mijn geheugen weer op gang!
+	
+	comics_p11f1b1 = Tjee, bedankt Ginger, je hebt mijn boerderij geweldig gered. Met al die verse groente voel ik me kiplekker. Ik ben er helemaal klaar voor om over je ouders te praten.
+    comics_p11f1b2 = Het ging als volgt...
+    comics_p11f2b1 = Lang geleden scheidde een jonge, succesvolle zakenman van zijn vrouw.
+    comics_p11f2b2 = Zie je het besluit van de rechtbank? Geef me de baby of je krijgt te maken met de toorn van Peter Agroson! Het meisje is van mij en van mij alleen!
+    comics_p11f3b1 = Maar het lot nam een bizarre wending...
+    comics_p11f4b1 = De limousine reed door een gat in de weg waardoor het meisje werd gelanceerd.
+    comics_p11f5b1 = Toen je opa en oma je vonden, Ginger, waren ze door het dolle heen van vreugde.
+    comics_p11f5b2 = God had hen geen kinderen geschonken, maar ze namen je op alsof je hun eigen kind was.
+    comics_p11f6b1 = En zo ben je hier in het dorp terechtgekomen.
+    comics_p11f6b2 = Ehm, dus u zegt dat ik de dochter van meneer Agroson ben?
+    comics_p11f6b3 = Nee, Ginger. Luister naar je hart, dan zul je begrijpen wie je echte ouders zijn.
+	
+	comics_p12f0b1 = Laten we kort samenvatten wat hiervoor gebeurd is.
+	comics_p12f1b1 = Ginger kwam achter de waarheid over haar verleden.
+	comics_p12f2b1 = Het nieuws beviel meneer Agroson allerminst.
+	comics_p12f2b2 = Mon general, we hebben nieuws over uw dochter.
+	comics_p12f2b3 = Mijn dochter is dood, Jaqcues.
+	comics_p12f2b4 = Nein, baas. Ginger is uw dochter.
+	comics_p12f2b5 = Neeeeee!
+	comics_p12f3b1 = Nieuws! Nieuws! Lees hier het laatste nieuws!
+	comics_p12f3b2 = Extra nieuwsbericht! De burgemeester heeft het contract van de stad met Agro Corporation verbroken!
+	comics_p12f3b3 = Hij heeft wedstrijd georganiseerd voor wie het dorp van voedsel mag voorzien!
+	comics_p12f3b4 = Wie wordt de nieuwe Groentekoning?
+	
+	comics_p13f1b1 = En zo eindigt het verhaal.
+	comics_p13f1b2 = Een eindeloze stroom vrachtwagens brengt verse groenten naar de stad.
+	comics_p13f1b3 = Tot ziens, tomaten! Een goede reis gewenst!
+	comics_p13f2b1 = Voor je diensten voor onze geweldige stad overhandig ik jou dit certificaat van erkenning.
+	comics_p13f2b2 = Ginger werd benoemd tot ereburger van de stad.
+	comics_p13f3b1 = De zaken en de waarde van Agro Corporation bleven kelderen.
+	comics_p13f3b2 = Meneer, uit de marktanalyse blijkt dat men onze producten niet meer koopt.
+	comics_p13f3b3 = Oh, Ginger, Ginger... Ze lijkt zo op mij!
+	comics_p13f4b1 = En zoals u kunt zien, is de rode lijn gedaald terwijl, de groene lijn sterk gestegen is.
+	comics_p13f4b2 = Wat betekent dit voor de stad? Meer om 11 uur!
+	comics_p13f5b1 = Agro Corporation moest zijn hoofdkantoor verkopen...
+	comics_p13f6b1 = En Ginger fleurde eindelijk meneer Agrosons oude kantoor op met levende planten en bloemen.
+	comics_p13f6b2 = EINDE
+
+>>

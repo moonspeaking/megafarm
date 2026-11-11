@@ -1,0 +1,1803 @@
+тут можно писать что угодно!
+
+<<
+
+@level 2
+{
+	#string level_name "Магазины";
+	#point level_size 40, 40; 
+	#string level_env "desert";
+	#float plant_thirst_growth 0.8;
+	#float health_reduction_after_harvest 1.3;
+	#float plant_fertilizer_strength 0.8;
+	#float plant_fertilizer_time 8;
+	#float level_time 5500;
+
+	@scenario
+	{
+		//----------------------------------------------//
+		//				все условии						//
+		//----------------------------------------------//
+
+		@first_task_first_lot_vegetables1
+		{
+			sell_plant_radish >= 3;
+		}
+		
+		@first_task_first_lot_vegetables2
+		{
+			sell_plant_pumpkin >= 3;
+		}
+		
+		@first_task_first_lot_vegetables3
+		{
+			sell_plant_corn >= 3;
+		}
+		
+		@first_task_first_lot_vegetables4
+		{
+			sell_plant_tomato >= 3;
+		}
+		
+		@second_task_second_lot_vegetables1
+		{
+			sell_plant_cucumber >= 3;
+		}
+		
+		@second_task_second_lot_vegetables2
+		{
+			sell_plant_aubergine >= 3;
+		}
+		
+		@second_task_second_lot_vegetables3
+		{
+			sell_plant_pepper >= 3;
+		}
+		
+		@second_task_second_lot_vegetables4
+		{
+			sell_plant_mushroom >= 3;
+		}
+		
+		@third_task_first_lot_flowers1
+		{
+			sell_plant_dahlia >= 3;
+		}
+		
+		@third_task_first_lot_flowers2
+		{
+			sell_plant_sunflower >= 3;
+		}
+		
+		@third_task_first_lot_flowers3
+		{
+			sell_plant_tulip >= 3;
+		}
+		
+		@third_task_first_lot_flowers4
+		{
+			sell_plant_watermelon >= 3;
+		}
+		
+		@fourth_task_first_lot_strawberries_beehive1
+		{
+			sell_plant_strawberries >= 3;
+		}
+		
+		@fourth_task_first_lot_strawberries_beehive2
+		{
+			sell_beehive >= 3;
+		}
+		
+		@fifth_task_sell_lot_trees1
+		{
+			sell_tree_desert_apple >= 3;
+		}
+		
+		@fifth_task_sell_lot_trees2
+		{
+			sell_tree_desert_cherry >= 3;
+		}
+		
+		@fifth_task_sell_lot_trees3
+		{
+			sell_tree_desert_palm >= 3;
+		}
+		
+		@fifth_task_sell_lot_trees4
+		{
+			sell_tree_desert_plum >= 3;
+		}
+		
+		@sixth_task_lot_farms_produktion1
+		{
+			sell_house_pig >= 3;
+		}
+		
+		@sixth_task_lot_farms_produktion2
+		{
+			sell_house_chicken >= 3;
+		}
+		
+		@sixth_task_lot_farms_produktion3
+		{
+			sell_house_sheep >= 3;
+		}
+		
+		@sixth_task_lot_farms_produktion4
+		{
+			sell_house_cow >= 3;
+		}
+		
+		@seventh_task_first_shop_order1
+		{
+			sell_house_pig >= 3;
+		}
+		
+		@seventh_task_first_shop_order2
+		{
+			sell_plant_sunflower >= 3;
+		}
+		
+		@seventh_task_first_shop_order3
+		{
+			sell_plant_mushroom >= 3;
+		}
+		
+		@seventh_task_first_shop_order4
+		{
+			sell_tree_desert_palm >= 3;
+		}
+
+		@eighth_task_second_shop_order1
+		{
+			sell_plant_cabbage >= 3;
+		}
+		
+		@eighth_task_second_shop_order2
+		{
+			sell_house_sheep >= 3;
+		}
+		
+		@eighth_task_second_shop_order3
+		{
+			sell_plant_tulip >= 3;
+		}
+		
+		@eighth_task_second_shop_order4
+		{
+			sell_plant_watermelon >= 3;
+		}
+		
+		@ninth_task_second_shop_order1
+		{
+			sell_house_cow >= 3;
+		}
+		
+		@ninth_task_second_shop_order2
+		{
+			sell_plant_strawberries >= 3;
+		}
+		
+		@ninth_task_second_shop_order3
+		{
+			sell_beehive >= 3;
+		}
+		
+		@ninth_task_second_shop_order4
+		{
+			sell_tree_desert_cherry >= 3;
+		}
+		
+		@last_task_third_shop_order1
+		{
+			sell_plant_pepper >= 3;
+		}
+		
+		@last_task_third_shop_order2
+		{
+			sell_tree_desert_apple >= 3;
+		}
+		
+		@last_task_third_shop_order3
+		{
+			sell_plant_cabbage >= 3;
+		}
+		
+		@last_task_third_shop_order4
+		{
+			sell_house_chicken >= 3;
+		}
+		
+		@comics_episode1
+		{
+			time >= 2;
+		}
+		
+		@comics_episode2
+		{
+			time >= 3;
+		}
+		
+		@comics_episode3
+		{
+			time >= 4;
+		}
+
+		@defeat_time
+		{
+			time >= 220000000;
+		}		
+	
+		@delete_shop_helper
+		{
+			place_helper >= 8;
+		}
+		
+		@delete_shop_harvester
+		{
+			place_harvester >= 8;
+		}
+
+		
+		//----------------------------------------------//
+		//				отключение кондишенов			//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "disable condition";
+			#string data "second_task_second_lot_vegetables1";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "second_task_second_lot_vegetables2";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "second_task_second_lot_vegetables3";
+		}  
+
+		@action
+		{
+			#string type "disable condition";
+			#string data "second_task_second_lot_vegetables4";
+		}  
+
+
+		@action
+		{
+			#string type "disable condition";
+			#string data "third_task_first_lot_flowers1";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "third_task_first_lot_flowers2";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "third_task_first_lot_flowers3";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "third_task_first_lot_flowers4";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "fourth_task_first_lot_strawberries_beehive1";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "fourth_task_first_lot_strawberries_beehive2";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "fifth_task_sell_lot_trees1";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "fifth_task_sell_lot_trees2";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "fifth_task_sell_lot_trees3";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "fifth_task_sell_lot_trees4";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "sixth_task_lot_farms_produktion1";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "sixth_task_lot_farms_produktion2";
+		}
+
+		@action
+		{
+			#string type "disable condition";
+			#string data "sixth_task_lot_farms_produktion3";
+		}  
+
+		@action
+		{
+			#string type "disable condition";
+			#string data "sixth_task_lot_farms_produktion4";
+		}  		
+	
+		@action
+		{
+			#string type "disable condition";
+			#string data "seventh_task_first_shop_order1";
+		}
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "seventh_task_first_shop_order2";
+		}  	
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "seventh_task_first_shop_order3";
+		}  	
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "seventh_task_first_shop_order4";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "eighth_task_second_shop_order1";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "eighth_task_second_shop_order2";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "eighth_task_second_shop_order3";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "eighth_task_second_shop_order4";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "ninth_task_second_shop_order1";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "ninth_task_second_shop_order2";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "ninth_task_second_shop_order3";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "ninth_task_second_shop_order4";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "last_task_third_shop_order1";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "last_task_third_shop_order2";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "last_task_third_shop_order3";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "last_task_third_shop_order4";
+		}  
+			
+		@action
+		{
+			#string type "enable condition";
+			#string data "first_task_first_lot_vegetables1";
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "first_task_first_lot_vegetables2";
+		}
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "first_task_first_lot_vegetables3";
+		}
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "first_task_first_lot_vegetables4";
+		}
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "second_task_second_lot_vegetables1";
+			@condition
+			{
+				first_task_first_lot_vegetables1;
+				first_task_first_lot_vegetables2;
+				first_task_first_lot_vegetables3;
+				first_task_first_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "second_task_second_lot_vegetables2";
+			@condition
+			{
+				first_task_first_lot_vegetables1;
+				first_task_first_lot_vegetables2;
+				first_task_first_lot_vegetables3;
+				first_task_first_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "second_task_second_lot_vegetables3";
+			@condition
+			{
+				first_task_first_lot_vegetables1;
+				first_task_first_lot_vegetables2;
+				first_task_first_lot_vegetables3;
+				first_task_first_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "second_task_second_lot_vegetables4";
+			@condition
+			{
+				first_task_first_lot_vegetables1;
+				first_task_first_lot_vegetables2;
+				first_task_first_lot_vegetables3;
+				first_task_first_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "third_task_first_lot_flowers1";
+			@condition
+			{
+				second_task_second_lot_vegetables1;
+				second_task_second_lot_vegetables2;
+				second_task_second_lot_vegetables3;
+				second_task_second_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "third_task_first_lot_flowers2";
+			@condition
+			{
+				second_task_second_lot_vegetables1;
+				second_task_second_lot_vegetables2;
+				second_task_second_lot_vegetables3;
+				second_task_second_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "third_task_first_lot_flowers3";
+			@condition
+			{
+				second_task_second_lot_vegetables1;
+				second_task_second_lot_vegetables2;
+				second_task_second_lot_vegetables3;
+				second_task_second_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "third_task_first_lot_flowers4";
+			@condition
+			{
+				second_task_second_lot_vegetables1;
+				second_task_second_lot_vegetables2;
+				second_task_second_lot_vegetables3;
+				second_task_second_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "fourth_task_first_lot_strawberries_beehive1";
+			@condition
+			{
+				third_task_first_lot_flowers1;
+				third_task_first_lot_flowers2;
+				third_task_first_lot_flowers3;
+				third_task_first_lot_flowers4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "fourth_task_first_lot_strawberries_beehive2";
+			@condition
+			{
+				third_task_first_lot_flowers1;
+				third_task_first_lot_flowers2;
+				third_task_first_lot_flowers3;
+				third_task_first_lot_flowers4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "fourth_task_first_lot_strawberries_beehive3";
+			@condition
+			{
+				third_task_first_lot_flowers1;
+				third_task_first_lot_flowers2;
+				third_task_first_lot_flowers3;
+				third_task_first_lot_flowers4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "fourth_task_first_lot_strawberries_beehive4";
+			@condition
+			{
+				third_task_first_lot_flowers1;
+				third_task_first_lot_flowers2;
+				third_task_first_lot_flowers3;
+				third_task_first_lot_flowers4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "fifth_task_sell_lot_trees1";
+			@condition
+			{
+				fourth_task_first_lot_strawberries_beehive1;
+				fourth_task_first_lot_strawberries_beehive2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "fifth_task_sell_lot_trees2";
+			@condition
+			{
+				fourth_task_first_lot_strawberries_beehive1;
+				fourth_task_first_lot_strawberries_beehive2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "fifth_task_sell_lot_trees3";
+			@condition
+			{
+				fourth_task_first_lot_strawberries_beehive1;
+				fourth_task_first_lot_strawberries_beehive2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "fifth_task_sell_lot_trees4";
+			@condition
+			{
+				fourth_task_first_lot_strawberries_beehive1;
+				fourth_task_first_lot_strawberries_beehive2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "sixth_task_lot_farms_produktion1";
+			@condition
+			{
+				fifth_task_sell_lot_trees1;
+				fifth_task_sell_lot_trees2;
+				fifth_task_sell_lot_trees3;
+				fifth_task_sell_lot_trees4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "sixth_task_lot_farms_produktion2";
+			@condition
+			{
+				fifth_task_sell_lot_trees1;
+				fifth_task_sell_lot_trees2;
+				fifth_task_sell_lot_trees3;
+				fifth_task_sell_lot_trees4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "sixth_task_lot_farms_produktion3";
+			@condition
+			{
+				fifth_task_sell_lot_trees1;
+				fifth_task_sell_lot_trees2;
+				fifth_task_sell_lot_trees3;
+				fifth_task_sell_lot_trees4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "sixth_task_lot_farms_produktion4";
+			@condition
+			{
+				fifth_task_sell_lot_trees1;
+				fifth_task_sell_lot_trees2;
+				fifth_task_sell_lot_trees3;
+				fifth_task_sell_lot_trees4;
+			}
+		}  
+	
+		@action
+		{
+			#string type "enable condition";
+			#string data "seventh_task_first_shop_order1";
+			@condition
+			{
+				sixth_task_lot_farms_produktion1;
+				sixth_task_lot_farms_produktion2;
+				sixth_task_lot_farms_produktion3;
+				sixth_task_lot_farms_produktion4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "seventh_task_first_shop_order2";
+			@condition
+			{
+				sixth_task_lot_farms_produktion1;
+				sixth_task_lot_farms_produktion2;
+				sixth_task_lot_farms_produktion3;
+				sixth_task_lot_farms_produktion4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "seventh_task_first_shop_order3";
+			@condition
+			{
+				sixth_task_lot_farms_produktion1;
+				sixth_task_lot_farms_produktion2;
+				sixth_task_lot_farms_produktion3;
+				sixth_task_lot_farms_produktion4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "seventh_task_first_shop_order4";
+			@condition
+			{
+				sixth_task_lot_farms_produktion1;
+				sixth_task_lot_farms_produktion2;
+				sixth_task_lot_farms_produktion3;
+				sixth_task_lot_farms_produktion4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "eighth_task_second_shop_order1";
+			@condition
+			{
+				seventh_task_first_shop_order1;
+				seventh_task_first_shop_order2;
+				seventh_task_first_shop_order3;
+				seventh_task_first_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "eighth_task_second_shop_order2";
+			@condition
+			{
+				seventh_task_first_shop_order1;
+				seventh_task_first_shop_order2;
+				seventh_task_first_shop_order3;
+				seventh_task_first_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "eighth_task_second_shop_order3";
+			@condition
+			{
+				seventh_task_first_shop_order1;
+				seventh_task_first_shop_order2;
+				seventh_task_first_shop_order3;
+				seventh_task_first_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "eighth_task_second_shop_order4";
+			@condition
+			{
+				seventh_task_first_shop_order1;
+				seventh_task_first_shop_order2;
+				seventh_task_first_shop_order3;
+				seventh_task_first_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "ninth_task_second_shop_order1";
+			@condition
+			{
+				eighth_task_second_shop_order1;
+				eighth_task_second_shop_order2;
+				eighth_task_second_shop_order3;
+				eighth_task_second_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "ninth_task_second_shop_order2";
+			@condition
+			{
+				eighth_task_second_shop_order1;
+				eighth_task_second_shop_order2;
+				eighth_task_second_shop_order3;
+				eighth_task_second_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "ninth_task_second_shop_order3";
+			@condition
+			{
+				eighth_task_second_shop_order1;
+				eighth_task_second_shop_order2;
+				eighth_task_second_shop_order3;
+				eighth_task_second_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "ninth_task_second_shop_order4";
+			@condition
+			{
+				eighth_task_second_shop_order1;
+				eighth_task_second_shop_order2;
+				eighth_task_second_shop_order3;
+				eighth_task_second_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "last_task_third_shop_order1";
+			#int delay 1;
+			@condition
+			{
+				ninth_task_second_shop_order1;
+				ninth_task_second_shop_order2;
+				ninth_task_second_shop_order3;
+				ninth_task_second_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "last_task_third_shop_order2";
+			#int delay 1;
+			@condition
+			{
+				ninth_task_second_shop_order1;
+				ninth_task_second_shop_order2;
+				ninth_task_second_shop_order3;
+				ninth_task_second_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "last_task_third_shop_order3";
+			#int delay 1;
+			@condition
+			{
+				ninth_task_second_shop_order1;
+				ninth_task_second_shop_order2;
+				ninth_task_second_shop_order3;
+				ninth_task_second_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "last_task_third_shop_order4";
+			#int delay 1;
+			@condition
+			{
+				ninth_task_second_shop_order1;
+				ninth_task_second_shop_order2;
+				ninth_task_second_shop_order3;
+				ninth_task_second_shop_order4;
+			}
+		}  
+		
+		//----------------------------------------------//
+		//				мессаги							//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_cool_vegetables";
+			@condition
+			{
+				comics_episode1;
+			}
+		}  
+
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_first_lot_vegetables";
+			@condition
+			{
+				comics_episode2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_supplier_sabotage";
+			@condition
+			{
+				comics_episode3;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_second_lot_vegetables";
+			@condition
+			{
+				first_task_first_lot_vegetables1;
+				first_task_first_lot_vegetables2;
+				first_task_first_lot_vegetables3;
+				first_task_first_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_first_lot_flowers";
+			@condition
+			{
+				second_task_second_lot_vegetables1;
+				second_task_second_lot_vegetables2;
+				second_task_second_lot_vegetables3;
+				second_task_second_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_first_lot_strawberries_behive";
+			@condition
+			{
+				third_task_first_lot_flowers1;
+				third_task_first_lot_flowers2;
+				third_task_first_lot_flowers3;
+				third_task_first_lot_flowers4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_first_lot_trees_details";
+			@condition
+			{
+				fourth_task_first_lot_strawberries_beehive1;
+				fourth_task_first_lot_strawberries_beehive2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_first_lot_farms_produktion";
+			@condition
+			{
+				fifth_task_sell_lot_trees1;
+				fifth_task_sell_lot_trees2;
+				fifth_task_sell_lot_trees3;
+				fifth_task_sell_lot_trees4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_first_shop_order";
+			@condition
+			{
+				sixth_task_lot_farms_produktion1;
+				sixth_task_lot_farms_produktion2;
+				sixth_task_lot_farms_produktion3;
+				sixth_task_lot_farms_produktion4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_second_shop_order";
+			@condition
+			{
+				seventh_task_first_shop_order1;
+				seventh_task_first_shop_order2;
+				seventh_task_first_shop_order3;
+				seventh_task_first_shop_order4;
+			}
+		} 
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_third_shop_order";
+			@condition
+			{
+				eighth_task_second_shop_order1;
+				eighth_task_second_shop_order2;
+				eighth_task_second_shop_order3;
+				eighth_task_second_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_fourth_shop_order";
+			@condition
+			{
+				ninth_task_second_shop_order1;
+				ninth_task_second_shop_order2;
+				ninth_task_second_shop_order3;
+				ninth_task_second_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l12_message_victory";
+			@condition
+			{
+				last_task_third_shop_order1;
+				last_task_third_shop_order2;
+				last_task_third_shop_order3;
+				last_task_third_shop_order4;
+			}	
+		}  
+
+		//----------------------------------------------//
+		//		а тут дибильные таски на уровень		//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l12_task_first_lot_vegetables";
+			@condition
+			{
+				first_task_first_lot_vegetables1;
+				first_task_first_lot_vegetables2;
+				first_task_first_lot_vegetables3;
+				first_task_first_lot_vegetables4;
+			}
+		}  
+
+		@action
+		{
+			#string type "set task";
+			#string data "l12_task_second_lot_vegetables";
+			@condition
+			{
+				second_task_second_lot_vegetables1;
+				second_task_second_lot_vegetables2;
+				second_task_second_lot_vegetables3;
+				second_task_second_lot_vegetables4;
+			}
+		}  
+
+  		@action
+		{
+			#string type "set task";
+			#string data "l12_task_first_lot_flowers";
+			@condition
+			{
+				third_task_first_lot_flowers1;
+				third_task_first_lot_flowers2;
+				third_task_first_lot_flowers3;
+				third_task_first_lot_flowers4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l12_task_first_lot_strawberries_behive";
+			@condition
+			{
+				fourth_task_first_lot_strawberries_beehive1;
+				fourth_task_first_lot_strawberries_beehive2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l12_task_first_lot_trees";
+			@condition
+			{
+				fifth_task_sell_lot_trees1;
+				fifth_task_sell_lot_trees2;
+				fifth_task_sell_lot_trees3;
+				fifth_task_sell_lot_trees4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l12_task_first_lot_farms_produktion";
+			@condition
+			{
+				sixth_task_lot_farms_produktion1;
+				sixth_task_lot_farms_produktion2;
+				sixth_task_lot_farms_produktion3;
+				sixth_task_lot_farms_produktion4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l12_task_first_shop_order";
+			@condition
+			{
+				seventh_task_first_shop_order1;
+				seventh_task_first_shop_order2;
+				seventh_task_first_shop_order3;
+				seventh_task_first_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l12_task_second_shop_order";
+			@condition
+			{
+				eighth_task_second_shop_order1;
+				eighth_task_second_shop_order2;
+				eighth_task_second_shop_order3;
+				eighth_task_second_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l12_task_third_shop_order";
+			@condition
+			{
+				ninth_task_second_shop_order1;
+				ninth_task_second_shop_order2;
+				ninth_task_second_shop_order3;
+				ninth_task_second_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l12_task_fourth_shop_order";
+			@condition
+			{
+				last_task_third_shop_order1;
+				last_task_third_shop_order2;
+				last_task_third_shop_order3;
+				last_task_third_shop_order4;
+			}
+		}  
+
+		//----------------------------------------------//
+		//				подзадачи						//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "add task";
+			#string data "l12_task_first_lot_vegetables";
+		}  
+
+		@action
+		{
+			#string type "add task";
+			#string data "l12_task_second_lot_vegetables";
+			@condition
+			{
+				first_task_first_lot_vegetables1;
+				first_task_first_lot_vegetables2;
+				first_task_first_lot_vegetables3;
+				first_task_first_lot_vegetables4;
+			}
+		}  
+
+  		@action
+		{
+			#string type "add task";
+			#string data "l12_task_first_lot_flowers";
+			@condition
+			{
+				second_task_second_lot_vegetables1;
+				second_task_second_lot_vegetables2;
+				second_task_second_lot_vegetables3;
+				second_task_second_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l12_task_first_lot_strawberries_behive";
+			@condition
+			{
+				third_task_first_lot_flowers1;
+				third_task_first_lot_flowers2;
+				third_task_first_lot_flowers3;
+				third_task_first_lot_flowers4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l12_task_first_lot_trees";
+			@condition
+			{
+				fourth_task_first_lot_strawberries_beehive1;
+				fourth_task_first_lot_strawberries_beehive2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l12_task_first_lot_farms_produktion";
+			@condition
+			{
+				fifth_task_sell_lot_trees1;
+				fifth_task_sell_lot_trees2;
+				fifth_task_sell_lot_trees3;
+				fifth_task_sell_lot_trees4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l12_task_first_shop_order";
+			@condition
+			{
+				sixth_task_lot_farms_produktion1;
+				sixth_task_lot_farms_produktion2;
+				sixth_task_lot_farms_produktion3;
+				sixth_task_lot_farms_produktion4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l12_task_second_shop_order";
+			@condition
+			{
+				seventh_task_first_shop_order1;
+				seventh_task_first_shop_order2;
+				seventh_task_first_shop_order3;
+				seventh_task_first_shop_order4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l12_task_third_shop_order";
+			@condition
+			{
+				eighth_task_second_shop_order1;
+				eighth_task_second_shop_order2;
+				eighth_task_second_shop_order3;
+				eighth_task_second_shop_order4;
+			}
+		}  
+		
+		//----------------------------------------------//
+		//				главное задание					//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l12_task_fourth_shop_order";
+			@condition
+			{
+				ninth_task_second_shop_order1;
+				ninth_task_second_shop_order2;
+				ninth_task_second_shop_order3;
+				ninth_task_second_shop_order4;
+			}
+		}  
+		
+		//----------------------------------------------//
+		//				добавляем на поле				//
+		//----------------------------------------------//
+		@action
+		{
+			#string type "add to field";
+			#string data "hero";
+			#point coords  4, 6;
+		}
+		@action
+		{
+			#string type "add to field";
+			#string data "hangar_vegetables";
+			#point coords  4, 3;
+		}
+		@action
+		{
+			#string type "add to field";
+			#string data "big_watercan";
+			#point coords  7, 4;
+		}
+		@action
+		{
+			#string type "add to field";
+			#string data "waterpump";
+			#point coords  8, 3;
+		}
+		@action
+		{
+			#string type "add to field";
+			#string data "tenbox";
+			#point coords  3, 6;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "tree_desert_palm";
+			#point coords  11, 3;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "tree_desert_apple";
+			#point coords  14, 5;
+		}
+		
+		//----------------------------------------------//
+		//				добавляем всякое				//
+		//----------------------------------------------//
+		@action
+		{
+			#string type "add money";
+			#string data "800";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "box";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "fivebox";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "tenbox";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "fertilizer";
+		}
+		
+		@action //добавили в магазин ящики
+		{
+			#string type "add to shop";
+			#string data "big_fertilizer";
+		}	
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "big_watercan";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "waterpump";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "aubergine";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "beetroot";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "cabbage";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "carrot";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "corn";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "cucumber";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "dahlia";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_mushroom";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "pepper";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "pumpkin";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "radish";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_strawberries";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "sunflower";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_tomato";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_tulip";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_watermelon";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_beehive";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_chicken";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_sheep";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_pig";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_house_cow";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "hangar_vegetables";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "hangar_flowers";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "hangar_refrigerator";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "tree_desert_palm";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "tree_desert_cherry";
+		}
+		
+		@action //добавили в магазин ящики
+		{
+			#string type "add to shop";
+			#string data "tree_desert_apple";
+		}
+		
+		@action //добавили в магазин ящики
+		{
+			#string type "add to shop";
+			#string data "tree_desert_plum";
+		}
+
+		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "transporter";
+ 		}
+		
+		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "destructor";
+ 		}
+		
+		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "water_sprinkler";
+ 		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "harvester";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "helper";
+		}
+		//----------------------------------------------//
+		//				игровые события					//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "add money";
+			#string data "200";
+			@condition
+			{
+				first_task_first_lot_vegetables1;
+				first_task_first_lot_vegetables2;
+				first_task_first_lot_vegetables3;
+				first_task_first_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add money";
+			#string data "400";
+			@condition
+			{
+				second_task_second_lot_vegetables1;
+				second_task_second_lot_vegetables2;
+				second_task_second_lot_vegetables3;
+				second_task_second_lot_vegetables4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add money";
+			#string data "600";
+			@condition
+			{
+				third_task_first_lot_flowers1;
+				third_task_first_lot_flowers2;
+				third_task_first_lot_flowers3;
+				third_task_first_lot_flowers4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add money";
+			#string data "700";
+			@condition
+			{
+				fourth_task_first_lot_strawberries_beehive1;
+				fourth_task_first_lot_strawberries_beehive2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add money";
+			#string data "150";
+			@condition
+			{
+				fifth_task_sell_lot_trees1;
+				fifth_task_sell_lot_trees2;
+				fifth_task_sell_lot_trees3;
+				fifth_task_sell_lot_trees4;
+			}
+		}  
+		
+		
+		
+		@action
+		{
+			#string type "add money";
+			#string data "1500";
+			@condition
+			{
+				sixth_task_lot_farms_produktion1;
+				sixth_task_lot_farms_produktion2;
+				sixth_task_lot_farms_produktion3;
+				sixth_task_lot_farms_produktion4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add money";
+			#string data "900";
+			@condition
+			{
+				seventh_task_first_shop_order1;
+				seventh_task_first_shop_order2;
+				seventh_task_first_shop_order3;
+				seventh_task_first_shop_order4;
+			}
+		} 
+		
+		@action
+		{
+			#string type "add money";
+			#string data "1200";
+			@condition
+			{
+				eighth_task_second_shop_order1;
+				eighth_task_second_shop_order2;
+				eighth_task_second_shop_order3;
+				eighth_task_second_shop_order4;
+			}
+		}  
+	
+		@action
+		{
+			#string type "add money";
+			#string data "1500";
+			@condition
+			{
+				ninth_task_second_shop_order1;
+				ninth_task_second_shop_order2;
+				ninth_task_second_shop_order3;
+				ninth_task_second_shop_order4;
+			}
+		}  
+				
+		@action
+		{
+			#string type "delete shop";
+			#string data "harvester";
+			@condition
+			{
+				delete_shop_harvester;
+			}
+		}  
+		
+		@action
+		{
+			#string type "delete shop";
+			#string data "helper";
+			@condition
+			{
+				delete_shop_helper;
+			}
+		}  
+		
+		@action
+		{
+			#string type "victory";
+			@condition 1
+			{
+				last_task_third_shop_order1;
+				last_task_third_shop_order2;
+				last_task_third_shop_order3;
+				last_task_third_shop_order4;
+			}
+		}
+		@action
+		{
+			#string type "defeat";
+			@condition 1
+			{
+				defeat_time;
+			}
+		}
+	}
+}
+
+
+>>
+
+тут тоже можно писать что угодно
+что угодно
+
+

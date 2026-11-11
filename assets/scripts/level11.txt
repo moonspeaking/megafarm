@@ -1,0 +1,1493 @@
+тут можно писать что угодно!
+
+<<
+
+@level 2
+{
+	#string level_name "Самый крутой уровень";
+	#point level_size 40, 40; 
+	#string level_env "desert";
+	#float plant_thirst_growth 0.8;
+	#float health_reduction_after_harvest 1.3;
+	#float plant_fertilizer_strength 0.8;
+	#float plant_fertilizer_time 8;
+	#float level_time 4700;
+
+	
+	
+	
+	@scenario
+	{
+		
+		//----------------------------------------------//
+		//				все условии						//
+		//----------------------------------------------//		
+		
+		@comics_episode1
+		{
+			time >= 1;
+		}
+		
+		@comics_episode2
+		{
+			time >= 2;
+		}
+		
+		@comics_episode3
+		{
+			time >= 3;
+		}
+		
+		//первая пачка заданий
+		
+		@first_task_part1
+		{
+			sell_plant_beetroot >= 1;
+		}
+		
+		@first_task_part2
+		{
+			sell_plant_tomato >= 1;
+		}
+		
+		@first_task_part3
+		{
+			sell_house_pig >= 5;
+		}
+		
+		@first_task_part4
+		{
+			place_harvester >= 1;
+		}
+		
+		//вторая пачка заданий
+		@second_task_part1
+		{
+			sell_plant_aubergine >= 1;
+		}
+		
+		@second_task_part2
+		{
+			place_water_sprinkler >= 2;
+		}
+		
+		@second_task_part3
+		{
+			place_helper >= 1;
+		}
+		
+		@second_task_part4
+		{
+			place_hangar_refrigerator >= 1;
+		}
+		
+		//третья пачка заданий
+		@third_task_part1
+		{
+			sell_plant_radish >= 1;
+		}
+		
+		@third_task_part2
+		{
+			sell_house_chicken >= 5;
+		}
+		
+		@third_task_part3
+		{
+			place_harvester >= 2;
+		}
+		
+		@third_task_part4
+		{
+			place_helper >= 2;
+		}
+		
+		//четвертая пачка заданий
+		@fourth_task_part1
+		{
+			place_hangar_flowers >= 1;
+		}
+		
+		@fourth_task_part2
+		{
+			place_beehive >= 1;
+		}
+		
+		@fourth_task_part3
+		{
+			sell_plant_sunflower >= 1;
+		}
+		
+		@fourth_task_part4
+		{
+			sell_plant_dahlia >= 1;
+		}
+		
+		//пятая пачка заданий
+		@fifth_task_part1
+		{
+			place_harvester >= 3;
+		}
+		
+		@fifth_task_part2
+		{
+			sell_plant_cabbage >= 1;
+		}
+		
+		@fifth_task_part3
+		{
+			sell_plant_carrot >= 1;
+		}
+		
+		@fifth_task_part4
+		{
+			sell_house_cow >= 5;
+		}
+		
+		//шестая пачка заданий
+		@sixth_task_part1
+		{
+			place_helper >= 3;
+		}
+		
+		@sixth_task_part2
+		{
+			place_water_sprinkler >= 6;
+		}
+		
+		@sixth_task_part3
+		{
+			sell_plant_mushroom >= 5;
+		}
+		
+		@sixth_task_part4
+		{
+			sell_beehive >= 5;
+		}
+		
+		//седьмая пачка заданий
+		@seventh_task_part1
+		{
+			place_house_sheep >= 1;
+		}
+		
+		@seventh_task_part2
+		{
+			sell_plant_tulip >= 5;
+		}
+		
+		@seventh_task_part3
+		{
+			sell_plant_pumpkin >= 3;
+		}
+		
+		@seventh_task_part4
+		{
+			sell_plant_cucumber >= 3;
+		}
+		
+		//восмая пачка заданий
+		
+		@eighth_task_part1
+		{
+			place_harvester >= 4;
+		}	
+		
+		@eighth_task_part2
+		{
+			place_helper >= 4;
+		}	
+		
+		@eighth_task_part3
+		{
+			sell_plant_watermelon >= 4;
+		}	
+		
+		@eighth_task_part4
+		{
+			sell_plant_strawberries >= 4;
+		}	
+		
+		//девятая пачка заданий
+		
+		@ninth_task_part1
+		{
+			place_house_sheep >= 1;
+		}	
+		
+		@ninth_task_part2
+		{
+			place_tree_desert_apple >= 1;
+		}	
+		
+		@ninth_task_part3
+		{
+			place_tree_desert_cherry >= 1;
+		}	
+		
+		@ninth_task_part4
+		{
+			place_water_sprinkler >= 8;
+		}	
+		
+		//десятая пачка заданий
+		
+		@tenth_task_part1
+		{
+			place_house_cow >= 2;
+		}	
+		
+		@tenth_task_part2
+		{
+			place_house_chicken >= 2;
+		}	
+		
+		@tenth_task_part3
+		{
+			sell_house_sheep >= 2;
+		}	
+		
+		@tenth_task_part4
+		{
+			sell_plant_pepper >= 5;
+		}
+		
+		//одинацатая пачка заданий
+		
+		@eleventh_task_part1
+		{
+			money >= 800;
+		}
+		
+		@eleventh_task_part2
+		{
+			place_tree_desert_plum >= 1;
+		}
+		
+		@eleventh_task_part3
+		{
+			place_tree_desert_palm >= 1;
+		}
+		
+		@defeat_time
+		{
+			time >= 100000000;
+		}
+		
+		@delete_shop_helper
+		{
+			place_helper >= 8;
+		}
+		
+		@delete_shop_harvester
+		{
+			place_harvester >= 8;
+		}
+		
+				
+		//----------------------------------------------//
+		//				отключение кондишенов			//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "disable condition";
+			#string data "second_task_part1";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "third_task_part1";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "third_task_part2";
+		}  
+
+		@action
+		{
+			#string type "disable condition";
+			#string data "fourth_task_part3";
+		}  
+
+
+		@action
+		{
+			#string type "disable condition";
+			#string data "fourth_task_part4";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "fifth_task_part2";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "fifth_task_part3";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "fifth_task_part4";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "sixth_task_part3";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "sixth_task_part4";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "seventh_task_part2";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "seventh_task_part3";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "seventh_task_part4";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "eighth_task_part3";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "eighth_task_part4";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "ninth_task_part2";
+		}
+
+		@action
+		{
+			#string type "disable condition";
+			#string data "ninth_task_part3";
+		}  
+
+		@action
+		{
+			#string type "disable condition";
+			#string data "tenth_task_part4";
+		}  		
+	
+		@action
+		{
+			#string type "enable condition";
+			#string data "second_task_part1";
+			@condition
+			{
+				first_task_part1;
+				first_task_part2;
+				first_task_part3;
+				first_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "third_task_part1";
+			@condition
+			{
+				second_task_part1;
+				second_task_part2;
+				second_task_part3;
+				second_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "third_task_part2";
+			@condition
+			{
+				second_task_part1;
+				second_task_part2;
+				second_task_part3;
+				second_task_part4;
+			}
+		}  
+
+		@action
+		{
+			#string type "enable condition";
+			#string data "fourth_task_part3";
+			@condition
+			{
+				third_task_part1;
+				third_task_part2;
+				third_task_part3;
+				third_task_part4;
+			}
+		}  
+
+
+		@action
+		{
+			#string type "enable condition";
+			#string data "fourth_task_part4";
+			@condition
+			{
+				third_task_part1;
+				third_task_part2;
+				third_task_part3;
+				third_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "fifth_task_part2";
+			@condition
+			{
+				fourth_task_part1;
+				fourth_task_part2;
+				fourth_task_part3;
+				fourth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "fifth_task_part3";
+			@condition
+			{
+				fourth_task_part1;
+				fourth_task_part2;
+				fourth_task_part3;
+				fourth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "fifth_task_part4";
+			@condition
+			{
+				fourth_task_part1;
+				fourth_task_part2;
+				fourth_task_part3;
+				fourth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "sixth_task_part3";
+			@condition
+			{
+				fifth_task_part1;
+				fifth_task_part2;
+				fifth_task_part3;
+				fifth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "sixth_task_part4";
+			@condition
+			{
+				fifth_task_part1;
+				fifth_task_part2;
+				fifth_task_part3;
+				fifth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "seventh_task_part2";
+			@condition
+			{
+				sixth_task_part1;
+				sixth_task_part2;
+				sixth_task_part3;
+				sixth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "seventh_task_part3";
+			@condition
+			{
+				sixth_task_part1;
+				sixth_task_part2;
+				sixth_task_part3;
+				sixth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "seventh_task_part4";
+			@condition
+			{
+				sixth_task_part1;
+				sixth_task_part2;
+				sixth_task_part3;
+				sixth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "eighth_task_part3";
+			@condition
+			{
+				seventh_task_part1;
+				seventh_task_part2;
+				seventh_task_part3;
+				seventh_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "eighth_task_part4";
+			@condition
+			{
+				seventh_task_part1;
+				seventh_task_part2;
+				seventh_task_part3;
+				seventh_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "ninth_task_part2";
+			@condition
+			{
+				eighth_task_part1;
+				eighth_task_part2;
+				eighth_task_part3;
+				eighth_task_part4;
+			}
+		}
+
+		@action
+		{
+			#string type "enable condition";
+			#string data "ninth_task_part3";
+			@condition
+			{
+				eighth_task_part1;
+				eighth_task_part2;
+				eighth_task_part3;
+				eighth_task_part4;
+			}
+		}  
+
+		@action
+		{
+			#string type "enable condition";
+			#string data "tenth_task_part4";
+			@condition
+			{
+				ninth_task_part1;
+				ninth_task_part2;
+				ninth_task_part3;
+				ninth_task_part4;
+			}
+		}  		
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "eleventh_task_part1";
+	
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "eleventh_task_part2";
+		}  
+		
+		@action
+		{
+			#string type "disable condition";
+			#string data "eleventh_task_part3";
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "eleventh_task_part1";
+			@condition
+			{
+				tenth_task_part1;
+				tenth_task_part2;
+				tenth_task_part3;
+				tenth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "eleventh_task_part2";
+			@condition
+			{
+				tenth_task_part1;
+				tenth_task_part2;
+				tenth_task_part3;
+				tenth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "enable condition";
+			#string data "eleventh_task_part3";
+			@condition
+			{
+				tenth_task_part1;
+				tenth_task_part2;
+				tenth_task_part3;
+				tenth_task_part4;
+			}
+		}  
+		
+		//----------------------------------------------//
+		//				мессаги							//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_hello";
+			@condition
+			{
+				comics_episode1;
+			}
+		}  
+
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_about_tasks";
+			@condition
+			{
+				comics_episode2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_first_task";
+			@condition
+			{
+				comics_episode3;
+			}
+		} 
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_second_task";
+			@condition
+			{
+				first_task_part1;
+				first_task_part2;
+				first_task_part3;
+				first_task_part4;
+			}
+		} 
+	
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_third_task";
+			@condition
+			{
+				second_task_part1;
+				second_task_part2;
+				second_task_part3;
+				second_task_part4;
+			}
+		} 
+
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_fourth_task";
+			@condition
+			{
+				third_task_part1;
+				third_task_part2;
+				third_task_part3;
+				third_task_part4;
+			}
+		} 
+
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_fifth_task";
+			@condition
+			{
+				fourth_task_part1;
+				fourth_task_part2;
+				fourth_task_part3;
+				fourth_task_part4;
+			}
+		} 
+
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_sixth_task";
+			@condition
+			{
+				fifth_task_part1;
+				fifth_task_part2;
+				fifth_task_part3;
+				fifth_task_part4;
+			}
+		} 
+
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_seventh_task";
+			@condition
+			{
+				sixth_task_part1;
+				sixth_task_part2;
+				sixth_task_part3;
+				sixth_task_part4;
+			}
+		} 
+
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_eighth_task";
+			@condition
+			{
+				seventh_task_part1;
+				seventh_task_part2;
+				seventh_task_part3;
+				seventh_task_part4;
+			}
+		} 
+
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_ninth_task";
+			@condition
+			{
+				eighth_task_part1;
+				eighth_task_part2;
+				eighth_task_part3;
+				eighth_task_part4;
+			}
+		} 
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_tenth_task";
+			@condition
+			{
+				ninth_task_part1;
+				ninth_task_part2;
+				ninth_task_part3;
+				ninth_task_part4;
+			}
+		} 		
+	
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_eleventh_task";
+			@condition
+			{
+				tenth_task_part1;
+				tenth_task_part2;
+				tenth_task_part3;
+				tenth_task_part4;
+			}
+		} 
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l11_message_victory";
+			@condition
+			{
+				eleventh_task_part1;
+				eleventh_task_part2;
+				eleventh_task_part3;
+			}
+		} 
+		
+		//----------------------------------------------//
+		//		а тут дибильные таски на уровень		//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l11_task_first_task";
+			@condition
+			{
+				first_task_part1;
+				first_task_part2;
+				first_task_part3;
+				first_task_part4;
+			}
+		}  
+
+		@action
+		{
+			#string type "set task";
+			#string data "l11_task_second_task";
+			@condition
+			{
+				second_task_part1;
+				second_task_part2;
+				second_task_part3;
+				second_task_part4;
+			}
+		}  
+
+		@action
+		{
+			#string type "set task";
+			#string data "l11_task_third_task";
+			@condition
+			{
+				third_task_part1;
+				third_task_part2;
+				third_task_part3;
+				third_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l11_task_fourth_task";
+			@condition
+			{
+				fourth_task_part1;
+				fourth_task_part2;
+				fourth_task_part3;
+				fourth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l11_task_fifth_task";
+			@condition
+			{
+				fifth_task_part1;
+				fifth_task_part2;
+				fifth_task_part3;
+				fifth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l11_task_sixth_task";
+			@condition
+			{
+				sixth_task_part1;
+				sixth_task_part2;
+				sixth_task_part3;
+				sixth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l11_task_seventh_task";
+			@condition
+			{
+				seventh_task_part1;
+				seventh_task_part2;
+				seventh_task_part3;
+				seventh_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l11_task_eighth_task";
+			@condition
+			{
+				eighth_task_part1;
+				eighth_task_part2;
+				eighth_task_part3;
+				eighth_task_part4;
+			}
+		}
+
+		@action
+		{
+			#string type "set task";
+			#string data "l11_task_ninth_task";
+			@condition
+			{
+				ninth_task_part1;
+				ninth_task_part2;
+				ninth_task_part3;
+				ninth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l11_task_tenth_task";
+			@condition
+			{
+				tenth_task_part1;
+				tenth_task_part2;
+				tenth_task_part3;
+				tenth_task_part4;
+			}
+		}
+
+		@action
+		{
+			#string type "set task";
+			#string data "l11_task_eleventh_task";
+			@condition
+			{
+				eleventh_task_part1;
+				eleventh_task_part2;
+				eleventh_task_part3;
+			}
+		}  		
+	
+		//----------------------------------------------//
+		//				подзадачи						//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "add task";
+			#string data "l11_task_first_task";
+		}  
+
+		@action
+		{
+			#string type "add task";
+			#string data "l11_task_second_task";
+			@condition
+			{
+				first_task_part1;
+				first_task_part2;
+				first_task_part3;
+				first_task_part4;
+			}
+		}  
+
+		@action
+		{
+			#string type "add task";
+			#string data "l11_task_third_task";
+			@condition
+			{
+				second_task_part1;
+				second_task_part2;
+				second_task_part3;
+				second_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l11_task_fourth_task";
+			@condition
+			{
+				third_task_part1;
+				third_task_part2;
+				third_task_part3;
+				third_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l11_task_fifth_task";
+			@condition
+			{
+				fourth_task_part1;
+				fourth_task_part2;
+				fourth_task_part3;
+				fourth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l11_task_sixth_task";
+			@condition
+			{
+				fifth_task_part1;
+				fifth_task_part2;
+				fifth_task_part3;
+				fifth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l11_task_seventh_task";
+			@condition
+			{
+				sixth_task_part1;
+				sixth_task_part2;
+				sixth_task_part3;
+				sixth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l11_task_eighth_task";
+			@condition
+			{
+				seventh_task_part1;
+				seventh_task_part2;
+				seventh_task_part3;
+				seventh_task_part4;
+			}
+		}
+
+		@action
+		{
+			#string type "add task";
+			#string data "l11_task_ninth_task";
+			@condition
+			{
+				eighth_task_part1;
+				eighth_task_part2;
+				eighth_task_part3;
+				eighth_task_part4;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add task";
+			#string data "l11_task_tenth_task";
+			@condition
+			{
+				ninth_task_part1;
+				ninth_task_part2;
+				ninth_task_part3;
+				ninth_task_part4;
+			}
+		}
+
+		//----------------------------------------------//
+		//				главное задание					//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "add task";
+			#string data "l11_task_eleventh_task";
+			@condition
+			{
+				tenth_task_part1;
+				tenth_task_part2;
+				tenth_task_part3;
+				tenth_task_part4;
+			}
+		}  		
+
+		//----------------------------------------------//
+		//				добавляем на поле				//
+		//----------------------------------------------//
+		
+		@action //добавили героя
+		{
+			#string type "add to field";
+			#string data "hero";
+			#point coords  6, 8;
+		}
+
+		@action
+		{
+			#string type "add to field";
+			#string data "hangar_vegetables";
+			#point coords  4, 4;
+		}
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "tree_desert_cherry";
+			#point coords 7, 4;
+		}
+	
+		@action
+		{
+			#string type "add to field";
+			#string data "big_watercan";
+			#point coords  6, 9;
+		}
+		@action
+		{
+			#string type "add to field";
+			#string data "waterpump";
+			#point coords  5, 8;
+		}
+		@action
+		{
+			#string type "add to field";
+			#string data "tenbox";
+			#point coords  5, 6;
+		}
+		
+		
+		//----------------------------------------------//
+		//				добавляем всякое				//
+		//----------------------------------------------//
+		
+		@action //бабок накинули
+		{
+			#string type "add money";
+			#string data "700";
+		}
+		
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "aubergine";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "beetroot";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "cabbage";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "carrot";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "corn";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "cucumber";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "dahlia";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "mushroom";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "pepper";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "pumpkin";
+ 		}
+		
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "strawberries";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "sunflower";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "tomato";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "tulip";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "watermelon";
+ 		}
+ 		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "radish";
+ 		}
+ 				
+		@action
+		{
+			#string type "add to shop";
+			#string data "beehive";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_chicken";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_sheep";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_pig";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "house_cow";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "hangar_vegetables";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "hangar_flowers";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "hangar_refrigerator";
+		}
+
+		@action
+		{
+			#string type "add to shop";
+			#string data "tree_desert_cherry";
+		}
+		
+		@action //добавили в магазин ящики
+		{
+			#string type "add to shop";
+			#string data "tree_desert_apple";
+		}
+		
+		@action //добавили в магазин ящики
+		{
+			#string type "add to shop";
+			#string data "tree_desert_plum";
+		}
+
+		@action //добавили в магазин ящики
+		{
+			#string type "add to shop";
+			#string data "tree_desert_palm";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "box";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "fivebox";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "tenbox";
+		}
+		
+		@action //добавили в магазин ящики
+		{
+			#string type "add to shop";
+			#string data "fertilizer";
+		}
+		
+		@action //добавили в магазин ящики
+		{
+			#string type "add to shop";
+			#string data "big_fertilizer";
+		}	
+		
+		@action //добавили в магазин лейку
+		{
+			#string type "add to shop";
+			#string data "waterpump";
+		}
+		
+		@action //добавили в магазин лейку
+		{
+			#string type "add to shop";
+			#string data "watercan";
+		}
+		
+		@action //добавили в магазин лейку
+		{
+			#string type "add to shop";
+			#string data "big_watercan";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "water_sprinkler";
+		}
+		
+		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "destructor";
+ 		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "harvester";
+		}
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "helper";
+		}
+		
+		@action
+ 		{
+ 			#string type "add to shop";
+ 			#string data "transporter";
+ 		}
+		//----------------------------------------------//
+		//				игровые события					//
+		//----------------------------------------------//	
+
+		@action
+		{
+			#string type "delete shop";
+			#string data "harvester";
+			@condition
+			{
+				delete_shop_harvester;
+			}
+		}  
+		
+		@action
+		{
+			#string type "delete shop";
+			#string data "helper";
+			@condition
+			{
+				delete_shop_helper;
+			}
+		}  
+		
+		@action	
+		{
+			#string type "victory";
+			@condition 1
+			{
+				eleventh_task_part1;
+				eleventh_task_part2;
+				eleventh_task_part3;
+			}
+		}
+		@action
+		{
+			#string type "defeat";
+			@condition 1
+			{
+				defeat_time;
+			}
+		}
+	}
+}
+
+
+>>
+
+тут тоже можно писать что угодно
+что угодно
+
+

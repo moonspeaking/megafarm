@@ -1,0 +1,16 @@
+<<
+@spade 8
+{
+	#string name "spade";
+	#string type_goods "inventory";
+	#int price 5;
+	#point pos 0, 0;
+	#point size 64, 128;
+	#bool solid false;
+	#point zbase 2, -24;
+	#string texpicture_name "spade.tga";
+	#string texhighlight_name "spade.tga";
+	#string texmask_name "spade.tga";
+}
+>>
+

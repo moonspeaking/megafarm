@@ -1,0 +1,17 @@
+<<
+@hero 0
+{
+	#string name "hero";
+	#string type_goods "personal";
+	#int price 0;
+	#point pos 0, 0;
+	#point size 128, 256;
+	#bool solid false;
+	#float speed 300;
+	#point zbase 0, 0;
+
+	#point base_center 0, 0;
+	#point base_radius 2, 2;
+}
+>>
+

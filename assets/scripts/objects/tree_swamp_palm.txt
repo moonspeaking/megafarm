@@ -1,0 +1,38 @@
+<<
+@tree 1
+{
+	#string name "tree_swamp_palm";
+	#string type_goods "trees";
+	#int price 300;
+	#point pos 0, 0;
+	#point size 256, 256;
+	#bool solid true;
+	#point zbase 15, -90;
+	
+	#int harvest 7.5;
+	#int cost_fruit 32;
+	#float time_spoil_fruit 0;
+	
+	#string name_fruit "fruit_bananas";
+	#string type_fruit "vegetables";
+
+	#string texpicture_name "tree_swamp_palm.tga";
+	#string texhighlight_name "tree_swamp_palm.tga";
+	#string texmask_name "tree_swamp_palm.tga";
+	
+	#point base_center 15, -90;
+	#point base_radius 78, 48;
+	#point dock_center 15, -138;
+	#point dock_radius 8, 8;
+	
+	#int ready_icon_num 18;
+	#point ready_bar_pos 0, 128;
+
+	@fruit
+	{
+		#point fruit_size 128, 128;
+		#point fruit_pos -8, 48;
+	}
+}
+>>
+

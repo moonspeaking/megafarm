@@ -1,0 +1,304 @@
+
+скрипт с шаблонами частиц	
+<<
+
+@ParticleTemplate
+{
+	#string name "fruit_ready";
+	
+	#float pos_scatter 30;	
+
+	#float start_speed 0.1;
+	#float speed_scatter 0.02;
+
+	#point gravity 0, -0.0005;
+
+	#string texture "particles.tga";
+	
+	#int texture_num 33;
+	
+	#bool blending true;
+
+	#float start_size 32;
+	#float size_scatter 0;
+
+	#float size_speed -0.07;
+	#float size_speed_scatter 0.02;
+	
+	#float start_angle 0;
+	#float angle_scatter 180;
+	
+	#float angle_speed 0;
+	#float angle_speed_scatter 0.2;
+
+	#color color 255, 255, 255, 255;
+	#color color_scatter 127, 127, 127, 0;
+
+	#rect color_speed 0, 0, 0, -0.06;
+	#rect color_speed_scatter 0, 0, 2, 0;
+}
+
+@ParticleTemplate
+{
+	#string name "add_trophy";
+	
+	#float pos_scatter 50;	
+
+	#float start_speed 0.05;
+	#float speed_scatter 0.01;
+
+	#point gravity 0, -0.0001;
+
+	#string texture "particles.tga";
+	
+	#int texture_num 61;
+	
+	#bool blending true;
+
+	#float start_size 64;
+	#float size_scatter 5;
+
+	#float size_speed -0.1;
+	#float size_speed_scatter 0.02;
+	
+	#float start_angle 0;
+	#float angle_scatter 180;
+	
+	#float angle_speed 0;
+	#float angle_speed_scatter 0.2;
+
+	#color color 255, 255, 255, 255;
+	#color color_scatter 127, 127, 127, 0;
+
+	#rect color_speed 0, 0, 0, -0.001;
+	#rect color_speed_scatter 2, 2, 2, 0;
+}
+
+@ParticleTemplate
+{
+	#string name "item_hint";
+	
+	#float pos_scatter 30;	
+
+	#float start_speed 0.00;
+	#float speed_scatter 0.00;
+
+	#point gravity 0, 0;
+
+	#string texture "particles.tga";
+	
+	#int texture_num 12;
+	
+	#bool blending true;
+
+	#float start_size 32;
+	#float size_scatter 2;
+
+	#float size_speed -0.01;
+	#float size_speed_scatter 0.002;
+	
+	#float start_angle 0;
+	#float angle_scatter 180;
+	
+	#float angle_speed 0;
+	#float angle_speed_scatter 0.8;
+
+	#color color 255, 255, 255, 255;
+	#color color_scatter 127, 127, 127, 0;
+
+	#rect color_speed 0, 0, 0, -0.01;
+	#rect color_speed_scatter 2, 2, 2, 0;
+}
+
+@ParticleTemplate
+{
+	#string name "heart_up";
+	
+	#float pos_scatter 32;	
+
+	#float start_speed 0.05;
+	#float speed_scatter 0.01;
+	
+	#float start_dir 90;
+	#float dir_scatter 15;
+
+	#point gravity 0, 0;
+
+	#string texture "particles.tga";
+	
+	#int texture_num 47;
+	
+	#bool blending false;
+
+	#float start_size 16;
+	#float size_scatter 2;
+
+	#float size_speed -0.01;
+	#float size_speed_scatter 0;
+	
+	#float start_angle 270;
+	#float angle_scatter 0;
+	
+	#float angle_speed 0;
+	#float angle_speed_scatter 0;
+
+	#color color 255, 255, 255, 255;
+	#color color_scatter 0, 0, 0, 0;
+
+	#rect color_speed 0, 0, 0, -0.1;
+	#rect color_speed_scatter 0, 0, 0, 0;
+}
+
+@ParticleTemplate
+{
+	#string name "object_bought";
+	
+	#float pos_scatter 48;	
+
+	#float start_speed 0.1;
+	#float speed_scatter 0.05;
+
+	#float start_dir 90;
+	#float dir_scatter 15;
+
+	#point gravity 0, -0.0004;
+	
+
+	#string texture "particles.tga";
+	
+	#int texture_num 17;
+	
+	#bool blending true;
+
+	#float start_size 32;
+	#float size_scatter 4;
+
+	#float size_speed -0.07;
+	#float size_speed_scatter 0.02;
+	
+	#float start_angle 0;
+	#float angle_scatter 180;
+	
+	#float angle_speed 0;
+	#float angle_speed_scatter 0.2;
+
+	#color color 255, 255, 255, 255;
+	#color color_scatter 127, 127, 127, 0;
+
+	#rect color_speed 0, 0, 0, -0.06;
+	#rect color_speed_scatter 0, 0, 0, 0;
+}
+
+@ParticleTemplate
+{
+	#string name "explosion";
+	
+	#float pos_scatter 32;	
+
+	#float start_speed 0.03;
+	#float speed_scatter 0.003;
+
+	#point gravity 0, 0;
+
+	#string texture "particles.tga";
+	
+	#int texture_num 34;
+	
+	#bool blending true;
+
+	#float start_size 32;
+	#float size_scatter 5;
+
+	#float size_speed 0.06;
+	#float size_speed_scatter 0.004;
+	
+	#float start_angle 0;
+	#float angle_scatter 180;
+	
+	#float angle_speed 0.1;
+	#float angle_speed_scatter 0.03;
+
+	#color color 200, 200, 200, 200;
+	#color color_scatter 0, 0, 0, 64;
+
+	#rect color_speed -0.1, -0.1, -0.1, -0.1;
+	#rect color_speed_scatter 0.001, 0.001, 0.001, 0.001;
+}
+
+@ParticleTemplate
+{
+	#string name "gold_coins";
+	
+	#float pos_scatter 80;	
+
+	#float start_speed 0.3;
+	#float speed_scatter 0.01;
+
+	#point gravity 0, -0.0005;
+
+	#string texture "particles.tga";
+	
+	#int texture_num 53;
+	
+	#float start_dir 90;
+	#float dir_scatter 15;
+	
+	#bool blending false;
+
+	#float start_size 32;
+	#float size_scatter 5;
+
+	#float size_speed 0;
+	#float size_speed_scatter 0;
+	
+	#float start_angle 0;
+	#float angle_scatter 0;
+	
+	#float angle_speed 0;
+	#float angle_speed_scatter 0;
+
+	#color color 255, 255, 255, 255;
+	#color color_scatter 0, 0, 0, 0;
+
+	#rect color_speed 0, 0, 0, -0.2;
+	#rect color_speed_scatter 0, 0, 0, 0;
+}
+
+@ParticleTemplate
+{
+	#string name "plant_death";
+	
+	#float pos_scatter 30;	
+
+	#float start_speed 0.00;
+	#float speed_scatter 0.00;
+
+	#point gravity 0, 0;
+
+	#string texture "particles.tga";
+	
+	#int texture_num 11;
+	
+	#bool blending true;
+
+	#float start_size 64;
+	#float size_scatter 2;
+
+	#float size_speed -0.04;
+	#float size_speed_scatter 0.01;
+	
+	#float start_angle 0;
+	#float angle_scatter 180;
+	
+	#float angle_speed 0;
+	#float angle_speed_scatter 0;
+
+	#color color 255, 255, 255, 255;
+	#color color_scatter 0, 0, 0, 0;
+
+	#rect color_speed 0, 0, 0, -0.01;
+	#rect color_speed_scatter 0, 0, 0, 0;
+}
+
+>>
+that's it, folks!

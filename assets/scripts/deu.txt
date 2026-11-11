@@ -1,0 +1,1070 @@
+<<
+
+	begin_lower_char = a
+	end_lower_char = z
+	begin_upper_char = A
+	end_upper_char = Z
+	start = Start
+	freemode = Test
+	options = Optionen
+	trophyroom = Pokale
+	change_player = Spieler wechseln
+	credits = Entwicklung
+	help = Hilfe
+	exit = Beenden
+	back = Zurück
+	loading = Spiel wird geladen
+
+	musics = Musik
+	fullscreen = Ganzer Bildschirm
+	windowed = Kleines Fenster
+	vsync = Synchronisation
+	
+	new_profile = Spieler anlegen
+	delete_profile = Ändern
+
+	music_on = MUSIK AN
+	music_off = MUSIK AUS
+	sound_on = SFX AN
+	sound_off = SFX AUS
+	cursor_on = Cursor An
+	cursor_off = Cursor Aus
+	
+	set_volume = Lautstärke
+	sound_volume = SFX LAUTSTÄRKE
+	music_volume = MUSIK LAUTSTÄRKE
+
+	languages = Sprache wählen
+	lang_rus = Русский
+	lang_eng = English
+	lang_fra = Français
+	lang_ita = Italiano
+	lang_por = Inglês
+	lang_dut = Nederlands
+	lang_swe = Svenska
+	lang_deu = Deutsch
+	lang_esp = Español
+	lang_jap = Japanese
+	lang_kor = Korean
+	lang_chn = Chinese
+
+	change_player_label = (Spieler wechseln)
+	ok = Ok
+	cancel = Abbrechen
+	yes = Ja
+	no = Nein
+	game_saved = Spiel gespeichert.
+	game_loaded = Spiel geladen.
+	question_save_game = Aktuelles Spiel speichern?
+	question_load_game = Gespeichertes Spiel laden?
+	question_exit_game = Spiel wirklich beenden?
+	question_replay_game = Diesen Level wirklich noch einmal spielen? 
+	question_end_game = Wirklich zum Hauptmenü wechseln? 
+	question_saveandexit_game = Spiel schon gespeichert? 
+	cheatmodeon = Cheatmodus aktiviert! 
+	cheatmodeoff = Cheatmodus deaktiviert!
+	tasks = Aufgaben
+	mainmenu = Menü
+	continue = Weiter
+	restart = Erneut spielen
+	exitgame = Beenden
+	profit_hint = Du hast % Dollar verdient.
+	current_task = Aktuelle Aufgabe
+	click_to_continue = WEITER
+	patent_buy_confirm = Möchtest du wirklich diese Bestellung aufgeben?
+	notify_you_cant_place = Du kannst das hier nicht abstellen!
+	notify_you_cant_gowhere = Du kannst dort nicht hingehen!
+	
+	wombat = Wombat
+	
+	control_help_1 = Die linke Maustaste steuert die Figuren, mit der rechten Maustaste hebst du Befehle auf. Die Pfeiltasten bewegen das Spielfeld.
+	control_help_2 = Einmal klicken für einfache Aktionen, doppelklicken fürs Umgraben und Bestellen der Erde und um Gegenstände abzustellen.
+	
+	text_enter_name = Gib deinen Namen ein.
+	welcome_message = Willkommen, 
+
+	dig_squares = Grabe das Feld um
+	water_plants = Gieße die Pflanzen
+
+	level1_name = Training
+	level2_name = Dein erster Bauernhof
+	level3_name = Ab in die Schweinezucht
+	level4_name = Das Geld wächst auf den Bäumen
+	level5_name = Die Kraft der Blumen
+	level6_name = Fleißig wie die Bienen
+	level7_name = Auf dem Bauernmarkt
+	level8_name = Lieferanten
+	level9_name = Geld, Geld, Geld
+	level10_name = Dürre
+	level11_name = Dein Traumbauernhof
+	level12_name = Wirtschaftsbetrieb
+	
+	trophy_announce_header = Du hast einen Pokal gewonnen!
+	
+	trophy_hint0 = Die Kuckucksuhr wurde dir für das hervorragende Abschneiden bei der Trainingseinheit verliehen. 
+	trophy_hint1 = Das Bauernsparschwein hast du gewonnen, weil im Sparen das Geheimnis wahren Reichtums steckt. 
+	trophy_hint2 = Die Statuette 'Finde Zeit für die Schweine' hast du für deine Viehzucht und die Rettung der Schweine bekommen.
+	trophy_hint3 = Diese Palme ist ein Geschenk der Dorfbewohner, weil du ihre Häuser vor dem gigantischen Windrad der Fabrik bewahrt hast.
+	trophy_hint4 = Die Florikultur-Goldmedaille hast du für deine bemerkenswerte Arbeit bei der Blumenzucht gewonnen. 
+	trophy_hint5 = Den Preis für die fleißigste Arbeitsbiene hast du gewonnen, weil du die alten Bienenzucht-Traditionen wiederbelebt hast. 
+	trophy_hint6 = Der Hauptpreis des Bauernmarktes. 
+	trophy_hint7 = Die Bauernfreiheitsstatue wurde dir dafür überreicht, dass du im Angesicht wirtschaftlicher Aggression deine Unabhängigkeit bewahrt hast. Liberté, l'agriculture, fraternité.
+	trophy_hint8 = Dein Kontoauszug ist bislang deine beste Trophäe. Die anderen Bauern haben dir zur Belohnung ein Eis spendiert!
+	trophy_hint9 = Der Silberne Wassereimer ist der Preis dafür, dass dein Bauernhof die Dürre überlebt hat. 
+	trophy_hint10 = Den Goldenen Kolben hast du dafür gewonnen, den Bauernhof der Zukunft entwickelt zu haben!
+	trophy_hint11 = Das Zertifikat qualifiziert dich als den besten Lieferanten von Frischeerzeugnissen. Du hast die Ausschreibung gewonnen!
+	trophy_hint12 = Der beste Landwirt in der Geschichte des Landwirtschaftspokals. 
+	
+	level_not_finished = Level nicht bestanden.
+    level_completed = Level bestanden
+    level_completed_with_trophy = Preisverdächtige Leistung!
+    level_time = Zeit
+    level_money = Profit
+    best_time = Rekordzeit:
+    best_money = Rekordgewinn:
+
+	inventory_form = ZUBEHÖR
+	buildings_form = GEBÄUDE
+	seeds_form = SAMEN
+	sprouts_form = PFLANZEN
+	trees_form = BÄUME
+	workers_form = ARBEITER
+
+	aubergine = Auberginen
+	beetroot = Rüben
+	cabbage = Kohl
+	carrot = Karotten
+	corn = Mais
+	cucumber = Gurken
+	dahlia = Dahlien
+	mushroom = Champignons
+	pepper = Paprika
+	pumpkin = Kürbisse
+	radish = Radieschen
+	strawberries = Erdbeeren
+	sunflower = Sonnenblumen
+	tomato = Tomaten
+	tulip = Tulpen
+	watermelon = Wassermelonen
+	
+	task_separator = zu
+	task_sow = säen
+	task_sell = verkaufen
+	task_fertilize = düngen
+	task_buy = kaufen
+	
+	water_sprinkler = Wassersprinkler
+	time = Zeit
+	
+	tree_desert_apple = Apfelbäume
+	tree_desert_cherry = Kirschbäume
+	tree_desert_palm = Bananenbäume
+	tree_desert_plum = Pflaumenbäume
+	tree_grass_apple = Apfelbäume
+	tree_grass_cherry = Kirschbäume
+	tree_grass_palm = Bananenbäume
+	tree_grass_plum = Pflaumenbäume
+	tree_swamp_apple = Apfelbäume
+	tree_swamp_cherry = Kirschbäume
+	tree_swamp_palm = Bananenbäume
+	tree_swamp_plum = Pflaumenbäume
+	
+	house_chicken_product = Eier
+	house_cow_product = Milch
+	house_pig_product = Ferkel
+	house_sheep_product = Wolle
+	beehive_product = Honig
+	
+	tree_desert_apple_product = Äpfel
+	tree_desert_cherry_product = Kirschen
+	tree_desert_palm_product = Bananen
+	tree_desert_plum_product = Pflaumen
+	tree_grass_apple_product = Äpfel
+	tree_grass_cherry_product = Kirschen
+	tree_grass_palm_product = Bananen
+	tree_grass_plum_product = Pflaumen
+	tree_swamp_apple_product = Äpfel
+	tree_swamp_cherry_product = Kirschen
+	tree_swamp_palm_product = Bananen
+	tree_swamp_plum_product = Pflaumen
+	
+	house_chicken = Hühnerställe
+	house_cow = Kuhställe
+	house_pig = Schweineställe
+	house_sheep = Schafställe
+	hangar_refrigerator = Kühlhaus
+	hangar_flowers = Gewächshäuser
+	beehive = Bienenstöcke
+	
+	helper = Gärtner
+	harvester = Obst- und Gemüsepflücker
+	
+	patent_for_tulip = Tulpenzwiebel-Bestellungen
+	patent_for_dahlia = Dahlienzwiebel-Bestellungen
+	patent_for_sunflower = Sonnenblumenkerne-Bestellungen
+	patent_for_cucumber = Gurkensetzling-Bestellungen
+	patent_for_tomato = Tomatensetzling-Bestellungen
+	patent_for_aubergine = Auberginensetzling-Bestellungen
+	patent_for_pepper = Paprikasetzling-Bestellungen
+	patent_for_watermelon = Wassermelonensamen-Bestellungen
+	patent_for_hangar_flowers = Baugehnehmigungen für Gewächshaus
+	patent_for_beehive = Bienenzucht-Lizenz
+	patent_for_cabbage = Kohlsamen-Bestellungen
+	patent_for_beetroot = Rüben-Samen-Bestellungen
+	patent_for_house_pig = Baugenehmigungen für Schweinestall
+	patent_for_carrot = Karottensamen-Bestellungen
+	patent_for_corn = Maissamen-Bestellungen
+	patent_for_hangar_vegetables = Baugenehmigungen für Scheune
+	patent_for_mushroom = Champignonsporen-Bestellungen
+	patent_for_pumpkin = Kürbissamen-Bestellungen
+	patent_for_strawberries = Erdbeersetzling-Bestellungen
+	patent_for_hangar_refrigerator = Baugenehmigungen für Kühlhaus
+	patent_for_house_sheep = Lizenzen zur Schafzucht
+	patent_for_house_chicken = Lizenzen zur Geflügelzucht
+	patent_for_house_cow = Lizenzen für die Milchwirtschaft
+	patent_for_radish = Radieschensamen-Bestellungen
+	
+	plant_aubergine = Auberginen
+	plant_beetroot = Rüben
+	plant_cabbage = Kohl
+	plant_carrot = Karotten
+	plant_corn = Mais
+	plant_cucumber = Gurken
+	plant_dahlia = Dahlien
+	plant_mushroom = Champignons
+	plant_pepper = Paprika
+	plant_pumpkin = Kürbisse
+	plant_radish = Radieschen
+	plant_strawberries = Erdbeeren
+	plant_sunflower = Sonnenblumen
+	plant_tomato = Tomaten
+	plant_tulip = Tulpen
+	plant_watermelon = Wassermelonen
+	
+	money = Geld
+
+	cost_goods = Du kannst eine Kiste von diesem Erzeugnis für %i Dollar verkaufen.
+	cost_work = Der Lohn eines Hilfsarbeiters beträgt %i Dollar.
+
+	box_shop_hint = Eine Kiste, um deine Ernte einzupacken. 
+	fivebox_shop_hint = Ein Paket mit 5 Kisten
+	tenbox_shop_hint = Ein Paket mit 10 Kisten
+
+	spade_shop_hint = Ein hochkarätiger Gartenspaten
+	watercan_shop_hint = Eine kleine Gießkanne
+	big_watercan_shop_hint = Eine große Gießkanne
+
+	destructor_shop_hint = Mit diesem Gerät kannst du die Pflanzen entfernen und ein bestehendes Beet wieder zuschütten.
+	transporter_shop_hint = Den Kran kannst du benutzen, um Gebäude auf deinem Bauernhof zu bewegen.
+	
+	hangar_vegetables_shop_hint = In den Scheunen lagerst du länger haltbares Obst und Gemüse.
+	hangar_flowers_shop_hint = In den Gewächshäusern lagerst du Blumen.
+	hangar_refrigerator_shop_hint = In den Kühlhäusern lagerst du verdebliche Waren.
+
+	beehive_shop_hint = In den Bienenstöcken hältst du Bienen und wirst köstlichen Honig verkaufen können.
+	house_sheep_shop_hint = In den Schafställen züchtest du Schafe, deren Wolle du verkaufen kannst. 
+	house_pig_shop_hint = In den Schweineställen züchtest du Schweine. 
+	house_cow_shop_hint = In den Kuhställen hältst du Milchkühe, deren Milch du verkaufst. 
+	house_chicken_shop_hint = In den Hühnerställen leben deine Hühner, deren Eier du verkaufen kannst. 
+	
+	
+	waterpump_shop_hint = Wenn du lange Wege zu deiner Wasserpumpe zurücklegen musst, möchtest du vielleicht eine neue Pumpe errichten.
+	water_sprinkler_shop_hint = Wassersprinkler sind auf einem großen Hof unverzichtbar.
+	fertilizer_shop_hint = Ein kleiner Sack Düngemittel
+	big_fertilizer_shop_hint = Ein großer Sack Düngemittel
+	
+	tree_desert_palm_shop_hint = Bananen wachsen vielleicht nicht so schnell, aber man kann mit ihnen viel Geld verdienen. 
+	tree_desert_apple_shop_hint = Apfelbäume sind nicht teuer und Äpfel wachsen schnell. 
+	tree_desert_cherry_shop_hint = Kirschbäume können empfindlich sein, aber ihre Früchte sind ziemlich ertragreich. 
+	tree_desert_plum_shop_hint = Die Früchte der Pflaumenbäume reifen schnell und lassen sich auch gut verkaufen.
+	
+	tree_swamp_palm_shop_hint = Bananen wachsen vielleicht nicht so schnell, aber man kann mit ihnen viel Geld verdienen. 
+	tree_swamp_apple_shop_hint = Apfelbäume sind nicht teuer und Äpfel wachsen schnell. 
+	tree_swamp_cherry_shop_hint = Kirschbäume können empfindlich sein, aber ihre Früchte sind ziemlich ertragreich. 
+	tree_swamp_plum_shop_hint = Die Früchte der Pflaumenbäume reifen schnell und lassen sich auch gut verkaufen.
+
+	tree_grass_palm_shop_hint = Bananen wachsen vielleicht nicht so schnell, aber man kann mit ihnen viel Geld verdienen. 
+	tree_grass_apple_shop_hint = Apfelbäume sind nicht teuer und Äpfel wachsen schnell. 
+	tree_grass_cherry_shop_hint = Kirschbäume können empfindlich sein, aber ihre Früchte sind ziemlich ertragreich. 
+	tree_grass_plum_shop_hint = Die Früchte der Pflaumenbäume reifen schnell und lassen sich auch gut verkaufen.	
+	
+	harvester_shop_hint = Obst- und Gemüsepflücker sind bezahlte Hilfskräfte, die Obst und Gemüse von Beeten und Bäumen sammeln.
+	helper_shop_hint = Gartenhelfer sind bezahlte Hilfskräfte, die deine Pflanzen düngen.
+	
+	aubergine_shop_hint = Paket Auberginensetzlinge.
+	beetroot_shop_hint = Paket Rübensamen.
+	cabbage_shop_hint = Paket Kohlsamen.
+	carrot_shop_hint = Paket Karottensamen.
+	corn_shop_hint = Paket Maissamen.
+	cucumber_shop_hint = Paket Gurkensetzlinge.
+	dahlia_shop_hint = Paket Dahlienzwiebeln.
+	mushroom_shop_hint = Paket Champignonsporen.
+	pepper_shop_hint = Paket Paprikasetzlinge.
+	pumpkin_shop_hint = Paket Kürbissamen.
+	radish_shop_hint = Paket Radieschensamen.
+	strawberries_shop_hint = Paket Erdbeersetzlinge.
+	sunflower_shop_hint = Paket Sonnenblumenkerne.
+	tomato_shop_hint = Paket Tomatensetzlinge.
+	tulip_shop_hint = Paket Tulpenzwiebeln.
+	watermelon_shop_hint = Paket Wassermelonensamen.
+	
+	patent_for_tulip_shop_hint = Bestelle Tulpenzwiebeln. Sobald die Bestellung eintrifft, kannst du Tulpenzwiebeln auf dem Großmarkt kaufen.
+	patent_for_dahlia_shop_hint = Bestelle Dahlienzwiebeln. Sobald die Bestellung eintrifft, kannst du Dahlienzwiebeln auf dem Großmarkt kaufen.
+	patent_for_sunflower_shop_hint = Bestelle Sonnenblumenkerne. Sobald die Bestellung eintrifft, kannst du Sonnenblumenkerne auf dem Großmarkt kaufen.
+	patent_for_cucumber_shop_hint =  Bestelle Gurkensetzlinge. Sobald die Bestellung eintrifft, kannst du Gurkensetzlinge auf dem Großmarkt kaufen.
+	patent_for_tomato_shop_hint =  Bestelle Tomanensetzlinge. Sobald die Bestellung eintrifft, kannst du Tomatensetzlinge auf dem Großmarkt kaufen.
+	patent_for_aubergine_shop_hint =  Bestelle Auberginensetzlinge. Sobald die Bestellung eintrifft, kannst du Auberginensetzlinge auf dem Großmarkt kaufen.
+	patent_for_pepper_shop_hint =  Bestelle Paprikasetzlinge Sobald die Bestellung eintrifft, kannst du Paprikasetzlinge auf dem Großmarkt kaufen.
+	patent_for_watermelon_shop_hint =  Bestelle Wassermelonensamen. Sobald die Bestellung eintrifft, kannst du Wassermelonen auf dem Großmarkt kaufen.
+	patent_for_hangar_flowers_shop_hint =  Erwirb eine Florikulturkizenz und eine Baugenehmigung für ein Gewächshaus. Mit der Florikulturlizenz kannst du Blumen züchten und verkaufen.
+	patent_for_beehive_shop_hint = Erwirb eine Bienenzuchtlizent. Mit dieser Lizenz kannst du Honig herstellen und verkaufen. 
+	patent_for_beetroot_shop_hint = Bestelle Rüben-Samen. Sobald die Bestellung eintrifft, kannst du Rüben-Samen auf dem Großmarkt kaufen.
+	patent_for_cabbage_shop_hint = Bestelle Kohlsamen. Sobald die Bestellung eintrifft, kannst du Kohlsamen auf dem Großmarkt kaufen.
+	patent_for_carrot_shop_hint = Bestelle Karottensamen. Sobald die Bestellung eintrifft, kannst du Karottensamen auf dem Großmarkt kaufen.
+	patent_for_corn_shop_hint = Bestelle Maissamen. Sobald die Bestellung eintrifft, kannst du Maissamen auf dem Großmarkt kaufen.
+	patent_for_hangar_refrigerator_shop_hint = Erwirb eine Baugenehmigung für ein Kühlhaus und die Lizenz, es zu betreiben.
+	patent_for_hangar_vegetables_shop_hint = Erwirb eine Baugenehmigung für eine Scheune. Damit kanns du eine weitere Scheune an einer besseren Stelle auf der Farm bauen. 
+	patent_for_house_chicken_shop_hint = Erbwirb eine Lizenz zur Hühnerzucht. Mit dieser Lizenz kannst du Hühner züchten und Eier verkaufen.
+	patent_for_house_cow_shop_hint = Erwirb eine Lizenz für Milchwirtschaft. Damit kannst du Kühe züchten und Milch verkaufen. 
+	patent_for_house_pig_shop_hint = Erwirb eine Lizenz zur Schweinezucht. Damit kannst du Schweine züchten und verkaufen. 
+	patent_for_house_sheep_shop_hint = Erwirb eine Lizenz für die Aufzucht von Schafen. Mit dieser Lizenz kannst du Schafe züchten und ihre Wolle verkaufen.
+	patent_for_mushroom_shop_hint = Bestelle Champignonsporen. Sobald die Bestellung eintrifft, kannst du Champignonsporen auf dem Großmarkt kaufen.
+	patent_for_pumpkin_shop_hint = Bestelle Kürbissamen. Sobald die Bestellung eintrifft, kannst du Kürbissamen auf dem Großmarkt kaufen.
+	patent_for_radish_shop_hint = Bestelle Radieschensamen. Sobald die Bestellung eintrifft, kannst du Radieschensamen auf dem Großmarkt kaufen.
+	patent_for_strawberries_shop_hint = Bestelle Erdbeersetzlinge. Sobald die Bestellung eintrifft, kannst du Erdbeersetzlinge auf dem Großmarkt kaufen.
+	
+	notify_add_shop_harvester = Du kannst jetzt einen Obst- und Gemüsepflücker einstellen, der dir bei der Ernte hilft. 
+	notify_add_shop_helper = Du kannst jetzt einen Gärtner einstellen, der dir hilft, deine Saaten zu wässern und zu düngen. 
+	notify_add_shop_box = Kisten sind jetzt im Großmarkt erhältlich. 
+	notify_add_shop_fivebox = Pakete mit 5 Kisten sind jetzt im Großmarkt erhältlich. 
+	notify_add_shop_tenbox = Pakete mit 10 Kisten sind jetzt im Großmarkt erhältlich
+	notify_add_shop_aubergine = Auberginensetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_beetroot = Rübensamen sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_cabbage = Kohlsamen sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_carrot = Karottensamen sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_corn = Maissamen sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_cucumber = Gurkensetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_dahlia = Dahlienzwiebeln sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_mushroom = Champignonsporen sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_pepper = Paprikasetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_pumpkin = Kürbissamen sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_radish = Radieschensamen sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_strawberries = Erdbeersetzlnge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_sunflower = Sonnenblumenkerne sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tomato = Tomatensetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tulip = Tulpenzwiebeln sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_watermelon = Wassermelonensamen sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_watercan = Gießkannen sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_big_watercan = Große Gießkannen sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_transporter = Du kannst jetzt im Großmarkt einen Kran leihen. 
+
+	notify_add_shop_beehive = Bienenvölker sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_house_sheep = Schafe sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_house_pig = Schweine sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_house_cow = Kühe sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_house_chicken = Hühner sind jetzt im Großmarkt erhältlich.
+
+	notify_add_shop_waterpump = Brunnenanlagen mit Wasserpumpen sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_water_sprinkler = Sprinkler sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_fertilizer = Düngemittel ist jetzt im Großmarkt erhältlich.
+	notify_add_shop_big_fertilizer = Große Säcke Düngemittel sind jetzt im Großmarkt erhältlich.
+
+	notify_add_shop_tree_grass_palm = Bananensetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tree_grass_apple = Apfelsetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tree_grass_cherry = Kirschsetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tree_grass_plum = Pflaumensetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tree_desert_palm = Bananensetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tree_desert_apple = Apfelsetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tree_desert_cherry = Kirschsetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tree_desert_plum = Pflaumensetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tree_swamp_palm = Bananensetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tree_swamp_apple = Apfelsetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tree_swamp_cherry = Kirschsetzlinge sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_tree_swamp_plum = Pflaumensetzlinge sind jetzt im Großmarkt erhältlich.
+
+	notify_add_shop_patent_for_tulip = Du kannst jetzt im Großmarkt eine Bestellung für Tulpenzwiebeln aufgeben. 
+	notify_add_shop_patent_for_dahlia = Du kannst jetzt im Großmarkt eine Bestellung für Dahlienzwiebeln aufgeben.
+	notify_add_shop_patent_for_sunflower = Du kannst jetzt im Großmarkt eine Bestellung für Sonnenblumenkerne aufgeben.
+	notify_add_shop_patent_for_cucumber = Du kannst jetzt im Großmarkt eine Bestellung für Gurkensetzlinge aufgeben.
+	notify_add_shop_patent_for_tomato = Du kannst jetzt im Großmarkt eine Bestellung für Tomatensetzlinge aufgeben.
+	notify_add_shop_patent_for_aubergine = Du kannst jetzt im Großmarkt eine Bestellung für Auberginensetzlinge aufgeben.
+	notify_add_shop_patent_for_pepper = Du kannst jetzt im Großmarkt eine Bestellung für Paprikasetzlinge aufgeben.
+	notify_add_shop_patent_for_watermelon = Du kannst jetzt im Großmarkt eine Bestellung für Wassermelonensamen aufgeben.
+	notify_add_shop_patent_for_hangar_flowers = Du kannst eine Baugenehmigung für das Gewächshaus beantragen und dafür Baumaterial bestellen. 
+	notify_add_shop_patent_for_beehive = Du kannst jetzt im Großmarkt eine Bestellung für einen Bienenstock aufgeben.
+	notify_add_shop_patent_for_cabbage = Du kannst jetzt im Großmarkt eine Bestellung für Kohlsamen aufgeben.
+	notify_add_shop_patent_for_beetroot = Du kannst jetzt im Großmarkt eine Bestellung für Rübensamen aufgeben.
+	notify_add_shop_patent_for_carrot = Du kannst jetzt im Großmarkt eine Bestellung für Karottensamen aufgeben.
+	notify_add_shop_patent_for_house_pig = Du kannst jetzt im Großmarkt eine Bestellung für einen Schweinestall aufgeben.
+	notify_add_shop_patent_for_corn = Du kannst jetzt im Großmarkt eine Bestellung für Maissamen aufgeben.
+	notify_add_shop_patent_for_mushroom = Du kannst jetzt im Großmarkt eine Bestellung für Champignonsporen aufgeben.
+	notify_add_shop_patent_for_strawberries = Du kannst jetzt im Großmarkt eine Bestellung für Erdbeersetzlinge aufgeben.
+	notify_add_shop_patent_for_pumpkin = Du kannst jetzt im Großmarkt eine Bestellung für Kürbissamen aufgeben.
+	notify_add_shop_patent_for_radish = Du kannst jetzt im Großmarkt eine Bestellung für Radieschensamen aufgeben.
+	
+	notify_add_shop_hangar_vegetables = Scheunen sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_hangar_flowers = Gewächshäuser sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_hangar_refrigerator = Kühlhäuser sind jetzt im Großmarkt erhältlich.
+	notify_add_shop_patent_for_house_chicken = Du kannst eine Baugenehmigung für einen Hühnerstall beantragen und dafür Baumaterial bestellen.
+	notify_add_shop_patent_for_house_cow = Du kannst eine Baugenehmigung für einen Kuhstall beantragen und dafür Baumaterial bestellen.
+	notify_add_shop_patent_for_house_pig = Du kannst eine Baugenehmigung für einen Schweinestall beantragen und dafür Baumaterial bestellen.
+ 	notify_add_shop_patent_for_house_sheep = Du kannst eine Baugenehmigung für einen Schafstall beantragen und dafür Baumaterial bestellen.
+	notify_add_shop_patent_for_house_beehive = Du kannst eine Baugenehmigung für einen Bienenstock beantragen und dafür Baumaterial bestellen.
+	notify_add_shop_patent_for_hangar_flowers = Du kannst eine Baugenehmigung für ein Gewächshaus beantragen und dafür Baumaterial bestellen.
+	notify_add_shop_patent_for_hangar_vegetables = Du kannst eine Baugenehmigung für eine Scheune beantragen und dafür Baumaterial bestellen.
+	notify_add_shop_patent_for_hangar_refrigerator = Du kannst eine Baugenehmigung für ein Kühlhaus beantragen und dafür Baumaterial bestellen.
+	
+	notify_no_more_money = Du hast nicht genug Geld, um das zu kaufen!
+	notify_you_cant_put = Du kannst das hier nicht hinstellen!
+	notify_you_cant_storebox = Du musst das woanders lagern!
+	notify_store_in_hangar = Du kannst das hier nicht lagern! Bring es zur Scheune. 
+	notify_store_in_fridge = Du kannst das hier nicht lagern! Bring es zum Kühlhaus. 
+	notify_store_in_flower = Du kannst das hier nicht lagern! Bring es zum Gewächshaus. 
+	notify_box_nomore_full = Diese Kiste ist noch nicht voll!
+	notify_only_for_this_type = Du füllst diese Kiste gerade mit %s. Fülle sie nur mit diesem Produkt!
+	notify_box_full = Diese Kiste ist voll. Bring sie zur Scheune!
+	
+	notify_cant_feed_house_sheep = Schafe essen nur Kohl und Karotten. 
+	notify_cant_feed_house_pig = Schweine essen nur Rüben und Tomaten. 
+	notify_cant_feed_house_cow = Kühe essen nur Kohl und Karotten. 
+	notify_cant_feed_house_chicken = Hühner essen nur Maisfutter. 
+	
+	message_complete_sell_plant_tomato = Großartig! Du hast deine Tomatenbestellung erfüllt. 
+	message_complete_sell_plant_aubergine = Wunderbar! Du hast deine Auberginenbestellung erfüllt! 
+	message_complete_sell_plant_pepper = Exzellent! Du hast deine Paprikabestellung erfüllt! 
+	message_complete_sell_plant_cucumber = Hervorragend! Du hast deine Gurkenbestellung erfüllt! 
+	message_complete_sell_plant_dahlia = Sagenhaft! Du hast deine Dahlienbestellung erfüllt! 
+	message_complete_sell_plant_sunflower = Fabelhaft! Du hast deine Sonnenblumenbestellung erfüllt! 
+	message_complete_sell_plant_tulip = Bemerkenswert!Du hast deine Tulpenbestellung erfüllt! 
+	message_complete_sell_beehive = Großartig! Du hast deine Honigbestellung erfüllt!
+	message_complete_sell_plant_mushroom = Wunderbar! Du hast deine Champignonbestellung erfüllt!
+	message_complete_sell_plant_cabbage = Exzellent! Du hast deine Kohlbestellung erfüllt!
+	message_complete_sell_plant_watermelon = Hervorragend! Du hast deine Wassermelonenbestellung erfüllt!
+	message_complete_sell_plant_beetroot = Sagenhaft! Du hast deine Rübenbestellung erfüllt!
+	message_complete_sell_house_pig = Fabelhaft! Du hast deine Schweinebestellung erfüllt! 
+	message_complete_sell_plant_carrot = Bemerkenswert! Du hast deine Karottenbestellung erfüllt!
+	message_complete_sell_plant_corn = Großartig! Du hast deine Maisbestellung erfüllt!
+	message_complete_sell_plant_pumpkin = Wunderbar! Du hast deine Kürbisbestellung erfüllt!
+	message_complete_sell_plant_strawberries = Exzellent! Du hast deine Erdbeerbestellung erfüllt! 
+	message_complete_sell_house_sheep = Hervorragend! Du hast deine Wollbestellung erfüllt!
+	message_complete_sell_house_chicken = Sagenhaft! Du hast deine Eierbestellung erfüllt!
+	message_complete_sell_house_cow = Fabelhaft! Du hast deine Milchbestellung erfüllt!
+	message_complete_sell_plant_for_radish = Bemerkenswert! Du hast deine Radieschenbestellung erfüllt!
+	message_complete_sell_tree_apple = Großartig! Du hast deine Apfelbestellung erfüllt!
+	message_complete_sell_tree_plum = Wunderbar! Du hast deine Pflaumenbestellung erfüllt!
+	message_complete_sell_tree_cherry = Exzellent! Du hast deine Kirschenbestellung erfüllt!
+	message_complete_sell_tree_palm = Hervorragende! Du hast deine Bananenbestellung erfüllt!
+	
+	l1_message_welcome = Willkommen auf dem Bauernhof! Wir werden lernen, Pflanzen zu züchten und zu ernten. 
+	l1_message_dig_one = Zu Beginn müssen wir die Erde umgraben. Doppelklicke auf eine freie Fläche auf dem Spielfeld, um zu graben.
+	l1_message_dig_four = Fabelhaft! Aber ein Beet reicht nicht für unseren Garten, du musst noch drei weitere Beete umgraben.
+	l1_message_dig_twelve = Großartig! In den nächsten Levels musst du wesentlich mehr Flächen umgraben, aber das reicht jetzt für unseren Übungsgarten. 
+	l1_message_plant_four = Jetzt ist es an der Zeit zu säen. Klicke auf das Päckchen Kürbissamen, um es zu holen, klicke dann auf deine vier Beete, um die Samen zu säen. 
+	l1_message_wait_harvest = Wunderbar! Jetzt musst du darauf warten, dass die Kürbisse wachsen und reifen. Du kannst das Samenpäckchen abstellen, indem du auf eine beliebige freie Fläche auf dem Feld doppelklickst. 
+	l1_message_water = Pflanzen verlangen ständig Aufmerksamkeit und Pflege. Klicke auf die Gießkanne, um sie zu nehmen, zum Füllen klicke auf die Pumpe, dann klicke auf die Beete, die du gießen möchtest, und wässere sie.
+	l1_message_water_ok = Bleib am Ball! Gegossene Pflanzen wachsen schneller und können schneller geerntet werden, trockene Pflanzen verdorren und sterben. 
+	l1_message_dig_more = Langweilig? Dann grabe doch noch ein paar Beete um und pflanze die restlichen Samen. 
+	l1_message_fruits_ready = Okay, alles ist reif, deine erste Ernte kann beginnen. Nimm dir eine Kiste und pflücke das Gemüse. Wenn du vier Teile in der Kiste hast, kannst du sie zur Scheune bringen. 
+	l1_message_box_tutorial = Exzellent! Du brauchst eine neue Kiste für die nächste Ernte. Du kannst sie kaufen, indem du auf den Zubehör-Reiter im Menü unten, dann auf die die Kiste und dann auf eine freie Fläche auf dem Feld klickst. 
+	l1_message_second_harvest = Deine zweite Ernte ist soweit! Lege die Früchte deiner Arbeit in deine neue Kiste und bringe sie zur Scheune. 
+	l1_message_third_harvest = Deine dritte Ernte ist fertig! Sammele die Ernte ein und bringe sie zur Scheune. Damit ist dein Training beendet. 
+	l1_message_fertilizer_tutorial = Dünger kräftigt deine Pflanzen und lässt sie schneller wachsen. Vergiss ihn also in deinem Garten nicht. Du kannst ihn im Großmarkt kaufen, wenn du auf den Zubehör-Reiter und dann auf den Sack Dünger klickst. 
+	l1_message_thirst_reminder = Vergiss nicht, dass dein Garten ständig Wasser braucht! Gieße also regelmäßig und achte auf die Farbe der Erde. 
+	l1_message_victory = Herzlichen Glückwunsch! Du kennst nun die Grundlagen der Landwirtschaft. Aber es gibt noch so viel zu lernen!
+	
+	l1_task_1dig = Den Spaten benutzen
+	l1_task_1dig_details = Doppelklicke auf eine freie Fläche auf dem Feld und grabe und bestelle die Erde. 
+	l1_task_4dig = Setze die Übung fort.
+	l1_task_4dig_details = Grabe und bestelle vier Beete auf dem Feld. 
+	l1_task_4plant = Samen aussäen 
+	l1_task_4plant_details = Nimm den Sack mit Samen und pflanze vier Kürbispflanzen. 
+	l1_task_4water = Die Gießkanne benutzen
+	l1_task_4water_details = Geh' zur Pumpe, um die Gießkanne zu füllen und wässere die Kürbispflanzen. 
+	l1_task_3sell = Die Übung beenden
+	l1_task_3sell_details = Verkaufe drei Kisten mit Kürbis, um die Übungseinheit zu beenden. 
+	
+	
+	l2_task_sow = Los geht's mit deinem Garten
+	l2_task_sow_details = Pflanze 12 Radieschensamen.
+	
+	l2_task_first_sell = Deine erste Bestellung
+	l2_task_first_sell_details = Wir haben eine Bestellung für je 3 Kisten Radieschen und Kürbis erhalten.
+	
+	l2_task_first_patent = Tätige eine Bestellung
+	l2_task_first_patent_details = Bestelle einige Gurkensetzlinge. 
+	
+	l2_task_second_sell = Deine zweite Bestellung
+	l2_task_second_sell_details = Wir haben eine Bestellung für 2 Kisten mit Gurken, 4 mit Kürbis und 3 mit Radieschen erhalten. 
+	
+	l2_task_second_patent = Tätige eine Bestellung
+	l2_task_second_patent_details = Bestelle einige Auberginenpflanzen. Die sind hier ziemlich selten. 
+	
+	l2_task_third_sell = Wir haben schon wieder eine Bestellung erhalten 
+	l2_task_third_sell_details = Wir haben eine Bestellung für eine Kiste Auberginen erhalten. 
+	
+	l2_message_start = Hier ist er also, dein erster Bauernhof. Na gut, vielleicht fehlt es an neuester Technik und alles ist mit Gras überwuchert. Aber es gibt eine stabile Scheune, in der wir unsere Ernte lagern können, und fruchtbare Erde. Mehr braucht ein guter Hof nicht! 
+	l2_message_sow = Dieser Hof wurde jahrelang nicht bewirtschaftet. Überall Gras. Das ist eine harte Aufgabe, aber einer muss sich ja drum kümmern. Also Ärmel hochgekrempelt und an die Arbeit. Wir haben Radieschen- und Kürbissamen. Mit denen kann man doch schon mal anfangen. 
+	l2_message_first_sell = Während wir unsere Samen gesät haben, kam der Besitzer vom Laden um die Ecke vorbei. Ihm gefiel unser Gemüse und er hat 3 Kisten mit Radieschen und 3 mit Kürbis bestellt. 
+	l2_message_add_money = Du hast deine erste Bestellung erfüllt und 200 Dollar verdient. 
+	l2_message_add_money_2 = Du hast deine zweite Bestellung erfüllt und 300 Dollar verdient. 
+	l2_message_first_patent = Dein Bauernhof erfüllt alle Grundvoraussetzungen und du hast sogar deine erste Aufgabe absolviert. Aber deine Pflichten hören nicht auf: Bestelle Gurkenpflanzen unter dem Pflanzen-Reiter, damit du dieses köstliche Gemüse anbauen kannst. 
+	l2_message_second_sell = Der Besitzer vom Laden kam noch mal vorbei. Weil ihm unser Gemüse gefiel, hat er uns das Angebot gemacht, uns 3 Kisten Gurken, 5 mit Kürbis und 6 mit Radieschen abzukaufen. 
+	l2_message_second_patent = Ein Samen-Lieferwagen ist durchs Dorf gefahren und hatte ein paar neue und interessante Samen dabei. Vor allem Auberginensamen, die sonst keiner im Dorf anbaut. Wäre es nicht toll, wenn wir die ersten wären, die dieses leckere Gemüse züchteten? 
+	l2_message_third_sell = Nun hat doch tatsächlich noch ein Bauer im Dorf Auberginensamen gekauft. Jetzt geht es darum, der erste Landwirt zu sein, der sie kultiviert und verkauft. Klar, dass derjenige der beste Landwirt im Dorf sein wird. 
+	l2_message_victory = Fantastisch! Jeder hält deinen Bauernhof für den besten im ganzen Dorf. Du wurdest zum besten Landwirt erkoren. Jetzt kommen viele Leute und fragen dich um Rat. 
+	
+	l2_message_add_waterpump = Vielleicht ist das nicht das Wichtigste auf dem Hof, aber du brauchst immer so lange, um zur Pumpe zu laufen. Du kannst jederzeit eine zweite installieren (sieh mal unter dem Zubehör-Reiter nach).
+	l2_message_add_big_watercan = Dein Garten wird immer größer. So einen großen Garten kann man nur schwierig mit so einer kleinen Gießkanne wässern. Du kannst aber eine größere kaufen. Dann kannst du mit einer Ladung gleich zwölf Beete gießen. Klicke auf den Zubehör-Reiter, um sie zu kaufen. 
+	l2_message_add_fivebox = Du musst für jede Kiste zum Großmarkt gehen. Nervt dich das nicht? Wir haben im Angebot: Ein Paket mit 5 Kisten! 
+	l2_message_thirsty_need = Wichtig: Vergiss deine Pflanzen nicht. Sonst verdorren und sterben sie. 
+	l2_fertilizer_help = Dünge häufig, vor allem, wenn die Herzen aufflackern, sonst verdorren deine Pflanzen. 
+	l2_help_help = Du kannst eine Zusammenfassung deiner Aufgaben lesen, indem du auf die Aufgabenliste am oberen Bildrand klickst. 
+	
+	l3_task_collect_batch_vegatables = Gemüse anbauen
+	l3_task_collect_batch_vegatables_details = Baue jeweils vier Kisten Champignons, Gurken und Auberginen an. 
+
+	l3_task_pig_alarm = Ab in die Schweinezucht
+	l3_task_pig_alarm_details = Wir haben eine Bestellung erhalten, 7 Schweine zu züchten und zu verkaufen. 
+	
+	l3_message_pig_alarm = Grüezi Nachbar! Unglaublich, aber die Wasserleitung zur Fabrik ist geplatzt. Sie ist zwar repariert, aber unsere Felder sind überflutet und wir haben unsere Rüben-Ernte verloren. Jetzt haben wir nichts, was wir an die Schweine verfüttern können. Kein Mensch wird diese mickrigen Säue kaufen! Ich habe sogar eine Bestellung für 7 Ferkel, aber wir wissen nicht, ob wir liefern können. Wir haben gehört, dass du ein junger, talentierter und vertrauenswürdiger Landwirt bist. Kannst du uns helfen? 
+	l3_message_task_collect_batch_vegatables = Wir müssen Tomaten anbauen, um die Schweine zu füttern, aber zuerst müssen wir ein bisschen Geld verdienen. Wir haben eine Bestellung für jeweils 4 Kisten Champignons, Gurken und Auberginen für den Wochenmarkt erhalten. 
+	l3_message_task_sell_pig = Tomatensetzlinge sind endlich im Großmarkt erhältlich (klicke auf den Pflanzen-Reiter). Die müssen wir pflanzen, denn wenn sie reif sind, haben wir etwas, was wir an die Schweine verfüttern können.
+	l3_message_complete_sell_plant_mushroom = Großartig! Du hast deine Champignon-Bestellung ausgeführt! 
+	l3_message_complete_sell_plant_cucumber = Wunderbar! Du hast deine Gurkenbestellung ausgeführt! 
+	l3_message_complete_sell_plant_aubergine = Exzellent! Du hast deine Auberginenbestellung ausgeführt! 
+	l3_message_victory = Geschafft! Jetzt ist dieser Bauernhof besser denn je! 
+	l3_message_beetroot_help = Rübensamen sind jetzt im Großmarkt erhältlich (klicke auf den Samen-Reiter). Schweine essen auch Rüben. Die wachsen schneller als Tomaten. 
+	l3_message_pig_feed_help = Unsere Schweine fressen nun zufrieden. Jetzt müssen wir nur warten, dass die kleinen Ferkel groß und fett werden. Die Futteranzeige wird sinken, solange das Schwein frisst und wächst. Ein Schwein ohne Fressen wird nicht wachsen. Achte darauf, es zu füttern. 
+	l3_message_pig_sow_help = Unser kleines Ferkel ist gewachsen und kann verkauft werden. Setze es in eine Kiste und trage sie zur Scheune. 
+	l3_message_destructor_help = Wenn ein Stück Erde oder ein Beet im Weg ist, kannst du die Erde mit der Bodenfräse wieder auffüllen. 
+	l3_message_transporter_help	= Du kannst jetzt einen Kran vom Großmarkt mieten. Mit dem Kran kannst du jedes Gebäude an einen anderen Platz setzen (klicke auf den Zubehör-Reiter). 
+	l3_message_water_sprinkler_help	= Sprinkler sind jetzt im Großmarkt verfügbar! Eine sehr praktische Sache. Postiere sie in der Nähe deiner Beete und du musst die Pflanzen nicht mehr von Hand gießen. Beachte allerdings, dass jeder Sprinkler nur eine begrenzte Reichweite hat. 
+	l3_message_add_house_pig = Um deine Bestellung schneller auszuführen, kannst du noch einen Schweinestall bauen. Vorher musst du aber eine Baugenehmigung beantragen. Sobald du für die Baugenehmigung bezahlt hast, bekommst du ein 500 Dollar-Darlehen, um den Schweinestall zu bauen.
+	
+	l3_message_have_700money = Du hast 700 Dollar verdient. Du kannst jetzt eine Baugenehmigung für einen Schweinestall beantragen. Damit kannst du deine Ziele schneller erreichen. 
+	l3_message_add_500money = Du hast 500 Dollar verdient. 
+	
+	l4_task_big_cooler = Schützende Baumreihe
+	l4_task_big_cooler_details = Um das Dorf zu retten, müssen wir noch 6 weitere Bäume kaufen und anpflanzen! 
+	l4_task_place_house_chicken = Hühnerstall
+	l4_task_place_house_chicken_details = Du musst einen Hühnerstall bauen. 
+	l4_task_place_hangar_refrigerator = Immer schön cool bleiben
+	l4_task_place_hangar_refrigerator_details = Du musst ein Kühlhaus bauen.
+	
+	l4_message_big_cooler = Die Fabrik am Ende der Straße hat mit einem gigantischen Windrad experimentiert und alle Ernten weggefegt. Wir müssen eine Baumreihe pflanzen und unsere Ernte vor dem zerstörerischen Wind schützen, den diese furchtbare Fabrik erzeugt. Ein paar haben wir schon gepflanzt, aber wir brauchen noch viel mehr! 
+	l4_message_first_task = Wir müssen noch 6 weitere Bäume pflanzen, können sie uns aber nicht leisten. Wir verdienen nicht viel mit dem Verkauf unseres Gemüses, und unser Schweinestall ist ein bisschen heruntergekommen und erwirtschaftet auch nicht genug Geld. Aber wir könnten ein paar wunderbare Hühner holen. Sie fressen zwar eine Menge, aber wir können einen Hühnerstall bauen und ihre Eier verkaufen. Das ist ziemlich gewinnbringend. Wir müssen natürlich eine Genehmigung zur Geflügelhaltung bekommen. Sobald wir die haben, haben uns die Leute aus dem Dorf versprochen zu helfen. 
+	l4_message_place_patent_for_house_chicken = Wir haben jetzt die Baugenehmigung für den Hühnerstall und die Lizenz für diese Unternehmung. Und die Dorfleute haben uns wie versprochen 500 Dollar gegeben, um unsere Ausgaben zu decken. 
+	l4_message_second_task = Jetzt haben wir also einen Hühnerstall. Wir können dummerweise die Eier nicht in der Scheune lagern und müssen ein Kühlhaus bauen. Wir brauchen noch eine Baugenehmigung, aber die Leute aus dem Dorf haben zugestimmt, für den Bau zu zahlen. 
+	l4_message_place_patent_for_hangar_refrigerator = Großartig! Wir haben die Baugenehmigung und können jetzt bauen. Mit den 500 Dollar der Dorfbewohner! 
+	l4_message_last_task = Fantastisch! Jetzt haben wir ein regelmäßiges Einkommen. Solange wir die Hühner mit Maisfutter füttern, werden ihre Eier gute Gewinne abwerfen. Jetzt können wir uns wieder darauf konzentrieren, das Dorf zu retten. Wir müssen 3 weitere Apfelbäume und 3 weitere Pflaumenbäume kaufen und pflanzen. 
+	l4_message_trees_help = Bäume brauchen weder Bewässerung noch Dünger und tragen trotzdem immer Früchte. Vergiss nur nicht, sie zu pflücken. 
+	l4_message_pig_help = Wir haben die Rüben im Garten direkt vor dem Schweinestall. Schweine mögen Rüben genau so wie Tomaten. Sie wachsen nur schneller. 
+	l4_message_victory = Vielen Dank! Durch die Bäume ist der Hof nun sicher und wir haben außerdem eine gute zusätzliche Einnahmequelle! 
+	l4_message_hangar_refrigerator_help = Unser erstes Kühlhaus. Verderbliche Waren wie Eier, Milch und Honig müssen hier gelagert werden. 
+	
+	l4_message_harvester_help = Und hier ist unsere erste Hilfskraft, Billy! Er hat zugestimmt, für einen kleinen Lohn beim Obst- und Gemüsepflücken zu helfen. Klicke ihn an, um ihn zu bezahlen und zum Arbeiten zu bringen. 100 Dollar werden automatisch von deinem Konto abgebucht. 
+	l4_message_harvester_money_help = Billy hat mit der Arbeit aufgehört und eine Münze schwebt über seinem Kopf. Zahltag! Sobald du ihn bezahlt hast, wird er seine Arbeit wieder aufnehmen. 
+	l4_message_harvester_question_help = Ein Fragezeichen steht über dem Kopf der Hilfskraft. Billy weiß nicht, was er machen soll. Das kann passieren, wenn es nicht genug zu ernten gibt. Du musst warten, bis die Dinge wieder reif zur Ernte sind. 
+	l4_message_transporter_help	= Du kannst jetzt einen Kran im Großmarkt leihen. Damit kannst du Gebäude an einen anderen Ort stellen und Bäume verpflanzen. Wähle den Kran aus, klicke auf den Gegenstand, den du bewegen willst, und auf den Ort, an den er soll. Jedes Mal, wenn du diesen Service benutzt, kostet es 10 Dollar. 
+	
+	l5_task_flowers_garden = Blumen zu verkaufen
+	l5_task_flowers_garden_details = Fang an, Blumen zu verkaufen. 
+	l5_task_buy_hangar_flowers = Neue Lagerstätten
+	l5_task_buy_hangar_flowers_details = Kauf ein Gewächshaus, um Blumen zu lagern. 
+	l5_task_sell_batch_flowers = Pflücke ein paar Blumen
+	l5_task_sell_batch_flowers_details = Wickel einen Auftrag für 6 Kisten Sonnenblumen und 6 Kisten Dahlien ab. 
+	l5_task_buy_flowers_patent = Erwirb eine Lizenz für den Blumenverkauf
+	l5_task_buy_flowers_patent_details = Gib eine Bestellung für Sonnenblumenkerne und Dahlienzwiebeln auf. 
+	l5_task_flowers_sow = Pflanze Blumen
+	l5_task_flowers_sow_details = Pflanze 12 Sonnenblumenkerne und 12 Dahlienzwiebeln. 
+	
+	l5_message_about_tasks = Die örtliche Fabrik hat einen Damm gebaut und ein Wasserreservoir direkt neben dem Dorf angelegt. Jetzt ist der Boden nass und sumpfig. Die Pflanzen sehen wirklich erbärmlich aus. Nur der Schweinestall, der Kuhstall und das Bewässerungssystem sind noch übrig. Fast haben wir alle Hoffnung verloren, da blies ein starker Wind ein paar seltene Samen auf den Hof. Die würden auf dem Markt einen guten Preis erzielen. Aber wenn wir sie nicht besser lagern können, werden sie verrotten, bevor wir sie verkaufen können. 
+	l5_message_first_task = Diese Blumen müssen in besonderen Gewächshäusern gelagert werden. Bevor wir eins bauen können, müssen wir eine Baugenehmigung beantragen und eine Lizenz für den Blumenverkauf. Sobald wir dieses Gewächshaus haben, wird es kein Problem mehr sein, die Blumen zu pflücken und zu lagern. 
+	l5_message_second_task = Exzellent! Jetzt können wir die Blumen pflücken und lagern. Pflücke einige von ihnen und sieh nach, ob es auf dem Markt eine große Nachfrage für sie gibt. 
+	l5_message_third_task = Die Blumen verkaufen sich gut! Deshalb haben wir entschieden, diese Ecke zu einem Blumengarten zu machen. Wir müssen eine Bestellung für einige Samen aufgeben. Sobald wir die Samen haben, werden wir eine Menge Blumen verkaufen können. 
+	l5_message_last_task = Wir haben so viele Aufträge. Wir müssen ganz schnell ein Feld mit Sonnenblumen und eins mit Dahlien anlegen. 
+
+	l5_message_add_water_sprinkler = Als die Leute vom Großmarkt gehört haben, dass du Blumen verkaufst, empfahlen sie ihre großen Sprinkleranlagen, die dir beim Bewässern der Blumen viel Zeit sparen. 
+	l5_message_plant_dahlia = Großartig! Du hast deine Dahlienbestellung erfüllt! 
+	l5_message_plant_sunflower = Wunderbar! Du hast deine Sonnenblumenbestellung erfüllt! 
+	l5_message_plant_sunflower_help = Wir haben gemerkt, dass die Blumen ziemlich scharf auf Sonnenblumenkerne sind. Du kannst die Kerne an die Hühner verfüttern. 
+	l5_message_victory = Du bist jetzt der größte Lieferant zauberhafter Blumen in der ganzen Region! Vielen Dank!! 
+	l5_task_second_victory = Verdiene etwas Geld.
+	l5_task_second_victory_details = Die Blumen sind abgestorben, aber du kannst jetzt nicht einfach so aufgeben. Verdiene 5000 Münzen, um die Trockenlegung des Feldes zu bezahlen und wieder alles in den Normalzustand zu bringen.	
+	l5_message_helper_help = Hast du Johnny bemerkt? Er wird dir dabei helfen, deine Blumen und Pflanzen zu düngen, alles für einen Lohn von 100 Dollar. 
+	
+	l5_notify_add_patent_for_flowers = Es ist jetzt möglich, Sonnenblumenkerne und Dahlienzwiebeln zu bestellen. Klicke auf die Samen- und Pflanzen-Reiter für Details. 
+		
+	l5_message_dead_flower = Die Blumen sind vertrocknet, aber du kannst nicht einfach mittendrin mit allem aufhören. Du musst 5000 Dollar verdienen, damit du die Trockenlegung der Felder bezahlen und alles wieder in seinen Urzustand versetzen kannst. 
+	l5_message_second_victory = Obwohl deine Blumen vertrocknet sind, konntest du die Bäume retten und genug Geld für die weitere Entwicklung verdienen. 
+		
+	l6_task_beehive_save = Rette den Bienenstock
+    l6_task_beehive_save_details = Stelle die alten Bienenzuchttradition des Dorfes wieder her. Verkaufe 4 Kisten Honig. 
+    l6_task_collect_batch_vegatables = Verkaufe ein bisschen Gemüse
+    l6_task_collect_batch_vegatables_details = Verkaufe jeweils 6 Kisten mit Gurken, Tomaten, Kohl und Paprika. 
+    l6_task_collect_batch_flowers = Verkaufe einige seltene Blumen
+    l6_task_collect_batch_flowers_details = Verkaufe jeweils 6 Kisten mit Sonnenblumen, Dahlien und Tulpen. 
+    
+    l6_message_hello_heroine = Hallöchen! Einst war unser Dorf berühmt für seinen guten Honig. Wir hatten mehr Bienenstöcke als Blumen auf der Wiese, aber seit ein paar Jahren geht alles den Bach runter und bald wird das Dorf vor die Hunde gehen. Viele von uns haben an der Tradition festgehalten, aber die Süßwarenfabrik hat uns ziemlich ruiniert. Kannst du uns helfen, unsere Bienenstöcke und unsere Tradition wiederherzustellen? Wir haben nur ein paar Säcke mit Samen und ein paar kleine Bäume neben der Scheune. Wir hoffen, dass das für einen Neustart reicht. Viel Erfolg! 
+    l6_message_about_tasks = Um dem Dorf zu helfen, musst du die Bienenstöcke wieder aufbauen, aber das ist noch Zukunftsmusik. Erst mal musst du einige Kunden gewinnen. Wir beginnen mit dem Gemüseanbau im Garten.
+    l6_message_first_task = Um einige zahlungskräftige Kunden zu gewinnen und neue Produkte im Großmarkt bestellen zu können, müssen wir jeweils 6 Kisten mit Gurken, Tomaten, Kohl und Paprika verkaufen. 
+    l6_message_second_task = Jetzt müssen wir noch ein paar Unternehmer auf uns aufmerksam machen. Dafür sollten wir ein paar seltene Blumen pflanzen. Verkaufe jeweils 6 Kisten Sonnenblumen, Dahlien und Tulpen. 
+    l6_message_main_task = Endlich können wir uns die Bienenstöcke leisten. Eine gute Zeit, um den seltenen Honig anzubieten, den wir produzieren. Das wird die Kunden locken und die Traditionen und den Wohlstand des Dorfes wieder herstellen. Verkaufe 4 Kisten Honig. 
+    l6_message_see_pedicellates_patents = Achtung: Paprika- und Kohlsamen sind gerade nicht im Großmarkt erhältlich. Du musst eine Bestellung für sie aufgeben und dem Großmarkt seine Abwicklungsgebühr bezahlen. 
+
+	l6_message_help_hangar_flowers = Du kannst die Blumen im Gewächshaus sehr lange lagern, bevor sie verrotten. Du kannst hier auch Wassermelonen und Erdbeeren lagern. 
+    l6_message_help_hangar_refrigerator =  Du kannst verderbliche Waren wie Milch, Eier und Honig im Kühlhaus lagern. 
+    l6_message_help_beehive = Wenn man bedenkt, dass die Bienen ihren Nektar irgendwo finden müssen, wäre es nicht sinnvoll, ein paar Blumen in der Nähe des Bienenstocks anzupflanzen? Und vergiss nicht, sie schön zu wässern. 
+	l6_message_add_hangar_refrigerator = Du stellst doch deine Milch in den Kühlschrank, dann ist es doch auch logisch, Milch, Eier und Honig auch im Kühlhaus zu lagern, oder? Kühlhäuser sind nun im Großmarkt erhältlich. 
+	
+    l6_message_victory = Herzlichen Glückwunsch! Dein köstlicher Honig aus eigener Produktion hat die alte Strahlkraft des Dorfes wiedergebracht und das Leben hier wieder sehr angenehm gemacht! 
+
+	l7_task_contest0 = Bewerbungsbogen
+	l7_task_contest0_details = Du musst 200 Dollar verdienen, um die Startgebühr für den Wettbewerb zu zahlen.
+	l7_task_contest1 = Vorrunde 
+	l7_task_contest1_details =	Um deine Fähigkeiten als Landwirt unter Beweis zu stellen, musst du den Preisrichtern je 7 Kisten mit Gurken, Radieschen und Kürbis geben. 
+	l7_task_contest2 = Erste Runde
+	l7_task_contest2_details = Um diesen Wettbewerb zu gewinnen, brauchst du einen großen Bauernhof. Pflanze Tomaten, Rüben, Auberginen und Mais an und gib den Preisrichtern je eine Kiste. 
+	l7_task_contest3 = Qualitätskontrolle
+	l7_task_contest3_details = Die Preisrichter benötigen je 1 Kiste Tomaten, Radieschen, Auberginen und Kürbis zur Kontrolle. 
+	l7_task_contest4 = Viehwirtschaft
+	l7_task_contest4_details = Um diese Runde zu bestehen, musst du den Richtern 3 Schweine und 3 Eierkisten geben. 
+	l7_task_contest5 = Obstgärten
+	l7_task_contest5_details = Um diese Runde zu bestehen, musst du 3 Apfelbäume, 3 Pflaumenbäume und 3 Kirschbäume pflanzen. 
+	l7_task_contest6 = Im Namen der Wissenschaft
+	l7_task_contest6_details = Die Preisrichter mochten unser Obst so gerne, dass sie um je 2 Kisten Äpfel, Pflaumen und Kirschen gebeten haben. 
+	l7_task_contest7 = Die Kraft der Blumen
+	l7_task_contest7_details = Du musst deine hortikulturellen Fähigkeiten unter Beweis stellen. Kaufe ein Gewächshaus und gib den Preisrichtern je 6 Kisten mit Dahlien, Sonnenblumen und Tulpen. 
+	l7_task_contest8 = Wie süß ist das denn bitte?
+	l7_task_contest8_details = Zeit, um fleißig wie eine Biene zu werden und 7 Kisten mit Honig für die Preisrichter zu füllen. 
+	l7_task_contest9 = Neues Können, neues Glück
+	l7_task_contest9_details = Du musst mindestens einen Kuhstall bestellen und bauen. 
+	l7_task_contest10 = Hat jemand Milch?
+	l7_task_contest10_details = Du  musst 10 Kisten mit vitaminreicher Milch an die Preisrichter abliefern. 
+	l7_task_contest11 = Hofgeschäfte 
+	l7_task_contest11_details = Die Preisrichter wollen einen Blick auf deine Bilanzen werfen. Wir müssen 1500 Dollar verdienen, um zu zeigen, dass unser Bauernhof profitabel ist. 
+	l7_task_contest12 = Preisträchtiges Gemüse
+	l7_task_contest12_details = Pflanze 4 Felder mit exotischem Obst und Gemüse (Champignons, Paprika, Wassermelonen und Erdbeeren). Jedes Feld sollte 12 Beete mit jeweils einer Bewertung von 5 Herzen haben! 
+
+	l7_message_hello = Der Bauernmarkt steht bevor - und der Hauptpreis sind 100.000 Dollar. Mit dem Geld kann man den Bauernhöfen hier unter die Arme greifen, die in letzter Zeit zu kämpfen haben. Jedes Jahr nehmen auch Landwirte aus unserem Dorf teil, gewonnen hat aber seit mehr als 2 Generationen keiner mehr. Aber hier ist jeder überzeugt, dass du eine gute Chance hast. 
+	l7_message_about_tasks = Die Regeln des Wettbewerbs lauten: Jeder Landwirt beginnt mit einem kleinen Feld mit einer Scheune, einem Apfelbaum und einem Sack Samen. Es gewinnt der Landwirt mit dem besten Hof! Wenn du gewinnst, kannst du mit dem Preisgeld die Ausrüstung kaufen, die du brauchst, und vielleicht ein paar Arbeiter anstellen. Und außerdem wird es ein moralischer Sieg für das ganze Dorf sein.
+	l7_message_first_task = Zuerst musst du aber den Bewerbungsbogen ausfüllen und 200 Dollar Startgeld bezahlen. Das kannst du mit deinen gegenwärtigen Mitteln verdienen. Zu Beginn des Wettbewerbs werden allen Teilnehmern 30 Dollar für Gartenzubehör zur Verfügung gestellt. 
+	l7_message_second_task = Die Preisrichter werden jetzt deinen Hof kontrollieren, um zu sehen, ob du bereit bist. Dafür musst du ihnen je 7 Kisten mit unterschiedlichem Gemüse bringen. Wir haben Glück, weil sie je 7 Kisten mit Gurken, Radieschen und Kürbissen haben wollen und diese Gemüse in dieser Gegend hier sehr gut gedeihen. 
+	l7_message_third_task = Der Wettbewerb hat begonnen. Es gibt verschiedene Phasen bei diesem Ereignis, und bei jedem Ereignis werden die Preisrichter neue Samen und andere Dinge verteilen, die zur Erfüllung der Aufgabe nötig sind. Während der ersten Phase ist es wichtig, so viele verschiedene Pflanzen wie möglich anzubauen. Lass uns Tomaten, Mais, Auberginen und Rüben pflanzen. Die Samen dafür gibt es im Großmarkt. 
+	l7_message_fourth_task = Jetzt musst du eine Musterkiste von jedem deiner Gemüse zu den Preisrichtern bringen, damit sie es testen, wiegen und probieren können. 
+	l7_message_fifth_task = Exzellent! Wir haben es in die zweite Runde geschafft, in der sie unsere Fähigkeiten als Viehwirt testen. Wir müssen 3 Schweine züchten und 3 Kisten mit Eiern bereitstellen. Ein Schweinestall, ein Hühnerstall und ein Kühlhaus werden im Großmarkt erhältlich sein. Sie haben uns sogar 500 Dollar für diese notwendigen Gebäude gegeben, weil wir es in die zweite Runde geschafft haben. 
+	l7_message_sixth_task = Es ist eine bekannte Tatsache, dass Bäume gut für den Boden sind. Und sie fallen hübsch ins Auge. Die Preisrichter bitten uns, je 3 Apfelbäume, Pflaumenbäume und Kirschbäume zu pflanzen. 
+	l7_message_seventh_task = Das Obst auf unseren Bäumen macht einen so hervorragenden Eindruck, dass uns einer der Preisrichter zu Testzwecken um je 2 Kisten mit Äpfeln, Pflaumen und Kirschen gebeten hat. Er will sie als leuchtendes Beispiel zur örtlichen Landwirtschaftsschule schicken, damit die Schüler dort von uns lernen können. Wollen wir mal hoffen, dass sie dort auch wirklich ankommen - und nicht im Bauch des Preisrichters landen!
+	l7_message_eighth_task = Wie jedes Jahr gibt es bei dem Wettbewerb auch eine Blumenaufgabe. Samen und Gewächshäuser sind schon im Großmarkt erhältlich. 
+	l7_message_ninth_task = Wo Blumen sind, gibt es Bienen - und da ist der Honig nicht weit. Richtig geraten: Die letzte Stufe des Wettbewerbs ist die Bienenzucht! Die Preisrichter bitten um 7 Kisten deines deliziösen Honigs. 
+	l7_message_tenth_task = Achtung Neuigkeiten: Dieses Jahr gibt es erstmalig den Wettbewerb um die beste Milch. Wie dumm, dass seit langem keine Milchkühe mehr gezüchtet wurden. Wir müssen eine Bestellung für mindestens einen Kuhstall aufgeben. 
+	l7_message_eleventh_task = Den Wettbewerbsregeln zu Folge muss die Milch köstlich und vitaminreich sein. Deswegen musst du deinen Kühen Gemüse anstelle von Gras zu fressen geben, das reichert ihre Milch mit Vitaminen an. Kühe mögen Karotten und Kohl. Wenn die Kühe diese Gemüse fressen, werden sie dir gute Milch geben, die du im Kühlhaus lagern musst. Wir müssen 10 Kisten mit Milchflaschen bei den Preisrichtern abliefern. 
+	l7_message_twelfth_task = Wir müssen beweisen, dass dieser Bauernhof Gewinne abwirft. Wir müssen 1.500 Dollar verdienen und zeigen, dass unser Hof ein ertragreiches Unternehmen ist. 
+	l7_message_thirteenth_task = Wir haben alle Phasen des Wettbewerbs vollendet. Jetzt werden die Preisrichter das Gewicht und den Geschmack unseres Gemüses und die Erscheinung und den Erfolg unseres Hofes bewerten. Uns bleibt aber noch Zeit, unseren Hof noch ein bisschen besser zu machen! Wir können schnell noch 4 Beete mit exotischem Obst und Gemüse anlegen und sie kräftig düngen (5 Herzen). Pflücke sie nicht, die Preisrichter sollen schließlich sehen, wie schnell diese seltenen Pflanzen auf unserem Bauernhof wachsen. Das wird sie mit Sicherheit beeindrucken, so werden wir siegen. Wassermelonen-, Paprika-, Erdbeersamen und Champignonsporen sind im Großmarkt erhältlich. 
+
+	l7_message_add_harvester = Die Regeln erlauben uns, ein paar Hilfskräfte anzustellen. Sollen wir von dieser Möglichkeit vielleicht Gebrauch machen? 
+	l7_message_victory = Herzlichen Glückwunsch! Die Preisrichter hielten unseren Bauernhof für den schönsten und produktiovsten. Als sie die Beete voller reifem exotischem Obst und Gemüse gesehen hatten, gab es keinen Zweifel mehr. Mit dem Geld, das wir jetzt gewonnen haben, können wir die Landwirtschaft in der Gegend wiederbeleben. Ein dreifaches Hurra auf den besten Landwirt! 
+	l7_message_watermelon_help = Wassermelonen müssen im Kühlhaus gelagert werden.
+	l7_message_strawberries_help = Erdbeeren müssen im Kühlhaus gelagert werden.
+
+	l8_task_first_task = Nachbarschaftshilfe
+	l8_task_first_task_details = Verdiene 300 Dollar, um dem alten Jones dabei zu helfen, einen neuen Platz für seinen Laden zu finden. 
+	l8_task_second_task = Neue Bestellungen aufgeben
+	l8_task_second_task_details = Gib eine Bestellung für Auberginen-, Mais- und Karottensamen auf. 
+	l8_task_third_task = Auberginenliebhaber
+	l8_task_third_task_details = Ernte 20 Kisten Auberginen für den Mann, der uns die Setzlinge verkaufen kann. 
+	l8_task_fourth_task = Bauherrenglück
+	l8_task_fourth_task_details = Bestelle und kaufe die Baugenehmigungen für Kuhställe, Schafställe, Hühnerställe und Bienenstöcke. 
+	l8_task_fifth_task = Neue Lager
+	l8_task_fifth_task_details = Bestelle Scheunen und Kühlhäuser. 
+	l8_task_sixth_task = Werbekampagne
+	l8_task_sixth_task_details = Kaufe einen Hühnerstall, einen Kuhstall und einen Schafstall.
+	l8_task_seventh_task = Die Kraft der Blumen
+	l8_task_seventh_task_details = Verkaufe je 7 Kisten mit Sonnenblumen und Dahlien sowie 3 Kisten mit Honig. 
+	l8_task_eighth_task = Die Rückkehr der Tulpen
+	l8_task_eighth_task_details = Gib eine Bestellung für Tulpenzwiebeln auf. 
+	l8_task_ninth_task = Ein Modell-Garten
+	l8_task_ninth_task_details = Installiere 8 Sprinkler und stelle 4 Gärtner ein. 
+	l8_task_tenth_task  = Ein fremder Lieferant
+	l8_task_tenth_task_details = Pflanze 12 Wassermelonen, 12 Erdbeersetzlinge, 12 Champignonsporen und 12 Paprikasetzlinge. 
+	l8_task_eleventh_task = Ersparnisse
+	l8_task_eleventh_task_details = Verdiene 800 Dollar, um unvorhergesehene Kosten abzudecken, die in der Zukunft auftauchen können. 
+
+	l8_message_hello = Ziemlich schlechte Nachrichten von unseren Lieferanten: Sie haben nichts mehr auf Lager. Weder Samen noch Bäume noch Vieh. Es tut ihnen sehr leid, aber sie können uns leider nicht helfen. Wenn wir keine Samen bekommen, werden sich unsere Träume von der Wiederbelebung der Landwirtschaft in dieser Gegend in Luft auflösen. Wir müssen etwas unternehmen! 
+	l8_message_about_tasks = Wir haben einen unserer alten Lieferanten getroffen. Der alte Jones ist ein netter alter Mann, der all seine Lieferungen annullieren musste. Der Fabrikdirektor ist bei ihm vorbeigekommen und hat ihn gezwungen, alle Verträge mit den örtlichen Bauernhöfen zu zerreißen. Sollte Herr Jones ihm widersprechen, würde der Fabrikdirektor seinen Laden dichtmachen und ihn auf die Straße werfen. Weil ihm das Geld fehlt, neue Ladenfläche zu mieten, musste Herr Jones einwilligen.
+	l8_message_first_task = Es wäre gut zu wissen, ob der Fabrikdirektor alle Lieferanten der Gegend so unter Druck setzt. Aber wir konnten uns mit dem alten Jones einigen: Wenn wir ihm 300 Dollar leihen, damit er einen neuen Laden mieten kann, kann er uns mit unserer Samenbestellung helfen und wir können ihm ein paar Rüben-, Gurken- und Kürbissamen abkaufen. 
+	l8_message_second_task = Der alte Jones war sehr dankbar. Für nur 200 Dollar konnte er einen neuen Raum mieten und uns 100 Dollar zurückgeben. Er erzählte uns außerdem, dass er einem Freund geschrieben habe, einem Gartenlieferanten in einer anderen Stadt. Er wird uns die gewünschten Samen zu den alten Preisen verkaufen. Wir müssen nur eine Bestellung aufgeben und er kann uns Auberginen-, Mais- und Karottensamen liefern. 
+	l8_message_third_task = Ein anderer Freund vom alten Jones kann uns Baumsetzlinge liefern. Jones sagt, wie sehr dieser Auberginen liebe, aber dass man sie in den Läden nicht mehr bekomme. Aus Witz sagte er, er würde bestimmt 100 Bäume gegen eine Aubergine tauschen. Ein bisschen Wahrheit steckt ja in jedem Witz. Wenn wir ihm 20 Kisten Auberginen anbieten, wird er uns auf jeden Fall ein paar Setzlinge verkaufen. 
+	l8_message_fourth_task = Als die Leute von der Sägemühle gehört haben, dass uns niemand mehr Gebäude verkaufen will, haben sie die Sache selbst in die Hand genommen. Sie haben einen Schweinestall gebaut, der genauso gut ist, wie die, die wir aus der Stadt bekommen haben. Sie haben nur eine Baugenehmigung für Schweineställe, aber wenn wir Bestellungen für andere Gebäude aufgeben, haben sie versprochen, uns Ställe für Kühe, Schafe und Hühner und Bienenstöcke zu bauen.
+	l8_message_fifth_task = Wir kommen nicht weiter, wenn wir keinen Lagerraum für alles haben. Wir müssen eine Baugenehmigung beantragen für eine Scheune und ein Kühlhaus.
+	l8_message_sixth_task = Du kannst den Leuten von der Sägemühle helfen, ein bisschen Werbung zu machen. Lass sie Dir Ställe für Hühner, Kühe und Schafe bauen.
+	l8_message_seventh_task = Ein Samenlieferant aus einer anderen Stadt hat über einen Freund von unserer Farm erfahren. Er handelt mit Blumensamen und bietet uns Dahlien und Sonnenblumensamen an, außerdem ein Gewächshaus, das er selbst gebaut hat. Für die Pflanzen müssen wir keine Bestellung aufgeben, seine Tulpen verkauft der Händler aber nur an Menschen, die bewiesen haben, dass sie wissen, wie man mit Blumen umgeht. Beweise es ihm, indem du ihm 7 Kisten Sonnenblumen und 7 Kisten Dahlien lieferst. Aber das ist noch nicht alles. Es hat sich herausgestellt, dass er eine Schwäche für Honig hat, also versüßen wir ihm das Geschäft noch mit 5 Kisten Honig.
+	l8_message_eighth_task = Der Lieferant war von unseren Blumen sehr beeindruckt und hat eingewilligt, uns seine Blumenzwiebeln zu überlassen. Jetzt müssen wir nur noch eine Bestellung aufgeben.
+	l8_message_ninth_task = Wir haben praktisch für alles, was wir brauchen, neue Lieferanten gefunden, nur nicht für exotische Früchte und Gemüse. Sieht aber aus, als hätten wir Glück: Ein auswärtiger Lieferant, der mit Früchten und Gemüsesorten handelt, ist gestern in der Stadt angekommen. Allerdings müssen seine Kunden hohe Standards erfüllen. Er verkauft seine Pflanzen nur an gut ausgestattete Bauernhöfe, die in der Lage sind, sein Obst und Gemüse richtig anzubauen. Um seinen Ansprüchen zu genügen, müssen wir 8 Wassersprinkler installieren und 4 Arbeiter einstellen.
+	l8_message_tenth_task = Zusätzlich zu den exotischen Samen hat der auswärtige Lieferant eingewillgt, uns auch den Rest der Pflanzen zu verkaufen, die wir bisher nicht bekommen konnten. Lass uns ein paar Beete graben und sehen, wie gut das fremde Saatgut in unserer Umgebung wächst. 
+	l8_message_eleventh_task = Wir müssen ein wenig Geld für unvorhergesehene Ausgaben beiseite legen. 800 Dollar würden wahrscheinlich schon Wunder wirken, wenn wir in ernsthafte Schwierigkeiten kämen.
+	
+	l8_message_victory = Ausgezeichnet! Die Drohungen der Fabrik haben sich in Luft aufgelöst. Wir haben Lieferanten für alles gefunden, was wir brauchen. Jetzt werden auch die größten Skeptiker zugeben müssen, dass wir gewinnen werden!
+	l8_message_sheep_help = Unser neuer Lieferant hat uns eine neue Zuchtrasse angeboten: Schafe. Studien belegen, dass Schafswolle weicher und stärker wird, wenn die Tiere Kohl und Karotten essen.
+	
+	l9_task_first_task = Zahle die Pachtgebühren
+	l9_task_first_task_details = Verdiene 10.000 Dollar.
+
+	l9_message_hello = Vor ein paar Jahren haben wir großen Mist gebaut. Als die AgroBank eröffnet hat, haben viele Landwirte große Kredite aufgenommen, um mehr Land zu kaufen und ihre Gerätschaften zu modernisieren. Agroson hat uns gute Konditionen versprochen, und wir haben auf das Beste gehofft. Aber wir sind Bauern, keine Anwälte! Wir wussten nicht, dass man auch das Kleingedruckte lesen muss. Jetzt schulden viele Farmer Argosons Bank eine große Stange Geld.
+	l9_message_about_tasks = AgroBank besteht jetzt darauf, dass die Landwirte ihre Kredite schnell zurückzahlen. Wenn sie die Bank nicht auszahlen, sollen die meisten Bauernhöfe in unserer Gegend geschlossen werden. Wir müssen 10.000 Dollar verdienen, um die Höfe zu retten und AgroBank für immer loszuwerden.
+	l9_message_victory = "9.998, 9.999, 10.000. Ja, das stimmt. Und hier ist Ihre Quittung, dass Sie alle Kredite abbezahlt haben. Einen schönen Tag noch", sagt der Kassierer bei AgroBank. Du hast die Höfe gerettet! 
+	
+	l10_task_first_task = Dürre
+	l10_task_first_task_details = Sieh zu, dass die Pflanzen nicht verdorren und absterben, während du auf die neuen Sprinkler wartest (10 Minuten). 
+	l10_task_second_task = Wasserarbeiten
+	l10_task_second_task_details = Installiere 5 Sprinkler.
+	l10_task_third_task = Gartenerneuerung
+	l10_task_third_task_details = Bepflanze je 24 Beete mit Mais, Kohl und Karotten und 12 Beete mit Rüben. 
+	l10_task_fourth_task = Neue Verbesserungen
+ 	l10_task_fourth_task_details = Stelle 3 Gärtner an.
+	l10_task_fifth_task = Vielfalt
+	l10_task_fifth_task_details = Pflanze 4 Bananenbäume.
+	l10_task_sixth_task = Streit ums Land
+	l10_task_sixth_task_details = Verdiene 1.200 Dollar.
+	
+	l10_task_alt_second_task = Gartenerneuerung
+	l10_task_alt_second_task_details = Bepflanze je 12 Beete mit Rüben, Kürbis, Radieschen und Gurken. 
+	l10_task_alt_third_task = Neue Verbesserungen
+	l10_task_alt_third_task_details = Installiere 4 Sprinkler.
+	l10_task_alt_fourth_task = Produktives Viehzeug
+	l10_task_alt_fourth_task_details = Verkaufe 2 Schweine und je 2 Kisten mit Eiern, Milch und Wolle. 
+	l10_task_alt_fifth_task = Vielfalt
+	l10_task_alt_fifth_task_details = Pflanze 4 Bananenbäume, 3 Tomatenbäume und 2 Pflaumenbäume. 
+	l10_task_alt_sixth_task = Streit ums Land
+	l10_task_alt_sixth_task_details = Verdiene 1.200 Dollar.
+	
+	l10_message_hello = Schön, dass du da bist. Sieh nur, was passiert ist. Alles ist vertrocknet und hat sich in eine Wüste verwandelt. Unser ehemaliges Vorzeigefeld ist ausgedörrt. In unserer Gegend gab es vorher nie eine Dürre und die Läden hier verkaufen keine Sprinkleranlagen. Unsere Lieferanten haben Sprinkler bestellt, sind aber nicht sicher, wann sie eintreffen werden.
+	l10_message_about_tasks = Wir müssen den Boden und die Aussaaten retten. Die Bewässerungsexperten und ihre Sprinkleranlagen müssten bald eintreffen. In der Zwischenzeit musst du die Beete gießen und ein bisschen Geld verdienen, damit du sie bezahlen kannst. Wenn die Sprinkler erstmal installiert sind, ist alles in Ordnung.
+	l10_message_first_task = Die Bewässerungsexperten sind auf dem Weg, aber wir können den Garten nicht sterben lassen. Gieße die Pflanzen, bis die Hilfe eintrifft.
+	l10_message_second_task = Ausgezeichnet! Jetzt können wir die Pflanzen automatisch bewässern, wir müssen nur drauf achten, dass die Sprinkler auch alle Beete treffen. Sieht aus, als müssten wir noch 5 Sprinkler installieren.		
+	l10_message_third_task = Bevor du hier eingetroffen bist, sind alle Pflanzen verrottet, so dass wir kein Futter für die Tiere ziehen konnten. Die Lieferanten, die uns die Sprinkler besorgt haben, haben alle Samen, die wir brauchen, aber wir müssen eine Liefergebühr zahlen. Danach können wir je 24 Beete mit Mais, Kohl und Karotten und 12 Beete mit Rüben pflanzen.
+	l10_message_fourth_task = Wunderbar! Jetzt kann das Vieh gefüttert werden und den Profit des Hofes steigern. Leider sind die Ernten durch die Dürre nicht mehr so ertragreich wie vorher. Es wäre gut, mindestens 3 Gärtner anzuheuern, damit alles gedüngt wird. Dadurch kann das Gemüse schneller wachsen und das Prestige des Bauernhofes wird wieder hergestellt.
+	l10_message_fifth_task = Grandios! Du hast den Hof gerettet und seinen Ruf wieder hergestellt. Uns wurden gerade neue exotische Bäume angeboten. Das wäre eine weise Investition in die Zukunft. Pflanze 4 Bananenbäume.
+	l10_message_sixth_task = Gut gemacht! Der Hof hat die Dürre überstanden, jetzt stehen wir allerdings vor einem Rechtsstreit um unser Land. Die Stadtverwaltung hat festgestellt, dass unser Hof tot und verwahrlost war und hat das Land der benachbarten Fabrik angeboten, damit sie sich erweitern kann. Der Pachtvertrag ist aber noch 30 Jahre gültig, das ist also eindeutig gegen das Gesetz! Du musst einen Rechtsanwalt anheuern und die Sache vor Gericht bringen. Leider sind gute Anwälte teuer. Verdiene 1.200 Dollar, damit du den besten Rechtsbeistand engagieren kannst und sichergehst, dass der Fall auch gewonnen wird.
+	
+	l10_message_alt_second_task = Wie furchtbar! Wir haben viele Aussaaten verloren. Wir müssen den Garten wieder herrichten und den Hof wieder profitabel machen. Der Großmarkt hat von unseren Schwierigkeiten gehört und vorgeschlagen, dass wir spezielle Hybrid-Samen kaufen sollten, die weniger anfällig für die Dürre sind. Wir müssen einige neue Bestellungen tätigen, aber das ist es wert. Der Nachbarhof leiht uns 680 Dollar, um uns durch die erste Zeit zu helfen. Wir müssen die toten Pflanzen durch je 12 Beete Rüben, Kürbisse, Radieschen und Gurken ersetzen.
+	l10_message_alt_third_task = Trotz der speziellen Hybrid-Samen ist die Dürre noch nicht ausgestanden. Um eine weitere Katastrophe zu verhindern, müssen wir mindestens 4 Sprinkler installieren. Es ist jetzt auch wieder möglich, Gärtner zu engagieren.
+	l10_message_alt_fourth_task = Jetzt wo die Felder wieder auf Vordermann gebracht wurden, sollten wir uns um das Vieh kümmern, das in den letzten Tagen nichts zu fressen bekommen hat. Wir müssen Gemüse für die Tiere pflanzen. Danach sollten wir 2 Ferkel, 2 Kisten Eier, 2 Kisten Milch und 2 Kisten Wolle verkaufen.
+	l10_message_alt_fifth_task = Auch wenn wir Samen gekauft haben, die in der Wüste gedeihen können, ist es sicherer, wenn wir unsere Aktivitäten noch ausweiten würden. Unsere Lieferanten haben uns Bäume angeboten, die ebenfalls im trockenen Klima gedeihen. Pflanze 4 Bananenbäume, 3 Kirschbäume und 2 Pflaumenbäume.
+	l10_message_alt_sixth_task = Der Hof hat die Dürre überstanden, jetzt stehen wir allerdings vor einem Rechtsstreit um unser Land. Die Stadtverwaltung hat festgestellt, dass unser Hof tot und verwahrlost war und hat das Land der benachbarten Fabrik angeboten, damit sie sich erweitern kann. Der Pachtvertrag ist aber noch 30 Jahre gültig, das ist also eindeutig gegen das Gesetz! Du musst einen Rechtsanwalt anheuern und die Sache vor Gericht bringen. Leider sind gute Anwälte teuer. Verdiene 1.200 Dollar, damit du den besten Rechtsbeistand engagieren kannst und sichergehst, dass der Fall auch gewonnen wird.
+	
+	l10_message_harvester = Es wäre gut, Helfer zu engagieren. Sie können Obst und Gemüse pflücken und uns so helfen, Geld für die Sprinkler zu verdienen, während wir die Pflanzen gießen.
+	l10_message_add_water_sprinkler = Sprinkler sind nun im Großmarkt erhältlich.
+	
+	l11_task_first_task = Erste Aufgabe
+	l11_task_first_task_details = Verkaufe je eine Kiste mit Rüben und Tomaten, 5 Schweine und engagiere einen Obst- und Gemüsepflücker. 
+	l11_task_second_task = Zweite Aufgabe
+	l11_task_second_task_details = Verkaufe eine Kiste Auberginen, baue ein Kühlhaus, engagiere einen Gärtner und installiere 2 Sprinkler. 
+	l11_task_third_task = Dritte Aufgabe
+	l11_task_third_task_details = Verkaufe eine Kiste Radieschen, 5 Kisten mit Eiern, stelle einen Gärtner und einen Obst- und Gemüsepflücker an. 
+	l11_task_fourth_task = Vierte Aufgabe
+ 	l11_task_fourth_task_details = Verkaufe je eine Kiste Sonnenblumen und Dahlien, baue ein Gewächshaus und einen Bienenstock. 
+	l11_task_fifth_task = Fünfte Aufgabe
+	l11_task_fifth_task_details = Verkaufe je eine Kiste Karotten und Kohl, 5 Kisten Milch, und engagiere einen Obst- und Gemüsepflücker. 
+	l11_task_sixth_task = Sechste Aufgabe
+	l11_task_sixth_task_details = Verkaufe je 5 Kisten mit Champignons und Honig, engagiere einen Gärtner und installiere 6 Sprinkler. 
+	l11_task_seventh_task = Siebente Aufgabe
+	l11_task_seventh_task_details = Verkaufe 5 Kisten mit Tulpen, je 3 mit Kürbis und Gurken und baue einen Schafstall. 
+	l11_task_eighth_task = Achte Aufgabe
+	l11_task_eighth_task_details = Verkaufe je 4 Kisten mit Erdbeeren und Wassermelonen und engagieren einen Gärtner und einen Obst- und Gemüsepflücker. 
+	l11_task_ninth_task = Neunte Aufgabe
+	l11_task_ninth_task_details = Verkaufe eine Kiste Wolle, pflanze einen Apfel- und einen Kirschbaum und installiere 2 Sprinkler. 
+	l11_task_tenth_task  = Zehnte Aufgabe
+	l11_task_tenth_task_details = Verkaufe 5 Kisten mit Paprika, baue einen Hühnerstall, einen Schafstall und einen Kuhstall. 
+	l11_task_eleventh_task = Elfte Aufgabe
+	l11_task_eleventh_task_details = Pflanze einen Pflaumenbaum und einen Bananenbaum und verdiene 800 Dollar. 
+	
+	l11_message_hello = Zeit für eine neue Zeitrechnung in der Landwirtschaft! Wir werden einen Hof bauen, der den mordernsten Standards entspricht. Die anderen Höfe in der Region sind unserem Beispiel gefolgt und arbeiten ertragreicher. Deinetwegen gibt es einen Boom in der Region! 
+	l11_message_about_tasks = Wir planen, einen modernen, effizienten Hof zu bauen, der maximale Erträge abwirft. Sobald wir damit fertig sind, werden alle Bauernhöfe der Umgebung unserem Beispiel folgen! 
+	l11_message_first_task = Vorher müssen wir aber noch ein bisschen Geld verdienen. Baue einen Schweinestall, verkaufe 5 Schweine und je eine Kiste mit Rüben und Tomaten und gehe einen ersten Schritt in Richtung Modernisierung: Engagiere einen Erntehelfer, der dir beim Gemüsepflücken hilft. 
+	l11_message_second_task =  Wir müssen unterschiedliche Gemüsesorten anbauen, angefangen mit Auberginen. Wir müssen uns auch darauf einrichten, verderbliche Waren zu erzeugen, also bauen wir ein Kühlhaus. Und im Namen der Automatisierung: Lasst uns 2 Sprinkler installieren und einen Gärtner engagieren. 
+	l11_message_third_task = Wir sollten eine neue Technik ausprobieren. Wir müssen eine Kiste Radieschen verkaufen. Und wir wollen nun endlich unser neues Kühlhaus benutzen, also müssen wir einen Hühnerstall bauen und 5 Kisten mit Eiern verkaufen. Um mit unserem Automatisierungsprozess weiter zu kommen, müssen wir auch noch zwei Assistenten engagieren: einen Gärtner und einen Obst- und Gemüsepflücker. 
+	l11_message_fourth_task = Unserem neuen Hof darf es an nichts fehlen. Also sollten wir auch die Blumen nicht vergessen. Du musst je eine Kiste Sonnenblumen und Dahlien anpflanzen und verkaufen und ein Gewächshaus bauen, um unsere neuen Blumen zu lagern. Und wenn wir schon dabei sind, können wir ja gleich auch einen Bienenstock bauen. 
+ 	l11_message_fifth_task = Um unseren Hof noch unabhängiger zu machen, sollten wir noch einen weiteren Assistenten anwerben. Du musst je eine Kiste Karotten und Kohl verkaufen. Dann verfüttere diese Gemüse an unsere Kühe und verkaufe 5 Kisten Milch. 
+	l11_message_sixth_task = Wir müssen noch einen Gärtner engagieren und noch ein paar Sprinkler installieren, damit wi uns um die Pflanzen keine Sorgen mehr machen müssen. Sobald das erledigt ist, pflanze ein paar Champignons und verkaufe davon 5 Kisten. Vergiss aber den Bienenstock nicht, verkaufe 5 Kisten Honig.
+	l11_message_seventh_task = Verkaufe 5 Kisten Tulpen, 3 Kisten Kürbis und 3 Kisten Gurken. Und damit unser Hof vollständig ist, müssen wir einen Schafstall bauen. 
+	l11_message_eighth_task = Engagiere zwei Helfer. Während sie arbeiten, kannst du dich um ein paar neue Obstsorten kümmern. Verkaufe je 4 Kisten Wassermelonen und Erdbeeren.
+	l11_message_ninth_task = Lass uns mal nach dem Schafstall sehen und eine Kiste Wolle verkaufen. Und für die Zukunft installiere 2 weitere Sprinkler. Pflanze Kirsch- und Äpfelbäume, damit unser Hof viel köstliches Obst produziert. 
+	l11_message_tenth_task  = Der Bauernhof muss kontinuierlich wachsen, baue einen Hühnerstall, einen Schafstall und einen Kuhstall. Dann pflanze noch ein paar Paprika und verkaufe 5 Kisten.
+	l11_message_eleventh_task = Um unseren großartigen Plan zu vollenden, pflanze noch Pflaumen- und Bananenbäume. Verdiene 800 Dollar, damit du einen Verwalter einstellen kannst, der sich um alle Hilfsarbeiter kümmert.
+	
+	l11_message_victory = Wir haben unseren grandiosen Plan zu Ende gebracht. Dieser Bauernhof ist ein Musterbeispiel für die ganze Gegend, bald wird es hier wieder Wohlstand geben. 
+		
+	l12_task_first_lot_vegetables = Liefere die erste Gemüseladung 
+	l12_task_first_lot_vegetables_details = Organisiere je 3 Kisten mit Radieschen, Kürbis, Mais und Tomaten. 
+	l12_task_second_lot_vegetables = Liefere die zweite Gemüseladung 
+	l12_task_second_lot_vegetables_details = Organisiere je 3 Kisten mit Gurken, Auberginen, Paprika und Champignons. 
+	l12_task_first_lot_flowers = Liefere die erste Blumenladung 
+	l12_task_first_lot_flowers_details = Organisiere je 3 Kisten mit Tulpen, Dahlien, Sonnenblumen und Wassermelonen. 
+	l12_task_first_lot_strawberries_behive = Liefere Honig und Erdbeeren
+	l12_task_first_lot_strawberries_behive_details = Organisiere je 3 Kisten mit Erdbeeren und Honig.
+	l12_task_first_lot_trees = Liefere eine Ladung Obst
+	l12_task_first_lot_trees_details = Organisiere je 3 Kisten mit Äpfeln, Bananen, Pflaumen und Kirschen. 
+	l12_task_first_lot_farms_produktion = Liefere eine Ladung Lebensmittel
+	l12_task_first_lot_farms_produktion_details = Organisiere 3 Schweine und je 3 Kisten Eier, Wolle und Milch. 
+	l12_task_first_shop_order = Führe die Bestellung vom Laden aus
+	l12_task_first_shop_order_details = Organisiere 3 Schweine und je 3 Kisten mit Sonnenblumen, Champignons und Bananen. 
+	l12_task_second_shop_order = Führe die Bestellung vom Laden aus
+	l12_task_second_shop_order_details = Organisiere je 3 Kisten mit Kohl, Wolle, Tulpen und Wassermelonen. 
+	l12_task_third_shop_order = Führe die Bestellung vom Laden aus
+	l12_task_third_shop_order_details = Organisiere je 3 Kisten mit Milch, Erdbeeren, Honig und Kirschen. 
+	l12_task_fourth_shop_order = Führe die Bestellung vom Laden aus
+	l12_task_fourth_shop_order_details = Organisiere je 3 Kisten mit Paprika, Äpfeln, Kohl und Eiern. 
+	
+	l12_message_victory = Die Läden platzen förmlich aus allen Nähten mit unserem frischen Gemüse. Keiner kauft mehr das industriell gefertigte Zeug der Agro Korporation. Sie sind bankrott. Sie sagen, sie werden die Fabrik abreißen und eine Parkanlage anlegen. Wir haben gewonnen!!!
+	l12_message_cool_vegetables = Die Region erholt sich langsam und bald wird es hier wieder eine Menge ertragreicher Bauernhöfe geben. Die Agro Korporation hat in ihrem Wunsch, die Ausschreibung zu gewinnen, leckere, aber ungesunde Industriekost produziert. Es enthält weder Vitamine noch Nährstoffe, ist aber billig. Unsere Mission ist es, wieder leckeres, nährreiches und frisches Obst und Gemüse in die Läden zu bringen. Wenn niemand den Industriefraß kauft, wird die Agro Korporation pleite gehen, und jeder wird gut und gesund essen. 
+	l12_message_first_lot_vegetables = Bevor die Läden unsere Produkte ins Sortiment aufnehmen, wollen sie sehen, wie sie sich während einer Testphase verkaufen. 
+	l12_message_second_lot_vegetables = Die Läden sind begeistert, wie gut sich unser Gemüse verkauft, und wollen mehr probieren. Sie haben uns auch unseren Anteil an ihren Verkäufen gezahlt, 200 Dollar insgesamt. Wir müssen ihnen noch mehr unterschiedliches Gemüse liefern. Lasst uns dieses Mal ihre Kunden mit ein paar exotischeren Produkten überraschen. 
+	l12_message_first_lot_flowers = Unser Gemüse verkauft sich wirklich prima. Vielleicht sollten wir mal ausprobieren, wie sich unsere Pflanzen verkaufen. Und wir bieten noch ein paar Wassermelonen an. Unsere Verkaufsanteile haben sich verdoppelt. Sie haben uns 400 Dollar gegeben. 
+	l12_message_first_lot_strawberries_behive = Jeder in der Stadt liebt unsere Wassermelonen. Die sind der absolute Hit! Gleichzeitig sind die Verkaufszahlen von Tiefkühl- und Süßwaren der Agro Korporation gefallen. Der perfekte Zeitpunkt, den Leuten ein paar natürliche Süßigkeiten anzubieten - Zeit für unseren Honig und unsere Erdbeeren. Die Gewinne der Verkäufe belaufen sich nun auf 600 Dollar. 
+	l12_message_first_lot_trees_details = Unser Honig und unser Gemüse füllt die Regale in allen Läden der Stadt. Wir dürfen aber das köstliche Obst auf unseren Bäumen nicht vergessen. Die letzte Lieferung hat uns 700 Dollar eingebracht. 
+	l12_message_first_lot_farms_produktion = Alle unsere Produkte haben sich in den Läden sehr erfolgreich verkauft. Wir sollten einige unserer großartigen Naturprodukte wie Eier, Milch, Schweine und Wolle anbieten. Unsere letzten Gewinne beliefen sich auf 150 Dollar. 
+	l12_message_first_shop_order = So langsam sind unsere Produkte in den Läden ausverkauft und sie verlangen nach mehr! Wir haben eine Bestellung für die Dinge erhalten, die zur Neige gehen. Und wir haben mit unserer letzten Lieferung 1.500 Dollar verdient. 
+	l12_message_second_shop_order = Die Leute kriegen nicht genug von unseren köstlichen, gesunden Produkten. Die Läden wollen mehr! Bald werden die Menschen nur noch unser Gemüse kaufen. Wir haben noch eine Bestellung erhalten und 900 Dollar verdient. 
+	l12_message_third_shop_order = Unsere Produkte füllen mittlerweile mehr als die Hälfte der Ladenflächen zahlreicher Läden in der Stadt - und die Verkäufe steigen! Wir haben mit der letzten Lieferung 1200 Dollar verdient! Es ist nur eine Frage der Zeit, dass wir die Ausschreibung gewinnen. Jetzt müssen wir uns um eine weitere Lieferung kümmern. 
+	l12_message_fourth_shop_order = Die Läden sind jetzt schon voll mit unseren Produkten, und schon wieder haben sie eine riesige Bestellung aufgegeben und uns 1.500 Dollar gezahlt. Wenn wir diese große Bestellung erfüllen, werden wir die Ausschreibung mit Sicherheit gewinnen. 
+ 	l12_message_supplier_sabotage = Agro Korporation kommt uns mal wieder bei unserer Arbeit in die Quere. Sie haben alle von uns bestellten Samen aufgekauft und unsere Lieferanten haben jetzt keine mehr, die wir kaufen könnten. Warum passiert uns das immer wieder? Jetzt müssen wir neue Lieferanten finden. 
+
+
+	comics_p1f1b1 = Es war einmal ... in einem kleinen, abgelegenen Dorf ein besonderes Mädchen. 
+	comics_p1f1b2 = Du wirst einmal die berühmteste Landwirtin aller Zeiten werden und uns vor der Ausbeutung der Großindustrie schützen! 
+	comics_p1f1b3 = Auch wenn Großmutter auf ihre alten Tage etwas wirr wurde, sollte sie damit Recht behalten. 
+	comics_p1f2b1 = Schon als Kleinkind zeigt das kleine Mädchen ihre große Begabung für die Landwirtschaft. 
+	comics_p1f2b2 = Schau an, Ginger ist noch kein Jahr alt und hat schon einen Garten im Sandkasten angelegt! 
+	comics_p1f2b3 = Erinnere dich meiner Worte, die kleine Ginger hat eine großartige Zukunft vor sich. 
+	comics_p1f3b1 = Als sie sechs Jahre alt wurde, erklärte ihr Großvater ihr alle Tricks der Landwirtschaft. 
+	comics_p1f3b2 = Du musst die Stärke in dir fühlen und diese Erde umgraben! 
+	comics_p1f5b1 = Schaufel!
+	comics_p1f6b1 = Swuusch!!
+	comics_p1f7b1 = Einige Dinge waren nicht leicht für Ginger...
+	comics_p1f7b2 = Mensch, wie ein Garten sieht das nun wirklich nicht aus, oder?
+	comics_p1f7b3 = ...aber sie hielt durch und lernte mit der Zeit all die Gärtnergeheimnisse ihres Großvaters. 
+	comics_p1f8b1 = Vergiss nie, meine junge Schülerin, dass alles, was du tust, tief aus dir selbst kommen muss! 
+	comics_p1f8b2 =	Großvater, warum sprichst du immer so? 
+	
+	comics_p2f1b1 = Du hast dich als geschickte Gärtnerin erwiesen. Deshalb haben wir zu deinem achtzehnten Geburtstag ein besonderes Geschenk für dich...
+	comics_p2f1b2 = Deinen eigenen Bauernhof!
+	comics_p2f1b3 = Oh, wow!
+	comics_p2f2b1 = Stellt euch all das Gemüse vor, dass ich dort anbauen kann! 
+	comics_p2f2b2 = Und Obst!
+	comics_p2f2b3 = Kikeriki!
+	comics_p2f3b1 = Dieses Land hat einst meinem Großvater gehört, dem großen Bob Johnson! 
+	comics_p2f4b1 = Ahhhh!
+	comics_p2f4b2 = Großvater, in welchem Jahr genau war das noch?
+	comics_p2f5b1 = Kiker-äh-äh-ähhh!
+	comics_p2f6b1 = Keine Sorge, mein Kind.
+	comics_p2f6b2 = Du hast nun alles in der Hand. Ich weiß, dass du hier Großartiges leisten wirst! 
+	comics_p2f7b1 = Peng!
+	comics_p2f8b1 = Kike...
+	
+	comics_p3f1b1 = Dann eines schönen, sonnigen, ruhigen Morgens...
+	comics_p3f2b1 = Aus der Tiefe der Wälder kam ein lautes Schweinequieken.
+	comics_p3f3b1 = Die Neugier des Hahns wurde geweckt...
+	comics_p3f5b1 = ...und er weckte Ginger.
+	comics_p3f5b2 = Was ist passiert?
+	comics_p3f6b1 = Es gab einen Unfall auf der Schweinefarm des Nachbarn!
+	comics_p3f6b2 = Los Ginger, gehen wir nachsehen und helfen.
+	comics_p3f7b1 = Als sie auf der Schweinefarm ankamen, fanden sie eine furchtbare Unordnung vor. 
+	comics_p3f7b2 = Eine Wasserleitung zur Fabrik am Ende der Straße ist geplatzt und hat die ganze Farm unter Wasser gesetzt! 
+	comics_p3f7b3 = Und wer hat so furchtbar geschrien? 
+	comics_p3f7b4 = Die Schweine! Ihr ganzes Fressen ist hinüber. Die armen Viecher sind verrückt vor Hunger. 
+	comics_p3f8b1 = Die armen Schweine!
+	comics_p3f8b2 = Kein Problem, wir werden uns um sie kümmern. 
+	comics_p3f8b3 = Quiek?
+	comics_p3f8b4 = Quiek!
+	comics_p3f8b5 = Knurr
+
+	comics_p4f1b1 = Die Familie feierte Großvaters Geburtstag.
+	comics_p4f1b2 = ...und ich fragte ihn, "Was für Dünger benutzt du?"
+	comics_p4f1b3 = Und er antwortete, "Den gleichen wie immer...Sand natürlich!"
+	comics_p4f1b4 = Ha, ha, ha!
+	comics_p4f1b5 = Dann plötzlich...
+	comics_p4f2b1 = Swusch!
+	comics_p4f3b1 = Peng!
+	comics_p4f5b1 = Miau!
+	comics_p4f6b1 = Oh je!
+	comics_p4f7b1 = Platsch!
+	comics_p4f8b1 = Swusch!
+	comics_p4f9b1 = Dengel!
+	comics_p4f10b1 = Plitsch!
+	comics_p4f10b2 = Klatsch!
+	comics_p4f10b3 = Nach einer Weile flaute der Tomatensturm ab.
+	comics_p4f10b4 = Ring-ring!
+	comics_p4f11b1 = Hallo?
+	comics_p4f12b1 = Tag, Onkel! Ist da gerade was geflogen gekommen? 
+	comics_p4f12b2 = Grüß dich, Neffe. Hast du uns diese Tomatenattacke beschert? 
+	comics_p4f12b3 = Das war diese dämliche Fabrik!
+	comics_p4f12b4 = Die haben irgendein riesiges Windrad-System angeschlossen und dieses verdammte Ding bläst jetzt alle Tomaten von unseren Feldern! Und die Katzen vom Dach! 
+	comics_p4f12b5 = Mach keine Witze! 
+	comics_p4f12b6 = Wir wissen nicht so recht, was wir tun sollen. Wenn sie das Ding wieder anstellen, bläst es vielleicht unser ganzes Dorf weg. 
+	comics_p4f12b7 = Mach dir keine Sorgen, mein Junge. Wenn ich mein Haus von all dem Ketchup befreit habe, überlegen wir, wie wir euch helfen können. 
+	comics_p4f13b1 = Hmmm. Wie können wir Onkel Joe's Dorf vor diesem Wind schützen, den die Fabrik erzeugt? 
+	comics_p4f13b2 = Ich denke, ich habe da eine Idee!
+	
+	comics_p5f1b1 = Ginger erhielt einen verdienten Preis. 
+	comics_p5f1b2 = Für herausragende Dienste für unser Dorf und all seine Einwohner überreiche ich...
+	comics_p5f1b3 = ...dir, meiner lieben Nichte, diese Ehrenurkunde! 
+	comics_p5f1b4 = Dankesehr! Ich möchte gerne meiner ganzen Familie danken, vor allem meinem Großvater! 
+	comics_p5f1b5 = Ohne seine Hilfe wäre ich heute nicht hier. Ich möchte mich außerdem bedanken bei...
+	comics_p5f1b6 = Aber Gingers Rede wurde von einem Mann unterbrochen, der mit einem Brief in der Hand aus der Menge trat. 
+	comics_p5f2b1 = Also, das hier, also, diese Leute hier bitten uns um Hilfe. 
+	comics_p5f2b2 = Ich lese euch diesen Brief mal vor. Er ist von unseren Leuten drüben in Greenfield. "Liebe Ginger! Unsere Situation hier in Greenfield ist ziemlich desaströs." 
+	comics_p5f2b3 = "Die Ingenieure der örtlichen Fabrik haben einen Damm gebaut, der fast unser ganzes Land unter Wasser gesetzt hat. Die Pflanzen gehen ein und unsere Ernte geht zugrunde. Wir wissen nicht mehr aus noch ein."
+	comics_p5f2b4 = "Du hast so großartige Arbeit geleistet, als du dein Dorf vor dem gigantischen Windrad gerettet hast. Also dachten wir, du könntest uns vielleicht auch helfen? Mit bestem Gruß, die Bewohner von Greenfield."
+	comics_p5f2b5 = Wow. Was für eine Fabrik ist das denn? Sieht fast so aus, als müsste ich ein Problem nach dem anderen lösen.
+	comics_p5f2b6 = Also, es ist folgendermaßen...
+	comics_p5f3b1 = Vor ein paar Jahren ist ein gewisser Herr Agroson aufgetaucht. 
+	comics_p5f3b2 = Nicht wirklich der nette Typ aus der Nachbarschaft, aber er sprach anständig und hatte eine Menge Geld. 
+	comics_p5f3b3 = Er versprach, die Stadt mit Lebensmitteln zu versorgen. Billig, aber auch ungesund und schlecht für die Umwelt. 
+	comics_p5f3b4 = Er hat seine Lebensmittelfabrik auf der anderen Seite der Hügel gebaut. Damit fing alles an. 
+	comics_p5f3b5 = Alles in unserem Dorf wurde feucht und sumpfig, während das Nachbardorf eine Dürre plagt. 
+	comics_p5f3b6 = Und der Wind, der von diesen Hügeln zu uns weht, stinkt furchtbar, der Regen ist ganz lila! 
+	comics_p5f4b1 = Das ist ja furchtbar! Und überhaupt nicht zu tolerieren! 
+	comics_p5f4b2 = Opa, lass uns unsere Sachen packen, wir müssen da sofort hin! 
+	comics_p5f4b3 = Wir werden acht Stunden brauchen, um zu diesem Dorf zu laufen, vor Sonnenuntergang werden wir nicht da sein...
+	comics_p5f4b4 = Aber wir müssen doch nicht laufen. Lass uns mal Onkel Joe's Geschenk ausprobieren! 
+	comics_p5f5b1 = Nun sieh sich das einer an! Diese alte Blechkiste ist perfekt für die Sandstraßen! 
+	comics_p5f5b2 = Das ist keine alte Blechkiste, das ist ein Chevrodzuki, das Modell vom letzten Jahr. 
+	comics_p5f5b3 = Okay, los geht's!
+	comics_p5f6b1 = Huuup-huup
+	
+	comics_p6f1b1 = Großvater und Großmutter genossen gerade ihren Nachmittagstee...
+	comics_p6f1b2 = Wann wird Ginger zurück sein? Ich vermisse sie sehr. 
+	comics_p6f1b3 = Ich denke heute. Hast du das mit Greenfield gehört? Da ist jetzt wieder alles in Ordnung. 
+	comics_p6f1b4 = Brummmm!
+	comics_p6f1b5 = Wenn man vom Teufel spricht!
+	comics_p6f2b1 = Hi Oma! Hi Opa! Wie schön, euch zu sehen! 
+	comics_p6f2b2 = Greenfield ist ein ziemlicher Sumpf zur Zeit! Mit Fröschen und Blutegeln...
+	comics_p6f3b1 = Ga-gack?
+	comics_p6f4b1 = Schlotz!
+	comics_p6f5b1 = Setz dich, Ginger. Hier ist eine Teetasse...
+	comics_p6f5b2 = ...und dein Tee!
+	comics_p6f5b3 = Danke! Gibt es auch was Süßes? 
+	comics_p6f5b4 = Nun, Ginger, ich habe nichts Süßes, mit dem ich backen kann! 
+	comics_p6f5b5 = Früher habe ich immer den Honig von der alten Betty in Plainsville bekommen. 
+	comics_p6f5b6 = Aber jetzt gibt es dort diese große Fabrik, die Schokolade und Zuckerzeug herstellt. Und jetzt kauft keiner mehr ihren Honig. 
+	comics_p6f5b7 = Um es auf den Punkt zu bringen, Liebes: Die Fabrik hat alles ruiniert. 
+	comics_p6f5b8 = Was? Heißt das, es wird nie wieder...
+	comics_p6f5b9 = ...deine wunderbaren Honigkuchen und Pasteten geben?
+	comics_p6f6b1 = Also, jetzt bin ich wirklich ärgerlich! 
+	comics_p6f7b1 = Haltet durch, Leute von Plainsville! Ich werde euch retten! 
+	comics_p6f7b2 = Im Namen der...
+	comics_p6f7b3 = Freiheit!
+	comics_p6f7b4 = Und der Honigkuchen!
+	
+	comics_p7f1b1 = In der Zwischenzeit im Büro von Herrn Agroson...
+	comics_p7f1b2 = Verflucht! Dieses verdammte Mädchen hat uns gezwungen, die Süßwarenfabrik zu schließen. Das wirst du mir büßen! 
+	comics_p7f1b3 = Jacques, Helmut, aufgepasst. Wir müssen alles in Erfahrung bringen über diese kleine... Ginger. 
+	comics_p7f1b4 = Und wenn ihr das ganze Dorf auseinander nehmen müsst, ich will belastende Informationen über dieses Mädchen ... damit wir sie in der Hand haben. Verstanden? 
+	comics_p7f1b5 = Oui, alles verstanden, mon General!
+	comics_p7f1b6 = Ja, natürlich! Wir nehmen dem Baby sein Zuckerzeug weg, Boss!
+	comics_p7f1b7 = Sehr gut. Ab, ab an die Arbeit. Janice!
+	comics_p7f1b8 = Ja Sir?
+	comics_p7f1b9 = Arrangieren Sie eine Besprechung mit diesem kleinen Fräulein Ginger. Sagen Sie ihr, ich hätte ein...
+	comics_p7f1b10 = ...Angebot für sie.
+	comics_p7f2b1 = Am nächsten Tag...
+	comics_p7f2b2 = Wow! Wann haben die denn das hier gebaut? Hoffentlich funktioniert der Aufzug. 
+	comics_p7f3b1 = Ginger, du hast großes Potential!
+	comics_p7f3b2 = Du hast es ganz alleine geschafft, dass ich eine meiner Abteilungen dicht machen musste. Ich bewundere deine wirtschaftlichen Fähigkeiten. 
+	comics_p7f3b3 = Aber stell dir mal vor, was du erreichen könntest, hättest du mein Geld und meine Verbindungen im Rücken!
+	comics_p7f3b4 = Schließ dich mir an. Zusammen können wir die ganze Region in eine wunderbare Utopie verwandeln. Was denkst du darüber? 
+	comics_p7f3b5 = Vielen Dank für Ihr Angebot, Herr Agroson. Aber ich arbeite lieber mit meinen Freunden zusammen. 
+	comics_p7f3b6 = Sie sollten ein bisschen Ihres Geldes für Blumen und Pflanzen ausgeben. Dieser Raum ist schrecklich deprimierend... fast wie eine Gruft.
+	comics_p7f4b1 = Sie haben ja meine Nummer, ich kann ihnen die schönsten Blumen der Region in weniger als 24 Stunden liefern lassen! 
+	comics_p7f4b2 = Warte nur, du kleine arrogante Göre! 
+	comics_p7f4b3 = Ich werde dir zeigen, was es heißt, meine Großzügigkeit abzulehnen! 
+	comics_p7f5b1 = Miiaaaauuuuuuu!
+	comics_p7f6b1 = Nach zwei Tagen...
+	comics_p7f6b2 = Nun weitere Nachrichten... Herr Agroson, Geschäftsführer der Agro Korporation, hat heute die neueste Initiative seines Unternehmens angekündigt. 
+	comics_p7f6b3 = Die Agro Korporation plant, 12.000 Hektar Land in unserer Region zu kaufen, um dort einen gigantischen Freizeitpark zu bauen. 
+	comics_p7f6b4 = Nach Aussage von Agroson wird dieser Park unzählige Touristen anlocken und den Haushalt der Region nachhaltig stärken. 
+	comics_p7f6b5 = Zur Zeit wird dieses Land noch von einigen altmodischen und unrentablen Landwirtschaftsbetrieben bewirtschaftet. 
+	comics_p7f6b6 = Mein Unternehmen wird dieser Region neuen Atem einhauchen. 
+	comics_p7f6b7 = Anstelle dieser paar verrotteten Gemüsekisten treten Tausende Touristen, die nur zu gerne ihr Geld hier lassen werden! 
+	comics_p7f6b8 = Und in zehn Jahren wird die Welt diese Gegend als die Hauptstadt der Achterbahnen kennen! 
+	comics_p7f6b9 = Und nun zum Wetter...
+	comics_p7f7b1 = Wow! Da hat er ja nicht lange gewartet, seine Drohungen wahr zu machen. 
+	comics_p7f8b1 = Wir müssen der Stadt nur beweisen, dass wir ihr mehr geben können als ein paar verrottete Gemüsekisten. 
+	
+	comics_p8f1b1 = Nur noch ein Monat bis zum großen Bauernmarkt! 
+	comics_p8f1b2 = Es ist mehr als 50 Jahre her, dass jemand aus unserem Dorf den Preis als bester Landwirt gewonnen hat. 
+	comics_p8f2b1 = Ginger, eine berühmte Bäuerin aus unserer Gegend, hat angekündigt, am Wettbewerb teilzunehmen! 
+	comics_p8f2b2 = Kann diese Meisterin der Landwirtschaft unserem Dorf den Sieg bringen? 
+	comics_p8f3b1 = Der Bürgermeister hat angekündigt, dass er dieses Jahr sehr an den Ergebnissen interessiert sei. 
+	comics_p8f3b2 = Den Gewinnern winken immer Ruhm, Preise und großartige Verträge! 
+	
+	comics_p9f1b1 = Ihr Idioten! Wo sind die Informationen, die ihr besorgen solltet? 
+	comics_p9f2b1 = Aber Monsieur Agroson, das Mädchen ist sauber!
+	comics_p9f2b2 = Wirklich, Boss! Wir haben wirklich überall gegraben, aber es gibt wirklich nichts über dieses Fräulein Ginger. 
+	comics_p9f2b3 = Das ist ja lächerlich! Eine Woche habt ihr noch. Und wenn ihr dann wieder mit leeren Händen hier steht, gebe ich euch die Schuld! 
+	comics_p9f2b4 = Janice! Verbinden Sie mich mit dieser Ginger. Ich muss ihr wohl selber mal ein paar Dinge stecken. 
+	comics_p9f3b1 = Hallo?
+	comics_p9f4b1 = Okay, jetzt hörst du mir mal gut zu, Ginger! Du zerstörst mir nicht die Gewinne meiner Firma. Wenn du mit deinem bösartigen Verhalten nicht aufhörst, kannst du was erleben!
+	comics_p9f4b2 = Sie machen mir keine Angst, Herr Agroson...
+	comics_p9f4b3 = Wirklich nicht? Hast du eine Vorstellung davon, wie viele deiner Freunde auf meinem Land leben? Und wie viele von ihnen meiner Bank Geld schulden? Leg dich nicht mit mir an, junge Dame!
+	comics_p9f5b1 = "Nieder mit altmodischen und unrentablen Höfen! Lasst uns neue Einkaufszentren und Freizeitparks bauen!"
+	comics_p9f5b2 = Mit seiner Ansprache erntete Herr Agroson eine Menge positiver Reaktionen von Investoren bei der Versammlung der Agro Korporation-Anleger!
+	comics_p9f5b3 = Die Kampagne der Schuldeneintreiber wird immer aggressiver. Heute musste wieder ein Bauernhof seinen Bankrott erklären und ein Darlehen beantragen.
+	
+	comics_p10f1b1 = Boss, Boss! Wir haben was!
+	comics_p10f1b2 = Über Ginger haben wir nichts rausgefunden, aber wir haben etwas über ihre Großeltern ausgegraben. 
+	comics_p10f1b3 = Also, zeigt mal her... Geboren... verheiratet... keine Kinder. Sie haben sie also adoptiert? Das ist doch nicht verboten! 
+	comics_p10f1b4 = Nein, Boss! Es gibt keine offiziellen Adoptionspapiere. Es ist rechtlich nicht bestätigt. 
+	comics_p10f1b5 = Ach so? Hmmm... Gute Arbeit, Jungs!
+	comics_p10f2b1 = Ginger! Nimm doch bitte Platz. Eine Tasse Tee? Vielleicht wirfst du mal einen Blick in diese Unterlagen, ich denke, die könnten dich interessieren! 
+	comics_p10f2b2 = Was ist das? 
+	comics_p10f2b3 = Ach, gar nichts Besonderes! Nur der Beweis, dass du als Kind entführt worden bist. 
+	comics_p10f2b4 = Deine letzte Warnung, junge Dame. Noch ein Schachzug gegen mein Unternehmen und du kannst deine geliebten Großeltern im Kittchen besuchen. Ha! Ha! Ha!
+	comics_p10f3b1 = Onkel Joe, ich bin's, Ginger! Weißt du, wer meine wirklichen Eltern sind? 
+	comics_p10f4b1 = Oh, Ginger... Ich kenne wirklich nicht alle Details dieser Geschichte. Frag am besten den alten Gus. Er erinnert sich bestimmt an alles. 
+	comics_p10f4b2 = Okay. Weißt du denn, wo ich ihn finden kann? 
+	comics_p10f5b1 = Gus? Hallo. Ich heiße...
+	comics_p10f5b2 = Ginger, ja, ich weiß, wer du bist. Komm doch bitte rein. 
+	comics_p10f6b1 = Oh, das war wirklich eine düstere Geschichte. Und mein altes Gedächtnis funktioniert nicht mehr so gut. 
+	comics_p10f6b2 = Mein Hof ist heruntergewirtschaftet, mein Garten mit Unkraut überwuchert und meine Kühe sind mir abgehauen...
+	comics_p10f6b3 = Aber wenn du mir helfen kannst, wird das meinem Gedächtnis vielleicht auf die Sprünge helfen. Ein paar frische Gurken werden meinen kleinen grauen Zellen gut tun! 
+	
+	comics_p11f1b1 = Danke, Ginger, du hast alles richtig gemacht und meine Farm gerettet. Und mit all diesem frischen Gemüse fühle ich mich so gut wie neu, jetzt bin ich bereit, dir alles über deine Eltern zu erzählen. 
+    comics_p11f1b2 = Es hat sich so zugetragen ...
+    comics_p11f2b1 = Vor langer Zeit hat sich ein erfolgreicher Unternehmer von seiner Frau scheiden lassen. 
+    comics_p11f2b2 = Siehst du die Entscheidung des Gerichtes? Gib mir das Baby oder du sollst Peter Agroson kennenlernen! Das Mädchen ist meins, nur meins!
+    comics_p11f3b1 = Aber dann wendete sich das Blatt auf seltsame Weise...
+    comics_p11f4b1 = Die Limousine geriet in ein großes Schlagloch und schleuderte das kleine Mädchen heraus. 
+    comics_p11f5b1 = Als deine Großeltern dich fanden, Ginger, konnten sie ihr Glück kaum fassen. 
+    comics_p11f5b2 = Gott hatte ihnen keine Kinder geschenkt, aber du warst wie ihr eigenes Kind für sie. 
+    comics_p11f6b1 = So bist du also in unserem Dorf gelandet. 
+    comics_p11f6b2 = Ähm, du sagst mir also, dass ich die Tochter von Herrn Agroson bin?!?
+    comics_p11f6b3 = Nein, Ginger. Du musst auf dein Herz hören, um zu verstehen, wer deine wahren Eltern sind. 
+	
+	comics_p12f0b1 = Lasst uns schnell zusammenfassen, was in der letzten Episode passiert ist. 
+	comics_p12f1b1 = Ginger erfuhr die Wahrheit über ihre Herkunft.
+	comics_p12f2b1 = Diese Neuigkeiten gefielen Herrn Argoson noch viel weniger. 
+	comics_p12f2b2 = Mon General, wir haben Neuigkeiten über Ihre Tochter. 
+	comics_p12f2b3 = Meine Tochter ist tot, Jacques. 
+	comics_p12f2b4 = Nein, Chef. Ginger ist Ihre Tochter.
+	comics_p12f2b5 = Neeeeiiiiiin!
+	comics_p12f3b1 = Extrablatt! Extrablatt! Lesen Sie alle Neuigkeiten!
+	comics_p12f3b2 = Neuigkeiten! Der Bürgermeister hat den Vertrag der Stadt mit der Agro Korporation aufgehoben! 
+	comics_p12f3b3 = Es gibt eine Ausschreibung dafür, wer die Stadt in Zukunft mit Lebensmitteln beliefern soll. 
+	comics_p12f3b4 = Wer wird der neue Gemüsekönig? 
+	
+	comics_p13f1b1 = So hört diese Geschichte also auf. 
+	comics_p13f1b2 = Eine endlose Kette von Lastwagen liefert frisches Gemüse in die Stadt. 
+	comics_p13f1b3 = Tschüss, ihr Tomaten! Habt eine gute Reise! 
+	comics_p13f2b1 = Für deine Verdienste für diese großartige Stadt verleihe ich dir ein Zertifikat unserer Anerkennung ...
+	comics_p13f2b2 = Ginger wurde zur Ehrenbürgerin der Stadt ernannt. 
+	comics_p13f3b1 = Das Geschäft und der Wert der Agro Korporation ließen weiterhin rapide nach. 
+	comics_p13f3b2 = Sir, Marktstudien zeigen, dass keiner mehr unsere Produkte kauft. 
+	comics_p13f3b3 = Oh, Ginger, Ginger... Sie ist genau wie ihr Vater! 
+	comics_p13f4b1 = Und wie Sie sehen können, ist die rote Linie gefallen, die grüne jedoch verzeichnet ernsthafte Zuwächse. 
+	comics_p13f4b2 = Was das für unsere Stadt bedeutet, erfahren Sie hier um 11:00!
+	comics_p13f5b1 = Die Agro Korporation war gezwungen, das Hauptquartier des Unternehmens zu verkaufen ...
+	comics_p13f6b1 = Und Ginger konnte endlich das alte Büro von Herrn Agroson mit Pflanzen und Blumen dekorieren. 
+	comics_p13f6b2 = ENDE
+
+>>

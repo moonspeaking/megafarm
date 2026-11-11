@@ -1,0 +1,2787 @@
+<<
+
+@interface
+{
+	#string name "comics";
+	#string texture_pack "comics_pack";
+	#string sound_pack "comics_pack";
+	#string onmessage "comics";
+
+	@bitmap
+	{
+		#string name "main_layer";
+		#point pos 0, 0;
+		#point size 800, 600;
+		#rect texcoord 0, 0, 0.78125, 0.58594;
+		#string texture_name "comics1.jpg";
+	}
+		
+	@comics
+	{
+		#string name "comicbook"
+		@simple_comicspage
+		{
+			#string name "a_new_hope";
+			
+			#string tex_name "comicpage1.tga";		
+			#float time_show 500;
+			 
+			 
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 246, 300;
+				#rect texcoord 0, 0, 246, 300;
+				#point start_point 0, -300;
+				#point end_point 7, 3;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f1b1";
+					#point pos 135, 161;
+					#string arrow_pos "lu";
+					#bool hidden_arrow true;
+				}
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f1b2";
+					#point pos 109, 85;
+					#string arrow_pos "lu";					
+				}
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f1b3";
+					#point pos 31, 212;
+					#string arrow_pos "lu";
+					#bool hidden_arrow true;
+				}			
+				
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 324, 287;
+				#rect texcoord 256, 0, 580, 287;
+				#point start_point -400, -300;
+				#point end_point 253, 2;
+				#float start_angle 80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;								
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f2b1";
+					#point pos 472, 225;
+					#string arrow_pos "lu";
+					#bool hidden_arrow true;
+				}
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f2b2";
+					#point pos 446, 170;
+					#string arrow_pos "ru";				
+				}
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f2b3";
+					#point pos 410, 208;
+					#string arrow_pos "lu";				
+				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame3";
+				#point size 215, 298;
+				#rect texcoord 640, 0, 855, 298;
+				#point start_point -400, 200;
+				#point end_point 581, 2;
+				#float start_angle -130;
+				#float start_size 2.5;
+				#float start_alpha 0.3;	
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f3b1";
+					#point pos 725, 255;
+					#string arrow_pos "ru";
+					#bool hidden_arrow true;
+				}							
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f3b2";
+					#point pos 628, 138;
+					#string arrow_pos "rd";					
+				}							
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame4";
+				#point size 279, 290;
+				#rect texcoord 0, 320, 279, 610;
+				#point start_point 300, 300;
+				#point end_point 5, 307;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;							
+				
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame5";
+				#point size 103, 98;
+				#rect texcoord 0, 640, 103, 738;
+				#point start_point -300, 0;
+				#point end_point 184, 310;
+				#float start_angle 80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;								
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f5b1";
+					#point pos 264, 391;
+					#string arrow_pos "lu";					
+					#bool hidden_arrow true;
+				}					
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame6";
+				#point size 117, 102;
+				#rect texcoord 128, 640, 245, 742;
+				#point start_point -350, 300;
+				#point end_point 1, 488;
+				#float start_angle 170;
+				#float start_size 2.5;
+				#float start_alpha 0.3;			
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f6b1";
+					#point pos 96, 501;
+					#string arrow_pos "ld";
+					#bool hidden_arrow true;
+				}					
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame7";
+				#point size 303, 304;
+				#rect texcoord 320, 320, 623, 624;
+				#point start_point 400, -100;
+				#point end_point 292, 293;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f7b1";
+					#point pos 469, 372;
+					#string arrow_pos "ld";
+					#bool hidden_arrow true;
+				}
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f7b2";
+					#point pos 344, 360;
+					#string arrow_pos "rd";				
+				}
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f7b3";
+					#point pos 479, 392;
+					#string arrow_pos "ld";
+					#bool hidden_arrow true;
+				}
+											
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame8";
+				#point size 202, 295;
+				#rect texcoord 640, 320, 842, 615;
+				#point start_point -400, 300;
+				#point end_point 596, 302;
+				#float start_angle -180;
+				#float start_size 2.5;
+				#float start_alpha 0.3;								
+				
+				@simple_balloon
+				{
+					#string text_key "comics_p1f8b1";
+					#point pos 648, 472;
+					#string arrow_pos "rd";				
+				}
+		
+				@simple_balloon
+				{
+					#string text_key "comics_p1f8b2";
+					#point pos 707, 477;
+					#string arrow_pos "rd";				
+				}
+			}
+			
+		}
+
+		@simple_comicspage
+		{
+			#string name "the_farm_strikes_back";
+			#string tex_name "comicpage2.tga";			
+			#float time_show 500;			 
+			 
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 292, 285;
+				#rect texcoord 0, 0, 292, 285;
+				#point start_point 0, -300;
+				#point end_point 2, 2;
+				#float start_angle 80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f1b1";
+ 					#point pos 140, 128;
+ 					#string arrow_pos "lu"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f1b2";
+ 					#point pos 140, 120;
+ 					#string arrow_pos "lu"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f1b3";
+ 					#point pos 214, 109;
+ 					#string arrow_pos "lu"; 					
+ 				}
+ 						
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 259, 282;
+				#rect texcoord 320, 0, 579, 282;
+				#point start_point -400, -300;
+				#point end_point 296, 2;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f2b1";
+ 					#point pos 423, 272;
+ 					#string arrow_pos "lu"; 					
+ 					#bool hidden_arrow true;
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f2b2";
+ 					#point pos 433, 289;
+ 					#string arrow_pos "lu"; 					
+ 					#bool hidden_arrow true;
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f2b3";
+ 					#point pos 474, 85;
+ 					#string arrow_pos "ru";  					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame3";
+				#point size 240, 288;
+				#rect texcoord 640, 0, 880, 288;
+				#point start_point -40, 200;
+				#point end_point 556, 2;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f3b1";
+ 					#point pos 709, 106;
+ 					#string arrow_pos "ru"; 					 					
+ 				}						
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame4";
+				#point size 272, 307;
+				#rect texcoord 0, 320, 272, 627;
+				#point start_point 0, 300;
+				#point end_point 2, 289;
+				#float start_angle 80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;	
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f4b1";
+ 					#point pos 181, 385;
+ 					#string arrow_pos "ld"; 					 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f4b2";
+ 					#point pos 181, 375;
+ 					#string arrow_pos "ld"; 					 					
+ 				}
+											
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame5";
+				#point size 275, 304;
+				#rect texcoord 320, 320, 595, 624;
+				#point start_point 400, -300;
+				#point end_point 276, 289;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;	
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f5b1";
+ 					#point pos 493, 361;
+ 					#string arrow_pos "rd"; 					 					
+ 				}							
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame6";
+				#point size 237, 149;
+				#rect texcoord 640, 320, 877, 469;
+				#point start_point 0, -300;
+				#point end_point 561, 295;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;	
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f6b1";
+ 					#point pos 697, 316;
+ 					#string arrow_pos "rd"; 					 					
+ 				}	
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f6b2";
+ 					#point pos 702, 321;
+ 					#string arrow_pos "rd"; 					 					
+ 				}				
+											
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame7";
+				#point size 97, 95;
+				#rect texcoord 0, 704, 97, 799;
+				#point start_point 344, 300;
+				#point end_point 682, 419;
+				#float start_angle -360;
+				#float start_size 2.5;
+				#float start_alpha 0.3;	
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f7b1";
+ 					#point pos 693, 438;
+ 					#string arrow_pos "rd"; 					 					
+ 					#bool hidden_arrow true;
+ 				}							
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame8";
+				#point size 152, 148;
+				#rect texcoord 128, 704, 280, 852;
+				#point start_point 125, -103;
+				#point end_point 569, 446;
+				#float start_angle 720;
+				#float start_size 4.5;
+				#float start_alpha 0.9;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p2f8b1";
+ 					#point pos 590, 515;
+ 					#string arrow_pos "rd"; 					 					 					
+ 				}							
+			} 				
+		}
+
+		@simple_comicspage
+		{
+			#string name "return_of_the_jarmer";
+			
+			#string tex_name "comicpage3.tga";		
+			#float time_show 500;			 
+			 
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 293, 280;
+				#rect texcoord 0, 0, 293, 280;
+				#point start_point 0, -300;
+				#point end_point 2, 2;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f1b1";
+ 					#point pos 163, 181;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;					 					
+ 				}	
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 203, 183;
+				#rect texcoord 320, 0, 523, 183;
+				#point start_point -400, -300;
+				#point end_point 298, 2;
+				#float start_angle 80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f2b1";
+ 					#point pos 444, 126;
+ 					#string arrow_pos "lu"; 					 					
+ 					#bool hidden_arrow true;
+ 				}	
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame3";
+				#point size 114, 119;
+				#rect texcoord 576, 0, 690, 119;
+				#point start_point 0, 300;
+				#point end_point 277, 119;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f3b1";
+ 					#point pos 308, 197;
+ 					#string arrow_pos "ru"; 
+ 					#bool hidden_arrow true;					 					
+ 				}	
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame4";
+				#point size 151, 107;
+				#rect texcoord 576, 128, 727, 235;
+				#point start_point 0, 300;
+				#point end_point 358, 200;
+				#float start_angle 80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame5";
+				#point size 292, 273;
+				#rect texcoord 0, 320, 292, 593;
+				#point start_point -400, 150;
+				#point end_point 505, 2;
+				#float start_angle 280;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f5b1";
+ 					#point pos 562, 184;
+ 					#string arrow_pos "ru"; 
+ 					#bool hidden_arrow true;					 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f5b2";
+ 					#point pos 609, 94;
+ 					#string arrow_pos "ru";  					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame6";
+				#point size 256, 316;
+				#rect texcoord 320, 320, 576, 636;
+				#point start_point 100, 300;
+				#point end_point 5, 283;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f6b1";
+ 					#point pos 275, 516;
+ 					#string arrow_pos "ld";  					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f6b2";
+ 					#point pos 58, 419;
+ 					#string arrow_pos "ld";  					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame7";
+				#point size 261, 275;
+				#rect texcoord 576, 320, 837, 595;
+				#point start_point -100, 300;
+				#point end_point 265, 322;
+				#float start_angle 60;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f7b1";
+ 					#point pos 384, 384;
+ 					#string arrow_pos "ld";  					
+ 					#bool hidden_arrow true;
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f7b2";
+ 					#point pos 351, 437;
+ 					#string arrow_pos "ld";  					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f7b3";
+ 					#point pos 418, 451;
+ 					#string arrow_pos "ld";  					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f7b4";
+ 					#point pos 351, 437;
+ 					#string arrow_pos "ld";  					
+ 				}
+				
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame8";
+				#point size 267, 315;
+				#rect texcoord 0, 640, 267, 955;
+				#point start_point -400, 250;
+				#point end_point 529, 281;
+				#float start_angle -360;
+				#float start_size 3.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f8b1";
+ 					#point pos 597, 335;
+ 					#string arrow_pos "rd";  					
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f8b2";
+ 					#point pos 597, 411;
+ 					#string arrow_pos "ru";  					
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f8b3";
+ 					#point pos 634, 453;
+ 					#string arrow_pos "rd";  					
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f8b4";
+ 					#point pos 699, 444;
+ 					#string arrow_pos "rd";  					
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p3f8b5";
+ 					#point pos 733, 514;
+ 					#string arrow_pos "ru";  					
+ 				}
+			}
+		}
+		
+		@simple_comicspage
+		{
+			#string name "tomato_blast";
+			
+			#string tex_name "comicpage4.tga";		
+			#float time_show 500;			 
+			 
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 294, 270;
+				#rect texcoord 0, 0, 294, 270;
+				#point start_point 0, -300;
+				#point end_point 2, 2;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f1b1";
+ 					#point pos 160, 224;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f1b2";
+ 					#point pos 151, 103;
+ 					#string arrow_pos "lu"; 					
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f1b3";
+ 					#point pos 151, 103;
+ 					#string arrow_pos "lu"; 					
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f1b4";
+ 					#point pos 96, 219;
+ 					#string arrow_pos "lu"; 					
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f1b5";
+ 					#point pos 160, 224;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 290, 262;
+				#rect texcoord 320, 0, 610, 262;
+				#point start_point -400, -300;
+				#point end_point 298, 3;
+				#float start_angle 80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;	
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f2b1";
+ 					#point pos 498, 117;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;
+ 				}	
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame3";
+				#point size 165, 118;
+				#rect texcoord 640, 0, 805, 118;
+				#point start_point 400, 300;
+				#point end_point 572, 9;
+				#float start_angle 0;
+				#float start_size 1.2;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f3b1";
+ 					#point pos 587, 122;
+ 					#string arrow_pos "ru";
+ 					#bool hidden_arrow true;
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame4";
+				#point size 143, 116;
+				#rect texcoord 640, 128, 783, 244;
+				#point start_point 400, 300;
+				#point end_point 655, 89;
+				#float start_angle 0;
+				#float start_size 1.2;
+				#float start_alpha 0.3;		
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame5";
+				#point size 153, 147;
+				#rect texcoord 832, 0, 985, 147;
+				#point start_point 400, 300;
+				#point end_point 559, 163;
+				#float start_angle 0;
+				#float start_size 1.2;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f5b1";
+ 					#point pos 614, 193;
+ 					#string arrow_pos "rd"; 					
+ 				}	
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame6";
+				#point size 276, 303;
+				#rect texcoord 0, 320, 276, 623;
+				#point start_point 0, 300;
+				#point end_point 2, 275;
+				#float start_angle 260;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f6b1";
+ 					#point pos 108, 407;
+ 					#string arrow_pos "ld"; 					
+ 				}	
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame7";
+				#point size 137, 135;
+				#rect texcoord 320, 320, 457, 455;
+				#point start_point -195, -368;
+				#point end_point 135, 462;
+				#float start_angle 0;
+				#float start_size 1;
+				#float start_alpha 1;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f7b1";
+ 					#point pos 264, 455;
+ 					#string arrow_pos "ld";
+ 					#bool hidden_arrow true;					
+ 				}	
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame8";
+				#point size 281, 303;
+				#rect texcoord 512, 320, 793, 623;
+				#point start_point 22, -46;
+				#point end_point 281, 285;
+				#float start_angle 360;
+				#float start_size 0.3;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f8b1";
+ 					#point pos 461, 392;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;					
+ 				}	
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame9";
+				#point size 93, 94;
+				#rect texcoord 832, 448, 925, 542;
+				#point start_point -181, -76;
+				#point end_point 267, 264;
+				#float start_angle -30;
+				#float start_size 1.3;
+				#float start_alpha 0.7;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f9b1";
+ 					#point pos 334, 269;
+ 					#string arrow_pos "ld";
+ 					#bool hidden_arrow true;					
+ 				}	
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame10";
+				#point size 93, 94;
+				#rect texcoord 832, 320, 924, 414;
+				#point start_point 50, 72;
+				#point end_point 479, 267;
+				#float start_angle 30;
+				#float start_size 1.3;
+				#float start_alpha 0.7;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f10b1";
+ 					#point pos 533, 264;
+ 					#string arrow_pos "ld";
+ 					#bool hidden_arrow true;					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f10b2";
+ 					#point pos 375, 344;
+ 					#string arrow_pos "ru";
+ 					#bool hidden_arrow true;					
+ 				}
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f10b3";
+ 					#point pos 300, 286;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f10b4";
+ 					#point pos 489, 552;
+ 					#string arrow_pos "rd"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame11";
+				#point size 226, 215;
+				#rect texcoord 0, 640, 226, 855;
+				#point start_point 0, -300;
+				#point end_point 568, 348;
+				#float start_angle -190;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f11b1";
+ 					#point pos 658, 448;
+ 					#string arrow_pos "rd";
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame12";
+				#point size 100, 81;
+				#rect texcoord 320, 640, 420, 721;
+				#point start_point 500, 300;
+				#point end_point 699, 323;
+				#float start_angle 80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f12b1";
+ 					#point pos 718, 352;
+ 					#string arrow_pos "rd"; 					
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f12b2";
+ 					#point pos 658, 448;
+ 					#string arrow_pos "rd";
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f12b3";
+ 					#point pos 718, 352;
+ 					#string arrow_pos "rd"; 					
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f12b4";
+ 					#point pos 718, 352;
+ 					#string arrow_pos "rd"; 					
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f12b5";
+ 					#point pos 658, 448;
+ 					#string arrow_pos "rd";
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f12b6";
+ 					#point pos 718, 352;
+ 					#string arrow_pos "rd"; 					
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f12b7";
+ 					#point pos 658, 448;
+ 					#string arrow_pos "rd";
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame13";
+				#point size 100, 81;
+				#rect texcoord 320, 768, 420, 849;
+				#point start_point 500, 300;
+				#point end_point 548, 514;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f13b1";
+ 					#point pos 553, 512;
+ 					#string arrow_pos "rd";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p4f13b2";
+ 					#point pos 553, 512;
+ 					#string arrow_pos "rd";
+ 				}	
+			}
+		}
+
+		@simple_comicspage
+		{
+			#string name "evil_grows_in_my_pants";
+			
+			#string tex_name "comicpage5.tga";		
+			#float time_show 500;
+			 			 
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 473, 299;
+				#rect texcoord 0, 0, 473, 299;
+				#point start_point 0, -300;
+				#point end_point 4, 4;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f1b1";
+ 					#point pos 12, 12;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f1b2";
+ 					#point pos 380, 150;
+ 					#string arrow_pos "lu"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f1b3";
+ 					#point pos 380, 150;
+ 					#string arrow_pos "lu"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f1b4";
+ 					#point pos 219, 126;
+ 					#string arrow_pos "ld"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f1b5";
+ 					#point pos 219, 126;
+ 					#string arrow_pos "ld";				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f1b6";
+ 					#point pos 324, 242;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 311, 299;
+				#rect texcoord 512, 0, 823, 299;
+				#point start_point 0, -300;
+				#point end_point 483, 4;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f2b1";
+ 					#point pos 704, 148;
+ 					#string arrow_pos "ru";				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f2b2";
+ 					#point pos 600, 200;
+ 					#string arrow_pos "ru";
+ 					#bool hidden_arrow true;			
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f2b3";
+ 					#point pos 600, 170;
+ 					#string arrow_pos "ru";
+ 					#bool hidden_arrow true;			
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f2b4";
+ 					#point pos 600, 140;
+ 					#string arrow_pos "ru";
+ 					#bool hidden_arrow true;			
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f2b5";
+ 					#point pos 488, 100;
+ 					#string arrow_pos "rd"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f2b6";
+ 					#point pos 704, 148;
+ 					#string arrow_pos "ru";				
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame3";
+				#point size 282, 282;
+				#rect texcoord 0, 320, 282, 602;
+				#point start_point 0, -300;
+				#point end_point 4, 309;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f3b1";
+ 					#point pos 263, 524;
+ 					#string arrow_pos "ld";				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f3b2";
+ 					#point pos 263, 524;
+ 					#string arrow_pos "ld";				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f3b3";
+ 					#point pos 263, 524;
+ 					#string arrow_pos "ld";				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f3b4";
+ 					#point pos 263, 524;
+ 					#string arrow_pos "ld";				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f3b5";
+ 					#point pos 263, 524;
+ 					#string arrow_pos "ld";				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f3b6";
+ 					#point pos 263, 524;
+ 					#string arrow_pos "ld";				
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame4";
+				#point size 244, 282;
+				#rect texcoord 320, 320, 564, 602;
+				#point start_point 0, -300;
+				#point end_point 290, 309;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f4b1";
+ 					#point pos 462, 415;
+ 					#string arrow_pos "ld";				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f4b2";
+ 					#point pos 462, 415;
+ 					#string arrow_pos "ld";				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f4b3";
+ 					#point pos 300, 390;
+ 					#string arrow_pos "rd";				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f4b4";
+ 					#point pos 462, 415;
+ 					#string arrow_pos "ld";				
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame5";
+				#point size 258, 281;
+				#rect texcoord 576, 320, 834, 581;
+				#point start_point 0, -300;
+				#point end_point 537, 310;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f5b1";
+ 					#point pos 640, 452;
+ 					#string arrow_pos "rd";				
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f5b2";
+ 					#point pos 557, 363;
+ 					#string arrow_pos "rd";				
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f5b3";
+ 					#point pos 557, 363;
+ 					#string arrow_pos "rd";				
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame6";
+				#point size 115, 98;
+				#rect texcoord 0, 640, 115, 738;
+				#point start_point 0, -300;
+				#point end_point 681, 279;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p5f6b1";
+ 					#point pos 729, 291;
+ 					#string arrow_pos "rd";				
+ 				}
+			}
+		}	
+			
+		@simple_comicspage
+		{
+			#string name "no soup for you";
+			
+			#string tex_name "comicpage6.tga";		
+			#float time_show 500;			 
+			 
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 321, 284;
+				#rect texcoord 0, 0, 321, 284;
+				#point start_point -400, 300;
+				#point end_point 4, 4;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f1b1";
+ 					#point pos 143, 225;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;		
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f1b2";
+ 					#point pos 95, 134;
+ 					#string arrow_pos "ld"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f1b3";
+ 					#point pos 254, 154;
+ 					#string arrow_pos "lu"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f1b4";
+ 					#point pos 790, 176;
+ 					#string arrow_pos "ru";
+ 					#bool hidden_arrow true;
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f1b5";
+ 					#point pos 95, 134;
+ 					#string arrow_pos "ld"; 				
+ 				}
+			}
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 466, 272;
+				#rect texcoord 384, 0, 850, 272;
+				#point start_point 400, 300;
+				#point end_point 329, 4;
+				#float start_angle 80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f2b1";
+ 					#point pos 548, 112;
+ 					#string arrow_pos "rd"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f2b2";
+ 					#point pos 559, 133;
+ 					#string arrow_pos "ru"; 				
+ 				}
+			}
+			@simple_comicframe
+			{
+				#string name "frame3";
+				#point size 135, 130;
+				#rect texcoord 384, 640, 519, 770;
+				#point start_point 0, 0;
+				#point end_point 280, 2;
+				#float start_angle -720;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f3b1";
+ 					#point pos 313, 90;
+ 					#string arrow_pos "ru"; 				
+ 				}
+			}
+			@simple_comicframe
+			{
+				#string name "frame4";
+				#point size 135, 130;
+				#rect texcoord 0, 640, 134, 769;
+				#point start_point -53, 233;
+				#point end_point 280, 2;
+				#float start_angle 1480;
+				#float start_size 0;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f4b1";
+ 					#point pos 402, 15;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true; 					
+ 				}
+			}			
+			@simple_comicframe
+			{
+				#string name "frame5";
+				#point size 301, 311;
+				#rect texcoord 0, 320, 301, 631;
+				#point start_point -400, -300;
+				#point end_point 4, 288;
+				#float start_angle 80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f5b1";
+ 					#point pos 103, 401;
+ 					#string arrow_pos "ld"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f5b2";
+ 					#point pos 245, 396;
+ 					#string arrow_pos "ld"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f5b3";
+ 					#point pos 169, 422;
+ 					#string arrow_pos "ld"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f5b4";
+ 					#point pos 103, 401;
+ 					#string arrow_pos "ld"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f5b5";
+ 					#point pos 103, 401;
+ 					#string arrow_pos "ld"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f5b6";
+ 					#point pos 103, 401;
+ 					#string arrow_pos "ld"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f5b7";
+ 					#point pos 245, 396;
+ 					#string arrow_pos "ld"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f5b8";
+ 					#point pos 151, 441;
+ 					#string arrow_pos "lu"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f5b9";
+ 					#point pos 151, 441;
+ 					#string arrow_pos "lu"; 				
+ 				}
+			}
+			@simple_comicframe
+			{
+				#string name "frame6";
+				#point size 277, 263;
+				#rect texcoord 384, 320, 661, 583;
+				#point start_point 280, 300;
+				#point end_point 290, 310;
+				#float start_angle 0;
+				#float start_size 1;
+				#float start_alpha 0.2;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f6b1";
+ 					#point pos 441, 427;
+ 					#string arrow_pos "ru"; 				
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame7";
+				#point size 236, 320;
+				#rect texcoord 704, 320, 940, 640;
+				#point start_point 400, 0;
+				#point end_point 562, 279;
+				#float start_angle 80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f7b1";
+ 					#point pos 661, 333;
+ 					#string arrow_pos "rd"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f7b2";
+ 					#point pos 661, 333;
+ 					#string arrow_pos "rd"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f7b3";
+ 					#point pos 661, 333;
+ 					#string arrow_pos "rd"; 				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p6f7b4";
+ 					#point pos 661, 333;
+ 					#string arrow_pos "rd"; 				
+ 				}
+			}
+		}
+		
+		@simple_comicspage
+		{
+			#string name "first paper";
+			
+			#string tex_name "comicpage7.tga";		
+			#float time_show 500;			 
+			 
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 380, 300;
+				#rect texcoord 0, 0, 380, 300;
+				#point start_point 0, 0;
+				#point end_point 115, 18;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p8f1b1";
+ 					#point pos 405, 81;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p8f1b2";
+ 					#point pos 461, 148;
+ 					#string arrow_pos "rd"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 412, 472;
+				#rect texcoord 388, 0, 800, 472;
+				#point start_point 0, 0;
+				#point end_point 286, 70;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p8f2b1";
+ 					#point pos 596, 145;
+ 					#string arrow_pos "rd"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p8f2b2";
+ 					#point pos 444, 331;
+ 					#string arrow_pos "rd"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame3";
+				#point size 385, 307;
+				#rect texcoord 0, 310, 385, 617;
+				#point start_point 0, 0;
+				#point end_point 156, 265;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p8f3b1";
+ 					#point pos 457, 352;
+ 					#string arrow_pos "rd"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p8f3b2";
+ 					#point pos 471, 488;
+ 					#string arrow_pos "ld"; 					
+ 				}
+			}
+		}
+		
+		@simple_comicspage
+		{
+			#string name "bribes bribes bribes";
+			
+			#string tex_name "comicpage8.tga";		
+			#float time_show 500;			 
+			 
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 362, 296;
+				#rect texcoord 0, 0, 362, 296;
+				#point start_point -400, -300;
+				#point end_point 5, 2;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f1b1";
+ 					#point pos 250, 229;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f1b2";
+ 					#point pos 334, 103;
+ 					#string arrow_pos "ld";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f1b3";
+ 					#point pos 334, 103;
+ 					#string arrow_pos "ld";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f1b4";
+ 					#point pos 334, 103;
+ 					#string arrow_pos "ld";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f1b5";
+ 					#point pos 228, 93;
+ 					#string arrow_pos "lu";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f1b6";
+ 					#point pos 147, 114;
+ 					#string arrow_pos "lu";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f1b7";
+ 					#point pos 334, 103;
+ 					#string arrow_pos "ld";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f1b8";
+ 					#point pos 77, 201;
+ 					#string arrow_pos "lu";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f1b9";
+ 					#point pos 334, 103;
+ 					#string arrow_pos "ld";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f1b10";
+ 					#point pos 334, 103;
+ 					#string arrow_pos "ld";
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 189, 314;
+				#rect texcoord 384, 0, 573, 314;
+				#point start_point 200, -300;
+				#point end_point 380, 3;
+				#float start_angle 45;
+				#float start_size 1.5;
+				#float start_alpha 0.8;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f2b1";
+ 					#point pos 433, 279;
+ 					#string arrow_pos "ru";
+ 					#bool hidden_arrow true;
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f2b2";
+ 					#point pos 460, 185;
+ 					#string arrow_pos "rd"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame3";
+				#point size 214, 314;
+				#rect texcoord 640, 0, 854, 314;
+				#point start_point -400, 300;
+				#point end_point 582, 4;
+				#float start_angle 120;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f3b1";
+ 					#point pos 616, 129;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f3b2";
+ 					#point pos 616, 129;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f3b3";
+ 					#point pos 616, 129;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f3b4";
+ 					#point pos 616, 129;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f3b5";
+ 					#point pos 732, 161;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f3b6";
+ 					#point pos 732, 161;
+ 					#string arrow_pos "ru"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame4";
+				#point size 383, 293;
+				#rect texcoord 0, 320, 383, 613;
+				#point start_point 0, 300;
+				#point end_point 6, 304;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f4b1";
+ 					#point pos 110, 457;
+ 					#string arrow_pos "ld"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f4b2";
+ 					#point pos 255, 355;
+ 					#string arrow_pos "ld"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f4b3";
+ 					#point pos 255, 355;
+ 					#string arrow_pos "ld"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame5";
+				#point size 243, 144;
+				#rect texcoord 384, 320, 627, 464;
+				#point start_point 400, 300;
+				#point end_point 180, 446;
+				#float start_angle -120;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f5b1";
+ 					#point pos 267, 531;
+ 					#string arrow_pos "ld"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame6";
+				#point size 336, 274;
+				#rect texcoord 640, 320, 976, 594;
+				#point start_point 0, 300;
+				#point end_point 428, 321;
+				#float start_angle 90;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f6b1";
+ 					#point pos 772, 350;
+ 					#string arrow_pos "rd"; 					
+ 					#bool hidden_arrow true;
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f6b2";
+ 					#point pos 603, 452;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f6b3";
+ 					#point pos 603, 452;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f6b4";
+ 					#point pos 603, 452;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f6b5";
+ 					#point pos 497, 401;
+ 					#string arrow_pos "rd"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f6b6";
+ 					#point pos 497, 401;
+ 					#string arrow_pos "rd"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f6b7";
+ 					#point pos 497, 401;
+ 					#string arrow_pos "rd"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f6b8";
+ 					#point pos 497, 401;
+ 					#string arrow_pos "rd"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame7";
+				#point size 148, 158;
+				#rect texcoord 0, 640, 148, 798;
+				#point start_point 350, 300;
+				#point end_point 647, 333;
+				#float start_angle -270;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f7b1";
+ 					#point pos 703, 424;
+ 					#string arrow_pos "rd"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame8";
+				#point size 148, 158;
+				#rect texcoord 384, 640, 532, 798;
+				#point start_point 321, -112;
+				#point end_point 647, 333;
+				#float start_angle 0;
+				#float start_size 1;
+				#float start_alpha 0.1;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p7f8b1";
+ 					#point pos 703, 424;
+ 					#string arrow_pos "rd"; 					
+ 				}
+			}
+		}
+		
+		@simple_comicspage
+		{
+			#string name "level 9";
+			
+			#string tex_name "comicpage9.tga";		
+			#float time_show 500;
+			
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 270, 260;
+				#rect texcoord 0, 0, 270, 260;
+				#point start_point 0, 0;
+				#point end_point 1, 1;
+				#float start_angle -360;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p9f1b1";
+ 					#point pos 129, 129;
+ 					#string arrow_pos "ld"; 					
+ 				}
+			}
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 324, 322;
+				#rect texcoord 315, 0, 639, 322;
+				#point start_point 0, 0;
+				#point end_point 475, 1;
+				#float start_angle 360;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p9f2b1";
+ 					#point pos 555, 114;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p9f2b2";
+ 					#point pos 686, 126;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p9f2b3";
+ 					#point pos 129, 129;
+ 					#string arrow_pos "ld"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p9f2b4";
+ 					#point pos 129, 129;
+ 					#string arrow_pos "ld"; 					
+ 				}
+			}
+			@simple_comicframe
+			{
+				#string name "frame3";
+				#point size 308, 321;
+				#rect texcoord 640, 0, 948, 321;
+				#point start_point 0, 0;
+				#point end_point 1, 278;
+				#float start_angle -360;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p9f3b1";
+ 					#point pos 172, 440;
+ 					#string arrow_pos "ld"; 					
+ 				}
+			}
+			@simple_comicframe
+			{
+				#string name "frame4";
+				#point size 322, 327;
+				#rect texcoord 0, 315, 322, 642;
+				#point start_point 0, 0;
+				#point end_point 477, 272;
+				#float start_angle 360;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p9f4b1";
+ 					#point pos 621, 423;
+ 					#string arrow_pos "rd";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p9f4b2";
+ 					#point pos 172, 440;
+ 					#string arrow_pos "ld"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p9f4b3";
+ 					#point pos 621, 423;
+ 					#string arrow_pos "rd";
+ 				}
+			}
+			@simple_comicframe
+			{
+				#string name "frame5";
+				#point size 463, 551;
+				#rect texcoord 322, 321, 785, 872;
+				#point start_point 0, 0;
+				#point end_point 168, 24;
+				#float start_angle -720;
+				#float start_size 4;
+				#float start_alpha 0.3;
+				 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p9f5b1";
+ 					#point pos 267, 176;
+ 					#string arrow_pos "lu";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p9f5b2";
+ 					#point pos 337, 300;
+ 					#string arrow_pos "ld";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p9f5b3";
+ 					#point pos 496, 123;
+ 					#string arrow_pos "ru";
+ 				}
+			}			
+		}
+		
+		@simple_comicspage
+		{
+			#string name "level 10";
+			
+			#string tex_name "comicpage10.tga";		
+			#float time_show 500;
+			
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 360, 294;
+				#rect texcoord 0, 0, 360, 294;
+				#point start_point 0, -300;
+				#point end_point 3, 2;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f1b1";
+ 					#point pos 148, 113;
+ 					#string arrow_pos "lu";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f1b2";
+ 					#point pos 222, 92;
+ 					#string arrow_pos "lu";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f1b3";
+ 					#point pos 266, 137;
+ 					#string arrow_pos "ld";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f1b4";
+ 					#point pos 148, 113;
+ 					#string arrow_pos "lu";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f1b5";
+ 					#point pos 266, 137;
+ 					#string arrow_pos "ld";
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 212, 308;
+				#rect texcoord 384, 0, 596, 308;
+				#point start_point 0, -300;
+				#point end_point 378, 2;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f2b1";
+ 					#point pos 520, 113;
+ 					#string arrow_pos "rd";
+ 				} 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f2b2";
+ 					#point pos 455, 164;
+ 					#string arrow_pos "ld";
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f2b3";
+ 					#point pos 520, 113;
+ 					#string arrow_pos "rd";
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f2b4";
+ 					#point pos 520, 113;
+ 					#string arrow_pos "rd";
+ 				}
+			}
+			
+			@simple_comicframe			
+			{
+				#string name "frame3";
+				#point size 187, 309;
+				#rect texcoord 640, 0, 827, 309;
+				#point start_point 0, -300;
+				#point end_point 606, 2;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f3b1";
+ 					#point pos 695, 205;
+ 					#string arrow_pos "ru";
+ 				}
+			}
+			@simple_comicframe
+			{
+				#string name "frame4";
+				#point size 100, 81;
+				#rect texcoord 0, 704, 100, 785;
+				#point start_point 0, -300;
+				#point end_point 579, 5;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f4b1";
+ 					#point pos 617, 72;
+ 					#string arrow_pos "ru";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f4b2";
+ 					#point pos 695, 205;
+ 					#string arrow_pos "ru";
+ 				}
+			}
+			@simple_comicframe
+			{
+				#string name "frame5";
+				#point size 362, 292;
+				#rect texcoord 0, 384, 362, 676;
+				#point start_point 0, -300;
+				#point end_point 3, 306;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f5b1";
+ 					#point pos 265, 525;
+ 					#string arrow_pos "ld";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f5b2";
+ 					#point pos 117, 466;
+ 					#string arrow_pos "ld";
+ 				}
+			}
+			@simple_comicframe
+			{
+				#string name "frame6";
+				#point size 412, 285;
+				#rect texcoord 384, 384, 796, 669;
+				#point start_point 0, -300;
+				#point end_point 383, 314;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f6b1";
+ 					#point pos 598, 372;
+ 					#string arrow_pos "rd";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f6b2";
+ 					#point pos 598, 372;
+ 					#string arrow_pos "rd";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p10f6b3";
+ 					#point pos 598, 372;
+ 					#string arrow_pos "rd";
+ 				}
+			}
+		}
+		
+		@simple_comicspage
+		{
+			#string name "finders keepers";
+			
+			#string tex_name "comicpage11.tga";		
+			#float time_show 500;
+			 			 
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 414, 287;
+				#rect texcoord 0, 0, 414, 287;
+				#point start_point 0, -300;
+				#point end_point 2, 3;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p11f1b1";
+ 					#point pos 276, 203;
+ 					#string arrow_pos "lu";
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p11f1b2";
+ 					#point pos 276, 203;
+ 					#string arrow_pos "lu";
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 374, 285;
+				#rect texcoord 448, 0, 822, 285;
+				#point start_point 0, -300;
+				#point end_point 422, 4;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p11f2b1";
+ 					#point pos 509, 239;
+ 					#string arrow_pos "ru";
+ 					#bool hidden_arrow true;
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p11f2b2";
+ 					#point pos 649, 173;
+ 					#string arrow_pos "ru"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame3";
+				#point size 321, 280;
+				#rect texcoord 0, 320, 321, 600;
+				#point start_point 0, -300;
+				#point end_point 9, 304;
+				#float start_angle -270;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p11f3b1";
+ 					#point pos 227, 428;
+ 					#string arrow_pos "ld";
+ 					#bool hidden_arrow true;
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame4";
+				#point size 113, 99;
+				#rect texcoord 0, 768, 113, 867;
+				#point start_point 0, -300;
+				#point end_point 227, 294;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p11f4b1";
+ 					#point pos 338, 385;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame5";
+				#point size 209, 302;
+				#rect texcoord 448, 320, 657, 622;
+				#point start_point 0, -300;
+				#point end_point 345, 293;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p11f5b1";
+ 					#point pos 403, 325;
+ 					#string arrow_pos "rd";
+ 					#bool hidden_arrow true;
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p11f5b2";
+ 					#point pos 463, 302;
+ 					#string arrow_pos "ld";
+ 					#bool hidden_arrow true;
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame6";
+				#point size 209, 302;
+				#rect texcoord 704, 320, 913, 622;
+				#point start_point 0, -300;
+				#point end_point 577, 294;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p11f6b1";
+ 					#point pos 776, 301;
+ 					#string arrow_pos "rd";
+ 					#bool hidden_arrow true;
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p11f6b2";
+ 					#point pos 148, 166;
+ 					#string arrow_pos "lu"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p11f6b3";
+ 					#point pos 276, 203;
+ 					#string arrow_pos "lu";
+ 				}
+			}
+		}
+		
+		@simple_comicspage
+		{
+			#string name "last paper";
+			
+			#string tex_name "comicpage12.tga";		
+			#float time_show 500;	 
+			
+			@simple_comicframe
+			{
+				#string name "frame0";
+				#point size 0, 0;
+				#rect texcoord 0, 0, 0, 0;
+				#point start_point 0, 0;
+				#point end_point 0, 0;
+				#float start_angle 0;
+				#float start_size 0;
+				#float start_alpha 0;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p12f0b1";
+ 					#point pos 276, 250;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;
+ 				}
+				
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 283, 279;
+				#rect texcoord 0, 0, 283, 279;
+				#point start_point -257, 159;
+				#point end_point 1, 1;
+				#float start_angle 0;
+				#float start_size 1;
+				#float start_alpha 0;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p12f1b1";
+ 					#point pos 62, 204;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 283, 279;
+				#rect texcoord 320, 0, 603, 279;
+				#point start_point 257, 159;
+				#point end_point 516, 1;
+				#float start_angle 0;
+				#float start_size 1;
+				#float start_alpha 0;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p12f2b1";
+ 					#point pos 584, 208;
+ 					#string arrow_pos "ru";
+ 					#bool hidden_arrow true;
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p12f2b2";
+ 					#point pos 538, 64;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p12f2b3";
+ 					#point pos 659, 108;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p12f2b4";
+ 					#point pos 752, 107;
+ 					#string arrow_pos "ru"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p12f2b5";
+ 					#point pos 659, 108;
+ 					#string arrow_pos "ru"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame3";
+				#point size 386, 299;
+				#rect texcoord 0, 320, 386, 619;
+				#point start_point 0, -300;
+				#point end_point 205, 244;
+				#float start_angle -360;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p12f3b1";
+ 					#point pos 321, 457;
+ 					#string arrow_pos "ru"; 					
+ 					#bool hidden_arrow true;
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p12f3b2";
+ 					#point pos 487, 294;
+ 					#string arrow_pos "rd"; 					 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p12f3b3";
+ 					#point pos 524, 372;
+ 					#string arrow_pos "lu"; 					 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p12f3b4";
+ 					#point pos 543, 504;
+ 					#string arrow_pos "rd"; 					 					
+ 				}
+			}
+			
+		}
+		
+		@simple_comicspage
+		{
+			#string name "final";
+			
+			#string tex_name "comicpage13.tga";		
+			#float time_show 500;
+			 
+			@simple_comicframe
+			{
+				#string name "frame1";
+				#point size 290, 235;
+				#rect texcoord 0, 0, 290, 235;
+				#point start_point 0, -300;
+				#point end_point 3, 26;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f1b1";
+ 					#point pos 162, 238;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;				
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f1b2";
+ 					#point pos 162, 238;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;				
+ 				}
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f1b3";
+ 					#point pos 92, 175;
+ 					#string arrow_pos "lu"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame2";
+				#point size 285, 296;
+				#rect texcoord 320, 0, 605, 296;
+				#point start_point 0, -300;
+				#point end_point 296, 3;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f2b1";
+ 					#point pos 395, 150;
+ 					#string arrow_pos "lu"; 					
+ 				}
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f2b2";
+ 					#point pos 513, 259;
+ 					#string arrow_pos "lu";
+ 					#bool hidden_arrow true;
+ 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame3";
+				#point size 212, 297;
+				#rect texcoord 640, 0, 852, 297;
+				#point start_point 0, -300;
+				#point end_point 585, 3;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f3b1";
+ 					#point pos 654, 266;
+ 					#string arrow_pos "ru";
+ 					#bool hidden_arrow true
+ 				}
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f3b2";
+ 					#point pos 721, 165;
+ 					#string arrow_pos "rd"; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f3b3";
+ 					#point pos 651, 214;
+ 					#string arrow_pos "ru";
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame4";
+				#point size 316, 239;
+				#rect texcoord 0, 320, 316, 559;
+				#point start_point 0, -300;
+				#point end_point 4, 325;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f4b1";
+ 					#point pos 283, 433;
+ 					#string arrow_pos "ld"; 					
+ 				}
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f4b2";
+ 					#point pos 283, 433;
+ 					#string arrow_pos "ld"; 					
+ 				}
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame5";
+				#point size 209, 292;
+				#rect texcoord 320, 320, 529, 612;
+				#point start_point 0, -300;
+				#point end_point 325, 305;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f5b1";
+ 					#point pos 374, 374;
+ 					#string arrow_pos "rd";
+ 					#bool hidden_arrow true;
+ 				}				
+			}
+			
+			@simple_comicframe
+			{
+				#string name "frame6";
+				#point size 257, 277;
+				#rect texcoord 640, 320, 897, 597;
+				#point start_point 0, -300;
+				#point end_point 540, 313;
+				#float start_angle -80;
+				#float start_size 2.5;
+				#float start_alpha 0.3;
+				
+				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f6b1";
+ 					#point pos 553, 322;
+ 					#string arrow_pos "rd";
+ 					#bool hidden_arrow true; 					
+ 				}
+ 				
+ 				@simple_balloon
+ 				{
+ 					#string text_key "comics_p13f6b2";
+ 					#point pos 553, 322;
+ 					#string arrow_pos "rd";
+ 					#bool hidden_arrow true; 					
+ 				}
+			}
+		}
+				
+				
+	}
+	
+	@button_skip_right
+	{
+		#string name "comics_skip";
+		#point pos 355, -255;
+		#point size 64, 64;
+		#string onmessage "comics.skip";
+		#bool alive true;
+	}
+	
+	@button_right
+	{
+		#string name "comics_back";
+		#point pos 355, -255;
+		#point size 64, 64;
+		#string onmessage "comics.exit";
+		#bool alive false;
+	}	
+	@cursor;
+}
+
+>>
+

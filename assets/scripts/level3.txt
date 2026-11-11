@@ -1,0 +1,556 @@
+а я тут можно писать что угодно!
+
+<<
+
+@level 4
+{
+	#string level_name "Свинофермы";
+	#point level_size 32, 24; 
+	#string level_env "swamp";
+	#float level_time 1200;
+	#float plant_thirst_growth 0.25;
+	#float health_reduction_after_harvest 1.5;
+	#float plant_fertilizer_strength 0.7;
+	#float plant_fertilizer_time 7;
+
+	@scenario
+	{
+		//----------------------------------------------//
+		//				все условии						//
+		//----------------------------------------------//
+
+		@comics_episode1
+		{
+			time >= 2;
+		}
+		
+		@comics_episode2
+		{
+			time >= 3;
+		}
+		
+		@first_task_part1
+		{
+			sell_plant_mushroom >= 4;
+		}
+		
+		@first_task_part2
+		{
+			sell_plant_aubergine >= 4;
+		}
+		
+		@first_task_part3
+		{
+			sell_plant_cucumber >= 4;
+		}
+		
+		@add_big_fertilizer
+		{
+			place_fertilizer >= 4;
+		}
+		
+		@add_beetroot
+		{
+			sell_plant_mushroom >= 9;
+			sell_plant_aubergine >= 9;
+			sell_plant_cucumber >= 9;
+		}
+	
+		@pig_eat
+		{
+			house_fed >= 1;
+		}
+		
+		@pig_ready
+		{
+			goods_ready >= 1;
+		}
+	
+		@destructor_help
+		{
+			sow_tomato >= 12;
+		}
+	
+		@first_pig_sell
+		{
+			sell_house_pig >= 1;
+		}
+		
+		@buy_house_pig
+		{
+			sell_house_pig >= 2;
+		}
+		
+		@add_500money
+		{
+			place_patent_for_house_pig >= 1;
+		}
+		
+		@have_700money
+		{
+			money >= 700;
+		}
+		
+		@victory
+		{
+			sell_house_pig >= 7;
+		}
+		
+		@defeat_time
+		{
+			time >= 10000;
+		}
+		
+		//----------------------------------------------//
+		//				мессаги							//
+		//----------------------------------------------//
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_pig_alarm";
+			@condition
+			{
+				comics_episode1;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_task_collect_batch_vegatables";
+			@condition
+			{
+				comics_episode2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_task_sell_pig";
+			#int delay 1;
+			@condition
+			{
+				first_task_part1;
+				first_task_part2;
+				first_task_part3;
+			}
+		}  
+		
+	
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_beetroot_help";
+			@condition
+			{
+				add_beetroot;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_victory";
+			@condition
+			{
+				victory;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_complete_sell_plant_mushroom";
+			@condition
+			{
+				first_task_part1;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_complete_sell_plant_aubergine";
+			@condition
+			{
+				first_task_part2;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_complete_sell_plant_cucumber";
+			@condition
+			{
+				first_task_part3;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_pig_feed_help";
+			@condition
+			{
+				pig_eat;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_pig_sow_help";
+			@condition
+			{
+				pig_ready;
+			}
+		}  
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_destructor_help";
+			@condition
+			{
+				destructor_help;
+			}
+		} 	
+	
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_water_sprinkler_help";
+			@condition
+			{
+				first_pig_sell;
+			}
+		} 
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_add_house_pig";
+			@condition
+			{
+				buy_house_pig;
+			}
+		} 
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_add_500money";
+			@condition
+			{
+				add_500money;
+			}
+		} 
+		
+		@action
+		{
+			#string type "show message";
+			#string data "l3_message_have_700money";
+			@condition
+			{
+				have_700money;
+			}
+		} 
+		
+		
+		//----------------------------------------------//
+		//		а тут дибильные таски на уровень		//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l3_task_collect_batch_vegatables";
+			@condition
+			{
+				first_task_part1;
+				first_task_part2;
+				first_task_part3;
+			}
+		} 
+		
+		@action
+		{
+			#string type "set task";
+			#string data "l3_task_pig_alarm";
+			@condition
+			{
+				victory;
+			}
+		} 
+		
+		
+		//----------------------------------------------//
+		//				подзадачи						//
+		//----------------------------------------------//
+
+		@action
+		{
+			#string type "add task";
+			#string data "l3_task_collect_batch_vegatables";
+		}  
+		
+		//----------------------------------------------//
+		//				главное задание					//
+		//----------------------------------------------//
+		@action
+		{
+			#string type "add task";
+			#string data "l3_task_pig_alarm";
+			@condition
+			{
+				first_task_part1;
+				first_task_part2;
+				first_task_part3;
+			}
+		}  
+
+		//----------------------------------------------//
+		//				добавляем на поле				//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "add to field";
+			#string data "hero";
+			#point coords  16, 5;
+		}
+		
+		@action //добавили ангар
+		{
+			#string type "add to field";
+			#string data "hangar_vegetables";
+			#point coords  18, 3;
+		}
+		
+		@action //добавили лейку
+		{
+			#string type "add to field";
+			#string data "watercan";
+			#point coords  22, 4;
+		}
+		
+		@action //добавили колонку
+		{
+			#string type "add to field";
+			#string data "waterpump";
+			#point coords  21, 3;
+		}
+		
+		@action //добавили ящик
+		{
+			#string type "add to field";
+			#string data "fivebox";
+			#point coords  17, 5;
+		}
+		
+		@action //добавили огрурцы
+		{
+			#string type "add to field";
+			#string data "cucumber";
+			#point coords  14, 6;
+		}
+		
+		@action //добавили капусту
+		{
+			#string type "add to field";
+			#string data "aubergine";
+			#point coords  15, 6;
+		}
+		
+		@action //добавили морковь
+		{
+			#string type "add to field";
+			#string data "mushroom";
+			#point coords  13, 6;
+		}
+		
+		@action //добавили свинарник
+		{	
+			#string type "add to field";
+			#string data "house_pig";
+			#point coords  14, 3;
+		}
+		
+		@action //добавили свинарник
+		{	
+			#string type "add to field";
+			#string data "house_pig";
+			#point coords  10, 3;
+		}
+	
+	
+		//----------------------------------------------//
+		//				добавляем всякое				//
+		//----------------------------------------------//
+		
+		@action
+		{
+			#string type "add money";
+			#string data "51";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "box";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "fivebox";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "fertilizer";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "cucumber";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_mushroom";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "aubergine";
+		}		
+		@action
+		{
+			#string type "add to shop";
+			#string data "radish";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "pumpkin";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "watercan";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "big_watercan";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "waterpump";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "hangar_vegetables";
+		}
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_house_pig";
+		}
+		
+		//----------------------------------------------//
+		//				игровые события					//
+		//----------------------------------------------//
+				
+		@action
+		{
+			#string type "add to shop";
+			#string data "water_sprinkler";
+			@condition
+			{
+				first_pig_sell;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_tomato";
+			@condition
+			{
+				first_task_part1;
+				first_task_part2;
+				first_task_part3;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "patent_for_beetroot";
+			@condition
+			{
+				add_beetroot;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "destructor";
+			@condition
+			{
+				destructor_help;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add to shop";
+			#string data "big_fertilizer";
+			@condition
+			{
+				add_big_fertilizer;
+			}
+		}  
+		
+		@action
+		{
+			#string type "add money";
+			#string data "500";
+			@condition
+			{
+				add_500money;
+			}
+		}  
+		
+		@action
+		{
+			#string type "victory";
+			@condition 1
+			{
+				victory;
+			}
+		}
+		
+		@action
+		{
+			#string type "defeat";
+			@condition 1
+			{
+				defeat_time;
+			}
+		}
+	}
+}
+
+
+>>
+
+тут тоже можно писать что угодно
+что угодно
+
+

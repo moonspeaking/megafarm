@@ -1,0 +1,976 @@
+ксрипт содержит все менюшки 
+
+<<
+
+@menuhost
+{
+
+	@bitmap
+	{
+		#string name "splash";
+		#point pos 0, 0;
+		#point size 100, 100;
+		#rect texcoord 0, 0, 0.78125, 0.58594;
+		#string align "scalex scaley";
+	}
+	@simple_slide_show
+	{
+		#string name "splasher";
+		#point pos 0, 0;
+		#point size 800, 600;
+		#float delay_time 3000;
+		#float app_time 800;
+		#float disapp_time 800;
+		#string onmessage "intro.splasher";
+	}	
+
+	@simple_window
+	{
+		#string name "main_window";
+		#point pos 230, 100;
+		#point size 220, 290;
+
+		@simple_popup
+		{
+			#string name "main_menu";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#float margin 16;
+			#string align "scalex scaley";
+			#string onmessage "menu.main_window.main_menu";
+
+			@item_list
+			{
+				start;				
+				options;
+				trophyroom;	
+				help;			
+				credits;
+				exit;
+			}
+		}
+	}
+	
+	@simple_window
+	{
+		#string name "options_window";
+		#point pos 230, 100;
+		#point size 240, 260;
+
+		@simple_popup
+		{
+			#string name "options_menu";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string onmessage "menu.options_window.options_menu";
+
+			@item_list
+			{
+				fullscreen;								
+				set_volume;
+				cursor on/off;
+				back;
+			}
+		}
+	}
+
+	@simple_window
+	{
+		#string name "language_window";
+		#point pos 230, 0;
+		#point size 220, 570;
+
+		@simple_popup
+		{
+			#string name "language_menu";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string onmessage "menu.language_window.language_menu";
+
+			@item_list
+			{
+				lang_rus;
+				lang_eng;
+				lang_fra;
+				lang_ita;
+				lang_por;
+				lang_dut;
+				lang_swe;
+				lang_esp;
+				lang_deu;
+				lang_jap;
+				lang_kor;
+				lang_chn;
+				back;
+			}
+		}
+	}
+	
+	@simple_window
+	{
+		#string name "profiles_window";
+		#point pos -230, 0;
+		#point size 220, 270;
+
+		@simple_popup
+		{
+			#string name "profiles_menu";
+			#point pos 0, 0;
+			#point size 220, 20;
+			#bool autosize true;
+			
+			#string onmessage "menu.profiles_window.profiles_menu";
+		}
+	}
+	
+	@simple_window
+	{
+		#string name "delete_profile_window";
+		#point pos -230, 0;
+		#point size 220, 270;
+
+		@simple_popup
+		{
+			#string name "delete_profile_menu";
+			#point pos 0, 0;
+			#point size 220, 20;
+			#bool autosize true;
+			
+			#string onmessage "menu.delete_profile_window.delete_profile_menu";
+		}
+	}
+	
+	@simple_window
+	{
+		#string name "music_window";
+		#point pos 220, 160;
+		#point size 160, 180;
+		
+		@simple_popup
+		{
+			#string name "playlist";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string onmessage "menu.music_window.playlist";
+		}
+	}
+
+	@simple_window
+	{
+		#string name "main_menu_form";
+		#point pos 0, 0;
+		#point size 220, 200;
+		#bool show false;
+
+		@simple_popup
+		{
+			#string name "main_menu";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string onmessage "gameplay.main_menu_form.main_menu";
+
+			@item_list
+			{				
+				restart;				
+				exitgame;
+				options;
+				continue;
+			}
+		}
+	}		
+
+	@simple_window
+	{
+		#string name "ingame_options";
+		#point pos 0, 0;
+		#point size 240, 240;
+
+		#bool show false;
+		@simple_popup
+		{
+			#string name "options_menu";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#string align "scalex scaley";
+			#string onmessage "gameplay.ingame_options.options_menu";
+
+			@item_list
+			{
+				fullscreen;
+				set_volume;
+				cursor on/off;
+				back;
+			}
+		}
+	}
+
+	@virtual_window
+	{
+		#string name "upmenu_form";
+		#point pos 0, 268;
+		#point size 800, 64;
+		#string tex_mask_name "mask_upbar.tga";
+	
+		@bitmap
+		{
+			#string name "center";
+			#point pos 0, 0;
+			#point size 100, 100;
+			#rect texcoord 0, 0, 0.78125, 1;
+			#bool mask true;
+			#string align "scalex scaley";
+			#string texture_name "upbar.tga";
+		}
+
+		@bitmap
+		{
+			#string name "timebar";
+			#point pos -167, 9;
+			#point size 284, 32;
+			#string texture_name "timebar.tga";
+		}
+
+		@bitmap
+		{
+			#string name "taskbar";
+			#point pos 160, 9;
+			#point size 300, 64;
+			#rect color 255, 255, 255, 0;
+			#string texture_name "fill.tga";
+			#string onmessage "gameplay.upmenu_form.upmenu";
+		}
+
+		@text
+		{
+			#string name "money";
+			#point pos 370, 16;
+			#point size 64, 32;
+			#float font_size 14;
+			#string text_key "0";
+		}
+		@text
+		{
+			#string name "menu";
+			#point pos -365, 16;
+			#point size 54, 24;
+			#float font_size 12;
+			#bool font_scale true;
+			#string text_key "mainmenu";
+			#string onmessage "gameplay.upmenu_form.menu";
+		}
+		
+		@text
+		{
+			#string name "center_text";
+			#point pos -355, -12;
+			#point size 40, 30;
+			#float font_size 12;
+			#string text_key "";	
+			#string onmessage "gameplay.upmenu_form.center";
+		}	
+	
+		@text
+		{
+			#string name "task1";
+			#point pos 20, 26;
+			#point size 64, 32;
+			#float font_size 9;
+			#bool visible false;
+			#string text_align "right";
+			#string text_key "task1";
+		}
+		@text
+		{
+			#string name "task2";
+			#point pos 20, 12;
+			#point size 64, 32;
+			#float font_size 9;
+			#string text_align "right";
+			#bool visible false;
+			#string text_key "task2";
+		}
+		@text
+		{
+			#string name "task3";
+			#point pos 20, -2;
+			#point size 64, 32;
+			#float font_size 9;
+			#string text_align "right";
+			#bool visible false;
+			#string text_key "task3";
+		}
+		@text
+		{
+			#string name "task4";
+			#point pos 20, -16;
+			#point size 64, 32;
+			#float font_size 9;
+			#string text_align "right";
+			#bool visible false;
+			#string text_key "task4";
+		}
+			
+
+// 		@text
+// 		{
+// 			#string name "caption";
+// 			#point pos 160, 22;
+// 			#point size 64, 32;
+// 			#rect color 255, 255, 0, 255;
+// 			#float font_size 12;
+// 			#string text_key "current_task";
+// 		}
+
+// 		@text
+// 		{
+// 			#string name "task1";
+// 			#point pos 20, 4;
+// 			#point size 64, 32;
+// 			#float font_size 10;
+// 			#bool visible false;
+// 			#string text_align "right";
+// 			#string text_key "task1";
+// 		}
+// 		@text
+// 		{
+// 			#string name "task2";
+// 			#point pos 20, -12;
+// 			#point size 64, 32;
+// 			#float font_size 10;
+// 			#string text_align "right";
+// 			#bool visible false;
+// 			#string text_key "task2";
+// 		}
+// 		@text
+// 		{
+// 			#string name "task3";
+// 			#point pos 170, 4;
+// 			#point size 64, 32;
+// 			#float font_size 10;
+// 			#string text_align "right";
+// 			#bool visible false;
+// 			#string text_key "task3";
+// 		}
+// 		@text
+// 		{
+// 			#string name "task4";
+// 			#point pos 170, -12;
+// 			#point size 64, 32;
+// 			#float font_size 10;
+// 			#string text_align "right";
+// 			#bool visible false;
+// 			#string text_key "task4";
+// 		}
+	}
+
+	@virtual_window
+	{
+		#string name "shop_form";
+		#point pos 0, -220;
+		#point size 800, 32;
+
+		@simple_popup
+		{
+			#string name "shop_menu";
+			#point pos 0, 0;
+			#point size 800, 32;
+			#bool vertical false;
+			#bool autosize false;
+			#bool select_sfx false;
+			#float margin 32;
+			#string type_items "tab_button";
+			#string align "scaley";
+			#string onmessage "gameplay.shop_form.shop_menu";
+			
+			@item_list
+			{
+				inventory_form;
+				buildings_form;
+				seeds_form;
+				sprouts_form;
+				trees_form;
+				workers_form;
+			}
+		}
+	}
+	
+	@popup_window
+	{
+		#string name "inventory_form";
+		#point pos 0, -268;
+		#point size 800, 64;
+
+		@simple_popup
+		{
+			#string name "inventory_menu";
+			#point pos 0, -3;
+			#point size 800, 100;
+			#bool vertical false;
+			#bool autosize false;
+			#bool select_sfx false;
+			#string type_items "speed_button";
+			#string align "scaley";
+			#string onmessage "gameplay.inventory_form.inventory_menu";
+		}
+	}		
+
+	@popup_window
+	{
+		#string name "buildings_form";
+		#point pos 0, -268;
+		#point size 800, 64;
+		#bool alive false;
+
+		@simple_popup
+		{
+			#string name "buildings_menu";
+			#point pos 0, -3;
+			#point size 800, 100;
+			#bool vertical false;
+			#bool autosize false;
+			#bool select_sfx false;
+			#string type_items "speed_button";
+			#string align "scaley";
+			#string onmessage "gameplay.buildings_form.buildings_menu";
+		}
+	}		
+
+	@popup_window
+	{
+		#string name "seeds_form";
+		#point pos 0, -268;
+		#point size 800, 64;
+		#bool alive false;
+
+		@simple_popup
+		{
+			#string name "seeds_menu";
+			#point pos 0, -3;
+			#point size 800, 100;
+			#bool vertical false;
+			#bool autosize false;
+			#bool select_sfx false;
+			#string type_items "speed_button";
+			#string align "scaley";
+			#string onmessage "gameplay.seeds_form.seeds_menu";
+		}
+	}		
+
+	@popup_window
+	{
+		#string name "sprouts_form";
+		#point pos 0, -268;
+		#point size 800, 64;
+		#bool alive false;
+
+		@simple_popup
+		{
+			#string name "sprouts_menu";
+			#point pos 0, -3;
+			#point size 800, 100;
+			#bool vertical false;
+			#bool autosize false;
+			#bool select_sfx false;
+			#string type_items "speed_button";
+			#string align "scaley";
+			#string onmessage "gameplay.sprouts_form.sprouts_menu";
+		}
+	}		
+	
+	@popup_window
+	{
+		#string name "trees_form";
+		#point pos 0, -268;
+		#point size 800, 64;
+		#bool alive false;
+
+		@simple_popup
+		{
+			#string name "trees_menu";
+			#point pos 0, -3;
+			#point size 800, 100;
+			#bool vertical false;
+			#bool autosize false;
+			#bool select_sfx false;
+			#string type_items "speed_button";
+			#string align "scaley";
+			#string onmessage "gameplay.trees_form.trees_menu";
+		}
+	}
+	
+	@popup_window
+	{
+		#string name "workers_form";
+		#point pos 0, -268;
+		#point size 800, 64;
+		#bool alive false;
+
+		@simple_popup
+		{
+			#string name "workers_menu";
+			#point pos 0, -3;
+			#point size 800, 100;
+			#bool vertical false;
+			#bool autosize false;
+			#bool select_sfx false;
+			#string type_items "speed_button";
+			#string align "scaley";
+			#string onmessage "gameplay.workers_form.workers_menu";
+		}
+	}
+
+	@simple_window
+	{
+		#string name "tasks_form";
+		#point pos 0, 0;
+		#point size 700, 32;
+		#bool alive false;
+		#string onmessage "gameplay.tasks_form.tasks_ok";
+
+		@simple_taskbox
+		{
+			#string name "tasks_box";
+			#point pos 0, 0;
+			#point size 700, 32;
+			#string align "top";
+			#float margin 0;
+		}
+		
+		@button
+		{
+			#string name "tasks_ok";
+			#point pos 0, 0;
+			#point size 96, 48;
+			#string align "bottom";
+			@text
+			{
+				#string name "task_ok_text";
+				#string text_key "ok";
+				#point pos 0, 0;
+				#point size 100, 100;
+				#string align "scalex scaley";				
+			}
+		}
+	}
+
+	@simple_hint
+	{
+		#string name "shop_hint";
+		#float hint_delay 250;
+		#float show_speed 250;
+		#float fade_speed 250;
+	}
+	
+	
+	@simple_window
+	{		
+		#string name "enter_name_window"
+		#point pos 0, 0;
+		#point size 400, 150;
+		#bool modal true;
+						
+		@text
+		{
+			#string name "header";
+			#point pos 0, 0;
+			#float font_size 24;
+			#point size 380, 40;
+			#string align "top"
+			#bool font_scale true;
+			#string text_key "text_enter_name";			
+		}
+				
+		@simple_editbox
+		{
+			#string name "input";
+			#point pos 0, 0;
+			#string onmessage "menu.enter_name_window";
+		}
+		
+		@button
+		{
+			#string name "enter_name_cancel";
+			#point pos 50, 5;
+			#point size 96, 48;
+			#string align "bottom";	
+			#string onmessage "menu.enter_name_window.cancel";		
+			@text
+			{
+				#string name "enter_name_cancel_text";
+				#string text_key "cancel";
+				#point pos 0, 0;
+				#point size 100, 100;
+				#string align "scalex scaley";				
+			}
+		}		
+		
+		@button
+		{
+			#string name "enter_name_ok";
+			#point pos -50, 5;
+			#point size 96, 48;
+			#string align "bottom";	
+			#string onmessage "menu.enter_name_window.ok";		
+			@text
+			{
+				#string name "enter_name_ok_text";
+				#string text_key "ok";
+				#point pos 0, 0;
+				#point size 100, 100;
+				#string align "scalex scaley";				
+			}
+		}		
+	}
+	
+	@simple_messagebox
+	{
+		#string name "gameplay_messagebox";
+		#string onmessage "gameplay.gameplay_messagebox";
+	}
+
+	@simple_messagebox
+	{
+		#string name "savegame_messagebox";
+		#string onmessage "gameplay.savegame_messagebox";
+	}
+
+	@simple_messagebox
+	{
+		#string name "saveandexitgame_messagebox";
+		#string onmessage "gameplay.saveandexitgame_messagebox";
+	}
+
+	@simple_messagebox
+	{
+		#string name "quitgame_messagebox";
+		#string onmessage "gameplay.quitgame_messagebox";
+	}
+
+	@simple_messagebox
+	{
+		#string name "endgame_messagebox";
+		#string onmessage "gameplay.endgame_messagebox";
+	}
+
+	@simple_messagebox
+	{
+		#string name "replaygame_messagebox";
+		#string onmessage "gameplay.replaygame_messagebox";
+	}
+
+	@simple_messagebox
+	{
+		#string name "exitgame_messagebox";
+		#string onmessage "menu.exitgame_messagebox";
+	}
+
+	@simple_messagebox
+	{
+		#string name "loadgame_messagebox";
+		#string onmessage "menu.loadgame_messagebox";
+	}
+	
+	@simple_window
+	{
+		#string name "volume_window";
+		#point pos 0, 0;
+		#point size 290, 240;
+
+		#bool show false;
+		
+		#string onmessage "menu.volume_window";
+		
+		@text
+		{
+			#string name "svolume_header";
+			#point pos 0, 90;
+			#point size 0, 0;
+			#float font_size 14;
+			#string text_align "center";
+			#string text_key "sound_volume";
+		}		
+		
+		@simple_slider
+		{
+			#string name "sound_slider";
+			#point pos 0, 50;				
+		}
+		
+		@text
+		{
+			#string name "mvolume_header";
+			#point pos 0, 0;
+			#point size 0, 0;
+			#float font_size 14;
+			#string text_align "center";
+			#string text_key "music_volume";
+		}
+		
+		@simple_slider
+		{
+			#string name "music_slider";
+			#point pos 0, -40;				
+		}			
+
+		@button
+		{
+			#string name "volume_back";
+			#point pos 0, 5;
+			#point size 96, 48;
+			#string align "bottom";
+			@text
+			{
+				#string name "volume_back_text";
+				#string text_key "ok";
+				#point pos 0, 0;
+				#point size 100, 100;
+				#string align "scalex scaley";				
+			}
+		}			
+	}
+	
+	@simple_window
+	{
+		#string name "ingame_volume";
+		#point pos 0, 0;
+		#point size 290, 240;
+
+		#bool show false;
+		
+		#string onmessage "gameplay.volume_window";
+		
+		@text
+		{
+			#string name "svolume_header";
+			#point pos 0, 90;
+			#point size 0, 0;
+			#float font_size 14;
+			#string text_align "center";
+			#string text_key "sound_volume";
+		}		
+		
+		@simple_slider
+		{
+			#string name "sound_slider";
+			#point pos 0, 50;				
+		}
+		
+		@text
+		{
+			#string name "mvolume_header";
+			#point pos 0, 0;
+			#point size 0, 0;
+			#float font_size 14;
+			#string text_align "center";
+			#string text_key "music_volume";
+		}
+		
+		@simple_slider
+		{
+			#string name "music_slider";
+			#point pos 0, -40;				
+		}			
+
+		@button
+		{
+			#string name "volume_back";
+			#point pos 0, 5;
+			#point size 96, 48;
+			#string align "bottom";
+			@text
+			{
+				#string name "volume_back_text";
+				#string text_key "ok";
+				#point pos 0, 0;
+				#point size 100, 100;
+				#string align "scalex scaley";				
+			}
+		}			
+	}
+	
+	@simple_window
+	{
+		#string name "detailed_help";
+		#point pos 0, 0;
+		#point size 600, 500;
+		#bool alive false;
+		
+		@bitmap
+		{
+			#string name "pic1";
+			#point pos -112, 180;
+			#point size 256, 128;
+			#rect texcoord 0, 0, 1, 1;			
+			#string texture_name "keyhelper2.tga";
+		}
+		
+		@bitmap
+		{
+			#string name "pic2";
+			#point pos 176, 180;
+			#point size 128, 128;
+			#rect texcoord 0, 0, 1, 1;			
+			#string texture_name "keyhelper.tga";
+		}
+		
+		@simple_textbox
+		{
+			#string name "help_text_1";			
+			#point pos 0, 80;
+			#point size 600, 32;
+			#float font_size 14;
+			#string text_key "control_help_1";
+			#string text_align "center";				
+		}
+		
+		@bitmap
+		{
+			#string name "pic3";
+			#point pos -160, -30;
+			#point size 256, 128;
+			#rect texcoord 0, 0, 1, 1;			
+			#string texture_name "help2.tga";
+		}
+		
+		@bitmap
+		{
+			#string name "pic4";
+			#point pos 80, -30;
+			#point size 64, 128;
+			#rect texcoord 0, 0, 1, 1;			
+			#string texture_name "help1.tga";
+		}
+		
+		@bitmap
+		{
+			#string name "pic5";
+			#point pos 208, -30;
+			#point size 128, 128;
+			#rect texcoord 0, 0, 1, 1;			
+			#string texture_name "help3.tga";
+		}
+		
+		@simple_textbox
+		{
+			#string name "help_text_2";			
+			#point pos 0, -120;
+			#point size 600, 32;
+			#float font_size 14;
+			#string text_key "control_help_2";
+			#string text_align "center";				
+		}
+		
+		@button
+		{
+			#string name "help_ok";
+			#point pos 0,15;
+			#string align "bottom";
+			#point size 96, 48;
+			#string onmessage "menu.help_button";
+			@text
+			{
+				#string name "message_text";
+				#string text_key "ok";
+				#string text_align "center";
+				#point pos 0,0;
+				#point size 96, 48;
+			}
+		}		
+	}
+	
+	@simple_window
+	{
+		#string name "ingame_help";
+		#point pos 0, 0;
+		#point size 600, 500;
+		#bool alive false;
+		
+		@bitmap
+		{
+			#string name "pic1";
+			#point pos -112, 180;
+			#point size 256, 128;
+			#rect texcoord 0, 0, 1, 1;			
+			#string texture_name "keyhelper2.tga";
+		}
+		
+		@bitmap
+		{
+			#string name "pic2";
+			#point pos 176, 180;
+			#point size 128, 128;
+			#rect texcoord 0, 0, 1, 1;			
+			#string texture_name "keyhelper.tga";
+		}
+		
+		@simple_textbox
+		{
+			#string name "help_text_1";			
+			#point pos 0, 80;
+			#point size 600, 32;
+			#float font_size 14;
+			#string text_key "control_help_1";
+			#string text_align "center";				
+		}
+		
+		@bitmap
+		{
+			#string name "pic3";
+			#point pos -160, -30;
+			#point size 256, 128;
+			#rect texcoord 0, 0, 1, 1;			
+			#string texture_name "help2.tga";
+		}
+		
+		@bitmap
+		{
+			#string name "pic4";
+			#point pos 80, -30;
+			#point size 64, 128;
+			#rect texcoord 0, 0, 1, 1;			
+			#string texture_name "help1.tga";
+		}
+		
+		@bitmap
+		{
+			#string name "pic5";
+			#point pos 208, -30;
+			#point size 128, 128;
+			#rect texcoord 0, 0, 1, 1;			
+			#string texture_name "help3.tga";
+		}
+		
+		@simple_textbox
+		{
+			#string name "help_text_2";			
+			#point pos 0, -120;
+			#point size 600, 32;
+			#float font_size 14;
+			#string text_key "control_help_2";
+			#string text_align "center";				
+		}
+		
+		@button
+		{
+			#string name "help_ok";
+			#point pos 0,15;
+			#string align "bottom";
+			#point size 96, 48;
+			#string onmessage "gameplay.help_button";
+			@text
+			{
+				#string name "message_text";
+				#string text_key "ok";
+				#string text_align "center";
+				#point pos 0,0;
+				#point size 96, 48;
+			}
+		}		
+	}
+}
+
+>>

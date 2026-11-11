@@ -1,0 +1,65 @@
+<<
+
+@deu
+{
+	_Projektregie  
+	Sergey Smirnov
+	_Spielentwickler
+	Sergey Smirnov
+	Oleg Dolgikh
+	Sergey Seleznev
+	_Produzent
+	Vitaly Romanov
+	_Entwickler
+	Sergey Simirnov
+	Oleg Dolgikh
+	_Leveldesign
+	Sergey Seleznev
+	_Art Produktion
+	Denis Markelov
+	Zlata Markelova
+	_Designer
+	_Positive Games
+	Alexander Boldin
+	Valery Nefedov
+	Alexander Yurgens
+	_Nevosoft
+	Ksenia Mamaeva
+	Yuri Voronov
+	Anastasia Borzykh
+	_Modelle und Animation
+	Positive Games
+	_Drehbuch
+	Sergey Smirnov
+	Oleg Dolgikh
+	Sergey Seleznev
+	_Musik
+	The SandS
+	_Soundeffekte
+	The SandS
+	Nick Oshurkov
+	Denis Antonov
+	_Deutsche Sprachfassung
+	Andrea Benda
+	_Softwaretester
+	Sergey Seleznev
+	Vitaly Romanov
+	Alexandra Ryabchikova
+	Alexey Serebrov
+	Pavel Räikkönen
+	Andrey Litvinov
+	Mikhail Gurenkov
+	Sergey Korshun
+	Christopher Hamilton
+	_Kreative Beratung
+	Vitaly Romanov
+	Alexey Serebrov
+	Pavel Räikkönen
+	Mikhail Gurenkov
+	Sergey Korshun
+	Christopher Hamilton
+	_Wahrend der Produktion dieses Spiels kam kein Gemuse zu Schaden.
+	(с) NevoSoft, 2008
+} 
+
+>>

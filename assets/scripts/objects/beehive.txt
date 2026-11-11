@@ -1,0 +1,30 @@
+<<
+@beehive 1
+{
+	#string name "beehive";
+	#string type_goods "buildings";
+	#int price 500;
+	#point pos 0, 0;
+	#point size 128, 128;
+	#bool solid true;
+	#point zbase 0, -34;
+	#string name_good "honey";
+	#string type_fruit "honey";
+
+	#int max_count_good 1;
+	#int cost_good 160;
+	#float time_spoil_good 0;
+	#float honey_per_bee 1.5;
+	#int num_bees 5;
+
+	#string texpicture_name "beehive.tga";
+	#string texhighlight_name "beehive.tga";
+	#string texmask_name "beehive.tga";
+	
+	#point base_center 0, -34;
+	#point base_radius 70, 35;
+	#point dock_center 0, -69;
+	#point dock_radius 8, 8;
+}
+>>
+

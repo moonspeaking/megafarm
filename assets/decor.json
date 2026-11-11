@@ -1,0 +1,274 @@
+[
+ {
+  "x": 0,
+  "y": 0,
+  "w": 60,
+  "h": 63,
+  "env": "grass",
+  "kind": "stone"
+ },
+ {
+  "x": 318,
+  "y": 7,
+  "w": 69,
+  "h": 47,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 70,
+  "y": 9,
+  "w": 53,
+  "h": 50,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 133,
+  "y": 10,
+  "w": 54,
+  "h": 45,
+  "env": "grass",
+  "kind": "stone"
+ },
+ {
+  "x": 259,
+  "y": 10,
+  "w": 55,
+  "h": 44,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 448,
+  "y": 11,
+  "w": 59,
+  "h": 48,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 203,
+  "y": 14,
+  "w": 40,
+  "h": 37,
+  "env": "grass",
+  "kind": "stone"
+ },
+ {
+  "x": 382,
+  "y": 14,
+  "w": 65,
+  "h": 36,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 263,
+  "y": 71,
+  "w": 116,
+  "h": 45,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 135,
+  "y": 72,
+  "w": 50,
+  "h": 46,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 198,
+  "y": 73,
+  "w": 51,
+  "h": 48,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 440,
+  "y": 73,
+  "w": 72,
+  "h": 52,
+  "env": "grass",
+  "kind": "stone"
+ },
+ {
+  "x": 2,
+  "y": 74,
+  "w": 56,
+  "h": 44,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 66,
+  "y": 74,
+  "w": 56,
+  "h": 44,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 383,
+  "y": 77,
+  "w": 49,
+  "h": 42,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 70,
+  "y": 136,
+  "w": 53,
+  "h": 46,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 3,
+  "y": 138,
+  "w": 57,
+  "h": 44,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 321,
+  "y": 190,
+  "w": 60,
+  "h": 65,
+  "env": "swamp",
+  "kind": "stone"
+ },
+ {
+  "x": 382,
+  "y": 190,
+  "w": 69,
+  "h": 68,
+  "env": "desert",
+  "kind": "flora"
+ },
+ {
+  "x": 461,
+  "y": 194,
+  "w": 36,
+  "h": 59,
+  "env": "desert",
+  "kind": "flora"
+ },
+ {
+  "x": 3,
+  "y": 197,
+  "w": 57,
+  "h": 52,
+  "env": "swamp",
+  "kind": "stone"
+ },
+ {
+  "x": 128,
+  "y": 197,
+  "w": 63,
+  "h": 56,
+  "env": "swamp",
+  "kind": "stone"
+ },
+ {
+  "x": 191,
+  "y": 197,
+  "w": 130,
+  "h": 55,
+  "env": "swamp",
+  "kind": "stone"
+ },
+ {
+  "x": 74,
+  "y": 202,
+  "w": 46,
+  "h": 44,
+  "env": "swamp",
+  "kind": "stone"
+ },
+ {
+  "x": 61,
+  "y": 253,
+  "w": 133,
+  "h": 134,
+  "env": "desert",
+  "kind": "flora"
+ },
+ {
+  "x": 190,
+  "y": 253,
+  "w": 132,
+  "h": 70,
+  "env": "desert",
+  "kind": "flora"
+ },
+ {
+  "x": 1,
+  "y": 259,
+  "w": 60,
+  "h": 58,
+  "env": "desert",
+  "kind": "flora"
+ },
+ {
+  "x": 391,
+  "y": 327,
+  "w": 116,
+  "h": 45,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 263,
+  "y": 328,
+  "w": 50,
+  "h": 46,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 6,
+  "y": 329,
+  "w": 53,
+  "h": 50,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 326,
+  "y": 329,
+  "w": 51,
+  "h": 48,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 194,
+  "y": 330,
+  "w": 56,
+  "h": 44,
+  "env": "grass",
+  "kind": "flora"
+ },
+ {
+  "x": 5,
+  "y": 394,
+  "w": 54,
+  "h": 45,
+  "env": "grass",
+  "kind": "stone"
+ },
+ {
+  "x": 75,
+  "y": 398,
+  "w": 40,
+  "h": 37,
+  "env": "grass",
+  "kind": "stone"
+ }
+]

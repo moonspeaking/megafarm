@@ -1,0 +1,22 @@
+<<
+@waterpump 12
+{
+	#string name "waterpump";
+	#string type_goods "inventory";
+	#int price 130;
+	#point pos 0, 0;
+	#point size 128, 128;
+	#bool solid true;
+	#point zbase 19, -37;
+	#string texpicture_name "waterpump.tga";
+	#string texwaterpump_base_name "waterpump_base.tga";
+	#string texhighlight_name "waterpump.tga";
+	#string texmask_name "waterpump.tga";
+	
+	#point base_center 20, -35;
+	#point base_radius 24, 12;
+	#point dock_center -45, -37;
+	#point dock_radius 8, 8;
+}
+>>
+

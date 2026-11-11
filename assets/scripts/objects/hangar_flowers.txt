@@ -1,0 +1,24 @@
+<<
+@hangar 2
+{
+	#string name "hangar_flowers";
+	#string type_goods "buildings";
+	#int price 500;
+	#point pos 0, 0;
+	#point size 256, 256;
+	#bool solid true;
+	#point zbase 0, -55;
+	#string texpicture_name "hangar_flowers.tga";
+	#string texhighlight_name "hangar_flowers.tga";
+	#string texmask_name "hangar_flowers.tga";
+	
+	#point base_center 0, -55;
+	#point base_radius 136, 80;
+	#point dock_center 0, -135;
+	#point dock_radius 8, 8;
+
+	#string accept_goods "flower berry";
+
+}
+>>
+

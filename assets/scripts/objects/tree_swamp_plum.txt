@@ -1,0 +1,47 @@
+<<
+@tree 3
+{
+	#string name "tree_swamp_plum";
+	#string type_goods "trees";
+	#int price 200;
+	#point pos 0, 0;
+	#point size 256, 256;
+	#bool solid true;
+	#point zbase 5, -80;
+	
+	#int harvest 20;
+	#int cost_fruit 19;
+	#float time_spoil_fruit 0;
+	
+	#string name_fruit "fruit_plums";
+	#string type_fruit "vegetables";
+
+	#string texpicture_name "tree_swamp_plum.tga";
+	#string texhighlight_name "tree_swamp_plum.tga";
+	#string texmask_name "tree_swamp_plum.tga";
+	#string fruit_first_stage "plum_begin.tga";
+	#string fruit_second_stage "plum_medium.tga";
+	#string fruit_third_stage "plum_grown.tga";
+	
+	
+	#point base_center 5, -80;
+	#point base_radius 53, 38;
+	#point dock_center 5, -118;
+	#point dock_radius 8, 8;
+
+	#int ready_icon_num 16;
+	#point ready_bar_pos 0, 128;
+
+	@fruit
+	{
+		#point fruit_size 128, 128;
+		#point fruit_pos -48, 48;
+	}
+	@fruit
+	{
+		#point fruit_size 64, 64;
+		#point fruit_pos 48, 8;
+	}
+}
+>>
+
