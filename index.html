@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <title>Farm Craft — веб-версия</title>
 <link rel="stylesheet" href="styles.css">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#2b4a1c">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 </head>
 <body>
 <div id="game">
@@ -59,5 +64,10 @@
   <div id="loading"><div class="ld_bar"><div class="ld_fill"></div></div><div class="ld_text">Загрузка…</div></div>
 </div>
 <script type="module" src="src/main.js"></script>
+<script>
+if ('serviceWorker' in navigator && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+}
+</script>
 </body>
 </html>
