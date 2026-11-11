@@ -196,6 +196,7 @@ export class Menu {
     this.newTrophies = res ? [...res.newTrophies] : [];
     this.pendingSelect = won ? Math.min(num + 1, LEVELS) : num;
     this.screen = this.newTrophies.length ? 'trophies' : 'map';
+    this.trophyBack = this.newTrophies.length ? 'map' : null;   // после показа новых трофеев — на карту, а не в меню
     this.root.classList.remove('hidden', 'ingame');
     const finale = won && num === LEVELS && !this.newTrophies.length;
     this.render();
@@ -541,7 +542,7 @@ export class Menu {
       e.addEventListener('mouseleave', () => { hint.style.display = 'none'; });
     }
     // exit: @button_right 355,-255, 64x64
-    this.bitbtn(page, () => this.go('main'));
+    this.bitbtn(page, () => { const back = this.trophyBack || 'main'; this.trophyBack = null; this.go(back); });
     this.audio.playMusic('music_trophy');
     // announce trophies won in the level that was just finished, one after another
     const queue = [...(this.newTrophies || [])];

@@ -184,5 +184,24 @@ console.log('=== сохранение не тащит очередь');
   ok(r.queue.length === 0 && r.queueMarks().length === 0, 'после загрузки очередь пуста');
 }
 
+console.log('=== клик по героине с предметом кладёт его, звук копания обрывается');
+{
+  const w = newWorld();
+  const box = w.objects.find((o) => o.kind === 'box');
+  w.click(box.x, box.y, false); run(w, 10);
+  ok(w.hero.held && w.hero.held.kind === 'box', 'ящик в руках');
+  const before = w.objects.length;
+  w.click(w.hero.x, w.hero.y - 10, false); run(w, 10);
+  ok(w.hero.held.kind === 'spade' && w.objects.length === before + 1, 'клик по героине положил ящик у её ног');
+  const calls = [];
+  const w2 = new World(db, stubAssets, 6, { ...hooks, playSound: (n) => calls.push('play:' + n), stopSound: (n) => calls.push('stop:' + n) });
+  w2.start();
+  const c = w2.cells.find((q) => !q.blocked && !q.occupant && q.x > 4 && q.y > 4);
+  w2.hero.x = c.x * 64 + 32 - 60; w2.hero.y = c.y * 64 + 32;
+  w2.click(c.x * 64 + 32, c.y * 64 + 32, true);
+  run(w2, 10);
+  ok(c.dug && calls.indexOf('play:dig') >= 0 && calls.indexOf('stop:dig') > calls.indexOf('play:dig'), 'звук копания включается в начале и обрывается по готовности грядки', JSON.stringify(calls));
+}
+
 console.log(`\nитог: ${passed} ok, ${failed} FAIL`);
 process.exit(failed ? 1 : 0);

@@ -17,6 +17,8 @@ export const EXTRA = {
     // запасное имя уровня без ключа levelN_name в паках
     level_name_fallback: 'Уровень %d',
     // ui.js: кнопка лопаты в инвентаре
+    ref_time: 'Эталонное время',
+    your_time: 'Ваше время',
     spade_dig: 'Лопата: копать одним кликом (нажмите ещё раз, чтобы вернуться к обычному режиму)',
     // sim.js: уведомления
     notify_plant_died: 'Растение погибло!',
@@ -38,6 +40,8 @@ export const EXTRA = {
     delete_profile: 'Delete Player',
     question_delete_profile: 'Delete player "%s"? Their progress and saves will be erased.',
     level_name_fallback: 'Level %d',
+    ref_time: 'Target time',
+    your_time: 'Your time',
     spade_dig: 'Shovel: dig with one click (press again to return to the normal mode)',
     notify_plant_died: 'The plant has died!',
     notify_worker_pay: 'A worker is waiting to be paid!',

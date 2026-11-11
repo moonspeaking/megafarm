@@ -1323,12 +1323,14 @@ export class World {
       case 'dig': {
         const cell = this.cell(task.cell.x, task.cell.y);
         if (!cell || cell.dug || cell.blocked || cell.occupant) return;
+        // звук копания (≈2.7 с) идёт вместе с анимацией и обрывается, когда грядка готова
+        this.assets && this.hooks.playSound('dig');
         anim('hero_dug', 0.9, () => {
           cell.dug = true;
           cell.wet = 1;
           this.dugCount++;
           this.dust(task.cell.x, task.cell.y);
-          this.assets && this.hooks.playSound('dig');
+          this.hooks.stopSound && this.hooks.stopSound('dig');
         });
         break;
       }
@@ -1537,7 +1539,7 @@ export class World {
         const obj = task.object;
         if (!obj) return;
         // small can -> take_watercan2, big can -> take_watercan1 (sub_41C140)
-        const takeAnim = { box: 'hero_take_box1', seed: 'hero_take_seed', watercan: obj.name === 'big_watercan' ? 'hero_take_watercan1' : 'hero_take_watercan2' }[obj.kind] || 'hero_take_box1';
+        const takeAnim = { box: 'hero_take_box1', seed: 'hero_take_seed', fertilizer: 'hero_take_seed', watercan: obj.name === 'big_watercan' ? 'hero_take_watercan1' : 'hero_take_watercan2' }[obj.kind] || 'hero_take_box1';
         anim(takeAnim, TAKE_PUT_TIME, () => {
           // swap with currently held item
           const held = h.held;
@@ -1560,7 +1562,7 @@ export class World {
           this.hooks.notify(this.db.t('notify_you_cant_place', 'Вы не можете поставить сюда объект!'));
           return;
         }
-        const putAnim = { box: 'hero_put_box1', seed: 'hero_put_seed', watercan: held.name === 'big_watercan' ? 'hero_put_watercan1' : 'hero_put_watercan2' }[held.kind] || 'hero_put_box1';
+        const putAnim = { box: 'hero_put_box1', seed: 'hero_put_seed', fertilizer: 'hero_put_seed', watercan: held.name === 'big_watercan' ? 'hero_put_watercan1' : 'hero_put_watercan2' }[held.kind] || 'hero_put_box1';
         anim(putAnim, TAKE_PUT_TIME, () => this.finishPlace(held, task.cell.x, task.cell.y));
         break;
       }
@@ -1694,6 +1696,12 @@ export class World {
     const bedHere = cell && (cell.dug || cell.plant);
     if (!obj && !bedHere && !isDouble && this.heroAt(wx, wy)) {
       this.clearQueue();
+      // с ящиком/пакетом/лейкой в руках клик по героине кладёт предмет у её ног (для тех, кому неудобен двойной клик)
+      if (!h.act && h.held && ['box', 'seed', 'watercan', 'fertilizer'].includes(h.held.kind)) {
+        const hc = this.cellAt(h.x, h.y);
+        const free = hc && !hc.blocked && !hc.occupant && !hc.plant ? hc : (hc ? this.freeCellNear(hc.x, hc.y) : null);
+        if (free) { this.setTask({ kind: 'place', cell: { x: free.x, y: free.y } }); return; }
+      }
       if (!h.act) { h.task = null; h.path = []; h.moving = false; }
       return;
     }

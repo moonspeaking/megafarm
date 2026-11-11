@@ -28,6 +28,13 @@ export class AudioBank {
     } catch (e) { /* ignore */ }
   }
 
+  /** Оборвать звук (например копание, когда анимация уже закончилась). */
+  stop(name) {
+    const a = this.cache.get(name);
+    if (!a) return;
+    try { a.pause(); a.currentTime = 0; } catch (e) { /* ignore */ }
+  }
+
   playMusic(name) {
     const path = this.assets.sound(name + '.ogg');
     if (!path) return;

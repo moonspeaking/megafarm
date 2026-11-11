@@ -149,6 +149,29 @@ export class Renderer {
    *    bed is fully wet), fertilizer overlay (alpha = fertilizer left), bottom grass strip;
    *  - a strip exists on the sides that have no dug neighbour.
    */
+  /**
+   * Кадр грядки, заранее растянутый до итогового размера (72 px * масштаб канваса): рисуется без
+   * пересэмплирования — ресэмплинг качества 'high' для сотен грядок за кадр сильно тормозит.
+   */
+  bedVariant(wet, v) {
+    const img = this.bedImage(wet);
+    if (!img || !img.complete || !img.naturalWidth) return null;
+    const k = this.canvas.width / 800;
+    if (!this._bedCache || this._bedCache.k !== k) this._bedCache = { k, map: new Map() };
+    const key = (wet ? 'w' : 'd') + v;
+    let c = this._bedCache.map.get(key);
+    if (!c) {
+      const size = Math.round(TILE * 1.125 * k);
+      c = document.createElement('canvas');
+      c.width = c.height = size;
+      const g = c.getContext('2d');
+      g.imageSmoothingQuality = 'high';
+      g.drawImage(img, v * 64, 0, 64, 64, 0, 0, size, size);
+      this._bedCache.map.set(key, c);
+    }
+    return c;
+  }
+
   drawBed(ctx, cell, cx, cy) {
     const w = this.world;
     const ok = (i) => i && i.complete && i.naturalWidth;
@@ -166,14 +189,14 @@ export class Renderer {
     if (!dug(cx - 1, cy)) strip(lr, v * 32 + 1, 0, 31, 96, px - half - 10 - 16, py - 48);
     if (!dug(cx + 1, cy)) strip(lr, (v + 4) * 32, 0, 31, 96, px + half + 10 - 16, py - 48);
 
-    const dry = this.bedImage(false);
-    if (ok(dry)) ctx.drawImage(dry, v * 64, 0, 64, 64, px - half, py - half, half * 2, half * 2);
+    const dry = this.bedVariant(false, v);
+    if (dry) ctx.drawImage(dry, px - half, py - half, half * 2, half * 2);
     const plant = cell.plant && !cell.plant.dead ? cell.plant : null;
     const wetA = plant ? Math.max(0, Math.min(1, (100 - plant.dry) / 100)) : 1;
-    const wet = this.bedImage(true);
-    if (wetA > 0 && ok(wet)) {
-      ctx.globalAlpha = wetA;
-      ctx.drawImage(wet, v * 64, 0, 64, 64, px - half, py - half, half * 2, half * 2);
+    const wet = this.bedVariant(true, v);
+    if (wetA > 0 && wet) {
+      if (wetA < 1) ctx.globalAlpha = wetA;
+      ctx.drawImage(wet, px - half, py - half, half * 2, half * 2);
       ctx.globalAlpha = 1;
     }
     if (plant && plant.fertTicks > 0 && plant.fertMax > 0) {
@@ -220,8 +243,10 @@ export class Renderer {
     if (this.terrain) ctx.drawImage(this.terrain, 0, 0);
 
     // beds (each one draws its own grass strips, see drawBed)
-    for (let cy = 0; cy < w.gridH; cy++) {
-      for (let cx = 0; cx < w.gridW; cx++) {
+    const bx0 = Math.max(0, Math.floor(cam.x / TILE) - 1), bx1 = Math.min(w.gridW - 1, Math.ceil((cam.x + 800) / TILE) + 1);
+    const by0 = Math.max(0, Math.floor(cam.y / TILE) - 1), by1 = Math.min(w.gridH - 1, Math.ceil((cam.y + 600) / TILE) + 1);
+    for (let cy = by0; cy <= by1; cy++) {
+      for (let cx = bx0; cx <= bx1; cx++) {
         const cell = w.cell(cx, cy);
         if (cell && cell.dug) this.drawBed(ctx, cell, cx, cy);
       }
@@ -660,7 +685,7 @@ export class Renderer {
     const h = this.world.hero;
     if (h.act) return h.act.name;
     const held = h.held ? h.held.kind : 'spade';
-    let carry = { box: 'box', seed: 'seed', watercan: 'watercan', fertilizer: 'box', house: 'box', tree: 'box', sprinkler: 'box' }[held];
+    let carry = { box: 'box', seed: 'seed', watercan: 'watercan', fertilizer: 'seed', house: 'box', tree: 'box', sprinkler: 'box' }[held];
     if (carry === 'watercan' && h.held.name === 'big_watercan') carry = 'big_watercan';   // the blue can has its own animations
     if (h.moving) {
       if (carry) return `hero_carry_${carry}${h.facing}`;

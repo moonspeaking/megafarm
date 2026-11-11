@@ -300,6 +300,7 @@ function startLevel(num, restored) {
     updateShop: () => ui.updateShop(),
     updateTasks: () => ui.updateTasks(),
     playSound: (n) => audio.play(n),
+    stopSound: (n) => audio.stop(n),
     showHelp: () => ui.notify('Уровень пройден! Поздравляем!'),
   };
   const save = restored ? loadSave(playerKey(settings)) : null;

@@ -271,7 +271,7 @@ export class UI {
       const p = (v) => String(v).padStart(2, '0');
       return `${p(Math.floor(s / 3600))}:${p(Math.floor((s % 3600) / 60))}:${p(s % 60)}`;
     };
-    const lines = [`${t('level_time', 'время')}: ${clock(stats.time)}`, `${t('level_money', 'деньги')}: ${stats.money}`];
+    const lines = [`${extraT('ref_time')}: ${clock(Math.round(w.levelTime))}`, `${extraT('your_time')}: ${clock(Math.round(stats.time))}`];
     if (won && stats.trophies && stats.trophies.length) lines.push(t('trophy_announce_header', 'Вы получили трофей!'));
     this.el.end_stats.textContent = lines.join('\n');
     this.el.end_stats.style.whiteSpace = 'pre-line';
