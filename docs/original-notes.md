@@ -324,3 +324,8 @@ take/put 500, **dig 1500**, sow 1000, watercan 1000, harvest 1000, fertilizer 10
 (otherwise 500). The port used shorter times before (dig 0.9 s); now it follows the table. Walking speed is unchanged:
 `speed` 300 * 0.00105 px/ms (`sub_401D00`) = 315 px/s horizontally, half of it vertically; the unit of `flt_482CB0` (dt) is not
 confirmed independently (it is written outside any xref), so the walking speed remains the one derived from the code.
+
+## Plant indicators (`sub_41F100`)
+Under the mouse: two rows of five 16 px icons (`sub_405C50`) above the plant: hearts (icons.tga cell 26, at +56) lit by `health` (0..100)
+and drops (cell 27, at +40) lit by `100 - dry`. Always: one big 32 px heart at (-16, +20) when `health <= 19` and one big drop at (+16, +20)
+when `dry >= 66`. Port: `Renderer.drawPlantMeters`.

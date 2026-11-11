@@ -537,14 +537,8 @@ export class Renderer {
     }
     this.drawPlantSprites(ctx, o, frame, false);
 
-    // status icons
-    let iy = o.y - 34;
-    if (o.thirsty) {
-      this.drawDrop(ctx, o.x - 10, iy + Math.sin(this.t * 5) * 2);
-      iy -= 14;
-    }
-    // no bag/fruit icon above a ripe plant: the original only plays ready_plant and a sparkle effect
-    if (this.hover.obj === o) this.drawPlantMeters(ctx, o);
+    // индикаторы растения (CPlant `sub_41F100`, иконки icons.tga: 26 сердце, 27 капля)
+    this.drawPlantMeters(ctx, o);
   }
 
   drawPlantSprites(ctx, o, frame, dead) {
@@ -647,36 +641,18 @@ export class Renderer {
     ctx.restore();
   }
 
-  /** Health hearts and water drops, shown while the mouse is over a plant. */
+  /**
+   * `sub_41F100`: под курсором — два ряда по 5 значков 16x16 над растением: сердца (здоровье, на высоте +56) и капли
+   * (влажность = 100 - dry, на +40), заполненная доля светлая, остальное тёмное. Всегда (без курсора): одно крупное сердце
+   * 32x32 слева (-16, +20), если здоровье <= 19, и крупная капля справа (+16, +20), если сухость >= 66.
+   */
   drawPlantMeters(ctx, o) {
-    const hearts = Math.ceil(o.health / 20);
-    const drops = Math.ceil((100 - o.dry) / 20);
-    for (let i = 0; i < 5; i++) {
-      const x = o.x + (i - 2) * 17;
-      this.drawHeart(ctx, x, o.y - 62, i < hearts ? '#e0262a' : '#7a4a22');
-      this.drawDrop(ctx, x, o.y - 44, i < drops ? '#2f9bf0' : '#1f3a5a');
+    if (this.hover.obj === o) {
+      this.drawIconRow(ctx, o.x, o.y - 56, 26, 16, 5, 5, 0, Math.floor(o.health), 100, 0);
+      this.drawIconRow(ctx, o.x, o.y - 40, 27, 16, 5, 5, 0, Math.floor(100 - o.dry), 100, 0);
     }
-  }
-
-  drawHeart(ctx, x, y, color) {
-    ctx.fillStyle = color;
-    ctx.strokeStyle = 'rgba(70,10,10,0.8)';
-    ctx.lineWidth = 1.2;
-    ctx.beginPath();
-    ctx.moveTo(x, y + 5);
-    ctx.bezierCurveTo(x - 9, y - 1, x - 5, y - 8, x, y - 3);
-    ctx.bezierCurveTo(x + 5, y - 8, x + 9, y - 1, x, y + 5);
-    ctx.fill();
-    ctx.stroke();
-  }
-
-  drawDrop(ctx, x, y, color) {
-    ctx.fillStyle = color || '#4aa3e8';
-    ctx.beginPath();
-    ctx.moveTo(x, y - 8);
-    ctx.quadraticCurveTo(x + 6, y, x, y + 5);
-    ctx.quadraticCurveTo(x - 6, y, x, y - 8);
-    ctx.fill();
+    if (o.health <= 19) this.drawIconRow(ctx, o.x - 16, o.y - 20, 26, 32, 1, 1, 1, 1, 1, 0);
+    if (o.dry >= 66) this.drawIconRow(ctx, o.x + 16, o.y - 20, 27, 32, 1, 1, 1, 1, 1, 0);
   }
 
   // --------------------------------------------------------------- hero
