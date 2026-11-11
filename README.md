@@ -1,12 +1,10 @@
 # Farm Craft — браузерный порт
 
+https://moonspeaking.github.io/megafarm/
+
 Порт игры Farm Craft (оригинал под Windows) на чистый JavaScript: ES-модули, без сборки и без npm.
 Логический холст 800x600; меню, HUD и комиксы — DOM поверх канваса. Размеры/позиции окон и вёрстка
 берутся из скриптов оригинала (`assets/scripts/interfaces/*.txt`), текстуры и скрипты оригинала только читаются.
-
-## Играть
-
-https://moonspeaking.github.io/megafarm/
 
 ## Структура
 
