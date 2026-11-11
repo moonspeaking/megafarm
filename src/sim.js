@@ -608,6 +608,19 @@ export class World {
     return out;
   }
 
+  /** Свободная расстановка: переносимые предметы (ящик, пакет, лейка) без `solid` можно класть в любую точку. */
+  freeSpot(held, x, y) {
+    if (!held || !held.def || held.def.props.solid) return false;
+    if (!this.walkable(x, y)) return false;
+    const c = this.cellAt(x, y);
+    if (!c || c.blocked || c.plant) return false;
+    for (const o of this.objects) {
+      if (o.kind === 'plant') continue;
+      if (Math.abs(o.x - x) < 28 && Math.abs(o.y - y) < 22) return false;
+    }
+    return true;
+  }
+
   canPlace(held, cx, cy) {
     if (!held.def || !held.def.props.solid) return true;
     const x = cx * TILE + TILE / 2, y = cy * TILE + TILE / 2;
@@ -1558,12 +1571,14 @@ export class World {
       case 'place': {
         const cell = this.cell(task.cell.x, task.cell.y);
         const held = h.held;
-        if (!cell || cell.blocked || cell.occupant || cell.plant || !this.canPlace(held, task.cell.x, task.cell.y)) {
+        const pt = task.pt && this.freeSpot(held, task.pt.x, task.pt.y) ? task.pt : null;
+        const ok = pt || (cell && !cell.blocked && !cell.occupant && !cell.plant && this.canPlace(held, task.cell.x, task.cell.y));
+        if (!cell || !ok) {
           this.hooks.notify(this.db.t('notify_you_cant_place', 'Вы не можете поставить сюда объект!'));
           return;
         }
         const putAnim = { box: 'hero_put_box1', seed: 'hero_put_seed', fertilizer: 'hero_put_seed', watercan: held.name === 'big_watercan' ? 'hero_put_watercan1' : 'hero_put_watercan2' }[held.kind] || 'hero_put_box1';
-        anim(putAnim, TAKE_PUT_TIME, () => this.finishPlace(held, task.cell.x, task.cell.y));
+        anim(putAnim, TAKE_PUT_TIME, () => this.finishPlace(held, task.cell.x, task.cell.y, pt));
         break;
       }
       case 'move':
@@ -1573,10 +1588,22 @@ export class World {
   }
 
   /** Put the carried object on cell (cx, cy): spawn it, reset the hand, count the placement. */
-  finishPlace(held, cx, cy) {
+  finishPlace(held, cx, cy, pt) {
     const h = this.hero;
+    const cell0 = this.cell(cx, cy);
+    const prevOcc = cell0 ? cell0.occupant : null;
     const obj = this.spawn(held.name, cx, cy);
     if (!obj) return;
+    if (pt) {
+      // свободная расстановка: предмет ложится ровно туда, куда указали, а не в центр клетки
+      obj.x = pt.x; obj.y = pt.y;
+      const pc = this.cellAt(pt.x, pt.y);
+      if (pc && pc !== cell0) {
+        if (cell0 && cell0.occupant === obj) cell0.occupant = prevOcc;
+        obj.cell = { x: pc.x, y: pc.y };
+        if (!pc.occupant) pc.occupant = obj;
+      } else if (prevOcc && cell0) cell0.occupant = prevOcc;
+    }
     obj.charges = held.charges;
     obj.count = held.count;
     obj.type = held.type;
@@ -1700,7 +1727,7 @@ export class World {
       if (!h.act && h.held && ['box', 'seed', 'watercan', 'fertilizer'].includes(h.held.kind)) {
         const hc = this.cellAt(h.x, h.y);
         const free = hc && !hc.blocked && !hc.occupant && !hc.plant ? hc : (hc ? this.freeCellNear(hc.x, hc.y) : null);
-        if (free) { this.setTask({ kind: 'place', cell: { x: free.x, y: free.y } }); return; }
+        if (free) { this.setTask({ kind: 'place', cell: { x: free.x, y: free.y }, pt: free === hc ? { x: h.x, y: h.y + 6 } : null }); return; }
       }
       if (!h.act) { h.task = null; h.path = []; h.moving = false; }
       return;
@@ -1764,7 +1791,7 @@ export class World {
       const obj = (e.objId != null ? this.objects.find((o) => o.id === e.objId) : null) || this.objectAt(e.wx, e.wy);
       const cell = obj && obj.cell ? this.cell(obj.cell.x, obj.cell.y) || this.cellAt(e.wx, e.wy) : this.cellAt(e.wx, e.wy);
       this.current = e;
-      this.runClick(obj || null, cell, e.isDouble);
+      this.runClick(obj || null, cell, e.isDouble, { x: e.wx, y: e.wy });
       if (!this.heroIdle()) return;
       this.current = null;
     }
@@ -1794,7 +1821,7 @@ export class World {
   }
 
   /** Решает, что делать героине с целью клика (бывшее тело click(), без немедленных действий). */
-  runClick(obj, cell, isDouble) {
+  runClick(obj, cell, isDouble, pt) {
     const h = this.hero;
     const heldTool = h.held && (h.held.kind === 'transporter' || h.held.kind === 'destructor');
     if (obj) {
@@ -1895,7 +1922,7 @@ export class World {
     if (isDouble) {
       const held = h.held;
       if (held && held.kind !== 'spade' && !heldTool) {
-        this.setTask({ kind: 'place', cell: { x: cell.x, y: cell.y } });
+        this.setTask({ kind: 'place', cell: { x: cell.x, y: cell.y }, pt: pt || null });
       } else if (!cell.dug && !cell.blocked && !cell.occupant) {
         this.setTask({ kind: 'dig', cell: { x: cell.x, y: cell.y } });
       } else {
@@ -2182,6 +2209,7 @@ function taskPoint(task) {
   if (task.plant) {
     return { x: task.plant.x, y: task.plant.y + 24 };
   }
+  if (task.pt) return { x: task.pt.x, y: task.pt.y };
   if (task.cell) {
     return { x: task.cell.x * TILE + TILE / 2, y: task.cell.y * TILE + TILE / 2 };
   }

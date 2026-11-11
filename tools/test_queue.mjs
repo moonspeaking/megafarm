@@ -203,5 +203,21 @@ console.log('=== клик по героине с предметом кладёт
   ok(c.dug && calls.indexOf('play:dig') >= 0 && calls.indexOf('stop:dig') > calls.indexOf('play:dig'), 'звук копания включается в начале и обрывается по готовности грядки', JSON.stringify(calls));
 }
 
+console.log('=== ящик ставится в любую точку, а не в центр клетки');
+{
+  const w = newWorld();
+  const box = w.objects.find((o) => o.kind === 'box');
+  w.click(box.x, box.y, false); run(w, 10);
+  const c = w.cells.find((q) => !q.blocked && !q.occupant && q.x > 5 && q.y > 5 && q.x < w.gridW - 6 && q.y < w.gridH - 6);
+  const px = c.x * 64 + 14, py = c.y * 64 + 50;
+  w.click(px, py, true); run(w, 10);
+  const put = w.objects.filter((o) => o.kind === 'box' && o !== box).pop() || w.objects.find((o) => o.kind === 'box' && Math.abs(o.x - px) < 1);
+  ok(w.hero.held.kind === 'spade' && put && Math.abs(put.x - px) < 1 && Math.abs(put.y - py) < 1, 'ящик лежит ровно в точке клика', JSON.stringify(put && [put.x, put.y, px, py]));
+  const box2 = w.objects.find((o) => o.kind === 'box' && o !== put) || null;
+  if (box2) { w.click(box2.x, box2.y, false); run(w, 10); w.click(c.x * 64 + 54, c.y * 64 + 14, true); run(w, 10); }
+  const inCell = w.objects.filter((o) => o.kind === 'box' && Math.floor(o.x / 64) === c.x && Math.floor(o.y / 64) === c.y).length;
+  ok(!box2 || inCell === 2, 'в одну клетку помещаются два ящика', String(inCell));
+}
+
 console.log(`\nитог: ${passed} ok, ${failed} FAIL`);
 process.exit(failed ? 1 : 0);
