@@ -337,3 +337,9 @@ when `dry >= 66`. Port: `Renderer.drawPlantMeters`.
   Port: `.map_marker`, `travel()` in `Menu.renderMap` (speed 32 ms per node is a guess).
 * Hint (`level_info`, window 200x110): name (font 14) at y 0, result line at 20, own time at 40, "best_time" header at 60, "<player> <time>" at 76.
 * Back / Start: the caption is centred on the visible oval of the button texture (back: x 19..109 of 128; start: x 91..256 of 256).
+
+## Comics balloons (`sub_4335A0`) and playback
+* The box centre is half its size + **24 px** away from the arrow tip (our code used 13, which let the arrow cover the first letters of the
+  text, e.g. "Теперь" on the page of level 2). The arrow image sits on the tip.
+* The comics plays on its own in the original; the port now advances by a timer (`700 + 40 ms` per character, at least 1.5 s; a frame with no
+  balloons waits 0.5 s) and a click / Space still shows the next step at once. The timing is a guess (`time_show 500` of the page is not used).

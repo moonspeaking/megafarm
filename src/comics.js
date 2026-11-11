@@ -9,6 +9,9 @@
 //  * after the last balloon the "continue" arrow appears; the skip button jumps straight there.
 
 const FRAME_MS = 700;
+const BALLOON_GAP = 24;   // sub_4335A0: the centre of the box is half its size + 24 px away from the arrow tip
+// the original plays on its own: a balloon stays as long as it takes to read it, a click shows the next one at once
+const readTime = (text) => Math.max(1500, 700 + 40 * text.length);
 
 export class Comics {
   constructor({ container, assets, db, audio }) {
@@ -75,6 +78,7 @@ export class Comics {
   }
 
   advance() {
+    clearTimeout(this.timer);
     if (!this.active || this.done || this.busy) return;
     const f = this.frames[this.fi];
     // next balloon of the current frame
@@ -103,7 +107,7 @@ export class Comics {
     const showBalloon = () => {
       this.busy = false;
       const balloons = f.children.filter((c) => c.type === 'simple_balloon');
-      if (balloons.length) { this.bi = 0; this.showBalloon(balloons[0]); } else this.advance();
+      if (balloons.length) { this.bi = 0; this.showBalloon(balloons[0]); } else this.schedule(500);
     };
     if (!w || !h) { showBalloon(); return; }
     const [u0, v0] = p.texcoord;
@@ -136,8 +140,8 @@ export class Comics {
     // measure, then place relative to the arrow tip
     box.style.visibility = 'hidden';
     const w = box.offsetWidth, h = box.offsetHeight;
-    const left = dir[0] === 'l' ? x + 13 : x - 13 - w;
-    const top = dir[1] === 'u' ? y + 13 : y - 13 - h;
+    const left = dir[0] === 'l' ? x + BALLOON_GAP : x - BALLOON_GAP - w;
+    const top = dir[1] === 'u' ? y + BALLOON_GAP : y - BALLOON_GAP - h;
     box.style.left = `${left}px`;
     box.style.top = `${top}px`;
     box.style.visibility = '';
@@ -151,6 +155,14 @@ export class Comics {
       this.balloons.push(arrow);
     }
     box.animate([{ opacity: 0, transform: 'scale(.9)' }, { opacity: 1, transform: 'none' }], { duration: 160 });
+    this.schedule(readTime(text));
+  }
+
+  /** Автоматическое продолжение: через `ms` показывается следующий шаг (клик делает это раньше). */
+  schedule(ms) {
+    clearTimeout(this.timer);
+    if (!this.active || this.done) return;
+    this.timer = setTimeout(() => this.advance(), ms);
   }
 
   clearBalloon() {
@@ -177,6 +189,7 @@ export class Comics {
   }
 
   finish() {
+    clearTimeout(this.timer);
     this.done = true;
     this.busy = false;
     this.clearBalloon();
@@ -186,6 +199,7 @@ export class Comics {
 
   close() {
     if (!this.active) return;
+    clearTimeout(this.timer);
     this.active = false;
     window.removeEventListener('keydown', this.keyHandler, true);
     this.root.classList.add('hidden');
