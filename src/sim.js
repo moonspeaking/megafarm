@@ -524,7 +524,7 @@ export class World {
     this.updateBlocking(obj, true);
     const cell = this.cell(cx, cy);
     if (cell) {
-      if (kind === 'plant') cell.plant = obj;
+      if (kind === 'plant') { cell.plant = obj; cell.dug = true; }   // растение, созданное сценарием, стоит на готовой грядке
       else cell.occupant = obj;
     }
     return obj;
@@ -1807,7 +1807,7 @@ export class World {
         // на центр основания (base_center), у мелких предметов — над самим предметом
         const solid = obj.def && obj.def.props.solid && obj.def.props.base_center;
         const [bx, by] = solid ? basePoint(obj) : [obj.x, obj.y];
-        marks.push({ x: bx, y: by, lift: solid ? 30 : 44, type: 'check', obj: true, key: 'o' + obj.id });
+        marks.push({ x: bx, y: by, lift: 0, type: 'check', obj: true, key: 'o' + obj.id });
       }
       else {
         const c = this.cellAt(e.wx, e.wy);
