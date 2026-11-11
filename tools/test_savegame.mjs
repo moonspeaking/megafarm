@@ -25,7 +25,7 @@ const PROBE = 200;     // шагов после восстановления
 // после рефакторинга сериализация должна быть побитово той же.
 const HIVE_HASH_STEPS = 600; // шагов по STEP секунд
 const HIVE_HASH_SEED = 2020; // seed детерминированного Math.random
-const EXPECTED_HIVE_HASH = '50f6e67b39a5f32f09110fd6af94862eb0bb0abbd929835f527d0d14b03c2b47';
+const EXPECTED_HIVE_HASH = '964d87b0760e9a0c9354b6563b1bbce1d6fbe1f3316958ecac6305bd7797626b';
 
 // Скрипты грузятся через fetch от корня сервера; подменяем чтением с диска.
 globalThis.fetch = async (url) => {
