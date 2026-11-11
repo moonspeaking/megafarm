@@ -222,9 +222,9 @@ export class Menu {
     p.innerHTML = '';
     this.root.classList.toggle('fullscreen_page', ['map', 'credits', 'trophies'].includes(this.screen));
     switch (this.screen) {
-      case 'options': this.renderOptions(p); break;
-      case 'language': this.renderLanguage(p); break;
-      case 'volume': this.renderVolume(p); break;
+      case 'options': if (!this.inGame) this.renderSign(p, false); this.renderOptions(p); break;
+      case 'language': if (!this.inGame) this.renderSign(p, false); this.renderLanguage(p); break;
+      case 'volume': if (!this.inGame) this.renderSign(p, false); this.renderVolume(p); break;
       case 'help': this.renderHelp(p); break;
       case 'map': this.renderMap(p); break;
       case 'credits': this.renderCredits(p); break;
@@ -238,16 +238,24 @@ export class Menu {
 
   // --------------------------------------------------------------- main
 
-  renderMain(p) {
-    // wooden sign: player name
+  /** Деревянная табличка с приветствием: в оригинале она остаётся и в подменю (настройки, язык, громкость). */
+  renderSign(p, interactive) {
     const sign = this.el('div', 'sign', p);
-    const hdr = this.el('div', 'sign_h otext', sign, this.tx('welcome_message'));
-    const nm = this.el('div', 'sign_n otext', sign, this.profileLabel(this.settings.get('player') || 'default'));
-    const ch = this.el('div', 'sign_c otext', sign, this.tx('change_player_label'));
-    sign.addEventListener('mouseenter', () => sign.classList.add('hl'));
-    sign.addEventListener('mouseleave', () => sign.classList.remove('hl'));
-    sign.addEventListener('click', () => { this.click(); this.go('name'); });
-    void hdr; void nm; void ch;
+    this.el('div', 'sign_h otext', sign, this.tx('welcome_message'));
+    this.el('div', 'sign_n otext', sign, this.profileLabel(this.settings.get('player') || 'default'));
+    if (interactive) {
+      this.el('div', 'sign_c otext', sign, this.tx('change_player_label'));
+      sign.addEventListener('mouseenter', () => sign.classList.add('hl'));
+      sign.addEventListener('mouseleave', () => sign.classList.remove('hl'));
+      sign.addEventListener('click', () => { this.click(); this.go('name'); });
+    } else {
+      sign.style.cursor = 'default';
+      sign.style.pointerEvents = 'none';
+    }
+  }
+
+  renderMain(p) {
+    this.renderSign(p, true);
 
     const w = this.win(p, 230, 100, 220, 290);
     const items = [
