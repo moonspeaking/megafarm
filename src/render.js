@@ -257,6 +257,7 @@ export class Renderer {
     // draw list sorted by base y
     const drawables = [];
     for (const o of w.objects) {
+      if (w.hero.act && w.hero.act.hide === o) continue;
       drawables.push({ o, y: sortY(o) });
     }
     drawables.push({ o: w.hero, y: w.hero.y });

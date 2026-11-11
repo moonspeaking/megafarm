@@ -219,5 +219,17 @@ console.log('=== ящик ставится в любую точку, а не в 
   ok(!box2 || inCell === 2, 'в одну клетку помещаются два ящика', String(inCell));
 }
 
+console.log('=== при взятии предмета объект на земле скрыт на время анимации (иначе «двоится»)');
+{
+  const w = newWorld();
+  const box = w.objects.find((o) => o.kind === 'box');
+  w.hero.x = box.x - 40; w.hero.y = box.y + 10;
+  w.click(box.x, box.y, false);
+  let n = 0; while (!w.hero.act && n++ < 3000) w.update(0.016);
+  ok(w.hero.act && w.hero.act.hide === box, 'на время анимации «взять» объект помечен скрытым');
+  run(w, 3);
+  ok(w.hero.held && w.hero.held.kind === 'box' && !w.objects.includes(box), 'ящик убран с земли и лежит в руках');
+}
+
 console.log(`\nитог: ${passed} ok, ${failed} FAIL`);
 process.exit(failed ? 1 : 0);

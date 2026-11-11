@@ -1566,6 +1566,8 @@ export class World {
           this.removeObject(obj);
           this.hooks.playSound(TAKE_SOUNDS[obj.kind] || 'clickmenu');
         });
+        // в кадрах анимации «взять» предмет уже нарисован на земле у героини: настоящий объект на время действия скрыт
+        if (h.act) h.act.hide = obj;
         break;
       }
       case 'place': {
