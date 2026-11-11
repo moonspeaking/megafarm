@@ -319,3 +319,8 @@ Verified on a screenshot of the original (2x scale, English tabs): every number 
   of fruit: frame `PILE_BASE[iconNum % 25] + (count == 4 ? 8 : 0) + slot` (cells < 256 of icons.tga, >= 256 of icons_ex.tga), on
   the hero at the offset `PILE_OFF[slot]` from his feet, slot = `(14 - dir) % 8` while walking and 0 standing; on a box lying on
   the ground slot 2 at (+2, +14). Port: `drawFruitRow`, `drawPile`, `drawBoxContents`.
+## Hero action durations (`sub_4031F0`, hero state switch, field +0x3938 in ms)
+take/put 500, **dig 1500**, sow 1000, watercan 1000, harvest 1000, fertilizer 1000, pump/fill 1000, put box into the hangar 1500
+(otherwise 500). The port used shorter times before (dig 0.9 s); now it follows the table. Walking speed is unchanged:
+`speed` 300 * 0.00105 px/ms (`sub_401D00`) = 315 px/s horizontally, half of it vertically; the unit of `flt_482CB0` (dt) is not
+confirmed independently (it is written outside any xref), so the walking speed remains the one derived from the code.

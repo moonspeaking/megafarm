@@ -1338,7 +1338,7 @@ export class World {
         if (!cell || cell.dug || cell.blocked || cell.occupant) return;
         // звук копания (≈2.7 с) идёт вместе с анимацией и обрывается, когда грядка готова
         this.assets && this.hooks.playSound('dig');
-        anim('hero_dug', 0.9, () => {
+        anim('hero_dug', 1.5, () => {
           cell.dug = true;
           cell.wet = 1;
           this.dugCount++;
@@ -1352,7 +1352,7 @@ export class World {
         const held = h.held;
         if (!cell || !cell.dug || cell.plant || cell.occupant) return;
         if (!held || held.kind !== 'seed' || held.count <= 0) return;
-        anim('hero_sow1', 0.8, () => {
+        anim('hero_sow1', 1.0, () => {
           const plantName = 'plant_' + held.name;
           const plant = this.spawn(plantName, task.cell.x, task.cell.y);
           if (plant) {
@@ -1390,7 +1390,7 @@ export class World {
         const held = h.held;
         if (!plant || plant.dead) return;
         if (!held || held.kind !== 'fertilizer' || held.charges <= 0) return;
-        anim('hero_use1', 0.8, () => {
+        anim('hero_use1', 1.0, () => {
           if (plant.dead) return;
           held.charges--;
           this.fertilizePlant(plant, !!(held.def && held.def.props.weak_fertilizer));
@@ -1417,7 +1417,7 @@ export class World {
           this.hooks.notify(this.db.t('notify_only_for_this_type', 'В этом ящике другой товар!'));
           return;
         }
-        anim('hero_harvest1', 0.9, () => {
+        anim('hero_harvest1', 1.0, () => {
           this.pickPlant(plant);
           held.count = (held.count || 0) + 1;
           held.type = plantName(plant);
@@ -1433,7 +1433,7 @@ export class World {
         const held = h.held;
         if (!held || held.kind !== 'watercan') return;
         this.hooks.playSound('waterpump'); // orig. sub_4031F0 (hero state 11, inferred): filling at the pump
-        anim('hero_fill_watercan', 1.2, () => {
+        anim('hero_fill_watercan', 1.0, () => {
           held.charges = held.def.props.max_watering || 6;
         });
         break;
@@ -1454,7 +1454,7 @@ export class World {
           this.hooks.notify(this.db.t('notify_box_nomore_full', 'Этот ящик ещё не заполнен полностью!'));
           return;
         }
-        anim('hero_put_box1', 0.9, () => {
+        anim('hero_put_box1', 1.5, () => {
           const cost = this.goodCost(held.type);
           const total = held.count * cost;
           this.money += total;
@@ -1483,7 +1483,7 @@ export class World {
           this.hooks.notify(this.db.t('notify_only_for_this_type', 'В этом ящике другой товар!'));
           return;
         }
-        anim('hero_harvest1', 0.9, () => {
+        anim('hero_harvest1', 1.0, () => {
           if (!tree.ready) return;
           tree.ready = false;
           tree.fruits = 0;
@@ -1506,7 +1506,7 @@ export class World {
           this.hooks.notify(this.db.t('notify_box_nomore_full', 'Этот ящик ещё не заполнен полностью!'));
           return;
         }
-        anim('hero_put_box1', 0.9, () => {
+        anim('hero_put_box1', 0.5, () => {
           // the whole box of fodder is handed over and the food bar is refilled
           h.held = { kind: 'spade' };
           house.feed = p.time_feed || 60;
@@ -1532,7 +1532,7 @@ export class World {
           this.hooks.notify(this.db.t('notify_only_for_this_type', 'В этом ящике другой товар!'));
           return;
         }
-        anim('hero_harvest1', 0.9, () => {
+        anim('hero_harvest1', 1.0, () => {
           if (!house.ready) return;
           house.ready--;
           if (house.name === 'beehive') house.progress = 0;
