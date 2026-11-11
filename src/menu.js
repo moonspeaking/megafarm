@@ -649,16 +649,18 @@ export class Menu {
       const rec = this.progress.level(pl.n);
       const [mx, my] = at(pl);
       hint.innerHTML = '';
-      this.el('div', 'lh_name', hint, this.levelName(pl));
-      this.el('div', 'lh_line', hint, rec
+      // как в оригинале (interfaces/gamemap.txt, level_info 200x110): строки на y = 0, 20, 40, 60, 76 от верха окна
+      const line = (cls, text, y) => { const d = this.el('div', cls, hint, text); d.style.top = `${y}px`; return d; };
+      line('lh_name', this.levelName(pl), 0);
+      line('lh_line', rec
         ? this.tx(rec.gold ? 'level_completed_with_trophy' : 'level_completed')
-        : this.tx('level_not_finished'));
+        : this.tx('level_not_finished'), 22);
       if (rec) {
-        this.el('div', 'lh_line', hint, `${this.tx('level_time')}: ${formatTime(rec.time)}`);
+        line('lh_line', `${this.tx('level_time')}: ${formatTime(rec.time)}`, 42);
         const best = bestOf(pl.n);
         if (best) {
-          this.el('div', 'lh_line', hint, this.tx('best_time'));
-          this.el('div', 'lh_line', hint, `${best.name} ${formatTime(best.time)}`);
+          line('lh_line', this.tx('best_time'), 62);
+          line('lh_line', `${best.name} ${formatTime(best.time)}`, 78);
         }
       }
       hint.style.display = 'block';
@@ -671,24 +673,79 @@ export class Menu {
       el.classList.toggle('done', this.progress.done(n));
       el.classList.toggle('gold', this.progress.gold(n));
     };
+    // фигурка героини (gamemap/star.tga, 32x64) идёт по красной дороге от уровня к уровню, камера следует за ней
+    const marker = this.el('div', 'map_marker', layer);
+    marker.style.backgroundImage = `url('${this.tex('gamemap/star.png')}')`;
+    const roadPoints = (i0, i1) => {
+      const pts = [];
+      const step = i1 > i0 ? 1 : -1;
+      for (let i = i0; i !== i1; i += step) {
+        const j = i + step;
+        const A = plots[i], B = plots[j];
+        const [ax, ay] = at(A), [bx, by] = at(B);
+        const sp = splines.find((q) => (q.a === i && q.b === j) || (q.a === j && q.b === i));
+        const seg = [];
+        if (sp) {
+          const f = sp.a === i;
+          const [sx, sy] = f ? [ax, ay] : [bx, by], [ex, ey] = f ? [bx, by] : [ax, ay];
+          const P = [[sx, sy], [sx - sp.p1[0], sy + sp.p1[1]], [ex - sp.p2[0], ey + sp.p2[1]], [ex, ey]];
+          for (let k = 0; k <= 20; k++) {
+            const t = k / 20, u = 1 - t;
+            seg.push([u * u * u * P[0][0] + 3 * u * u * t * P[1][0] + 3 * u * t * t * P[2][0] + t * t * t * P[3][0],
+              u * u * u * P[0][1] + 3 * u * u * t * P[1][1] + 3 * u * t * t * P[2][1] + t * t * t * P[3][1]]);
+          }
+          if (!f) seg.reverse();
+        } else {
+          for (let k = 0; k <= 20; k++) seg.push([ax + (bx - ax) * k / 20, ay + (by - ay) * k / 20]);
+        }
+        pts.push(...(pts.length ? seg.slice(1) : seg));
+      }
+      return pts;
+    };
+    const camFor = (mx, my) => [Math.max(0, Math.min(1024 - W, mx - W / 2)), Math.max(0, Math.min(1024 - 472, my - 170))];
+    const placeMarker = (mx, my) => { marker.style.left = `${mx - 16}px`; marker.style.top = `${my - 64}px`; };
+    let markerIdx = -1;
+    let anim = 0;
+    const travel = (idx, instant) => {
+      cancelAnimationFrame(anim);
+      const target = at(plots[idx]);
+      if (instant || markerIdx < 0 || markerIdx === idx) {
+        markerIdx = idx;
+        placeMarker(target[0], target[1]);
+        const [cx, cy] = camFor(target[0], target[1]);
+        layer.style.transition = instant ? 'none' : 'transform .6s ease-in-out';
+        layer.style.transform = `translate(${-cx}px, ${-cy}px)`;
+        return;
+      }
+      const pts = roadPoints(markerIdx, idx);
+      markerIdx = idx;
+      layer.style.transition = 'none';
+      const perNode = 32;   // мс на узел дороги (20 узлов на отрезок)
+      const t0 = performance.now();
+      const frame = (now) => {
+        const k = Math.min(pts.length - 1, (now - t0) / perNode);
+        const i = Math.floor(k), f = k - i;
+        const a = pts[i], b = pts[Math.min(pts.length - 1, i + 1)];
+        const x = a[0] + (b[0] - a[0]) * f, y = a[1] + (b[1] - a[1]) * f;
+        placeMarker(x, y);
+        const [cx, cy] = camFor(x, y);
+        layer.style.transform = `translate(${-cx}px, ${-cy}px)`;
+        if (k < pts.length - 1 && this.screen === 'map') anim = requestAnimationFrame(frame);
+      };
+      anim = requestAnimationFrame(frame);
+    };
     const select = (n, instant) => {
       if (!this.progress.unlocked(n)) return;
       this.selected = n;
       this.settings.set('level', n);
-      const pl = plots.find((q) => q.n === n);
-      if (pl) {
-        const [mx, my] = at(pl);
-        const cx = Math.max(0, Math.min(1024 - W, mx - W / 2));
-        const cy = Math.max(0, Math.min(1024 - 472, my - 170));
-        layer.style.transition = instant ? 'none' : 'transform .6s ease-in-out';
-        layer.style.transform = `translate(${-cx}px, ${-cy}px)`;
-      }
+      const pi = plots.findIndex((q) => q.n === n);
+      if (pi >= 0) travel(pi, instant);
       for (const [k, c] of coins) {
         c.plot.classList.toggle('sel', k === n);
         c.btn.classList.toggle('sel', k === n);
       }
       const bc = coins.get(n)?.btn;
-      if (bc) arrow.style.left = `${bc.offsetLeft + 13 + 8}px`;
+      if (bc) arrow.style.left = `${bc.offsetLeft + 2 + 15}px`;
     };
 
     for (const pl of plots) {

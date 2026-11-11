@@ -281,21 +281,23 @@ html, body {
 .coin_icon { position: absolute; left: 10px; top: 10px; width: 44px; height: 44px; background-size: 100% 100%; filter: brightness(.7); }
 .plot.sel .coin_icon, .bar_btn.sel .coin_icon, .plot:hover .coin_icon { filter: none; }
 .plot:hover .coin { filter: brightness(.8); }
-.plot_name { position: absolute; left: -60px; right: -60px; top: -20px; text-align: center; font-size: 13px; white-space: nowrap; -webkit-text-stroke: 3px #1b2a52; }
-.map_bar { position: absolute; left: 0; bottom: 0; width: 800px; height: 128px; background-size: 1024px 128px; background-repeat: no-repeat; }
-.bar_row { position: absolute; left: 6px; top: 60px; display: flex; gap: 8px; }
-.bar_btn { position: relative; width: 58px; height: 58px; cursor: pointer; }
+.plot_name { position: absolute; z-index: 6; left: -60px; right: -60px; top: -20px; text-align: center; font-size: 13px; white-space: nowrap; -webkit-text-stroke: 3px #1b2a52; }
+.map_bar { position: absolute; left: 0; bottom: 0; width: 800px; height: 128px; background-size: 800px 128px; background-repeat: no-repeat; }
+/* level_bar.tga растянут на ширину окна (800): 12 синих ячеек по 66.7 px, внутренность ячейки y 59..121 */
+.bar_row { position: absolute; left: 2.3px; top: 59px; display: flex; gap: 4.67px; }
+.bar_btn { position: relative; width: 62px; height: 62px; cursor: pointer; }
 .bar_btn .coin { filter: none; }
-.bar_btn .coin_icon { left: 7px; top: 7px; width: 44px; height: 44px; filter: none; }
+.bar_btn .coin_icon { left: 8px; top: 8px; width: 46px; height: 46px; filter: none; }
 .bar_btn:hover { filter: brightness(1.15); }
 .bar_arrow { position: absolute; top: 18px; left: 0; width: 32px; height: 32px; background: url('assets/textures/gui/gamemap/lvl_arr.png') 0 -32px / 32px 64px no-repeat; transition: left .3s; pointer-events: none; }
 .map_btn { position: absolute; cursor: pointer; background-repeat: no-repeat; }
 .map_btn:hover { background-position-y: -128px !important; }
-.map_btn span { position: absolute; font-size: 26px; white-space: nowrap; }
+.map_btn span { position: absolute; top: 0; height: 128px; display: flex; align-items: center; justify-content: center; font-size: 26px; white-space: nowrap; }
+.map_marker { position: absolute; width: 32px; height: 64px; background-size: 32px 64px; background-repeat: no-repeat; pointer-events: none; z-index: 4; }
 .map_start_btn { left: 544px; top: 382px; width: 256px; height: 128px; background-image: url('assets/textures/gui/gamemap/map_start.png'); background-size: 256px 256px; }
-.map_start_btn span { left: 128px; top: 40px; }
+.map_start_btn span { left: 91px; width: 165px; }
 .map_back_btn { left: -19px; top: 406px; width: 128px; height: 128px; background-image: url('assets/textures/gui/gamemap/map_back.png'); background-size: 128px 256px; }
-.map_back_btn span { right: 30px; top: 40px; }
+.map_back_btn span { left: 19px; width: 90px; font-size: 20px; }
 .map_comics_btn { left: 688px; top: -14px; width: 128px; height: 128px; background-image: url('assets/textures/gui/gamemap/map_comics.png'); background-size: 128px 256px; }
 #loading {
   position: absolute; inset: 0; z-index: 20; background: #1a1410 url('assets/textures/loader/loadscreen.png') 0 0 / 1024px 1024px no-repeat;
@@ -320,11 +322,12 @@ html, body {
 .level_info .li_name { text-align: center; font-size: 15px; }
 .level_info .li_state { text-align: center; font-size: 11px; color: #ffe46a; margin-bottom: 4px; }
 .level_info .li_line { text-align: center; font-size: 11px; }
-.level_hint { position: absolute; width: 220px; box-sizing: border-box; padding: 4px 8px 6px; text-align: center; z-index: 5; pointer-events: none;
+.level_hint { position: absolute; width: 216px; height: 126px; box-sizing: border-box; padding: 0; text-align: center; z-index: 5; pointer-events: none;
   border: 6px solid transparent; border-image: url('assets/ui/window.png') 16 / 6px stretch;
   background: rgba(22,56,136,.95); background-clip: padding-box; }
-.level_hint .lh_name { font-size: 22px; line-height: 1.15; }
-.level_hint .lh_line { font-size: 14px; line-height: 1.2; }
+.level_hint .lh_name, .level_hint .lh_line { position: absolute; left: 0; right: 0; margin-top: 6px; white-space: nowrap; line-height: 1.1; }
+.level_hint .lh_name { font-size: 17px; }
+.level_hint .lh_line { font-size: 14px; }
 /* the selected level's coin pulses */
 @keyframes coin_pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
 .plot.sel:not(.locked) { animation: coin_pulse 1.1s ease-in-out infinite; }

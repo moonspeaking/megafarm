@@ -329,3 +329,11 @@ confirmed independently (it is written outside any xref), so the walking speed r
 Under the mouse: two rows of five 16 px icons (`sub_405C50`) above the plant: hearts (icons.tga cell 26, at +56) lit by `health` (0..100)
 and drops (cell 27, at +40) lit by `100 - dry`. Always: one big 32 px heart at (-16, +20) when `health <= 19` and one big drop at (+16, +20)
 when `dry >= 66`. Port: `Renderer.drawPlantMeters`.
+
+## Game map (`interfaces/gamemap.txt`, `sub_42EBF0` update, `sub_42E400` draw)
+* `level_bar.tga` (1024x128, 12 blue cells) is stretched to the 800 px window: cells of 66.7 px, one level coin per cell (inside y 59..121).
+* The traveller `star.tga` (64x128: the heroine on a pedestal) is drawn 32x64 centred 32 px above the point of the road (`+0, +32`, y up) and
+  walks along the splines from the previous level to the chosen one (20 nodes per segment, plot by plot); the map camera follows it.
+  Port: `.map_marker`, `travel()` in `Menu.renderMap` (speed 32 ms per node is a guess).
+* Hint (`level_info`, window 200x110): name (font 14) at y 0, result line at 20, own time at 40, "best_time" header at 60, "<player> <time>" at 76.
+* Back / Start: the caption is centred on the visible oval of the button texture (back: x 19..109 of 128; start: x 91..256 of 256).
