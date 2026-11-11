@@ -1,6 +1,8 @@
 // DOM HUD controller.
 import { fontForLang, loadFont, loadedFont, textWidth, layoutPopup } from './fontmetrics.js';
 import { endSoundName } from './endsound.js';
+import { taskGoalLines } from './goals.js';
+import { extraT } from './i18n_extra.js';
 
 const TABS = [
   ['inventory', 'ИНВЕНТАРЬ'],
@@ -98,6 +100,7 @@ export class UI {
     if (now - (this._lastHud || 0) < 200) return;
     this._lastHud = now;
     this.el.money.textContent = w.money;
+    this.updateTasks(); // прогресс целей (сам разбор дешёвый, DOM меняется только при изменении)
     // the bar shows the time that is left, like the original
     const left = Math.max(0, 100 - (w.time / w.levelTime) * 100);
     this.el.timefill.style.width = left + '%';
@@ -106,14 +109,29 @@ export class UI {
   updateTasks() {
     const w = this.world;
     if (!w) return;
-    const active = [...w.tasks].reverse().find((t) => t.state === 'active');
-    if (active) {
-      this.el.task_text.textContent = w.db.t(active.key, active.key);
-    } else if (w.tasks.length) {
-      this.el.task_text.textContent = w.db.t(w.tasks[w.tasks.length - 1].key, '');
-    } else {
-      this.el.task_text.textContent = '';
+    const box = this.el.task_text;
+    // как в оригинале (upmenu_form.task1..4): цели текущего задания с прогрессом, а не название задания
+    const lines = taskGoalLines(w);
+    if (lines.length) {
+      const sig = lines.map((l) => `${l.text}|${l.cur}|${l.target}`).join('\n');
+      if (box.dataset.sig === sig) return;
+      box.dataset.sig = sig;
+      box.className = 'goals';
+      box.replaceChildren(...lines.map((l) => {
+        const row = document.createElement('div');
+        row.className = 'goal';
+        row.textContent = `${l.text}  ${l.cur}/${l.target}`;
+        return row;
+      }));
+      return;
     }
+    // целей нет (например, всё выполнено или у задания только временные условия): название задания
+    box.dataset.sig = '';
+    box.className = '';
+    const active = [...w.tasks].reverse().find((t) => t.state === 'active');
+    if (active) box.textContent = w.db.t(active.key, active.key);
+    else if (w.tasks.length) box.textContent = w.db.t(w.tasks[w.tasks.length - 1].key, '');
+    else box.textContent = '';
   }
 
   // ---------------------------------------------------------------- shop
@@ -166,6 +184,7 @@ export class UI {
     const el = this.el.shop_items;
     el.innerHTML = '';
     const list = w.shop[this.activeTab] || [];
+    if (this.activeTab === 'inventory') this.addSpadeButton(el, w);
     for (const name of list) {
       const def = w.db.objects.get(name);
       if (!def) continue;
@@ -194,6 +213,19 @@ export class UI {
       });
       el.appendChild(div);
     }
+  }
+
+  /** Кнопка лопаты в инвентаре: режим «один клик копает»; повторное нажатие возвращает обычный режим. */
+  addSpadeButton(el, w) {
+    const div = document.createElement('div');
+    div.className = 'shop_item spade' + (w.digMode ? ' active' : '');
+    const img = document.createElement('img');
+    const tex = this.assets.resolve('spade', null);
+    if (tex) img.src = this.assets.manifest.textures[tex];
+    div.appendChild(img);
+    div.title = extraT('spade_dig');
+    div.addEventListener('click', () => { w.toggleDigMode(); this.updateShop(); });
+    el.appendChild(div);
   }
 
   // ---------------------------------------------------------------- tools

@@ -261,14 +261,29 @@ export class Menu {
   }
 
   renderIngame(p) {
-    const w = this.win(p, 0, 0, 220, 240);
+    // меню паузы оригинала (menuhost_scripts.txt, main_menu_form 220x200): restart, exitgame, options, continue
+    const w = this.win(p, 0, 0, 220, 200);
     this.popup(w, [
       [this.tx('restart'), () => this.confirm(this.tx('question_replay_game'), () => this.hooks.restart())],
-      [this.tx('save_and_exit'), () => this.hooks.saveAndQuit()],
-      [this.tx('exitgame'), () => this.confirm(this.tx('question_end_game'), () => this.hooks.quit())],
+      // «Закончить/Quit» спрашивает question_saveandexit_game («Сохранить игру перед выходом?»): да — сохранить и выйти,
+      // нет — выйти без сохранения (в оригинале есть текст этого вопроса; полный разбор веток не восстановлен)
+      [this.tx('exitgame'), () => this.confirm3(this.tx('question_saveandexit_game'),
+        () => this.hooks.saveAndQuit(), () => this.hooks.quit())],
       [this.tx('options'), () => this.go('options')],
       [this.tx('continue'), () => this.hooks.resume()],
     ]);
+  }
+
+  /** Вопрос с тремя кнопками: «Да», «Нет» и «Отмена» (возврат в меню паузы). */
+  confirm3(text, yes, no) {
+    const p = this.panel;
+    const shade = this.el('div', 'shade', p);
+    const w = this.win(shade, 0, 0, 380, 150);
+    this.el('div', 'msg_line otext', w, text);
+    const row = this.el('div', 'btn_row', w);
+    this.pill(row, this.tx('yes'), () => { this.render(); yes(); });
+    this.pill(row, this.tx('no'), () => { this.render(); no(); });
+    this.pill(row, this.tx('cancel'), () => this.render());
   }
 
   confirm(text, yes, no) {

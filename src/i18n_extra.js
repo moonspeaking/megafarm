@@ -16,6 +16,8 @@ export const EXTRA = {
     question_delete_profile: 'Удалить игрока «%s»? Его прогресс и сохранение будут стёрты.',
     // запасное имя уровня без ключа levelN_name в паках
     level_name_fallback: 'Уровень %d',
+    // ui.js: кнопка лопаты в инвентаре
+    spade_dig: 'Лопата: копать одним кликом (нажмите ещё раз, чтобы вернуться к обычному режиму)',
     // sim.js: уведомления
     notify_plant_died: 'Растение погибло!',
     notify_worker_pay: 'Работник ждёт оплаты!',
@@ -36,6 +38,7 @@ export const EXTRA = {
     delete_profile: 'Delete Player',
     question_delete_profile: 'Delete player "%s"? Their progress and saves will be erased.',
     level_name_fallback: 'Level %d',
+    spade_dig: 'Shovel: dig with one click (press again to return to the normal mode)',
     notify_plant_died: 'The plant has died!',
     notify_worker_pay: 'A worker is waiting to be paid!',
     notify_can_empty: 'The watering can is empty! Fill it at the well.',

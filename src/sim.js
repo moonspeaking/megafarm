@@ -9,6 +9,9 @@ const PUT_SOUNDS = { house: 'house_place', hangar: 'house_place', tree: 'tree_pl
 // sound when the hero picks a lying item up
 const TAKE_SOUNDS = { box: 'take_box', seed: 'take_bag', fertilizer: 'take_bag', watercan: 'take_watercan' };
 export const TILE = 64;
+const QUEUE_MAX = 256; // CMover: очередь точек до 256
+const PATH_STALL_TIME = 4; // с без приближения к цели — считаем, что актёр кружит у недостижимой точки
+const TAKE_PUT_TIME = 0.5; // sub_4031F0: состояния «взять»/«положить» длятся 500 мс (как animation_time take_*/put_*)
 export const BOX_CAPACITY = 4;
 export const MAX_HEALTH = 100;
 
@@ -60,6 +63,10 @@ export class World {
     this.dugCount = 0;
     this.shop = { inventory: [], buildings: [], seeds: [], sprouts: [], trees: [], workers: [] };
     this.tasks = [];
+    this.digMode = false;  // режим лопаты (кнопка в инвентаре): одиночный клик по свободной земле копает
+    this.queue = [];       // очередь целей кликов (галочки), см. click()
+    this.current = null;   // цель, которую героиня выполняет сейчас
+    this.lastClick = null;
     this.particles = [];
     this.over = null;
     this.hintObjs = new Set();
@@ -214,6 +221,7 @@ export class World {
     const h = data.hero || {};
     this.hero.x = h.x; this.hero.y = h.y; this.hero.facing = h.facing || 0;
     this.hero.task = null; this.hero.path = []; this.hero.act = null;
+    this.clearQueue();
     this.hero.held = this.restoreHeld(h.held);
     this.hintObjs = new Set((data.hintObjs || [])
       .filter((i) => spawned[i]).map((i) => spawned[i].id));
@@ -1178,11 +1186,19 @@ export class World {
     // free movement towards the waypoint (see moveActor)
     if (h.path.length) {
       const r = this.moveActor(h, dt, h.task && h.task.object);
+      if (h.gaveUp) {
+        h.gaveUp = false;
+        h.task = null; h.path = []; h.moving = false;
+        this.hooks.notify(this.db.t('notify_you_cant_gowhere', 'Вы не можете туда пройти!'));
+        return;
+      }
       if (r === 'arrived' && !h.path.length && h.task) this.arriveTask();
       return;
     }
     h.moving = false;
     if (h.task) this.arriveTask();
+    else if (this.queue.length) this.nextQueued();
+    else this.current = null;
   }
 
   /**
@@ -1196,6 +1212,16 @@ export class World {
   moveActor(a, dt, target) {
     const t = a.path[0];
     const ms = dt * 1000;
+    // предохранитель: если за PATH_STALL_TIME секунд расстояние до точки не стало меньше рекорда, актёр ходит по кругу
+    // у недостижимой цели — отказываемся от хода (героиня сообщает, что туда не пройти)
+    const dToTarget = Math.hypot(t.x - a.x, t.y - a.y);
+    if (a.pathTarget !== t) { a.pathTarget = t; a.pathBest = dToTarget; a.pathStall = 0; }
+    else if (dToTarget < a.pathBest - 1) { a.pathBest = dToTarget; a.pathStall = 0; }
+    else a.pathStall += dt;
+    if (a.pathStall > PATH_STALL_TIME) {
+      a.pathTarget = null; a.pathStall = 0; a.path.shift(); a.moving = false; a.stuck = 0; a.avoid = 0; a.gaveUp = true;
+      return 'arrived';
+    }
     const S = (a.speed || 300) * 0.00105;
     let dx = t.x - a.x, dy = t.y - a.y;
     const dist = Math.hypot(dx, dy);
@@ -1269,7 +1295,13 @@ export class World {
     const point = taskPoint(task);
     const dist = Math.hypot(point.x - h.x, point.y - h.y);
     if (dist > 110) {
-      // not close enough: re-path
+      // not close enough: re-path (но не бесконечно: недостижимая цель не должна гонять героиню по кругу)
+      task.repath = (task.repath || 0) + 1;
+      if (task.repath > 3) {
+        h.task = null; h.moving = false;
+        this.hooks.notify(this.db.t('notify_you_cant_gowhere', 'Вы не можете туда пройти!'));
+        return;
+      }
       this.walkToPoint(point.x, point.y, task);
       return;
     }
@@ -1506,7 +1538,7 @@ export class World {
         if (!obj) return;
         // small can -> take_watercan2, big can -> take_watercan1 (sub_41C140)
         const takeAnim = { box: 'hero_take_box1', seed: 'hero_take_seed', watercan: obj.name === 'big_watercan' ? 'hero_take_watercan1' : 'hero_take_watercan2' }[obj.kind] || 'hero_take_box1';
-        anim(takeAnim, 0.7, () => {
+        anim(takeAnim, TAKE_PUT_TIME, () => {
           // swap with currently held item
           const held = h.held;
           if (held && held.kind !== 'spade') {
@@ -1529,7 +1561,7 @@ export class World {
           return;
         }
         const putAnim = { box: 'hero_put_box1', seed: 'hero_put_seed', watercan: held.name === 'big_watercan' ? 'hero_put_watercan1' : 'hero_put_watercan2' }[held.kind] || 'hero_put_box1';
-        anim(putAnim, 0.7, () => this.finishPlace(held, task.cell.x, task.cell.y));
+        anim(putAnim, TAKE_PUT_TIME, () => this.finishPlace(held, task.cell.x, task.cell.y));
         break;
       }
       case 'move':
@@ -1631,6 +1663,13 @@ export class World {
       }
       const s = o.size;
       if (Math.abs(wx - o.x) < s[0] / 2 && wy > o.y - s[1] * 0.7 && wy < o.y + s[1] * 0.3) return o;
+      // нижняя часть твёрдого здания (его основание, base_radius) — тоже само здание: клик туда не «земля»,
+      // иначе героиня шла бы к точке внутри здания и бесконечно его огибала
+      const br = o.def && o.def.props.solid && o.def.props.base_radius;
+      if (br) {
+        const bp = basePoint(o);
+        if (((wx - bp[0]) / br[0]) ** 2 + ((wy - bp[1]) / br[1]) ** 2 <= 1) return o;
+      }
     }
     return null;
   }
@@ -1640,17 +1679,22 @@ export class World {
     return Math.abs(wx - this.hero.x) < 40 && wy > this.hero.y - 120 && wy < this.hero.y + 30;
   }
 
+  /**
+   * Клик по полю. Покупка/инструмент/работник/разбрызгиватель обрабатываются сразу, всё остальное (ход героини и
+   * действия над объектами и клетками) — очередь: каждый клик добавляет цель с галочкой (оригинал: CMover хранит
+   * до 256 точек, `flag.tga` — галочка: простой ход и действия над объектами, `flag1.tga` — кольцо: двойной клик по
+   * земле, героиня копает), героиня выполняет их по порядку. Что именно делать с целью, решается в момент выполнения (можно кликнуть по дереву, ещё не взяв ящик).
+   */
   click(wx, wy, isDouble) {
     if (this.over) return;
     const h = this.hero;
     const obj = this.objectAt(wx, wy);
     const cell = this.cellAt(wx, wy);
-    // клик по героине (взять/положить предмет) гасится только вне клетки с грядкой/растением:
-    // грядку под ногами можно сеять/поливать/собирать (задача 27; в оригинале не проверено,
-    // см. docs/open-questions.md). Подбор предмета (obj) важнее и работает как раньше.
+    // клик по героине (вне клетки с грядкой/растением, см. задачу 27): сбросить очередь и остановить ход
     const bedHere = cell && (cell.dug || cell.plant);
     if (!obj && !bedHere && !isDouble && this.heroAt(wx, wy)) {
-      // клик по героине самой по себе: ничего
+      this.clearQueue();
+      if (!h.act) { h.task = null; h.path = []; h.moving = false; }
       return;
     }
 
@@ -1661,12 +1705,92 @@ export class World {
 
     const heldTool = h.held && (h.held.kind === 'transporter' || h.held.kind === 'destructor');
     if (heldTool && this.useTool(h.held, obj)) return;
+    if (obj && obj.kind === 'worker') { this.workerClicked(obj); return; }
+    if (!obj && cell && h.held && h.held.kind === 'sprinkler') { this.placeSprinklerAt(cell); return; }
+    if (!obj && !cell) return;
 
+    // режим лопаты: одиночный клик по свободной земле равен двойному (копать); с предметом в руках работает как обычно
+    if (this.digMode && !isDouble && !obj && (!h.held || h.held.kind === 'spade')
+      && !cell.dug && !cell.blocked && !cell.occupant && !cell.plant) isDouble = true;
+
+    // двойной клик заменяет только что поставленный первый клик на том же месте (ход + действие не дублируются)
+    const last = this.lastClick;
+    if (isDouble && last && Math.abs(last.wx - wx) < 20 && Math.abs(last.wy - wy) < 20) {
+      const qi = this.queue.indexOf(last);
+      if (qi >= 0) this.queue.splice(qi, 1);
+      else if (this.current === last && !h.act) { h.task = null; h.path = []; h.moving = false; this.current = null; }
+    }
+    if (this.queue.length >= QUEUE_MAX) return;
+    const entry = {
+      wx, wy, isDouble: !!isDouble, objId: obj ? obj.id : null,
+      // кольцо — двойной клик по свободной земле (героиня копает/ставит), всё остальное, в т.ч. простой ход — галочка
+      ring: !obj && !!isDouble && !!cell && !cell.dug && !cell.blocked && !cell.occupant && !cell.plant,
+    };
+    this.lastClick = entry;
+    this.queue.push(entry);
+    if (this.heroIdle()) this.nextQueued();
+  }
+
+  /** Кнопка лопаты в инвентаре: включает/выключает режим «один клик копает». */
+  toggleDigMode() {
+    this.digMode = !this.digMode;
+    this.hooks.updateShop();
+    return this.digMode;
+  }
+
+  heroIdle() {
+    const h = this.hero;
+    return !h.act && !h.path.length && !h.task;
+  }
+
+  clearQueue() {
+    this.queue = [];
+    this.current = null;
+    this.lastClick = null;
+  }
+
+  /** Берёт из очереди первую цель, которая даёт героине работу (цели без результата, например «нужен ящик», пропускаются). */
+  nextQueued() {
+    while (this.queue.length) {
+      const e = this.queue.shift();
+      const obj = (e.objId != null ? this.objects.find((o) => o.id === e.objId) : null) || this.objectAt(e.wx, e.wy);
+      const cell = obj && obj.cell ? this.cell(obj.cell.x, obj.cell.y) || this.cellAt(e.wx, e.wy) : this.cellAt(e.wx, e.wy);
+      this.current = e;
+      this.runClick(obj || null, cell, e.isDouble);
+      if (!this.heroIdle()) return;
+      this.current = null;
+    }
+  }
+
+  /** Галочки/кольца для отрисовки: текущая цель (пока героиня занята) и всё, что ждёт в очереди. */
+  queueMarks() {
+    const marks = [];
+    const add = (e) => {
+      const obj = e.objId != null ? this.objects.find((o) => o.id === e.objId) : null;
+      if (obj) {
+        // у крупных зданий o.y — центр квадратной текстуры (256x256), а само здание занимает её нижнюю часть: галочку ставим
+        // на центр основания (base_center), у мелких предметов — над самим предметом
+        const solid = obj.def && obj.def.props.solid && obj.def.props.base_center;
+        const [bx, by] = solid ? basePoint(obj) : [obj.x, obj.y];
+        marks.push({ x: bx, y: by, lift: solid ? 30 : 44, type: 'check', obj: true, key: 'o' + obj.id });
+      }
+      else {
+        const c = this.cellAt(e.wx, e.wy);
+        const x = c ? c.x * TILE + TILE / 2 : e.wx, y = c ? c.y * TILE + TILE / 2 : e.wy;
+        marks.push({ x, y, type: e.ring ? 'ring' : 'check', key: 'c' + Math.round(x) + ',' + Math.round(y) });
+      }
+    };
+    if (this.current && !this.heroIdle()) add(this.current);
+    for (const e of this.queue) add(e);
+    return marks;
+  }
+
+  /** Решает, что делать героине с целью клика (бывшее тело click(), без немедленных действий). */
+  runClick(obj, cell, isDouble) {
+    const h = this.hero;
+    const heldTool = h.held && (h.held.kind === 'transporter' || h.held.kind === 'destructor');
     if (obj) {
       switch (obj.kind) {
-        case 'worker':
-          this.workerClicked(obj);
-          return;
         case 'item':
         case 'seed':
         case 'watercan':
@@ -1798,6 +1922,7 @@ export class World {
 
   rightClick() {
     if (this.pending) { this.pending = null; this.hooks.updateShop(); return; }
+    this.clearQueue();
     this.hero.task = null;
     this.hero.path = [];
   }
@@ -1827,8 +1952,32 @@ export class World {
       this.hooks.notify(this.db.t('notify_you_cant_gowhere', 'Вы не можете туда пройти!'));
       return;
     }
+    if (!task) {
+      const p = this.pushOutOfSolids(wx, wy);
+      wx = p.x; wy = p.y;
+    }
     h.path = [{ x: wx, y: wy }];
     h.task = task;
+  }
+
+  /** Точка внутри основания твёрдого объекта недостижима (актёр огибал бы её вечно): сдвигаем на границу эллипса. */
+  pushOutOfSolids(x, y) {
+    const rA = 2; // радиус актёра (как в moveActor)
+    for (let pass = 0; pass < 3; pass++) {
+      let moved = false;
+      for (const o of this.solidObstacles(this.hero, null, null)) {
+        const dx = x - o.c[0], dy = y - o.c[1];
+        const u = Math.sqrt((dx / (o.r[0] + rA)) ** 2 + (dy / (o.r[1] + rA)) ** 2);
+        if (u >= 1) continue;
+        if (o.dock && Math.hypot(x - o.dock.c[0], y - o.dock.c[1]) <= o.dock.r[0] + rA) continue; // зона стыковки доступна
+        if (u < 1e-6) { y = o.c[1] + o.r[1] + rA + 2; moved = true; continue; }
+        x = o.c[0] + dx / u * 1.03;
+        y = o.c[1] + dy / u * 1.03;
+        moved = true;
+      }
+      if (!moved) break;
+    }
+    return { x, y };
   }
 
   // ----------------------------------------------------------- particles

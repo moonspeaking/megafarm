@@ -196,6 +196,10 @@ async function boot() {
     }
   }, { once: true });
 
+  // кнопка под «Меню»: камера обратно на героиню
+  document.getElementById('btn_center').addEventListener('click', () => {
+    if (renderer) renderer.centerOnHero();
+  });
   document.getElementById('btn_menu').addEventListener('click', () => {
     paused = true;
     menu.show();
@@ -358,6 +362,7 @@ function frame(now) {
     if (!crashed) {
       if (world && running && !paused) {
         applyKeyboard(dt);
+        applyCameraKeys(dt);
         world.update(dt);
         const sig = heldSignature();
         if (sig !== lastHeldSig) {
@@ -391,9 +396,6 @@ function screenToWorld(e) {
 }
 
 let lastClick = { t: 0, x: 0, y: 0 };
-// pointerType последнего касания: у contextmenu нет pointerType,
-// поэтому long-press на таче отличаем от правого клика мыши по нему
-let lastPointerType = 'mouse';
 
 function updateHover(w) {
   if (!world || !renderer) return;
@@ -404,44 +406,90 @@ function updateHover(w) {
   };
 }
 
-canvas.addEventListener('pointermove', (e) => {
-  lastPointerType = e.pointerType || 'mouse';
-  if (!world || !renderer) return;
-  updateHover(screenToWorld(e));
-});
+// Жест на поле: короткое касание/клик — действие по отпусканию; если указатель сдвинулся больше
+// PAN_THRESHOLD логических px, это перетаскивание поля (камера едет за пальцем/мышью, клика нет).
+// Правой кнопки и долгого нажатия в игре нет (контекстное меню отключено).
+const PAN_THRESHOLD = 8;
+let gesture = null; // { id, sx, sy, camX, camY, panning }
 
-canvas.addEventListener('pointerdown', (e) => {
-  lastPointerType = e.pointerType || 'mouse';
-  if (!world || !renderer) return;
-  // на таче при первом касании нет предшествующего pointermove
-  updateHover(screenToWorld(e));
-  if (e.button !== 0 || paused) return;
-  audio.playMusic('music_mix'); // unlock audio on first gesture
+function logicalDelta(e, g) {
+  const rect = canvas.getBoundingClientRect();
+  const k = 800 / rect.width;
+  return { dx: (e.clientX - g.sx) * k, dy: (e.clientY - g.sy) * k };
+}
+
+function doClick(e) {
   const w = screenToWorld(e);
   const now = performance.now();
   const isDouble = (now - lastClick.t < 350)
     && Math.abs(w.x - lastClick.x) < 20 && Math.abs(w.y - lastClick.y) < 20;
   lastClick = { t: now, x: w.x, y: w.y };
   world.click(w.x, w.y, isDouble);
+}
+
+canvas.addEventListener('pointermove', (e) => {
+  if (!world || !renderer) return;
+  if (gesture && gesture.id === e.pointerId) {
+    const { dx, dy } = logicalDelta(e, gesture);
+    if (!gesture.panning && Math.hypot(dx, dy) > PAN_THRESHOLD) gesture.panning = true;
+    if (gesture.panning) {
+      renderer.panCameraTo(gesture.camX - dx, gesture.camY - dy);
+      return;
+    }
+  }
+  updateHover(screenToWorld(e));
 });
 
-canvas.addEventListener('contextmenu', (e) => {
-  // всегда отключаем контекстное меню (в т.ч. long-press на таче)
-  e.preventDefault();
-  // правый клик мыши — как раньше; long-press касанием правый клик не вызывает
-  if (lastPointerType !== 'mouse') return;
-  if (world) world.rightClick();
+canvas.addEventListener('pointerdown', (e) => {
+  if (!world || !renderer || paused) return;
+  if (e.button !== 0 || gesture) return; // только основная кнопка и один указатель за раз
+  // на таче при первом касании нет предшествующего pointermove
+  updateHover(screenToWorld(e));
+  audio.playMusic('music_mix'); // unlock audio on first gesture
+  gesture = { id: e.pointerId, sx: e.clientX, sy: e.clientY, camX: renderer.camera.x, camY: renderer.camera.y, panning: false };
+  try { canvas.setPointerCapture(e.pointerId); } catch (err) { /* необязательно */ }
 });
+
+canvas.addEventListener('pointerup', (e) => {
+  const g = gesture;
+  if (!g || g.id !== e.pointerId) return;
+  gesture = null;
+  if (!world || !renderer || paused || g.panning) return;
+  doClick(e);
+});
+
+canvas.addEventListener('pointercancel', (e) => {
+  if (gesture && gesture.id === e.pointerId) gesture = null;
+});
+
+// контекстное меню (правый клик, long-press на таче) отключаем, правое нажатие в игре не используется
+canvas.addEventListener('contextmenu', (e) => e.preventDefault());
+
+// Стрелки двигают окно обзора (камеру), а не героиню; героиня ходит кликом (и WASD).
+const CAMERA_KEY_SPEED = 520; // логических px/с
+function applyCameraKeys(dt) {
+  if (!world || !renderer) return;
+  let dx = 0, dy = 0;
+  if (keys.has('ArrowUp')) dy -= 1;
+  if (keys.has('ArrowDown')) dy += 1;
+  if (keys.has('ArrowLeft')) dx -= 1;
+  if (keys.has('ArrowRight')) dx += 1;
+  if (!dx && !dy) return;
+  const len = Math.hypot(dx, dy);
+  renderer.panCameraTo(renderer.camera.x + (dx / len) * CAMERA_KEY_SPEED * dt,
+    renderer.camera.y + (dy / len) * CAMERA_KEY_SPEED * dt);
+}
 
 function applyKeyboard(dt) {
   if (!world || world.over) return;
   const h = world.hero;
   let dx = 0, dy = 0;
-  if (keys.has('w') || keys.has('ArrowUp')) dy -= 1;
-  if (keys.has('s') || keys.has('ArrowDown')) dy += 1;
-  if (keys.has('a') || keys.has('ArrowLeft')) dx -= 1;
-  if (keys.has('d') || keys.has('ArrowRight')) dx += 1;
+  if (keys.has('w')) dy -= 1;
+  if (keys.has('s')) dy += 1;
+  if (keys.has('a')) dx -= 1;
+  if (keys.has('d')) dx += 1;
   if (!dx && !dy) return;
+  world.clearQueue(); // ручное управление отменяет очередь целей
   h.path = [];
   h.task = null;
   h.act = null;

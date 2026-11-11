@@ -18,15 +18,29 @@ export class Renderer {
     this.assets = assets;
     this.db = db;
     this.camera = { x: 0, y: 0 };
+    this.freeLook = null; // { hx, hy }: камера отпущена пальцем/мышью, вернётся к героине, когда та сдвинется
     this.hover = { x: -1, y: -1, obj: null };
     this.terrain = null;
     this.t = 0;
   }
 
+  /** Перетаскивание поля: ставит камеру в (x, y) логических px, не выходя за поле; героиню не трогает. */
+  panCameraTo(x, y) {
+    const w = this.world;
+    if (!w) return;
+    this.camera.x = clamp(x, 0, Math.max(0, w.worldW - 800));
+    this.camera.y = clamp(y, 0, Math.max(0, w.worldH - 600));
+    this.freeLook = { hx: w.hero.x, hy: w.hero.y };
+  }
+
+  /** Кнопка под «Меню» (upmenu_form.center): камера возвращается к героине и снова следует за ней. */
+  centerOnHero() { this.freeLook = null; }
+
   setWorld(world) {
     this.world = world;
     this.terrain = null;
     this.decor = null;
+    this.freeLook = null;
   }
 
   /**
@@ -182,10 +196,16 @@ export class Renderer {
 
     // camera follows hero
     const cam = this.camera;
-    const tx = clamp(w.hero.x - 400, 0, Math.max(0, w.worldW - 800));
-    const ty = clamp(w.hero.y - 300, 0, Math.max(0, w.worldH - 600));
-    cam.x += (tx - cam.x) * Math.min(1, dt * 6);
-    cam.y += (ty - cam.y) * Math.min(1, dt * 6);
+    // свободная камера (перетаскивание поля) держится, пока героиня стоит на месте
+    if (this.freeLook && (Math.abs(w.hero.x - this.freeLook.hx) > 1 || Math.abs(w.hero.y - this.freeLook.hy) > 1)) {
+      this.freeLook = null;
+    }
+    if (!this.freeLook) {
+      const tx = clamp(w.hero.x - 400, 0, Math.max(0, w.worldW - 800));
+      const ty = clamp(w.hero.y - 300, 0, Math.max(0, w.worldH - 600));
+      cam.x += (tx - cam.x) * Math.min(1, dt * 6);
+      cam.y += (ty - cam.y) * Math.min(1, dt * 6);
+    }
 
     const k = this.canvas.width / 800;
     ctx.setTransform(k, 0, 0, k, 0, 0);
@@ -204,15 +224,6 @@ export class Renderer {
       for (let cx = 0; cx < w.gridW; cx++) {
         const cell = w.cell(cx, cy);
         if (cell && cell.dug) this.drawBed(ctx, cell, cx, cy);
-      }
-    }
-
-    // hover highlight
-    if (this.hover.obj == null && this.hover.x >= 0) {
-      const c = w.cell(this.hover.x, this.hover.y);
-      if (c) {
-        ctx.fillStyle = 'rgba(255,255,255,0.18)';
-        ctx.fillRect(this.hover.x * TILE, this.hover.y * TILE, TILE, TILE);
       }
     }
 
@@ -245,6 +256,7 @@ export class Renderer {
     }
 
     this.drawSprinklerGhost(ctx);
+    this.drawQueueMarks(ctx);
     this.drawParticles(ctx);
     this.drawHints(ctx);
     ctx.restore();
@@ -378,35 +390,51 @@ export class Renderer {
     ctx.fillText(text, x, y + 6);
   }
 
+  /**
+   * Fruits on a tree crown (CTree draw `sub_422180`): nothing below 33 % of the ripening meter, stage `a` from 33 %,
+   * `b` from 65 %, `c` when it is ripe (100 %). Every `@fruit` child of the tree script is one fruit sprite
+   * (`<name_fruit>_<stage>_<i>`, centred at the tree + `fruit_pos`, size `fruit_size`).
+   * Indicator (`sub_4222F0`): while the mouse is over an unripe tree a row of 5 fruit icons (32 px, `ready_icon_num`,
+   * at `ready_bar_pos`) fills up with the progress; a ripe tree always shows one 64 px icon of the fruit at
+   * `ready_notify_pos` (the apple above the tree in the original).
+   */
   drawTreeFruit(ctx, o) {
     const w = this.world;
     const p = o.def.props;
-    const frac = Math.min(1, (o.progress || 0) / 100);
-    const stage = o.fruits > 0 ? 'c' : frac < 0.34 ? 'a' : frac < 0.67 ? 'b' : 'c';
-    // the last fruit of a full tree is always ripe; unripe stages only while growing
+    const prog = o.ready || o.fruits > 0 ? 100 : (o.progress || 0);
+    const stage = prog >= 100 ? 'c' : prog >= 65 ? 'b' : prog >= 33 ? 'a' : null;
     const base = p.name_fruit;
-    if (base) {
-      let img = this.assets.image(`${base}_${stage}_1`, w.env);
-      if (img && img.complete && img.naturalWidth && img.naturalWidth !== img.naturalHeight) {
-        img = this.assets.image(`${base}_${stage}_2`, w.env);
-      }
-      if (img && img.complete && img.naturalWidth) {
-        const fp = p.fruit_pos || (o.def.children.find((c) => c.type === 'fruit') || { props: {} }).props.fruit_pos || [0, 52];
-        const fs = (o.def.children.find((c) => c.type === 'fruit') || { props: {} }).props.fruit_size || [128, 128];
-        ctx.globalAlpha = 1;
+    if (base && stage) {
+      const kids = o.def.children.filter((c) => c.type === 'fruit');
+      kids.forEach((kid, k) => {
+        let img = this.assets.image(`${base}_${stage}_${k + 1}`, w.env);
+        if (!img || !img.complete || !img.naturalWidth) return;
+        const fp = kid.props.fruit_pos || [0, 0];
+        const fs = kid.props.fruit_size || [img.naturalWidth, img.naturalHeight];
         ctx.drawImage(img, o.x + fp[0] - fs[0] / 2, o.y - fp[1] - fs[1] / 2, fs[0], fs[1]);
-        ctx.globalAlpha = 1;
-      }
+      });
     }
-    if (o.fruits > 0) {
-      const y = o.y - o.size[1] / 2 + 6 + Math.sin(this.t * 5) * 3;
-      this.drawBadgeText(ctx, o.x, y, '✓');
-    } else {
-      const bx = o.x - 22, by = o.y - (p.ready_bar_pos ? p.ready_bar_pos[1] : 148);
-      ctx.fillStyle = 'rgba(0,0,0,0.55)';
-      ctx.fillRect(bx - 1, by - 1, 46, 8);
-      ctx.fillStyle = '#ffd75e';
-      ctx.fillRect(bx, by, 44 * frac, 6);
+    const icon = p.ready_icon_num !== undefined ? p.ready_icon_num : 4;
+    const barPos = p.ready_bar_pos || [0, 64];
+    if (prog >= 100) {
+      const np = p.ready_notify_pos || barPos;
+      this.drawIconRow(ctx, o.x + np[0], o.y - np[1], icon, 64, 1, 1, 1, 1, 1, 0);
+    } else if (this.hover.obj === o) {
+      this.drawIconRow(ctx, o.x + barPos[0], o.y - barPos[1], icon, 32, 5, 5, 0, Math.floor(prog), 100, 0);
+    }
+  }
+
+  /**
+   * `sub_405C50`: `n` icons of cell `cell` (icons.tga, >= 256: icons_ex.tga), `size` px, in rows of `cols` with `gap` px
+   * between them, centred on (x, y) (y of the first row, further rows go down); the first `floor(filled / total * n)` are
+   * bright, the rest dimmed (0xA0808080). `grow` adds to the size (pulsing icons).
+   */
+  drawIconRow(ctx, x, y, cell, size, n, cols, gap, filled, total, grow) {
+    const lit = Math.floor((filled / total) * n);
+    const left = x - (cols * size + gap * (cols - 1)) / 2 + size / 2;
+    for (let i = 0; i < n; i++) {
+      const col = i % cols, row = Math.floor(i / cols);
+      this.drawCell(ctx, cell, left + col * (size + gap), y + row * (size + gap), size + (grow || 0), 1, i >= lit);
     }
   }
 
@@ -427,41 +455,44 @@ export class Renderer {
     }
   }
 
+  /**
+   * Indicators of the animal houses and the beehive, as in the original.
+   * House (CHouse `sub_41CFA0`, always visible): on the right the product cluster - the product icon (`ready_icon_num`,
+   * 48 px at (48, 64)) under a row of 5 pips (icons.tga cell 29, 8 px, gap 4, at `ready_bar_pos`) that fill with the
+   * production progress; on the left the feed cluster - the fork-and-knife icon (cell 25, 48 px at (-48, 64), pulsing
+   * while the food is below 20 %) under 5 pips at `feed_bar_pos` that show the food in fifths. A finished batch adds a big
+   * 64 px bubble of the product (icons_ex.tga, cell `ready_icon_num + 332`). While the mouse is over the house the feed
+   * icon shows what the animal eats (two half-size fruit icons, or one for the chickens).
+   * Beehive (CBeehive `sub_418FF0`): a row of 5 honey icons (cell 24, 32 px at (0, 80)) filling with the honey bar; a full bar
+   * blinks (visible for the second half of every second).
+   */
   drawHouseStatus(ctx, o) {
     const p = o.def.props;
-    const bar = (pos, frac, color) => {
-      const bx = o.x + pos[0] - 22, by = o.y - pos[1] - 3;
-      ctx.fillStyle = 'rgba(0,0,0,0.55)';
-      ctx.fillRect(bx - 1, by - 1, 46, 8);
-      ctx.fillStyle = color;
-      ctx.fillRect(bx, by, 44 * clamp(frac, 0, 1), 6);
-    };
-    if (p.type_feed) {
-      bar(p.feed_bar_pos || [-48, 96], o.feed / (p.time_feed || 60), o.feed > 0 ? '#7ed957' : '#e0453a');
+    if (o.name === 'beehive' || o.bees) {
+      const honey = o.ready > 0 ? 100 : clamp(o.progress || 0, 0, 100);
+      if (honey < 100 || (this.t % 1) > 0.5) this.drawIconRow(ctx, o.x, o.y - 80, 24, 32, 5, 5, 0, Math.floor(honey), 100, 0);
+      return;
     }
+    if (!p.type_feed) return;
     const max = p.max_count_good || 1;
-    if (p.type_feed || o.ready < max) {
-      bar(p.ready_bar_pos || [48, 96], o.ready >= max ? 1 : (o.bees ? o.progress / 100 : o.progress / (p.time_complete || 60)), '#ffd75e');
-    }
-    if (o.ready > 0) {
-      const y = o.y - o.size[1] / 2 - 8 + Math.sin(this.t * 5) * 3;
-      ctx.fillStyle = '#ffd75e';
-      ctx.strokeStyle = '#7a5a10';
-      ctx.lineWidth = 2;
-      ctx.beginPath();
-      ctx.arc(o.x, y, 13, 0, Math.PI * 2);
-      ctx.fill();
-      ctx.stroke();
-      ctx.fillStyle = '#5a3a00';
-      ctx.font = 'bold 16px Georgia';
-      ctx.textAlign = 'center';
-      ctx.fillText(o.ready > 1 ? String(o.ready) : '✓', o.x, y + 6);
-    } else if (p.type_feed && o.feed <= 0) {
-      const y = o.y - o.size[1] / 2 - 8;
-      ctx.font = 'bold 12px Georgia';
-      ctx.textAlign = 'center';
-      ctx.fillStyle = '#e0453a';
-      ctx.fillText('голодно', o.x, y);
+    const prod = o.ready >= max ? 100 : clamp((o.progress || 0) / (p.time_complete || 60) * 100, 0, 100);
+    const food = clamp((o.feed || 0) / (p.time_feed || 60) * 100, 0, 100);
+    const readyBar = p.ready_bar_pos || [32, 32];
+    const feedBar = p.feed_bar_pos || [-32, 32];
+    const icon = p.ready_icon_num !== undefined ? p.ready_icon_num : 4;
+    // production: 5 pips + the product icon
+    this.drawIconRow(ctx, o.x + readyBar[0], o.y - readyBar[1], 29, 8, 5, 5, 4, Math.floor(prod), 100, 0);
+    this.drawCell(ctx, icon, o.x + 48, o.y - 64, 48, 1, false);
+    // food: 5 pips + the feed icon (pulses while hungry: size + 2 * sin over one second)
+    this.drawIconRow(ctx, o.x + feedBar[0], o.y - feedBar[1], 29, 8, 5, 5, 4, Math.ceil(food / 20), 5, 0);
+    const pulse = food >= 20 ? 0 : 2 * Math.sin((this.t % 1) * 2 * Math.PI);
+    this.drawCell(ctx, 25, o.x - 48, o.y - 64, 48 + pulse, 1, false);
+    if (prod >= 100) this.drawCell(ctx, icon + 332, o.x, o.y - 32, 64, 1, false);
+    if (this.hover.obj === o) {
+      const eats = { house_pig: [1, 14], house_sheep: [2, 3], house_cow: [2, 3], house_chicken: [4] }[o.name];
+      if (eats) {
+        eats.forEach((cell, k) => this.drawCell(ctx, cell, o.x - 48 + (eats.length === 1 ? 0 : (k ? 11 : -11)), o.y - 64, 24, 1, false));
+      }
     }
   }
 
@@ -520,6 +551,30 @@ export class Renderer {
    * inside the ellipse ((dx/rx)^2 + (dy/ry)^2 <= 1, sprinkle_radius in cells). Cell centres rather than cell indices:
    * a sprinkler can stand between four cells (fractional level0 coords 13.5/7.5), the drawn zone must stay grid-aligned.
    */
+  /**
+   * Очередь целей героини (CMover, sub_41C5E0): на каждой цели рисуется спрайт 64x64 — жёлтая галочка `flag.tga`
+   * (простой ход или действие над объектом) или кольцо `flag1.tga` (двойной клик по земле: героиня копает). Несколько целей на одном объекте
+   * рисуются со сдвигом, чтобы было видно их число (две галочки = объект кликнут дважды).
+   */
+  drawQueueMarks(ctx) {
+    const w = this.world;
+    if (!w || !w.queueMarks) return;
+    const marks = w.queueMarks();
+    if (!marks.length) return;
+    const check = this.assets.image('flag.png', null);
+    const ring = this.assets.image('flag1.png', null);
+    const seen = new Map();
+    for (const m of marks) {
+      const img = m.type === 'ring' ? ring : check;
+      if (!img || !img.complete || !img.naturalWidth) continue;
+      const n = seen.get(m.key) || 0;
+      seen.set(m.key, n + 1);
+      // галочка над объектом (кольцо и галочка хода лежат на точке земли); повторные цели смещаются вверх и вправо
+      const lift = m.lift || 0;
+      ctx.drawImage(img, m.x - 32 + n * 12, m.y - 32 - lift - n * 12, 64, 64);
+    }
+  }
+
   drawSprinklerZone(ctx) {
     const w = this.world;
     const held = w.pending || w.hero.held;
@@ -637,8 +692,10 @@ export class Renderer {
     }
     const delta = def.props.delta_pos || [0, 0];
     const dx = h.x - fs[0] / 2 + delta[0];
-    // put the lowest opaque row of this very frame on the ground point
-    const pad = footPad(img, fs[0], fs[1], idx);
+    // put the lowest opaque row on the ground point. During an action (take/put/dig/sow/water...) the same ground
+    // line is kept for the whole animation (taken from its first frame): re-grounding every frame made the heroine
+    // twitch up and down by a few px whenever the can or the spade moved below her feet.
+    const pad = footPad(img, fs[0], fs[1], h.act ? start : idx);
     const dy = h.y + 4 - (fs[1] - pad);
     drawFrame(ctx, img, fs[0], fs[1], idx, dx, dy, fs[0], fs[1]);
     this.drawBoxContents(ctx, h);

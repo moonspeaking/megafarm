@@ -241,6 +241,35 @@ Verified on a screenshot of the original (2x scale, English tabs): every number 
 * Idle animations: `hero_idle1` with a 1/10 chance of `hero_idle2`; holding a can/seed/box uses `hero_idle_<item>`.
 * Port: `moveActor`, `solidObstacles`, `walkToPoint`, `dirIndex` in `src/sim.js`; A* (`findPath`) and the per-frame `unstickHero` are gone.
 
+## Queue of targets and the yellow check marks (`CMover`, draw `sub_41C5E0`, textures `flag.tga` / `flag1.tga`)
+* Every click that gives the hero or a worker a target adds an entry to the actor's queue (up to 256, 20 bytes each: x, y, flag).
+  The marker of every entry is drawn as a 64x64 sprite at its point: `flag.tga` (the yellow check) for a plain click: the hero just walks there (and for an action on an
+  object: box, tree, hangar), `flag1.tga` (a ring) for a double click on bare ground: the hero walks there and digs it (user-described original behaviour). Several entries on one object are
+  several checks, one on top of the other. The entry is removed when the actor reaches/finishes it.
+* What the hero does with an entry is decided when it is executed, not when it is clicked: box -> tree -> hangar can be clicked in a row
+  (the tree is accepted while the box is not yet in hand), the checks stay on all three until each step is done.
+* Port: `click()` / `nextQueued()` / `queueMarks()` in `src/sim.js`, `drawQueueMarks` in `src/render.js`, `tools/test_queue.mjs`.
+  Port additions (not in the original as far as known): a click on the hero herself, WASD or `rightClick()` clear the queue; a
+  double click replaces a just-queued single click at the same spot; repeated checks on one target are drawn shifted by 12 px.
+
+## Ripening indicators of trees and buildings, pause menu (`sub_4222F0`, `sub_422180`, `sub_41CFA0`, `sub_418FF0`, `sub_405C50`)
+* `sub_405C50(x, y, w, h, cell, n, cols, gap, filled, total, grow)` draws `n` icons (icons.tga cell, >= 256: icons_ex.tga) in rows of `cols`
+  with `gap`, centred on the object position + (x, y) (y up), the first `floor(filled / total * n)` bright, the rest dim; `grow` enlarges them.
+* **Tree** (`CTree`): crown fruit sprites `<name_fruit>_<a|b|c>_<i>` (one per `@fruit` child): nothing below 33 % of the ripening meter,
+  `a` from 33, `b` from 65, `c` at 100 (ripe). Indicator: with the mouse over an unripe tree a row of 5 fruit icons (32 px, cell `ready_icon_num`,
+  gap 0, at `ready_bar_pos`, default (0, 64)) fills with the progress; a ripe tree always shows ONE 64 px icon of that fruit at `ready_notify_pos`
+  (= `ready_bar_pos` by default) - the apple above the apple tree.
+* **Animal house** (`CHouse`, always visible): right cluster = product icon (`ready_icon_num`: 20 egg, 21 milk, 22 wool, 23 pork; 48 px at (48, 64))
+  under 5 pips (cell 29, 8 px, gap 4, at `ready_bar_pos`) filled by the production progress; left cluster = feed icon (cell 25, 48 px at (-48, 64),
+  pulses `2 * sin` over 1 s while the food is under 20 %) under 5 pips at `feed_bar_pos` filled `ceil(food / 20)`. Production at 100 adds a 64 px bubble
+  with the big product (icons_ex cell `ready_icon_num + 332`: egg tray, milk can, wool, pig). Mouse over the house: the feed icon shows what the animal eats
+  (half-size icons: pig 1 + 14, sheep 2 + 3, cow 2 + 3, chicken 4).
+* **Beehive** (`CBeehive`, always visible): row of 5 honey icons (cell 24, 32 px at (0, 80)) filled by the honey bar; when it is full it blinks
+  (visible in the second half of every second).
+* **Pause menu** (`main_menu_form`, 220x200): restart, exitgame (Quit), options, continue - four items. The texts `question_saveandexit_game`
+  ("Save this game before you quit?"), `question_exit_game`, `question_end_game`, `question_replay_game` exist; the exact branches of Quit are not recovered.
+* Port: `drawTreeFruit`, `drawHouseStatus`, `drawIconRow` in `src/render.js`; `renderIngame`, `confirm3` in `src/menu.js`.
+
 ## Hero action sounds (`sub_4031F0`, hero state switch; `sub_416670`, `sub_42F2B0`)
 * The hero's state machine plays the sound when the state starts: take (2: `take_box`/`take_watercan`/`take_bag` by item type),
   put (3/4: `put_box`/`put_watercan`/`put_bag`), 5 `dig`, 6 `sow`, 7 `watercan.ogg`, 8 harvest (`harvest_plant/tree/beehive`,
