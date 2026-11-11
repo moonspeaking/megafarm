@@ -106,27 +106,6 @@ function setLoad(f) {
   if (fill) fill.style.width = `${Math.round(350 * f)}px`;
 }
 
-/** Splash screens (interfaces/intro): fade in 0.8 s, hold 3 s, fade out 0.8 s; a click skips. */
-function playIntro(manifest) {
-  const key = manifest.textures['intro/splash1'];
-  if (!key) return Promise.resolve();
-  return new Promise((resolve) => {
-    const box = document.createElement('div');
-    box.className = 'intro';
-    const sp = document.createElement('div');
-    sp.className = 'splash';
-    sp.style.backgroundImage = `url('${key}')`;
-    box.appendChild(sp);
-    gameEl.appendChild(box);
-    let finished = false;
-    const done = () => { if (finished) return; finished = true; box.remove(); resolve(); };
-    box.addEventListener('click', done);
-    requestAnimationFrame(() => sp.classList.add('on'));
-    setTimeout(() => sp.classList.remove('on'), 800 + 3000);
-    setTimeout(done, 800 + 3000 + 800);
-  });
-}
-
 async function boot() {
   setLoad(0.05);
   const manifest = await loadManifest();
@@ -141,7 +120,6 @@ async function boot() {
   setLoad(1);
   await new Promise((r) => setTimeout(r, 250));
   document.getElementById('loading').classList.add('hidden');
-  await playIntro(manifest);
   // debugging handles
   window.__game = { get progress() { return progress; }, get settings() { return settings; }, get menu() { return menu; }, manifest, assets, db, audio, ui, startLevel, get world() { return world; }, get renderer() { return renderer; } };
 
