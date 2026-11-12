@@ -8,7 +8,7 @@ export const DEFAULTS = {
   sfxOn: true,
   musicOn: true,
   smooth: true,
-  fullscreen: false,
+  fullscreen: true,
   lang: 'rus',
   cursor: false,
   player: '',
