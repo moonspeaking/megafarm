@@ -184,6 +184,13 @@ async function boot() {
     menu.show();
   });
   window.addEventListener('keydown', (e) => {
+    // F — переключить полный экран (не при вводе текста и не с модификаторами); Esc из полного экрана браузер обрабатывает сам
+    if ((e.code === 'KeyF') && !e.ctrlKey && !e.metaKey && !e.altKey && !e.repeat
+        && !/^(INPUT|TEXTAREA)$/.test(e.target && e.target.tagName)) {
+      if (document.fullscreenElement) document.exitFullscreen?.().catch(() => {});
+      else document.documentElement.requestFullscreen?.().catch(() => {});
+      return;
+    }
     if (e.key === 'Escape' && world && !world.over) {
       paused = !paused;
       if (paused) menu.show(); else menu.hide();
