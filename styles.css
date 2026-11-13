@@ -230,7 +230,7 @@ html, body {
 }
 .pill:hover { background-image: url('assets/ui/pill_b.png'); }
 .abs_bottom { position: absolute; left: 50%; bottom: -8px; transform: translateX(-50%); }
-.btn_row { display: flex; justify-content: center; gap: 16px; position: absolute; left: 0; right: 0; bottom: -6px; }
+.btn_row { display: flex; justify-content: center; gap: 16px; position: absolute; left: 0; right: 0; bottom: 14px; }
 .shade { position: absolute; inset: 0; background: rgba(0,0,0,.4); z-index: 5; }
 .msg_line { margin: 8px 6px; text-align: center; font-size: 14px; line-height: 1.35; white-space: pre-line; }
 .msg_line.big { font-size: 24px; } /* шрифт 24: text_enter_name, trophy_announce_header */
@@ -290,13 +290,13 @@ html, body {
 .bar_btn .coin_icon { left: 8px; top: 8px; width: 46px; height: 46px; filter: none; }
 .bar_btn:hover { filter: brightness(1.15); }
 .bar_arrow { position: absolute; top: 18px; left: 0; width: 32px; height: 32px; background: url('assets/textures/gui/gamemap/lvl_arr.png') 0 -32px / 32px 64px no-repeat; transition: left .3s; pointer-events: none; }
-.map_btn { position: absolute; cursor: pointer; background-repeat: no-repeat; }
+.map_btn { position: absolute; z-index: 3; cursor: pointer; background-repeat: no-repeat; }
 .map_btn:hover { background-position-y: -128px !important; }
 .map_btn span { position: absolute; top: 0; height: 128px; display: flex; align-items: center; justify-content: center; font-size: 26px; white-space: nowrap; }
 .map_marker { position: absolute; width: 32px; height: 64px; background-size: 32px 64px; background-repeat: no-repeat; pointer-events: none; z-index: 4; }
 .map_start_btn { left: 544px; top: 382px; width: 256px; height: 128px; background-image: url('assets/textures/gui/gamemap/map_start.png'); background-size: 256px 256px; }
 .map_start_btn span { left: 91px; width: 165px; }
-.map_back_btn { left: -19px; top: 406px; width: 128px; height: 128px; background-image: url('assets/textures/gui/gamemap/map_back.png'); background-size: 128px 256px; }
+.map_back_btn { left: -19px; top: 382px; width: 128px; height: 128px; background-image: url('assets/textures/gui/gamemap/map_back.png'); background-size: 128px 256px; }
 .map_back_btn span { left: 19px; width: 90px; font-size: 20px; }
 .map_comics_btn { left: 688px; top: -14px; width: 128px; height: 128px; background-image: url('assets/textures/gui/gamemap/map_comics.png'); background-size: 128px 256px; }
 #loading {

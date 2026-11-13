@@ -773,6 +773,8 @@ export class Renderer {
   drawBoxContents(ctx, h) {
     const held = h.held;
     if (!held || held.kind !== 'box' || !held.type || !(held.count > 0)) return;
+    // кадры hero_put_box* (сдача в амбар / постановка) уже содержат ящик в руках: стопка у ног дала бы двойной ящик
+    if (h.act && /^hero_put_box/.test(h.act.name)) return;
     const num = this.fruitIconNum(held.type);
     if (num === undefined) return;
     const cap = 4;
@@ -835,18 +837,24 @@ export class Renderer {
     const img = this.assets.image(p.tex, this.world.env);
     if (!img || !img.complete || p.size <= 0) return;
     const cell = img.naturalWidth / 8;
-    const sx = (p.frame % 8) * cell, sy = Math.floor(p.frame / 8) * cell;
-    if (!this._fxCv) { this._fxCv = document.createElement('canvas'); this._fxCtx = this._fxCv.getContext('2d'); }
-    const cv = this._fxCv, c = this._fxCtx;
-    if (cv.width !== cell) { cv.width = cell; cv.height = cell; }
-    c.globalCompositeOperation = 'source-over';
-    c.clearRect(0, 0, cell, cell);
-    c.drawImage(img, sx, sy, cell, cell, 0, 0, cell, cell);
-    c.globalCompositeOperation = 'multiply';          // tint, then restore the sprite's own alpha
-    c.fillStyle = `rgb(${p.c[0] | 0},${p.c[1] | 0},${p.c[2] | 0})`;
-    c.fillRect(0, 0, cell, cell);
-    c.globalCompositeOperation = 'destination-in';
-    c.drawImage(img, sx, sy, cell, cell, 0, 0, cell, cell);
+    // tinted cells are cached per (texture, frame, colour quantised to 16 levels): one drawImage per particle
+    const key = `${p.tex}|${p.frame}|${p.c[0] >> 4}|${p.c[1] >> 4}|${p.c[2] >> 4}`;
+    if (!this._fxCache) this._fxCache = new Map();
+    let cv = this._fxCache.get(key);
+    if (!cv) {
+      const sx = (p.frame % 8) * cell, sy = Math.floor(p.frame / 8) * cell;
+      cv = document.createElement('canvas');
+      cv.width = cell; cv.height = cell;
+      const c = cv.getContext('2d');
+      c.drawImage(img, sx, sy, cell, cell, 0, 0, cell, cell);
+      c.globalCompositeOperation = 'multiply';          // tint, then restore the sprite's own alpha
+      c.fillStyle = `rgb(${(p.c[0] >> 4) * 17},${(p.c[1] >> 4) * 17},${(p.c[2] >> 4) * 17})`;
+      c.fillRect(0, 0, cell, cell);
+      c.globalCompositeOperation = 'destination-in';
+      c.drawImage(img, sx, sy, cell, cell, 0, 0, cell, cell);
+      if (this._fxCache.size > 600) this._fxCache.clear();
+      this._fxCache.set(key, cv);
+    }
     ctx.save();
     ctx.translate(p.x, p.y);
     ctx.rotate(p.angle * Math.PI / 180);

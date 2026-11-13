@@ -169,7 +169,8 @@ async function boot() {
   // fullscreen тоже разрешён только по жесту — возвращаем сохранённый пункт при первом клике
   document.addEventListener('pointerdown', () => {
     if (audio.wantedMusic) audio.playMusic(audio.wantedMusic);
-    if (settings.get('fullscreen') && !document.fullscreenElement) {
+    // полный экран по умолчанию при каждом запуске (сохранённая настройка не отключает его: после Esc она была false)
+    if (!document.fullscreenElement) {
       document.documentElement.requestFullscreen?.().catch(() => {});
     }
   }, { once: true });
